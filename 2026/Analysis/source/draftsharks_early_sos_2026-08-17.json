@@ -1,0 +1,5303 @@
+{
+  "source_url_pattern": "https://www.draftsharks.com/strength-of-schedule/{position}",
+  "interpretation": "Positive is easier; negative is harder. Values are opponent fantasy points allowed versus expectation.",
+  "teams": [
+    {
+      "team": "ARI",
+      "bye": 14,
+      "positions": {
+        "QB": {
+          "weeks_1_6_average": -0.0286,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "LAC",
+              "home": false,
+              "percent_difference": -0.2202
+            },
+            {
+              "week": 2,
+              "opponent": "SEA",
+              "home": true,
+              "percent_difference": -0.1501
+            },
+            {
+              "week": 3,
+              "opponent": "SF",
+              "home": false,
+              "percent_difference": 0.0578
+            },
+            {
+              "week": 4,
+              "opponent": "NYG",
+              "home": false,
+              "percent_difference": 0.0797
+            },
+            {
+              "week": 5,
+              "opponent": "DET",
+              "home": true,
+              "percent_difference": 0.1179
+            },
+            {
+              "week": 6,
+              "opponent": "LAR",
+              "home": false,
+              "percent_difference": -0.0568
+            }
+          ]
+        },
+        "RB": {
+          "weeks_1_6_average": -0.0231,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "LAC",
+              "home": false,
+              "percent_difference": -0.1084
+            },
+            {
+              "week": 2,
+              "opponent": "SEA",
+              "home": true,
+              "percent_difference": -0.1659
+            },
+            {
+              "week": 3,
+              "opponent": "SF",
+              "home": false,
+              "percent_difference": 0.1031
+            },
+            {
+              "week": 4,
+              "opponent": "NYG",
+              "home": false,
+              "percent_difference": 0.2458
+            },
+            {
+              "week": 5,
+              "opponent": "DET",
+              "home": true,
+              "percent_difference": -0.1061
+            },
+            {
+              "week": 6,
+              "opponent": "LAR",
+              "home": false,
+              "percent_difference": -0.1073
+            }
+          ]
+        },
+        "WR": {
+          "weeks_1_6_average": 0.0059,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "LAC",
+              "home": false,
+              "percent_difference": -0.1067
+            },
+            {
+              "week": 2,
+              "opponent": "SEA",
+              "home": true,
+              "percent_difference": -0.1462
+            },
+            {
+              "week": 3,
+              "opponent": "SF",
+              "home": false,
+              "percent_difference": 0.0193
+            },
+            {
+              "week": 4,
+              "opponent": "NYG",
+              "home": false,
+              "percent_difference": 0.0263
+            },
+            {
+              "week": 5,
+              "opponent": "DET",
+              "home": true,
+              "percent_difference": 0.1597
+            },
+            {
+              "week": 6,
+              "opponent": "LAR",
+              "home": false,
+              "percent_difference": 0.0832
+            }
+          ]
+        },
+        "TE": {
+          "weeks_1_6_average": -0.0532,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "LAC",
+              "home": false,
+              "percent_difference": -0.2043
+            },
+            {
+              "week": 2,
+              "opponent": "SEA",
+              "home": true,
+              "percent_difference": -0.0063
+            },
+            {
+              "week": 3,
+              "opponent": "SF",
+              "home": false,
+              "percent_difference": 0.0281
+            },
+            {
+              "week": 4,
+              "opponent": "NYG",
+              "home": false,
+              "percent_difference": -0.122
+            },
+            {
+              "week": 5,
+              "opponent": "DET",
+              "home": true,
+              "percent_difference": 0.0312
+            },
+            {
+              "week": 6,
+              "opponent": "LAR",
+              "home": false,
+              "percent_difference": -0.0457
+            }
+          ]
+        }
+      }
+    },
+    {
+      "team": "ATL",
+      "bye": 11,
+      "positions": {
+        "QB": {
+          "weeks_1_6_average": 0.0109,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "PIT",
+              "home": false,
+              "percent_difference": 0.201
+            },
+            {
+              "week": 2,
+              "opponent": "CAR",
+              "home": true,
+              "percent_difference": -0.1841
+            },
+            {
+              "week": 3,
+              "opponent": "GB",
+              "home": false,
+              "percent_difference": -0.0844
+            },
+            {
+              "week": 4,
+              "opponent": "NO",
+              "home": false,
+              "percent_difference": -0.1466
+            },
+            {
+              "week": 5,
+              "opponent": "BAL",
+              "home": true,
+              "percent_difference": 0.1054
+            },
+            {
+              "week": 6,
+              "opponent": "CHI",
+              "home": true,
+              "percent_difference": 0.1741
+            }
+          ]
+        },
+        "RB": {
+          "weeks_1_6_average": -0.0515,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "PIT",
+              "home": false,
+              "percent_difference": -0.1788
+            },
+            {
+              "week": 2,
+              "opponent": "CAR",
+              "home": true,
+              "percent_difference": 0.0506
+            },
+            {
+              "week": 3,
+              "opponent": "GB",
+              "home": false,
+              "percent_difference": -0.0387
+            },
+            {
+              "week": 4,
+              "opponent": "NO",
+              "home": false,
+              "percent_difference": -0.1331
+            },
+            {
+              "week": 5,
+              "opponent": "BAL",
+              "home": true,
+              "percent_difference": 0.0269
+            },
+            {
+              "week": 6,
+              "opponent": "CHI",
+              "home": true,
+              "percent_difference": -0.036
+            }
+          ]
+        },
+        "WR": {
+          "weeks_1_6_average": 0.0626,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "PIT",
+              "home": false,
+              "percent_difference": 0.179
+            },
+            {
+              "week": 2,
+              "opponent": "CAR",
+              "home": true,
+              "percent_difference": -0.1535
+            },
+            {
+              "week": 3,
+              "opponent": "GB",
+              "home": false,
+              "percent_difference": 0.0013
+            },
+            {
+              "week": 4,
+              "opponent": "NO",
+              "home": false,
+              "percent_difference": -0.0684
+            },
+            {
+              "week": 5,
+              "opponent": "BAL",
+              "home": true,
+              "percent_difference": 0.1985
+            },
+            {
+              "week": 6,
+              "opponent": "CHI",
+              "home": true,
+              "percent_difference": 0.2187
+            }
+          ]
+        },
+        "TE": {
+          "weeks_1_6_average": -0.0079,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "PIT",
+              "home": false,
+              "percent_difference": 0.2984
+            },
+            {
+              "week": 2,
+              "opponent": "CAR",
+              "home": true,
+              "percent_difference": 0.0095
+            },
+            {
+              "week": 3,
+              "opponent": "GB",
+              "home": false,
+              "percent_difference": -0.0829
+            },
+            {
+              "week": 4,
+              "opponent": "NO",
+              "home": false,
+              "percent_difference": -0.056
+            },
+            {
+              "week": 5,
+              "opponent": "BAL",
+              "home": true,
+              "percent_difference": -0.2053
+            },
+            {
+              "week": 6,
+              "opponent": "CHI",
+              "home": true,
+              "percent_difference": -0.0108
+            }
+          ]
+        }
+      }
+    },
+    {
+      "team": "BAL",
+      "bye": 13,
+      "positions": {
+        "QB": {
+          "weeks_1_6_average": 0.0646,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "IND",
+              "home": false,
+              "percent_difference": 0.0787
+            },
+            {
+              "week": 2,
+              "opponent": "NO",
+              "home": true,
+              "percent_difference": -0.1466
+            },
+            {
+              "week": 3,
+              "opponent": "DAL",
+              "home": false,
+              "percent_difference": 0.4596
+            },
+            {
+              "week": 4,
+              "opponent": "TEN",
+              "home": true,
+              "percent_difference": 0.1396
+            },
+            {
+              "week": 5,
+              "opponent": "ATL",
+              "home": false,
+              "percent_difference": 0.0234
+            },
+            {
+              "week": 6,
+              "opponent": "CLE",
+              "home": false,
+              "percent_difference": -0.1674
+            }
+          ]
+        },
+        "RB": {
+          "weeks_1_6_average": -0.0026,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "IND",
+              "home": false,
+              "percent_difference": -0.0855
+            },
+            {
+              "week": 2,
+              "opponent": "NO",
+              "home": true,
+              "percent_difference": -0.1331
+            },
+            {
+              "week": 3,
+              "opponent": "DAL",
+              "home": false,
+              "percent_difference": 0.267
+            },
+            {
+              "week": 4,
+              "opponent": "TEN",
+              "home": true,
+              "percent_difference": 0.0225
+            },
+            {
+              "week": 5,
+              "opponent": "ATL",
+              "home": false,
+              "percent_difference": -0.0073
+            },
+            {
+              "week": 6,
+              "opponent": "CLE",
+              "home": false,
+              "percent_difference": -0.0795
+            }
+          ]
+        },
+        "WR": {
+          "weeks_1_6_average": 0.0932,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "IND",
+              "home": false,
+              "percent_difference": 0.1927
+            },
+            {
+              "week": 2,
+              "opponent": "NO",
+              "home": true,
+              "percent_difference": -0.0684
+            },
+            {
+              "week": 3,
+              "opponent": "DAL",
+              "home": false,
+              "percent_difference": 0.3342
+            },
+            {
+              "week": 4,
+              "opponent": "TEN",
+              "home": true,
+              "percent_difference": 0.0937
+            },
+            {
+              "week": 5,
+              "opponent": "ATL",
+              "home": false,
+              "percent_difference": 0.0829
+            },
+            {
+              "week": 6,
+              "opponent": "CLE",
+              "home": false,
+              "percent_difference": -0.0757
+            }
+          ]
+        },
+        "TE": {
+          "weeks_1_6_average": -0.0435,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "IND",
+              "home": false,
+              "percent_difference": 0.1083
+            },
+            {
+              "week": 2,
+              "opponent": "NO",
+              "home": true,
+              "percent_difference": -0.056
+            },
+            {
+              "week": 3,
+              "opponent": "DAL",
+              "home": false,
+              "percent_difference": -0.0017
+            },
+            {
+              "week": 4,
+              "opponent": "TEN",
+              "home": true,
+              "percent_difference": 0.0048
+            },
+            {
+              "week": 5,
+              "opponent": "ATL",
+              "home": false,
+              "percent_difference": -0.2344
+            },
+            {
+              "week": 6,
+              "opponent": "CLE",
+              "home": false,
+              "percent_difference": -0.0818
+            }
+          ]
+        }
+      }
+    },
+    {
+      "team": "BUF",
+      "bye": 7,
+      "positions": {
+        "QB": {
+          "weeks_1_6_average": -0.0877,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "HOU",
+              "home": false,
+              "percent_difference": -0.2575
+            },
+            {
+              "week": 2,
+              "opponent": "DET",
+              "home": true,
+              "percent_difference": 0.1179
+            },
+            {
+              "week": 3,
+              "opponent": "LAC",
+              "home": true,
+              "percent_difference": -0.2202
+            },
+            {
+              "week": 4,
+              "opponent": "NE",
+              "home": true,
+              "percent_difference": -0.0179
+            },
+            {
+              "week": 5,
+              "opponent": "LAR",
+              "home": false,
+              "percent_difference": -0.0568
+            },
+            {
+              "week": 6,
+              "opponent": "LVR",
+              "home": false,
+              "percent_difference": -0.0916
+            }
+          ]
+        },
+        "RB": {
+          "weeks_1_6_average": -0.0748,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "HOU",
+              "home": false,
+              "percent_difference": -0.106
+            },
+            {
+              "week": 2,
+              "opponent": "DET",
+              "home": true,
+              "percent_difference": -0.1061
+            },
+            {
+              "week": 3,
+              "opponent": "LAC",
+              "home": true,
+              "percent_difference": -0.1084
+            },
+            {
+              "week": 4,
+              "opponent": "NE",
+              "home": true,
+              "percent_difference": -0.1685
+            },
+            {
+              "week": 5,
+              "opponent": "LAR",
+              "home": false,
+              "percent_difference": -0.1073
+            },
+            {
+              "week": 6,
+              "opponent": "LVR",
+              "home": false,
+              "percent_difference": 0.1472
+            }
+          ]
+        },
+        "WR": {
+          "weeks_1_6_average": 0.0158,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "HOU",
+              "home": false,
+              "percent_difference": -0.1878
+            },
+            {
+              "week": 2,
+              "opponent": "DET",
+              "home": true,
+              "percent_difference": 0.1597
+            },
+            {
+              "week": 3,
+              "opponent": "LAC",
+              "home": true,
+              "percent_difference": -0.1067
+            },
+            {
+              "week": 4,
+              "opponent": "NE",
+              "home": true,
+              "percent_difference": 0.1174
+            },
+            {
+              "week": 5,
+              "opponent": "LAR",
+              "home": false,
+              "percent_difference": 0.0832
+            },
+            {
+              "week": 6,
+              "opponent": "LVR",
+              "home": false,
+              "percent_difference": 0.0291
+            }
+          ]
+        },
+        "TE": {
+          "weeks_1_6_average": -0.0835,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "HOU",
+              "home": false,
+              "percent_difference": -0.1181
+            },
+            {
+              "week": 2,
+              "opponent": "DET",
+              "home": true,
+              "percent_difference": 0.0312
+            },
+            {
+              "week": 3,
+              "opponent": "LAC",
+              "home": true,
+              "percent_difference": -0.2043
+            },
+            {
+              "week": 4,
+              "opponent": "NE",
+              "home": true,
+              "percent_difference": 0.0484
+            },
+            {
+              "week": 5,
+              "opponent": "LAR",
+              "home": false,
+              "percent_difference": -0.0457
+            },
+            {
+              "week": 6,
+              "opponent": "LVR",
+              "home": false,
+              "percent_difference": -0.2127
+            }
+          ]
+        }
+      }
+    },
+    {
+      "team": "CAR",
+      "bye": 5,
+      "positions": {
+        "QB": {
+          "weeks_1_6_average": -0.0065,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "CHI",
+              "home": true,
+              "percent_difference": 0.1741
+            },
+            {
+              "week": 2,
+              "opponent": "ATL",
+              "home": false,
+              "percent_difference": 0.0234
+            },
+            {
+              "week": 3,
+              "opponent": "CLE",
+              "home": false,
+              "percent_difference": -0.1674
+            },
+            {
+              "week": 4,
+              "opponent": "DET",
+              "home": true,
+              "percent_difference": 0.1179
+            },
+            {
+              "week": 6,
+              "opponent": "PHI",
+              "home": false,
+              "percent_difference": -0.1804
+            }
+          ]
+        },
+        "RB": {
+          "weeks_1_6_average": -0.0353,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "CHI",
+              "home": true,
+              "percent_difference": -0.036
+            },
+            {
+              "week": 2,
+              "opponent": "ATL",
+              "home": false,
+              "percent_difference": -0.0073
+            },
+            {
+              "week": 3,
+              "opponent": "CLE",
+              "home": false,
+              "percent_difference": -0.0795
+            },
+            {
+              "week": 4,
+              "opponent": "DET",
+              "home": true,
+              "percent_difference": -0.1061
+            },
+            {
+              "week": 6,
+              "opponent": "PHI",
+              "home": false,
+              "percent_difference": 0.0525
+            }
+          ]
+        },
+        "WR": {
+          "weeks_1_6_average": 0.0353,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "CHI",
+              "home": true,
+              "percent_difference": 0.2187
+            },
+            {
+              "week": 2,
+              "opponent": "ATL",
+              "home": false,
+              "percent_difference": 0.0829
+            },
+            {
+              "week": 3,
+              "opponent": "CLE",
+              "home": false,
+              "percent_difference": -0.0757
+            },
+            {
+              "week": 4,
+              "opponent": "DET",
+              "home": true,
+              "percent_difference": 0.1597
+            },
+            {
+              "week": 6,
+              "opponent": "PHI",
+              "home": false,
+              "percent_difference": -0.2092
+            }
+          ]
+        },
+        "TE": {
+          "weeks_1_6_average": -0.13,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "CHI",
+              "home": true,
+              "percent_difference": -0.0108
+            },
+            {
+              "week": 2,
+              "opponent": "ATL",
+              "home": false,
+              "percent_difference": -0.2344
+            },
+            {
+              "week": 3,
+              "opponent": "CLE",
+              "home": false,
+              "percent_difference": -0.0818
+            },
+            {
+              "week": 4,
+              "opponent": "DET",
+              "home": true,
+              "percent_difference": 0.0312
+            },
+            {
+              "week": 6,
+              "opponent": "PHI",
+              "home": false,
+              "percent_difference": -0.3543
+            }
+          ]
+        }
+      }
+    },
+    {
+      "team": "CHI",
+      "bye": 10,
+      "positions": {
+        "QB": {
+          "weeks_1_6_average": -0.096,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "CAR",
+              "home": false,
+              "percent_difference": -0.1841
+            },
+            {
+              "week": 2,
+              "opponent": "MIN",
+              "home": true,
+              "percent_difference": -0.3617
+            },
+            {
+              "week": 3,
+              "opponent": "PHI",
+              "home": true,
+              "percent_difference": -0.1804
+            },
+            {
+              "week": 4,
+              "opponent": "NYJ",
+              "home": true,
+              "percent_difference": 0.2112
+            },
+            {
+              "week": 5,
+              "opponent": "GB",
+              "home": false,
+              "percent_difference": -0.0844
+            },
+            {
+              "week": 6,
+              "opponent": "ATL",
+              "home": false,
+              "percent_difference": 0.0234
+            }
+          ]
+        },
+        "RB": {
+          "weeks_1_6_average": 0.0119,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "CAR",
+              "home": false,
+              "percent_difference": 0.0506
+            },
+            {
+              "week": 2,
+              "opponent": "MIN",
+              "home": true,
+              "percent_difference": -0.1773
+            },
+            {
+              "week": 3,
+              "opponent": "PHI",
+              "home": true,
+              "percent_difference": 0.0525
+            },
+            {
+              "week": 4,
+              "opponent": "NYJ",
+              "home": true,
+              "percent_difference": 0.1917
+            },
+            {
+              "week": 5,
+              "opponent": "GB",
+              "home": false,
+              "percent_difference": -0.0387
+            },
+            {
+              "week": 6,
+              "opponent": "ATL",
+              "home": false,
+              "percent_difference": -0.0073
+            }
+          ]
+        },
+        "WR": {
+          "weeks_1_6_average": -0.0931,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "CAR",
+              "home": false,
+              "percent_difference": -0.1535
+            },
+            {
+              "week": 2,
+              "opponent": "MIN",
+              "home": true,
+              "percent_difference": -0.2784
+            },
+            {
+              "week": 3,
+              "opponent": "PHI",
+              "home": true,
+              "percent_difference": -0.2092
+            },
+            {
+              "week": 4,
+              "opponent": "NYJ",
+              "home": true,
+              "percent_difference": -0.0017
+            },
+            {
+              "week": 5,
+              "opponent": "GB",
+              "home": false,
+              "percent_difference": 0.0013
+            },
+            {
+              "week": 6,
+              "opponent": "ATL",
+              "home": false,
+              "percent_difference": 0.0829
+            }
+          ]
+        },
+        "TE": {
+          "weeks_1_6_average": -0.1134,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "CAR",
+              "home": false,
+              "percent_difference": 0.0095
+            },
+            {
+              "week": 2,
+              "opponent": "MIN",
+              "home": true,
+              "percent_difference": -0.1823
+            },
+            {
+              "week": 3,
+              "opponent": "PHI",
+              "home": true,
+              "percent_difference": -0.3543
+            },
+            {
+              "week": 4,
+              "opponent": "NYJ",
+              "home": true,
+              "percent_difference": 0.1642
+            },
+            {
+              "week": 5,
+              "opponent": "GB",
+              "home": false,
+              "percent_difference": -0.0829
+            },
+            {
+              "week": 6,
+              "opponent": "ATL",
+              "home": false,
+              "percent_difference": -0.2344
+            }
+          ]
+        }
+      }
+    },
+    {
+      "team": "CIN",
+      "bye": 6,
+      "positions": {
+        "QB": {
+          "weeks_1_6_average": 0.0554,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "TB",
+              "home": true,
+              "percent_difference": 0.2274
+            },
+            {
+              "week": 2,
+              "opponent": "HOU",
+              "home": false,
+              "percent_difference": -0.2575
+            },
+            {
+              "week": 3,
+              "opponent": "PIT",
+              "home": false,
+              "percent_difference": 0.201
+            },
+            {
+              "week": 4,
+              "opponent": "JAC",
+              "home": true,
+              "percent_difference": 0.0023
+            },
+            {
+              "week": 5,
+              "opponent": "MIA",
+              "home": false,
+              "percent_difference": 0.1039
+            }
+          ]
+        },
+        "RB": {
+          "weeks_1_6_average": -0.0652,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "TB",
+              "home": true,
+              "percent_difference": -0.0445
+            },
+            {
+              "week": 2,
+              "opponent": "HOU",
+              "home": false,
+              "percent_difference": -0.106
+            },
+            {
+              "week": 3,
+              "opponent": "PIT",
+              "home": false,
+              "percent_difference": -0.1788
+            },
+            {
+              "week": 4,
+              "opponent": "JAC",
+              "home": true,
+              "percent_difference": -0.1132
+            },
+            {
+              "week": 5,
+              "opponent": "MIA",
+              "home": false,
+              "percent_difference": 0.1164
+            }
+          ]
+        },
+        "WR": {
+          "weeks_1_6_average": 0.004,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "TB",
+              "home": true,
+              "percent_difference": 0.0242
+            },
+            {
+              "week": 2,
+              "opponent": "HOU",
+              "home": false,
+              "percent_difference": -0.1878
+            },
+            {
+              "week": 3,
+              "opponent": "PIT",
+              "home": false,
+              "percent_difference": 0.179
+            },
+            {
+              "week": 4,
+              "opponent": "JAC",
+              "home": true,
+              "percent_difference": -0.0185
+            },
+            {
+              "week": 5,
+              "opponent": "MIA",
+              "home": false,
+              "percent_difference": 0.0229
+            }
+          ]
+        },
+        "TE": {
+          "weeks_1_6_average": 0.1499,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "TB",
+              "home": true,
+              "percent_difference": 0.178
+            },
+            {
+              "week": 2,
+              "opponent": "HOU",
+              "home": false,
+              "percent_difference": -0.1181
+            },
+            {
+              "week": 3,
+              "opponent": "PIT",
+              "home": false,
+              "percent_difference": 0.2984
+            },
+            {
+              "week": 4,
+              "opponent": "JAC",
+              "home": true,
+              "percent_difference": 0.0909
+            },
+            {
+              "week": 5,
+              "opponent": "MIA",
+              "home": false,
+              "percent_difference": 0.3005
+            }
+          ]
+        }
+      }
+    },
+    {
+      "team": "CLE",
+      "bye": 11,
+      "positions": {
+        "QB": {
+          "weeks_1_6_average": 0.0939,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "JAC",
+              "home": false,
+              "percent_difference": 0.0023
+            },
+            {
+              "week": 2,
+              "opponent": "TB",
+              "home": false,
+              "percent_difference": 0.2274
+            },
+            {
+              "week": 3,
+              "opponent": "CAR",
+              "home": true,
+              "percent_difference": -0.1841
+            },
+            {
+              "week": 4,
+              "opponent": "PIT",
+              "home": true,
+              "percent_difference": 0.201
+            },
+            {
+              "week": 5,
+              "opponent": "NYJ",
+              "home": false,
+              "percent_difference": 0.2112
+            },
+            {
+              "week": 6,
+              "opponent": "BAL",
+              "home": true,
+              "percent_difference": 0.1054
+            }
+          ]
+        },
+        "RB": {
+          "weeks_1_6_average": -0.0112,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "JAC",
+              "home": false,
+              "percent_difference": -0.1132
+            },
+            {
+              "week": 2,
+              "opponent": "TB",
+              "home": false,
+              "percent_difference": -0.0445
+            },
+            {
+              "week": 3,
+              "opponent": "CAR",
+              "home": true,
+              "percent_difference": 0.0506
+            },
+            {
+              "week": 4,
+              "opponent": "PIT",
+              "home": true,
+              "percent_difference": -0.1788
+            },
+            {
+              "week": 5,
+              "opponent": "NYJ",
+              "home": false,
+              "percent_difference": 0.1917
+            },
+            {
+              "week": 6,
+              "opponent": "BAL",
+              "home": true,
+              "percent_difference": 0.0269
+            }
+          ]
+        },
+        "WR": {
+          "weeks_1_6_average": 0.038,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "JAC",
+              "home": false,
+              "percent_difference": -0.0185
+            },
+            {
+              "week": 2,
+              "opponent": "TB",
+              "home": false,
+              "percent_difference": 0.0242
+            },
+            {
+              "week": 3,
+              "opponent": "CAR",
+              "home": true,
+              "percent_difference": -0.1535
+            },
+            {
+              "week": 4,
+              "opponent": "PIT",
+              "home": true,
+              "percent_difference": 0.179
+            },
+            {
+              "week": 5,
+              "opponent": "NYJ",
+              "home": false,
+              "percent_difference": -0.0017
+            },
+            {
+              "week": 6,
+              "opponent": "BAL",
+              "home": true,
+              "percent_difference": 0.1985
+            }
+          ]
+        },
+        "TE": {
+          "weeks_1_6_average": 0.0893,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "JAC",
+              "home": false,
+              "percent_difference": 0.0909
+            },
+            {
+              "week": 2,
+              "opponent": "TB",
+              "home": false,
+              "percent_difference": 0.178
+            },
+            {
+              "week": 3,
+              "opponent": "CAR",
+              "home": true,
+              "percent_difference": 0.0095
+            },
+            {
+              "week": 4,
+              "opponent": "PIT",
+              "home": true,
+              "percent_difference": 0.2984
+            },
+            {
+              "week": 5,
+              "opponent": "NYJ",
+              "home": false,
+              "percent_difference": 0.1642
+            },
+            {
+              "week": 6,
+              "opponent": "BAL",
+              "home": true,
+              "percent_difference": -0.2053
+            }
+          ]
+        }
+      }
+    },
+    {
+      "team": "DAL",
+      "bye": 14,
+      "positions": {
+        "QB": {
+          "weeks_1_6_average": 0.0436,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "NYG",
+              "home": false,
+              "percent_difference": 0.0797
+            },
+            {
+              "week": 2,
+              "opponent": "WAS",
+              "home": true,
+              "percent_difference": 0.1913
+            },
+            {
+              "week": 3,
+              "opponent": "BAL",
+              "home": true,
+              "percent_difference": 0.1054
+            },
+            {
+              "week": 4,
+              "opponent": "HOU",
+              "home": false,
+              "percent_difference": -0.2575
+            },
+            {
+              "week": 5,
+              "opponent": "TB",
+              "home": true,
+              "percent_difference": 0.2274
+            },
+            {
+              "week": 6,
+              "opponent": "GB",
+              "home": false,
+              "percent_difference": -0.0844
+            }
+          ]
+        },
+        "RB": {
+          "weeks_1_6_average": 0.0411,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "NYG",
+              "home": false,
+              "percent_difference": 0.2458
+            },
+            {
+              "week": 2,
+              "opponent": "WAS",
+              "home": true,
+              "percent_difference": 0.163
+            },
+            {
+              "week": 3,
+              "opponent": "BAL",
+              "home": true,
+              "percent_difference": 0.0269
+            },
+            {
+              "week": 4,
+              "opponent": "HOU",
+              "home": false,
+              "percent_difference": -0.106
+            },
+            {
+              "week": 5,
+              "opponent": "TB",
+              "home": true,
+              "percent_difference": -0.0445
+            },
+            {
+              "week": 6,
+              "opponent": "GB",
+              "home": false,
+              "percent_difference": -0.0387
+            }
+          ]
+        },
+        "WR": {
+          "weeks_1_6_average": 0.0263,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "NYG",
+              "home": false,
+              "percent_difference": 0.0263
+            },
+            {
+              "week": 2,
+              "opponent": "WAS",
+              "home": true,
+              "percent_difference": 0.0953
+            },
+            {
+              "week": 3,
+              "opponent": "BAL",
+              "home": true,
+              "percent_difference": 0.1985
+            },
+            {
+              "week": 4,
+              "opponent": "HOU",
+              "home": false,
+              "percent_difference": -0.1878
+            },
+            {
+              "week": 5,
+              "opponent": "TB",
+              "home": true,
+              "percent_difference": 0.0242
+            },
+            {
+              "week": 6,
+              "opponent": "GB",
+              "home": false,
+              "percent_difference": 0.0013
+            }
+          ]
+        },
+        "TE": {
+          "weeks_1_6_average": -0.0061,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "NYG",
+              "home": false,
+              "percent_difference": -0.122
+            },
+            {
+              "week": 2,
+              "opponent": "WAS",
+              "home": true,
+              "percent_difference": 0.3137
+            },
+            {
+              "week": 3,
+              "opponent": "BAL",
+              "home": true,
+              "percent_difference": -0.2053
+            },
+            {
+              "week": 4,
+              "opponent": "HOU",
+              "home": false,
+              "percent_difference": -0.1181
+            },
+            {
+              "week": 5,
+              "opponent": "TB",
+              "home": true,
+              "percent_difference": 0.178
+            },
+            {
+              "week": 6,
+              "opponent": "GB",
+              "home": false,
+              "percent_difference": -0.0829
+            }
+          ]
+        }
+      }
+    },
+    {
+      "team": "DEN",
+      "bye": 10,
+      "positions": {
+        "QB": {
+          "weeks_1_6_average": -0.08,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "KC",
+              "home": false,
+              "percent_difference": -0.113
+            },
+            {
+              "week": 2,
+              "opponent": "JAC",
+              "home": true,
+              "percent_difference": 0.0023
+            },
+            {
+              "week": 3,
+              "opponent": "LAR",
+              "home": true,
+              "percent_difference": -0.0568
+            },
+            {
+              "week": 4,
+              "opponent": "SF",
+              "home": false,
+              "percent_difference": 0.0578
+            },
+            {
+              "week": 5,
+              "opponent": "LAC",
+              "home": false,
+              "percent_difference": -0.2202
+            },
+            {
+              "week": 6,
+              "opponent": "SEA",
+              "home": true,
+              "percent_difference": -0.1501
+            }
+          ]
+        },
+        "RB": {
+          "weeks_1_6_average": -0.0847,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "KC",
+              "home": false,
+              "percent_difference": -0.1164
+            },
+            {
+              "week": 2,
+              "opponent": "JAC",
+              "home": true,
+              "percent_difference": -0.1132
+            },
+            {
+              "week": 3,
+              "opponent": "LAR",
+              "home": true,
+              "percent_difference": -0.1073
+            },
+            {
+              "week": 4,
+              "opponent": "SF",
+              "home": false,
+              "percent_difference": 0.1031
+            },
+            {
+              "week": 5,
+              "opponent": "LAC",
+              "home": false,
+              "percent_difference": -0.1084
+            },
+            {
+              "week": 6,
+              "opponent": "SEA",
+              "home": true,
+              "percent_difference": -0.1659
+            }
+          ]
+        },
+        "WR": {
+          "weeks_1_6_average": -0.0494,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "KC",
+              "home": false,
+              "percent_difference": -0.1272
+            },
+            {
+              "week": 2,
+              "opponent": "JAC",
+              "home": true,
+              "percent_difference": -0.0185
+            },
+            {
+              "week": 3,
+              "opponent": "LAR",
+              "home": true,
+              "percent_difference": 0.0832
+            },
+            {
+              "week": 4,
+              "opponent": "SF",
+              "home": false,
+              "percent_difference": 0.0193
+            },
+            {
+              "week": 5,
+              "opponent": "LAC",
+              "home": false,
+              "percent_difference": -0.1067
+            },
+            {
+              "week": 6,
+              "opponent": "SEA",
+              "home": true,
+              "percent_difference": -0.1462
+            }
+          ]
+        },
+        "TE": {
+          "weeks_1_6_average": -0.0457,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "KC",
+              "home": false,
+              "percent_difference": -0.137
+            },
+            {
+              "week": 2,
+              "opponent": "JAC",
+              "home": true,
+              "percent_difference": 0.0909
+            },
+            {
+              "week": 3,
+              "opponent": "LAR",
+              "home": true,
+              "percent_difference": -0.0457
+            },
+            {
+              "week": 4,
+              "opponent": "SF",
+              "home": false,
+              "percent_difference": 0.0281
+            },
+            {
+              "week": 5,
+              "opponent": "LAC",
+              "home": false,
+              "percent_difference": -0.2043
+            },
+            {
+              "week": 6,
+              "opponent": "SEA",
+              "home": true,
+              "percent_difference": -0.0063
+            }
+          ]
+        }
+      }
+    },
+    {
+      "team": "DET",
+      "bye": 6,
+      "positions": {
+        "QB": {
+          "weeks_1_6_average": -0.049,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "NO",
+              "home": true,
+              "percent_difference": -0.1466
+            },
+            {
+              "week": 2,
+              "opponent": "BUF",
+              "home": false,
+              "percent_difference": -0.1536
+            },
+            {
+              "week": 3,
+              "opponent": "NYJ",
+              "home": true,
+              "percent_difference": 0.2112
+            },
+            {
+              "week": 4,
+              "opponent": "CAR",
+              "home": false,
+              "percent_difference": -0.1841
+            },
+            {
+              "week": 5,
+              "opponent": "ARI",
+              "home": false,
+              "percent_difference": 0.0282
+            }
+          ]
+        },
+        "RB": {
+          "weeks_1_6_average": 0.0882,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "NO",
+              "home": true,
+              "percent_difference": -0.1331
+            },
+            {
+              "week": 2,
+              "opponent": "BUF",
+              "home": false,
+              "percent_difference": 0.1168
+            },
+            {
+              "week": 3,
+              "opponent": "NYJ",
+              "home": true,
+              "percent_difference": 0.1917
+            },
+            {
+              "week": 4,
+              "opponent": "CAR",
+              "home": false,
+              "percent_difference": 0.0506
+            },
+            {
+              "week": 5,
+              "opponent": "ARI",
+              "home": false,
+              "percent_difference": 0.2152
+            }
+          ]
+        },
+        "WR": {
+          "weeks_1_6_average": -0.0833,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "NO",
+              "home": true,
+              "percent_difference": -0.0684
+            },
+            {
+              "week": 2,
+              "opponent": "BUF",
+              "home": false,
+              "percent_difference": -0.0868
+            },
+            {
+              "week": 3,
+              "opponent": "NYJ",
+              "home": true,
+              "percent_difference": -0.0017
+            },
+            {
+              "week": 4,
+              "opponent": "CAR",
+              "home": false,
+              "percent_difference": -0.1535
+            },
+            {
+              "week": 5,
+              "opponent": "ARI",
+              "home": false,
+              "percent_difference": -0.1061
+            }
+          ]
+        },
+        "TE": {
+          "weeks_1_6_average": -0.0055,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "NO",
+              "home": true,
+              "percent_difference": -0.056
+            },
+            {
+              "week": 2,
+              "opponent": "BUF",
+              "home": false,
+              "percent_difference": -0.4252
+            },
+            {
+              "week": 3,
+              "opponent": "NYJ",
+              "home": true,
+              "percent_difference": 0.1642
+            },
+            {
+              "week": 4,
+              "opponent": "CAR",
+              "home": false,
+              "percent_difference": 0.0095
+            },
+            {
+              "week": 5,
+              "opponent": "ARI",
+              "home": false,
+              "percent_difference": 0.2798
+            }
+          ]
+        }
+      }
+    },
+    {
+      "team": "GB",
+      "bye": 11,
+      "positions": {
+        "QB": {
+          "weeks_1_6_average": 0.1223,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "MIN",
+              "home": false,
+              "percent_difference": -0.3617
+            },
+            {
+              "week": 2,
+              "opponent": "NYJ",
+              "home": false,
+              "percent_difference": 0.2112
+            },
+            {
+              "week": 3,
+              "opponent": "ATL",
+              "home": true,
+              "percent_difference": 0.0234
+            },
+            {
+              "week": 4,
+              "opponent": "TB",
+              "home": false,
+              "percent_difference": 0.2274
+            },
+            {
+              "week": 5,
+              "opponent": "CHI",
+              "home": true,
+              "percent_difference": 0.1741
+            },
+            {
+              "week": 6,
+              "opponent": "DAL",
+              "home": true,
+              "percent_difference": 0.4596
+            }
+          ]
+        },
+        "RB": {
+          "weeks_1_6_average": 0.0323,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "MIN",
+              "home": false,
+              "percent_difference": -0.1773
+            },
+            {
+              "week": 2,
+              "opponent": "NYJ",
+              "home": false,
+              "percent_difference": 0.1917
+            },
+            {
+              "week": 3,
+              "opponent": "ATL",
+              "home": true,
+              "percent_difference": -0.0073
+            },
+            {
+              "week": 4,
+              "opponent": "TB",
+              "home": false,
+              "percent_difference": -0.0445
+            },
+            {
+              "week": 5,
+              "opponent": "CHI",
+              "home": true,
+              "percent_difference": -0.036
+            },
+            {
+              "week": 6,
+              "opponent": "DAL",
+              "home": true,
+              "percent_difference": 0.267
+            }
+          ]
+        },
+        "WR": {
+          "weeks_1_6_average": 0.0633,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "MIN",
+              "home": false,
+              "percent_difference": -0.2784
+            },
+            {
+              "week": 2,
+              "opponent": "NYJ",
+              "home": false,
+              "percent_difference": -0.0017
+            },
+            {
+              "week": 3,
+              "opponent": "ATL",
+              "home": true,
+              "percent_difference": 0.0829
+            },
+            {
+              "week": 4,
+              "opponent": "TB",
+              "home": false,
+              "percent_difference": 0.0242
+            },
+            {
+              "week": 5,
+              "opponent": "CHI",
+              "home": true,
+              "percent_difference": 0.2187
+            },
+            {
+              "week": 6,
+              "opponent": "DAL",
+              "home": true,
+              "percent_difference": 0.3342
+            }
+          ]
+        },
+        "TE": {
+          "weeks_1_6_average": -0.0145,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "MIN",
+              "home": false,
+              "percent_difference": -0.1823
+            },
+            {
+              "week": 2,
+              "opponent": "NYJ",
+              "home": false,
+              "percent_difference": 0.1642
+            },
+            {
+              "week": 3,
+              "opponent": "ATL",
+              "home": true,
+              "percent_difference": -0.2344
+            },
+            {
+              "week": 4,
+              "opponent": "TB",
+              "home": false,
+              "percent_difference": 0.178
+            },
+            {
+              "week": 5,
+              "opponent": "CHI",
+              "home": true,
+              "percent_difference": -0.0108
+            },
+            {
+              "week": 6,
+              "opponent": "DAL",
+              "home": true,
+              "percent_difference": -0.0017
+            }
+          ]
+        }
+      }
+    },
+    {
+      "team": "HOU",
+      "bye": 8,
+      "positions": {
+        "QB": {
+          "weeks_1_6_average": 0.1165,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "BUF",
+              "home": true,
+              "percent_difference": -0.1536
+            },
+            {
+              "week": 2,
+              "opponent": "CIN",
+              "home": true,
+              "percent_difference": 0.1725
+            },
+            {
+              "week": 3,
+              "opponent": "IND",
+              "home": false,
+              "percent_difference": 0.0787
+            },
+            {
+              "week": 4,
+              "opponent": "DAL",
+              "home": true,
+              "percent_difference": 0.4596
+            },
+            {
+              "week": 5,
+              "opponent": "TEN",
+              "home": false,
+              "percent_difference": 0.1396
+            },
+            {
+              "week": 6,
+              "opponent": "JAC",
+              "home": false,
+              "percent_difference": 0.0023
+            }
+          ]
+        },
+        "RB": {
+          "weeks_1_6_average": 0.0736,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "BUF",
+              "home": true,
+              "percent_difference": 0.1168
+            },
+            {
+              "week": 2,
+              "opponent": "CIN",
+              "home": true,
+              "percent_difference": 0.2341
+            },
+            {
+              "week": 3,
+              "opponent": "IND",
+              "home": false,
+              "percent_difference": -0.0855
+            },
+            {
+              "week": 4,
+              "opponent": "DAL",
+              "home": true,
+              "percent_difference": 0.267
+            },
+            {
+              "week": 5,
+              "opponent": "TEN",
+              "home": false,
+              "percent_difference": 0.0225
+            },
+            {
+              "week": 6,
+              "opponent": "JAC",
+              "home": false,
+              "percent_difference": -0.1132
+            }
+          ]
+        },
+        "WR": {
+          "weeks_1_6_average": 0.0707,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "BUF",
+              "home": true,
+              "percent_difference": -0.0868
+            },
+            {
+              "week": 2,
+              "opponent": "CIN",
+              "home": true,
+              "percent_difference": -0.0913
+            },
+            {
+              "week": 3,
+              "opponent": "IND",
+              "home": false,
+              "percent_difference": 0.1927
+            },
+            {
+              "week": 4,
+              "opponent": "DAL",
+              "home": true,
+              "percent_difference": 0.3342
+            },
+            {
+              "week": 5,
+              "opponent": "TEN",
+              "home": false,
+              "percent_difference": 0.0937
+            },
+            {
+              "week": 6,
+              "opponent": "JAC",
+              "home": false,
+              "percent_difference": -0.0185
+            }
+          ]
+        },
+        "TE": {
+          "weeks_1_6_average": 0.0532,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "BUF",
+              "home": true,
+              "percent_difference": -0.4252
+            },
+            {
+              "week": 2,
+              "opponent": "CIN",
+              "home": true,
+              "percent_difference": 0.542
+            },
+            {
+              "week": 3,
+              "opponent": "IND",
+              "home": false,
+              "percent_difference": 0.1083
+            },
+            {
+              "week": 4,
+              "opponent": "DAL",
+              "home": true,
+              "percent_difference": -0.0017
+            },
+            {
+              "week": 5,
+              "opponent": "TEN",
+              "home": false,
+              "percent_difference": 0.0048
+            },
+            {
+              "week": 6,
+              "opponent": "JAC",
+              "home": false,
+              "percent_difference": 0.0909
+            }
+          ]
+        }
+      }
+    },
+    {
+      "team": "IND",
+      "bye": 13,
+      "positions": {
+        "QB": {
+          "weeks_1_6_average": 0.0445,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "BAL",
+              "home": true,
+              "percent_difference": 0.1054
+            },
+            {
+              "week": 2,
+              "opponent": "KC",
+              "home": false,
+              "percent_difference": -0.113
+            },
+            {
+              "week": 3,
+              "opponent": "HOU",
+              "home": true,
+              "percent_difference": -0.2575
+            },
+            {
+              "week": 4,
+              "opponent": "WAS",
+              "home": false,
+              "percent_difference": 0.1913
+            },
+            {
+              "week": 5,
+              "opponent": "PIT",
+              "home": false,
+              "percent_difference": 0.201
+            },
+            {
+              "week": 6,
+              "opponent": "TEN",
+              "home": true,
+              "percent_difference": 0.1396
+            }
+          ]
+        },
+        "RB": {
+          "weeks_1_6_average": -0.0315,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "BAL",
+              "home": true,
+              "percent_difference": 0.0269
+            },
+            {
+              "week": 2,
+              "opponent": "KC",
+              "home": false,
+              "percent_difference": -0.1164
+            },
+            {
+              "week": 3,
+              "opponent": "HOU",
+              "home": true,
+              "percent_difference": -0.106
+            },
+            {
+              "week": 4,
+              "opponent": "WAS",
+              "home": false,
+              "percent_difference": 0.163
+            },
+            {
+              "week": 5,
+              "opponent": "PIT",
+              "home": false,
+              "percent_difference": -0.1788
+            },
+            {
+              "week": 6,
+              "opponent": "TEN",
+              "home": true,
+              "percent_difference": 0.0225
+            }
+          ]
+        },
+        "WR": {
+          "weeks_1_6_average": 0.0419,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "BAL",
+              "home": true,
+              "percent_difference": 0.1985
+            },
+            {
+              "week": 2,
+              "opponent": "KC",
+              "home": false,
+              "percent_difference": -0.1272
+            },
+            {
+              "week": 3,
+              "opponent": "HOU",
+              "home": true,
+              "percent_difference": -0.1878
+            },
+            {
+              "week": 4,
+              "opponent": "WAS",
+              "home": false,
+              "percent_difference": 0.0953
+            },
+            {
+              "week": 5,
+              "opponent": "PIT",
+              "home": false,
+              "percent_difference": 0.179
+            },
+            {
+              "week": 6,
+              "opponent": "TEN",
+              "home": true,
+              "percent_difference": 0.0937
+            }
+          ]
+        },
+        "TE": {
+          "weeks_1_6_average": 0.0261,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "BAL",
+              "home": true,
+              "percent_difference": -0.2053
+            },
+            {
+              "week": 2,
+              "opponent": "KC",
+              "home": false,
+              "percent_difference": -0.137
+            },
+            {
+              "week": 3,
+              "opponent": "HOU",
+              "home": true,
+              "percent_difference": -0.1181
+            },
+            {
+              "week": 4,
+              "opponent": "WAS",
+              "home": false,
+              "percent_difference": 0.3137
+            },
+            {
+              "week": 5,
+              "opponent": "PIT",
+              "home": false,
+              "percent_difference": 0.2984
+            },
+            {
+              "week": 6,
+              "opponent": "TEN",
+              "home": true,
+              "percent_difference": 0.0048
+            }
+          ]
+        }
+      }
+    },
+    {
+      "team": "JAC",
+      "bye": 7,
+      "positions": {
+        "QB": {
+          "weeks_1_6_average": -0.0988,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "CLE",
+              "home": true,
+              "percent_difference": -0.1674
+            },
+            {
+              "week": 2,
+              "opponent": "DEN",
+              "home": false,
+              "percent_difference": -0.1421
+            },
+            {
+              "week": 3,
+              "opponent": "NE",
+              "home": true,
+              "percent_difference": -0.0179
+            },
+            {
+              "week": 4,
+              "opponent": "CIN",
+              "home": false,
+              "percent_difference": 0.1725
+            },
+            {
+              "week": 5,
+              "opponent": "PHI",
+              "home": true,
+              "percent_difference": -0.1804
+            },
+            {
+              "week": 6,
+              "opponent": "HOU",
+              "home": true,
+              "percent_difference": -0.2575
+            }
+          ]
+        },
+        "RB": {
+          "weeks_1_6_average": -0.034,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "CLE",
+              "home": true,
+              "percent_difference": -0.0795
+            },
+            {
+              "week": 2,
+              "opponent": "DEN",
+              "home": false,
+              "percent_difference": -0.1363
+            },
+            {
+              "week": 3,
+              "opponent": "NE",
+              "home": true,
+              "percent_difference": -0.1685
+            },
+            {
+              "week": 4,
+              "opponent": "CIN",
+              "home": false,
+              "percent_difference": 0.2341
+            },
+            {
+              "week": 5,
+              "opponent": "PHI",
+              "home": true,
+              "percent_difference": 0.0525
+            },
+            {
+              "week": 6,
+              "opponent": "HOU",
+              "home": true,
+              "percent_difference": -0.106
+            }
+          ]
+        },
+        "WR": {
+          "weeks_1_6_average": -0.1003,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "CLE",
+              "home": true,
+              "percent_difference": -0.0757
+            },
+            {
+              "week": 2,
+              "opponent": "DEN",
+              "home": false,
+              "percent_difference": -0.1552
+            },
+            {
+              "week": 3,
+              "opponent": "NE",
+              "home": true,
+              "percent_difference": 0.1174
+            },
+            {
+              "week": 4,
+              "opponent": "CIN",
+              "home": false,
+              "percent_difference": -0.0913
+            },
+            {
+              "week": 5,
+              "opponent": "PHI",
+              "home": true,
+              "percent_difference": -0.2092
+            },
+            {
+              "week": 6,
+              "opponent": "HOU",
+              "home": true,
+              "percent_difference": -0.1878
+            }
+          ]
+        },
+        "TE": {
+          "weeks_1_6_average": 0.0201,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "CLE",
+              "home": true,
+              "percent_difference": -0.0818
+            },
+            {
+              "week": 2,
+              "opponent": "DEN",
+              "home": false,
+              "percent_difference": 0.0841
+            },
+            {
+              "week": 3,
+              "opponent": "NE",
+              "home": true,
+              "percent_difference": 0.0484
+            },
+            {
+              "week": 4,
+              "opponent": "CIN",
+              "home": false,
+              "percent_difference": 0.542
+            },
+            {
+              "week": 5,
+              "opponent": "PHI",
+              "home": true,
+              "percent_difference": -0.3543
+            },
+            {
+              "week": 6,
+              "opponent": "HOU",
+              "home": true,
+              "percent_difference": -0.1181
+            }
+          ]
+        }
+      }
+    },
+    {
+      "team": "KC",
+      "bye": 5,
+      "positions": {
+        "QB": {
+          "weeks_1_6_average": -0.0543,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "DEN",
+              "home": true,
+              "percent_difference": -0.1421
+            },
+            {
+              "week": 2,
+              "opponent": "IND",
+              "home": true,
+              "percent_difference": 0.0787
+            },
+            {
+              "week": 3,
+              "opponent": "MIA",
+              "home": false,
+              "percent_difference": 0.1039
+            },
+            {
+              "week": 4,
+              "opponent": "LVR",
+              "home": false,
+              "percent_difference": -0.0916
+            },
+            {
+              "week": 6,
+              "opponent": "LAC",
+              "home": true,
+              "percent_difference": -0.2202
+            }
+          ]
+        },
+        "RB": {
+          "weeks_1_6_average": -0.0133,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "DEN",
+              "home": true,
+              "percent_difference": -0.1363
+            },
+            {
+              "week": 2,
+              "opponent": "IND",
+              "home": true,
+              "percent_difference": -0.0855
+            },
+            {
+              "week": 3,
+              "opponent": "MIA",
+              "home": false,
+              "percent_difference": 0.1164
+            },
+            {
+              "week": 4,
+              "opponent": "LVR",
+              "home": false,
+              "percent_difference": 0.1472
+            },
+            {
+              "week": 6,
+              "opponent": "LAC",
+              "home": true,
+              "percent_difference": -0.1084
+            }
+          ]
+        },
+        "WR": {
+          "weeks_1_6_average": -0.0034,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "DEN",
+              "home": true,
+              "percent_difference": -0.1552
+            },
+            {
+              "week": 2,
+              "opponent": "IND",
+              "home": true,
+              "percent_difference": 0.1927
+            },
+            {
+              "week": 3,
+              "opponent": "MIA",
+              "home": false,
+              "percent_difference": 0.0229
+            },
+            {
+              "week": 4,
+              "opponent": "LVR",
+              "home": false,
+              "percent_difference": 0.0291
+            },
+            {
+              "week": 6,
+              "opponent": "LAC",
+              "home": true,
+              "percent_difference": -0.1067
+            }
+          ]
+        },
+        "TE": {
+          "weeks_1_6_average": 0.0152,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "DEN",
+              "home": true,
+              "percent_difference": 0.0841
+            },
+            {
+              "week": 2,
+              "opponent": "IND",
+              "home": true,
+              "percent_difference": 0.1083
+            },
+            {
+              "week": 3,
+              "opponent": "MIA",
+              "home": false,
+              "percent_difference": 0.3005
+            },
+            {
+              "week": 4,
+              "opponent": "LVR",
+              "home": false,
+              "percent_difference": -0.2127
+            },
+            {
+              "week": 6,
+              "opponent": "LAC",
+              "home": true,
+              "percent_difference": -0.2043
+            }
+          ]
+        }
+      }
+    },
+    {
+      "team": "LAC",
+      "bye": 7,
+      "positions": {
+        "QB": {
+          "weeks_1_6_average": -0.1037,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "ARI",
+              "home": true,
+              "percent_difference": 0.0282
+            },
+            {
+              "week": 2,
+              "opponent": "LVR",
+              "home": true,
+              "percent_difference": -0.0916
+            },
+            {
+              "week": 3,
+              "opponent": "BUF",
+              "home": false,
+              "percent_difference": -0.1536
+            },
+            {
+              "week": 4,
+              "opponent": "SEA",
+              "home": false,
+              "percent_difference": -0.1501
+            },
+            {
+              "week": 5,
+              "opponent": "DEN",
+              "home": true,
+              "percent_difference": -0.1421
+            },
+            {
+              "week": 6,
+              "opponent": "KC",
+              "home": false,
+              "percent_difference": -0.113
+            }
+          ]
+        },
+        "RB": {
+          "weeks_1_6_average": 0.0101,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "ARI",
+              "home": true,
+              "percent_difference": 0.2152
+            },
+            {
+              "week": 2,
+              "opponent": "LVR",
+              "home": true,
+              "percent_difference": 0.1472
+            },
+            {
+              "week": 3,
+              "opponent": "BUF",
+              "home": false,
+              "percent_difference": 0.1168
+            },
+            {
+              "week": 4,
+              "opponent": "SEA",
+              "home": false,
+              "percent_difference": -0.1659
+            },
+            {
+              "week": 5,
+              "opponent": "DEN",
+              "home": true,
+              "percent_difference": -0.1363
+            },
+            {
+              "week": 6,
+              "opponent": "KC",
+              "home": false,
+              "percent_difference": -0.1164
+            }
+          ]
+        },
+        "WR": {
+          "weeks_1_6_average": -0.0987,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "ARI",
+              "home": true,
+              "percent_difference": -0.1061
+            },
+            {
+              "week": 2,
+              "opponent": "LVR",
+              "home": true,
+              "percent_difference": 0.0291
+            },
+            {
+              "week": 3,
+              "opponent": "BUF",
+              "home": false,
+              "percent_difference": -0.0868
+            },
+            {
+              "week": 4,
+              "opponent": "SEA",
+              "home": false,
+              "percent_difference": -0.1462
+            },
+            {
+              "week": 5,
+              "opponent": "DEN",
+              "home": true,
+              "percent_difference": -0.1552
+            },
+            {
+              "week": 6,
+              "opponent": "KC",
+              "home": false,
+              "percent_difference": -0.1272
+            }
+          ]
+        },
+        "TE": {
+          "weeks_1_6_average": -0.0696,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "ARI",
+              "home": true,
+              "percent_difference": 0.2798
+            },
+            {
+              "week": 2,
+              "opponent": "LVR",
+              "home": true,
+              "percent_difference": -0.2127
+            },
+            {
+              "week": 3,
+              "opponent": "BUF",
+              "home": false,
+              "percent_difference": -0.4252
+            },
+            {
+              "week": 4,
+              "opponent": "SEA",
+              "home": false,
+              "percent_difference": -0.0063
+            },
+            {
+              "week": 5,
+              "opponent": "DEN",
+              "home": true,
+              "percent_difference": 0.0841
+            },
+            {
+              "week": 6,
+              "opponent": "KC",
+              "home": false,
+              "percent_difference": -0.137
+            }
+          ]
+        }
+      }
+    },
+    {
+      "team": "LAR",
+      "bye": 11,
+      "positions": {
+        "QB": {
+          "weeks_1_6_average": -0.0517,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "SF",
+              "home": true,
+              "percent_difference": 0.0578
+            },
+            {
+              "week": 2,
+              "opponent": "NYG",
+              "home": true,
+              "percent_difference": 0.0797
+            },
+            {
+              "week": 3,
+              "opponent": "DEN",
+              "home": false,
+              "percent_difference": -0.1421
+            },
+            {
+              "week": 4,
+              "opponent": "PHI",
+              "home": false,
+              "percent_difference": -0.1804
+            },
+            {
+              "week": 5,
+              "opponent": "BUF",
+              "home": true,
+              "percent_difference": -0.1536
+            },
+            {
+              "week": 6,
+              "opponent": "ARI",
+              "home": true,
+              "percent_difference": 0.0282
+            }
+          ]
+        },
+        "RB": {
+          "weeks_1_6_average": 0.0995,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "SF",
+              "home": true,
+              "percent_difference": 0.1031
+            },
+            {
+              "week": 2,
+              "opponent": "NYG",
+              "home": true,
+              "percent_difference": 0.2458
+            },
+            {
+              "week": 3,
+              "opponent": "DEN",
+              "home": false,
+              "percent_difference": -0.1363
+            },
+            {
+              "week": 4,
+              "opponent": "PHI",
+              "home": false,
+              "percent_difference": 0.0525
+            },
+            {
+              "week": 5,
+              "opponent": "BUF",
+              "home": true,
+              "percent_difference": 0.1168
+            },
+            {
+              "week": 6,
+              "opponent": "ARI",
+              "home": true,
+              "percent_difference": 0.2152
+            }
+          ]
+        },
+        "WR": {
+          "weeks_1_6_average": -0.0853,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "SF",
+              "home": true,
+              "percent_difference": 0.0193
+            },
+            {
+              "week": 2,
+              "opponent": "NYG",
+              "home": true,
+              "percent_difference": 0.0263
+            },
+            {
+              "week": 3,
+              "opponent": "DEN",
+              "home": false,
+              "percent_difference": -0.1552
+            },
+            {
+              "week": 4,
+              "opponent": "PHI",
+              "home": false,
+              "percent_difference": -0.2092
+            },
+            {
+              "week": 5,
+              "opponent": "BUF",
+              "home": true,
+              "percent_difference": -0.0868
+            },
+            {
+              "week": 6,
+              "opponent": "ARI",
+              "home": true,
+              "percent_difference": -0.1061
+            }
+          ]
+        },
+        "TE": {
+          "weeks_1_6_average": -0.0849,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "SF",
+              "home": true,
+              "percent_difference": 0.0281
+            },
+            {
+              "week": 2,
+              "opponent": "NYG",
+              "home": true,
+              "percent_difference": -0.122
+            },
+            {
+              "week": 3,
+              "opponent": "DEN",
+              "home": false,
+              "percent_difference": 0.0841
+            },
+            {
+              "week": 4,
+              "opponent": "PHI",
+              "home": false,
+              "percent_difference": -0.3543
+            },
+            {
+              "week": 5,
+              "opponent": "BUF",
+              "home": true,
+              "percent_difference": -0.4252
+            },
+            {
+              "week": 6,
+              "opponent": "ARI",
+              "home": true,
+              "percent_difference": 0.2798
+            }
+          ]
+        }
+      }
+    },
+    {
+      "team": "LVR",
+      "bye": 13,
+      "positions": {
+        "QB": {
+          "weeks_1_6_average": -0.0912,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "MIA",
+              "home": true,
+              "percent_difference": 0.1039
+            },
+            {
+              "week": 2,
+              "opponent": "LAC",
+              "home": false,
+              "percent_difference": -0.2202
+            },
+            {
+              "week": 3,
+              "opponent": "NO",
+              "home": false,
+              "percent_difference": -0.1466
+            },
+            {
+              "week": 4,
+              "opponent": "KC",
+              "home": true,
+              "percent_difference": -0.113
+            },
+            {
+              "week": 5,
+              "opponent": "NE",
+              "home": false,
+              "percent_difference": -0.0179
+            },
+            {
+              "week": 6,
+              "opponent": "BUF",
+              "home": true,
+              "percent_difference": -0.1536
+            }
+          ]
+        },
+        "RB": {
+          "weeks_1_6_average": -0.0489,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "MIA",
+              "home": true,
+              "percent_difference": 0.1164
+            },
+            {
+              "week": 2,
+              "opponent": "LAC",
+              "home": false,
+              "percent_difference": -0.1084
+            },
+            {
+              "week": 3,
+              "opponent": "NO",
+              "home": false,
+              "percent_difference": -0.1331
+            },
+            {
+              "week": 4,
+              "opponent": "KC",
+              "home": true,
+              "percent_difference": -0.1164
+            },
+            {
+              "week": 5,
+              "opponent": "NE",
+              "home": false,
+              "percent_difference": -0.1685
+            },
+            {
+              "week": 6,
+              "opponent": "BUF",
+              "home": true,
+              "percent_difference": 0.1168
+            }
+          ]
+        },
+        "WR": {
+          "weeks_1_6_average": -0.0415,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "MIA",
+              "home": true,
+              "percent_difference": 0.0229
+            },
+            {
+              "week": 2,
+              "opponent": "LAC",
+              "home": false,
+              "percent_difference": -0.1067
+            },
+            {
+              "week": 3,
+              "opponent": "NO",
+              "home": false,
+              "percent_difference": -0.0684
+            },
+            {
+              "week": 4,
+              "opponent": "KC",
+              "home": true,
+              "percent_difference": -0.1272
+            },
+            {
+              "week": 5,
+              "opponent": "NE",
+              "home": false,
+              "percent_difference": 0.1174
+            },
+            {
+              "week": 6,
+              "opponent": "BUF",
+              "home": true,
+              "percent_difference": -0.0868
+            }
+          ]
+        },
+        "TE": {
+          "weeks_1_6_average": -0.0789,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "MIA",
+              "home": true,
+              "percent_difference": 0.3005
+            },
+            {
+              "week": 2,
+              "opponent": "LAC",
+              "home": false,
+              "percent_difference": -0.2043
+            },
+            {
+              "week": 3,
+              "opponent": "NO",
+              "home": false,
+              "percent_difference": -0.056
+            },
+            {
+              "week": 4,
+              "opponent": "KC",
+              "home": true,
+              "percent_difference": -0.137
+            },
+            {
+              "week": 5,
+              "opponent": "NE",
+              "home": false,
+              "percent_difference": 0.0484
+            },
+            {
+              "week": 6,
+              "opponent": "BUF",
+              "home": true,
+              "percent_difference": -0.4252
+            }
+          ]
+        }
+      }
+    },
+    {
+      "team": "MIA",
+      "bye": 6,
+      "positions": {
+        "QB": {
+          "weeks_1_6_average": -0.0672,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "LVR",
+              "home": false,
+              "percent_difference": -0.0916
+            },
+            {
+              "week": 2,
+              "opponent": "SF",
+              "home": false,
+              "percent_difference": 0.0578
+            },
+            {
+              "week": 3,
+              "opponent": "KC",
+              "home": true,
+              "percent_difference": -0.113
+            },
+            {
+              "week": 4,
+              "opponent": "MIN",
+              "home": false,
+              "percent_difference": -0.3617
+            },
+            {
+              "week": 5,
+              "opponent": "CIN",
+              "home": true,
+              "percent_difference": 0.1725
+            }
+          ]
+        },
+        "RB": {
+          "weeks_1_6_average": 0.0381,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "LVR",
+              "home": false,
+              "percent_difference": 0.1472
+            },
+            {
+              "week": 2,
+              "opponent": "SF",
+              "home": false,
+              "percent_difference": 0.1031
+            },
+            {
+              "week": 3,
+              "opponent": "KC",
+              "home": true,
+              "percent_difference": -0.1164
+            },
+            {
+              "week": 4,
+              "opponent": "MIN",
+              "home": false,
+              "percent_difference": -0.1773
+            },
+            {
+              "week": 5,
+              "opponent": "CIN",
+              "home": true,
+              "percent_difference": 0.2341
+            }
+          ]
+        },
+        "WR": {
+          "weeks_1_6_average": -0.0897,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "LVR",
+              "home": false,
+              "percent_difference": 0.0291
+            },
+            {
+              "week": 2,
+              "opponent": "SF",
+              "home": false,
+              "percent_difference": 0.0193
+            },
+            {
+              "week": 3,
+              "opponent": "KC",
+              "home": true,
+              "percent_difference": -0.1272
+            },
+            {
+              "week": 4,
+              "opponent": "MIN",
+              "home": false,
+              "percent_difference": -0.2784
+            },
+            {
+              "week": 5,
+              "opponent": "CIN",
+              "home": true,
+              "percent_difference": -0.0913
+            }
+          ]
+        },
+        "TE": {
+          "weeks_1_6_average": 0.0076,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "LVR",
+              "home": false,
+              "percent_difference": -0.2127
+            },
+            {
+              "week": 2,
+              "opponent": "SF",
+              "home": false,
+              "percent_difference": 0.0281
+            },
+            {
+              "week": 3,
+              "opponent": "KC",
+              "home": true,
+              "percent_difference": -0.137
+            },
+            {
+              "week": 4,
+              "opponent": "MIN",
+              "home": false,
+              "percent_difference": -0.1823
+            },
+            {
+              "week": 5,
+              "opponent": "CIN",
+              "home": true,
+              "percent_difference": 0.542
+            }
+          ]
+        }
+      }
+    },
+    {
+      "team": "MIN",
+      "bye": 6,
+      "positions": {
+        "QB": {
+          "weeks_1_6_average": 0.0549,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "GB",
+              "home": true,
+              "percent_difference": -0.0844
+            },
+            {
+              "week": 2,
+              "opponent": "CHI",
+              "home": false,
+              "percent_difference": 0.1741
+            },
+            {
+              "week": 3,
+              "opponent": "TB",
+              "home": false,
+              "percent_difference": 0.2274
+            },
+            {
+              "week": 4,
+              "opponent": "MIA",
+              "home": true,
+              "percent_difference": 0.1039
+            },
+            {
+              "week": 5,
+              "opponent": "NO",
+              "home": false,
+              "percent_difference": -0.1466
+            }
+          ]
+        },
+        "RB": {
+          "weeks_1_6_average": -0.0272,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "GB",
+              "home": true,
+              "percent_difference": -0.0387
+            },
+            {
+              "week": 2,
+              "opponent": "CHI",
+              "home": false,
+              "percent_difference": -0.036
+            },
+            {
+              "week": 3,
+              "opponent": "TB",
+              "home": false,
+              "percent_difference": -0.0445
+            },
+            {
+              "week": 4,
+              "opponent": "MIA",
+              "home": true,
+              "percent_difference": 0.1164
+            },
+            {
+              "week": 5,
+              "opponent": "NO",
+              "home": false,
+              "percent_difference": -0.1331
+            }
+          ]
+        },
+        "WR": {
+          "weeks_1_6_average": 0.0397,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "GB",
+              "home": true,
+              "percent_difference": 0.0013
+            },
+            {
+              "week": 2,
+              "opponent": "CHI",
+              "home": false,
+              "percent_difference": 0.2187
+            },
+            {
+              "week": 3,
+              "opponent": "TB",
+              "home": false,
+              "percent_difference": 0.0242
+            },
+            {
+              "week": 4,
+              "opponent": "MIA",
+              "home": true,
+              "percent_difference": 0.0229
+            },
+            {
+              "week": 5,
+              "opponent": "NO",
+              "home": false,
+              "percent_difference": -0.0684
+            }
+          ]
+        },
+        "TE": {
+          "weeks_1_6_average": 0.0658,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "GB",
+              "home": true,
+              "percent_difference": -0.0829
+            },
+            {
+              "week": 2,
+              "opponent": "CHI",
+              "home": false,
+              "percent_difference": -0.0108
+            },
+            {
+              "week": 3,
+              "opponent": "TB",
+              "home": false,
+              "percent_difference": 0.178
+            },
+            {
+              "week": 4,
+              "opponent": "MIA",
+              "home": true,
+              "percent_difference": 0.3005
+            },
+            {
+              "week": 5,
+              "opponent": "NO",
+              "home": false,
+              "percent_difference": -0.056
+            }
+          ]
+        }
+      }
+    },
+    {
+      "team": "NE",
+      "bye": 11,
+      "positions": {
+        "QB": {
+          "weeks_1_6_average": 0.0032,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "SEA",
+              "home": false,
+              "percent_difference": -0.1501
+            },
+            {
+              "week": 2,
+              "opponent": "PIT",
+              "home": true,
+              "percent_difference": 0.201
+            },
+            {
+              "week": 3,
+              "opponent": "JAC",
+              "home": false,
+              "percent_difference": 0.0023
+            },
+            {
+              "week": 4,
+              "opponent": "BUF",
+              "home": false,
+              "percent_difference": -0.1536
+            },
+            {
+              "week": 5,
+              "opponent": "LVR",
+              "home": true,
+              "percent_difference": -0.0916
+            },
+            {
+              "week": 6,
+              "opponent": "NYJ",
+              "home": true,
+              "percent_difference": 0.2112
+            }
+          ]
+        },
+        "RB": {
+          "weeks_1_6_average": -0.0004,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "SEA",
+              "home": false,
+              "percent_difference": -0.1659
+            },
+            {
+              "week": 2,
+              "opponent": "PIT",
+              "home": true,
+              "percent_difference": -0.1788
+            },
+            {
+              "week": 3,
+              "opponent": "JAC",
+              "home": false,
+              "percent_difference": -0.1132
+            },
+            {
+              "week": 4,
+              "opponent": "BUF",
+              "home": false,
+              "percent_difference": 0.1168
+            },
+            {
+              "week": 5,
+              "opponent": "LVR",
+              "home": true,
+              "percent_difference": 0.1472
+            },
+            {
+              "week": 6,
+              "opponent": "NYJ",
+              "home": true,
+              "percent_difference": 0.1917
+            }
+          ]
+        },
+        "WR": {
+          "weeks_1_6_average": -0.0075,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "SEA",
+              "home": false,
+              "percent_difference": -0.1462
+            },
+            {
+              "week": 2,
+              "opponent": "PIT",
+              "home": true,
+              "percent_difference": 0.179
+            },
+            {
+              "week": 3,
+              "opponent": "JAC",
+              "home": false,
+              "percent_difference": -0.0185
+            },
+            {
+              "week": 4,
+              "opponent": "BUF",
+              "home": false,
+              "percent_difference": -0.0868
+            },
+            {
+              "week": 5,
+              "opponent": "LVR",
+              "home": true,
+              "percent_difference": 0.0291
+            },
+            {
+              "week": 6,
+              "opponent": "NYJ",
+              "home": true,
+              "percent_difference": -0.0017
+            }
+          ]
+        },
+        "TE": {
+          "weeks_1_6_average": -0.0151,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "SEA",
+              "home": false,
+              "percent_difference": -0.0063
+            },
+            {
+              "week": 2,
+              "opponent": "PIT",
+              "home": true,
+              "percent_difference": 0.2984
+            },
+            {
+              "week": 3,
+              "opponent": "JAC",
+              "home": false,
+              "percent_difference": 0.0909
+            },
+            {
+              "week": 4,
+              "opponent": "BUF",
+              "home": false,
+              "percent_difference": -0.4252
+            },
+            {
+              "week": 5,
+              "opponent": "LVR",
+              "home": true,
+              "percent_difference": -0.2127
+            },
+            {
+              "week": 6,
+              "opponent": "NYJ",
+              "home": true,
+              "percent_difference": 0.1642
+            }
+          ]
+        }
+      }
+    },
+    {
+      "team": "NO",
+      "bye": 8,
+      "positions": {
+        "QB": {
+          "weeks_1_6_average": -0.0212,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "DET",
+              "home": false,
+              "percent_difference": 0.1179
+            },
+            {
+              "week": 2,
+              "opponent": "BAL",
+              "home": false,
+              "percent_difference": 0.1054
+            },
+            {
+              "week": 3,
+              "opponent": "LVR",
+              "home": true,
+              "percent_difference": -0.0916
+            },
+            {
+              "week": 4,
+              "opponent": "ATL",
+              "home": true,
+              "percent_difference": 0.0234
+            },
+            {
+              "week": 5,
+              "opponent": "MIN",
+              "home": true,
+              "percent_difference": -0.3617
+            },
+            {
+              "week": 6,
+              "opponent": "NYG",
+              "home": false,
+              "percent_difference": 0.0797
+            }
+          ]
+        },
+        "RB": {
+          "weeks_1_6_average": 0.0215,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "DET",
+              "home": false,
+              "percent_difference": -0.1061
+            },
+            {
+              "week": 2,
+              "opponent": "BAL",
+              "home": false,
+              "percent_difference": 0.0269
+            },
+            {
+              "week": 3,
+              "opponent": "LVR",
+              "home": true,
+              "percent_difference": 0.1472
+            },
+            {
+              "week": 4,
+              "opponent": "ATL",
+              "home": true,
+              "percent_difference": -0.0073
+            },
+            {
+              "week": 5,
+              "opponent": "MIN",
+              "home": true,
+              "percent_difference": -0.1773
+            },
+            {
+              "week": 6,
+              "opponent": "NYG",
+              "home": false,
+              "percent_difference": 0.2458
+            }
+          ]
+        },
+        "WR": {
+          "weeks_1_6_average": 0.0364,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "DET",
+              "home": false,
+              "percent_difference": 0.1597
+            },
+            {
+              "week": 2,
+              "opponent": "BAL",
+              "home": false,
+              "percent_difference": 0.1985
+            },
+            {
+              "week": 3,
+              "opponent": "LVR",
+              "home": true,
+              "percent_difference": 0.0291
+            },
+            {
+              "week": 4,
+              "opponent": "ATL",
+              "home": true,
+              "percent_difference": 0.0829
+            },
+            {
+              "week": 5,
+              "opponent": "MIN",
+              "home": true,
+              "percent_difference": -0.2784
+            },
+            {
+              "week": 6,
+              "opponent": "NYG",
+              "home": false,
+              "percent_difference": 0.0263
+            }
+          ]
+        },
+        "TE": {
+          "weeks_1_6_average": -0.1542,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "DET",
+              "home": false,
+              "percent_difference": 0.0312
+            },
+            {
+              "week": 2,
+              "opponent": "BAL",
+              "home": false,
+              "percent_difference": -0.2053
+            },
+            {
+              "week": 3,
+              "opponent": "LVR",
+              "home": true,
+              "percent_difference": -0.2127
+            },
+            {
+              "week": 4,
+              "opponent": "ATL",
+              "home": true,
+              "percent_difference": -0.2344
+            },
+            {
+              "week": 5,
+              "opponent": "MIN",
+              "home": true,
+              "percent_difference": -0.1823
+            },
+            {
+              "week": 6,
+              "opponent": "NYG",
+              "home": false,
+              "percent_difference": -0.122
+            }
+          ]
+        }
+      }
+    },
+    {
+      "team": "NYG",
+      "bye": 8,
+      "positions": {
+        "QB": {
+          "weeks_1_6_average": 0.1025,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "DAL",
+              "home": true,
+              "percent_difference": 0.4596
+            },
+            {
+              "week": 2,
+              "opponent": "LAR",
+              "home": false,
+              "percent_difference": -0.0568
+            },
+            {
+              "week": 3,
+              "opponent": "TEN",
+              "home": true,
+              "percent_difference": 0.1396
+            },
+            {
+              "week": 4,
+              "opponent": "ARI",
+              "home": true,
+              "percent_difference": 0.0282
+            },
+            {
+              "week": 5,
+              "opponent": "WAS",
+              "home": false,
+              "percent_difference": 0.1913
+            },
+            {
+              "week": 6,
+              "opponent": "NO",
+              "home": true,
+              "percent_difference": -0.1466
+            }
+          ]
+        },
+        "RB": {
+          "weeks_1_6_average": 0.0712,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "DAL",
+              "home": true,
+              "percent_difference": 0.267
+            },
+            {
+              "week": 2,
+              "opponent": "LAR",
+              "home": false,
+              "percent_difference": -0.1073
+            },
+            {
+              "week": 3,
+              "opponent": "TEN",
+              "home": true,
+              "percent_difference": 0.0225
+            },
+            {
+              "week": 4,
+              "opponent": "ARI",
+              "home": true,
+              "percent_difference": 0.2152
+            },
+            {
+              "week": 5,
+              "opponent": "WAS",
+              "home": false,
+              "percent_difference": 0.163
+            },
+            {
+              "week": 6,
+              "opponent": "NO",
+              "home": true,
+              "percent_difference": -0.1331
+            }
+          ]
+        },
+        "WR": {
+          "weeks_1_6_average": 0.072,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "DAL",
+              "home": true,
+              "percent_difference": 0.3342
+            },
+            {
+              "week": 2,
+              "opponent": "LAR",
+              "home": false,
+              "percent_difference": 0.0832
+            },
+            {
+              "week": 3,
+              "opponent": "TEN",
+              "home": true,
+              "percent_difference": 0.0937
+            },
+            {
+              "week": 4,
+              "opponent": "ARI",
+              "home": true,
+              "percent_difference": -0.1061
+            },
+            {
+              "week": 5,
+              "opponent": "WAS",
+              "home": false,
+              "percent_difference": 0.0953
+            },
+            {
+              "week": 6,
+              "opponent": "NO",
+              "home": true,
+              "percent_difference": -0.0684
+            }
+          ]
+        },
+        "TE": {
+          "weeks_1_6_average": 0.0825,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "DAL",
+              "home": true,
+              "percent_difference": -0.0017
+            },
+            {
+              "week": 2,
+              "opponent": "LAR",
+              "home": false,
+              "percent_difference": -0.0457
+            },
+            {
+              "week": 3,
+              "opponent": "TEN",
+              "home": true,
+              "percent_difference": 0.0048
+            },
+            {
+              "week": 4,
+              "opponent": "ARI",
+              "home": true,
+              "percent_difference": 0.2798
+            },
+            {
+              "week": 5,
+              "opponent": "WAS",
+              "home": false,
+              "percent_difference": 0.3137
+            },
+            {
+              "week": 6,
+              "opponent": "NO",
+              "home": true,
+              "percent_difference": -0.056
+            }
+          ]
+        }
+      }
+    },
+    {
+      "team": "NYJ",
+      "bye": 13,
+      "positions": {
+        "QB": {
+          "weeks_1_6_average": 0.027,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "TEN",
+              "home": false,
+              "percent_difference": 0.1396
+            },
+            {
+              "week": 2,
+              "opponent": "GB",
+              "home": true,
+              "percent_difference": -0.0844
+            },
+            {
+              "week": 3,
+              "opponent": "DET",
+              "home": false,
+              "percent_difference": 0.1179
+            },
+            {
+              "week": 4,
+              "opponent": "CHI",
+              "home": false,
+              "percent_difference": 0.1741
+            },
+            {
+              "week": 5,
+              "opponent": "CLE",
+              "home": true,
+              "percent_difference": -0.1674
+            },
+            {
+              "week": 6,
+              "opponent": "NE",
+              "home": false,
+              "percent_difference": -0.0179
+            }
+          ]
+        },
+        "RB": {
+          "weeks_1_6_average": -0.0677,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "TEN",
+              "home": false,
+              "percent_difference": 0.0225
+            },
+            {
+              "week": 2,
+              "opponent": "GB",
+              "home": true,
+              "percent_difference": -0.0387
+            },
+            {
+              "week": 3,
+              "opponent": "DET",
+              "home": false,
+              "percent_difference": -0.1061
+            },
+            {
+              "week": 4,
+              "opponent": "CHI",
+              "home": false,
+              "percent_difference": -0.036
+            },
+            {
+              "week": 5,
+              "opponent": "CLE",
+              "home": true,
+              "percent_difference": -0.0795
+            },
+            {
+              "week": 6,
+              "opponent": "NE",
+              "home": false,
+              "percent_difference": -0.1685
+            }
+          ]
+        },
+        "WR": {
+          "weeks_1_6_average": 0.0858,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "TEN",
+              "home": false,
+              "percent_difference": 0.0937
+            },
+            {
+              "week": 2,
+              "opponent": "GB",
+              "home": true,
+              "percent_difference": 0.0013
+            },
+            {
+              "week": 3,
+              "opponent": "DET",
+              "home": false,
+              "percent_difference": 0.1597
+            },
+            {
+              "week": 4,
+              "opponent": "CHI",
+              "home": false,
+              "percent_difference": 0.2187
+            },
+            {
+              "week": 5,
+              "opponent": "CLE",
+              "home": true,
+              "percent_difference": -0.0757
+            },
+            {
+              "week": 6,
+              "opponent": "NE",
+              "home": false,
+              "percent_difference": 0.1174
+            }
+          ]
+        },
+        "TE": {
+          "weeks_1_6_average": -0.0152,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "TEN",
+              "home": false,
+              "percent_difference": 0.0048
+            },
+            {
+              "week": 2,
+              "opponent": "GB",
+              "home": true,
+              "percent_difference": -0.0829
+            },
+            {
+              "week": 3,
+              "opponent": "DET",
+              "home": false,
+              "percent_difference": 0.0312
+            },
+            {
+              "week": 4,
+              "opponent": "CHI",
+              "home": false,
+              "percent_difference": -0.0108
+            },
+            {
+              "week": 5,
+              "opponent": "CLE",
+              "home": true,
+              "percent_difference": -0.0818
+            },
+            {
+              "week": 6,
+              "opponent": "NE",
+              "home": false,
+              "percent_difference": 0.0484
+            }
+          ]
+        }
+      }
+    },
+    {
+      "team": "PHI",
+      "bye": 10,
+      "positions": {
+        "QB": {
+          "weeks_1_6_average": 0.0444,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "WAS",
+              "home": true,
+              "percent_difference": 0.1913
+            },
+            {
+              "week": 2,
+              "opponent": "TEN",
+              "home": false,
+              "percent_difference": 0.1396
+            },
+            {
+              "week": 3,
+              "opponent": "CHI",
+              "home": false,
+              "percent_difference": 0.1741
+            },
+            {
+              "week": 4,
+              "opponent": "LAR",
+              "home": true,
+              "percent_difference": -0.0568
+            },
+            {
+              "week": 5,
+              "opponent": "JAC",
+              "home": false,
+              "percent_difference": 0.0023
+            },
+            {
+              "week": 6,
+              "opponent": "CAR",
+              "home": true,
+              "percent_difference": -0.1841
+            }
+          ]
+        },
+        "RB": {
+          "weeks_1_6_average": -0.0034,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "WAS",
+              "home": true,
+              "percent_difference": 0.163
+            },
+            {
+              "week": 2,
+              "opponent": "TEN",
+              "home": false,
+              "percent_difference": 0.0225
+            },
+            {
+              "week": 3,
+              "opponent": "CHI",
+              "home": false,
+              "percent_difference": -0.036
+            },
+            {
+              "week": 4,
+              "opponent": "LAR",
+              "home": true,
+              "percent_difference": -0.1073
+            },
+            {
+              "week": 5,
+              "opponent": "JAC",
+              "home": false,
+              "percent_difference": -0.1132
+            },
+            {
+              "week": 6,
+              "opponent": "CAR",
+              "home": true,
+              "percent_difference": 0.0506
+            }
+          ]
+        },
+        "WR": {
+          "weeks_1_6_average": 0.0532,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "WAS",
+              "home": true,
+              "percent_difference": 0.0953
+            },
+            {
+              "week": 2,
+              "opponent": "TEN",
+              "home": false,
+              "percent_difference": 0.0937
+            },
+            {
+              "week": 3,
+              "opponent": "CHI",
+              "home": false,
+              "percent_difference": 0.2187
+            },
+            {
+              "week": 4,
+              "opponent": "LAR",
+              "home": true,
+              "percent_difference": 0.0832
+            },
+            {
+              "week": 5,
+              "opponent": "JAC",
+              "home": false,
+              "percent_difference": -0.0185
+            },
+            {
+              "week": 6,
+              "opponent": "CAR",
+              "home": true,
+              "percent_difference": -0.1535
+            }
+          ]
+        },
+        "TE": {
+          "weeks_1_6_average": 0.0604,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "WAS",
+              "home": true,
+              "percent_difference": 0.3137
+            },
+            {
+              "week": 2,
+              "opponent": "TEN",
+              "home": false,
+              "percent_difference": 0.0048
+            },
+            {
+              "week": 3,
+              "opponent": "CHI",
+              "home": false,
+              "percent_difference": -0.0108
+            },
+            {
+              "week": 4,
+              "opponent": "LAR",
+              "home": true,
+              "percent_difference": -0.0457
+            },
+            {
+              "week": 5,
+              "opponent": "JAC",
+              "home": false,
+              "percent_difference": 0.0909
+            },
+            {
+              "week": 6,
+              "opponent": "CAR",
+              "home": true,
+              "percent_difference": 0.0095
+            }
+          ]
+        }
+      }
+    },
+    {
+      "team": "PIT",
+      "bye": 9,
+      "positions": {
+        "QB": {
+          "weeks_1_6_average": 0.0528,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "ATL",
+              "home": true,
+              "percent_difference": 0.0234
+            },
+            {
+              "week": 2,
+              "opponent": "NE",
+              "home": false,
+              "percent_difference": -0.0179
+            },
+            {
+              "week": 3,
+              "opponent": "CIN",
+              "home": true,
+              "percent_difference": 0.1725
+            },
+            {
+              "week": 4,
+              "opponent": "CLE",
+              "home": false,
+              "percent_difference": -0.1674
+            },
+            {
+              "week": 5,
+              "opponent": "IND",
+              "home": true,
+              "percent_difference": 0.0787
+            },
+            {
+              "week": 6,
+              "opponent": "TB",
+              "home": false,
+              "percent_difference": 0.2274
+            }
+          ]
+        },
+        "RB": {
+          "weeks_1_6_average": -0.0252,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "ATL",
+              "home": true,
+              "percent_difference": -0.0073
+            },
+            {
+              "week": 2,
+              "opponent": "NE",
+              "home": false,
+              "percent_difference": -0.1685
+            },
+            {
+              "week": 3,
+              "opponent": "CIN",
+              "home": true,
+              "percent_difference": 0.2341
+            },
+            {
+              "week": 4,
+              "opponent": "CLE",
+              "home": false,
+              "percent_difference": -0.0795
+            },
+            {
+              "week": 5,
+              "opponent": "IND",
+              "home": true,
+              "percent_difference": -0.0855
+            },
+            {
+              "week": 6,
+              "opponent": "TB",
+              "home": false,
+              "percent_difference": -0.0445
+            }
+          ]
+        },
+        "WR": {
+          "weeks_1_6_average": 0.0417,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "ATL",
+              "home": true,
+              "percent_difference": 0.0829
+            },
+            {
+              "week": 2,
+              "opponent": "NE",
+              "home": false,
+              "percent_difference": 0.1174
+            },
+            {
+              "week": 3,
+              "opponent": "CIN",
+              "home": true,
+              "percent_difference": -0.0913
+            },
+            {
+              "week": 4,
+              "opponent": "CLE",
+              "home": false,
+              "percent_difference": -0.0757
+            },
+            {
+              "week": 5,
+              "opponent": "IND",
+              "home": true,
+              "percent_difference": 0.1927
+            },
+            {
+              "week": 6,
+              "opponent": "TB",
+              "home": false,
+              "percent_difference": 0.0242
+            }
+          ]
+        },
+        "TE": {
+          "weeks_1_6_average": 0.0934,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "ATL",
+              "home": true,
+              "percent_difference": -0.2344
+            },
+            {
+              "week": 2,
+              "opponent": "NE",
+              "home": false,
+              "percent_difference": 0.0484
+            },
+            {
+              "week": 3,
+              "opponent": "CIN",
+              "home": true,
+              "percent_difference": 0.542
+            },
+            {
+              "week": 4,
+              "opponent": "CLE",
+              "home": false,
+              "percent_difference": -0.0818
+            },
+            {
+              "week": 5,
+              "opponent": "IND",
+              "home": true,
+              "percent_difference": 0.1083
+            },
+            {
+              "week": 6,
+              "opponent": "TB",
+              "home": false,
+              "percent_difference": 0.178
+            }
+          ]
+        }
+      }
+    },
+    {
+      "team": "SEA",
+      "bye": 11,
+      "positions": {
+        "QB": {
+          "weeks_1_6_average": -0.0172,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "NE",
+              "home": true,
+              "percent_difference": -0.0179
+            },
+            {
+              "week": 2,
+              "opponent": "ARI",
+              "home": false,
+              "percent_difference": 0.0282
+            },
+            {
+              "week": 3,
+              "opponent": "WAS",
+              "home": false,
+              "percent_difference": 0.1913
+            },
+            {
+              "week": 4,
+              "opponent": "LAC",
+              "home": true,
+              "percent_difference": -0.2202
+            },
+            {
+              "week": 5,
+              "opponent": "SF",
+              "home": true,
+              "percent_difference": 0.0578
+            },
+            {
+              "week": 6,
+              "opponent": "DEN",
+              "home": false,
+              "percent_difference": -0.1421
+            }
+          ]
+        },
+        "RB": {
+          "weeks_1_6_average": 0.0113,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "NE",
+              "home": true,
+              "percent_difference": -0.1685
+            },
+            {
+              "week": 2,
+              "opponent": "ARI",
+              "home": false,
+              "percent_difference": 0.2152
+            },
+            {
+              "week": 3,
+              "opponent": "WAS",
+              "home": false,
+              "percent_difference": 0.163
+            },
+            {
+              "week": 4,
+              "opponent": "LAC",
+              "home": true,
+              "percent_difference": -0.1084
+            },
+            {
+              "week": 5,
+              "opponent": "SF",
+              "home": true,
+              "percent_difference": 0.1031
+            },
+            {
+              "week": 6,
+              "opponent": "DEN",
+              "home": false,
+              "percent_difference": -0.1363
+            }
+          ]
+        },
+        "WR": {
+          "weeks_1_6_average": -0.0227,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "NE",
+              "home": true,
+              "percent_difference": 0.1174
+            },
+            {
+              "week": 2,
+              "opponent": "ARI",
+              "home": false,
+              "percent_difference": -0.1061
+            },
+            {
+              "week": 3,
+              "opponent": "WAS",
+              "home": false,
+              "percent_difference": 0.0953
+            },
+            {
+              "week": 4,
+              "opponent": "LAC",
+              "home": true,
+              "percent_difference": -0.1067
+            },
+            {
+              "week": 5,
+              "opponent": "SF",
+              "home": true,
+              "percent_difference": 0.0193
+            },
+            {
+              "week": 6,
+              "opponent": "DEN",
+              "home": false,
+              "percent_difference": -0.1552
+            }
+          ]
+        },
+        "TE": {
+          "weeks_1_6_average": 0.0916,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "NE",
+              "home": true,
+              "percent_difference": 0.0484
+            },
+            {
+              "week": 2,
+              "opponent": "ARI",
+              "home": false,
+              "percent_difference": 0.2798
+            },
+            {
+              "week": 3,
+              "opponent": "WAS",
+              "home": false,
+              "percent_difference": 0.3137
+            },
+            {
+              "week": 4,
+              "opponent": "LAC",
+              "home": true,
+              "percent_difference": -0.2043
+            },
+            {
+              "week": 5,
+              "opponent": "SF",
+              "home": true,
+              "percent_difference": 0.0281
+            },
+            {
+              "week": 6,
+              "opponent": "DEN",
+              "home": false,
+              "percent_difference": 0.0841
+            }
+          ]
+        }
+      }
+    },
+    {
+      "team": "SF",
+      "bye": 8,
+      "positions": {
+        "QB": {
+          "weeks_1_6_average": -0.0043,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "LAR",
+              "home": false,
+              "percent_difference": -0.0568
+            },
+            {
+              "week": 2,
+              "opponent": "MIA",
+              "home": true,
+              "percent_difference": 0.1039
+            },
+            {
+              "week": 3,
+              "opponent": "ARI",
+              "home": true,
+              "percent_difference": 0.0282
+            },
+            {
+              "week": 4,
+              "opponent": "DEN",
+              "home": true,
+              "percent_difference": -0.1421
+            },
+            {
+              "week": 5,
+              "opponent": "SEA",
+              "home": false,
+              "percent_difference": -0.1501
+            },
+            {
+              "week": 6,
+              "opponent": "WAS",
+              "home": true,
+              "percent_difference": 0.1913
+            }
+          ]
+        },
+        "RB": {
+          "weeks_1_6_average": 0.0142,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "LAR",
+              "home": false,
+              "percent_difference": -0.1073
+            },
+            {
+              "week": 2,
+              "opponent": "MIA",
+              "home": true,
+              "percent_difference": 0.1164
+            },
+            {
+              "week": 3,
+              "opponent": "ARI",
+              "home": true,
+              "percent_difference": 0.2152
+            },
+            {
+              "week": 4,
+              "opponent": "DEN",
+              "home": true,
+              "percent_difference": -0.1363
+            },
+            {
+              "week": 5,
+              "opponent": "SEA",
+              "home": false,
+              "percent_difference": -0.1659
+            },
+            {
+              "week": 6,
+              "opponent": "WAS",
+              "home": true,
+              "percent_difference": 0.163
+            }
+          ]
+        },
+        "WR": {
+          "weeks_1_6_average": -0.0343,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "LAR",
+              "home": false,
+              "percent_difference": 0.0832
+            },
+            {
+              "week": 2,
+              "opponent": "MIA",
+              "home": true,
+              "percent_difference": 0.0229
+            },
+            {
+              "week": 3,
+              "opponent": "ARI",
+              "home": true,
+              "percent_difference": -0.1061
+            },
+            {
+              "week": 4,
+              "opponent": "DEN",
+              "home": true,
+              "percent_difference": -0.1552
+            },
+            {
+              "week": 5,
+              "opponent": "SEA",
+              "home": false,
+              "percent_difference": -0.1462
+            },
+            {
+              "week": 6,
+              "opponent": "WAS",
+              "home": true,
+              "percent_difference": 0.0953
+            }
+          ]
+        },
+        "TE": {
+          "weeks_1_6_average": 0.1543,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "LAR",
+              "home": false,
+              "percent_difference": -0.0457
+            },
+            {
+              "week": 2,
+              "opponent": "MIA",
+              "home": true,
+              "percent_difference": 0.3005
+            },
+            {
+              "week": 3,
+              "opponent": "ARI",
+              "home": true,
+              "percent_difference": 0.2798
+            },
+            {
+              "week": 4,
+              "opponent": "DEN",
+              "home": true,
+              "percent_difference": 0.0841
+            },
+            {
+              "week": 5,
+              "opponent": "SEA",
+              "home": false,
+              "percent_difference": -0.0063
+            },
+            {
+              "week": 6,
+              "opponent": "WAS",
+              "home": true,
+              "percent_difference": 0.3137
+            }
+          ]
+        }
+      }
+    },
+    {
+      "team": "TB",
+      "bye": 10,
+      "positions": {
+        "QB": {
+          "weeks_1_6_average": 0.0366,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "CIN",
+              "home": false,
+              "percent_difference": 0.1725
+            },
+            {
+              "week": 2,
+              "opponent": "CLE",
+              "home": true,
+              "percent_difference": -0.1674
+            },
+            {
+              "week": 3,
+              "opponent": "MIN",
+              "home": true,
+              "percent_difference": -0.3617
+            },
+            {
+              "week": 4,
+              "opponent": "GB",
+              "home": true,
+              "percent_difference": -0.0844
+            },
+            {
+              "week": 5,
+              "opponent": "DAL",
+              "home": false,
+              "percent_difference": 0.4596
+            },
+            {
+              "week": 6,
+              "opponent": "PIT",
+              "home": true,
+              "percent_difference": 0.201
+            }
+          ]
+        },
+        "RB": {
+          "weeks_1_6_average": 0.0045,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "CIN",
+              "home": false,
+              "percent_difference": 0.2341
+            },
+            {
+              "week": 2,
+              "opponent": "CLE",
+              "home": true,
+              "percent_difference": -0.0795
+            },
+            {
+              "week": 3,
+              "opponent": "MIN",
+              "home": true,
+              "percent_difference": -0.1773
+            },
+            {
+              "week": 4,
+              "opponent": "GB",
+              "home": true,
+              "percent_difference": -0.0387
+            },
+            {
+              "week": 5,
+              "opponent": "DAL",
+              "home": false,
+              "percent_difference": 0.267
+            },
+            {
+              "week": 6,
+              "opponent": "PIT",
+              "home": true,
+              "percent_difference": -0.1788
+            }
+          ]
+        },
+        "WR": {
+          "weeks_1_6_average": 0.0115,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "CIN",
+              "home": false,
+              "percent_difference": -0.0913
+            },
+            {
+              "week": 2,
+              "opponent": "CLE",
+              "home": true,
+              "percent_difference": -0.0757
+            },
+            {
+              "week": 3,
+              "opponent": "MIN",
+              "home": true,
+              "percent_difference": -0.2784
+            },
+            {
+              "week": 4,
+              "opponent": "GB",
+              "home": true,
+              "percent_difference": 0.0013
+            },
+            {
+              "week": 5,
+              "opponent": "DAL",
+              "home": false,
+              "percent_difference": 0.3342
+            },
+            {
+              "week": 6,
+              "opponent": "PIT",
+              "home": true,
+              "percent_difference": 0.179
+            }
+          ]
+        },
+        "TE": {
+          "weeks_1_6_average": 0.082,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "CIN",
+              "home": false,
+              "percent_difference": 0.542
+            },
+            {
+              "week": 2,
+              "opponent": "CLE",
+              "home": true,
+              "percent_difference": -0.0818
+            },
+            {
+              "week": 3,
+              "opponent": "MIN",
+              "home": true,
+              "percent_difference": -0.1823
+            },
+            {
+              "week": 4,
+              "opponent": "GB",
+              "home": true,
+              "percent_difference": -0.0829
+            },
+            {
+              "week": 5,
+              "opponent": "DAL",
+              "home": false,
+              "percent_difference": -0.0017
+            },
+            {
+              "week": 6,
+              "opponent": "PIT",
+              "home": true,
+              "percent_difference": 0.2984
+            }
+          ]
+        }
+      }
+    },
+    {
+      "team": "TEN",
+      "bye": 9,
+      "positions": {
+        "QB": {
+          "weeks_1_6_average": 0.0062,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "NYJ",
+              "home": true,
+              "percent_difference": 0.2112
+            },
+            {
+              "week": 2,
+              "opponent": "PHI",
+              "home": true,
+              "percent_difference": -0.1804
+            },
+            {
+              "week": 3,
+              "opponent": "NYG",
+              "home": false,
+              "percent_difference": 0.0797
+            },
+            {
+              "week": 4,
+              "opponent": "BAL",
+              "home": false,
+              "percent_difference": 0.1054
+            },
+            {
+              "week": 5,
+              "opponent": "HOU",
+              "home": true,
+              "percent_difference": -0.2575
+            },
+            {
+              "week": 6,
+              "opponent": "IND",
+              "home": false,
+              "percent_difference": 0.0787
+            }
+          ]
+        },
+        "RB": {
+          "weeks_1_6_average": 0.0542,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "NYJ",
+              "home": true,
+              "percent_difference": 0.1917
+            },
+            {
+              "week": 2,
+              "opponent": "PHI",
+              "home": true,
+              "percent_difference": 0.0525
+            },
+            {
+              "week": 3,
+              "opponent": "NYG",
+              "home": false,
+              "percent_difference": 0.2458
+            },
+            {
+              "week": 4,
+              "opponent": "BAL",
+              "home": false,
+              "percent_difference": 0.0269
+            },
+            {
+              "week": 5,
+              "opponent": "HOU",
+              "home": true,
+              "percent_difference": -0.106
+            },
+            {
+              "week": 6,
+              "opponent": "IND",
+              "home": false,
+              "percent_difference": -0.0855
+            }
+          ]
+        },
+        "WR": {
+          "weeks_1_6_average": 0.0031,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "NYJ",
+              "home": true,
+              "percent_difference": -0.0017
+            },
+            {
+              "week": 2,
+              "opponent": "PHI",
+              "home": true,
+              "percent_difference": -0.2092
+            },
+            {
+              "week": 3,
+              "opponent": "NYG",
+              "home": false,
+              "percent_difference": 0.0263
+            },
+            {
+              "week": 4,
+              "opponent": "BAL",
+              "home": false,
+              "percent_difference": 0.1985
+            },
+            {
+              "week": 5,
+              "opponent": "HOU",
+              "home": true,
+              "percent_difference": -0.1878
+            },
+            {
+              "week": 6,
+              "opponent": "IND",
+              "home": false,
+              "percent_difference": 0.1927
+            }
+          ]
+        },
+        "TE": {
+          "weeks_1_6_average": -0.0879,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "NYJ",
+              "home": true,
+              "percent_difference": 0.1642
+            },
+            {
+              "week": 2,
+              "opponent": "PHI",
+              "home": true,
+              "percent_difference": -0.3543
+            },
+            {
+              "week": 3,
+              "opponent": "NYG",
+              "home": false,
+              "percent_difference": -0.122
+            },
+            {
+              "week": 4,
+              "opponent": "BAL",
+              "home": false,
+              "percent_difference": -0.2053
+            },
+            {
+              "week": 5,
+              "opponent": "HOU",
+              "home": true,
+              "percent_difference": -0.1181
+            },
+            {
+              "week": 6,
+              "opponent": "IND",
+              "home": false,
+              "percent_difference": 0.1083
+            }
+          ]
+        }
+      }
+    },
+    {
+      "team": "WAS",
+      "bye": 7,
+      "positions": {
+        "QB": {
+          "weeks_1_6_average": 0.0575,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "PHI",
+              "home": false,
+              "percent_difference": -0.1804
+            },
+            {
+              "week": 2,
+              "opponent": "DAL",
+              "home": false,
+              "percent_difference": 0.4596
+            },
+            {
+              "week": 3,
+              "opponent": "SEA",
+              "home": true,
+              "percent_difference": -0.1501
+            },
+            {
+              "week": 4,
+              "opponent": "IND",
+              "home": true,
+              "percent_difference": 0.0787
+            },
+            {
+              "week": 5,
+              "opponent": "NYG",
+              "home": true,
+              "percent_difference": 0.0797
+            },
+            {
+              "week": 6,
+              "opponent": "SF",
+              "home": false,
+              "percent_difference": 0.0578
+            }
+          ]
+        },
+        "RB": {
+          "weeks_1_6_average": 0.0695,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "PHI",
+              "home": false,
+              "percent_difference": 0.0525
+            },
+            {
+              "week": 2,
+              "opponent": "DAL",
+              "home": false,
+              "percent_difference": 0.267
+            },
+            {
+              "week": 3,
+              "opponent": "SEA",
+              "home": true,
+              "percent_difference": -0.1659
+            },
+            {
+              "week": 4,
+              "opponent": "IND",
+              "home": true,
+              "percent_difference": -0.0855
+            },
+            {
+              "week": 5,
+              "opponent": "NYG",
+              "home": true,
+              "percent_difference": 0.2458
+            },
+            {
+              "week": 6,
+              "opponent": "SF",
+              "home": false,
+              "percent_difference": 0.1031
+            }
+          ]
+        },
+        "WR": {
+          "weeks_1_6_average": 0.0362,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "PHI",
+              "home": false,
+              "percent_difference": -0.2092
+            },
+            {
+              "week": 2,
+              "opponent": "DAL",
+              "home": false,
+              "percent_difference": 0.3342
+            },
+            {
+              "week": 3,
+              "opponent": "SEA",
+              "home": true,
+              "percent_difference": -0.1462
+            },
+            {
+              "week": 4,
+              "opponent": "IND",
+              "home": true,
+              "percent_difference": 0.1927
+            },
+            {
+              "week": 5,
+              "opponent": "NYG",
+              "home": true,
+              "percent_difference": 0.0263
+            },
+            {
+              "week": 6,
+              "opponent": "SF",
+              "home": false,
+              "percent_difference": 0.0193
+            }
+          ]
+        },
+        "TE": {
+          "weeks_1_6_average": -0.058,
+          "weeks": [
+            {
+              "week": 1,
+              "opponent": "PHI",
+              "home": false,
+              "percent_difference": -0.3543
+            },
+            {
+              "week": 2,
+              "opponent": "DAL",
+              "home": false,
+              "percent_difference": -0.0017
+            },
+            {
+              "week": 3,
+              "opponent": "SEA",
+              "home": true,
+              "percent_difference": -0.0063
+            },
+            {
+              "week": 4,
+              "opponent": "IND",
+              "home": true,
+              "percent_difference": 0.1083
+            },
+            {
+              "week": 5,
+              "opponent": "NYG",
+              "home": true,
+              "percent_difference": -0.122
+            },
+            {
+              "week": 6,
+              "opponent": "SF",
+              "home": false,
+              "percent_difference": 0.0281
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "retrieved": "2026-08-17T20:32:44Z"
+}

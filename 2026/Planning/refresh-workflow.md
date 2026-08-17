@@ -7,9 +7,15 @@
 3. Rebuild the DraftSheets name/value board.
 4. Rebuild the base composite.
 5. Refresh public 10-team 2QB ADP.
-6. If the authenticated FantasyGuru session is available, refresh projections, rankings, injuries, outlook tags, handcuffs, and contextual signals.
-7. Validate player-name joins, positions, teams, byes, row counts, source dates, and conflicts.
-8. Publish a new board only if validation passes.
+6. Refresh DraftSharks injury, rookie, Weeks 1–6 schedule, and visible Superflex data.
+7. Refresh current RotoWire/ESPN news and Ourlads depth charts.
+8. If the authenticated FantasyGuru session is available, refresh projections, rankings, outlook tags, handcuffs, and contextual signals.
+9. Validate player-name joins, positions, teams, byes, row counts, source dates, and conflicts.
+10. Publish a new board only if validation passes.
+
+The application’s **Refresh & Rebuild** button performs steps 3–7 and 9–10 through the local service while preserving recorded picks and tuning settings.  It refuses to install a refreshed board when an already drafted player cannot be reconciled.  It cannot authenticate to Google Drive or premium browser sessions, so it reuses their latest imported snapshots and reports that limitation.
+
+**Reset Draft** is a separate confirmed action.  It clears recorded live selections, preserves tuning settings, and reapplies every confirmed keeper from the current configuration.
 
 ## Draft-session refresh
 
@@ -21,6 +27,7 @@ Run one mandatory full refresh immediately before the draft operation begins.  F
 - positional tier cliffs and runs;
 - estimated availability before Goldberg's next selection;
 - remaining managers' historical tendencies.
+- bounded injury risk, rookie upside, early schedule, and corroborating composite modifiers.
 
 Breaking injury or role news can trigger a manual source refresh, but normal pick processing does not repeatedly re-ingest every file.
 

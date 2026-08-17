@@ -83,7 +83,40 @@
     {
       "url": "https://www.draftsharks.com/rankings/superflex",
       "format": "superflex",
-      "adapter": "authenticated_rankings_if_available"
+      "adapter": "partial_public_rankings",
+      "rule": "Use the visible public rows only and label the coverage partial. Never extrapolate hidden ranks."
+    }
+  ],
+  "public_context_sources": [
+    {
+      "url": "https://www.draftsharks.com/injury-predictor",
+      "adapter": "player_injury_probability_and_projected_games_missed",
+      "rule": "Compare risk within position and cap the penalty at three points."
+    },
+    {
+      "url": "https://www.draftsharks.com/nfl-rookie-model",
+      "adapter": "2026_rookie_scores",
+      "rule": "Use only 2026 players; increase influence gradually in later rounds."
+    },
+    {
+      "url": "https://www.draftsharks.com/strength-of-schedule/{position}",
+      "adapter": "weeks_1_through_6_position_schedule",
+      "rule": "Positive values are easier. Cap the early-schedule adjustment at 2.5 points."
+    },
+    {
+      "url": "https://www.rotowire.com/football/news.php",
+      "adapter": "current_player_news",
+      "rule": "Unreviewed news is research context with zero automatic adjustment."
+    },
+    {
+      "url": "https://www.espn.com/espn/rss/nfl/news",
+      "adapter": "league_news_feed",
+      "rule": "Store headline, link, and timestamp; do not infer player impact without review."
+    },
+    {
+      "url": "https://www.ourlads.com/nfldepthcharts/depthcharts.aspx",
+      "adapter": "all_team_offensive_depth_charts",
+      "rule": "Preserve acquisition, rookie, UDFA, and injured/inactive markers as context rather than automatic rankings."
     }
   ]
 }

@@ -1,9 +1,14 @@
 const STORAGE_KEY = "fantasy-draft-manager-2026-v1";
-const DEFAULT_WEIGHTS = { availability: 1, roster: 1, bye: 1, history: .7, tiers: .8, context: .7 };
+const DEFAULT_WEIGHTS = {
+  availability: 1, roster: 1, bye: 1, history: .7, tiers: .8, context: .7,
+  injuryRisk: .8, rookieUpside: .4, earlySchedule: .4, draftSharks: .35, newsContext: .3
+};
 const state = { data: null, picks: [], history: [], weights: { ...DEFAULT_WEIGHTS } };
 
 const $ = (selector) => document.querySelector(selector);
 const clamp = (value, min, max) => Math.max(min, Math.min(max, value));
+const normalizePlayerName = (value) => value.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase()
+  .replace(/\b(jr|sr|ii|iii|iv|v)\b/g, "").replace(/[^a-z0-9]+/g, "");
 const normalCdf = (x) => {
   const t = 1 / (1 + 0.2316419 * Math.abs(x));
   const d = 0.3989423 * Math.exp(-x * x / 2);
@@ -12,6 +17,8 @@ const normalCdf = (x) => {
 };
 
 function ownerAt(overall) {
+  const trade = state.data.draft.traded_picks.find((item) => item.overall_pick === overall);
+  if (trade) return trade.new_manager;
   const { draft_order: order } = state.data.draft;
   const round = Math.floor((overall - 1) / order.length) + 1;
   const slot = (overall - 1) % order.length;
@@ -61,6 +68,34 @@ function contextAdjustment(player) {
   const total = (player.context || []).filter((item) => Number(item.confidence) >= .6)
     .reduce((sum, item) => sum + Number(item.adjustment || 0), 0);
   return clamp(total, -8, 8);
+}
+
+function injuryAdjustment(player) {
+  const percentile = Number(player.models?.injury?.risk_percentile_at_position);
+  if (!Number.isFinite(percentile) || percentile <= 50) return 0;
+  return -clamp((percentile - 50) / 50 * 3, 0, 3);
+}
+
+function rookieAdjustment(player, targetPick) {
+  const percentile = Number(player.models?.rookie?.overall_percentile);
+  if (!Number.isFinite(percentile) || percentile < 75) return 0;
+  const roundFactor = clamp((roundAt(targetPick) - 3) / 8, 0, 1);
+  return clamp((percentile - 75) / 25 * 4, 0, 4) * roundFactor;
+}
+
+function earlyScheduleAdjustment(player) {
+  const average = Number(player.models?.early_sos?.weeks_1_6_average);
+  return Number.isFinite(average) ? clamp(average * 12, -2.5, 2.5) : 0;
+}
+
+function draftSharksAdjustment(player) {
+  const rank = Number(player.models?.draftsharks_superflex?.rank);
+  if (!Number.isFinite(rank)) return 0;
+  return clamp((player.base_composite_rank - rank) * .15, -3, 3);
+}
+
+function newsAdjustment(player) {
+  return clamp((player.recent_news || []).reduce((sum, item) => sum + Number(item.ranking_adjustment || 0), 0), -3, 3);
 }
 
 function historicalPressure(player, targetPick, nextPick) {
@@ -117,11 +152,16 @@ function scorePlayer(player, targetPick, nextPick) {
   const context = contextAdjustment(player);
   const history = historicalPressure(player, targetPick, nextPick);
   const tiers = tierCliff(player);
+  const injury = injuryAdjustment(player);
+  const rookie = rookieAdjustment(player, targetPick);
+  const earlySchedule = earlyScheduleAdjustment(player);
+  const draftSharks = draftSharksAdjustment(player);
+  const news = newsAdjustment(player);
   return {
-    optimized: player.base_quality_score * .72 + rankValue * .18 + goneChance * 8 * state.weights.availability + marketValue + need * state.weights.roster + context * state.weights.context - bye * state.weights.bye + history * state.weights.history + tiers * state.weights.tiers,
+    optimized: player.base_quality_score * .72 + rankValue * .18 + goneChance * 8 * state.weights.availability + marketValue + need * state.weights.roster + context * state.weights.context - bye * state.weights.bye + history * state.weights.history + tiers * state.weights.tiers + injury * state.weights.injuryRisk + rookie * state.weights.rookieUpside + earlySchedule * state.weights.earlySchedule + draftSharks * state.weights.draftSharks + news * state.weights.newsContext,
     consensus: player.base_quality_score * .78 + rankValue * .17 + marketValue * .5,
-    wildcard: player.base_quality_score * .55 + goneChance * 12 * state.weights.availability + Math.max(0, (player.adp || 240) - player.base_composite_rank) * .24 + Math.max(0, need) * .5 * state.weights.roster + context * state.weights.context - bye * state.weights.bye + tiers * state.weights.tiers,
-    goneChance, need, bye, context, history, tiers
+    wildcard: player.base_quality_score * .55 + goneChance * 12 * state.weights.availability + Math.max(0, (player.adp || 240) - player.base_composite_rank) * .24 + Math.max(0, need) * .5 * state.weights.roster + context * state.weights.context - bye * state.weights.bye + tiers * state.weights.tiers + injury * state.weights.injuryRisk + rookie * state.weights.rookieUpside * 1.5 + earlySchedule * state.weights.earlySchedule + draftSharks * state.weights.draftSharks + news * state.weights.newsContext,
+    goneChance, need, bye, context, history, tiers, injury, rookie, earlySchedule, draftSharks, news
   };
 }
 
@@ -157,11 +197,16 @@ function describe(entry, kind, target, next) {
   if (entry.need >= 6) pros.unshift(`Addresses a roster need by Round ${targetRound}`);
   if (player.adp && player.base_composite_rank + 8 < player.adp) pros.unshift("Experts rate him materially above his market cost");
   if (entry.context > 0) pros.unshift("Supported by verified positive context");
+  if (entry.rookie >= 2) pros.unshift(`Rookie model: ${player.models.rookie.prospect_label}, ${player.models.rookie.overall_percentile}th percentile`);
+  if (entry.earlySchedule >= 1) pros.unshift("Favorable Weeks 1–6 positional schedule");
+  if (entry.draftSharks >= 1) pros.unshift(`DraftSharks Superflex rank No. ${player.models.draftsharks_superflex.rank}`);
   const cons = [];
   if (entry.bye >= 7) cons.push("Creates a positional bye-coverage problem");
   else if (entry.bye > 0) cons.push("Adds another same-position player on this bye");
   if (!player.adp) cons.push("Public 2QB availability data is missing");
-  if (!player.context.length) cons.push("No verified contextual adjustment is loaded yet");
+  if (entry.injury <= -1) cons.push(`Injury-risk percentile ${player.models.injury.risk_percentile_at_position} at ${player.position}`);
+  if (entry.earlySchedule <= -1) cons.push("Difficult Weeks 1–6 positional schedule");
+  if (!player.context.length && !player.recent_news.length) cons.push("No reviewed news or scheme adjustment is loaded");
   if (player.source_count < 2) cons.push("Thin expert-source coverage");
   if (!cons.length) cons.push(`About ${pct}% likely to be drafted before pick ${next || "—"}`);
   return { caseText: cases[kind], pros: pros.slice(0, 2).join(" · "), cons: cons.slice(0, 2).join(" · ") };
@@ -231,13 +276,20 @@ function openPlayer(player) {
       <div class="detail-stat"><span>Expert confidence</span><strong>${player.source_quality.expert}</strong></div>
       <div class="detail-stat"><span>Market confidence</span><strong>${player.source_quality.market}</strong></div>
       <div class="detail-stat"><span>ADP disagreement</span><strong>${player.source_quality.market_disagreement ?? "—"}</strong></div>
+      <div class="detail-stat"><span>Injury probability</span><strong>${player.models.injury ? `${Math.round(player.models.injury.injury_probability * 100)}%` : "—"}</strong></div>
+      <div class="detail-stat"><span>Projected missed</span><strong>${player.models.injury?.projected_games_missed ?? "—"}</strong></div>
+      <div class="detail-stat"><span>Early SOS</span><strong>${player.models.early_sos ? `${(player.models.early_sos.weeks_1_6_average * 100).toFixed(1)}%` : "—"}</strong></div>
+      <div class="detail-stat"><span>Rookie model</span><strong>${player.models.rookie ? `${player.models.rookie.overall_score} · ${player.models.rookie.prospect_label}` : "—"}</strong></div>
+      <div class="detail-stat"><span>DS Superflex</span><strong>${player.models.draftsharks_superflex ? `No. ${player.models.draftsharks_superflex.rank}` : "—"}</strong></div>
+      <div class="detail-stat"><span>Depth role</span><strong>${player.depth_chart[0] ? `${player.depth_chart[0].position}${player.depth_chart[0].depth}` : "—"}</strong></div>
       <div class="detail-stat"><span>DraftSheets</span><strong>${player.draftsheets_overall_value_rank ? `No. ${player.draftsheets_overall_value_rank}` : "—"}</strong></div>
       <div class="detail-stat"><span>Mans rank</span><strong>${player.jeff_mans_rank ? `No. ${player.jeff_mans_rank}` : "—"}</strong></div>
       <div class="detail-stat"><span>QB tier</span><strong>${player.qb_chart_tier || "—"}</strong></div>
     </div>
     <h3>Verified context</h3><ul class="source-list">${notes}</ul>
+    <h3>Recent news</h3><ul class="source-list">${player.recent_news.length ? player.recent_news.map((item) => `<li><a href="${item.headline_url}" target="_blank" rel="noreferrer">${item.headline}</a>${item.injury ? ` · ${item.injury}` : ""}<br>${item.update || ""}</li>`).join("") : "<li>No matching item in the latest RotoWire snapshot.</li>"}</ul>
     <h3>Market sources</h3><ul class="source-list">${adps.length ? adps.map((row) => `<li>${row.player_url ? `<a href="${row.player_url}" target="_blank" rel="noreferrer">${row.provider}</a>` : row.provider}: ADP ${Number(row.adp).toFixed(1)}${row.stdev ? `, spread ${row.stdev}` : ""}</li>`).join("") : "<li>No matched 2QB market record.</li>"}</ul>
-    <h3>Further research</h3><ul class="source-list"><li><a href="${player.research_links.fantasyguru_projections}" target="_blank" rel="noreferrer">FantasyGuru projections</a></li></ul>`;
+    <h3>Further research</h3><ul class="source-list"><li><a href="${player.research_links.draftsharks_injury}" target="_blank" rel="noreferrer">DraftSharks injury model</a></li>${player.models.rookie ? `<li><a href="${player.research_links.draftsharks_rookie}" target="_blank" rel="noreferrer">DraftSharks rookie model</a></li>` : ""}<li><a href="${player.research_links.draftsharks_sos}" target="_blank" rel="noreferrer">DraftSharks positional schedule</a></li><li><a href="${player.research_links.draftsharks_superflex}" target="_blank" rel="noreferrer">DraftSharks Superflex ranking</a></li><li><a href="${player.research_links.fantasyguru_projections}" target="_blank" rel="noreferrer">FantasyGuru projections</a></li></ul>`;
   $("#detail-dialog").showModal();
 }
 
@@ -245,10 +297,14 @@ function openTeam(abbreviation) {
   const team = state.data.teams.find((item) => item.abbreviation === abbreviation);
   if (!team) return;
   const notes = team.verified_notes.length ? team.verified_notes.map((note) => `<li>${note.summary}</li>`).join("") : "<li>No verified coaching, personnel, line, or injury note has been loaded into this snapshot.</li>";
+  const context = team.offensive_starter_context;
+  const sos = Object.entries(team.early_sos || {}).map(([position, value]) => `${position} ${(value.weeks_1_6_average * 100).toFixed(1)}%`).join(" · ");
   $("#dialog-content").innerHTML = `
     <p class="eyebrow">Fantasy team one-sheet</p><h2>${team.name}</h2><p>Bye ${team.bye || "—"}</p>
     <h3>Draftable player map</h3><ul class="team-player-list">${team.players.slice(0, 12).map((p) => `<li><strong>${p.player}</strong> · ${p.position} · composite ${p.rank}</li>`).join("")}</ul>
     <h3>Verified decision context</h3><ul class="source-list">${notes}</ul>
+    <h3>Early schedule</h3><p>${sos || "No current schedule snapshot."} <small>(positive is easier)</small></p>
+    <h3>Depth-chart change markers</h3><p>${context["2026_acquisitions"]} projected offensive starters acquired in 2026 · ${context["2026_draft_picks"]} rookie starters · ${context.injured_inactive} injured/inactive starters</p>
     <h3>Research paths</h3><ul class="source-list">${Object.entries(team.source_links).map(([name, url]) => `<li><a href="${url}" target="_blank" rel="noreferrer">${name.replaceAll("_", " ")}</a></li>`).join("")}</ul>`;
   $("#detail-dialog").showModal();
 }
@@ -261,7 +317,11 @@ function openSearch() {
 }
 
 function openTuning() {
-  const labels = { availability: "Availability risk", roster: "Roster need", bye: "Bye protection", history: "League history", tiers: "Tier cliffs", context: "Verified context" };
+  const labels = {
+    availability: "Availability risk", roster: "Roster need", bye: "Bye protection", history: "League history",
+    tiers: "Tier cliffs", context: "Verified context", injuryRisk: "Injury model", rookieUpside: "Rookie upside",
+    earlySchedule: "Weeks 1–6 SOS", draftSharks: "DS composite", newsContext: "Reviewed news"
+  };
   $("#tuning-controls").replaceChildren(...Object.entries(labels).map(([key, label]) => {
     const wrapper = document.createElement("label");
     wrapper.className = "tuning-control";
@@ -278,6 +338,54 @@ function saveTuning() {
   $("#tuning-dialog").close();
   render();
 }
+
+async function refreshAndRebuild() {
+  const button = $("#refresh-rebuild");
+  const original = button.textContent;
+  button.disabled = true;
+  button.textContent = "Rebuilding…";
+  try {
+    const draftedPlayers = state.picks.filter((pick) => pick.type !== "keeper").map((pick) => pick.player);
+    const response = await fetch("/api/refresh-rebuild", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ drafted_players: draftedPlayers })
+    });
+    const result = await response.json();
+    if (!response.ok) throw new Error(result.error || "Rebuild failed");
+    const refreshedData = await fetch(`data/draft-board.json?refresh=${Date.now()}`).then((item) => item.json());
+    const refreshedNames = new Map(refreshedData.players.map((player) => [normalizePlayerName(player.player), player.player]));
+    const missingDraftedPlayers = state.picks.filter((pick) => pick.type !== "keeper" && !refreshedNames.has(normalizePlayerName(pick.player)));
+    if (missingDraftedPlayers.length) {
+      throw new Error(`The refreshed board could not reconcile: ${missingDraftedPlayers.map((pick) => pick.player).join(", ")}.  Recorded picks were preserved.`);
+    }
+    state.data = refreshedData;
+    state.picks = state.picks.filter((pick) => pick.type !== "keeper").map((pick) => ({ ...pick, player: refreshedNames.get(normalizePlayerName(pick.player)) || pick.player }));
+    state.history = state.history.map((snapshot) => JSON.stringify(JSON.parse(snapshot)
+      .filter((pick) => pick.type !== "keeper")
+      .map((pick) => ({ ...pick, player: refreshedNames.get(normalizePlayerName(pick.player)) || pick.player }))));
+    autoApplyKeepers();
+    persist();
+    render();
+    const warnings = result.warnings?.length ? `  ${result.warnings.join(" ")}` : "";
+    window.alert(`Rankings rebuilt successfully.  Recorded picks and tuning settings were preserved.${warnings}`);
+  } catch (error) {
+    window.alert(`The active draft was not changed.  ${error.message}`);
+  } finally {
+    button.disabled = false;
+    button.textContent = original;
+  }
+}
+
+function resetDraft() {
+  if (!window.confirm("Clear every recorded live pick and begin a new draft?  Confirmed keepers and tuning settings will remain.")) return;
+  state.picks = [];
+  state.history = [];
+  autoApplyKeepers();
+  persist();
+  render();
+}
+
 function renderSearch(query) {
   const words = query.trim().toLowerCase();
   const players = availablePlayers().filter((p) => !words || p.player.toLowerCase().includes(words)).slice(0, 20);
@@ -312,7 +420,7 @@ function render() {
   renderList("#wildcard-list", recs.wildcard, "wildcard", recs.target, recs.next);
   const unknown = state.data.draft.unknown_inputs;
   $("#data-alert").classList.toggle("visible", unknown.length > 0);
-  $("#data-alert").textContent = `Working assumptions: Stafford is reserved at pick 64.  Still needed before draft day: ${unknown.slice(0, 2).join("; ").toLowerCase()}.`;
+  $("#data-alert").textContent = `Stafford is confirmed at pick 64.  Still needed before draft day: ${unknown.slice(0, 2).join("; ").toLowerCase()}.`;
   $("#undo").disabled = !state.history.length;
 }
 
@@ -326,6 +434,8 @@ async function init() {
   });
   $("#open-board").addEventListener("click", openSearch);
   $("#open-tuning").addEventListener("click", openTuning);
+  $("#refresh-rebuild").addEventListener("click", refreshAndRebuild);
+  $("#reset-draft").addEventListener("click", resetDraft);
   $("#save-tuning").addEventListener("click", saveTuning);
   $("#reset-tuning").addEventListener("click", () => {
     document.querySelectorAll("[data-weight]").forEach((input) => {

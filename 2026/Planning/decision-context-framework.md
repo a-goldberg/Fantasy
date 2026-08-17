@@ -4,6 +4,8 @@
 
 Context may move a player within a tier or break a close decision.  It should not overpower multiple current expert rankings unless the underlying change is concrete, material, and well supported.
 
+Current quantitative modifiers are intentionally bounded: injury risk can subtract at most three points; rookie upside can add at most four and phases in after the early rounds; Weeks 1–6 strength of schedule can move a player at most 2.5 points; and the partial DraftSharks Superflex composite can move a player at most three points.  Each has its own tuning control.
+
 ## Signal test
 
 A note can affect the optimized score only when it has all of the following:
@@ -14,6 +16,8 @@ A note can affect the optimized score only when it has all of the following:
 - a direction and bounded adjustment;
 - confidence of at least 0.60;
 - a short explanation of the fantasy mechanism, not merely the event.
+
+Team-level notes may specify the positions they affect.  For example, verified offensive-line deterioration could apply to RB and QB, while confirmed defensive absences could apply a small game-environment adjustment to the opposing offense.  The relationship must be explicit; the system does not turn a general headline into a chain of speculative player boosts.
 
 Narrative-only notes remain visible for research if useful, but their ranking adjustment is zero.  Examples include generic coach praise, an isolated practice highlight, or “best shape of his life” reporting without evidence of a changed role.
 

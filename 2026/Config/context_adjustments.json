@@ -6,6 +6,13 @@
     "minimum_confidence_for_ranking_adjustment": 0.6,
     "narrative_only_adjustment": 0
   },
+  "model_limits": {
+    "injury_risk_maximum_penalty": -3,
+    "rookie_upside_maximum_bonus": 4,
+    "early_schedule_maximum_adjustment": 2.5,
+    "draftsharks_composite_maximum_adjustment": 3,
+    "unreviewed_news_adjustment": 0
+  },
   "signal_classes": {
     "role": {"default_weight": 1.0, "examples": ["depth-chart promotion", "open targets", "route participation"]},
     "health": {"default_weight": 1.0, "examples": ["confirmed injury", "return timetable", "recurrence risk"]},

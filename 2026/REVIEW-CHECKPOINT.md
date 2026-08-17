@@ -20,6 +20,11 @@ Date: Aug. 16, 2026
 - Added live pick entry, undo, automatic Stafford reservation at pick 64, roster tracking, recalculation after every pick, player research cards, and 32 NFL team-sheet foundations.
 - Separated market availability from player quality and capped sourced context adjustments; unsourced narrative has exactly zero ranking effect.
 - Added a validation gate covering player-pool size, duplicate names, positions, ADP match rate, all 32 team sheets, Goldberg's snake picks, and the Stafford keeper slot.
+- Added the reported 2026 pick swap: Barry owns Jeff's Round 12 selection (pick 116), and Jeff owns Barry's Round 17 selection (pick 168).  Live pick ownership now follows the trade map.
+- Marked Matthew Stafford as Goldberg's confirmed Round 7 keeper at pick 64.
+- Added current DraftSharks injury risk, 2026 rookie scores, Weeks 1–6 positional schedules, and the partial public Superflex composite as separately tunable inputs.
+- Added current RotoWire and ESPN news snapshots plus all-team Ourlads offensive depth charts.  Unreviewed news remains zero-weight until its fantasy mechanism is verified.
+- Split maintenance into **Refresh & Rebuild**, which preserves picks and tuning while refreshing and validating the board, and **Reset Draft**, which clears live selections only after confirmation and reapplies confirmed keepers.
 
 ## Superseded
 
@@ -28,7 +33,7 @@ Any prior manager-level analysis derived from the incorrectly renamed draft work
 ## Waiting on user/external state
 
 1. The league-wide keeper declarations.
-2. Confirmation of final 2026 traded picks from Yahoo.
+2. Confirmation that the Barry/Jeff swap is the complete 2026 traded-pick list.
 3. Confirmation that Stafford has been formally declared as Goldberg's seventh-round keeper.
 4. Final keeper and traded-pick state before a live draft board is frozen.
 
