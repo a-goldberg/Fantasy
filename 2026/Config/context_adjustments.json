@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "rules": {
+    "maximum_single_context_adjustment": 4,
+    "maximum_total_context_adjustment": 8,
+    "minimum_confidence_for_ranking_adjustment": 0.6,
+    "narrative_only_adjustment": 0
+  },
+  "signal_classes": {
+    "role": {"default_weight": 1.0, "examples": ["depth-chart promotion", "open targets", "route participation"]},
+    "health": {"default_weight": 1.0, "examples": ["confirmed injury", "return timetable", "recurrence risk"]},
+    "environment": {"default_weight": 0.7, "examples": ["quarterback change", "offensive line", "pace and scoring"]},
+    "scheme": {"default_weight": 0.6, "examples": ["coordinator change", "personnel usage", "red-zone design"]},
+    "development": {"default_weight": 0.4, "examples": ["rookie role", "year-two progression", "camp performance"]},
+    "narrative": {"default_weight": 0.0, "examples": ["best shape of his life", "coach praise without role evidence", "isolated highlight"]}
+  },
+  "player_adjustments": [],
+  "team_adjustments": [],
+  "note": "Empty by design. Add only dated, sourced observations; the application never invents a contextual pro or con."
+}

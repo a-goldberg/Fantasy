@@ -1,0 +1,104 @@
+{
+  "version": 1,
+  "league_format": {
+    "teams": 10,
+    "rounds": 17,
+    "scoring": "non-PPR",
+    "starting_qb": 2,
+    "starting_rb": 2,
+    "starting_wr": 3,
+    "starting_te": 1,
+    "starting_flex": 1,
+    "bench": 6
+  },
+  "roster_constructions": {
+    "three_qb_wr_depth": {
+      "QB": 3,
+      "RB": 5,
+      "WR": 6,
+      "TE": 1,
+      "K": 1,
+      "DST": 1
+    },
+    "four_qb": {
+      "QB": 4,
+      "RB": 5,
+      "WR": 5,
+      "TE": 1,
+      "K": 1,
+      "DST": 1
+    },
+    "two_te": {
+      "QB": 3,
+      "RB": 5,
+      "WR": 5,
+      "TE": 2,
+      "K": 1,
+      "DST": 1
+    }
+  },
+  "hard_constraints": {
+    "minimum_qb": 3,
+    "minimum_wr": 5,
+    "kickers": 1,
+    "defenses": 1,
+    "qb1_qb2_qb3_distinct_byes": true,
+    "end_state_bye_coverage": "For every bye week, non-bye players must still cover the mandatory starters at QB, RB, WR, and TE.",
+    "do_not_invent_missing_player_data": true
+  },
+  "soft_targets": {
+    "preferred_wr": 6,
+    "first_wr_by_round": 4,
+    "three_wr_by_round": 8,
+    "late_wr_breakout_candidates": 2,
+    "rb_handcuff_or_contingency_backs": {
+      "minimum": 1,
+      "target": 2,
+      "starter_ownership_required": false
+    },
+    "fourth_qb": {
+      "allowed": true,
+      "preferred_profile": "rookie, uncertain current starter, or high-upside backup with a credible path to starts",
+      "condition": "Do not sacrifice the fifth WR, mandatory bye coverage, or a major tier value."
+    },
+    "k_dst_timing": "Prefer the final three rounds unless a major value or league run changes replacement cost."
+  },
+  "bye_penalties": {
+    "QB": "Very high; do not duplicate among the first three.",
+    "WR": "Escalate sharply when a bye would leave fewer than three playable WRs.",
+    "RB": "Escalate sharply when a bye would leave fewer than two playable RBs.",
+    "TE": "Escalate when no playable TE remains.",
+    "overall": "Apply an increasing penalty after three rostered players share a bye, but positional coverage is the decisive test."
+  },
+  "wr_breakout_signals": [
+    "projected route participation",
+    "open targets and target competition",
+    "three-WR personnel usage",
+    "quarterback and offensive environment",
+    "year-two or year-three development",
+    "draft capital and athletic profile",
+    "red-zone role",
+    "depth-chart movement",
+    "expert rank materially above market ADP",
+    "positive coaching or scheme change"
+  ],
+  "rb_contingency_signals": [
+    "clear next player up",
+    "three-down or goal-line ability if promoted",
+    "offensive-line quality",
+    "standalone weekly role",
+    "fragility or uncertainty ahead on depth chart",
+    "late cost relative to contingency upside"
+  ],
+  "recommendation_components": [
+    "base player quality",
+    "league-adjusted value",
+    "market availability before next pick",
+    "tier cliff",
+    "roster construction need",
+    "bye coverage",
+    "health and role risk",
+    "upside and contingency value",
+    "historical opponent demand"
+  ]
+}

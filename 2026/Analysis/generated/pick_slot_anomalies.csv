@@ -1,0 +1,57 @@
+season,round,pick_in_round,overall_pick,manager,player,keeper_flag,position,nominal_slot,home_slot,slot_deviation,anomaly_type
+2019,2,6,16,Barry,Odell Beckham Jr.,False,WR,5,8,True,confirmed-traded-pick
+2019,2,7,17,Greenspan,Mike Evans,False,WR,4,7,True,confirmed-traded-pick
+2019,3,1,21,Barry,Todd Gurley,False,RB,1,8,True,confirmed-traded-pick
+2019,3,4,24,Big Leiber,Amari Cooper,False,WR,4,3,True,confirmed-traded-pick
+2019,4,3,33,Tompkins,Devonta Freeman,False,RB,8,5,True,confirmed-traded-pick
+2019,4,4,34,Jeff,Duke Johnson,False,RB,7,4,True,confirmed-traded-pick
+2019,5,2,42,Barry,Josh Jacobs,False,RB,2,8,True,confirmed-traded-pick
+2019,5,5,45,Greenspan,Robert Woods,False,WR,5,7,True,confirmed-traded-pick
+2019,6,1,51,Greenspan,Josh Gordon,False,WR,10,7,True,confirmed-traded-pick
+2019,6,2,52,Greenspan,Drew Brees,False,QB,9,7,True,confirmed-traded-pick
+2019,6,3,53,Ori,Carson Wentz,False,QB,8,1,True,confirmed-traded-pick
+2019,6,10,60,Greenspan,Jameis Winston,False,QB,1,7,True,confirmed-traded-pick
+2019,8,4,74,Tompkins,Jimmy Garoppolo,False,QB,7,5,True,confirmed-traded-pick
+2019,9,7,87,Goldberg,Jared Cook,False,TE,7,9,True,confirmed-traded-pick
+2019,9,8,88,Nalick,Austin Ekeler,False,RB,8,2,True,confirmed-traded-pick
+2019,10,2,92,Greenspan,Miles Sanders,False,RB,9,7,True,confirmed-traded-pick
+2019,10,4,94,Goldberg,Derek Carr,False,QB,7,9,True,confirmed-traded-pick
+2019,11,7,107,Ori,Austin Hooper,False,TE,7,1,True,confirmed-traded-pick
+2019,17,3,163,Jeff,Seattle,False,DST,3,4,True,confirmed-traded-pick
+2019,17,7,167,Abe,Minnesota,False,DST,7,10,True,confirmed-traded-pick
+2020,3,2,22,Tompkins,Deshaun Watson,False,QB,2,6,True,confirmed-traded-pick
+2020,3,3,23,Jeff,Jonathan Taylor,False,RB,3,9,True,confirmed-traded-pick
+2020,3,5,25,Jeff,DeAndre Hopkins,False,WR,5,9,True,confirmed-traded-pick
+2020,4,2,32,Big Leiber,DJ Moore,False,WR,9,3,True,confirmed-traded-pick
+2020,4,4,34,Tompkins,Cam Akers,False,RB,7,6,True,confirmed-traded-pick
+2020,4,7,37,Tompkins,Carson Wentz,False,QB,4,6,True,confirmed-traded-pick
+2020,5,6,46,Greenspan,Raheem Mostert,False,RB,6,2,True,confirmed-traded-pick
+2020,5,8,48,Jeff,Cam Newton,False,QB,8,9,True,confirmed-traded-pick
+2020,5,9,49,Barry,Allen Robinson,False,WR,9,5,True,confirmed-traded-pick
+2020,6,5,55,Ori,David Montgomery,False,RB,6,4,True,confirmed-traded-pick
+2020,7,6,66,Abe,DJ Chark,False,WR,6,7,True,confirmed-traded-pick
+2020,7,8,68,Greenspan,Robert Woods,False,WR,8,2,True,confirmed-traded-pick
+2020,7,9,69,Nalick,Hollywood Brown,False,WR,9,8,True,confirmed-traded-pick
+2020,8,9,79,Nalick,Jared Goff,False,QB,2,8,True,confirmed-traded-pick
+2021,1,1,1,Nalick,Christian McCaffrey,False,RB,1,5,True,confirmed-traded-pick
+2021,1,9,9,Nalick,Tyreek Hill,False,WR,9,5,True,confirmed-traded-pick
+2021,16,6,156,Jeff,Greg Zuerlein,False,K,5,1,True,confirmed-traded-pick
+2021,17,5,165,Ori,Rhamondre Stevenson,False,RB,5,9,True,confirmed-traded-pick
+2023,2,2,12,Abe,Stefon Diggs,False,WR,9,4,True,confirmed-traded-pick
+2023,3,1,21,Tompkins,Davante Adams,False,WR,1,10,True,confirmed-traded-pick
+2023,4,6,36,Tompkins,Amari Cooper,False,WR,5,10,True,confirmed-traded-pick
+2023,6,1,51,Big Leiber,Breece Hall,False,RB,10,5,True,confirmed-traded-pick
+2023,7,10,70,Barry,DeVonta Smith,True,WR,10,1,True,confirmed-traded-pick
+2023,8,7,77,Jeff,Kyle Pitts Sr.,False,TE,4,9,True,confirmed-traded-pick
+2023,13,7,127,Tompkins,David Njoku,False,TE,7,10,True,confirmed-traded-pick
+2023,17,10,170,Greenspan,Riley Patterson,False,K,10,7,True,confirmed-traded-pick
+2024,1,7,7,Greenspan,Tyreek Hill,False,WR,7,6,True,confirmed-traded-pick
+2024,2,7,17,Tompkins,Derrick Henry,False,RB,4,1,True,confirmed-traded-pick
+2024,3,2,22,Jeff,Travis Kelce,False,TE,2,8,True,confirmed-traded-pick
+2024,3,10,30,Greenspan,Joe Mixon,False,RB,10,6,True,confirmed-traded-pick
+2024,7,6,66,Barry,Kyle Pitts Sr.,False,TE,6,10,True,confirmed-traded-pick
+2024,7,8,68,Ori,James Conner,False,RB,8,2,True,confirmed-traded-pick
+2024,17,1,161,Nalick,Ka'imi Fairbairn,False,K,1,4,True,confirmed-traded-pick
+2024,17,6,166,Goldberg,Cameron Dicker,False,K,6,7,True,confirmed-traded-pick
+2025,3,9,29,Ori,George Kittle,False,TE,9,3,True,confirmed-traded-pick
+2025,17,3,163,Tompkins,Ray Davis,False,RB,3,9,True,confirmed-traded-pick

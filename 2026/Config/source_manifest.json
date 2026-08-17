@@ -1,0 +1,89 @@
+{
+  "version": 1,
+  "refresh_policy": {
+    "manual": true,
+    "daily_when_active": true,
+    "mandatory_before_draft_session": true,
+    "during_draft": "Use one frozen pre-draft snapshot unless the user explicitly requests a refresh.",
+    "provenance_required": [
+      "source_id",
+      "source_url",
+      "retrieved_at",
+      "source_updated_at",
+      "format",
+      "validation_status"
+    ]
+  },
+  "drive_sources": [
+    {
+      "id": "1PBGqN-gs8w7nq2_LheYAytHoywH-6wwit_CNanHQvbg",
+      "title": "DraftSheets_2026",
+      "adapter": "draftsheets_displayed_name_value",
+      "rule": "Use only NAME and displayed VALUE in QB, RB, WR, and TE tables."
+    },
+    {
+      "id": "1GFljIw0L3CVLVJ3OnBrLSb81drDoND9D4rgeeVPVozk",
+      "title": "Jeff Mans Superflex Rankings",
+      "adapter": "overall_superflex_rankings"
+    },
+    {
+      "id": "1MWb7IXa4gB3Li74w83wv9w-EhRLqkIokOzgLwQQaH8w",
+      "title": "Fantasy Guru 2QB-Superflex-Chart-2026",
+      "adapter": "quarterback_tiers_and_adp"
+    }
+  ],
+  "authenticated_browser_sources": [
+    {
+      "url": "https://www.fantasyguru.com/nfl-projections-offense",
+      "adapter": "offensive_projections",
+      "priority": "high"
+    },
+    {
+      "url": "https://www.fantasyguru.com/2026-fantasy-football-wide-receiver-outlooks",
+      "adapter": "wr_tiers_and_outlook_tags",
+      "priority": "high"
+    },
+    {
+      "url": "https://www.fantasyguru.com/2026-rb-handcuff-grid",
+      "adapter": "rb_contingency_roles",
+      "priority": "high"
+    },
+    {
+      "url": "https://www.fantasyguru.com/nfl-personnel-tendencies-2026",
+      "adapter": "personnel_usage_context",
+      "priority": "medium"
+    },
+    {
+      "url": "https://www.fantasyguru.com/2026-nfl-coaching-system-breakdowns",
+      "adapter": "coaching_and_scheme_context",
+      "priority": "medium"
+    },
+    {
+      "url": "https://www.fantasyguru.com/2026-offensive-line-breakdown",
+      "adapter": "offensive_line_context",
+      "priority": "medium"
+    },
+    {
+      "url": "https://www.fantasyguru.com/nfl-rankings-dynasty",
+      "adapter": "rookie_and_long_term_upside",
+      "priority": "low_for_redraft"
+    }
+  ],
+  "public_market_sources": [
+    {
+      "url": "https://fantasyfootballcalculator.com/adp/2qb/10-team/all",
+      "format": "10-team 2QB",
+      "adapter": "adp"
+    },
+    {
+      "url": "https://draftwizard.fantasypros.com/football/adp/mock-drafts/overall/2qb-std-10-teams",
+      "format": "10-team 2QB standard",
+      "adapter": "adp_with_range"
+    },
+    {
+      "url": "https://www.draftsharks.com/rankings/superflex",
+      "format": "superflex",
+      "adapter": "authenticated_rankings_if_available"
+    }
+  ]
+}

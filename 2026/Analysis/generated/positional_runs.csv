@@ -1,0 +1,81 @@
+season,position,length,start_pick,end_pick,players
+2018,RB,3,1,3,Todd Gurley | Le'Veon Bell | Ezekiel Elliott
+2018,WR,3,21,23,Davante Adams | A.J. Green | Tyreek Hill
+2018,QB,3,49,51,Philip Rivers | Jimmy Garoppolo | Jared Goff
+2018,WR,3,58,60,Josh Gordon | Allen Robinson | Golden Tate
+2018,RB,4,77,80,Marshawn Lynch | Alfred Morris | Dion Lewis | Carlos Hyde
+2018,WR,3,81,83,Corey Davis | Adam Thielen | Nelson Agholor
+2018,QB,4,95,98,Deshaun Watson | Jameis Winston | Case Keenum | Eli Manning
+2018,WR,4,104,107,Will Fuller V | Kenny Stills | Pierre Garcon | Jordy Nelson
+2018,WR,4,111,114,Sterling Shepard | Julian Edelman | Jamison Crowder | Tyler Lockett
+2018,RB,3,115,117,Latavius Murray | Aaron Jones Sr. | Adrian Peterson
+2019,RB,3,1,3,Saquon Barkley | Alvin Kamara | Christian McCaffrey
+2019,WR,4,15,18,JuJu Smith-Schuster | Odell Beckham Jr. | Mike Evans | Tyreek Hill
+2019,WR,4,24,27,Amari Cooper | Antonio Brown | Mike Williams | Adam Thielen
+2019,RB,3,33,35,Devonta Freeman | Duke Johnson | Derrick Henry
+2019,WR,3,49,51,Julian Edelman | T.Y. Hilton | Josh Gordon
+2019,QB,3,69,71,Mitchell Trubisky | Philip Rivers | Kirk Cousins
+2019,WR,4,78,81,Allen Robinson | Dede Westbrook | Alshon Jeffery | A.J. Green
+2019,RB,3,118,120,Tony Pollard | Matt Breida | LeSean McCoy
+2019,QB,3,121,123,Jacoby Brissett | Nick Foles | Marcus Mariota
+2019,WR,3,124,126,John Brown | Keke Coutee | Marvin Jones Jr.
+2019,WR,3,139,141,Geronimo Allison | Devin Funchess | Deebo Samuel
+2020,RB,4,4,7,Ezekiel Elliott | Dalvin Cook | Alvin Kamara | Joe Mixon
+2020,RB,3,9,11,Nick Chubb | Derrick Henry | Clyde Edwards-Helaire
+2020,WR,3,30,32,Odell Beckham Jr. | Adam Thielen | DJ Moore
+2020,WR,3,39,41,A.J. Brown | Amari Cooper | JuJu Smith-Schuster
+2020,WR,6,65,70,Tyler Lockett | DJ Chark | Keenan Allen | Robert Woods | Hollywood Brown | Michael Gallup
+2020,WR,5,74,78,DeVante Parker | T.Y. Hilton | Kenny Golladay | Stefon Diggs | A.J. Green
+2020,WR,4,106,109,Diontae Johnson | Brandin Cooks | Sterling Shepard | Darius Slayton
+2020,WR,3,116,118,Christian Kirk | Deebo Samuel | Henry Ruggs III
+2020,RB,3,123,125,Sony Michel | Adrian Peterson | Matt Breida
+2020,RB,3,133,135,Latavius Murray | Chris Thompson | Duke Johnson
+2020,DST,3,143,145,Baltimore | Buffalo | New England
+2020,RB,3,161,163,Mike Davis | Darrel Williams | Alexander Mattison
+2021,RB,3,5,7,Derrick Henry | Ezekiel Elliott | Alvin Kamara
+2021,WR,4,25,28,Keenan Allen | A.J. Brown | Calvin Ridley | Terry McLaurin
+2021,WR,5,48,52,Amari Cooper | Stefon Diggs | Cooper Kupp | Robert Woods | Jerry Jeudy
+2021,WR,5,57,61,James Robinson | Tyler Lockett | Adam Thielen | Justin Jefferson | Tee Higgins
+2021,WR,3,86,88,CeeDee Lamb | Ja'Marr Chase | Courtland Sutton
+2021,WR,6,110,115,Deebo Samuel | Michael Thomas | Marvin Jones Jr. | Corey Davis | Will Fuller V | DJ Chark
+2021,WR,3,140,142,Elijah Moore | Jarvis Landry | Nelson Agholor
+2022,RB,4,7,10,Derrick Henry | Austin Ekeler | Dalvin Cook | Najee Harris
+2022,QB,3,17,19,Joe Burrow | Russell Wilson | Tom Brady
+2022,RB,3,25,27,Aaron Jones Sr. | Saquon Barkley | Ezekiel Elliott
+2022,QB,5,28,32,Dak Prescott | Aaron Rodgers | Justin Herbert | Derek Carr | Kirk Cousins
+2022,WR,4,38,41,A.J. Brown | Tee Higgins | Keenan Allen | Courtland Sutton
+2022,WR,3,43,45,DJ Moore | Mike Williams | DK Metcalf
+2022,RB,3,58,60,Javonte Williams | Cam Akers | Breece Hall
+2022,WR,4,64,67,Michael Thomas | Jerry Jeudy | Amon-Ra St. Brown | Diontae Johnson
+2022,QB,3,85,87,Jameis Winston | Matt Ryan | Baker Mayfield
+2022,WR,5,111,115,Tyler Lockett | Julio Jones | Drake London | DeAndre Hopkins | Robert Woods
+2022,WR,3,135,137,George Pickens | Marquez Valdes-Scantling | Isaiah McKenzie
+2022,DST,4,147,150,Los Angeles | Indianapolis | New Orleans | Denver
+2022,WR,3,157,159,Sammy Watkins | Skyy Moore | Garrett Wilson
+2023,WR,4,19,22,CeeDee Lamb | A.J. Brown | Davante Adams | Tee Higgins
+2023,RB,3,49,51,Miles Sanders | Jonathan Taylor | Breece Hall
+2023,RB,3,53,55,Alexander Mattison | Rhamondre Stevenson | Cam Akers
+2023,WR,3,68,70,Jaylen Waddle | Terry McLaurin | DeVonta Smith
+2023,RB,3,83,85,James Conner | Michael Pittman Jr. | Javonte Williams
+2023,WR,4,107,110,Courtland Sutton | Hollywood Brown | Rashod Bateman | Brandin Cooks
+2023,WR,3,123,125,Kadarius Toney | Elijah Moore | Zay Flowers
+2023,WR,3,130,132,Odell Beckham Jr. | Allen Lazard | JuJu Smith-Schuster
+2023,DST,3,141,143,San Francisco | Philadelphia | Dallas
+2024,WR,3,19,21,Deebo Samuel | Puka Nacua | Mike Evans
+2024,WR,3,41,43,Jaylen Waddle | DeVonta Smith | Malik Nabers
+2024,WR,3,49,51,Rashee Rice | Amari Cooper | Tee Higgins
+2024,RB,3,52,54,Kyren Williams | Travis Etienne Jr. | De'Von Achane
+2024,TE,3,55,57,Trey McBride | Mark Andrews | Sam LaPorta
+2024,WR,3,73,75,Stefon Diggs | Christian Kirk | Calvin Ridley
+2024,RB,4,76,79,Aaron Jones Sr. | Rhamondre Stevenson | D'Andre Swift | Najee Harris
+2024,WR,3,98,100,Jaxon Smith-Njigba | Keenan Allen | Christian Watson
+2024,RB,4,106,109,Jerome Ford | Austin Ekeler | Zack Moss | Jaylen Warren
+2024,DST,3,148,150,Cleveland | Pittsburgh | New Orleans
+2025,QB,3,2,4,Lamar Jackson | Josh Allen | Jalen Hurts
+2025,WR,3,32,34,Mike Evans | Jaxon Smith-Njigba | Garrett Wilson
+2025,RB,4,57,60,Chase Brown | Tyrone Tracy Jr. | D'Andre Swift | Tony Pollard
+2025,WR,3,62,64,DJ Moore | Calvin Ridley | Xavier Worthy
+2025,WR,3,76,78,Nico Collins | Jaylen Waddle | Brian Thomas Jr.
+2025,RB,3,90,92,David Montgomery | Jordan Mason | Jaylen Warren
+2025,DST,3,143,145,Broncos | Steelers | Texans
+2025,DST,3,148,150,Eagles | Vikings | Ravens

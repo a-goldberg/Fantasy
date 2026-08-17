@@ -1,0 +1,33 @@
+{
+  "season": 2026,
+  "user_manager": "Goldberg",
+  "draft_order": [
+    "Ori",
+    "Tompkins",
+    "Greenspan",
+    "Goldberg",
+    "Jeff",
+    "Joshua",
+    "Big Leiber",
+    "Barry",
+    "Nalick",
+    "Abe"
+  ],
+  "rounds": 17,
+  "keepers": [
+    {
+      "manager": "Goldberg",
+      "player": "Matthew Stafford",
+      "round": 7,
+      "overall_pick": 64,
+      "status": "working assumption",
+      "basis": "User identified Stafford as the only currently worthy keeper; final declaration is still pending."
+    }
+  ],
+  "traded_picks": [],
+  "unknown_inputs": [
+    "Final keeper declarations for all managers",
+    "Any 2026 traded picks",
+    "Confirmation that Stafford has been formally declared"
+  ]
+}

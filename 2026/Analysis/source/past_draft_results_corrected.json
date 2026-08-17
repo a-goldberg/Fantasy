@@ -1,0 +1,7370 @@
+{
+  "source": {
+    "title": "Past Draft Results - 2020-2025",
+    "spreadsheet_id": "1fs9LWLxhtQbxsq6U7dJ9RNOm2RKUMCggxxStngTO0yg",
+    "url": "https://docs.google.com/spreadsheets/d/1fs9LWLxhtQbxsq6U7dJ9RNOm2RKUMCggxxStngTO0yg/edit",
+    "retrieved_at": "2026-08-15",
+    "note": "Corrected manager-name workbook; values read directly from annual tabs and Managers tab."
+  },
+  "sheets": {
+    "2018": [
+      [
+        "Round 1"
+      ],
+      [
+        "1",
+        "Todd Gurley",
+        "Ori"
+      ],
+      [
+        "2",
+        "Le'Veon Bell",
+        "Big Leiber"
+      ],
+      [
+        "3",
+        "Ezekiel Elliott",
+        "Jeff"
+      ],
+      [
+        "4",
+        "Antonio Brown",
+        "Greenspan"
+      ],
+      [
+        "5",
+        "David Johnson",
+        "Nalick"
+      ],
+      [
+        "6",
+        "Alvin Kamara",
+        "Danziger"
+      ],
+      [
+        "7",
+        "Aaron Rodgers",
+        "Tompkins"
+      ],
+      [
+        "8",
+        "Leonard Fournette",
+        "Goldberg"
+      ],
+      [
+        "9",
+        "Saquon Barkley",
+        "Barry"
+      ],
+      [
+        "10",
+        "Odell Beckham Jr.",
+        "Abe"
+      ],
+      [
+        "Round 2"
+      ],
+      [
+        "1",
+        "Kareem Hunt",
+        "Abe"
+      ],
+      [
+        "2",
+        "Julio Jones",
+        "Barry"
+      ],
+      [
+        "3",
+        "Melvin Gordon III",
+        "Goldberg"
+      ],
+      [
+        "4",
+        "Michael Thomas",
+        "Tompkins"
+      ],
+      [
+        "5",
+        "Dalvin Cook",
+        "Danziger"
+      ],
+      [
+        "6",
+        "Keenan Allen",
+        "Nalick"
+      ],
+      [
+        "7",
+        "Russell Wilson",
+        "Greenspan"
+      ],
+      [
+        "8",
+        "DeAndre Hopkins",
+        "Jeff"
+      ],
+      [
+        "9",
+        "Tom Brady",
+        "Big Leiber"
+      ],
+      [
+        "10",
+        "Drew Brees",
+        "Ori"
+      ],
+      [
+        "Round 3"
+      ],
+      [
+        "1",
+        "Davante Adams",
+        "Ori"
+      ],
+      [
+        "2",
+        "A.J. Green",
+        "Big Leiber"
+      ],
+      [
+        "3",
+        "Tyreek Hill",
+        "Jeff"
+      ],
+      [
+        "4",
+        "Rob Gronkowski",
+        "Greenspan"
+      ],
+      [
+        "5",
+        "Travis Kelce",
+        "Nalick"
+      ],
+      [
+        "6",
+        "Jordan Howard",
+        "Danziger"
+      ],
+      [
+        "7",
+        "Christian McCaffrey",
+        "Tompkins"
+      ],
+      [
+        "8",
+        "Cam Newton",
+        "Goldberg"
+      ],
+      [
+        "9",
+        "Devonta Freeman",
+        "Barry"
+      ],
+      [
+        "10",
+        "Mike Evans",
+        "Abe"
+      ],
+      [
+        "Round 4"
+      ],
+      [
+        "1",
+        "Joe Mixon",
+        "Abe"
+      ],
+      [
+        "2",
+        "Carson Wentz",
+        "Barry"
+      ],
+      [
+        "3",
+        "T.Y. Hilton",
+        "Goldberg"
+      ],
+      [
+        "4",
+        "Royce Freeman",
+        "Tompkins"
+      ],
+      [
+        "5",
+        "Kirk Cousins",
+        "Danziger"
+      ],
+      [
+        "6",
+        "Amari Cooper",
+        "Nalick"
+      ],
+      [
+        "7",
+        "JuJu Smith-Schuster",
+        "Greenspan"
+      ],
+      [
+        "8",
+        "Ben Roethlisberger",
+        "Jeff"
+      ],
+      [
+        "9",
+        "Andrew Luck",
+        "Big Leiber"
+      ],
+      [
+        "10",
+        "Alex Collins",
+        "Ori"
+      ],
+      [
+        "Round 5"
+      ],
+      [
+        "1",
+        "Stefon Diggs",
+        "Ori"
+      ],
+      [
+        "2",
+        "Larry Fitzgerald",
+        "Big Leiber"
+      ],
+      [
+        "3",
+        "Kenyan Drake",
+        "Jeff"
+      ],
+      [
+        "4",
+        "Jarvis Landry",
+        "Greenspan"
+      ],
+      [
+        "5",
+        "Derrick Henry",
+        "Nalick"
+      ],
+      [
+        "6",
+        "Marvin Jones Jr.",
+        "Danziger"
+      ],
+      [
+        "7",
+        "Matthew Stafford",
+        "Tompkins"
+      ],
+      [
+        "8",
+        "Doug Baldwin",
+        "Goldberg"
+      ],
+      [
+        "9",
+        "Philip Rivers",
+        "Barry"
+      ],
+      [
+        "10",
+        "Jimmy Garoppolo",
+        "Abe"
+      ],
+      [
+        "Round 6"
+      ],
+      [
+        "1",
+        "Jared Goff",
+        "Abe"
+      ],
+      [
+        "2",
+        "Jay Ajayi",
+        "Barry"
+      ],
+      [
+        "3",
+        "Alex Smith",
+        "Goldberg"
+      ],
+      [
+        "4",
+        "LeSean McCoy",
+        "Tompkins"
+      ],
+      [
+        "5",
+        "Demaryius Thomas",
+        "Danziger"
+      ],
+      [
+        "6",
+        "Matt Ryan",
+        "Nalick"
+      ],
+      [
+        "7",
+        "Lamar Miller",
+        "Greenspan"
+      ],
+      [
+        "8",
+        "Josh Gordon",
+        "Jeff"
+      ],
+      [
+        "9",
+        "Allen Robinson",
+        "Big Leiber"
+      ],
+      [
+        "10",
+        "Golden Tate",
+        "Ori"
+      ],
+      [
+        "Round 7"
+      ],
+      [
+        "1",
+        "Marcus Mariota",
+        "Ori"
+      ],
+      [
+        "2",
+        "Rex Burkhead",
+        "Big Leiber"
+      ],
+      [
+        "3",
+        "Patrick Mahomes (K)",
+        "Jeff"
+      ],
+      [
+        "4",
+        "Chris Hogan",
+        "Greenspan"
+      ],
+      [
+        "5",
+        "Zach Ertz (K)",
+        "Nalick"
+      ],
+      [
+        "6",
+        "Jimmy Graham",
+        "Danziger"
+      ],
+      [
+        "7",
+        "Mark Ingram II",
+        "Tompkins"
+      ],
+      [
+        "8",
+        "Brandin Cooks",
+        "Goldberg"
+      ],
+      [
+        "9",
+        "Greg Olsen",
+        "Barry"
+      ],
+      [
+        "10",
+        "Kyle Rudolph",
+        "Abe"
+      ],
+      [
+        "Round 8"
+      ],
+      [
+        "1",
+        "Marquise Goodwin",
+        "Abe"
+      ],
+      [
+        "2",
+        "Emmanuel Sanders",
+        "Barry"
+      ],
+      [
+        "3",
+        "Dak Prescott",
+        "Goldberg"
+      ],
+      [
+        "4",
+        "Michael Crabtree",
+        "Tompkins"
+      ],
+      [
+        "5",
+        "Devin Funchess",
+        "Danziger"
+      ],
+      [
+        "6",
+        "Derek Carr",
+        "Nalick"
+      ],
+      [
+        "7",
+        "Marshawn Lynch",
+        "Greenspan"
+      ],
+      [
+        "8",
+        "Alfred Morris",
+        "Jeff"
+      ],
+      [
+        "9",
+        "Dion Lewis",
+        "Big Leiber"
+      ],
+      [
+        "10",
+        "Carlos Hyde",
+        "Ori"
+      ],
+      [
+        "Round 9"
+      ],
+      [
+        "1",
+        "Corey Davis",
+        "Ori"
+      ],
+      [
+        "2",
+        "Adam Thielen",
+        "Big Leiber"
+      ],
+      [
+        "3",
+        "Nelson Agholor",
+        "Jeff"
+      ],
+      [
+        "4",
+        "Jamaal Williams",
+        "Greenspan"
+      ],
+      [
+        "5",
+        "Chris Carson (K)",
+        "Nalick"
+      ],
+      [
+        "6",
+        "Alshon Jeffery",
+        "Danziger"
+      ],
+      [
+        "7",
+        "Evan Engram",
+        "Tompkins"
+      ],
+      [
+        "8",
+        "Delanie Walker",
+        "Goldberg"
+      ],
+      [
+        "9",
+        "Blake Bortles",
+        "Barry"
+      ],
+      [
+        "10",
+        "Tevin Coleman",
+        "Abe"
+      ],
+      [
+        "Round 10"
+      ],
+      [
+        "1",
+        "Robert Woods",
+        "Abe"
+      ],
+      [
+        "2",
+        "Robbie Chosen",
+        "Barry"
+      ],
+      [
+        "3",
+        "Isaiah Crowell",
+        "Goldberg"
+      ],
+      [
+        "4",
+        "Cooper Kupp",
+        "Tompkins"
+      ],
+      [
+        "5",
+        "Deshaun Watson (K)",
+        "Danziger"
+      ],
+      [
+        "6",
+        "Jameis Winston",
+        "Nalick"
+      ],
+      [
+        "7",
+        "Case Keenum",
+        "Greenspan"
+      ],
+      [
+        "8",
+        "Eli Manning",
+        "Jeff"
+      ],
+      [
+        "9",
+        "Kerryon Johnson",
+        "Big Leiber"
+      ],
+      [
+        "10",
+        "Sammy Watkins",
+        "Ori"
+      ],
+      [
+        "Round 11"
+      ],
+      [
+        "1",
+        "Mitchell Trubisky",
+        "Ori"
+      ],
+      [
+        "2",
+        "Tyrod Taylor",
+        "Big Leiber"
+      ],
+      [
+        "3",
+        "Trey Burton",
+        "Jeff"
+      ],
+      [
+        "4",
+        "Will Fuller V",
+        "Greenspan"
+      ],
+      [
+        "5",
+        "Kenny Stills",
+        "Nalick"
+      ],
+      [
+        "6",
+        "Pierre Garcon",
+        "Danziger"
+      ],
+      [
+        "7",
+        "Jordy Nelson",
+        "Tompkins"
+      ],
+      [
+        "8",
+        "Marlon Mack (K)",
+        "Goldberg"
+      ],
+      [
+        "9",
+        "Kenneth Barber",
+        "Barry"
+      ],
+      [
+        "10",
+        "Tarik Cohen",
+        "Abe"
+      ],
+      [
+        "Round 12"
+      ],
+      [
+        "1",
+        "Sterling Shepard",
+        "Abe"
+      ],
+      [
+        "2",
+        "Julian Edelman",
+        "Barry"
+      ],
+      [
+        "3",
+        "Jamison Crowder",
+        "Goldberg"
+      ],
+      [
+        "4",
+        "Tyler Lockett",
+        "Tompkins"
+      ],
+      [
+        "5",
+        "Latavius Murray",
+        "Danziger"
+      ],
+      [
+        "6",
+        "Aaron Jones Sr.",
+        "Nalick"
+      ],
+      [
+        "7",
+        "Adrian Peterson",
+        "Greenspan"
+      ],
+      [
+        "8",
+        "Andy Dalton",
+        "Jeff"
+      ],
+      [
+        "9",
+        "Rashaad Penny",
+        "Big Leiber"
+      ],
+      [
+        "10",
+        "Jordan Reed",
+        "Ori"
+      ],
+      [
+        "Round 13"
+      ],
+      [
+        "1",
+        "Sony Michel (K)",
+        "Ori"
+      ],
+      [
+        "2",
+        "Randall Cobb",
+        "Big Leiber"
+      ],
+      [
+        "3",
+        "George Kittle",
+        "Jeff"
+      ],
+      [
+        "4",
+        "Sam Darnold",
+        "Greenspan"
+      ],
+      [
+        "5",
+        "David Njoku",
+        "Nalick"
+      ],
+      [
+        "6",
+        "Nick Chubb",
+        "Danziger"
+      ],
+      [
+        "7",
+        "Jacksonville",
+        "Tompkins"
+      ],
+      [
+        "8",
+        "Ronald Jones",
+        "Goldberg"
+      ],
+      [
+        "9",
+        "Minnesota",
+        "Barry"
+      ],
+      [
+        "10",
+        "Chris Thompson",
+        "Abe"
+      ],
+      [
+        "Round 14"
+      ],
+      [
+        "1",
+        "Philadelphia",
+        "Abe"
+      ],
+      [
+        "2",
+        "Kenny Golladay (K)",
+        "Barry"
+      ],
+      [
+        "3",
+        "Jack Doyle",
+        "Goldberg"
+      ],
+      [
+        "4",
+        "Baker Mayfield (K)",
+        "Tompkins"
+      ],
+      [
+        "5",
+        "Los Angeles",
+        "Danziger"
+      ],
+      [
+        "6",
+        "Los Angeles",
+        "Nalick"
+      ],
+      [
+        "7",
+        "Jerick McKinnon",
+        "Greenspan"
+      ],
+      [
+        "8",
+        "Baltimore",
+        "Jeff"
+      ],
+      [
+        "9",
+        "Denver",
+        "Big Leiber"
+      ],
+      [
+        "10",
+        "Kelvin Benjamin",
+        "Ori"
+      ],
+      [
+        "Round 15"
+      ],
+      [
+        "1",
+        "Matt Breida",
+        "Ori"
+      ],
+      [
+        "2",
+        "Anthony Miller",
+        "Big Leiber"
+      ],
+      [
+        "3",
+        "Greg Zuerlein",
+        "Jeff"
+      ],
+      [
+        "4",
+        "Lamar Jackson",
+        "Greenspan"
+      ],
+      [
+        "5",
+        "Bilal Powell",
+        "Nalick"
+      ],
+      [
+        "6",
+        "James White",
+        "Danziger"
+      ],
+      [
+        "7",
+        "Keelan Cole Sr.",
+        "Tompkins"
+      ],
+      [
+        "8",
+        "Stephen Gostkowski",
+        "Goldberg"
+      ],
+      [
+        "9",
+        "Justin Tucker",
+        "Barry"
+      ],
+      [
+        "10",
+        "Danny Amendola",
+        "Abe"
+      ],
+      [
+        "Round 16"
+      ],
+      [
+        "1",
+        "Daniel Carlson",
+        "Abe"
+      ],
+      [
+        "2",
+        "Duke Johnson",
+        "Barry"
+      ],
+      [
+        "3",
+        "Houston",
+        "Goldberg"
+      ],
+      [
+        "4",
+        "Jordan Wilkins",
+        "Tompkins"
+      ],
+      [
+        "5",
+        "Jake Elliott",
+        "Danziger"
+      ],
+      [
+        "6",
+        "Wil Lutz",
+        "Nalick"
+      ],
+      [
+        "7",
+        "James Conner (K)",
+        "Greenspan"
+      ],
+      [
+        "8",
+        "Ameer Abdullah",
+        "Jeff"
+      ],
+      [
+        "9",
+        "Allen Hurns",
+        "Big Leiber"
+      ],
+      [
+        "10",
+        "New Orleans",
+        "Ori"
+      ],
+      [
+        "Round 17"
+      ],
+      [
+        "1",
+        "Matt Bryant",
+        "Ori"
+      ],
+      [
+        "2",
+        "Chris Boswell",
+        "Big Leiber"
+      ],
+      [
+        "3",
+        "DeSean Jackson",
+        "Jeff"
+      ],
+      [
+        "4",
+        "Green Bay",
+        "Greenspan"
+      ],
+      [
+        "5",
+        "John Brown",
+        "Nalick"
+      ],
+      [
+        "6",
+        "Mason Rudolph",
+        "Danziger"
+      ],
+      [
+        "7",
+        "Matt Prater",
+        "Tompkins"
+      ],
+      [
+        "8",
+        "Austin Ekeler",
+        "Goldberg"
+      ],
+      [
+        "9",
+        "Dede Westbrook",
+        "Barry"
+      ],
+      [
+        "10",
+        "Spencer Ware",
+        "Abe"
+      ]
+    ],
+    "2019": [
+      [
+        "Round 1"
+      ],
+      [
+        "1",
+        "Saquon Barkley",
+        "Ori"
+      ],
+      [
+        "2",
+        "Alvin Kamara",
+        "Nalick"
+      ],
+      [
+        "3",
+        "Christian McCaffrey",
+        "Big Leiber"
+      ],
+      [
+        "4",
+        "DeAndre Hopkins",
+        "Jeff"
+      ],
+      [
+        "5",
+        "Ezekiel Elliott",
+        "Tompkins"
+      ],
+      [
+        "6",
+        "Dalvin Cook",
+        "Danziger"
+      ],
+      [
+        "7",
+        "David Johnson",
+        "Greenspan"
+      ],
+      [
+        "8",
+        "Davante Adams",
+        "Barry"
+      ],
+      [
+        "9",
+        "Le'Veon Bell",
+        "Goldberg"
+      ],
+      [
+        "10",
+        "Nick Chubb",
+        "Abe"
+      ],
+      [
+        "Round 2"
+      ],
+      [
+        "1",
+        "Michael Thomas",
+        "Abe"
+      ],
+      [
+        "2",
+        "Julio Jones",
+        "Goldberg"
+      ],
+      [
+        "3",
+        "Travis Kelce",
+        "Barry"
+      ],
+      [
+        "4",
+        "Joe Mixon",
+        "Greenspan"
+      ],
+      [
+        "5",
+        "JuJu Smith-Schuster",
+        "Danziger"
+      ],
+      [
+        "6",
+        "Odell Beckham Jr.",
+        "Barry"
+      ],
+      [
+        "7",
+        "Mike Evans",
+        "Greenspan"
+      ],
+      [
+        "8",
+        "Tyreek Hill",
+        "Big Leiber"
+      ],
+      [
+        "9",
+        "Damien Williams",
+        "Nalick"
+      ],
+      [
+        "10",
+        "Aaron Rodgers",
+        "Ori"
+      ],
+      [
+        "Round 3"
+      ],
+      [
+        "1",
+        "Todd Gurley",
+        "Barry"
+      ],
+      [
+        "2",
+        "Keenan Allen",
+        "Nalick"
+      ],
+      [
+        "3",
+        "Leonard Fournette",
+        "Big Leiber"
+      ],
+      [
+        "4",
+        "Amari Cooper",
+        "Big Leiber"
+      ],
+      [
+        "5",
+        "Antonio Brown",
+        "Tompkins"
+      ],
+      [
+        "6",
+        "Mike Williams",
+        "Danziger"
+      ],
+      [
+        "7",
+        "Adam Thielen",
+        "Greenspan"
+      ],
+      [
+        "8",
+        "Kerryon Johnson",
+        "Barry"
+      ],
+      [
+        "9",
+        "George Kittle",
+        "Goldberg"
+      ],
+      [
+        "10",
+        "Aaron Jones Sr.",
+        "Abe"
+      ],
+      [
+        "Round 4"
+      ],
+      [
+        "1",
+        "Stefon Diggs",
+        "Abe"
+      ],
+      [
+        "2",
+        "Matt Ryan",
+        "Goldberg"
+      ],
+      [
+        "3",
+        "Devonta Freeman",
+        "Tompkins"
+      ],
+      [
+        "4",
+        "Duke Johnson",
+        "Jeff"
+      ],
+      [
+        "5",
+        "Derrick Henry",
+        "Danziger"
+      ],
+      [
+        "6",
+        "Mark Ingram II",
+        "Tompkins"
+      ],
+      [
+        "7",
+        "Patrick Mahomes (K)",
+        "Jeff"
+      ],
+      [
+        "8",
+        "Russell Wilson",
+        "Big Leiber"
+      ],
+      [
+        "9",
+        "Chris Godwin Jr.",
+        "Nalick"
+      ],
+      [
+        "10",
+        "Tyler Lockett",
+        "Ori"
+      ],
+      [
+        "Round 5"
+      ],
+      [
+        "1",
+        "David Montgomery",
+        "Ori"
+      ],
+      [
+        "2",
+        "Josh Jacobs",
+        "Barry"
+      ],
+      [
+        "3",
+        "Brandin Cooks",
+        "Big Leiber"
+      ],
+      [
+        "4",
+        "Phillip Lindsay",
+        "Jeff"
+      ],
+      [
+        "5",
+        "Robert Woods",
+        "Greenspan"
+      ],
+      [
+        "6",
+        "Jared Goff",
+        "Danziger"
+      ],
+      [
+        "7",
+        "O.J. Howard",
+        "Greenspan"
+      ],
+      [
+        "8",
+        "Cam Newton",
+        "Barry"
+      ],
+      [
+        "9",
+        "Julian Edelman",
+        "Goldberg"
+      ],
+      [
+        "10",
+        "T.Y. Hilton",
+        "Abe"
+      ],
+      [
+        "Round 6"
+      ],
+      [
+        "1",
+        "Josh Gordon",
+        "Greenspan"
+      ],
+      [
+        "2",
+        "Drew Brees",
+        "Greenspan"
+      ],
+      [
+        "3",
+        "Carson Wentz",
+        "Ori"
+      ],
+      [
+        "4",
+        "Melvin Gordon III",
+        "Greenspan"
+      ],
+      [
+        "5",
+        "Hunter Henry",
+        "Danziger"
+      ],
+      [
+        "6",
+        "Evan Engram",
+        "Tompkins"
+      ],
+      [
+        "7",
+        "Ben Roethlisberger",
+        "Jeff"
+      ],
+      [
+        "8",
+        "Zach Ertz (K)",
+        "Big Leiber"
+      ],
+      [
+        "9",
+        "Chris Carson (K)",
+        "Nalick"
+      ],
+      [
+        "10",
+        "Jameis Winston",
+        "Greenspan"
+      ],
+      [
+        "Round 7"
+      ],
+      [
+        "1",
+        "Robbie Chosen",
+        "Ori"
+      ],
+      [
+        "2",
+        "Lamar Jackson",
+        "Nalick"
+      ],
+      [
+        "3",
+        "Kyler Murray",
+        "Big Leiber"
+      ],
+      [
+        "4",
+        "Tyler Boyd",
+        "Jeff"
+      ],
+      [
+        "5",
+        "Will Fuller V",
+        "Tompkins"
+      ],
+      [
+        "6",
+        "Deshaun Watson (K)",
+        "Danziger"
+      ],
+      [
+        "7",
+        "Dak Prescott",
+        "Greenspan"
+      ],
+      [
+        "8",
+        "Cooper Kupp",
+        "Barry"
+      ],
+      [
+        "9",
+        "Mitchell Trubisky",
+        "Goldberg"
+      ],
+      [
+        "10",
+        "Philip Rivers",
+        "Abe"
+      ],
+      [
+        "Round 8"
+      ],
+      [
+        "1",
+        "Kirk Cousins",
+        "Abe"
+      ],
+      [
+        "2",
+        "Marlon Mack (K)",
+        "Goldberg"
+      ],
+      [
+        "3",
+        "Tom Brady",
+        "Barry"
+      ],
+      [
+        "4",
+        "Jimmy Garoppolo",
+        "Tompkins"
+      ],
+      [
+        "5",
+        "Jarvis Landry",
+        "Danziger"
+      ],
+      [
+        "6",
+        "Tevin Coleman",
+        "Tompkins"
+      ],
+      [
+        "7",
+        "Jordan Howard",
+        "Jeff"
+      ],
+      [
+        "8",
+        "Allen Robinson",
+        "Big Leiber"
+      ],
+      [
+        "9",
+        "Dede Westbrook",
+        "Nalick"
+      ],
+      [
+        "10",
+        "Alshon Jeffery",
+        "Ori"
+      ],
+      [
+        "Round 9"
+      ],
+      [
+        "1",
+        "A.J. Green",
+        "Ori"
+      ],
+      [
+        "2",
+        "Matthew Stafford",
+        "Nalick"
+      ],
+      [
+        "3",
+        "Calvin Ridley",
+        "Big Leiber"
+      ],
+      [
+        "4",
+        "Josh Allen",
+        "Jeff"
+      ],
+      [
+        "5",
+        "DJ Moore",
+        "Tompkins"
+      ],
+      [
+        "6",
+        "James White",
+        "Danziger"
+      ],
+      [
+        "7",
+        "Jared Cook",
+        "Goldberg"
+      ],
+      [
+        "8",
+        "Austin Ekeler",
+        "Nalick"
+      ],
+      [
+        "9",
+        "Christian Kirk",
+        "Goldberg"
+      ],
+      [
+        "10",
+        "Kenyan Drake",
+        "Abe"
+      ],
+      [
+        "Round 10"
+      ],
+      [
+        "1",
+        "Vance McDonald",
+        "Abe"
+      ],
+      [
+        "2",
+        "Miles Sanders",
+        "Greenspan"
+      ],
+      [
+        "3",
+        "Derrius Guice",
+        "Barry"
+      ],
+      [
+        "4",
+        "Derek Carr",
+        "Goldberg"
+      ],
+      [
+        "5",
+        "Sam Darnold",
+        "Danziger"
+      ],
+      [
+        "6",
+        "Corey Davis",
+        "Tompkins"
+      ],
+      [
+        "7",
+        "David Njoku",
+        "Jeff"
+      ],
+      [
+        "8",
+        "Latavius Murray",
+        "Big Leiber"
+      ],
+      [
+        "9",
+        "T.J. Hockenson",
+        "Nalick"
+      ],
+      [
+        "10",
+        "Sony Michel (K)",
+        "Ori"
+      ],
+      [
+        "Round 11"
+      ],
+      [
+        "1",
+        "Larry Fitzgerald",
+        "Ori"
+      ],
+      [
+        "2",
+        "Emmanuel Sanders",
+        "Nalick"
+      ],
+      [
+        "3",
+        "Tarik Cohen",
+        "Big Leiber"
+      ],
+      [
+        "4",
+        "Sammy Watkins",
+        "Jeff"
+      ],
+      [
+        "5",
+        "Baker Mayfield (K)",
+        "Tompkins"
+      ],
+      [
+        "6",
+        "Adrian Peterson",
+        "Danziger"
+      ],
+      [
+        "7",
+        "Austin Hooper",
+        "Ori"
+      ],
+      [
+        "8",
+        "Kenny Golladay (K)",
+        "Barry"
+      ],
+      [
+        "9",
+        "Sterling Shepard",
+        "Goldberg"
+      ],
+      [
+        "10",
+        "Rashaad Penny",
+        "Abe"
+      ],
+      [
+        "Round 12"
+      ],
+      [
+        "1",
+        "Donte Moncrief",
+        "Abe"
+      ],
+      [
+        "2",
+        "Royce Freeman",
+        "Goldberg"
+      ],
+      [
+        "3",
+        "Andy Dalton",
+        "Barry"
+      ],
+      [
+        "4",
+        "Justin Jackson",
+        "Greenspan"
+      ],
+      [
+        "5",
+        "Kareem Hunt",
+        "Danziger"
+      ],
+      [
+        "6",
+        "Marquez Valdes-Scantling",
+        "Tompkins"
+      ],
+      [
+        "7",
+        "Greg Zuerlein",
+        "Jeff"
+      ],
+      [
+        "8",
+        "Tony Pollard",
+        "Big Leiber"
+      ],
+      [
+        "9",
+        "Matt Breida",
+        "Nalick"
+      ],
+      [
+        "10",
+        "LeSean McCoy",
+        "Ori"
+      ],
+      [
+        "Round 13"
+      ],
+      [
+        "1",
+        "Jacoby Brissett",
+        "Ori"
+      ],
+      [
+        "2",
+        "Nick Foles",
+        "Nalick"
+      ],
+      [
+        "3",
+        "Marcus Mariota",
+        "Big Leiber"
+      ],
+      [
+        "4",
+        "John Brown",
+        "Jeff"
+      ],
+      [
+        "5",
+        "Keke Coutee",
+        "Tompkins"
+      ],
+      [
+        "6",
+        "Marvin Jones Jr.",
+        "Danziger"
+      ],
+      [
+        "7",
+        "James Conner (K)",
+        "Greenspan"
+      ],
+      [
+        "8",
+        "Curtis Samuel",
+        "Barry"
+      ],
+      [
+        "9",
+        "Justice Hill",
+        "Goldberg"
+      ],
+      [
+        "10",
+        "Michael Gallup",
+        "Abe"
+      ],
+      [
+        "Round 14"
+      ],
+      [
+        "1",
+        "Kalen Ballage",
+        "Abe"
+      ],
+      [
+        "2",
+        "Dante Pettis",
+        "Goldberg"
+      ],
+      [
+        "3",
+        "Chicago",
+        "Barry"
+      ],
+      [
+        "4",
+        "Jaylen Samuels",
+        "Greenspan"
+      ],
+      [
+        "5",
+        "Justin Tucker",
+        "Danziger"
+      ],
+      [
+        "6",
+        "DeSean Jackson",
+        "Tompkins"
+      ],
+      [
+        "7",
+        "Nelson Agholor",
+        "Jeff"
+      ],
+      [
+        "8",
+        "Darrell Henderson Jr.",
+        "Big Leiber"
+      ],
+      [
+        "9",
+        "Geronimo Allison",
+        "Nalick"
+      ],
+      [
+        "10",
+        "Devin Funchess",
+        "Ori"
+      ],
+      [
+        "Round 15"
+      ],
+      [
+        "1",
+        "Deebo Samuel",
+        "Ori"
+      ],
+      [
+        "2",
+        "Los Angeles",
+        "Nalick"
+      ],
+      [
+        "3",
+        "Buffalo",
+        "Big Leiber"
+      ],
+      [
+        "4",
+        "Gus Edwards",
+        "Jeff"
+      ],
+      [
+        "5",
+        "Philadelphia",
+        "Tompkins"
+      ],
+      [
+        "6",
+        "Mike Davis",
+        "Danziger"
+      ],
+      [
+        "7",
+        "Harrison Butker",
+        "Greenspan"
+      ],
+      [
+        "8",
+        "Stephen Gostkowski",
+        "Barry"
+      ],
+      [
+        "9",
+        "Jacksonville",
+        "Goldberg"
+      ],
+      [
+        "10",
+        "Courtland Sutton",
+        "Abe"
+      ],
+      [
+        "Round 16"
+      ],
+      [
+        "1",
+        "Ka'imi Fairbairn",
+        "Abe"
+      ],
+      [
+        "2",
+        "Wil Lutz",
+        "Goldberg"
+      ],
+      [
+        "3",
+        "Anthony Miller",
+        "Barry"
+      ],
+      [
+        "4",
+        "Los Angeles",
+        "Greenspan"
+      ],
+      [
+        "5",
+        "Cleveland",
+        "Danziger"
+      ],
+      [
+        "6",
+        "Quincy Enunwa",
+        "Tompkins"
+      ],
+      [
+        "7",
+        "Hollywood Brown",
+        "Jeff"
+      ],
+      [
+        "8",
+        "Robbie Gould",
+        "Big Leiber"
+      ],
+      [
+        "9",
+        "Mason Crosby",
+        "Nalick"
+      ],
+      [
+        "10",
+        "Baltimore",
+        "Ori"
+      ],
+      [
+        "Round 17"
+      ],
+      [
+        "1",
+        "Giorgio Tavecchio",
+        "Ori"
+      ],
+      [
+        "2",
+        "Devin Singletary",
+        "Nalick"
+      ],
+      [
+        "3",
+        "Seattle",
+        "Jeff"
+      ],
+      [
+        "4",
+        "Delanie Walker",
+        "Jeff"
+      ],
+      [
+        "5",
+        "Brett Maher",
+        "Tompkins"
+      ],
+      [
+        "6",
+        "Nyheim Miller-Hines",
+        "Danziger"
+      ],
+      [
+        "7",
+        "Minnesota",
+        "Abe"
+      ],
+      [
+        "8",
+        "Mark Andrews",
+        "Barry"
+      ],
+      [
+        "9",
+        "Ty Montgomery II",
+        "Goldberg"
+      ],
+      [
+        "10",
+        "Ryan Tannehill",
+        "Abe"
+      ]
+    ],
+    "2020": [
+      [
+        "Round 1"
+      ],
+      [
+        "1",
+        "Christian McCaffrey",
+        "Goldberg"
+      ],
+      [
+        "2",
+        "Saquon Barkley",
+        "Greenspan"
+      ],
+      [
+        "3",
+        "Patrick Mahomes",
+        "Big Leiber"
+      ],
+      [
+        "4",
+        "Ezekiel Elliott",
+        "Ori"
+      ],
+      [
+        "5",
+        "Dalvin Cook",
+        "Barry"
+      ],
+      [
+        "6",
+        "Alvin Kamara",
+        "Tompkins"
+      ],
+      [
+        "7",
+        "Joe Mixon",
+        "Abe"
+      ],
+      [
+        "8",
+        "Michael Thomas",
+        "Nalick"
+      ],
+      [
+        "9",
+        "Nick Chubb",
+        "Jeff"
+      ],
+      [
+        "10",
+        "Derrick Henry",
+        "Danziger"
+      ],
+      [
+        "Round 2"
+      ],
+      [
+        "1",
+        "Clyde Edwards-Helaire",
+        "Danziger"
+      ],
+      [
+        "2",
+        "Tyreek Hill",
+        "Jeff"
+      ],
+      [
+        "3",
+        "Davante Adams",
+        "Nalick"
+      ],
+      [
+        "4",
+        "Travis Kelce",
+        "Abe"
+      ],
+      [
+        "5",
+        "George Kittle",
+        "Tompkins"
+      ],
+      [
+        "6",
+        "Josh Jacobs",
+        "Barry"
+      ],
+      [
+        "7",
+        "Aaron Jones Sr.",
+        "Ori"
+      ],
+      [
+        "8",
+        "Julio Jones",
+        "Big Leiber"
+      ],
+      [
+        "9",
+        "Mike Evans",
+        "Greenspan"
+      ],
+      [
+        "10",
+        "Chris Carson",
+        "Goldberg"
+      ],
+      [
+        "Round 3"
+      ],
+      [
+        "1",
+        "Dak Prescott",
+        "Goldberg"
+      ],
+      [
+        "2",
+        "Deshaun Watson",
+        "Tompkins"
+      ],
+      [
+        "3",
+        "Jonathan Taylor",
+        "Jeff"
+      ],
+      [
+        "4",
+        "Russell Wilson",
+        "Ori"
+      ],
+      [
+        "5",
+        "DeAndre Hopkins",
+        "Jeff"
+      ],
+      [
+        "6",
+        "Chris Godwin Jr.",
+        "Tompkins"
+      ],
+      [
+        "7",
+        "Todd Gurley",
+        "Abe"
+      ],
+      [
+        "8",
+        "Melvin Gordon III",
+        "Nalick"
+      ],
+      [
+        "9",
+        "Josh Allen",
+        "Jeff"
+      ],
+      [
+        "10",
+        "Odell Beckham Jr.",
+        "Danziger"
+      ],
+      [
+        "Round 4"
+      ],
+      [
+        "1",
+        "Adam Thielen",
+        "Danziger"
+      ],
+      [
+        "2",
+        "DJ Moore",
+        "Big Leiber"
+      ],
+      [
+        "3",
+        "Lamar Jackson",
+        "Nalick"
+      ],
+      [
+        "4",
+        "Cam Akers",
+        "Tompkins"
+      ],
+      [
+        "5",
+        "Miles Sanders",
+        "Tompkins"
+      ],
+      [
+        "6",
+        "Matt Ryan",
+        "Barry"
+      ],
+      [
+        "7",
+        "Carson Wentz",
+        "Tompkins"
+      ],
+      [
+        "8",
+        "David Johnson",
+        "Big Leiber"
+      ],
+      [
+        "9",
+        "A.J. Brown",
+        "Greenspan"
+      ],
+      [
+        "10",
+        "Amari Cooper",
+        "Goldberg"
+      ],
+      [
+        "Round 5"
+      ],
+      [
+        "1",
+        "JuJu Smith-Schuster",
+        "Goldberg"
+      ],
+      [
+        "2",
+        "Tom Brady",
+        "Greenspan"
+      ],
+      [
+        "3",
+        "Kyler Murray (K)",
+        "Big Leiber"
+      ],
+      [
+        "4",
+        "Terry McLaurin",
+        "Ori"
+      ],
+      [
+        "5",
+        "--empty--",
+        "Barry"
+      ],
+      [
+        "6",
+        "Raheem Mostert",
+        "Greenspan"
+      ],
+      [
+        "7",
+        "Aaron Rodgers",
+        "Abe"
+      ],
+      [
+        "8",
+        "Cam Newton",
+        "Jeff"
+      ],
+      [
+        "9",
+        "Allen Robinson",
+        "Barry"
+      ],
+      [
+        "10",
+        "Daniel Jones",
+        "Danziger"
+      ],
+      [
+        "Round 6"
+      ],
+      [
+        "1",
+        "Joe Burrow",
+        "Danziger"
+      ],
+      [
+        "2",
+        "Leonard Fournette",
+        "Jeff"
+      ],
+      [
+        "3",
+        "Austin Ekeler (K)",
+        "Nalick"
+      ],
+      [
+        "4",
+        "Ben Roethlisberger",
+        "Abe"
+      ],
+      [
+        "5",
+        "David Montgomery",
+        "Ori"
+      ],
+      [
+        "6",
+        "Calvin Ridley (K)",
+        "Barry"
+      ],
+      [
+        "7",
+        "DK Metcalf",
+        "Ori"
+      ],
+      [
+        "8",
+        "Kenyan Drake",
+        "Big Leiber"
+      ],
+      [
+        "9",
+        "Mark Ingram II",
+        "Greenspan"
+      ],
+      [
+        "10",
+        "Cooper Kupp",
+        "Goldberg"
+      ],
+      [
+        "Round 7"
+      ],
+      [
+        "1",
+        "Matthew Stafford",
+        "Goldberg"
+      ],
+      [
+        "2",
+        "Baker Mayfield",
+        "Greenspan"
+      ],
+      [
+        "3",
+        "Le'Veon Bell",
+        "Big Leiber"
+      ],
+      [
+        "4",
+        "Zach Ertz",
+        "Ori"
+      ],
+      [
+        "5",
+        "Tyler Lockett",
+        "Barry"
+      ],
+      [
+        "6",
+        "DJ Chark",
+        "Abe"
+      ],
+      [
+        "7",
+        "Keenan Allen",
+        "Abe"
+      ],
+      [
+        "8",
+        "Robert Woods",
+        "Greenspan"
+      ],
+      [
+        "9",
+        "Hollywood Brown",
+        "Nalick"
+      ],
+      [
+        "10",
+        "Michael Gallup",
+        "Danziger"
+      ],
+      [
+        "Round 8"
+      ],
+      [
+        "1",
+        "Devin Singletary",
+        "Danziger"
+      ],
+      [
+        "2",
+        "Darren Waller (K)",
+        "Jeff"
+      ],
+      [
+        "3",
+        "Antonio Gibson (K)",
+        "Nalick"
+      ],
+      [
+        "4",
+        "DeVante Parker",
+        "Abe"
+      ],
+      [
+        "5",
+        "T.Y. Hilton",
+        "Tompkins"
+      ],
+      [
+        "6",
+        "Kenny Golladay",
+        "Barry"
+      ],
+      [
+        "7",
+        "Stefon Diggs (K)",
+        "Ori"
+      ],
+      [
+        "8",
+        "A.J. Green",
+        "Big Leiber"
+      ],
+      [
+        "9",
+        "Jared Goff",
+        "Nalick"
+      ],
+      [
+        "10",
+        "D'Andre Swift",
+        "Goldberg"
+      ],
+      [
+        "Round 9"
+      ],
+      [
+        "1",
+        "Evan Engram",
+        "Goldberg"
+      ],
+      [
+        "2",
+        "J.K. Dobbins",
+        "Greenspan"
+      ],
+      [
+        "3",
+        "Will Fuller V",
+        "Big Leiber"
+      ],
+      [
+        "4",
+        "Jimmy Garoppolo",
+        "Ori"
+      ],
+      [
+        "5",
+        "Tyler Higbee",
+        "Barry"
+      ],
+      [
+        "6",
+        "Tyler Boyd",
+        "Tompkins"
+      ],
+      [
+        "7",
+        "--empty--",
+        "Abe"
+      ],
+      [
+        "8",
+        "Jared Cook",
+        "Nalick"
+      ],
+      [
+        "9",
+        "Teddy Bridgewater",
+        "Jeff"
+      ],
+      [
+        "10",
+        "Kareem Hunt",
+        "Danziger"
+      ],
+      [
+        "Round 10"
+      ],
+      [
+        "1",
+        "Jerry Jeudy",
+        "Danziger"
+      ],
+      [
+        "2",
+        "John Brown",
+        "Jeff"
+      ],
+      [
+        "3",
+        "Zack Moss",
+        "Nalick"
+      ],
+      [
+        "4",
+        "Rob Gronkowski",
+        "Abe"
+      ],
+      [
+        "5",
+        "Ronald Jones",
+        "Tompkins"
+      ],
+      [
+        "6",
+        "Kirk Cousins (K)",
+        "Barry"
+      ],
+      [
+        "7",
+        "Jarvis Landry",
+        "Ori"
+      ],
+      [
+        "8",
+        "Marvin Jones Jr.",
+        "Big Leiber"
+      ],
+      [
+        "9",
+        "James Conner",
+        "Greenspan"
+      ],
+      [
+        "10",
+        "Jordan Howard",
+        "Goldberg"
+      ],
+      [
+        "Round 11"
+      ],
+      [
+        "1",
+        "Ryan Tannehill (K)",
+        "Goldberg"
+      ],
+      [
+        "2",
+        "Gardner Minshew",
+        "Greenspan"
+      ],
+      [
+        "3",
+        "Hunter Henry",
+        "Big Leiber"
+      ],
+      [
+        "4",
+        "Drew Lock",
+        "Ori"
+      ],
+      [
+        "5",
+        "Phillip Lindsay",
+        "Barry"
+      ],
+      [
+        "6",
+        "Diontae Johnson",
+        "Tompkins"
+      ],
+      [
+        "7",
+        "Brandin Cooks",
+        "Abe"
+      ],
+      [
+        "8",
+        "Sterling Shepard",
+        "Nalick"
+      ],
+      [
+        "9",
+        "Darius Slayton",
+        "Jeff"
+      ],
+      [
+        "10",
+        "San Francisco",
+        "Danziger"
+      ],
+      [
+        "Round 12"
+      ],
+      [
+        "1",
+        "CeeDee Lamb (K)",
+        "Danziger"
+      ],
+      [
+        "2",
+        "--empty--",
+        "Jeff"
+      ],
+      [
+        "3",
+        "Tevin Coleman",
+        "Nalick"
+      ],
+      [
+        "4",
+        "Courtland Sutton",
+        "Abe"
+      ],
+      [
+        "5",
+        "Sam Darnold",
+        "Tompkins"
+      ],
+      [
+        "6",
+        "Christian Kirk",
+        "Barry"
+      ],
+      [
+        "7",
+        "Deebo Samuel",
+        "Ori"
+      ],
+      [
+        "8",
+        "Henry Ruggs III",
+        "Big Leiber"
+      ],
+      [
+        "9",
+        "Tyrod Taylor",
+        "Greenspan"
+      ],
+      [
+        "10",
+        "Emmanuel Sanders",
+        "Goldberg"
+      ],
+      [
+        "Round 13"
+      ],
+      [
+        "1",
+        "Hayden Hurst",
+        "Goldberg"
+      ],
+      [
+        "2",
+        "Preston Williams",
+        "Greenspan"
+      ],
+      [
+        "3",
+        "Sony Michel",
+        "Big Leiber"
+      ],
+      [
+        "4",
+        "Adrian Peterson",
+        "Ori"
+      ],
+      [
+        "5",
+        "Matt Breida",
+        "Barry"
+      ],
+      [
+        "6",
+        "Jamison Crowder",
+        "Tompkins"
+      ],
+      [
+        "7",
+        "Marlon Mack",
+        "Abe"
+      ],
+      [
+        "8",
+        "Derek Carr",
+        "Nalick"
+      ],
+      [
+        "9",
+        "Austin Hooper",
+        "Jeff"
+      ],
+      [
+        "10",
+        "Justin Tucker",
+        "Danziger"
+      ],
+      [
+        "Round 14"
+      ],
+      [
+        "1",
+        "Noah Fant",
+        "Danziger"
+      ],
+      [
+        "2",
+        "DeSean Jackson",
+        "Jeff"
+      ],
+      [
+        "3",
+        "Latavius Murray",
+        "Nalick"
+      ],
+      [
+        "4",
+        "Chris Thompson",
+        "Abe"
+      ],
+      [
+        "5",
+        "Duke Johnson",
+        "Tompkins"
+      ],
+      [
+        "6",
+        "Harrison Butker",
+        "Barry"
+      ],
+      [
+        "7",
+        "James White",
+        "Ori"
+      ],
+      [
+        "8",
+        "Tua Tagovailoa (K)",
+        "Big Leiber"
+      ],
+      [
+        "9",
+        "Mark Andrews (K)",
+        "Greenspan"
+      ],
+      [
+        "10",
+        "Pittsburgh",
+        "Goldberg"
+      ],
+      [
+        "Round 15"
+      ],
+      [
+        "1",
+        "Michael Pittman Jr.",
+        "Goldberg"
+      ],
+      [
+        "2",
+        "Benny Snell Jr.",
+        "Greenspan"
+      ],
+      [
+        "3",
+        "Baltimore",
+        "Big Leiber"
+      ],
+      [
+        "4",
+        "Buffalo",
+        "Ori"
+      ],
+      [
+        "5",
+        "New England",
+        "Barry"
+      ],
+      [
+        "6",
+        "Allen Lazard",
+        "Tompkins"
+      ],
+      [
+        "7",
+        "Wil Lutz",
+        "Abe"
+      ],
+      [
+        "8",
+        "Chicago",
+        "Nalick"
+      ],
+      [
+        "9",
+        "Kerryon Johnson",
+        "Jeff"
+      ],
+      [
+        "10",
+        "Dwayne Haskins",
+        "Danziger"
+      ],
+      [
+        "Round 16"
+      ],
+      [
+        "1",
+        "Bryan Edwards",
+        "Danziger"
+      ],
+      [
+        "2",
+        "Carolina",
+        "Jeff"
+      ],
+      [
+        "3",
+        "Anthony Miller",
+        "Nalick"
+      ],
+      [
+        "4",
+        "Minnesota",
+        "Abe"
+      ],
+      [
+        "5",
+        "Philadelphia",
+        "Tompkins"
+      ],
+      [
+        "6",
+        "Tarik Cohen",
+        "Barry"
+      ],
+      [
+        "7",
+        "Robbie Gould",
+        "Ori"
+      ],
+      [
+        "8",
+        "Greg Zuerlein",
+        "Big Leiber"
+      ],
+      [
+        "9",
+        "Indianapolis",
+        "Greenspan"
+      ],
+      [
+        "10",
+        "Matt Prater",
+        "Goldberg"
+      ],
+      [
+        "Round 17"
+      ],
+      [
+        "1",
+        "Mike Davis (K)",
+        "Goldberg"
+      ],
+      [
+        "2",
+        "Darrel Williams",
+        "Greenspan"
+      ],
+      [
+        "3",
+        "Alexander Mattison",
+        "Big Leiber"
+      ],
+      [
+        "4",
+        "Brandon Aiyuk (K)",
+        "Ori"
+      ],
+      [
+        "5",
+        "Mike Gesicki",
+        "Barry"
+      ],
+      [
+        "6",
+        "Zane Gonzalez",
+        "Tompkins"
+      ],
+      [
+        "7",
+        "Mike Williams",
+        "Abe"
+      ],
+      [
+        "8",
+        "Jake Elliott",
+        "Nalick"
+      ],
+      [
+        "9",
+        "Dan Bailey",
+        "Jeff"
+      ],
+      [
+        "10",
+        "Taysom Hill",
+        "Danziger"
+      ]
+    ],
+    "2021": [
+      [
+        "Round 1"
+      ],
+      [
+        "1",
+        "Christian McCaffrey",
+        "Nalick"
+      ],
+      [
+        "2",
+        "Dalvin Cook",
+        "Tompkins"
+      ],
+      [
+        "3",
+        "Patrick Mahomes",
+        "Greenspan"
+      ],
+      [
+        "4",
+        "Davante Adams",
+        "Danziger"
+      ],
+      [
+        "5",
+        "Derrick Henry",
+        "Nalick"
+      ],
+      [
+        "6",
+        "Ezekiel Elliott",
+        "Big Leiber"
+      ],
+      [
+        "7",
+        "Alvin Kamara",
+        "Barry"
+      ],
+      [
+        "8",
+        "Josh Allen",
+        "Goldberg"
+      ],
+      [
+        "9",
+        "Tyreek Hill",
+        "Nalick"
+      ],
+      [
+        "10",
+        "Nick Chubb",
+        "Abe"
+      ],
+      [
+        "Round 2"
+      ],
+      [
+        "1",
+        "Aaron Jones Sr.",
+        "Abe"
+      ],
+      [
+        "2",
+        "Lamar Jackson",
+        "Ori"
+      ],
+      [
+        "3",
+        "Jonathan Taylor",
+        "Goldberg"
+      ],
+      [
+        "4",
+        "Travis Kelce",
+        "Barry"
+      ],
+      [
+        "5",
+        "Kyler Murray (K)",
+        "Big Leiber"
+      ],
+      [
+        "6",
+        "DeAndre Hopkins",
+        "Nalick"
+      ],
+      [
+        "7",
+        "Russell Wilson",
+        "Danziger"
+      ],
+      [
+        "8",
+        "Saquon Barkley",
+        "Greenspan"
+      ],
+      [
+        "9",
+        "Joe Mixon",
+        "Tompkins"
+      ],
+      [
+        "10",
+        "Dak Prescott",
+        "Jeff"
+      ],
+      [
+        "Round 3"
+      ],
+      [
+        "1",
+        "Najee Harris",
+        "Jeff"
+      ],
+      [
+        "2",
+        "DK Metcalf",
+        "Tompkins"
+      ],
+      [
+        "3",
+        "Austin Ekeler (K)",
+        "Greenspan"
+      ],
+      [
+        "4",
+        "Aaron Rodgers",
+        "Danziger"
+      ],
+      [
+        "5",
+        "Keenan Allen",
+        "Nalick"
+      ],
+      [
+        "6",
+        "A.J. Brown",
+        "Big Leiber"
+      ],
+      [
+        "7",
+        "Calvin Ridley (K)",
+        "Barry"
+      ],
+      [
+        "8",
+        "Terry McLaurin",
+        "Goldberg"
+      ],
+      [
+        "9",
+        "George Kittle",
+        "Ori"
+      ],
+      [
+        "10",
+        "Mike Evans",
+        "Abe"
+      ],
+      [
+        "Round 4"
+      ],
+      [
+        "1",
+        "Tom Brady",
+        "Abe"
+      ],
+      [
+        "2",
+        "Chris Carson",
+        "Ori"
+      ],
+      [
+        "3",
+        "Clyde Edwards-Helaire",
+        "Goldberg"
+      ],
+      [
+        "4",
+        "Jalen Hurts",
+        "Barry"
+      ],
+      [
+        "5",
+        "David Montgomery",
+        "Big Leiber"
+      ],
+      [
+        "6",
+        "Antonio Gibson (K)",
+        "Nalick"
+      ],
+      [
+        "7",
+        "Chris Godwin Jr.",
+        "Danziger"
+      ],
+      [
+        "8",
+        "Allen Robinson",
+        "Greenspan"
+      ],
+      [
+        "9",
+        "Matthew Stafford",
+        "Tompkins"
+      ],
+      [
+        "10",
+        "Miles Sanders",
+        "Jeff"
+      ],
+      [
+        "Round 5"
+      ],
+      [
+        "1",
+        "Darren Waller (K)",
+        "Jeff"
+      ],
+      [
+        "2",
+        "T.J. Hockenson",
+        "Tompkins"
+      ],
+      [
+        "3",
+        "Damien Harris",
+        "Greenspan"
+      ],
+      [
+        "4",
+        "Josh Jacobs",
+        "Danziger"
+      ],
+      [
+        "5",
+        "Joe Burrow",
+        "Nalick"
+      ],
+      [
+        "6",
+        "Julio Jones",
+        "Big Leiber"
+      ],
+      [
+        "7",
+        "D'Andre Swift",
+        "Barry"
+      ],
+      [
+        "8",
+        "Amari Cooper",
+        "Goldberg"
+      ],
+      [
+        "9",
+        "Stefon Diggs (K)",
+        "Ori"
+      ],
+      [
+        "10",
+        "Cooper Kupp",
+        "Abe"
+      ],
+      [
+        "Round 6"
+      ],
+      [
+        "1",
+        "Robert Woods",
+        "Abe"
+      ],
+      [
+        "2",
+        "Jerry Jeudy",
+        "Ori"
+      ],
+      [
+        "3",
+        "Kyle Pitts Sr.",
+        "Goldberg"
+      ],
+      [
+        "4",
+        "Gus Edwards",
+        "Barry"
+      ],
+      [
+        "5",
+        "Matt Ryan",
+        "Big Leiber"
+      ],
+      [
+        "6",
+        "Justin Herbert (K)",
+        "Nalick"
+      ],
+      [
+        "7",
+        "James Robinson (K)",
+        "Danziger"
+      ],
+      [
+        "8",
+        "Tyler Lockett",
+        "Greenspan"
+      ],
+      [
+        "9",
+        "Adam Thielen",
+        "Tompkins"
+      ],
+      [
+        "10",
+        "Justin Jefferson (K)",
+        "Jeff"
+      ],
+      [
+        "Round 7"
+      ],
+      [
+        "1",
+        "Tee Higgins",
+        "Jeff"
+      ],
+      [
+        "2",
+        "Darrell Henderson Jr.",
+        "Tompkins"
+      ],
+      [
+        "3",
+        "Diontae Johnson",
+        "Greenspan"
+      ],
+      [
+        "4",
+        "Chase Claypool",
+        "Danziger"
+      ],
+      [
+        "5",
+        "Noah Fant",
+        "Nalick"
+      ],
+      [
+        "6",
+        "Chase Edmonds",
+        "Big Leiber"
+      ],
+      [
+        "7",
+        "Kirk Cousins (K)",
+        "Barry"
+      ],
+      [
+        "8",
+        "Trevor Lawrence",
+        "Goldberg"
+      ],
+      [
+        "9",
+        "Raheem Mostert",
+        "Ori"
+      ],
+      [
+        "10",
+        "DJ Moore",
+        "Abe"
+      ],
+      [
+        "Round 8"
+      ],
+      [
+        "1",
+        "Logan Thomas",
+        "Abe"
+      ],
+      [
+        "2",
+        "Justin Fields",
+        "Ori"
+      ],
+      [
+        "3",
+        "Ryan Tannehill (K)",
+        "Goldberg"
+      ],
+      [
+        "4",
+        "Kareem Hunt",
+        "Barry"
+      ],
+      [
+        "5",
+        "Trey Lance",
+        "Big Leiber"
+      ],
+      [
+        "6",
+        "Myles Gaskin",
+        "Nalick"
+      ],
+      [
+        "7",
+        "Robert Tonyan",
+        "Danziger"
+      ],
+      [
+        "8",
+        "Jameis Winston",
+        "Greenspan"
+      ],
+      [
+        "9",
+        "Kenny Golladay",
+        "Tompkins"
+      ],
+      [
+        "10",
+        "Trey Sermon",
+        "Jeff"
+      ],
+      [
+        "Round 9"
+      ],
+      [
+        "1",
+        "Odell Beckham Jr.",
+        "Jeff"
+      ],
+      [
+        "2",
+        "Daniel Jones",
+        "Tompkins"
+      ],
+      [
+        "3",
+        "Javonte Williams",
+        "Greenspan"
+      ],
+      [
+        "4",
+        "Mike Williams",
+        "Danziger"
+      ],
+      [
+        "5",
+        "Baker Mayfield",
+        "Nalick"
+      ],
+      [
+        "6",
+        "CeeDee Lamb (K)",
+        "Big Leiber"
+      ],
+      [
+        "7",
+        "Ja'Marr Chase",
+        "Barry"
+      ],
+      [
+        "8",
+        "Courtland Sutton",
+        "Goldberg"
+      ],
+      [
+        "9",
+        "Ryan Fitzpatrick",
+        "Ori"
+      ],
+      [
+        "10",
+        "JuJu Smith-Schuster",
+        "Abe"
+      ],
+      [
+        "Round 10"
+      ],
+      [
+        "1",
+        "Ben Roethlisberger",
+        "Abe"
+      ],
+      [
+        "2",
+        "Robbie Chosen",
+        "Ori"
+      ],
+      [
+        "3",
+        "James Conner",
+        "Goldberg"
+      ],
+      [
+        "4",
+        "Derek Carr",
+        "Barry"
+      ],
+      [
+        "5",
+        "Antonio Brown",
+        "Big Leiber"
+      ],
+      [
+        "6",
+        "Laviska Shenault Jr.",
+        "Nalick"
+      ],
+      [
+        "7",
+        "Ronald Jones",
+        "Danziger"
+      ],
+      [
+        "8",
+        "Melvin Gordon III",
+        "Greenspan"
+      ],
+      [
+        "9",
+        "Brandin Cooks",
+        "Tompkins"
+      ],
+      [
+        "10",
+        "Mac Jones",
+        "Jeff"
+      ],
+      [
+        "Round 11"
+      ],
+      [
+        "1",
+        "Sony Michel",
+        "Jeff"
+      ],
+      [
+        "2",
+        "Teddy Bridgewater",
+        "Tompkins"
+      ],
+      [
+        "3",
+        "Mark Andrews (K)",
+        "Greenspan"
+      ],
+      [
+        "4",
+        "Tua Tagovailoa (K)",
+        "Danziger"
+      ],
+      [
+        "5",
+        "Jakobi Meyers",
+        "Nalick"
+      ],
+      [
+        "6",
+        "Tyler Higbee",
+        "Big Leiber"
+      ],
+      [
+        "7",
+        "Tyler Boyd",
+        "Barry"
+      ],
+      [
+        "8",
+        "Kenyan Drake",
+        "Goldberg"
+      ],
+      [
+        "9",
+        "Devin Singletary",
+        "Ori"
+      ],
+      [
+        "10",
+        "Deebo Samuel",
+        "Abe"
+      ],
+      [
+        "Round 12"
+      ],
+      [
+        "1",
+        "Michael Thomas",
+        "Abe"
+      ],
+      [
+        "2",
+        "Marvin Jones Jr.",
+        "Ori"
+      ],
+      [
+        "3",
+        "Corey Davis",
+        "Goldberg"
+      ],
+      [
+        "4",
+        "Will Fuller V",
+        "Barry"
+      ],
+      [
+        "5",
+        "DJ Chark",
+        "Big Leiber"
+      ],
+      [
+        "6",
+        "Hunter Henry",
+        "Nalick"
+      ],
+      [
+        "7",
+        "DeVonta Smith",
+        "Danziger"
+      ],
+      [
+        "8",
+        "Marquez Callaway",
+        "Greenspan"
+      ],
+      [
+        "9",
+        "Giovani Bernard",
+        "Tompkins"
+      ],
+      [
+        "10",
+        "Sam Darnold",
+        "Jeff"
+      ],
+      [
+        "Round 13"
+      ],
+      [
+        "1",
+        "Zach Wilson",
+        "Jeff"
+      ],
+      [
+        "2",
+        "David Johnson",
+        "Tompkins"
+      ],
+      [
+        "3",
+        "J.K. Dobbins",
+        "Greenspan"
+      ],
+      [
+        "4",
+        "Jaylen Waddle",
+        "Danziger"
+      ],
+      [
+        "5",
+        "Harrison Butker",
+        "Nalick"
+      ],
+      [
+        "6",
+        "A.J. Dillon",
+        "Big Leiber"
+      ],
+      [
+        "7",
+        "Michael Gallup",
+        "Barry"
+      ],
+      [
+        "8",
+        "Los Angeles",
+        "Goldberg"
+      ],
+      [
+        "9",
+        "Leonard Fournette",
+        "Ori"
+      ],
+      [
+        "10",
+        "Rob Gronkowski",
+        "Abe"
+      ],
+      [
+        "Round 14"
+      ],
+      [
+        "1",
+        "Michael Carter",
+        "Abe"
+      ],
+      [
+        "2",
+        "Brandon Aiyuk (K)",
+        "Ori"
+      ],
+      [
+        "3",
+        "Mike Davis (K)",
+        "Goldberg"
+      ],
+      [
+        "4",
+        "Mecole Hardman",
+        "Barry"
+      ],
+      [
+        "5",
+        "Tony Pollard",
+        "Big Leiber"
+      ],
+      [
+        "6",
+        "Tampa Bay",
+        "Nalick"
+      ],
+      [
+        "7",
+        "Washington",
+        "Danziger"
+      ],
+      [
+        "8",
+        "Carson Wentz",
+        "Greenspan"
+      ],
+      [
+        "9",
+        "Alexander Mattison",
+        "Tompkins"
+      ],
+      [
+        "10",
+        "Elijah Moore",
+        "Jeff"
+      ],
+      [
+        "Round 15"
+      ],
+      [
+        "1",
+        "Jarvis Landry",
+        "Jeff"
+      ],
+      [
+        "2",
+        "Nelson Agholor",
+        "Tompkins"
+      ],
+      [
+        "3",
+        "Devontae Booker",
+        "Greenspan"
+      ],
+      [
+        "4",
+        "Justin Tucker",
+        "Danziger"
+      ],
+      [
+        "5",
+        "Tevin Coleman",
+        "Nalick"
+      ],
+      [
+        "6",
+        "Rondale Moore",
+        "Big Leiber"
+      ],
+      [
+        "7",
+        "Zack Moss",
+        "Barry"
+      ],
+      [
+        "8",
+        "Nyheim Miller-Hines",
+        "Goldberg"
+      ],
+      [
+        "9",
+        "Younghoe Koo",
+        "Ori"
+      ],
+      [
+        "10",
+        "Pittsburgh",
+        "Abe"
+      ],
+      [
+        "Round 16"
+      ],
+      [
+        "1",
+        "Tyler Bass",
+        "Abe"
+      ],
+      [
+        "2",
+        "Baltimore",
+        "Ori"
+      ],
+      [
+        "3",
+        "Mike Gesicki",
+        "Goldberg"
+      ],
+      [
+        "4",
+        "Jared Goff",
+        "Barry"
+      ],
+      [
+        "5",
+        "San Francisco",
+        "Big Leiber"
+      ],
+      [
+        "6",
+        "Greg Zuerlein",
+        "Jeff"
+      ],
+      [
+        "7",
+        "Jonnu Smith",
+        "Danziger"
+      ],
+      [
+        "8",
+        "Travis Etienne Jr.",
+        "Greenspan"
+      ],
+      [
+        "9",
+        "Green Bay",
+        "Tompkins"
+      ],
+      [
+        "10",
+        "Miami",
+        "Jeff"
+      ],
+      [
+        "Round 17"
+      ],
+      [
+        "1",
+        "Gabe Davis",
+        "Jeff"
+      ],
+      [
+        "2",
+        "Robbie Gould",
+        "Tompkins"
+      ],
+      [
+        "3",
+        "Taysom Hill",
+        "Greenspan"
+      ],
+      [
+        "4",
+        "Cleveland",
+        "Danziger"
+      ],
+      [
+        "5",
+        "Rhamondre Stevenson",
+        "Ori"
+      ],
+      [
+        "6",
+        "Ryan Succop",
+        "Big Leiber"
+      ],
+      [
+        "7",
+        "New England",
+        "Barry"
+      ],
+      [
+        "8",
+        "Chuba Hubbard",
+        "Goldberg"
+      ],
+      [
+        "9",
+        "Amon-Ra St. Brown",
+        "Ori"
+      ],
+      [
+        "10",
+        "Tyrod Taylor",
+        "Abe"
+      ]
+    ],
+    "2022": [
+      [
+        "Round 1"
+      ],
+      [
+        "1",
+        "Josh Allen",
+        "Barry"
+      ],
+      [
+        "2",
+        "Jonathan Taylor",
+        "Goldberg"
+      ],
+      [
+        "3",
+        "Patrick Mahomes",
+        "Greenspan"
+      ],
+      [
+        "4",
+        "Christian McCaffrey",
+        "Ori"
+      ],
+      [
+        "5",
+        "Lamar Jackson",
+        "Jeff"
+      ],
+      [
+        "6",
+        "Jalen Hurts",
+        "Joshua"
+      ],
+      [
+        "7",
+        "Derrick Henry",
+        "Abe"
+      ],
+      [
+        "8",
+        "Austin Ekeler",
+        "Big Leiber"
+      ],
+      [
+        "9",
+        "Dalvin Cook",
+        "Tompkins"
+      ],
+      [
+        "10",
+        "Najee Harris",
+        "Nalick"
+      ],
+      [
+        "Round 2"
+      ],
+      [
+        "1",
+        "Stefon Diggs",
+        "Nalick"
+      ],
+      [
+        "2",
+        "Joe Mixon",
+        "Tompkins"
+      ],
+      [
+        "3",
+        "Kyler Murray",
+        "Big Leiber"
+      ],
+      [
+        "4",
+        "Cooper Kupp (K)",
+        "Abe"
+      ],
+      [
+        "5",
+        "Travis Kelce",
+        "Joshua"
+      ],
+      [
+        "6",
+        "Nick Chubb",
+        "Jeff"
+      ],
+      [
+        "7",
+        "Joe Burrow",
+        "Ori"
+      ],
+      [
+        "8",
+        "Russell Wilson",
+        "Greenspan"
+      ],
+      [
+        "9",
+        "Tom Brady",
+        "Goldberg"
+      ],
+      [
+        "10",
+        "D'Andre Swift (K)",
+        "Barry"
+      ],
+      [
+        "Round 3"
+      ],
+      [
+        "1",
+        "Justin Jefferson (K)",
+        "Barry"
+      ],
+      [
+        "2",
+        "Davante Adams",
+        "Goldberg"
+      ],
+      [
+        "3",
+        "Alvin Kamara",
+        "Greenspan"
+      ],
+      [
+        "4",
+        "Trey Lance",
+        "Ori"
+      ],
+      [
+        "5",
+        "Aaron Jones Sr.",
+        "Jeff"
+      ],
+      [
+        "6",
+        "Saquon Barkley",
+        "Joshua"
+      ],
+      [
+        "7",
+        "Ezekiel Elliott",
+        "Abe"
+      ],
+      [
+        "8",
+        "Dak Prescott",
+        "Big Leiber"
+      ],
+      [
+        "9",
+        "Aaron Rodgers",
+        "Tompkins"
+      ],
+      [
+        "10",
+        "Justin Herbert (K)",
+        "Nalick"
+      ],
+      [
+        "Round 4"
+      ],
+      [
+        "1",
+        "Derek Carr",
+        "Nalick"
+      ],
+      [
+        "2",
+        "Kirk Cousins",
+        "Tompkins"
+      ],
+      [
+        "3",
+        "Tyreek Hill",
+        "Big Leiber"
+      ],
+      [
+        "4",
+        "Matthew Stafford",
+        "Abe"
+      ],
+      [
+        "5",
+        "Mike Evans",
+        "Joshua"
+      ],
+      [
+        "6",
+        "David Montgomery",
+        "Jeff"
+      ],
+      [
+        "7",
+        "Kyle Pitts Sr.",
+        "Ori"
+      ],
+      [
+        "8",
+        "A.J. Brown",
+        "Greenspan"
+      ],
+      [
+        "9",
+        "Tee Higgins",
+        "Goldberg"
+      ],
+      [
+        "10",
+        "Keenan Allen",
+        "Barry"
+      ],
+      [
+        "Round 5"
+      ],
+      [
+        "1",
+        "Courtland Sutton",
+        "Barry"
+      ],
+      [
+        "2",
+        "Tua Tagovailoa",
+        "Goldberg"
+      ],
+      [
+        "3",
+        "DJ Moore",
+        "Greenspan"
+      ],
+      [
+        "4",
+        "Mike Williams",
+        "Ori"
+      ],
+      [
+        "5",
+        "DK Metcalf",
+        "Jeff"
+      ],
+      [
+        "6",
+        "Daniel Jones",
+        "Joshua"
+      ],
+      [
+        "7",
+        "Justin Fields",
+        "Abe"
+      ],
+      [
+        "8",
+        "Michael Pittman Jr. (K)",
+        "Big Leiber"
+      ],
+      [
+        "9",
+        "George Kittle",
+        "Tompkins"
+      ],
+      [
+        "10",
+        "Terry McLaurin",
+        "Nalick"
+      ],
+      [
+        "Round 6"
+      ],
+      [
+        "1",
+        "James Conner (K)",
+        "Nalick"
+      ],
+      [
+        "2",
+        "Allen Robinson",
+        "Tompkins"
+      ],
+      [
+        "3",
+        "CeeDee Lamb (K)",
+        "Big Leiber"
+      ],
+      [
+        "4",
+        "Elijah Mitchell",
+        "Abe"
+      ],
+      [
+        "5",
+        "Leonard Fournette (K)",
+        "Joshua"
+      ],
+      [
+        "6",
+        "Ja'Marr Chase (K)",
+        "Jeff"
+      ],
+      [
+        "7",
+        "JuJu Smith-Schuster",
+        "Ori"
+      ],
+      [
+        "8",
+        "Javonte Williams (K)",
+        "Greenspan"
+      ],
+      [
+        "9",
+        "Cam Akers",
+        "Goldberg"
+      ],
+      [
+        "10",
+        "Breece Hall",
+        "Barry"
+      ],
+      [
+        "Round 7"
+      ],
+      [
+        "1",
+        "Trevor Lawrence",
+        "Barry"
+      ],
+      [
+        "2",
+        "Gabe Davis",
+        "Goldberg"
+      ],
+      [
+        "3",
+        "Darren Waller",
+        "Greenspan"
+      ],
+      [
+        "4",
+        "Michael Thomas",
+        "Ori"
+      ],
+      [
+        "5",
+        "Jerry Jeudy",
+        "Jeff"
+      ],
+      [
+        "6",
+        "Amon-Ra St. Brown",
+        "Joshua"
+      ],
+      [
+        "7",
+        "Diontae Johnson",
+        "Abe"
+      ],
+      [
+        "8",
+        "Josh Jacobs",
+        "Big Leiber"
+      ],
+      [
+        "9",
+        "Brandin Cooks (K)",
+        "Tompkins"
+      ],
+      [
+        "10",
+        "Dameon Pierce",
+        "Nalick"
+      ],
+      [
+        "Round 8"
+      ],
+      [
+        "1",
+        "Rashod Bateman",
+        "Nalick"
+      ],
+      [
+        "2",
+        "Antonio Gibson",
+        "Tompkins"
+      ],
+      [
+        "3",
+        "A.J. Dillon",
+        "Big Leiber"
+      ],
+      [
+        "4",
+        "Deebo Samuel (K)",
+        "Abe"
+      ],
+      [
+        "5",
+        "Clyde Edwards-Helaire",
+        "Joshua"
+      ],
+      [
+        "6",
+        "Mark Andrews (K)",
+        "Jeff"
+      ],
+      [
+        "7",
+        "Brandon Aiyuk",
+        "Ori"
+      ],
+      [
+        "8",
+        "Rashaad Penny",
+        "Greenspan"
+      ],
+      [
+        "9",
+        "Hollywood Brown",
+        "Goldberg"
+      ],
+      [
+        "10",
+        "Damien Harris",
+        "Barry"
+      ],
+      [
+        "Round 9"
+      ],
+      [
+        "1",
+        "Dalton Schultz",
+        "Barry"
+      ],
+      [
+        "2",
+        "Dallas Goedert",
+        "Goldberg"
+      ],
+      [
+        "3",
+        "Chris Godwin Jr.",
+        "Greenspan"
+      ],
+      [
+        "4",
+        "Devin Singletary",
+        "Ori"
+      ],
+      [
+        "5",
+        "Jameis Winston",
+        "Jeff"
+      ],
+      [
+        "6",
+        "Matt Ryan",
+        "Joshua"
+      ],
+      [
+        "7",
+        "Baker Mayfield",
+        "Abe"
+      ],
+      [
+        "8",
+        "Darnell Mooney",
+        "Big Leiber"
+      ],
+      [
+        "9",
+        "Adam Thielen",
+        "Tompkins"
+      ],
+      [
+        "10",
+        "Rhamondre Stevenson",
+        "Nalick"
+      ],
+      [
+        "Round 10"
+      ],
+      [
+        "1",
+        "Elijah Moore",
+        "Nalick"
+      ],
+      [
+        "2",
+        "Mac Jones",
+        "Tompkins"
+      ],
+      [
+        "3",
+        "Chase Edmonds",
+        "Big Leiber"
+      ],
+      [
+        "4",
+        "Amari Cooper",
+        "Abe"
+      ],
+      [
+        "5",
+        "Jaylen Waddle (K)",
+        "Joshua"
+      ],
+      [
+        "6",
+        "Ryan Tannehill",
+        "Jeff"
+      ],
+      [
+        "7",
+        "Allen Lazard",
+        "Ori"
+      ],
+      [
+        "8",
+        "Melvin Gordon III",
+        "Greenspan"
+      ],
+      [
+        "9",
+        "J.K. Dobbins (K)",
+        "Goldberg"
+      ],
+      [
+        "10",
+        "DeVonta Smith",
+        "Barry"
+      ],
+      [
+        "Round 11"
+      ],
+      [
+        "1",
+        "Miles Sanders",
+        "Barry"
+      ],
+      [
+        "2",
+        "Tony Pollard",
+        "Goldberg"
+      ],
+      [
+        "3",
+        "Carson Wentz (K)",
+        "Greenspan"
+      ],
+      [
+        "4",
+        "Cordarrelle Patterson",
+        "Ori"
+      ],
+      [
+        "5",
+        "Kareem Hunt",
+        "Jeff"
+      ],
+      [
+        "6",
+        "Christian Kirk",
+        "Joshua"
+      ],
+      [
+        "7",
+        "James Cook",
+        "Abe"
+      ],
+      [
+        "8",
+        "T.J. Hockenson",
+        "Big Leiber"
+      ],
+      [
+        "9",
+        "Hunter Renfrow",
+        "Tompkins"
+      ],
+      [
+        "10",
+        "Dawson Knox",
+        "Nalick"
+      ],
+      [
+        "Round 12"
+      ],
+      [
+        "1",
+        "Tyler Lockett",
+        "Nalick"
+      ],
+      [
+        "2",
+        "Julio Jones",
+        "Tompkins"
+      ],
+      [
+        "3",
+        "Drake London",
+        "Big Leiber"
+      ],
+      [
+        "4",
+        "DeAndre Hopkins",
+        "Abe"
+      ],
+      [
+        "5",
+        "Robert Woods",
+        "Joshua"
+      ],
+      [
+        "6",
+        "Malik Willis",
+        "Jeff"
+      ],
+      [
+        "7",
+        "Kadarius Toney",
+        "Ori"
+      ],
+      [
+        "8",
+        "Chris Olave",
+        "Greenspan"
+      ],
+      [
+        "9",
+        "Buffalo",
+        "Goldberg"
+      ],
+      [
+        "10",
+        "Treylon Burks",
+        "Barry"
+      ],
+      [
+        "Round 13"
+      ],
+      [
+        "1",
+        "Kenneth Walker III",
+        "Barry"
+      ],
+      [
+        "2",
+        "Travis Etienne Jr. (K)",
+        "Goldberg"
+      ],
+      [
+        "3",
+        "Jameson Williams",
+        "Greenspan"
+      ],
+      [
+        "4",
+        "Nyheim Miller-Hines",
+        "Ori"
+      ],
+      [
+        "5",
+        "Chase Claypool",
+        "Jeff"
+      ],
+      [
+        "6",
+        "Rachaad White",
+        "Joshua"
+      ],
+      [
+        "7",
+        "Cole Kmet",
+        "Abe"
+      ],
+      [
+        "8",
+        "Marcus Mariota",
+        "Big Leiber"
+      ],
+      [
+        "9",
+        "Alexander Mattison",
+        "Tompkins"
+      ],
+      [
+        "10",
+        "Davis Mills",
+        "Nalick"
+      ],
+      [
+        "Round 14"
+      ],
+      [
+        "1",
+        "Isiah Pacheco",
+        "Nalick"
+      ],
+      [
+        "2",
+        "Nico Collins",
+        "Tompkins"
+      ],
+      [
+        "3",
+        "James Robinson",
+        "Big Leiber"
+      ],
+      [
+        "4",
+        "Justin Tucker",
+        "Abe"
+      ],
+      [
+        "5",
+        "George Pickens",
+        "Joshua"
+      ],
+      [
+        "6",
+        "Marquez Valdes-Scantling",
+        "Jeff"
+      ],
+      [
+        "7",
+        "Isaiah McKenzie",
+        "Ori"
+      ],
+      [
+        "8",
+        "Desmond Ridder",
+        "Greenspan"
+      ],
+      [
+        "9",
+        "Jared Goff",
+        "Goldberg"
+      ],
+      [
+        "10",
+        "Darrell Henderson Jr.",
+        "Barry"
+      ],
+      [
+        "Round 15"
+      ],
+      [
+        "1",
+        "Zach Wilson",
+        "Barry"
+      ],
+      [
+        "2",
+        "Tyler Boyd",
+        "Goldberg"
+      ],
+      [
+        "3",
+        "Brian Robinson Jr.",
+        "Greenspan"
+      ],
+      [
+        "4",
+        "San Francisco",
+        "Ori"
+      ],
+      [
+        "5",
+        "Michael Carter",
+        "Jeff"
+      ],
+      [
+        "6",
+        "Raheem Mostert",
+        "Joshua"
+      ],
+      [
+        "7",
+        "Los Angeles",
+        "Abe"
+      ],
+      [
+        "8",
+        "Indianapolis",
+        "Big Leiber"
+      ],
+      [
+        "9",
+        "New Orleans",
+        "Tompkins"
+      ],
+      [
+        "10",
+        "Denver",
+        "Nalick"
+      ],
+      [
+        "Round 16"
+      ],
+      [
+        "1",
+        "Khalil Herbert",
+        "Nalick"
+      ],
+      [
+        "2",
+        "Mark Ingram II",
+        "Tompkins"
+      ],
+      [
+        "3",
+        "Evan McPherson",
+        "Big Leiber"
+      ],
+      [
+        "4",
+        "Jarvis Landry",
+        "Abe"
+      ],
+      [
+        "5",
+        "Green Bay",
+        "Joshua"
+      ],
+      [
+        "6",
+        "Tyler Bass",
+        "Jeff"
+      ],
+      [
+        "7",
+        "Sammy Watkins",
+        "Ori"
+      ],
+      [
+        "8",
+        "Skyy Moore",
+        "Greenspan"
+      ],
+      [
+        "9",
+        "Garrett Wilson",
+        "Goldberg"
+      ],
+      [
+        "10",
+        "Tampa Bay",
+        "Barry"
+      ],
+      [
+        "Round 17"
+      ],
+      [
+        "1",
+        "Matt Gay",
+        "Barry"
+      ],
+      [
+        "2",
+        "Harrison Butker",
+        "Goldberg"
+      ],
+      [
+        "3",
+        "Tyler Allgeier",
+        "Greenspan"
+      ],
+      [
+        "4",
+        "Greg Joseph",
+        "Ori"
+      ],
+      [
+        "5",
+        "Tennessee",
+        "Jeff"
+      ],
+      [
+        "6",
+        "Ryan Succop",
+        "Joshua"
+      ],
+      [
+        "7",
+        "D'Onta Foreman",
+        "Abe"
+      ],
+      [
+        "8",
+        "Russell Gage Jr.",
+        "Big Leiber"
+      ],
+      [
+        "9",
+        "Daniel Carlson",
+        "Tompkins"
+      ],
+      [
+        "10",
+        "Robbie Gould",
+        "Nalick"
+      ]
+    ],
+    "2023": [
+      [
+        "Round 1"
+      ],
+      [
+        "1",
+        "Patrick Mahomes",
+        "Barry"
+      ],
+      [
+        "2",
+        "Christian McCaffrey",
+        "Nalick"
+      ],
+      [
+        "3",
+        "Josh Allen",
+        "Goldberg"
+      ],
+      [
+        "4",
+        "Justin Jefferson",
+        "Abe"
+      ],
+      [
+        "5",
+        "Jalen Hurts",
+        "Big Leiber"
+      ],
+      [
+        "6",
+        "Lamar Jackson",
+        "Ori"
+      ],
+      [
+        "7",
+        "Travis Kelce",
+        "Greenspan"
+      ],
+      [
+        "8",
+        "Justin Fields",
+        "Joshua"
+      ],
+      [
+        "9",
+        "Bijan Robinson",
+        "Jeff"
+      ],
+      [
+        "10",
+        "Joe Burrow",
+        "Tompkins"
+      ],
+      [
+        "Round 2"
+      ],
+      [
+        "1",
+        "Austin Ekeler",
+        "Tompkins"
+      ],
+      [
+        "2",
+        "Stefon Diggs",
+        "Abe"
+      ],
+      [
+        "3",
+        "Nick Chubb",
+        "Joshua"
+      ],
+      [
+        "4",
+        "Justin Herbert",
+        "Greenspan"
+      ],
+      [
+        "5",
+        "Tyreek Hill",
+        "Ori"
+      ],
+      [
+        "6",
+        "Cooper Kupp",
+        "Big Leiber"
+      ],
+      [
+        "7",
+        "Saquon Barkley",
+        "Abe"
+      ],
+      [
+        "8",
+        "Derrick Henry",
+        "Goldberg"
+      ],
+      [
+        "9",
+        "CeeDee Lamb",
+        "Nalick"
+      ],
+      [
+        "10",
+        "A.J. Brown",
+        "Barry"
+      ],
+      [
+        "Round 3"
+      ],
+      [
+        "1",
+        "Davante Adams",
+        "Tompkins"
+      ],
+      [
+        "2",
+        "Tee Higgins",
+        "Nalick"
+      ],
+      [
+        "3",
+        "Dak Prescott",
+        "Goldberg"
+      ],
+      [
+        "4",
+        "Aaron Jones Sr.",
+        "Abe"
+      ],
+      [
+        "5",
+        "Josh Jacobs (K)",
+        "Big Leiber"
+      ],
+      [
+        "6",
+        "Deebo Samuel",
+        "Ori"
+      ],
+      [
+        "7",
+        "DK Metcalf",
+        "Greenspan"
+      ],
+      [
+        "8",
+        "Mark Andrews",
+        "Joshua"
+      ],
+      [
+        "9",
+        "Ja'Marr Chase (K)",
+        "Jeff"
+      ],
+      [
+        "10",
+        "Calvin Ridley",
+        "Tompkins"
+      ],
+      [
+        "Round 4"
+      ],
+      [
+        "1",
+        "Trevor Lawrence (K)",
+        "Tompkins"
+      ],
+      [
+        "2",
+        "Joe Mixon",
+        "Jeff"
+      ],
+      [
+        "3",
+        "Amon-Ra St. Brown (K)",
+        "Joshua"
+      ],
+      [
+        "4",
+        "Daniel Jones",
+        "Greenspan"
+      ],
+      [
+        "5",
+        "Tua Tagovailoa",
+        "Ori"
+      ],
+      [
+        "6",
+        "Amari Cooper",
+        "Tompkins"
+      ],
+      [
+        "7",
+        "Aaron Rodgers",
+        "Abe"
+      ],
+      [
+        "8",
+        "Christian Watson",
+        "Goldberg"
+      ],
+      [
+        "9",
+        "Najee Harris",
+        "Nalick"
+      ],
+      [
+        "10",
+        "Jahmyr Gibbs",
+        "Barry"
+      ],
+      [
+        "Round 5"
+      ],
+      [
+        "1",
+        "DJ Moore",
+        "Barry"
+      ],
+      [
+        "2",
+        "Kirk Cousins",
+        "Nalick"
+      ],
+      [
+        "3",
+        "Mike Evans",
+        "Goldberg"
+      ],
+      [
+        "4",
+        "Dameon Pierce",
+        "Abe"
+      ],
+      [
+        "5",
+        "Anthony Richardson Sr.",
+        "Big Leiber"
+      ],
+      [
+        "6",
+        "Keenan Allen",
+        "Ori"
+      ],
+      [
+        "7",
+        "J.K. Dobbins",
+        "Greenspan"
+      ],
+      [
+        "8",
+        "Geno Smith",
+        "Joshua"
+      ],
+      [
+        "9",
+        "Miles Sanders",
+        "Jeff"
+      ],
+      [
+        "10",
+        "Jonathan Taylor",
+        "Tompkins"
+      ],
+      [
+        "Round 6"
+      ],
+      [
+        "1",
+        "Breece Hall",
+        "Big Leiber"
+      ],
+      [
+        "2",
+        "Deshaun Watson (K)",
+        "Jeff"
+      ],
+      [
+        "3",
+        "Alexander Mattison",
+        "Joshua"
+      ],
+      [
+        "4",
+        "Rhamondre Stevenson (K)",
+        "Greenspan"
+      ],
+      [
+        "5",
+        "Cam Akers",
+        "Ori"
+      ],
+      [
+        "6",
+        "Jared Goff",
+        "Big Leiber"
+      ],
+      [
+        "7",
+        "Tyler Lockett",
+        "Abe"
+      ],
+      [
+        "8",
+        "Darren Waller",
+        "Goldberg"
+      ],
+      [
+        "9",
+        "Garrett Wilson (K)",
+        "Nalick"
+      ],
+      [
+        "10",
+        "Russell Wilson",
+        "Barry"
+      ],
+      [
+        "Round 7"
+      ],
+      [
+        "1",
+        "George Kittle",
+        "Barry"
+      ],
+      [
+        "2",
+        "James Cook",
+        "Nalick"
+      ],
+      [
+        "3",
+        "Jordan Love",
+        "Goldberg"
+      ],
+      [
+        "4",
+        "Brandon Aiyuk",
+        "Abe"
+      ],
+      [
+        "5",
+        "DeAndre Hopkins",
+        "Big Leiber"
+      ],
+      [
+        "6",
+        "David Montgomery",
+        "Ori"
+      ],
+      [
+        "7",
+        "Rachaad White",
+        "Greenspan"
+      ],
+      [
+        "8",
+        "Jaylen Waddle (K)",
+        "Joshua"
+      ],
+      [
+        "9",
+        "Terry McLaurin",
+        "Jeff"
+      ],
+      [
+        "10",
+        "DeVonta Smith (K)",
+        "Barry"
+      ],
+      [
+        "Round 8"
+      ],
+      [
+        "1",
+        "Dallas Goedert",
+        "Tompkins"
+      ],
+      [
+        "2",
+        "Bryce Young",
+        "Jeff"
+      ],
+      [
+        "3",
+        "Mike Williams",
+        "Joshua"
+      ],
+      [
+        "4",
+        "Diontae Johnson",
+        "Greenspan"
+      ],
+      [
+        "5",
+        "Khalil Herbert",
+        "Ori"
+      ],
+      [
+        "6",
+        "T.J. Hockenson (K)",
+        "Big Leiber"
+      ],
+      [
+        "7",
+        "Kyle Pitts Sr.",
+        "Jeff"
+      ],
+      [
+        "8",
+        "Tony Pollard (K)",
+        "Goldberg"
+      ],
+      [
+        "9",
+        "Sam Howell",
+        "Nalick"
+      ],
+      [
+        "10",
+        "Isiah Pacheco",
+        "Barry"
+      ],
+      [
+        "Round 9"
+      ],
+      [
+        "1",
+        "Drake London",
+        "Barry"
+      ],
+      [
+        "2",
+        "Chris Godwin Jr.",
+        "Nalick"
+      ],
+      [
+        "3",
+        "James Conner",
+        "Goldberg"
+      ],
+      [
+        "4",
+        "Michael Pittman Jr.",
+        "Abe"
+      ],
+      [
+        "5",
+        "Javonte Williams",
+        "Big Leiber"
+      ],
+      [
+        "6",
+        "Kenny Pickett",
+        "Ori"
+      ],
+      [
+        "7",
+        "Chris Olave (K)",
+        "Greenspan"
+      ],
+      [
+        "8",
+        "Christian Kirk",
+        "Joshua"
+      ],
+      [
+        "9",
+        "Dalvin Cook",
+        "Jeff"
+      ],
+      [
+        "10",
+        "George Pickens",
+        "Tompkins"
+      ],
+      [
+        "Round 10"
+      ],
+      [
+        "1",
+        "Alvin Kamara",
+        "Tompkins"
+      ],
+      [
+        "2",
+        "Jahan Dotson",
+        "Jeff"
+      ],
+      [
+        "3",
+        "D'Andre Swift",
+        "Joshua"
+      ],
+      [
+        "4",
+        "Brock Purdy",
+        "Greenspan"
+      ],
+      [
+        "5",
+        "Jaxon Smith-Njigba",
+        "Ori"
+      ],
+      [
+        "6",
+        "Derek Carr",
+        "Big Leiber"
+      ],
+      [
+        "7",
+        "Brian Robinson Jr.",
+        "Abe"
+      ],
+      [
+        "8",
+        "Travis Etienne Jr. (K)",
+        "Goldberg"
+      ],
+      [
+        "9",
+        "Pat Freiermuth",
+        "Nalick"
+      ],
+      [
+        "10",
+        "Kenneth Walker III (K)",
+        "Barry"
+      ],
+      [
+        "Round 11"
+      ],
+      [
+        "1",
+        "Jerry Jeudy",
+        "Barry"
+      ],
+      [
+        "2",
+        "Matthew Stafford",
+        "Nalick"
+      ],
+      [
+        "3",
+        "Gabe Davis",
+        "Goldberg"
+      ],
+      [
+        "4",
+        "Evan Engram",
+        "Abe"
+      ],
+      [
+        "5",
+        "Jordan Addison",
+        "Big Leiber"
+      ],
+      [
+        "6",
+        "Jamaal Williams",
+        "Ori"
+      ],
+      [
+        "7",
+        "Courtland Sutton",
+        "Greenspan"
+      ],
+      [
+        "8",
+        "Hollywood Brown",
+        "Joshua"
+      ],
+      [
+        "9",
+        "Rashod Bateman",
+        "Jeff"
+      ],
+      [
+        "10",
+        "Brandin Cooks",
+        "Tompkins"
+      ],
+      [
+        "Round 12"
+      ],
+      [
+        "1",
+        "Desmond Ridder",
+        "Tompkins"
+      ],
+      [
+        "2",
+        "A.J. Dillon",
+        "Jeff"
+      ],
+      [
+        "3",
+        "Kyler Murray",
+        "Joshua"
+      ],
+      [
+        "4",
+        "Quentin Johnston",
+        "Greenspan"
+      ],
+      [
+        "5",
+        "Michael Thomas",
+        "Ori"
+      ],
+      [
+        "6",
+        "Antonio Gibson",
+        "Big Leiber"
+      ],
+      [
+        "7",
+        "C.J. Stroud",
+        "Abe"
+      ],
+      [
+        "8",
+        "Justin Tucker",
+        "Goldberg"
+      ],
+      [
+        "9",
+        "Skyy Moore",
+        "Nalick"
+      ],
+      [
+        "10",
+        "Jimmy Garoppolo",
+        "Barry"
+      ],
+      [
+        "Round 13"
+      ],
+      [
+        "1",
+        "Zach Charbonnet",
+        "Barry"
+      ],
+      [
+        "2",
+        "Elijah Mitchell",
+        "Nalick"
+      ],
+      [
+        "3",
+        "Kadarius Toney",
+        "Goldberg"
+      ],
+      [
+        "4",
+        "Elijah Moore",
+        "Abe"
+      ],
+      [
+        "5",
+        "Zay Flowers",
+        "Big Leiber"
+      ],
+      [
+        "6",
+        "Jaylen Warren",
+        "Ori"
+      ],
+      [
+        "7",
+        "David Njoku",
+        "Tompkins"
+      ],
+      [
+        "8",
+        "Treylon Burks",
+        "Joshua"
+      ],
+      [
+        "9",
+        "Baker Mayfield",
+        "Jeff"
+      ],
+      [
+        "10",
+        "Odell Beckham Jr.",
+        "Tompkins"
+      ],
+      [
+        "Round 14"
+      ],
+      [
+        "1",
+        "Allen Lazard",
+        "Tompkins"
+      ],
+      [
+        "2",
+        "JuJu Smith-Schuster",
+        "Jeff"
+      ],
+      [
+        "3",
+        "Dalton Kincaid",
+        "Joshua"
+      ],
+      [
+        "4",
+        "Ezekiel Elliott",
+        "Greenspan"
+      ],
+      [
+        "5",
+        "Tyler Boyd",
+        "Ori"
+      ],
+      [
+        "6",
+        "Roschon Johnson",
+        "Big Leiber"
+      ],
+      [
+        "7",
+        "Nico Collins",
+        "Abe"
+      ],
+      [
+        "8",
+        "Jakobi Meyers",
+        "Goldberg"
+      ],
+      [
+        "9",
+        "Tank Bigsby",
+        "Nalick"
+      ],
+      [
+        "10",
+        "Samaje Perine",
+        "Barry"
+      ],
+      [
+        "Round 15"
+      ],
+      [
+        "1",
+        "San Francisco",
+        "Barry"
+      ],
+      [
+        "2",
+        "Philadelphia",
+        "Nalick"
+      ],
+      [
+        "3",
+        "Dallas",
+        "Goldberg"
+      ],
+      [
+        "4",
+        "Chig Okonkwo",
+        "Abe"
+      ],
+      [
+        "5",
+        "Baltimore",
+        "Big Leiber"
+      ],
+      [
+        "6",
+        "New York",
+        "Ori"
+      ],
+      [
+        "7",
+        "Marvin Mims Jr.",
+        "Greenspan"
+      ],
+      [
+        "8",
+        "Buffalo",
+        "Joshua"
+      ],
+      [
+        "9",
+        "Donovan Peoples-Jones",
+        "Jeff"
+      ],
+      [
+        "10",
+        "Rashaad Penny",
+        "Tompkins"
+      ],
+      [
+        "Round 16"
+      ],
+      [
+        "1",
+        "Washington",
+        "Tompkins"
+      ],
+      [
+        "2",
+        "Tyler Bass",
+        "Jeff"
+      ],
+      [
+        "3",
+        "Evan McPherson",
+        "Joshua"
+      ],
+      [
+        "4",
+        "Romeo Doubs",
+        "Greenspan"
+      ],
+      [
+        "5",
+        "Sam LaPorta",
+        "Ori"
+      ],
+      [
+        "6",
+        "Harrison Butker",
+        "Big Leiber"
+      ],
+      [
+        "7",
+        "Miami",
+        "Abe"
+      ],
+      [
+        "8",
+        "Raheem Mostert",
+        "Goldberg"
+      ],
+      [
+        "9",
+        "D'Onta Foreman",
+        "Nalick"
+      ],
+      [
+        "10",
+        "Daniel Carlson",
+        "Barry"
+      ],
+      [
+        "Round 17"
+      ],
+      [
+        "1",
+        "Jameson Williams",
+        "Barry"
+      ],
+      [
+        "2",
+        "Cameron Dicker",
+        "Nalick"
+      ],
+      [
+        "3",
+        "Tyjae Spears",
+        "Goldberg"
+      ],
+      [
+        "4",
+        "Younghoe Koo",
+        "Abe"
+      ],
+      [
+        "5",
+        "Kendre Miller",
+        "Big Leiber"
+      ],
+      [
+        "6",
+        "Jason Myers",
+        "Ori"
+      ],
+      [
+        "7",
+        "Jacksonville",
+        "Greenspan"
+      ],
+      [
+        "8",
+        "De'Von Achane",
+        "Joshua"
+      ],
+      [
+        "9",
+        "New Orleans",
+        "Jeff"
+      ],
+      [
+        "10",
+        "Riley Patterson",
+        "Greenspan"
+      ]
+    ],
+    "2024": [
+      [
+        "Round 1"
+      ],
+      [
+        "1",
+        "Christian McCaffrey",
+        "Tompkins"
+      ],
+      [
+        "2",
+        "Josh Allen",
+        "Ori"
+      ],
+      [
+        "3",
+        "Jalen Hurts",
+        "Big Leiber"
+      ],
+      [
+        "4",
+        "Bijan Robinson",
+        "Nalick"
+      ],
+      [
+        "5",
+        "CeeDee Lamb",
+        "Abe"
+      ],
+      [
+        "6",
+        "Patrick Mahomes",
+        "Greenspan"
+      ],
+      [
+        "7",
+        "Tyreek Hill",
+        "Greenspan"
+      ],
+      [
+        "8",
+        "Lamar Jackson",
+        "Jeff"
+      ],
+      [
+        "9",
+        "Justin Jefferson",
+        "Joshua"
+      ],
+      [
+        "10",
+        "Anthony Richardson Sr.",
+        "Barry"
+      ],
+      [
+        "Round 2"
+      ],
+      [
+        "1",
+        "Amon-Ra St. Brown",
+        "Barry"
+      ],
+      [
+        "2",
+        "Ja'Marr Chase",
+        "Joshua"
+      ],
+      [
+        "3",
+        "Jonathan Taylor",
+        "Jeff"
+      ],
+      [
+        "4",
+        "Joe Burrow",
+        "Goldberg"
+      ],
+      [
+        "5",
+        "A.J. Brown",
+        "Greenspan"
+      ],
+      [
+        "6",
+        "Saquon Barkley",
+        "Abe"
+      ],
+      [
+        "7",
+        "Derrick Henry",
+        "Tompkins"
+      ],
+      [
+        "8",
+        "Dak Prescott",
+        "Big Leiber"
+      ],
+      [
+        "9",
+        "Deebo Samuel",
+        "Ori"
+      ],
+      [
+        "10",
+        "Puka Nacua",
+        "Tompkins"
+      ],
+      [
+        "Round 3"
+      ],
+      [
+        "1",
+        "Mike Evans",
+        "Tompkins"
+      ],
+      [
+        "2",
+        "Travis Kelce",
+        "Jeff"
+      ],
+      [
+        "3",
+        "Breece Hall (K)",
+        "Big Leiber"
+      ],
+      [
+        "4",
+        "Garrett Wilson (K)",
+        "Nalick"
+      ],
+      [
+        "5",
+        "Trevor Lawrence",
+        "Abe"
+      ],
+      [
+        "6",
+        "Josh Jacobs",
+        "Greenspan"
+      ],
+      [
+        "7",
+        "Davante Adams",
+        "Goldberg"
+      ],
+      [
+        "8",
+        "Marvin Harrison Jr.",
+        "Jeff"
+      ],
+      [
+        "9",
+        "Jahmyr Gibbs",
+        "Joshua"
+      ],
+      [
+        "10",
+        "Joe Mixon",
+        "Greenspan"
+      ],
+      [
+        "Round 4"
+      ],
+      [
+        "1",
+        "Jayden Daniels",
+        "Barry"
+      ],
+      [
+        "2",
+        "Caleb Williams",
+        "Joshua"
+      ],
+      [
+        "3",
+        "Cooper Kupp",
+        "Jeff"
+      ],
+      [
+        "4",
+        "DK Metcalf",
+        "Goldberg"
+      ],
+      [
+        "5",
+        "Jordan Love (K)",
+        "Greenspan"
+      ],
+      [
+        "6",
+        "Brandon Aiyuk",
+        "Abe"
+      ],
+      [
+        "7",
+        "Chris Olave",
+        "Nalick"
+      ],
+      [
+        "8",
+        "Rachaad White",
+        "Big Leiber"
+      ],
+      [
+        "9",
+        "Justin Herbert",
+        "Ori"
+      ],
+      [
+        "10",
+        "Jared Goff",
+        "Tompkins"
+      ],
+      [
+        "Round 5"
+      ],
+      [
+        "1",
+        "Jaylen Waddle",
+        "Tompkins"
+      ],
+      [
+        "2",
+        "DeVonta Smith",
+        "Ori"
+      ],
+      [
+        "3",
+        "Malik Nabers",
+        "Big Leiber"
+      ],
+      [
+        "4",
+        "Tua Tagovailoa",
+        "Nalick"
+      ],
+      [
+        "5",
+        "James Cook",
+        "Abe"
+      ],
+      [
+        "6",
+        "DJ Moore",
+        "Greenspan"
+      ],
+      [
+        "7",
+        "Alvin Kamara",
+        "Goldberg"
+      ],
+      [
+        "8",
+        "David Montgomery",
+        "Jeff"
+      ],
+      [
+        "9",
+        "Rashee Rice",
+        "Joshua"
+      ],
+      [
+        "10",
+        "Amari Cooper",
+        "Barry"
+      ],
+      [
+        "Round 6"
+      ],
+      [
+        "1",
+        "Tee Higgins",
+        "Barry"
+      ],
+      [
+        "2",
+        "Kyren Williams (K)",
+        "Joshua"
+      ],
+      [
+        "3",
+        "Travis Etienne Jr. (K)",
+        "Jeff"
+      ],
+      [
+        "4",
+        "De'Von Achane (K)",
+        "Goldberg"
+      ],
+      [
+        "5",
+        "Trey McBride",
+        "Greenspan"
+      ],
+      [
+        "6",
+        "Mark Andrews",
+        "Abe"
+      ],
+      [
+        "7",
+        "Sam LaPorta (K)",
+        "Nalick"
+      ],
+      [
+        "8",
+        "Drake London (K)",
+        "Big Leiber"
+      ],
+      [
+        "9",
+        "Terry McLaurin",
+        "Ori"
+      ],
+      [
+        "10",
+        "George Kittle",
+        "Tompkins"
+      ],
+      [
+        "Round 7"
+      ],
+      [
+        "1",
+        "George Pickens",
+        "Tompkins"
+      ],
+      [
+        "2",
+        "Zay Flowers",
+        "Ori"
+      ],
+      [
+        "3",
+        "Michael Pittman Jr.",
+        "Big Leiber"
+      ],
+      [
+        "4",
+        "Kirk Cousins",
+        "Nalick"
+      ],
+      [
+        "5",
+        "Aaron Rodgers",
+        "Abe"
+      ],
+      [
+        "6",
+        "Kyle Pitts Sr.",
+        "Barry"
+      ],
+      [
+        "7",
+        "Brock Purdy (K)",
+        "Goldberg"
+      ],
+      [
+        "8",
+        "James Conner",
+        "Ori"
+      ],
+      [
+        "9",
+        "Tank Dell",
+        "Joshua"
+      ],
+      [
+        "10",
+        "Kenneth Walker III (K)",
+        "Barry"
+      ],
+      [
+        "Round 8"
+      ],
+      [
+        "1",
+        "Isiah Pacheco (K)",
+        "Barry"
+      ],
+      [
+        "2",
+        "Dalton Kincaid",
+        "Joshua"
+      ],
+      [
+        "3",
+        "Stefon Diggs",
+        "Jeff"
+      ],
+      [
+        "4",
+        "Christian Kirk",
+        "Goldberg"
+      ],
+      [
+        "5",
+        "Calvin Ridley",
+        "Greenspan"
+      ],
+      [
+        "6",
+        "Aaron Jones Sr.",
+        "Abe"
+      ],
+      [
+        "7",
+        "Rhamondre Stevenson",
+        "Nalick"
+      ],
+      [
+        "8",
+        "D'Andre Swift",
+        "Big Leiber"
+      ],
+      [
+        "9",
+        "Najee Harris",
+        "Ori"
+      ],
+      [
+        "10",
+        "Matthew Stafford (K)",
+        "Tompkins"
+      ],
+      [
+        "Round 9"
+      ],
+      [
+        "1",
+        "Deshaun Watson",
+        "Tompkins"
+      ],
+      [
+        "2",
+        "Tony Pollard",
+        "Ori"
+      ],
+      [
+        "3",
+        "Xavier Worthy",
+        "Big Leiber"
+      ],
+      [
+        "4",
+        "Devin Singletary",
+        "Nalick"
+      ],
+      [
+        "5",
+        "C.J. Stroud (K)",
+        "Abe"
+      ],
+      [
+        "6",
+        "Brian Robinson Jr.",
+        "Greenspan"
+      ],
+      [
+        "7",
+        "Zamir White",
+        "Goldberg"
+      ],
+      [
+        "8",
+        "Rome Odunze",
+        "Jeff"
+      ],
+      [
+        "9",
+        "Kyler Murray (K)",
+        "Joshua"
+      ],
+      [
+        "10",
+        "Javonte Williams",
+        "Barry"
+      ],
+      [
+        "Round 10"
+      ],
+      [
+        "1",
+        "Diontae Johnson",
+        "Barry"
+      ],
+      [
+        "2",
+        "Jayden Reed",
+        "Joshua"
+      ],
+      [
+        "3",
+        "Baker Mayfield (K)",
+        "Jeff"
+      ],
+      [
+        "4",
+        "Evan Engram",
+        "Goldberg"
+      ],
+      [
+        "5",
+        "Hollywood Brown",
+        "Greenspan"
+      ],
+      [
+        "6",
+        "Chris Godwin Jr.",
+        "Abe"
+      ],
+      [
+        "7",
+        "Tyjae Spears",
+        "Nalick"
+      ],
+      [
+        "8",
+        "Jaxon Smith-Njigba",
+        "Big Leiber"
+      ],
+      [
+        "9",
+        "Keenan Allen",
+        "Ori"
+      ],
+      [
+        "10",
+        "Christian Watson",
+        "Tompkins"
+      ],
+      [
+        "Round 11"
+      ],
+      [
+        "1",
+        "Gus Edwards",
+        "Tompkins"
+      ],
+      [
+        "2",
+        "Joshua Palmer",
+        "Ori"
+      ],
+      [
+        "3",
+        "Jonathon Brooks",
+        "Big Leiber"
+      ],
+      [
+        "4",
+        "Brian Thomas Jr.",
+        "Nalick"
+      ],
+      [
+        "5",
+        "Nico Collins (K)",
+        "Abe"
+      ],
+      [
+        "6",
+        "Jerome Ford",
+        "Greenspan"
+      ],
+      [
+        "7",
+        "Austin Ekeler",
+        "Goldberg"
+      ],
+      [
+        "8",
+        "Zack Moss",
+        "Jeff"
+      ],
+      [
+        "9",
+        "Jaylen Warren",
+        "Joshua"
+      ],
+      [
+        "10",
+        "Geno Smith",
+        "Barry"
+      ],
+      [
+        "Round 12"
+      ],
+      [
+        "1",
+        "Chase Brown",
+        "Barry"
+      ],
+      [
+        "2",
+        "Blake Corum",
+        "Joshua"
+      ],
+      [
+        "3",
+        "Russell Wilson",
+        "Jeff"
+      ],
+      [
+        "4",
+        "Courtland Sutton",
+        "Goldberg"
+      ],
+      [
+        "5",
+        "Bo Nix",
+        "Greenspan"
+      ],
+      [
+        "6",
+        "Jake Ferguson",
+        "Abe"
+      ],
+      [
+        "7",
+        "Trey Benson",
+        "Nalick"
+      ],
+      [
+        "8",
+        "David Njoku",
+        "Big Leiber"
+      ],
+      [
+        "9",
+        "Bryce Young",
+        "Ori"
+      ],
+      [
+        "10",
+        "Brock Bowers",
+        "Tompkins"
+      ],
+      [
+        "Round 13"
+      ],
+      [
+        "1",
+        "San Francisco",
+        "Tompkins"
+      ],
+      [
+        "2",
+        "Dallas Goedert",
+        "Ori"
+      ],
+      [
+        "3",
+        "Will Levis",
+        "Big Leiber"
+      ],
+      [
+        "4",
+        "Jameson Williams",
+        "Nalick"
+      ],
+      [
+        "5",
+        "Baltimore",
+        "Abe"
+      ],
+      [
+        "6",
+        "Raheem Mostert (K)",
+        "Greenspan"
+      ],
+      [
+        "7",
+        "New York",
+        "Goldberg"
+      ],
+      [
+        "8",
+        "DeAndre Hopkins",
+        "Jeff"
+      ],
+      [
+        "9",
+        "Drake Maye",
+        "Joshua"
+      ],
+      [
+        "10",
+        "Jordan Addison",
+        "Barry"
+      ],
+      [
+        "Round 14"
+      ],
+      [
+        "1",
+        "Ladd McConkey",
+        "Barry"
+      ],
+      [
+        "2",
+        "Sam Darnold",
+        "Joshua"
+      ],
+      [
+        "3",
+        "Nick Chubb",
+        "Jeff"
+      ],
+      [
+        "4",
+        "Kimani Vidal",
+        "Goldberg"
+      ],
+      [
+        "5",
+        "Keon Coleman",
+        "Greenspan"
+      ],
+      [
+        "6",
+        "Justin Tucker",
+        "Abe"
+      ],
+      [
+        "7",
+        "Justin Fields",
+        "Nalick"
+      ],
+      [
+        "8",
+        "Rico Dowdle",
+        "Big Leiber"
+      ],
+      [
+        "9",
+        "Harrison Butker",
+        "Ori"
+      ],
+      [
+        "10",
+        "Brandon Aubrey",
+        "Tompkins"
+      ],
+      [
+        "Round 15"
+      ],
+      [
+        "1",
+        "Mike Williams",
+        "Tompkins"
+      ],
+      [
+        "2",
+        "Dallas",
+        "Ori"
+      ],
+      [
+        "3",
+        "Ty Chandler",
+        "Big Leiber"
+      ],
+      [
+        "4",
+        "Khalil Shakir",
+        "Nalick"
+      ],
+      [
+        "5",
+        "J.K. Dobbins",
+        "Abe"
+      ],
+      [
+        "6",
+        "Jaylen Wright",
+        "Greenspan"
+      ],
+      [
+        "7",
+        "Xavier Legette",
+        "Goldberg"
+      ],
+      [
+        "8",
+        "Cleveland",
+        "Jeff"
+      ],
+      [
+        "9",
+        "Pittsburgh",
+        "Joshua"
+      ],
+      [
+        "10",
+        "New Orleans",
+        "Barry"
+      ],
+      [
+        "Round 16"
+      ],
+      [
+        "1",
+        "Jason Sanders",
+        "Barry"
+      ],
+      [
+        "2",
+        "Younghoe Koo",
+        "Joshua"
+      ],
+      [
+        "3",
+        "T.J. Hockenson",
+        "Jeff"
+      ],
+      [
+        "4",
+        "Ricky Pearsall",
+        "Goldberg"
+      ],
+      [
+        "5",
+        "Cincinnati",
+        "Greenspan"
+      ],
+      [
+        "6",
+        "Adonai Mitchell",
+        "Abe"
+      ],
+      [
+        "7",
+        "Kansas City",
+        "Nalick"
+      ],
+      [
+        "8",
+        "Seattle",
+        "Big Leiber"
+      ],
+      [
+        "9",
+        "Ray Davis",
+        "Ori"
+      ],
+      [
+        "10",
+        "Zach Charbonnet",
+        "Tompkins"
+      ],
+      [
+        "Round 17"
+      ],
+      [
+        "1",
+        "Ka'imi Fairbairn",
+        "Nalick"
+      ],
+      [
+        "2",
+        "Ben Sinnott",
+        "Ori"
+      ],
+      [
+        "3",
+        "Jake Elliott",
+        "Big Leiber"
+      ],
+      [
+        "4",
+        "Jaleel McLaughlin",
+        "Nalick"
+      ],
+      [
+        "5",
+        "Gabe Davis",
+        "Abe"
+      ],
+      [
+        "6",
+        "Cameron Dicker",
+        "Goldberg"
+      ],
+      [
+        "7",
+        "Tyler Allgeier",
+        "Goldberg"
+      ],
+      [
+        "8",
+        "Evan McPherson",
+        "Jeff"
+      ],
+      [
+        "9",
+        "Rashid Shaheed",
+        "Joshua"
+      ],
+      [
+        "10",
+        "Ezekiel Elliott",
+        "Barry"
+      ]
+    ],
+    "2025": [
+      [
+        null,
+        "Player Name",
+        "Manager"
+      ],
+      [
+        "Round 1"
+      ],
+      [
+        "1",
+        "Saquon Barkley",
+        "Jeff"
+      ],
+      [
+        "2",
+        "Lamar Jackson",
+        "Goldberg"
+      ],
+      [
+        "3",
+        "Josh Allen",
+        "Ori"
+      ],
+      [
+        "4",
+        "Jalen Hurts",
+        "Joshua"
+      ],
+      [
+        "5",
+        "Bijan Robinson",
+        "Abe"
+      ],
+      [
+        "6",
+        "Ja'Marr Chase",
+        "Greenspan"
+      ],
+      [
+        "7",
+        "Jahmyr Gibbs",
+        "Nalick"
+      ],
+      [
+        "8",
+        "Joe Burrow",
+        "Big Leiber"
+      ],
+      [
+        "9",
+        "Justin Jefferson",
+        "Tompkins"
+      ],
+      [
+        "10",
+        "Jayden Daniels (K)",
+        "Barry"
+      ],
+      [
+        "Round 2"
+      ],
+      [
+        "1",
+        "Derrick Henry",
+        "Barry"
+      ],
+      [
+        "2",
+        "CeeDee Lamb",
+        "Tompkins"
+      ],
+      [
+        "3",
+        "Christian McCaffrey",
+        "Big Leiber"
+      ],
+      [
+        "4",
+        "Amon-Ra St. Brown",
+        "Nalick"
+      ],
+      [
+        "5",
+        "Ashton Jeanty",
+        "Greenspan"
+      ],
+      [
+        "6",
+        "Malik Nabers",
+        "Abe"
+      ],
+      [
+        "7",
+        "Jonathan Taylor",
+        "Joshua"
+      ],
+      [
+        "8",
+        "Patrick Mahomes",
+        "Ori"
+      ],
+      [
+        "9",
+        "Puka Nacua",
+        "Goldberg"
+      ],
+      [
+        "10",
+        "Josh Jacobs",
+        "Jeff"
+      ],
+      [
+        "Round 3"
+      ],
+      [
+        "1",
+        "Tyreek Hill",
+        "Jeff"
+      ],
+      [
+        "2",
+        "De'Von Achane (K)",
+        "Goldberg"
+      ],
+      [
+        "3",
+        "A.J. Brown",
+        "Ori"
+      ],
+      [
+        "4",
+        "James Cook III",
+        "Joshua"
+      ],
+      [
+        "5",
+        "Caleb Williams",
+        "Abe"
+      ],
+      [
+        "6",
+        "Drake London",
+        "Greenspan"
+      ],
+      [
+        "7",
+        "Trey McBride",
+        "Nalick"
+      ],
+      [
+        "8",
+        "Kyler Murray",
+        "Big Leiber"
+      ],
+      [
+        "9",
+        "George Kittle",
+        "Ori"
+      ],
+      [
+        "10",
+        "Kyren Williams",
+        "Barry"
+      ],
+      [
+        "Round 4"
+      ],
+      [
+        "1",
+        "Omarion Hampton",
+        "Barry"
+      ],
+      [
+        "2",
+        "Mike Evans",
+        "Tompkins"
+      ],
+      [
+        "3",
+        "Jaxon Smith-Njigba",
+        "Big Leiber"
+      ],
+      [
+        "4",
+        "Garrett Wilson",
+        "Nalick"
+      ],
+      [
+        "5",
+        "Chuba Hubbard",
+        "Greenspan"
+      ],
+      [
+        "6",
+        "Tee Higgins",
+        "Abe"
+      ],
+      [
+        "7",
+        "TreVeyon Henderson",
+        "Joshua"
+      ],
+      [
+        "8",
+        "Kenneth Walker III",
+        "Ori"
+      ],
+      [
+        "9",
+        "Terry McLaurin",
+        "Goldberg"
+      ],
+      [
+        "10",
+        "Marvin Harrison Jr.",
+        "Jeff"
+      ],
+      [
+        "Round 5"
+      ],
+      [
+        "1",
+        "Justin Fields",
+        "Jeff"
+      ],
+      [
+        "2",
+        "Justin Herbert",
+        "Goldberg"
+      ],
+      [
+        "3",
+        "DeVonta Smith",
+        "Ori"
+      ],
+      [
+        "4",
+        "Jameson Williams",
+        "Joshua"
+      ],
+      [
+        "5",
+        "Breece Hall",
+        "Abe"
+      ],
+      [
+        "6",
+        "Dak Prescott",
+        "Greenspan"
+      ],
+      [
+        "7",
+        "Jordan Love",
+        "Nalick"
+      ],
+      [
+        "8",
+        "Alvin Kamara",
+        "Big Leiber"
+      ],
+      [
+        "9",
+        "James Conner",
+        "Tompkins"
+      ],
+      [
+        "10",
+        "Brock Purdy",
+        "Barry"
+      ],
+      [
+        "Round 6"
+      ],
+      [
+        "1",
+        "Sam LaPorta",
+        "Barry"
+      ],
+      [
+        "2",
+        "Davante Adams",
+        "Tompkins"
+      ],
+      [
+        "3",
+        "Bucky Irving (K)",
+        "Big Leiber"
+      ],
+      [
+        "4",
+        "Isiah Pacheco",
+        "Nalick"
+      ],
+      [
+        "5",
+        "George Pickens",
+        "Greenspan"
+      ],
+      [
+        "6",
+        "C.J. Stroud (K)",
+        "Abe"
+      ],
+      [
+        "7",
+        "Chase Brown (K)",
+        "Joshua"
+      ],
+      [
+        "8",
+        "Tyrone Tracy Jr.",
+        "Ori"
+      ],
+      [
+        "9",
+        "D'Andre Swift",
+        "Goldberg"
+      ],
+      [
+        "10",
+        "Tony Pollard",
+        "Jeff"
+      ],
+      [
+        "Round 7"
+      ],
+      [
+        "1",
+        "Baker Mayfield (K)",
+        "Jeff"
+      ],
+      [
+        "2",
+        "DJ Moore",
+        "Goldberg"
+      ],
+      [
+        "3",
+        "Calvin Ridley",
+        "Ori"
+      ],
+      [
+        "4",
+        "Xavier Worthy",
+        "Joshua"
+      ],
+      [
+        "5",
+        "Jared Goff",
+        "Abe"
+      ],
+      [
+        "6",
+        "Aaron Jones Sr.",
+        "Greenspan"
+      ],
+      [
+        "7",
+        "Zay Flowers",
+        "Nalick"
+      ],
+      [
+        "8",
+        "DK Metcalf",
+        "Big Leiber"
+      ],
+      [
+        "9",
+        "Trevor Lawrence",
+        "Tompkins"
+      ],
+      [
+        "10",
+        "Tetairoa McMillan",
+        "Barry"
+      ],
+      [
+        "Round 8"
+      ],
+      [
+        "1",
+        "Travis Hunter",
+        "Barry"
+      ],
+      [
+        "2",
+        "J.J. McCarthy",
+        "Tompkins"
+      ],
+      [
+        "3",
+        "RJ Harvey",
+        "Big Leiber"
+      ],
+      [
+        "4",
+        "Jacory Croskey-Merritt",
+        "Nalick"
+      ],
+      [
+        "5",
+        "T.J. Hockenson",
+        "Greenspan"
+      ],
+      [
+        "6",
+        "Nico Collins (K)",
+        "Abe"
+      ],
+      [
+        "7",
+        "Jaylen Waddle",
+        "Joshua"
+      ],
+      [
+        "8",
+        "Brian Thomas Jr. (K)",
+        "Ori"
+      ],
+      [
+        "9",
+        "Travis Kelce",
+        "Goldberg"
+      ],
+      [
+        "10",
+        "Rome Odunze",
+        "Jeff"
+      ],
+      [
+        "Round 9"
+      ],
+      [
+        "1",
+        "Michael Penix Jr.",
+        "Jeff"
+      ],
+      [
+        "2",
+        "Courtland Sutton (K)",
+        "Goldberg"
+      ],
+      [
+        "3",
+        "Kaleb Johnson",
+        "Ori"
+      ],
+      [
+        "4",
+        "Emeka Egbuka",
+        "Joshua"
+      ],
+      [
+        "5",
+        "Chris Olave",
+        "Abe"
+      ],
+      [
+        "6",
+        "Bo Nix (K)",
+        "Greenspan"
+      ],
+      [
+        "7",
+        "Geno Smith",
+        "Nalick"
+      ],
+      [
+        "8",
+        "Ricky Pearsall",
+        "Big Leiber"
+      ],
+      [
+        "9",
+        "Brock Bowers (K)",
+        "Tompkins"
+      ],
+      [
+        "10",
+        "David Montgomery",
+        "Barry"
+      ],
+      [
+        "Round 10"
+      ],
+      [
+        "1",
+        "Jordan Mason",
+        "Barry"
+      ],
+      [
+        "2",
+        "Jaylen Warren",
+        "Tompkins"
+      ],
+      [
+        "3",
+        "Matthew Golden",
+        "Big Leiber"
+      ],
+      [
+        "4",
+        "Zach Charbonnet",
+        "Nalick"
+      ],
+      [
+        "5",
+        "Rashee Rice",
+        "Greenspan"
+      ],
+      [
+        "6",
+        "Tucker Kraft",
+        "Abe"
+      ],
+      [
+        "7",
+        "Drake Maye (K)",
+        "Joshua"
+      ],
+      [
+        "8",
+        "Stefon Diggs",
+        "Ori"
+      ],
+      [
+        "9",
+        "Matthew Stafford",
+        "Goldberg"
+      ],
+      [
+        "10",
+        "Mark Andrews",
+        "Jeff"
+      ],
+      [
+        "Round 11"
+      ],
+      [
+        "1",
+        "Cam Skattebo",
+        "Jeff"
+      ],
+      [
+        "2",
+        "Chris Godwin Jr.",
+        "Goldberg"
+      ],
+      [
+        "3",
+        "Braelon Allen",
+        "Ori"
+      ],
+      [
+        "4",
+        "Tyler Warren",
+        "Joshua"
+      ],
+      [
+        "5",
+        "Joe Mixon",
+        "Abe"
+      ],
+      [
+        "6",
+        "Bryce Young",
+        "Greenspan"
+      ],
+      [
+        "7",
+        "Jakobi Meyers",
+        "Nalick"
+      ],
+      [
+        "8",
+        "Jerry Jeudy",
+        "Big Leiber"
+      ],
+      [
+        "9",
+        "Tua Tagovailoa",
+        "Tompkins"
+      ],
+      [
+        "10",
+        "Ladd McConkey (K)",
+        "Barry"
+      ],
+      [
+        "Round 12"
+      ],
+      [
+        "1",
+        "Deebo Samuel",
+        "Barry"
+      ],
+      [
+        "2",
+        "Nick Chubb",
+        "Tompkins"
+      ],
+      [
+        "3",
+        "David Njoku",
+        "Big Leiber"
+      ],
+      [
+        "4",
+        "Cam Ward",
+        "Nalick"
+      ],
+      [
+        "5",
+        "J.K. Dobbins",
+        "Greenspan"
+      ],
+      [
+        "6",
+        "Keon Coleman",
+        "Abe"
+      ],
+      [
+        "7",
+        "Jauan Jennings",
+        "Joshua"
+      ],
+      [
+        "8",
+        "Jaxson Dart",
+        "Ori"
+      ],
+      [
+        "9",
+        "Rhamondre Stevenson",
+        "Goldberg"
+      ],
+      [
+        "10",
+        "Michael Pittman Jr.",
+        "Jeff"
+      ],
+      [
+        "Round 13"
+      ],
+      [
+        "1",
+        "Jayden Reed",
+        "Jeff"
+      ],
+      [
+        "2",
+        "Jaydon Blue",
+        "Goldberg"
+      ],
+      [
+        "3",
+        "Jordan Addison",
+        "Ori"
+      ],
+      [
+        "4",
+        "Sam Darnold",
+        "Joshua"
+      ],
+      [
+        "5",
+        "Colston Loveland",
+        "Abe"
+      ],
+      [
+        "6",
+        "Brandon Aiyuk",
+        "Greenspan"
+      ],
+      [
+        "7",
+        "Tank Bigsby",
+        "Nalick"
+      ],
+      [
+        "8",
+        "Travis Etienne Jr.",
+        "Big Leiber"
+      ],
+      [
+        "9",
+        "Keenan Allen",
+        "Tompkins"
+      ],
+      [
+        "10",
+        "Brandon Aubrey",
+        "Barry"
+      ],
+      [
+        "Round 14"
+      ],
+      [
+        "1",
+        "Aaron Rodgers",
+        "Barry"
+      ],
+      [
+        "2",
+        "Javonte Williams",
+        "Tompkins"
+      ],
+      [
+        "3",
+        "Russell Wilson",
+        "Big Leiber"
+      ],
+      [
+        "4",
+        "Josh Downs",
+        "Nalick"
+      ],
+      [
+        "5",
+        "Jayden Higgins",
+        "Greenspan"
+      ],
+      [
+        "6",
+        "Dalton Kincaid",
+        "Abe"
+      ],
+      [
+        "7",
+        "Darnell Mooney",
+        "Joshua"
+      ],
+      [
+        "8",
+        "Kyle Pitts Sr.",
+        "Ori"
+      ],
+      [
+        "9",
+        "Khalil Shakir",
+        "Goldberg"
+      ],
+      [
+        "10",
+        "Evan Engram",
+        "Jeff"
+      ],
+      [
+        "Round 15"
+      ],
+      [
+        "1",
+        "Dylan Sampson",
+        "Jeff"
+      ],
+      [
+        "2",
+        "Bhayshul Tuten",
+        "Goldberg"
+      ],
+      [
+        "3",
+        "Broncos",
+        "Ori"
+      ],
+      [
+        "4",
+        "Steelers",
+        "Joshua"
+      ],
+      [
+        "5",
+        "Texans",
+        "Abe"
+      ],
+      [
+        "6",
+        "Quinshon Judkins",
+        "Greenspan"
+      ],
+      [
+        "7",
+        "Trey Benson",
+        "Nalick"
+      ],
+      [
+        "8",
+        "Eagles",
+        "Big Leiber"
+      ],
+      [
+        "9",
+        "Vikings",
+        "Tompkins"
+      ],
+      [
+        "10",
+        "Ravens",
+        "Barry"
+      ],
+      [
+        "Round 16"
+      ],
+      [
+        "1",
+        "Rashid Shaheed",
+        "Barry"
+      ],
+      [
+        "2",
+        "Jake Bates",
+        "Tompkins"
+      ],
+      [
+        "3",
+        "Cameron Dicker",
+        "Big Leiber"
+      ],
+      [
+        "4",
+        "Chiefs",
+        "Nalick"
+      ],
+      [
+        "5",
+        "Isaiah Likely",
+        "Greenspan"
+      ],
+      [
+        "6",
+        "Ollie Gordon II",
+        "Abe"
+      ],
+      [
+        "7",
+        "Matt Gay",
+        "Joshua"
+      ],
+      [
+        "8",
+        "Chase McLaughlin",
+        "Ori"
+      ],
+      [
+        "9",
+        "Bills",
+        "Goldberg"
+      ],
+      [
+        "10",
+        "Commanders",
+        "Jeff"
+      ],
+      [
+        "Round 17"
+      ],
+      [
+        "1",
+        "Cam Little",
+        "Jeff"
+      ],
+      [
+        "2",
+        "Wil Lutz",
+        "Goldberg"
+      ],
+      [
+        "3",
+        "Ray Davis",
+        "Tompkins"
+      ],
+      [
+        "4",
+        "Tyler Allgeier",
+        "Joshua"
+      ],
+      [
+        "5",
+        "Harrison Butker",
+        "Abe"
+      ],
+      [
+        "6",
+        "Packers",
+        "Greenspan"
+      ],
+      [
+        "7",
+        "Evan McPherson",
+        "Nalick"
+      ],
+      [
+        "8",
+        "Cooper Kupp",
+        "Big Leiber"
+      ],
+      [
+        "9",
+        "--empty--",
+        "Tompkins"
+      ],
+      [
+        "10",
+        "Marvin Mims Jr.",
+        "Barry"
+      ]
+    ],
+    "Managers": [
+      [
+        "Manager",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024",
+        "2025"
+      ],
+      [
+        "Tompkins",
+        "2920's",
+        "2920's",
+        "2920's",
+        "2920's",
+        "2920's",
+        "2920's",
+        "2920's",
+        "2920's"
+      ],
+      [
+        "Barry",
+        "DTNF",
+        "DTNF",
+        "DTNF",
+        "DTNF",
+        "DTNF",
+        "EZ Does It",
+        "DTNF",
+        "DTNF"
+      ],
+      [
+        "Joshua",
+        "",
+        "",
+        "",
+        "",
+        "EF Apprentice",
+        "EF Apprentice",
+        "EF Apprentice",
+        "EF Apprentice"
+      ],
+      [
+        "Ori",
+        "Hurricane Hole",
+        "1 day waitin...",
+        "Waterbury Wo...",
+        "Waterbury Wo...",
+        "The annexati...",
+        "The annexati...",
+        "The annexati...",
+        "El Guapo"
+      ],
+      [
+        "Jeff",
+        "The Baby Pats",
+        "Frank’s Re...",
+        "JTT",
+        "The Baby Daks",
+        "Judge Jeudy",
+        "2017 Clevela...",
+        "2017 Clevela...",
+        "Haley Joel Osment"
+      ],
+      [
+        "Abe",
+        "We Suck Again",
+        "Luck be a Lady",
+        "Luck be a Lady",
+        "Hans and Franz",
+        "Hans and Franz",
+        "Hans and Franz",
+        "Hans and Franz",
+        "Hans and Franz"
+      ],
+      [
+        "Big Leiber",
+        "A Real Munson",
+        "A Real Munson",
+        "RealMunso",
+        "RealMunso",
+        "Real Munson",
+        "Real Munson",
+        "Real Munson",
+        "Real Munson"
+      ],
+      [
+        "Greenspan",
+        "Meat",
+        "Touchdown Pi...",
+        "Touchdown Pi...",
+        "Touchdown Pi...",
+        "Touchdown Pi...",
+        "Touchdown Pi...",
+        "Touchdown Pi...",
+        "Touchdown Pigeon"
+      ],
+      [
+        "Goldberg",
+        "This is my l...",
+        "💩🌋",
+        "💩🌊",
+        "💩 🌊",
+        "💩 🌊",
+        "💩 🚀",
+        "💩 📉",
+        "Year of the 💩"
+      ],
+      [
+        "Nalick",
+        "Fuck",
+        "Goldie's Hem...",
+        "Little Giants",
+        "Suck My Choc...",
+        "Wide Vaginas",
+        "Wide Vaginas",
+        "Party and Bu...",
+        "Your Butt is Going To Hurt"
+      ],
+      [
+        "Danziger",
+        "Ihate Fantasy",
+        "Fantasizing",
+        "That’s TUAble",
+        "The Last Dance"
+      ]
+    ]
+  }
+}

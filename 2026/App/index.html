@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#12261f">
+  <title>2026 Draft Room</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <p class="eyebrow">Goldberg · 10-team 2QB · non-PPR</p>
+      <h1>Draft room</h1>
+    </div>
+    <div class="status-cluster">
+      <div><span class="label">On the clock</span><strong id="on-clock">Loading…</strong></div>
+      <div><span class="label">Your next pick</span><strong id="next-pick">—</strong></div>
+      <button class="quiet-button" id="open-tuning" type="button">Tuning</button>
+      <button class="quiet-button" id="undo" type="button">Undo</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="alert" id="data-alert" aria-live="polite"></section>
+    <section class="roster-strip" aria-label="Your roster">
+      <div>
+        <span class="label">Your roster</span>
+        <div id="roster" class="roster-chips"></div>
+      </div>
+      <button class="quiet-button" id="open-board" type="button">Record another pick</button>
+    </section>
+
+    <section class="recommendation-grid" aria-label="Draft recommendations">
+      <article class="recommendation-column optimized">
+        <header>
+          <span class="column-number">01</span>
+          <div><h2>Optimized picks</h2><p>Best fit for this roster and this room.</p></div>
+        </header>
+        <div id="optimized-list" class="candidate-list"></div>
+      </article>
+      <article class="recommendation-column consensus">
+        <header>
+          <span class="column-number">02</span>
+          <div><h2>Consensus picks</h2><p>The strongest neutral, off-the-shelf choices.</p></div>
+        </header>
+        <div id="consensus-list" class="candidate-list"></div>
+      </article>
+      <article class="recommendation-column wildcard">
+        <header>
+          <span class="column-number">03</span>
+          <div><h2>Wildcard picks</h2><p>Credible upside before the market catches up.</p></div>
+        </header>
+        <div id="wildcard-list" class="candidate-list"></div>
+      </article>
+    </section>
+  </main>
+
+  <dialog id="detail-dialog">
+    <button class="dialog-close" type="button" data-close aria-label="Close">×</button>
+    <div id="dialog-content"></div>
+  </dialog>
+
+  <dialog id="board-dialog" class="board-dialog">
+    <button class="dialog-close" type="button" data-close aria-label="Close">×</button>
+    <div class="dialog-heading"><p class="eyebrow">Live draft entry</p><h2>Record a pick</h2></div>
+    <label class="search-label">Player search<input id="player-search" type="search" autocomplete="off" placeholder="Start typing a player name"></label>
+    <div id="search-results" class="search-results"></div>
+  </dialog>
+
+  <dialog id="tuning-dialog">
+    <button class="dialog-close" type="button" data-close aria-label="Close">×</button>
+    <div class="dialog-heading"><p class="eyebrow">Optimization controls</p><h2>Tuning</h2></div>
+    <p class="dialog-intro">These controls affect only Optimized and Wildcard picks.  Consensus stays neutral.</p>
+    <div id="tuning-controls" class="tuning-controls"></div>
+    <div class="tuning-actions"><button class="quiet-button" id="reset-tuning" type="button">Reset defaults</button><button class="primary-button" id="save-tuning" type="button">Apply</button></div>
+  </dialog>
+
+  <template id="candidate-template">
+    <section class="candidate-card">
+      <div class="candidate-heading">
+        <div><h3></h3><p class="player-meta"></p></div>
+        <span class="availability"></span>
+      </div>
+      <p class="case"></p>
+      <div class="pros-cons"><p class="pros"></p><p class="cons"></p></div>
+      <div class="candidate-actions">
+        <button class="primary-button draft-button" type="button"></button>
+        <button class="text-button research-button" type="button">Research</button>
+        <button class="text-button team-button" type="button">Team sheet</button>
+      </div>
+    </section>
+  </template>
+  <script src="app.js"></script>
+</body>
+</html>

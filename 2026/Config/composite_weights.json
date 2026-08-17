@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "status": "provisional and reviewable",
+  "quality_weights": {
+    "draftsheets_scoring_value": 0.45,
+    "jeff_mans_superflex_rank": 0.45,
+    "fantasyguru_qb_chart_rank": 0.1
+  },
+  "rules": {
+    "renormalize_when_source_missing": true,
+    "adp_is_not_quality": "Keep market ADP outside the quality composite and use it to estimate availability.",
+    "context_is_not_source_rank": "Apply injuries, role, scheme, bye coverage, roster need, and opponent behavior after the base composite."
+  }
+}
