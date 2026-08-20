@@ -39,6 +39,7 @@
   },
   "hard_constraints": {
     "minimum_qb": 3,
+    "maximum_qb": 4,
     "minimum_wr": 5,
     "kickers": 1,
     "defenses": 1,
@@ -58,6 +59,9 @@
     },
     "fourth_qb": {
       "allowed": true,
+      "earliest_round": 10,
+      "required_roster_before": {"RB": 4, "WR": 5, "TE": 1},
+      "recommendation_columns": ["wildcard"],
       "preferred_profile": "rookie, uncertain current starter, or high-upside backup with a credible path to starts",
       "condition": "Do not sacrifice the fifth WR, mandatory bye coverage, or a major tier value."
     },

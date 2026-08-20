@@ -46,6 +46,7 @@ def load_draftsheets():
             "player": item["player"],
             "position": item["position"],
             "draftsheets_value": item["displayed_value"],
+            "draftsheets_position_tier": item.get("position_tier"),
             "draftsheets_overall_value_rank": rank,
             "draftsheets_score": percentile(rank, len(ordered)),
         }
@@ -126,6 +127,7 @@ def main():
             "source_count": len(components),
             "position_conflict": len(positions) > 1,
             "draftsheets_value": ds.get("draftsheets_value", ""),
+            "draftsheets_position_tier": ds.get("draftsheets_position_tier", ""),
             "draftsheets_overall_value_rank": ds.get("draftsheets_overall_value_rank", ""),
             "jeff_mans_rank": jm.get("jeff_mans_rank", ""),
             "qb_chart_rank": qb.get("qb_chart_rank", ""),
@@ -140,7 +142,7 @@ def main():
     fields = [
         "base_composite_rank", "player", "position", "team", "bye",
         "base_quality_score", "source_count", "position_conflict",
-        "draftsheets_value", "draftsheets_overall_value_rank",
+        "draftsheets_value", "draftsheets_position_tier", "draftsheets_overall_value_rank",
         "jeff_mans_rank", "qb_chart_rank", "qb_chart_tier", "qb_chart_2qb_adp"
     ]
     with (GENERATED / "base_composite_board.csv").open("w", newline="", encoding="utf-8") as handle:

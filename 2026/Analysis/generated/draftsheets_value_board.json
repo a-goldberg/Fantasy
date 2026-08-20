@@ -1,11 +1,27 @@
 {
   "source": {
     "title": "DraftSheets_2026",
-    "spreadsheet_id": "1PBGqN-gs8w7nq2_LheYAytHoywH-6wwit_CNanHQvbg",
+    "source_id": "14N8XHT7NmIDVQKulKcFw3tQWGwWlrhxv71TJUdw_F7U",
+    "spreadsheet_id": "14N8XHT7NmIDVQKulKcFw3tQWGwWlrhxv71TJUdw_F7U",
+    "source_url": "https://docs.google.com/spreadsheets/d/14N8XHT7NmIDVQKulKcFw3tQWGwWlrhxv71TJUdw_F7U/edit",
     "sheet": "DraftSheet",
-    "range": "A1:AH400",
-    "retrieved_at": "2026-08-16",
-    "note": "Raw displayed values. Importer intentionally uses only player name and displayed VALUE within each positional table."
+    "range": "DraftSheet!C5:C45,F5:F45,C48:C90,F48:F90,M5:M90,P5:P90,W5:W90,Z5:Z90",
+    "retrieved_at": "2026-08-20",
+    "source_updated_at": "2026-08-20T17:39:13.182Z",
+    "format": "Google Sheets displayed values",
+    "validation_status": "validated",
+    "note": "Sparse raw displayed-value snapshot. Importer intentionally uses only player name and displayed VALUE within each positional table.",
+    "position_tier_source": {
+      "title": "DraftSheets_2026",
+      "source_id": "14N8XHT7NmIDVQKulKcFw3tQWGwWlrhxv71TJUdw_F7U",
+      "source_url": "https://docs.google.com/spreadsheets/d/14N8XHT7NmIDVQKulKcFw3tQWGwWlrhxv71TJUdw_F7U/edit",
+      "sheet": "DraftSheet",
+      "retrieved_at": "2026-08-20",
+      "source_updated_at": "2026-08-20T17:39:13.182Z",
+      "format": "Google Sheets displayed values and formulas",
+      "validation_status": "validated",
+      "note": "Tier cells are VLOOKUP formulas keyed to the player name in the same displayed table, so they remain associated after manual name sorting."
+    }
   },
   "import_rule": "NAME and displayed VALUE only; sorted descending within position",
   "ignored_fields": [
@@ -21,6 +37,7 @@
       "position": "QB",
       "player": "Josh Allen",
       "displayed_value": 117,
+      "position_tier": 3,
       "source_row": 5,
       "value_rank_at_position": 1
     },
@@ -28,20 +45,23 @@
       "position": "QB",
       "player": "Lamar Jackson",
       "displayed_value": 80,
+      "position_tier": 3,
       "source_row": 6,
       "value_rank_at_position": 2
     },
     {
       "position": "QB",
-      "player": "Jayden Daniels",
+      "player": "Drake Maye",
       "displayed_value": 77,
+      "position_tier": 4,
       "source_row": 8,
       "value_rank_at_position": 3
     },
     {
       "position": "QB",
-      "player": "Drake Maye",
+      "player": "Jayden Daniels",
       "displayed_value": 76,
+      "position_tier": 4,
       "source_row": 7,
       "value_rank_at_position": 4
     },
@@ -49,6 +69,7 @@
       "position": "QB",
       "player": "Jalen Hurts",
       "displayed_value": 74,
+      "position_tier": 4,
       "source_row": 9,
       "value_rank_at_position": 5
     },
@@ -56,34 +77,39 @@
       "position": "QB",
       "player": "Joe Burrow",
       "displayed_value": 69,
+      "position_tier": 4,
       "source_row": 10,
       "value_rank_at_position": 6
     },
     {
       "position": "QB",
-      "player": "Jaxson Dart",
+      "player": "Trevor Lawrence",
       "displayed_value": 63,
+      "position_tier": 5,
       "source_row": 11,
       "value_rank_at_position": 7
     },
     {
       "position": "QB",
-      "player": "Trevor Lawrence",
-      "displayed_value": 63,
+      "player": "Brock Purdy",
+      "displayed_value": 62,
+      "position_tier": 6,
       "source_row": 12,
       "value_rank_at_position": 8
     },
     {
       "position": "QB",
-      "player": "Caleb Williams",
-      "displayed_value": 62,
+      "player": "Jaxson Dart",
+      "displayed_value": 61,
+      "position_tier": 6,
       "source_row": 13,
       "value_rank_at_position": 9
     },
     {
       "position": "QB",
-      "player": "Brock Purdy",
+      "player": "Caleb Williams",
       "displayed_value": 60,
+      "position_tier": 5,
       "source_row": 15,
       "value_rank_at_position": 10
     },
@@ -91,6 +117,7 @@
       "position": "QB",
       "player": "Dak Prescott",
       "displayed_value": 60,
+      "position_tier": 5,
       "source_row": 14,
       "value_rank_at_position": 11
     },
@@ -98,6 +125,7 @@
       "position": "QB",
       "player": "Justin Herbert",
       "displayed_value": 59,
+      "position_tier": 5,
       "source_row": 16,
       "value_rank_at_position": 12
     },
@@ -105,13 +133,15 @@
       "position": "QB",
       "player": "Patrick Mahomes II",
       "displayed_value": 55,
+      "position_tier": 6,
       "source_row": 17,
       "value_rank_at_position": 13
     },
     {
       "position": "QB",
       "player": "Bo Nix",
-      "displayed_value": 45,
+      "displayed_value": 46,
+      "position_tier": 6,
       "source_row": 18,
       "value_rank_at_position": 14
     },
@@ -119,6 +149,7 @@
       "position": "QB",
       "player": "Matthew Stafford",
       "displayed_value": 43,
+      "position_tier": 6,
       "source_row": 19,
       "value_rank_at_position": 15
     },
@@ -126,6 +157,7 @@
       "position": "QB",
       "player": "Jared Goff",
       "displayed_value": 37,
+      "position_tier": 6,
       "source_row": 20,
       "value_rank_at_position": 16
     },
@@ -133,6 +165,7 @@
       "position": "QB",
       "player": "Baker Mayfield",
       "displayed_value": 29,
+      "position_tier": 6,
       "source_row": 22,
       "value_rank_at_position": 17
     },
@@ -140,6 +173,7 @@
       "position": "QB",
       "player": "Kyler Murray",
       "displayed_value": 29,
+      "position_tier": 6,
       "source_row": 21,
       "value_rank_at_position": 18
     },
@@ -147,6 +181,7 @@
       "position": "QB",
       "player": "Tyler Shough",
       "displayed_value": 23,
+      "position_tier": 6,
       "source_row": 23,
       "value_rank_at_position": 19
     },
@@ -154,48 +189,55 @@
       "position": "QB",
       "player": "Jordan Love",
       "displayed_value": 17,
+      "position_tier": 6,
       "source_row": 24,
       "value_rank_at_position": 20
     },
     {
       "position": "QB",
       "player": "Malik Willis",
-      "displayed_value": 14,
+      "displayed_value": 15,
+      "position_tier": 7,
       "source_row": 25,
       "value_rank_at_position": 21
     },
     {
       "position": "QB",
-      "player": "C.J. Stroud",
-      "displayed_value": 3,
-      "source_row": 27,
+      "player": "Sam Darnold",
+      "displayed_value": 7,
+      "position_tier": 7,
+      "source_row": 26,
       "value_rank_at_position": 22
     },
     {
       "position": "QB",
-      "player": "Sam Darnold",
-      "displayed_value": 3,
-      "source_row": 26,
+      "player": "C.J. Stroud",
+      "displayed_value": 0,
+      "position_tier": 7,
+      "source_row": 28,
       "value_rank_at_position": 23
     },
     {
       "position": "QB",
       "player": "Daniel Jones",
       "displayed_value": 0,
-      "source_row": 28,
+      "position_tier": 7,
+      "source_row": 27,
       "value_rank_at_position": 24
     },
     {
       "position": "QB",
       "player": "Bryce Young",
       "displayed_value": -18,
+      "position_tier": 7,
       "source_row": 29,
       "value_rank_at_position": 25
     },
     {
       "position": "QB",
       "player": "Cam Ward",
-      "displayed_value": -19,
+      "displayed_value": -20,
+      "position_tier": 7,
       "source_row": 30,
       "value_rank_at_position": 26
     },
@@ -203,20 +245,23 @@
       "position": "QB",
       "player": "Jacoby Brissett",
       "displayed_value": -33,
+      "position_tier": 8,
       "source_row": 31,
       "value_rank_at_position": 27
     },
     {
       "position": "QB",
       "player": "Geno Smith",
-      "displayed_value": -38,
+      "displayed_value": -42,
+      "position_tier": 8,
       "source_row": 32,
       "value_rank_at_position": 28
     },
     {
       "position": "QB",
       "player": "Aaron Rodgers",
-      "displayed_value": -49,
+      "displayed_value": -45,
+      "position_tier": 8,
       "source_row": 33,
       "value_rank_at_position": 29
     },
@@ -224,6 +269,7 @@
       "position": "QB",
       "player": "Fernando Mendoza",
       "displayed_value": -69,
+      "position_tier": 8,
       "source_row": 34,
       "value_rank_at_position": 30
     },
@@ -231,34 +277,39 @@
       "position": "QB",
       "player": "Tua Tagovailoa",
       "displayed_value": -87,
+      "position_tier": 9,
       "source_row": 35,
       "value_rank_at_position": 31
     },
     {
       "position": "QB",
       "player": "Deshaun Watson",
-      "displayed_value": -117,
+      "displayed_value": -108,
+      "position_tier": 9,
       "source_row": 36,
       "value_rank_at_position": 32
     },
     {
       "position": "QB",
       "player": "Shedeur Sanders",
-      "displayed_value": -129,
+      "displayed_value": -139,
+      "position_tier": 9,
       "source_row": 37,
       "value_rank_at_position": 33
     },
     {
       "position": "QB",
       "player": "Michael Penix Jr.",
-      "displayed_value": -136,
+      "displayed_value": -141,
+      "position_tier": 9,
       "source_row": 38,
       "value_rank_at_position": 34
     },
     {
       "position": "QB",
       "player": "Kirk Cousins",
-      "displayed_value": -155,
+      "displayed_value": -151,
+      "position_tier": 9,
       "source_row": 39,
       "value_rank_at_position": 35
     },
@@ -266,6 +317,7 @@
       "position": "QB",
       "player": "J.J. McCarthy",
       "displayed_value": -175,
+      "position_tier": 10,
       "source_row": 40,
       "value_rank_at_position": 36
     },
@@ -273,6 +325,7 @@
       "position": "QB",
       "player": "Carson Beck",
       "displayed_value": -177,
+      "position_tier": 10,
       "source_row": 41,
       "value_rank_at_position": 37
     },
@@ -280,6 +333,7 @@
       "position": "QB",
       "player": "Ty Simpson",
       "displayed_value": -177,
+      "position_tier": 11,
       "source_row": 42,
       "value_rank_at_position": 38
     },
@@ -287,6 +341,7 @@
       "position": "QB",
       "player": "Justin Fields",
       "displayed_value": -182,
+      "position_tier": 11,
       "source_row": 43,
       "value_rank_at_position": 39
     },
@@ -294,6 +349,7 @@
       "position": "QB",
       "player": "Mac Jones",
       "displayed_value": -182,
+      "position_tier": 11,
       "source_row": 44,
       "value_rank_at_position": 40
     },
@@ -301,83 +357,95 @@
       "position": "TE",
       "player": "Brock Bowers",
       "displayed_value": 44,
-      "source_row": 48,
+      "position_tier": 2,
+      "source_row": 49,
       "value_rank_at_position": 1
     },
     {
       "position": "TE",
       "player": "Trey McBride",
       "displayed_value": 41,
-      "source_row": 49,
+      "position_tier": 3,
+      "source_row": 48,
       "value_rank_at_position": 2
     },
     {
       "position": "TE",
       "player": "Colston Loveland",
       "displayed_value": 32,
+      "position_tier": 3,
       "source_row": 50,
       "value_rank_at_position": 3
     },
     {
       "position": "TE",
       "player": "Tyler Warren",
-      "displayed_value": 19,
+      "displayed_value": 20,
+      "position_tier": 4,
       "source_row": 51,
       "value_rank_at_position": 4
     },
     {
       "position": "TE",
-      "player": "Kyle Pitts Sr.",
-      "displayed_value": 17,
-      "source_row": 53,
+      "player": "Tucker Kraft",
+      "displayed_value": 18,
+      "position_tier": 5,
+      "source_row": 54,
       "value_rank_at_position": 5
     },
     {
       "position": "TE",
-      "player": "Tucker Kraft",
+      "player": "Kyle Pitts Sr.",
       "displayed_value": 17,
+      "position_tier": 5,
       "source_row": 52,
       "value_rank_at_position": 6
     },
     {
       "position": "TE",
       "player": "Sam LaPorta",
-      "displayed_value": 15,
-      "source_row": 54,
+      "displayed_value": 16,
+      "position_tier": 5,
+      "source_row": 55,
       "value_rank_at_position": 7
     },
     {
       "position": "TE",
       "player": "Dallas Goedert",
       "displayed_value": 14,
-      "source_row": 56,
+      "position_tier": 6,
+      "source_row": 57,
       "value_rank_at_position": 8
     },
     {
       "position": "TE",
       "player": "Harold Fannin Jr.",
       "displayed_value": 14,
-      "source_row": 55,
+      "position_tier": 5,
+      "source_row": 53,
       "value_rank_at_position": 9
     },
     {
       "position": "TE",
       "player": "George Kittle",
       "displayed_value": 12,
-      "source_row": 57,
+      "position_tier": 6,
+      "source_row": 58,
       "value_rank_at_position": 10
     },
     {
       "position": "TE",
       "player": "Travis Kelce",
       "displayed_value": 10,
-      "source_row": 58,
+      "position_tier": 6,
+      "source_row": 56,
       "value_rank_at_position": 11
     },
     {
       "position": "TE",
       "player": "Isaiah Likely",
-      "displayed_value": 8,
+      "displayed_value": 9,
+      "position_tier": 6,
       "source_row": 59,
       "value_rank_at_position": 12
     },
@@ -385,20 +453,23 @@
       "position": "TE",
       "player": "Dalton Kincaid",
       "displayed_value": 7,
-      "source_row": 60,
+      "position_tier": 6,
+      "source_row": 61,
       "value_rank_at_position": 13
     },
     {
       "position": "TE",
       "player": "Mark Andrews",
-      "displayed_value": 4,
-      "source_row": 61,
+      "displayed_value": 7,
+      "position_tier": 6,
+      "source_row": 60,
       "value_rank_at_position": 14
     },
     {
       "position": "TE",
       "player": "Jake Ferguson",
       "displayed_value": 0,
+      "position_tier": 6,
       "source_row": 62,
       "value_rank_at_position": 15
     },
@@ -406,20 +477,23 @@
       "position": "TE",
       "player": "Brenton Strange",
       "displayed_value": -3,
-      "source_row": 63,
+      "position_tier": 7,
+      "source_row": 64,
       "value_rank_at_position": 16
     },
     {
       "position": "TE",
       "player": "Juwan Johnson",
       "displayed_value": -3,
-      "source_row": 64,
+      "position_tier": 7,
+      "source_row": 63,
       "value_rank_at_position": 17
     },
     {
       "position": "TE",
       "player": "Hunter Henry",
       "displayed_value": -4,
+      "position_tier": 7,
       "source_row": 65,
       "value_rank_at_position": 18
     },
@@ -427,27 +501,31 @@
       "position": "TE",
       "player": "Dalton Schultz",
       "displayed_value": -13,
+      "position_tier": 7,
       "source_row": 66,
       "value_rank_at_position": 19
     },
     {
       "position": "TE",
-      "player": "Kenyon Sadiq",
-      "displayed_value": -15,
-      "source_row": 67,
+      "player": "AJ Barner",
+      "displayed_value": -16,
+      "position_tier": 7,
+      "source_row": 71,
       "value_rank_at_position": 20
     },
     {
       "position": "TE",
-      "player": "AJ Barner",
+      "player": "Kenyon Sadiq",
       "displayed_value": -16,
-      "source_row": 71,
+      "position_tier": 8,
+      "source_row": 70,
       "value_rank_at_position": 21
     },
     {
       "position": "TE",
       "player": "Pat Freiermuth",
       "displayed_value": -16,
+      "position_tier": 8,
       "source_row": 69,
       "value_rank_at_position": 22
     },
@@ -455,41 +533,47 @@
       "position": "TE",
       "player": "T.J. Hockenson",
       "displayed_value": -16,
-      "source_row": 70,
+      "position_tier": 7,
+      "source_row": 67,
       "value_rank_at_position": 23
     },
     {
       "position": "TE",
       "player": "Terrance Ferguson",
       "displayed_value": -16,
-      "source_row": 68,
+      "position_tier": 8,
+      "source_row": 74,
       "value_rank_at_position": 24
     },
     {
       "position": "TE",
       "player": "Chig Okonkwo",
       "displayed_value": -17,
-      "source_row": 72,
+      "position_tier": 7,
+      "source_row": 68,
       "value_rank_at_position": 25
     },
     {
       "position": "TE",
-      "player": "Oronde Gadsden II",
-      "displayed_value": -17,
+      "player": "Greg Dulcich",
+      "displayed_value": -19,
+      "position_tier": 9,
       "source_row": 73,
       "value_rank_at_position": 26
     },
     {
       "position": "TE",
       "player": "Cade Otton",
-      "displayed_value": -19,
-      "source_row": 74,
+      "displayed_value": -20,
+      "position_tier": 8,
+      "source_row": 72,
       "value_rank_at_position": 27
     },
     {
       "position": "TE",
-      "player": "Greg Dulcich",
+      "player": "Oronde Gadsden II",
       "displayed_value": -21,
+      "position_tier": 7,
       "source_row": 75,
       "value_rank_at_position": 28
     },
@@ -497,41 +581,47 @@
       "position": "TE",
       "player": "Gunnar Helm",
       "displayed_value": -27,
+      "position_tier": 8,
       "source_row": 76,
       "value_rank_at_position": 29
     },
     {
       "position": "TE",
-      "player": "Mike Gesicki",
-      "displayed_value": -28,
+      "player": "Evan Engram",
+      "displayed_value": -29,
+      "position_tier": 9,
       "source_row": 77,
       "value_rank_at_position": 30
     },
     {
       "position": "TE",
-      "player": "Evan Engram",
-      "displayed_value": -29,
-      "source_row": 78,
+      "player": "Colby Parkinson",
+      "displayed_value": -30,
+      "position_tier": 9,
+      "source_row": 79,
       "value_rank_at_position": 31
     },
     {
       "position": "TE",
       "player": "David Njoku",
-      "displayed_value": -31,
-      "source_row": 79,
+      "displayed_value": -30,
+      "position_tier": 9,
+      "source_row": 78,
       "value_rank_at_position": 32
     },
     {
       "position": "TE",
-      "player": "Colby Parkinson",
-      "displayed_value": -32,
+      "player": "Mike Gesicki",
+      "displayed_value": -31,
+      "position_tier": 10,
       "source_row": 80,
       "value_rank_at_position": 33
     },
     {
       "position": "TE",
       "player": "Mason Taylor",
-      "displayed_value": -38,
+      "displayed_value": -36,
+      "position_tier": 9,
       "source_row": 81,
       "value_rank_at_position": 34
     },
@@ -539,6 +629,7 @@
       "position": "TE",
       "player": "Theo Johnson",
       "displayed_value": -39,
+      "position_tier": 9,
       "source_row": 82,
       "value_rank_at_position": 35
     },
@@ -546,13 +637,15 @@
       "position": "TE",
       "player": "Eli Stowers",
       "displayed_value": -53,
+      "position_tier": 9,
       "source_row": 83,
       "value_rank_at_position": 36
     },
     {
       "position": "TE",
       "player": "Oscar Delp",
-      "displayed_value": -62,
+      "displayed_value": -63,
+      "position_tier": 8,
       "source_row": 84,
       "value_rank_at_position": 37
     },
@@ -560,125 +653,143 @@
       "position": "RB",
       "player": "Jahmyr Gibbs",
       "displayed_value": 122,
+      "position_tier": 1,
       "source_row": 5,
       "value_rank_at_position": 1
     },
     {
       "position": "RB",
       "player": "Bijan Robinson",
-      "displayed_value": 118,
+      "displayed_value": 116,
+      "position_tier": 1,
       "source_row": 6,
       "value_rank_at_position": 2
     },
     {
       "position": "RB",
-      "player": "Christian McCaffrey",
-      "displayed_value": 97,
+      "player": "Jonathan Taylor",
+      "displayed_value": 98,
+      "position_tier": 1,
       "source_row": 8,
       "value_rank_at_position": 3
     },
     {
       "position": "RB",
-      "player": "Jonathan Taylor",
-      "displayed_value": 90,
+      "player": "Christian McCaffrey",
+      "displayed_value": 88,
+      "position_tier": 1,
       "source_row": 7,
       "value_rank_at_position": 4
     },
     {
       "position": "RB",
-      "player": "De'Von Achane",
+      "player": "Derrick Henry",
       "displayed_value": 82,
-      "source_row": 11,
+      "position_tier": 2,
+      "source_row": 10,
       "value_rank_at_position": 5
     },
     {
       "position": "RB",
-      "player": "Derrick Henry",
+      "player": "James Cook III",
       "displayed_value": 78,
-      "source_row": 9,
+      "position_tier": 2,
+      "source_row": 11,
       "value_rank_at_position": 6
     },
     {
       "position": "RB",
-      "player": "James Cook III",
+      "player": "De'Von Achane",
       "displayed_value": 68,
-      "source_row": 10,
+      "position_tier": 2,
+      "source_row": 9,
       "value_rank_at_position": 7
     },
     {
       "position": "RB",
       "player": "Ashton Jeanty",
-      "displayed_value": 67,
+      "displayed_value": 66,
+      "position_tier": 2,
       "source_row": 12,
       "value_rank_at_position": 8
     },
     {
       "position": "RB",
-      "player": "Chase Brown",
+      "player": "Saquon Barkley",
       "displayed_value": 65,
+      "position_tier": 2,
       "source_row": 14,
       "value_rank_at_position": 9
     },
     {
       "position": "RB",
-      "player": "Saquon Barkley",
+      "player": "Chase Brown",
       "displayed_value": 61,
+      "position_tier": 2,
       "source_row": 13,
       "value_rank_at_position": 10
     },
     {
       "position": "RB",
       "player": "Jeremiyah Love",
-      "displayed_value": 58,
-      "source_row": 15,
+      "displayed_value": 57,
+      "position_tier": 3,
+      "source_row": 16,
       "value_rank_at_position": 11
     },
     {
       "position": "RB",
       "player": "Kenneth Walker III",
       "displayed_value": 56,
-      "source_row": 16,
+      "position_tier": 2,
+      "source_row": 15,
       "value_rank_at_position": 12
     },
     {
       "position": "RB",
-      "player": "Omarion Hampton",
-      "displayed_value": 55,
-      "source_row": 20,
+      "player": "Josh Jacobs",
+      "displayed_value": 54,
+      "position_tier": 3,
+      "source_row": 18,
       "value_rank_at_position": 13
     },
     {
       "position": "RB",
-      "player": "Breece Hall",
+      "player": "Kyren Williams",
       "displayed_value": 54,
+      "position_tier": 3,
       "source_row": 19,
       "value_rank_at_position": 14
     },
     {
       "position": "RB",
-      "player": "Josh Jacobs",
-      "displayed_value": 53,
-      "source_row": 17,
+      "player": "Javonte Williams",
+      "displayed_value": 51,
+      "position_tier": 3,
+      "source_row": 21,
       "value_rank_at_position": 15
     },
     {
       "position": "RB",
-      "player": "Kyren Williams",
+      "player": "Omarion Hampton",
       "displayed_value": 51,
-      "source_row": 18,
+      "position_tier": 2,
+      "source_row": 17,
       "value_rank_at_position": 16
     },
     {
       "position": "RB",
-      "player": "Javonte Williams",
-      "displayed_value": 50,
-      "source_row": 21,
+      "player": "Breece Hall",
+      "displayed_value": 48,
+      "position_tier": 3,
+      "source_row": 20,
       "value_rank_at_position": 17
     },
     {
       "position": "RB",
       "player": "Cam Skattebo",
-      "displayed_value": 46,
+      "displayed_value": 44,
+      "position_tier": 4,
       "source_row": 22,
       "value_rank_at_position": 18
     },
@@ -686,20 +797,23 @@
       "position": "RB",
       "player": "Travis Etienne Jr.",
       "displayed_value": 41,
+      "position_tier": 4,
       "source_row": 23,
       "value_rank_at_position": 19
     },
     {
       "position": "RB",
       "player": "D'Andre Swift",
-      "displayed_value": 40,
+      "displayed_value": 39,
+      "position_tier": 4,
       "source_row": 24,
       "value_rank_at_position": 20
     },
     {
       "position": "RB",
       "player": "Bucky Irving",
-      "displayed_value": 38,
+      "displayed_value": 37,
+      "position_tier": 4,
       "source_row": 25,
       "value_rank_at_position": 21
     },
@@ -707,6 +821,7 @@
       "position": "RB",
       "player": "Quinshon Judkins",
       "displayed_value": 37,
+      "position_tier": 4,
       "source_row": 26,
       "value_rank_at_position": 22
     },
@@ -714,412 +829,471 @@
       "position": "RB",
       "player": "Jadarian Price",
       "displayed_value": 36,
+      "position_tier": 5,
       "source_row": 27,
       "value_rank_at_position": 23
     },
     {
       "position": "RB",
       "player": "Bhayshul Tuten",
-      "displayed_value": 33,
+      "displayed_value": 35,
+      "position_tier": 4,
       "source_row": 28,
       "value_rank_at_position": 24
     },
     {
       "position": "RB",
       "player": "David Montgomery",
-      "displayed_value": 28,
+      "displayed_value": 27,
+      "position_tier": 4,
       "source_row": 29,
       "value_rank_at_position": 25
     },
     {
       "position": "RB",
-      "player": "TreVeyon Henderson",
-      "displayed_value": 23,
-      "source_row": 30,
+      "player": "Tony Pollard",
+      "displayed_value": 19,
+      "position_tier": 5,
+      "source_row": 32,
       "value_rank_at_position": 26
     },
     {
       "position": "RB",
-      "player": "Tony Pollard",
-      "displayed_value": 21,
+      "player": "TreVeyon Henderson",
+      "displayed_value": 19,
+      "position_tier": 4,
       "source_row": 31,
       "value_rank_at_position": 27
     },
     {
       "position": "RB",
-      "player": "Jaylen Warren",
-      "displayed_value": 16,
-      "source_row": 32,
+      "player": "J.K. Dobbins",
+      "displayed_value": 18,
+      "position_tier": 5,
+      "source_row": 35,
       "value_rank_at_position": 28
     },
     {
       "position": "RB",
-      "player": "Rico Dowdle",
-      "displayed_value": 16,
-      "source_row": 34,
+      "player": "Jaylen Warren",
+      "displayed_value": 17,
+      "position_tier": 5,
+      "source_row": 30,
       "value_rank_at_position": 29
     },
     {
       "position": "RB",
-      "player": "Chuba Hubbard",
+      "player": "Rico Dowdle",
       "displayed_value": 15,
-      "source_row": 35,
+      "position_tier": 5,
+      "source_row": 34,
       "value_rank_at_position": 30
     },
     {
       "position": "RB",
-      "player": "J.K. Dobbins",
-      "displayed_value": 12,
+      "player": "Rhamondre Stevenson",
+      "displayed_value": 14,
+      "position_tier": 5,
       "source_row": 33,
       "value_rank_at_position": 31
     },
     {
       "position": "RB",
-      "player": "Rhamondre Stevenson",
-      "displayed_value": 12,
+      "player": "Chuba Hubbard",
+      "displayed_value": 9,
+      "position_tier": 5,
       "source_row": 36,
       "value_rank_at_position": 32
     },
     {
       "position": "RB",
-      "player": "RJ Harvey",
+      "player": "Jacory Croskey-Merritt",
       "displayed_value": 4,
-      "source_row": 37,
+      "position_tier": 6,
+      "source_row": 42,
       "value_rank_at_position": 33
-    },
-    {
-      "position": "RB",
-      "player": "Rachaad White",
-      "displayed_value": 4,
-      "source_row": 40,
-      "value_rank_at_position": 34
     },
     {
       "position": "RB",
       "player": "Kyle Monangai",
       "displayed_value": 3,
+      "position_tier": 6,
+      "source_row": 39,
+      "value_rank_at_position": 34
+    },
+    {
+      "position": "RB",
+      "player": "Jonathon Brooks",
+      "displayed_value": 2,
+      "position_tier": 5,
       "source_row": 38,
       "value_rank_at_position": 35
     },
     {
       "position": "RB",
-      "player": "Aaron Jones Sr.",
+      "player": "Jordan Mason",
       "displayed_value": 0,
-      "source_row": 43,
+      "position_tier": 6,
+      "source_row": 44,
       "value_rank_at_position": 36
     },
     {
       "position": "RB",
-      "player": "Kenny Gainwell",
+      "player": "Blake Corum",
       "displayed_value": -1,
+      "position_tier": 6,
       "source_row": 45,
       "value_rank_at_position": 37
     },
     {
       "position": "RB",
-      "player": "Blake Corum",
-      "displayed_value": -2,
-      "source_row": 41,
+      "player": "Rachaad White",
+      "displayed_value": -1,
+      "position_tier": 6,
+      "source_row": 37,
       "value_rank_at_position": 38
     },
     {
       "position": "RB",
-      "player": "Jacory Croskey-Merritt",
-      "displayed_value": -2,
-      "source_row": 39,
+      "player": "RJ Harvey",
+      "displayed_value": -4,
+      "position_tier": 6,
+      "source_row": 40,
       "value_rank_at_position": 39
     },
     {
       "position": "RB",
-      "player": "Jonathon Brooks",
-      "displayed_value": -2,
-      "source_row": 42,
+      "player": "Aaron Jones Sr.",
+      "displayed_value": -5,
+      "position_tier": 6,
+      "source_row": 43,
       "value_rank_at_position": 40
     },
     {
       "position": "RB",
-      "player": "Jordan Mason",
-      "displayed_value": -6,
-      "source_row": 44,
+      "player": "Kenny Gainwell",
+      "displayed_value": -7,
+      "position_tier": 6,
+      "source_row": 41,
       "value_rank_at_position": 41
     },
     {
       "position": "RB",
       "player": "Mike Washington Jr.",
       "displayed_value": -11,
+      "position_tier": 8,
       "source_row": 46,
       "value_rank_at_position": 42
     },
     {
       "position": "RB",
-      "player": "Alvin Kamara",
+      "player": "Kaelon Black",
       "displayed_value": -19,
-      "source_row": 51,
+      "position_tier": 9,
+      "source_row": 53,
       "value_rank_at_position": 43
     },
     {
       "position": "RB",
-      "player": "Tyjae Spears",
+      "player": "Woody Marks",
       "displayed_value": -19,
-      "source_row": 54,
+      "position_tier": 7,
+      "source_row": 49,
       "value_rank_at_position": 44
     },
     {
       "position": "RB",
-      "player": "Woody Marks",
-      "displayed_value": -21,
-      "source_row": 47,
+      "player": "Zach Charbonnet",
+      "displayed_value": -19,
+      "position_tier": 7,
+      "source_row": 50,
       "value_rank_at_position": 45
     },
     {
       "position": "RB",
-      "player": "Zach Charbonnet",
+      "player": "Alvin Kamara",
       "displayed_value": -21,
-      "source_row": 48,
+      "position_tier": 7,
+      "source_row": 47,
       "value_rank_at_position": 46
     },
     {
       "position": "RB",
-      "player": "Isiah Pacheco",
+      "player": "Chris Rodriguez Jr.",
       "displayed_value": -22,
-      "source_row": 53,
+      "position_tier": 6,
+      "source_row": 54,
       "value_rank_at_position": 47
     },
     {
       "position": "RB",
       "player": "Tyrone Tracy Jr.",
       "displayed_value": -22,
-      "source_row": 52,
+      "position_tier": 6,
+      "source_row": 51,
       "value_rank_at_position": 48
     },
     {
       "position": "RB",
-      "player": "Kaelon Black",
+      "player": "Isiah Pacheco",
       "displayed_value": -24,
-      "source_row": 49,
+      "position_tier": 7,
+      "source_row": 52,
       "value_rank_at_position": 49
     },
     {
       "position": "RB",
-      "player": "Chris Rodriguez Jr.",
-      "displayed_value": -25,
-      "source_row": 50,
+      "player": "Jonah Coleman",
+      "displayed_value": -24,
+      "position_tier": 7,
+      "source_row": 55,
       "value_rank_at_position": 50
     },
     {
       "position": "RB",
-      "player": "Emmett Johnson",
-      "displayed_value": -25,
-      "source_row": 55,
+      "player": "Tyjae Spears",
+      "displayed_value": -24,
+      "position_tier": 7,
+      "source_row": 48,
       "value_rank_at_position": 51
     },
     {
       "position": "RB",
       "player": "Brian Robinson Jr.",
       "displayed_value": -29,
-      "source_row": 56,
+      "position_tier": 7,
+      "source_row": 59,
       "value_rank_at_position": 52
     },
     {
       "position": "RB",
-      "player": "Justice Hill",
-      "displayed_value": -31,
-      "source_row": 64,
+      "player": "Emmett Johnson",
+      "displayed_value": -30,
+      "position_tier": 8,
+      "source_row": 60,
       "value_rank_at_position": 53
     },
     {
       "position": "RB",
-      "player": "Tyler Allgeier",
-      "displayed_value": -32,
+      "player": "Braelon Allen",
+      "displayed_value": -31,
+      "position_tier": 7,
       "source_row": 58,
       "value_rank_at_position": 54
     },
     {
       "position": "RB",
-      "player": "Dylan Sampson",
-      "displayed_value": -34,
-      "source_row": 63,
+      "player": "Tyler Allgeier",
+      "displayed_value": -32,
+      "position_tier": 6,
+      "source_row": 57,
       "value_rank_at_position": 55
     },
     {
       "position": "RB",
-      "player": "Jonah Coleman",
-      "displayed_value": -36,
-      "source_row": 57,
+      "player": "Tank Bigsby",
+      "displayed_value": -34,
+      "position_tier": 7,
+      "source_row": 62,
       "value_rank_at_position": 56
     },
     {
       "position": "RB",
-      "player": "Tank Bigsby",
-      "displayed_value": -36,
-      "source_row": 59,
+      "player": "Kaytron Allen",
+      "displayed_value": -35,
+      "position_tier": 8,
+      "source_row": 64,
       "value_rank_at_position": 57
     },
     {
       "position": "RB",
-      "player": "Keaton Mitchell",
-      "displayed_value": -37,
+      "player": "Nicholas Singleton",
+      "displayed_value": -36,
+      "position_tier": 8,
       "source_row": 65,
       "value_rank_at_position": 58
     },
     {
       "position": "RB",
-      "player": "Braelon Allen",
+      "player": "Dylan Sampson",
       "displayed_value": -38,
-      "source_row": 62,
+      "position_tier": 7,
+      "source_row": 56,
       "value_rank_at_position": 59
     },
     {
       "position": "RB",
-      "player": "Nicholas Singleton",
-      "displayed_value": -38,
-      "source_row": 61,
+      "player": "Keaton Mitchell",
+      "displayed_value": -39,
+      "position_tier": 7,
+      "source_row": 63,
       "value_rank_at_position": 60
     },
     {
       "position": "RB",
-      "player": "Kaytron Allen",
-      "displayed_value": -39,
-      "source_row": 60,
+      "player": "Justice Hill",
+      "displayed_value": -40,
+      "position_tier": 9,
+      "source_row": 61,
       "value_rank_at_position": 61
     },
     {
       "position": "RB",
       "player": "Samaje Perine",
       "displayed_value": -40,
-      "source_row": 67,
+      "position_tier": 9,
+      "source_row": 66,
       "value_rank_at_position": 62
     },
     {
       "position": "RB",
-      "player": "Jordan James",
+      "player": "Demond Claiborne",
       "displayed_value": -41,
+      "position_tier": 9,
       "source_row": 68,
       "value_rank_at_position": 63
     },
     {
       "position": "RB",
-      "player": "Demond Claiborne",
+      "player": "Jordan James",
       "displayed_value": -42,
-      "source_row": 66,
+      "position_tier": 9,
+      "source_row": 67,
       "value_rank_at_position": 64
     },
     {
       "position": "RB",
       "player": "Ty Johnson",
       "displayed_value": -48,
+      "position_tier": 9,
       "source_row": 69,
       "value_rank_at_position": 65
     },
     {
       "position": "RB",
       "player": "Kimani Vidal",
-      "displayed_value": -54,
+      "displayed_value": -55,
+      "position_tier": 8,
       "source_row": 70,
       "value_rank_at_position": 66
     },
     {
       "position": "RB",
-      "player": "Chris Brooks",
+      "player": "MarShawn Lloyd",
       "displayed_value": -56,
-      "source_row": 75,
+      "position_tier": 7,
+      "source_row": 72,
       "value_rank_at_position": 67
-    },
-    {
-      "position": "RB",
-      "player": "James Conner",
-      "displayed_value": -56,
-      "source_row": 74,
-      "value_rank_at_position": 68
     },
     {
       "position": "RB",
       "player": "Emanuel Wilson",
       "displayed_value": -57,
+      "position_tier": 8,
+      "source_row": 75,
+      "value_rank_at_position": 68
+    },
+    {
+      "position": "RB",
+      "player": "Jaydon Blue",
+      "displayed_value": -57,
+      "position_tier": 8,
       "source_row": 73,
       "value_rank_at_position": 69
     },
     {
       "position": "RB",
-      "player": "MarShawn Lloyd",
-      "displayed_value": -57,
-      "source_row": 72,
+      "player": "James Conner",
+      "displayed_value": -58,
+      "position_tier": 8,
+      "source_row": 71,
       "value_rank_at_position": 70
     },
     {
       "position": "RB",
       "player": "Jaylen Wright",
       "displayed_value": -58,
+      "position_tier": 8,
       "source_row": 76,
       "value_rank_at_position": 71
     },
     {
       "position": "RB",
-      "player": "Malik Davis",
-      "displayed_value": -58,
-      "source_row": 71,
+      "player": "Chris Brooks",
+      "displayed_value": -59,
+      "position_tier": 9,
+      "source_row": 74,
       "value_rank_at_position": 72
     },
     {
       "position": "RB",
-      "player": "Jaydon Blue",
-      "displayed_value": -61,
+      "player": "George Holani",
+      "displayed_value": -65,
+      "position_tier": 8,
       "source_row": 77,
       "value_rank_at_position": 73
     },
     {
       "position": "RB",
       "player": "Sean Tucker",
-      "displayed_value": -63,
-      "source_row": 78,
+      "displayed_value": -65,
+      "position_tier": 8,
+      "source_row": 79,
       "value_rank_at_position": 74
+    },
+    {
+      "position": "RB",
+      "player": "Malik Davis",
+      "displayed_value": -66,
+      "position_tier": 9,
+      "source_row": 80,
+      "value_rank_at_position": 75
     },
     {
       "position": "RB",
       "player": "Ray Davis",
       "displayed_value": -66,
-      "source_row": 79,
-      "value_rank_at_position": 75
+      "position_tier": 8,
+      "source_row": 78,
+      "value_rank_at_position": 76
     },
     {
       "position": "RB",
       "player": "Ollie Gordon II",
-      "displayed_value": -67,
-      "source_row": 80,
-      "value_rank_at_position": 76
+      "displayed_value": -68,
+      "position_tier": 9,
+      "source_row": 82,
+      "value_rank_at_position": 77
     },
     {
       "position": "RB",
       "player": "Isaiah Davis",
       "displayed_value": -69,
+      "position_tier": 9,
       "source_row": 81,
-      "value_rank_at_position": 77
-    },
-    {
-      "position": "RB",
-      "player": "George Holani",
-      "displayed_value": -71,
-      "source_row": 82,
       "value_rank_at_position": 78
     },
     {
       "position": "RB",
       "player": "LeQuint Allen Jr.",
       "displayed_value": -73,
-      "source_row": 84,
+      "position_tier": 9,
+      "source_row": 83,
       "value_rank_at_position": 79
     },
     {
       "position": "RB",
       "player": "DJ Giddens",
-      "displayed_value": -74,
-      "source_row": 83,
+      "displayed_value": -75,
+      "position_tier": 9,
+      "source_row": 84,
       "value_rank_at_position": 80
     },
     {
       "position": "WR",
       "player": "Puka Nacua",
       "displayed_value": 106,
+      "position_tier": 1,
       "source_row": 5,
       "value_rank_at_position": 1
     },
@@ -1127,6 +1301,7 @@
       "position": "WR",
       "player": "Ja'Marr Chase",
       "displayed_value": 103,
+      "position_tier": 1,
       "source_row": 6,
       "value_rank_at_position": 2
     },
@@ -1134,6 +1309,7 @@
       "position": "WR",
       "player": "Jaxon Smith-Njigba",
       "displayed_value": 100,
+      "position_tier": 1,
       "source_row": 7,
       "value_rank_at_position": 3
     },
@@ -1141,13 +1317,15 @@
       "position": "WR",
       "player": "Amon-Ra St. Brown",
       "displayed_value": 89,
+      "position_tier": 1,
       "source_row": 8,
       "value_rank_at_position": 4
     },
     {
       "position": "WR",
       "player": "Drake London",
-      "displayed_value": 74,
+      "displayed_value": 73,
+      "position_tier": 2,
       "source_row": 9,
       "value_rank_at_position": 5
     },
@@ -1155,6 +1333,7 @@
       "position": "WR",
       "player": "CeeDee Lamb",
       "displayed_value": 66,
+      "position_tier": 1,
       "source_row": 10,
       "value_rank_at_position": 6
     },
@@ -1162,48 +1341,55 @@
       "position": "WR",
       "player": "Justin Jefferson",
       "displayed_value": 65,
+      "position_tier": 2,
       "source_row": 11,
       "value_rank_at_position": 7
     },
     {
       "position": "WR",
-      "player": "Rashee Rice",
+      "player": "A.J. Brown",
       "displayed_value": 59,
-      "source_row": 14,
+      "position_tier": 2,
+      "source_row": 13,
       "value_rank_at_position": 8
     },
     {
       "position": "WR",
-      "player": "A.J. Brown",
-      "displayed_value": 58,
-      "source_row": 13,
+      "player": "George Pickens",
+      "displayed_value": 59,
+      "position_tier": 2,
+      "source_row": 14,
       "value_rank_at_position": 9
     },
     {
       "position": "WR",
-      "player": "George Pickens",
-      "displayed_value": 58,
+      "player": "Rashee Rice",
+      "displayed_value": 59,
+      "position_tier": 3,
       "source_row": 12,
       "value_rank_at_position": 10
     },
     {
       "position": "WR",
-      "player": "Chris Olave",
-      "displayed_value": 56,
+      "player": "Nico Collins",
+      "displayed_value": 57,
+      "position_tier": 2,
       "source_row": 16,
       "value_rank_at_position": 11
     },
     {
       "position": "WR",
-      "player": "Nico Collins",
-      "displayed_value": 53,
+      "player": "Chris Olave",
+      "displayed_value": 54,
+      "position_tier": 3,
       "source_row": 15,
       "value_rank_at_position": 12
     },
     {
       "position": "WR",
       "player": "Malik Nabers",
-      "displayed_value": 47,
+      "displayed_value": 49,
+      "position_tier": 3,
       "source_row": 17,
       "value_rank_at_position": 13
     },
@@ -1211,6 +1397,7 @@
       "position": "WR",
       "player": "Zay Flowers",
       "displayed_value": 46,
+      "position_tier": 3,
       "source_row": 18,
       "value_rank_at_position": 14
     },
@@ -1218,13 +1405,15 @@
       "position": "WR",
       "player": "DeVonta Smith",
       "displayed_value": 41,
+      "position_tier": 3,
       "source_row": 19,
       "value_rank_at_position": 15
     },
     {
       "position": "WR",
-      "player": "Emeka Egbuka",
+      "player": "Tee Higgins",
       "displayed_value": 40,
+      "position_tier": 3,
       "source_row": 21,
       "value_rank_at_position": 16
     },
@@ -1232,363 +1421,415 @@
       "position": "WR",
       "player": "Tetairoa McMillan",
       "displayed_value": 40,
-      "source_row": 22,
+      "position_tier": 3,
+      "source_row": 20,
       "value_rank_at_position": 17
     },
     {
       "position": "WR",
-      "player": "Tee Higgins",
+      "player": "Emeka Egbuka",
       "displayed_value": 39,
-      "source_row": 20,
+      "position_tier": 3,
+      "source_row": 22,
       "value_rank_at_position": 18
     },
     {
       "position": "WR",
-      "player": "Garrett Wilson",
+      "player": "Davante Adams",
       "displayed_value": 35,
-      "source_row": 24,
+      "position_tier": 4,
+      "source_row": 25,
       "value_rank_at_position": 19
     },
     {
       "position": "WR",
-      "player": "Ladd McConkey",
-      "displayed_value": 34,
-      "source_row": 26,
+      "player": "Garrett Wilson",
+      "displayed_value": 33,
+      "position_tier": 3,
+      "source_row": 23,
       "value_rank_at_position": 20
     },
     {
       "position": "WR",
-      "player": "Davante Adams",
+      "player": "Jameson Williams",
       "displayed_value": 32,
-      "source_row": 23,
+      "position_tier": 4,
+      "source_row": 27,
       "value_rank_at_position": 21
+    },
+    {
+      "position": "WR",
+      "player": "Ladd McConkey",
+      "displayed_value": 32,
+      "position_tier": 3,
+      "source_row": 24,
+      "value_rank_at_position": 22
     },
     {
       "position": "WR",
       "player": "Terry McLaurin",
       "displayed_value": 31,
-      "source_row": 27,
-      "value_rank_at_position": 22
-    },
-    {
-      "position": "WR",
-      "player": "Jameson Williams",
-      "displayed_value": 30,
-      "source_row": 25,
+      "position_tier": 4,
+      "source_row": 26,
       "value_rank_at_position": 23
     },
     {
       "position": "WR",
       "player": "Jaylen Waddle",
-      "displayed_value": 27,
-      "source_row": 29,
+      "displayed_value": 28,
+      "position_tier": 3,
+      "source_row": 28,
       "value_rank_at_position": 24
-    },
-    {
-      "position": "WR",
-      "player": "Luther Burden III",
-      "displayed_value": 26,
-      "source_row": 30,
-      "value_rank_at_position": 25
     },
     {
       "position": "WR",
       "player": "Rome Odunze",
       "displayed_value": 25,
-      "source_row": 28,
-      "value_rank_at_position": 26
-    },
-    {
-      "position": "WR",
-      "player": "DJ Moore",
-      "displayed_value": 24,
+      "position_tier": 4,
       "source_row": 32,
-      "value_rank_at_position": 27
+      "value_rank_at_position": 25
     },
     {
       "position": "WR",
-      "player": "Carnell Tate",
-      "displayed_value": 23,
-      "source_row": 31,
-      "value_rank_at_position": 28
+      "player": "Luther Burden III",
+      "displayed_value": 24,
+      "position_tier": 4,
+      "source_row": 29,
+      "value_rank_at_position": 26
     },
     {
       "position": "WR",
       "player": "Christian Watson",
       "displayed_value": 23,
+      "position_tier": 4,
       "source_row": 33,
-      "value_rank_at_position": 29
+      "value_rank_at_position": 27
+    },
+    {
+      "position": "WR",
+      "player": "DJ Moore",
+      "displayed_value": 23,
+      "position_tier": 4,
+      "source_row": 30,
+      "value_rank_at_position": 28
     },
     {
       "position": "WR",
       "player": "Mike Evans",
       "displayed_value": 23,
+      "position_tier": 4,
+      "source_row": 31,
+      "value_rank_at_position": 29
+    },
+    {
+      "position": "WR",
+      "player": "Carnell Tate",
+      "displayed_value": 22,
+      "position_tier": 5,
       "source_row": 34,
       "value_rank_at_position": 30
     },
     {
       "position": "WR",
       "player": "Alec Pierce",
-      "displayed_value": 20,
-      "source_row": 35,
+      "displayed_value": 19,
+      "position_tier": 5,
+      "source_row": 36,
       "value_rank_at_position": 31
     },
     {
       "position": "WR",
-      "player": "Marvin Harrison Jr.",
-      "displayed_value": 18,
+      "player": "DK Metcalf",
+      "displayed_value": 15,
+      "position_tier": 5,
       "source_row": 37,
       "value_rank_at_position": 32
     },
     {
       "position": "WR",
-      "player": "DK Metcalf",
-      "displayed_value": 16,
-      "source_row": 38,
+      "player": "Marvin Harrison Jr.",
+      "displayed_value": 15,
+      "position_tier": 5,
+      "source_row": 35,
       "value_rank_at_position": 33
     },
     {
       "position": "WR",
       "player": "Courtland Sutton",
-      "displayed_value": 15,
-      "source_row": 40,
+      "displayed_value": 14,
+      "position_tier": 5,
+      "source_row": 38,
       "value_rank_at_position": 34
     },
     {
       "position": "WR",
       "player": "Parker Washington",
       "displayed_value": 14,
+      "position_tier": 5,
       "source_row": 39,
       "value_rank_at_position": 35
     },
     {
       "position": "WR",
-      "player": "Jordyn Tyson",
-      "displayed_value": 13,
-      "source_row": 36,
+      "player": "Brian Thomas Jr.",
+      "displayed_value": 12,
+      "position_tier": 5,
+      "source_row": 40,
       "value_rank_at_position": 36
     },
     {
       "position": "WR",
-      "player": "Brian Thomas Jr.",
-      "displayed_value": 12,
-      "source_row": 41,
+      "player": "Makai Lemon",
+      "displayed_value": 8,
+      "position_tier": 6,
+      "source_row": 45,
       "value_rank_at_position": 37
     },
     {
       "position": "WR",
-      "player": "Michael Pittman Jr.",
-      "displayed_value": 9,
-      "source_row": 50,
+      "player": "KC Concepcion",
+      "displayed_value": 6,
+      "position_tier": 6,
+      "source_row": 46,
       "value_rank_at_position": 38
     },
     {
       "position": "WR",
-      "player": "Chris Godwin Jr.",
-      "displayed_value": 6,
-      "source_row": 45,
+      "player": "De'Zhaun Stribling",
+      "displayed_value": 4,
+      "position_tier": 7,
+      "source_row": 51,
       "value_rank_at_position": 39
     },
     {
       "position": "WR",
-      "player": "Makai Lemon",
+      "player": "Quentin Johnston",
       "displayed_value": 4,
-      "source_row": 42,
+      "position_tier": 6,
+      "source_row": 44,
       "value_rank_at_position": 40
     },
     {
       "position": "WR",
-      "player": "Michael Wilson",
+      "player": "Chris Godwin Jr.",
       "displayed_value": 2,
-      "source_row": 49,
+      "position_tier": 5,
+      "source_row": 42,
       "value_rank_at_position": 41
     },
     {
       "position": "WR",
-      "player": "Jayden Reed",
+      "player": "Denzel Boston",
       "displayed_value": 1,
-      "source_row": 51,
+      "position_tier": 7,
+      "source_row": 54,
       "value_rank_at_position": 42
     },
     {
       "position": "WR",
-      "player": "Quentin Johnston",
+      "player": "Jordan Addison",
       "displayed_value": 1,
-      "source_row": 44,
+      "position_tier": 6,
+      "source_row": 48,
       "value_rank_at_position": 43
     },
     {
       "position": "WR",
-      "player": "Jakobi Meyers",
-      "displayed_value": 0,
-      "source_row": 53,
+      "player": "Jordyn Tyson",
+      "displayed_value": 1,
+      "position_tier": 6,
+      "source_row": 55,
       "value_rank_at_position": 44
     },
     {
       "position": "WR",
-      "player": "Jordan Addison",
-      "displayed_value": 0,
-      "source_row": 48,
+      "player": "Michael Pittman Jr.",
+      "displayed_value": 1,
+      "position_tier": 5,
+      "source_row": 41,
       "value_rank_at_position": 45
     },
     {
       "position": "WR",
-      "player": "Josh Downs",
-      "displayed_value": 0,
-      "source_row": 55,
+      "player": "Michael Wilson",
+      "displayed_value": 1,
+      "position_tier": 6,
+      "source_row": 43,
       "value_rank_at_position": 46
     },
     {
       "position": "WR",
-      "player": "KC Concepcion",
+      "player": "Jayden Reed",
       "displayed_value": 0,
-      "source_row": 43,
+      "position_tier": 6,
+      "source_row": 47,
       "value_rank_at_position": 47
     },
     {
       "position": "WR",
-      "player": "Wan'Dale Robinson",
+      "player": "Jakobi Meyers",
       "displayed_value": -2,
-      "source_row": 58,
+      "position_tier": 6,
+      "source_row": 50,
       "value_rank_at_position": 48
     },
     {
       "position": "WR",
       "player": "Xavier Worthy",
       "displayed_value": -2,
-      "source_row": 52,
+      "position_tier": 6,
+      "source_row": 53,
       "value_rank_at_position": 49
     },
     {
       "position": "WR",
-      "player": "Deebo Samuel Sr.",
-      "displayed_value": -4,
-      "source_row": 54,
+      "player": "Matthew Golden",
+      "displayed_value": -5,
+      "position_tier": 6,
+      "source_row": 57,
       "value_rank_at_position": 50
     },
     {
       "position": "WR",
-      "player": "Denzel Boston",
-      "displayed_value": -5,
-      "source_row": 47,
+      "player": "Deebo Samuel Sr.",
+      "displayed_value": -6,
+      "position_tier": 7,
+      "source_row": 58,
       "value_rank_at_position": 51
     },
     {
       "position": "WR",
-      "player": "De'Zhaun Stribling",
+      "player": "Josh Downs",
       "displayed_value": -6,
-      "source_row": 46,
+      "position_tier": 6,
+      "source_row": 52,
       "value_rank_at_position": 52
     },
     {
       "position": "WR",
-      "player": "Matthew Golden",
-      "displayed_value": -7,
-      "source_row": 56,
+      "player": "Wan'Dale Robinson",
+      "displayed_value": -6,
+      "position_tier": 6,
+      "source_row": 49,
       "value_rank_at_position": 53
     },
     {
       "position": "WR",
-      "player": "Romeo Doubs",
+      "player": "Rashid Shaheed",
       "displayed_value": -7,
-      "source_row": 59,
+      "position_tier": 7,
+      "source_row": 60,
       "value_rank_at_position": 54
     },
     {
       "position": "WR",
       "player": "Stefon Diggs",
-      "displayed_value": -7,
-      "source_row": 60,
+      "displayed_value": -8,
+      "position_tier": 6,
+      "source_row": 56,
       "value_rank_at_position": 55
     },
     {
       "position": "WR",
-      "player": "Jalen Coker",
-      "displayed_value": -9,
+      "player": "Romeo Doubs",
+      "displayed_value": -10,
+      "position_tier": 7,
       "source_row": 62,
       "value_rank_at_position": 56
     },
     {
       "position": "WR",
-      "player": "Rashid Shaheed",
-      "displayed_value": -9,
-      "source_row": 57,
+      "player": "Jalen Coker",
+      "displayed_value": -11,
+      "position_tier": 6,
+      "source_row": 59,
       "value_rank_at_position": 57
     },
     {
       "position": "WR",
       "player": "Jayden Higgins",
       "displayed_value": -11,
+      "position_tier": 6,
       "source_row": 63,
       "value_rank_at_position": 58
     },
     {
       "position": "WR",
       "player": "Khalil Shakir",
-      "displayed_value": -11,
-      "source_row": 64,
-      "value_rank_at_position": 59
-    },
-    {
-      "position": "WR",
-      "player": "Calvin Ridley",
       "displayed_value": -13,
-      "source_row": 65,
-      "value_rank_at_position": 60
+      "position_tier": 6,
+      "source_row": 61,
+      "value_rank_at_position": 59
     },
     {
       "position": "WR",
       "player": "Omar Cooper Jr.",
       "displayed_value": -13,
-      "source_row": 61,
+      "position_tier": 7,
+      "source_row": 68,
+      "value_rank_at_position": 60
+    },
+    {
+      "position": "WR",
+      "player": "Calvin Ridley",
+      "displayed_value": -14,
+      "position_tier": 8,
+      "source_row": 64,
       "value_rank_at_position": 61
     },
     {
       "position": "WR",
-      "player": "Jerry Jeudy",
+      "player": "Tre Tucker",
       "displayed_value": -16,
-      "source_row": 67,
+      "position_tier": 7,
+      "source_row": 65,
       "value_rank_at_position": 62
     },
     {
       "position": "WR",
-      "player": "Rashod Bateman",
+      "player": "Jerry Jeudy",
       "displayed_value": -17,
+      "position_tier": 7,
       "source_row": 66,
       "value_rank_at_position": 63
     },
     {
       "position": "WR",
-      "player": "Tre Tucker",
+      "player": "Rashod Bateman",
       "displayed_value": -17,
-      "source_row": 68,
+      "position_tier": 8,
+      "source_row": 71,
       "value_rank_at_position": 64
     },
     {
       "position": "WR",
       "player": "Jalen McMillan",
       "displayed_value": -19,
-      "source_row": 69,
+      "position_tier": 7,
+      "source_row": 67,
       "value_rank_at_position": 65
     },
     {
       "position": "WR",
       "player": "Jalen Nailor",
-      "displayed_value": -20,
-      "source_row": 71,
+      "displayed_value": -19,
+      "position_tier": 7,
+      "source_row": 69,
       "value_rank_at_position": 66
     },
     {
       "position": "WR",
       "player": "Jauan Jennings",
       "displayed_value": -20,
+      "position_tier": 7,
       "source_row": 70,
       "value_rank_at_position": 67
     },
     {
       "position": "WR",
       "player": "Tank Dell",
-      "displayed_value": -22,
+      "displayed_value": -21,
+      "position_tier": 8,
       "source_row": 72,
       "value_rank_at_position": 68
     },
@@ -1596,69 +1837,79 @@
       "position": "WR",
       "player": "Adonai Mitchell",
       "displayed_value": -25,
+      "position_tier": 7,
       "source_row": 73,
       "value_rank_at_position": 69
     },
     {
       "position": "WR",
-      "player": "Travis Hunter",
-      "displayed_value": -28,
+      "player": "Kayshon Boutte",
+      "displayed_value": -26,
+      "position_tier": 8,
       "source_row": 75,
       "value_rank_at_position": 70
     },
     {
       "position": "WR",
-      "player": "Kayshon Boutte",
-      "displayed_value": -29,
+      "player": "Travis Hunter",
+      "displayed_value": -28,
+      "position_tier": 8,
       "source_row": 74,
       "value_rank_at_position": 71
     },
     {
       "position": "WR",
-      "player": "Darnell Mooney",
-      "displayed_value": -33,
-      "source_row": 76,
+      "player": "Dontayvion Wicks",
+      "displayed_value": -29,
+      "position_tier": 8,
+      "source_row": 77,
       "value_rank_at_position": 72
     },
     {
       "position": "WR",
       "player": "Malik Washington",
-      "displayed_value": -33,
-      "source_row": 77,
+      "displayed_value": -31,
+      "position_tier": 8,
+      "source_row": 76,
       "value_rank_at_position": 73
     },
     {
       "position": "WR",
-      "player": "Dontayvion Wicks",
-      "displayed_value": -35,
+      "player": "Troy Franklin",
+      "displayed_value": -34,
+      "position_tier": 8,
       "source_row": 78,
       "value_rank_at_position": 74
     },
     {
       "position": "WR",
-      "player": "Tre' Harris",
-      "displayed_value": -35,
-      "source_row": 79,
+      "player": "Isaac TeSlaa",
+      "displayed_value": -36,
+      "position_tier": 8,
+      "source_row": 81,
       "value_rank_at_position": 75
     },
     {
       "position": "WR",
       "player": "Ryan Flournoy",
       "displayed_value": -36,
+      "position_tier": 8,
       "source_row": 80,
       "value_rank_at_position": 76
     },
     {
       "position": "WR",
-      "player": "Troy Franklin",
+      "player": "Tre' Harris",
       "displayed_value": -36,
-      "source_row": 81,
+      "position_tier": 8,
+      "source_row": 79,
       "value_rank_at_position": 77
     },
     {
       "position": "WR",
-      "player": "Isaac TeSlaa",
-      "displayed_value": -37,
+      "player": "Pat Bryant",
+      "displayed_value": -42,
+      "position_tier": 8,
       "source_row": 82,
       "value_rank_at_position": 78
     },
@@ -1666,14 +1917,16 @@
       "position": "WR",
       "player": "Jaylin Noel",
       "displayed_value": -43,
-      "source_row": 84,
+      "position_tier": 8,
+      "source_row": 83,
       "value_rank_at_position": 79
     },
     {
       "position": "WR",
-      "player": "Pat Bryant",
-      "displayed_value": -43,
-      "source_row": 83,
+      "player": "Darnell Mooney",
+      "displayed_value": -45,
+      "position_tier": 8,
+      "source_row": 84,
       "value_rank_at_position": 80
     }
   ]

@@ -193,6 +193,26 @@ def parse_rotowire(source: str) -> dict:
     return {"source_url": URLS["rotowire"], "items": players}
 
 
+def merge_rotowire_history(current: dict, snapshot_limit: int = 21) -> dict:
+    """Retain a rolling set of dated news snapshots instead of only today's top page."""
+    items = []
+    seen = set()
+    paths = sorted(SOURCE.glob("rotowire_news_*.json"))[-snapshot_limit:]
+    for payload in [current] + [json.loads(path.read_text()) for path in reversed(paths)]:
+        for item in payload.get("items", []):
+            identity = item.get("headline_url") or (item.get("player"), item.get("headline"), item.get("date"))
+            identity = tuple(identity) if isinstance(identity, tuple) else identity
+            if identity in seen:
+                continue
+            seen.add(identity)
+            items.append(item)
+    return {
+        **current,
+        "items": items,
+        "retention": f"Current page plus up to {snapshot_limit} dated local snapshots; duplicate headlines removed.",
+    }
+
+
 def parse_espn(source: str) -> dict:
     root = ET.fromstring(source)
     channel = root.find("channel")
@@ -263,6 +283,8 @@ def main() -> None:
     for key, job in jobs.items():
         try:
             value = job()
+            if key == "rotowire_news":
+                value = merge_rotowire_history(value)
             value["retrieved"] = STAMP
             output["sources"][key] = value
             (SOURCE / f"{key}_{DAY}.json").write_text(json.dumps(value, indent=2) + "\n")

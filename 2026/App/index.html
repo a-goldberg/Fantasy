@@ -16,21 +16,30 @@
     <div class="status-cluster">
       <div><span class="label">On the clock</span><strong id="on-clock">Loading…</strong></div>
       <div><span class="label">Your next pick</span><strong id="next-pick">—</strong></div>
-      <button class="quiet-button" id="open-tuning" type="button">Tuning</button>
       <button class="quiet-button" id="undo" type="button">Undo</button>
-      <button class="quiet-button" id="refresh-rebuild" type="button">Refresh &amp; Rebuild</button>
-      <button class="quiet-button danger-button" id="reset-draft" type="button">Reset Draft</button>
+      <details class="admin-menu" id="admin-menu">
+        <summary class="quiet-button">Admin</summary>
+        <div class="admin-menu-panel">
+          <button id="open-personal-priorities" type="button">Personal priorities</button>
+          <button id="open-tuning" type="button">Tuning</button>
+          <button id="refresh-rebuild" type="button">Refresh &amp; Rebuild</button>
+          <button class="danger-menu-item" id="reset-draft" type="button">Reset Draft</button>
+        </div>
+      </details>
     </div>
   </header>
 
   <main>
     <section class="alert" id="data-alert" aria-live="polite"></section>
-    <section class="roster-strip" aria-label="Your roster">
-      <div>
-        <span class="label">Your roster</span>
-        <div id="roster" class="roster-chips"></div>
+    <section class="roster-panel" aria-label="Your roster">
+      <div class="roster-panel-heading">
+        <div>
+          <span class="label">Your roster</span>
+          <strong id="roster-summary">Loading…</strong>
+        </div>
+        <button class="quiet-button" id="open-board" type="button">Record another pick</button>
       </div>
-      <button class="quiet-button" id="open-board" type="button">Record another pick</button>
+      <div id="roster" class="roster-grid" aria-live="polite"></div>
     </section>
 
     <section class="recommendation-grid" aria-label="Draft recommendations">
@@ -66,6 +75,7 @@
   <dialog id="board-dialog" class="board-dialog">
     <button class="dialog-close" type="button" data-close aria-label="Close">×</button>
     <div class="dialog-heading"><p class="eyebrow">Live draft entry</p><h2>Record a pick</h2></div>
+    <div class="other-pick-group"><span>Not on the board</span><div id="other-picks" class="other-picks"></div></div>
     <label class="search-label">Player search<input id="player-search" type="search" autocomplete="off" placeholder="Start typing a player name"></label>
     <div id="search-results" class="search-results"></div>
   </dialog>
@@ -73,9 +83,22 @@
   <dialog id="tuning-dialog">
     <button class="dialog-close" type="button" data-close aria-label="Close">×</button>
     <div class="dialog-heading"><p class="eyebrow">Optimization controls</p><h2>Tuning</h2></div>
-    <p class="dialog-intro">These controls affect only Optimized and Wildcard picks.  Consensus stays neutral.</p>
+    <p class="dialog-intro">These controls affect only Optimized and Wildcard picks.  Consensus stays neutral.  Hard roster rules—such as fourth-QB timing and the four-QB maximum—always apply.</p>
     <div id="tuning-controls" class="tuning-controls"></div>
     <div class="tuning-actions"><button class="quiet-button" id="reset-tuning" type="button">Reset defaults</button><button class="primary-button" id="save-tuning" type="button">Apply</button></div>
+  </dialog>
+
+  <dialog id="personal-priority-dialog" class="personal-priority-dialog">
+    <button class="dialog-close" type="button" data-close aria-label="Close">×</button>
+    <div class="dialog-heading"><p class="eyebrow">Subjective ranking overlay</p><h2>Personal priorities</h2></div>
+    <p class="dialog-intro">Raise or lower players from −10 to +10.  This changes Optimized and Wildcard picks, while Consensus stays neutral.  “Do not recommend” removes a player from all three columns.  Changes apply immediately and survive rebuilds and draft resets.  Boosts cannot override verified unavailability or hard roster rules.</p>
+    <div class="personal-priority-toolbar">
+      <label class="search-label">Find a player<input id="personal-priority-search" type="search" autocomplete="off" placeholder="Name, position, or NFL team"></label>
+      <label class="modified-toggle"><input id="personal-modified-only" type="checkbox"> Changed only</label>
+    </div>
+    <p class="personal-priority-summary" id="personal-priority-summary"></p>
+    <div class="personal-priority-list" id="personal-priority-list"></div>
+    <div class="personal-priority-actions"><button class="quiet-button" id="clear-personal-priorities" type="button">Clear all</button><button class="primary-button" type="button" data-close>Done</button></div>
   </dialog>
 
   <template id="candidate-template">

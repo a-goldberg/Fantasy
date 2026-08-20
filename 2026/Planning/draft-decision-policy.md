@@ -45,6 +45,8 @@ Bye checks operate on positional coverage, not merely total players sharing a we
 - Three is the minimum, with distinct bye weeks.
 - The target is one top-12-caliber QB, one reliable QB2, and one playable QB3.
 - A fourth QB should be a rookie, an uncertain current starter, or a backup with a credible path to starts.  It should not simply be a fourth low-ceiling veteran.
+- Do not recommend a fourth QB before Round 10 or before the roster has at least four RBs, five WRs, and one TE.  When eligible, show that fourth QB only as a wildcard.
+- Never recommend a fifth QB.  This is a roster-eligibility rule, so the tuning controls cannot override it.
 - Two premium QBs are not required.  If the room overpays for QBs, the board should surface the WR/RB value created by the run.
 
 ## Running-back contingencies

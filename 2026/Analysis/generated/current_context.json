@@ -1,5 +1,5 @@
 {
-  "retrieved": "2026-08-17T20:32:44Z",
+  "retrieved": "2026-08-20T21:06:55Z",
   "sources": {
     "draftsharks_injury": {
       "source_url": "https://www.draftsharks.com/injury-predictor",
@@ -358,17 +358,6 @@
           "recorded_injuries": 10
         },
         {
-          "player": "Rashee Rice",
-          "position": "WR",
-          "team": "KC",
-          "injury_probability": 0.74,
-          "projected_games_missed": 2.2,
-          "durability": 3.81,
-          "risk_group": 5,
-          "model_updated": "2026-07-07 14:19:44",
-          "recorded_injuries": 4
-        },
-        {
           "player": "Daniel Jones",
           "position": "QB",
           "team": "IND",
@@ -391,13 +380,13 @@
           "recorded_injuries": 9
         },
         {
-          "player": "C.J. Stroud",
-          "position": "QB",
-          "team": "HOU",
-          "injury_probability": 0.29,
-          "projected_games_missed": 1.2,
-          "durability": 5.0,
-          "risk_group": 2,
+          "player": "Rashee Rice",
+          "position": "WR",
+          "team": "KC",
+          "injury_probability": 0.74,
+          "projected_games_missed": 2.2,
+          "durability": 3.81,
+          "risk_group": 5,
           "model_updated": "2026-07-07 14:19:44",
           "recorded_injuries": 4
         },
@@ -424,17 +413,6 @@
           "recorded_injuries": 11
         },
         {
-          "player": "De'Von Achane",
-          "position": "RB",
-          "team": "MIA",
-          "injury_probability": 0.68,
-          "projected_games_missed": 0.8,
-          "durability": 5.0,
-          "risk_group": 5,
-          "model_updated": "2026-07-07 14:19:44",
-          "recorded_injuries": 7
-        },
-        {
           "player": "Nico Collins",
           "position": "WR",
           "team": "HOU",
@@ -444,6 +422,28 @@
           "risk_group": 3,
           "model_updated": "2026-07-07 14:19:43",
           "recorded_injuries": 8
+        },
+        {
+          "player": "C.J. Stroud",
+          "position": "QB",
+          "team": "HOU",
+          "injury_probability": 0.29,
+          "projected_games_missed": 1.2,
+          "durability": 5.0,
+          "risk_group": 2,
+          "model_updated": "2026-07-07 14:19:44",
+          "recorded_injuries": 4
+        },
+        {
+          "player": "De'Von Achane",
+          "position": "RB",
+          "team": "MIA",
+          "injury_probability": 0.68,
+          "projected_games_missed": 0.8,
+          "durability": 5.0,
+          "risk_group": 5,
+          "model_updated": "2026-07-07 14:19:44",
+          "recorded_injuries": 7
         },
         {
           "player": "Kenneth Walker III",
@@ -545,6 +545,17 @@
           "recorded_injuries": 17
         },
         {
+          "player": "Chris Olave",
+          "position": "WR",
+          "team": "NO",
+          "injury_probability": 0.75,
+          "projected_games_missed": 2.2,
+          "durability": 5.0,
+          "risk_group": 5,
+          "model_updated": "2026-07-07 14:19:43",
+          "recorded_injuries": 9
+        },
+        {
           "player": "Omarion Hampton",
           "position": "RB",
           "team": "LAC",
@@ -587,17 +598,6 @@
           "risk_group": 2,
           "model_updated": "2026-07-07 14:19:44",
           "recorded_injuries": 3
-        },
-        {
-          "player": "Chris Olave",
-          "position": "WR",
-          "team": "NO",
-          "injury_probability": 0.75,
-          "projected_games_missed": 2.2,
-          "durability": 5.0,
-          "risk_group": 5,
-          "model_updated": "2026-07-07 14:19:43",
-          "recorded_injuries": 9
         },
         {
           "player": "Breece Hall",
@@ -663,7 +663,7 @@
           "durability": 5.0,
           "risk_group": 3,
           "model_updated": "2026-07-07 14:19:43",
-          "recorded_injuries": 10
+          "recorded_injuries": 11
         },
         {
           "player": "Geno Smith",
@@ -776,17 +776,6 @@
           "recorded_injuries": 13
         },
         {
-          "player": "Tyler Warren",
-          "position": "TE",
-          "team": "IND",
-          "injury_probability": 0.36,
-          "projected_games_missed": 1.3,
-          "durability": 5.0,
-          "risk_group": 2,
-          "model_updated": "2026-07-07 14:19:44",
-          "recorded_injuries": 0
-        },
-        {
           "player": "Travis Etienne",
           "position": "RB",
           "team": "NO",
@@ -818,6 +807,17 @@
           "risk_group": 5,
           "model_updated": "2026-07-07 14:19:44",
           "recorded_injuries": 2
+        },
+        {
+          "player": "Tyler Warren",
+          "position": "TE",
+          "team": "IND",
+          "injury_probability": 0.36,
+          "projected_games_missed": 1.3,
+          "durability": 5.0,
+          "risk_group": 2,
+          "model_updated": "2026-07-07 14:19:44",
+          "recorded_injuries": 1
         },
         {
           "player": "D'Andre Swift",
@@ -919,17 +919,6 @@
           "recorded_injuries": 9
         },
         {
-          "player": "Bucky Irving",
-          "position": "RB",
-          "team": "TB",
-          "injury_probability": 0.63,
-          "projected_games_missed": 2.1,
-          "durability": 4.16,
-          "risk_group": 4,
-          "model_updated": "2026-07-07 14:19:44",
-          "recorded_injuries": 4
-        },
-        {
           "player": "Jameson Williams",
           "position": "WR",
           "team": "DET",
@@ -938,6 +927,17 @@
           "durability": 5.0,
           "risk_group": 2,
           "model_updated": "2026-07-07 14:19:43",
+          "recorded_injuries": 4
+        },
+        {
+          "player": "Bucky Irving",
+          "position": "RB",
+          "team": "TB",
+          "injury_probability": 0.63,
+          "projected_games_missed": 2.1,
+          "durability": 4.16,
+          "risk_group": 4,
+          "model_updated": "2026-07-07 14:19:44",
           "recorded_injuries": 4
         },
         {
@@ -1084,17 +1084,6 @@
           "recorded_injuries": 5
         },
         {
-          "player": "Jordan Addison",
-          "position": "WR",
-          "team": "MIN",
-          "injury_probability": 0.37,
-          "projected_games_missed": 2.1,
-          "durability": 5.0,
-          "risk_group": 2,
-          "model_updated": "2026-07-07 14:19:44",
-          "recorded_injuries": 5
-        },
-        {
           "player": "Sam LaPorta",
           "position": "TE",
           "team": "DET",
@@ -1106,15 +1095,15 @@
           "recorded_injuries": 6
         },
         {
-          "player": "Jordyn Tyson",
+          "player": "Jordan Addison",
           "position": "WR",
-          "team": "NO",
-          "injury_probability": 0.45,
-          "projected_games_missed": 3.2,
-          "durability": 0.72,
-          "risk_group": 3,
+          "team": "MIN",
+          "injury_probability": 0.37,
+          "projected_games_missed": 2.1,
+          "durability": 5.0,
+          "risk_group": 2,
           "model_updated": "2026-07-07 14:19:44",
-          "recorded_injuries": 8
+          "recorded_injuries": 5
         },
         {
           "player": "Jakobi Meyers",
@@ -1126,17 +1115,6 @@
           "risk_group": 2,
           "model_updated": "2026-07-07 14:19:43",
           "recorded_injuries": 5
-        },
-        {
-          "player": "Josh Downs",
-          "position": "WR",
-          "team": "IND",
-          "injury_probability": 0.61,
-          "projected_games_missed": 2.7,
-          "durability": 5.0,
-          "risk_group": 4,
-          "model_updated": "2026-07-07 14:19:44",
-          "recorded_injuries": 7
         },
         {
           "player": "TreVeyon Henderson",
@@ -1172,6 +1150,17 @@
           "recorded_injuries": 4
         },
         {
+          "player": "Josh Downs",
+          "position": "WR",
+          "team": "IND",
+          "injury_probability": 0.61,
+          "projected_games_missed": 2.7,
+          "durability": 5.0,
+          "risk_group": 4,
+          "model_updated": "2026-07-07 14:19:44",
+          "recorded_injuries": 7
+        },
+        {
           "player": "Chris Godwin",
           "position": "WR",
           "team": "TB",
@@ -1205,15 +1194,15 @@
           "recorded_injuries": 8
         },
         {
-          "player": "Alec Pierce",
+          "player": "Stefon Diggs",
           "position": "WR",
-          "team": "IND",
-          "injury_probability": 0.67,
-          "projected_games_missed": 2.7,
+          "team": "WAS",
+          "injury_probability": 0.31,
+          "projected_games_missed": 1.0,
           "durability": 5.0,
-          "risk_group": 4,
-          "model_updated": "2026-07-07 14:19:44",
-          "recorded_injuries": 7
+          "risk_group": 2,
+          "model_updated": "2026-07-07 14:19:42",
+          "recorded_injuries": 8
         },
         {
           "player": "Kyle Pitts",
@@ -1293,15 +1282,15 @@
           "recorded_injuries": 0
         },
         {
-          "player": "Stefon Diggs",
+          "player": "KC Concepcion",
           "position": "WR",
-          "team": "WAS",
-          "injury_probability": 0.31,
+          "team": "CLE",
+          "injury_probability": 0.29,
           "projected_games_missed": 1.0,
           "durability": 5.0,
           "risk_group": 2,
-          "model_updated": "2026-07-07 14:19:42",
-          "recorded_injuries": 8
+          "model_updated": "2026-07-07 14:19:44",
+          "recorded_injuries": 0
         },
         {
           "player": "Romeo Doubs",
@@ -1359,17 +1348,6 @@
           "recorded_injuries": 6
         },
         {
-          "player": "KC Concepcion",
-          "position": "WR",
-          "team": "CLE",
-          "injury_probability": 0.29,
-          "projected_games_missed": 1.0,
-          "durability": 5.0,
-          "risk_group": 2,
-          "model_updated": "2026-07-07 14:19:44",
-          "recorded_injuries": 0
-        },
-        {
           "player": "Jonathon Brooks",
           "position": "RB",
           "team": "CAR",
@@ -1379,17 +1357,6 @@
           "risk_group": 2,
           "model_updated": "2026-07-07 14:19:44",
           "recorded_injuries": 2
-        },
-        {
-          "player": "Deebo Samuel",
-          "position": "WR",
-          "team": "SF",
-          "injury_probability": 0.51,
-          "projected_games_missed": 3.6,
-          "durability": 2.54,
-          "risk_group": 3,
-          "model_updated": "2026-07-07 14:19:43",
-          "recorded_injuries": 21
         },
         {
           "player": "Khalil Shakir",
@@ -1414,17 +1381,6 @@
           "recorded_injuries": 1
         },
         {
-          "player": "Jayden Higgins",
-          "position": "WR",
-          "team": "HOU",
-          "injury_probability": 0.23,
-          "projected_games_missed": 1.4,
-          "durability": 5.0,
-          "risk_group": 1,
-          "model_updated": "2026-07-07 14:19:44",
-          "recorded_injuries": 0
-        },
-        {
           "player": "Minkah Fitzpatrick",
           "position": "S",
           "team": "NYJ",
@@ -1445,6 +1401,17 @@
           "risk_group": 2,
           "model_updated": "2026-07-07 14:19:43",
           "recorded_injuries": 9
+        },
+        {
+          "player": "Alec Pierce",
+          "position": "WR",
+          "team": "IND",
+          "injury_probability": 0.67,
+          "projected_games_missed": 2.7,
+          "durability": 5.0,
+          "risk_group": 4,
+          "model_updated": "2026-07-07 14:19:44",
+          "recorded_injuries": 7
         },
         {
           "player": "Makai Lemon",
@@ -1469,6 +1436,17 @@
           "recorded_injuries": 2
         },
         {
+          "player": "Deebo Samuel",
+          "position": "WR",
+          "team": "SF",
+          "injury_probability": 0.51,
+          "projected_games_missed": 3.6,
+          "durability": 2.54,
+          "risk_group": 3,
+          "model_updated": "2026-07-07 14:19:43",
+          "recorded_injuries": 21
+        },
+        {
           "player": "Dre Greenlaw",
           "position": "LB",
           "team": "SF",
@@ -1480,17 +1458,6 @@
           "recorded_injuries": 9
         },
         {
-          "player": "Jake Ferguson",
-          "position": "TE",
-          "team": "DAL",
-          "injury_probability": 0.55,
-          "projected_games_missed": 2.8,
-          "durability": 5.0,
-          "risk_group": 3,
-          "model_updated": "2026-07-07 14:19:44",
-          "recorded_injuries": 7
-        },
-        {
           "player": "RJ Harvey",
           "position": "RB",
           "team": "DEN",
@@ -1500,6 +1467,17 @@
           "risk_group": 2,
           "model_updated": "2026-07-07 14:19:44",
           "recorded_injuries": 2
+        },
+        {
+          "player": "Jake Ferguson",
+          "position": "TE",
+          "team": "DAL",
+          "injury_probability": 0.55,
+          "projected_games_missed": 2.8,
+          "durability": 5.0,
+          "risk_group": 3,
+          "model_updated": "2026-07-07 14:19:44",
+          "recorded_injuries": 7
         },
         {
           "player": "Matthew Golden",
@@ -1533,6 +1511,17 @@
           "risk_group": 2,
           "model_updated": "2026-07-07 14:19:44",
           "recorded_injuries": 5
+        },
+        {
+          "player": "Jordyn Tyson",
+          "position": "WR",
+          "team": "NO",
+          "injury_probability": 0.45,
+          "projected_games_missed": 3.2,
+          "durability": 0.72,
+          "risk_group": 3,
+          "model_updated": "2026-07-07 14:19:44",
+          "recorded_injuries": 8
         },
         {
           "player": "Kyle Hamilton",
@@ -1634,6 +1623,17 @@
           "recorded_injuries": 1
         },
         {
+          "player": "Juwan Johnson",
+          "position": "TE",
+          "team": "NO",
+          "injury_probability": 0.45,
+          "projected_games_missed": 2.9,
+          "durability": 5.0,
+          "risk_group": 3,
+          "model_updated": "2026-07-07 14:19:43",
+          "recorded_injuries": 3
+        },
+        {
           "player": "Isaiah Likely",
           "position": "TE",
           "team": "NYG",
@@ -1689,17 +1689,6 @@
           "recorded_injuries": 2
         },
         {
-          "player": "Keenan Allen",
-          "position": "WR",
-          "team": "UNS",
-          "injury_probability": 0.49,
-          "projected_games_missed": 4.1,
-          "durability": 4.22,
-          "risk_group": 3,
-          "model_updated": "2026-07-07 14:19:42",
-          "recorded_injuries": 16
-        },
-        {
           "player": "Talanoa Hufanga",
           "position": "S",
           "team": "DEN",
@@ -1709,17 +1698,6 @@
           "risk_group": 3,
           "model_updated": "2026-07-07 14:19:43",
           "recorded_injuries": 2
-        },
-        {
-          "player": "Juwan Johnson",
-          "position": "TE",
-          "team": "NO",
-          "injury_probability": 0.45,
-          "projected_games_missed": 2.9,
-          "durability": 5.0,
-          "risk_group": 3,
-          "model_updated": "2026-07-07 14:19:43",
-          "recorded_injuries": 3
         },
         {
           "player": "Chuba Hubbard",
@@ -1742,6 +1720,17 @@
           "risk_group": 2,
           "model_updated": "2026-08-03 19:29:35",
           "recorded_injuries": 2
+        },
+        {
+          "player": "Dalton Schultz",
+          "position": "TE",
+          "team": "HOU",
+          "injury_probability": 0.57,
+          "projected_games_missed": 2.8,
+          "durability": 5.0,
+          "risk_group": 3,
+          "model_updated": "2026-07-07 14:19:43",
+          "recorded_injuries": 6
         },
         {
           "player": "Jalen McMillan",
@@ -1786,6 +1775,17 @@
           "risk_group": 3,
           "model_updated": "2026-07-07 14:19:42",
           "recorded_injuries": 9
+        },
+        {
+          "player": "Keenan Allen",
+          "position": "WR",
+          "team": "IND",
+          "injury_probability": 0.49,
+          "projected_games_missed": 4.1,
+          "durability": 4.22,
+          "risk_group": 3,
+          "model_updated": "2026-07-07 14:19:42",
+          "recorded_injuries": 16
         },
         {
           "player": "Jalen Coker",
@@ -1843,28 +1843,6 @@
           "recorded_injuries": 8
         },
         {
-          "player": "Dalton Schultz",
-          "position": "TE",
-          "team": "HOU",
-          "injury_probability": 0.57,
-          "projected_games_missed": 2.8,
-          "durability": 5.0,
-          "risk_group": 3,
-          "model_updated": "2026-07-07 14:19:43",
-          "recorded_injuries": 6
-        },
-        {
-          "player": "Chigoziem Okonkwo",
-          "position": "TE",
-          "team": "WAS",
-          "injury_probability": 0.22,
-          "projected_games_missed": 0.6,
-          "durability": 5.0,
-          "risk_group": 1,
-          "model_updated": "2026-07-07 14:19:44",
-          "recorded_injuries": 1
-        },
-        {
           "player": "Aaron Jones",
           "position": "RB",
           "team": "MIN",
@@ -1898,6 +1876,17 @@
           "recorded_injuries": 5
         },
         {
+          "player": "Chigoziem Okonkwo",
+          "position": "TE",
+          "team": "WAS",
+          "injury_probability": 0.22,
+          "projected_games_missed": 0.6,
+          "durability": 5.0,
+          "risk_group": 1,
+          "model_updated": "2026-07-07 14:19:44",
+          "recorded_injuries": 1
+        },
+        {
           "player": "Kenyon Sadiq",
           "position": "TE",
           "team": "NYJ",
@@ -1920,17 +1909,6 @@
           "recorded_injuries": 5
         },
         {
-          "player": "Jalen Pitre",
-          "position": "S",
-          "team": "HOU",
-          "injury_probability": 0.36,
-          "projected_games_missed": 1.8,
-          "durability": 5.0,
-          "risk_group": 2,
-          "model_updated": "2026-07-07 14:19:44",
-          "recorded_injuries": 2
-        },
-        {
           "player": "Frankie Luvu",
           "position": "LB",
           "team": "WAS",
@@ -1951,6 +1929,17 @@
           "risk_group": 2,
           "model_updated": "2026-07-07 14:19:43",
           "recorded_injuries": 9
+        },
+        {
+          "player": "Jalen Pitre",
+          "position": "S",
+          "team": "HOU",
+          "injury_probability": 0.36,
+          "projected_games_missed": 1.8,
+          "durability": 5.0,
+          "risk_group": 2,
+          "model_updated": "2026-07-07 14:19:44",
+          "recorded_injuries": 2
         },
         {
           "player": "Cade Otton",
@@ -1997,17 +1986,6 @@
           "recorded_injuries": 2
         },
         {
-          "player": "Jauan Jennings",
-          "position": "WR",
-          "team": "MIN",
-          "injury_probability": 0.33,
-          "projected_games_missed": 0.7,
-          "durability": 5.0,
-          "risk_group": 2,
-          "model_updated": "2026-07-07 14:19:43",
-          "recorded_injuries": 9
-        },
-        {
           "player": "Marlon Humphrey",
           "position": "CB",
           "team": "BAL",
@@ -2017,6 +1995,17 @@
           "risk_group": 2,
           "model_updated": "2026-07-07 14:19:43",
           "recorded_injuries": 9
+        },
+        {
+          "player": "Jaylin Noel",
+          "position": "WR",
+          "team": "HOU",
+          "injury_probability": 0.19,
+          "projected_games_missed": 1.6,
+          "durability": 5.0,
+          "risk_group": 1,
+          "model_updated": "2026-07-07 14:19:44",
+          "recorded_injuries": 1
         },
         {
           "player": "Omar Cooper Jr.",
@@ -2030,6 +2019,17 @@
           "recorded_injuries": 3
         },
         {
+          "player": "Jauan Jennings",
+          "position": "WR",
+          "team": "MIN",
+          "injury_probability": 0.33,
+          "projected_games_missed": 0.7,
+          "durability": 5.0,
+          "risk_group": 2,
+          "model_updated": "2026-07-07 14:19:43",
+          "recorded_injuries": 9
+        },
+        {
           "player": "Jalen Ramsey",
           "position": "CB",
           "team": "PIT",
@@ -2041,17 +2041,6 @@
           "recorded_injuries": 7
         },
         {
-          "player": "Chauncey Gardner-Johnson",
-          "position": "S",
-          "team": "BUF",
-          "injury_probability": 0.33,
-          "projected_games_missed": 1.6,
-          "durability": 4.19,
-          "risk_group": 2,
-          "model_updated": "2026-07-07 14:19:43",
-          "recorded_injuries": 4
-        },
-        {
           "player": "AJ Barner",
           "position": "TE",
           "team": "SEA",
@@ -2061,6 +2050,17 @@
           "risk_group": 2,
           "model_updated": "2026-07-07 14:19:44",
           "recorded_injuries": 0
+        },
+        {
+          "player": "Chauncey Gardner-Johnson",
+          "position": "S",
+          "team": "BUF",
+          "injury_probability": 0.33,
+          "projected_games_missed": 1.6,
+          "durability": 4.19,
+          "risk_group": 2,
+          "model_updated": "2026-07-07 14:19:43",
+          "recorded_injuries": 4
         },
         {
           "player": "Michael Penix Jr.",
@@ -2085,17 +2085,6 @@
           "recorded_injuries": 4
         },
         {
-          "player": "Charvarius Ward",
-          "position": "CB",
-          "team": "IND",
-          "injury_probability": 0.37,
-          "projected_games_missed": 1.6,
-          "durability": 5.0,
-          "risk_group": 2,
-          "model_updated": "2026-07-07 14:19:43",
-          "recorded_injuries": 5
-        },
-        {
           "player": "Dylan Sampson",
           "position": "RB",
           "team": "CLE",
@@ -2116,6 +2105,17 @@
           "risk_group": 4,
           "model_updated": "2026-07-07 14:19:44",
           "recorded_injuries": 4
+        },
+        {
+          "player": "Charvarius Ward",
+          "position": "CB",
+          "team": "IND",
+          "injury_probability": 0.37,
+          "projected_games_missed": 1.6,
+          "durability": 5.0,
+          "risk_group": 2,
+          "model_updated": "2026-07-07 14:19:43",
+          "recorded_injuries": 5
         },
         {
           "player": "Zach Charbonnet",
@@ -2173,17 +2173,6 @@
           "recorded_injuries": 10
         },
         {
-          "player": "Tyrone Tracy Jr.",
-          "position": "RB",
-          "team": "NYG",
-          "injury_probability": 0.34,
-          "projected_games_missed": 1.5,
-          "durability": 5.0,
-          "risk_group": 2,
-          "model_updated": "2026-07-07 14:19:44",
-          "recorded_injuries": 3
-        },
-        {
           "player": "Jeffery Simmons",
           "position": "DT",
           "team": "TEN",
@@ -2217,6 +2206,17 @@
           "recorded_injuries": 5
         },
         {
+          "player": "Tyrone Tracy Jr.",
+          "position": "RB",
+          "team": "NYG",
+          "injury_probability": 0.34,
+          "projected_games_missed": 1.5,
+          "durability": 5.0,
+          "risk_group": 2,
+          "model_updated": "2026-07-07 14:19:44",
+          "recorded_injuries": 3
+        },
+        {
           "player": "Jamel Dean",
           "position": "CB",
           "team": "PIT",
@@ -2239,17 +2239,6 @@
           "recorded_injuries": 2
         },
         {
-          "player": "Tre Harris",
-          "position": "WR",
-          "team": "LAC",
-          "injury_probability": 0.42,
-          "projected_games_missed": 1.8,
-          "durability": 5.0,
-          "risk_group": 3,
-          "model_updated": "2026-07-07 14:19:44",
-          "recorded_injuries": 2
-        },
-        {
           "player": "Isiah Pacheco",
           "position": "RB",
           "team": "DET",
@@ -2259,6 +2248,17 @@
           "risk_group": 2,
           "model_updated": "2026-07-07 14:19:44",
           "recorded_injuries": 8
+        },
+        {
+          "player": "Tre Harris",
+          "position": "WR",
+          "team": "LAC",
+          "injury_probability": 0.42,
+          "projected_games_missed": 1.8,
+          "durability": 5.0,
+          "risk_group": 3,
+          "model_updated": "2026-07-07 14:19:44",
+          "recorded_injuries": 2
         },
         {
           "player": "Dontayvion Wicks",
@@ -2349,28 +2349,6 @@
           "recorded_injuries": 0
         },
         {
-          "player": "Jaylin Noel",
-          "position": "WR",
-          "team": "HOU",
-          "injury_probability": 0.19,
-          "projected_games_missed": 1.6,
-          "durability": 5.0,
-          "risk_group": 1,
-          "model_updated": "2026-07-07 14:19:44",
-          "recorded_injuries": 1
-        },
-        {
-          "player": "Alvin Kamara",
-          "position": "RB",
-          "team": "NO",
-          "injury_probability": 0.39,
-          "projected_games_missed": 1.2,
-          "durability": 3.39,
-          "risk_group": 2,
-          "model_updated": "2026-07-07 14:19:43",
-          "recorded_injuries": 10
-        },
-        {
           "player": "Trey Hendrickson",
           "position": "DE",
           "team": "BAL",
@@ -2424,6 +2402,17 @@
           "risk_group": 2,
           "model_updated": "2026-07-07 14:19:44",
           "recorded_injuries": 3
+        },
+        {
+          "player": "Alvin Kamara",
+          "position": "RB",
+          "team": "NO",
+          "injury_probability": 0.39,
+          "projected_games_missed": 1.2,
+          "durability": 3.39,
+          "risk_group": 2,
+          "model_updated": "2026-07-07 14:19:43",
+          "recorded_injuries": 11
         },
         {
           "player": "DeForest Buckner",
@@ -2481,17 +2470,6 @@
           "recorded_injuries": 14
         },
         {
-          "player": "Brandon Aiyuk",
-          "position": "WR",
-          "team": "UNS",
-          "injury_probability": 0.33,
-          "projected_games_missed": 1.0,
-          "durability": 2.71,
-          "risk_group": 2,
-          "model_updated": "2026-07-07 14:19:43",
-          "recorded_injuries": 6
-        },
-        {
           "player": "Deshaun Watson",
           "position": "QB",
           "team": "CLE",
@@ -2503,14 +2481,14 @@
           "recorded_injuries": 10
         },
         {
-          "player": "Derek Stingley",
-          "position": "CB",
-          "team": "HOU",
-          "injury_probability": 0.39,
-          "projected_games_missed": 3.2,
-          "durability": 2.75,
+          "player": "Brandon Aiyuk",
+          "position": "WR",
+          "team": "UNS",
+          "injury_probability": 0.33,
+          "projected_games_missed": 1.0,
+          "durability": 2.71,
           "risk_group": 2,
-          "model_updated": "2026-07-07 14:19:44",
+          "model_updated": "2026-07-07 14:19:43",
           "recorded_injuries": 6
         },
         {
@@ -2558,17 +2536,6 @@
           "recorded_injuries": 1
         },
         {
-          "player": "Jevon Holland",
-          "position": "S",
-          "team": "NYG",
-          "injury_probability": 0.39,
-          "projected_games_missed": 1.9,
-          "durability": 5.0,
-          "risk_group": 2,
-          "model_updated": "2026-07-07 14:19:43",
-          "recorded_injuries": 3
-        },
-        {
           "player": "Jaycee Horn",
           "position": "CB",
           "team": "CAR",
@@ -2580,6 +2547,17 @@
           "recorded_injuries": 4
         },
         {
+          "player": "Jevon Holland",
+          "position": "S",
+          "team": "NYG",
+          "injury_probability": 0.39,
+          "projected_games_missed": 1.9,
+          "durability": 5.0,
+          "risk_group": 2,
+          "model_updated": "2026-07-07 14:19:43",
+          "recorded_injuries": 3
+        },
+        {
           "player": "Quinnen Williams",
           "position": "DT",
           "team": "DAL",
@@ -2589,6 +2567,17 @@
           "risk_group": 2,
           "model_updated": "2026-07-07 14:19:43",
           "recorded_injuries": 7
+        },
+        {
+          "player": "Derek Stingley",
+          "position": "CB",
+          "team": "HOU",
+          "injury_probability": 0.39,
+          "projected_games_missed": 3.2,
+          "durability": 2.75,
+          "risk_group": 2,
+          "model_updated": "2026-07-07 14:19:44",
+          "recorded_injuries": 6
         },
         {
           "player": "Brian Robinson Jr.",
@@ -2613,17 +2602,6 @@
           "recorded_injuries": 1
         },
         {
-          "player": "Tyquan Thornton",
-          "position": "WR",
-          "team": "KC",
-          "injury_probability": 0.14,
-          "projected_games_missed": 1.0,
-          "durability": 5.0,
-          "risk_group": 1,
-          "model_updated": "2026-07-07 14:19:44",
-          "recorded_injuries": 3
-        },
-        {
           "player": "Laiatu Latu",
           "position": "DE",
           "team": "IND",
@@ -2631,6 +2609,17 @@
           "projected_games_missed": 0.8,
           "durability": 1.91,
           "risk_group": 1,
+          "model_updated": "2026-07-07 14:19:44",
+          "recorded_injuries": 2
+        },
+        {
+          "player": "Chris Bell",
+          "position": "WR",
+          "team": "MIA",
+          "injury_probability": 0.36,
+          "projected_games_missed": 2.2,
+          "durability": 5.0,
+          "risk_group": 2,
           "model_updated": "2026-07-07 14:19:44",
           "recorded_injuries": 2
         },
@@ -2655,6 +2644,17 @@
           "risk_group": 2,
           "model_updated": "2026-07-07 14:19:43",
           "recorded_injuries": 3
+        },
+        {
+          "player": "Nathaniel Dell",
+          "position": "WR",
+          "team": "HOU",
+          "injury_probability": 0.17,
+          "projected_games_missed": 0.5,
+          "durability": 3.09,
+          "risk_group": 1,
+          "model_updated": "2026-07-07 14:19:44",
+          "recorded_injuries": 5
         },
         {
           "player": "Darnell Washington",
@@ -2687,7 +2687,7 @@
           "durability": 5.0,
           "risk_group": 2,
           "model_updated": "2026-07-07 14:19:44",
-          "recorded_injuries": 2
+          "recorded_injuries": 3
         },
         {
           "player": "Justice Hill",
@@ -2712,17 +2712,6 @@
           "recorded_injuries": 10
         },
         {
-          "player": "Chris Bell",
-          "position": "WR",
-          "team": "MIA",
-          "injury_probability": 0.36,
-          "projected_games_missed": 2.2,
-          "durability": 5.0,
-          "risk_group": 2,
-          "model_updated": "2026-07-07 14:19:44",
-          "recorded_injuries": 2
-        },
-        {
           "player": "MarShawn Lloyd",
           "position": "RB",
           "team": "GB",
@@ -2732,6 +2721,17 @@
           "risk_group": 5,
           "model_updated": "2026-07-07 14:19:44",
           "recorded_injuries": 7
+        },
+        {
+          "player": "Tyquan Thornton",
+          "position": "WR",
+          "team": "KC",
+          "injury_probability": 0.14,
+          "projected_games_missed": 1.0,
+          "durability": 5.0,
+          "risk_group": 1,
+          "model_updated": "2026-07-07 14:19:44",
+          "recorded_injuries": 3
         },
         {
           "player": "Marvin Mims Jr.",
@@ -2866,6 +2866,17 @@
           "recorded_injuries": 0
         },
         {
+          "player": "Jack Bech",
+          "position": "WR",
+          "team": "LVR",
+          "injury_probability": 0.29,
+          "projected_games_missed": 0.5,
+          "durability": 5.0,
+          "risk_group": 2,
+          "model_updated": "2026-07-07 14:19:44",
+          "recorded_injuries": 2
+        },
+        {
           "player": "James Conner",
           "position": "RB",
           "team": "ARI",
@@ -2888,15 +2899,15 @@
           "recorded_injuries": 3
         },
         {
-          "player": "Jack Bech",
-          "position": "WR",
-          "team": "LVR",
-          "injury_probability": 0.29,
-          "projected_games_missed": 0.5,
+          "player": "Lukas Van Ness",
+          "position": "DE",
+          "team": "GB",
+          "injury_probability": 0.15,
+          "projected_games_missed": 0.4,
           "durability": 5.0,
-          "risk_group": 2,
+          "risk_group": 1,
           "model_updated": "2026-07-07 14:19:44",
-          "recorded_injuries": 2
+          "recorded_injuries": 0
         },
         {
           "player": "Cameron Heyward",
@@ -2908,17 +2919,6 @@
           "risk_group": 2,
           "model_updated": "2026-07-07 14:19:42",
           "recorded_injuries": 6
-        },
-        {
-          "player": "Lukas Van Ness",
-          "position": "DE",
-          "team": "GB",
-          "injury_probability": 0.15,
-          "projected_games_missed": 0.4,
-          "durability": 5.0,
-          "risk_group": 1,
-          "model_updated": "2026-07-07 14:19:44",
-          "recorded_injuries": 0
         },
         {
           "player": "David Njoku",
@@ -2963,17 +2963,6 @@
           "risk_group": 2,
           "model_updated": "2026-07-07 14:19:43",
           "recorded_injuries": 4
-        },
-        {
-          "player": "Nathaniel Dell",
-          "position": "WR",
-          "team": "HOU",
-          "injury_probability": 0.17,
-          "projected_games_missed": 0.5,
-          "durability": 3.09,
-          "risk_group": 1,
-          "model_updated": "2026-07-07 14:19:44",
-          "recorded_injuries": 5
         },
         {
           "player": "Darius Slayton",
@@ -3229,6 +3218,17 @@
           "recorded_injuries": 1
         },
         {
+          "player": "Calvin Austin III",
+          "position": "WR",
+          "team": "NYG",
+          "injury_probability": 0.27,
+          "projected_games_missed": 0.7,
+          "durability": 3.95,
+          "risk_group": 2,
+          "model_updated": "2026-07-07 14:19:44",
+          "recorded_injuries": 5
+        },
+        {
           "player": "Elijah Arroyo",
           "position": "TE",
           "team": "SEA",
@@ -3314,7 +3314,7 @@
           "durability": 5.0,
           "risk_group": 1,
           "model_updated": "2026-07-07 14:19:44",
-          "recorded_injuries": 0
+          "recorded_injuries": 1
         },
         {
           "player": "Calijah Kancey",
@@ -3337,17 +3337,6 @@
           "risk_group": 2,
           "model_updated": "2026-07-07 14:19:44",
           "recorded_injuries": 3
-        },
-        {
-          "player": "Najee Harris",
-          "position": "RB",
-          "team": "UNS",
-          "injury_probability": 0.39,
-          "projected_games_missed": 4.5,
-          "durability": 5.0,
-          "risk_group": 2,
-          "model_updated": "2026-07-07 14:19:43",
-          "recorded_injuries": 10
         },
         {
           "player": "Kalif Raymond",
@@ -3581,15 +3570,15 @@
           "recorded_injuries": 2
         },
         {
-          "player": "Calvin Austin III",
-          "position": "WR",
+          "player": "Najee Harris",
+          "position": "RB",
           "team": "NYG",
-          "injury_probability": 0.27,
-          "projected_games_missed": 0.7,
-          "durability": 3.95,
+          "injury_probability": 0.39,
+          "projected_games_missed": 4.5,
+          "durability": 5.0,
           "risk_group": 2,
-          "model_updated": "2026-07-07 14:19:44",
-          "recorded_injuries": 5
+          "model_updated": "2026-07-07 14:19:43",
+          "recorded_injuries": 10
         },
         {
           "player": "Noah Fant",
@@ -3922,28 +3911,6 @@
           "recorded_injuries": 2
         },
         {
-          "player": "Ben Sinnott",
-          "position": "TE",
-          "team": "WAS",
-          "injury_probability": 0.2,
-          "projected_games_missed": 1.3,
-          "durability": 5.0,
-          "risk_group": 1,
-          "model_updated": "2026-07-07 14:19:44",
-          "recorded_injuries": 1
-        },
-        {
-          "player": "Jerome Ford",
-          "position": "RB",
-          "team": "WAS",
-          "injury_probability": 0.44,
-          "projected_games_missed": 3.3,
-          "durability": 4.62,
-          "risk_group": 3,
-          "model_updated": "2026-07-07 14:19:44",
-          "recorded_injuries": 8
-        },
-        {
           "player": "David Ojabo",
           "position": "DE",
           "team": "MIA",
@@ -4021,6 +3988,17 @@
           "recorded_injuries": 3
         },
         {
+          "player": "Ben Sinnott",
+          "position": "TE",
+          "team": "WAS",
+          "injury_probability": 0.2,
+          "projected_games_missed": 1.3,
+          "durability": 5.0,
+          "risk_group": 1,
+          "model_updated": "2026-07-07 14:19:44",
+          "recorded_injuries": 1
+        },
+        {
           "player": "Trevor Etienne",
           "position": "RB",
           "team": "CAR",
@@ -4030,17 +4008,6 @@
           "risk_group": 1,
           "model_updated": "2026-07-07 14:19:44",
           "recorded_injuries": 0
-        },
-        {
-          "player": "Marquez Valdes-Scantling",
-          "position": "WR",
-          "team": "DAL",
-          "injury_probability": 0.17,
-          "projected_games_missed": 0.3,
-          "durability": 5.0,
-          "risk_group": 1,
-          "model_updated": "2026-07-07 14:19:43",
-          "recorded_injuries": 9
         },
         {
           "player": "Luke Musgrave",
@@ -4054,37 +4021,15 @@
           "recorded_injuries": 5
         },
         {
-          "player": "JuJu Smith-Schuster",
+          "player": "Marquez Valdes-Scantling",
           "position": "WR",
-          "team": "NYG",
-          "injury_probability": 0.56,
-          "projected_games_missed": 2.8,
-          "durability": 4.38,
-          "risk_group": 3,
-          "model_updated": "2026-07-07 14:19:43",
-          "recorded_injuries": 17
-        },
-        {
-          "player": "Ty Chandler",
-          "position": "RB",
-          "team": "NO",
+          "team": "DAL",
           "injury_probability": 0.17,
-          "projected_games_missed": 0.7,
-          "durability": 4.62,
-          "risk_group": 1,
-          "model_updated": "2026-07-07 14:19:44",
-          "recorded_injuries": 2
-        },
-        {
-          "player": "DJ Giddens",
-          "position": "RB",
-          "team": "IND",
-          "injury_probability": 0.17,
-          "projected_games_missed": 0.8,
+          "projected_games_missed": 0.3,
           "durability": 5.0,
           "risk_group": 1,
-          "model_updated": "2026-07-07 14:19:44",
-          "recorded_injuries": 0
+          "model_updated": "2026-07-07 14:19:43",
+          "recorded_injuries": 9
         },
         {
           "player": "Kyle Williams",
@@ -4096,6 +4041,17 @@
           "risk_group": 1,
           "model_updated": "2026-07-07 14:19:44",
           "recorded_injuries": 0
+        },
+        {
+          "player": "Ty Chandler",
+          "position": "RB",
+          "team": "NO",
+          "injury_probability": 0.17,
+          "projected_games_missed": 0.7,
+          "durability": 4.62,
+          "risk_group": 1,
+          "model_updated": "2026-07-07 14:19:44",
+          "recorded_injuries": 2
         },
         {
           "player": "Van Jefferson",
@@ -4142,23 +4098,23 @@
           "recorded_injuries": 4
         },
         {
-          "player": "Josh Oliver",
-          "position": "TE",
-          "team": "MIN",
-          "injury_probability": 0.09,
-          "projected_games_missed": 0.4,
-          "durability": 3.71,
-          "risk_group": 1,
-          "model_updated": "2026-07-07 14:19:43",
-          "recorded_injuries": 3
-        },
-        {
           "player": "Tyler Conklin",
           "position": "TE",
           "team": "DET",
           "injury_probability": 0.13,
           "projected_games_missed": 0.7,
           "durability": 5.0,
+          "risk_group": 1,
+          "model_updated": "2026-07-07 14:19:43",
+          "recorded_injuries": 3
+        },
+        {
+          "player": "Josh Oliver",
+          "position": "TE",
+          "team": "MIN",
+          "injury_probability": 0.09,
+          "projected_games_missed": 0.4,
+          "durability": 3.71,
           "risk_group": 1,
           "model_updated": "2026-07-07 14:19:43",
           "recorded_injuries": 3
@@ -4329,15 +4285,15 @@
           "recorded_injuries": 3
         },
         {
-          "player": "Malachi Corley",
-          "position": "WR",
-          "team": "CLE",
-          "injury_probability": 0.11,
-          "projected_games_missed": 0.9,
+          "player": "DJ Giddens",
+          "position": "RB",
+          "team": "IND",
+          "injury_probability": 0.17,
+          "projected_games_missed": 0.8,
           "durability": 5.0,
           "risk_group": 1,
           "model_updated": "2026-07-07 14:19:44",
-          "recorded_injuries": 1
+          "recorded_injuries": 0
         },
         {
           "player": "Roschon Johnson",
@@ -4373,6 +4329,17 @@
           "recorded_injuries": 3
         },
         {
+          "player": "Quez Watkins",
+          "position": "WR",
+          "team": "PHI",
+          "injury_probability": 0.07,
+          "projected_games_missed": 0.6,
+          "durability": 5.0,
+          "risk_group": 1,
+          "model_updated": "2026-07-07 14:19:43",
+          "recorded_injuries": 0
+        },
+        {
           "player": "Jaleel McLaughlin",
           "position": "RB",
           "team": "DEN",
@@ -4384,15 +4351,15 @@
           "recorded_injuries": 1
         },
         {
-          "player": "Quez Watkins",
+          "player": "Malachi Corley",
           "position": "WR",
-          "team": "PHI",
-          "injury_probability": 0.07,
-          "projected_games_missed": 0.6,
+          "team": "CLE",
+          "injury_probability": 0.11,
+          "projected_games_missed": 0.9,
           "durability": 5.0,
           "risk_group": 1,
-          "model_updated": "2026-07-07 14:19:43",
-          "recorded_injuries": 0
+          "model_updated": "2026-07-07 14:19:44",
+          "recorded_injuries": 1
         },
         {
           "player": "Durham Smythe",
@@ -4428,15 +4395,26 @@
           "recorded_injuries": 1
         },
         {
-          "player": "Justin Fields",
-          "position": "QB",
-          "team": "KC",
-          "injury_probability": 0.4,
-          "projected_games_missed": 1.4,
+          "player": "JuJu Smith-Schuster",
+          "position": "WR",
+          "team": "UNS",
+          "injury_probability": 0.56,
+          "projected_games_missed": 2.8,
+          "durability": 4.38,
+          "risk_group": 3,
+          "model_updated": "2026-07-07 14:19:43",
+          "recorded_injuries": 17
+        },
+        {
+          "player": "Skyy Moore",
+          "position": "WR",
+          "team": "GB",
+          "injury_probability": 0.28,
+          "projected_games_missed": 0.6,
           "durability": 5.0,
           "risk_group": 2,
-          "model_updated": "2025-10-27 15:23:40",
-          "recorded_injuries": 11
+          "model_updated": "2026-07-07 14:19:44",
+          "recorded_injuries": 5
         },
         {
           "player": "Braxton Berrios",
@@ -4450,14 +4428,14 @@
           "recorded_injuries": 0
         },
         {
-          "player": "Dylan Laube",
+          "player": "Kene Nwangwu",
           "position": "RB",
-          "team": "LVR",
+          "team": "NYJ",
           "injury_probability": 0.07,
           "projected_games_missed": 0.3,
           "durability": 5.0,
           "risk_group": 1,
-          "model_updated": "2026-07-07 14:19:44",
+          "model_updated": "2026-07-07 14:19:43",
           "recorded_injuries": 0
         },
         {
@@ -4472,28 +4450,6 @@
           "recorded_injuries": 8
         },
         {
-          "player": "Taysom Hill",
-          "position": "TE",
-          "team": "UNS",
-          "injury_probability": 0.34,
-          "projected_games_missed": 1.3,
-          "durability": 2.91,
-          "risk_group": 2,
-          "model_updated": "2026-07-07 14:19:43",
-          "recorded_injuries": 18
-        },
-        {
-          "player": "Kene Nwangwu",
-          "position": "RB",
-          "team": "NYJ",
-          "injury_probability": 0.07,
-          "projected_games_missed": 0.3,
-          "durability": 5.0,
-          "risk_group": 1,
-          "model_updated": "2026-07-07 14:19:43",
-          "recorded_injuries": 0
-        },
-        {
           "player": "Joe Mixon",
           "position": "RB",
           "team": "UNS",
@@ -4505,15 +4461,15 @@
           "recorded_injuries": 10
         },
         {
-          "player": "Ja'Lynn Polk",
-          "position": "WR",
-          "team": "UNS",
-          "injury_probability": 0.35,
-          "projected_games_missed": 0.8,
-          "durability": 1.1,
-          "risk_group": 2,
+          "player": "Jerome Ford",
+          "position": "RB",
+          "team": "WAS",
+          "injury_probability": 0.44,
+          "projected_games_missed": 3.3,
+          "durability": 4.62,
+          "risk_group": 3,
           "model_updated": "2026-07-07 14:19:44",
-          "recorded_injuries": 4
+          "recorded_injuries": 8
         },
         {
           "player": "Devin Duvernay",
@@ -4527,18 +4483,51 @@
           "recorded_injuries": 0
         },
         {
-          "player": "Skyy Moore",
+          "player": "Jayden Higgins",
           "position": "WR",
-          "team": "GB",
-          "injury_probability": 0.28,
-          "projected_games_missed": 0.6,
+          "team": "HOU",
+          "injury_probability": 0.23,
+          "projected_games_missed": 1.4,
           "durability": 5.0,
+          "risk_group": 1,
+          "model_updated": "2026-07-07 14:19:44",
+          "recorded_injuries": 1
+        },
+        {
+          "player": "Dylan Laube",
+          "position": "RB",
+          "team": "LVR",
+          "injury_probability": 0.07,
+          "projected_games_missed": 0.3,
+          "durability": 5.0,
+          "risk_group": 1,
+          "model_updated": "2026-07-07 14:19:44",
+          "recorded_injuries": 0
+        },
+        {
+          "player": "Taysom Hill",
+          "position": "TE",
+          "team": "UNS",
+          "injury_probability": 0.34,
+          "projected_games_missed": 1.3,
+          "durability": 2.91,
+          "risk_group": 2,
+          "model_updated": "2026-07-07 14:19:43",
+          "recorded_injuries": 18
+        },
+        {
+          "player": "Ja'Lynn Polk",
+          "position": "WR",
+          "team": "UNS",
+          "injury_probability": 0.35,
+          "projected_games_missed": 0.8,
+          "durability": 1.1,
           "risk_group": 2,
           "model_updated": "2026-07-07 14:19:44",
-          "recorded_injuries": 5
+          "recorded_injuries": 4
         }
       ],
-      "retrieved": "2026-08-17T20:32:44Z"
+      "retrieved": "2026-08-20T21:06:55Z"
     },
     "draftsharks_rookies": {
       "source_url": "https://www.draftsharks.com/nfl-rookie-model",
@@ -6141,7 +6130,7 @@
           "model_updated": "2026-04-28 17:25:19"
         }
       ],
-      "retrieved": "2026-08-17T20:32:44Z"
+      "retrieved": "2026-08-20T21:06:55Z"
     },
     "draftsharks_early_sos": {
       "source_url_pattern": "https://www.draftsharks.com/strength-of-schedule/{position}",
@@ -11444,7 +11433,7 @@
           }
         }
       ],
-      "retrieved": "2026-08-17T20:32:44Z"
+      "retrieved": "2026-08-20T21:06:55Z"
     },
     "draftsharks_superflex": {
       "source_url": "https://www.draftsharks.com/rankings/superflex",
@@ -11554,7 +11543,7 @@
           "position": "QB",
           "team": "WAS",
           "rookie": false,
-          "adp": "2.05",
+          "adp": "2.06",
           "sos": "-0.4%",
           "injury_probability": "41%",
           "floor": "287.4",
@@ -11652,7 +11641,7 @@
           "position": "RB",
           "team": "BAL",
           "rookie": false,
-          "adp": "3.09",
+          "adp": "3.07",
           "sos": "-0.1%",
           "injury_probability": "33%",
           "floor": "207.2",
@@ -11686,7 +11675,7 @@
           "floor": "170.5",
           "projection": "196",
           "ceiling": "235.2",
-          "three_d_value": "54"
+          "three_d_value": "55"
         },
         {
           "rank": 18,
@@ -11694,13 +11683,13 @@
           "position": "QB",
           "team": "JAC",
           "rookie": false,
-          "adp": "4.04",
+          "adp": "4.05",
           "sos": "4.5%",
           "injury_probability": "34%",
           "floor": "279.9",
           "projection": "329",
           "ceiling": "414.9",
-          "three_d_value": "54"
+          "three_d_value": "53"
         },
         {
           "rank": 19,
@@ -11722,7 +11711,7 @@
           "position": "QB",
           "team": "LAC",
           "rookie": false,
-          "adp": "3.07",
+          "adp": "3.09",
           "sos": "-2.8%",
           "injury_probability": "36%",
           "floor": "280.7",
@@ -11736,7 +11725,7 @@
           "position": "QB",
           "team": "SF",
           "rookie": false,
-          "adp": "5.03",
+          "adp": "5.04",
           "sos": "-4%",
           "injury_probability": "36%",
           "floor": "278.1",
@@ -11750,7 +11739,7 @@
           "position": "QB",
           "team": "CHI",
           "rookie": false,
-          "adp": "2.10",
+          "adp": "2.11",
           "sos": "-3.5%",
           "injury_probability": "20%",
           "floor": "278.6",
@@ -11792,7 +11781,7 @@
           "position": "QB",
           "team": "DAL",
           "rookie": false,
-          "adp": "4.05",
+          "adp": "4.04",
           "sos": "0.5%",
           "injury_probability": "34%",
           "floor": "282.7",
@@ -11801,11 +11790,570 @@
           "three_d_value": "51"
         }
       ],
-      "retrieved": "2026-08-17T20:32:44Z"
+      "retrieved": "2026-08-20T21:06:55Z"
     },
     "rotowire_news": {
       "source_url": "https://www.rotowire.com/football/news.php",
       "items": [
+        {
+          "player": "Fernando Mendoza",
+          "player_url": "https://www.rotowire.com/football/player/fernando-mendoza-19281",
+          "headline": "In line to see first-half action Thursday",
+          "headline_url": "https://www.rotowire.com/football/headlines/fernando-mendoza-news-in-line-to-see-first-half-action-thursday-634240",
+          "team": "LV",
+          "position": "QB",
+          "date": "August 20, 2026",
+          "injury": null,
+          "update": "Mendoza is expected to play the first half of Thursday's preseason game against the Texans, Adam Schefter of ESPN reports.",
+          "ranking_adjustment": 0,
+          "adjustment_note": "News is research context until a concrete fantasy impact is verified."
+        },
+        {
+          "player": "Josh Downs",
+          "player_url": "https://www.rotowire.com/football/player/josh-downs-16689",
+          "headline": "Sees positives in team's veteran WR addition",
+          "headline_url": "https://www.rotowire.com/football/headlines/josh-downs-news-sees-positives-in-teams-veteran-wr-addition-634239",
+          "team": "IND",
+          "position": "WR",
+          "date": "August 20, 2026",
+          "injury": null,
+          "update": "Downs is excited to play alongside veteran wide receiver Keenan Allen , whom the Colts signed to a one-year contract Monday, Paul Bretl of USA Today Colts Wire reports.",
+          "ranking_adjustment": 0,
+          "adjustment_note": "News is research context until a concrete fantasy impact is verified."
+        },
+        {
+          "player": "Jaydon Blue",
+          "player_url": "https://www.rotowire.com/football/player/jaydon-blue-18499",
+          "headline": "Upgrades to limited participation Thursday",
+          "headline_url": "https://www.rotowire.com/football/headlines/jaydon-blue-injury-upgrades-to-limited-participation-thursday-634238",
+          "team": "DAL",
+          "position": "RB",
+          "date": "August 20, 2026",
+          "injury": "Shoulder",
+          "update": "Blue (shoulder) will be limited in practice Thursday, per head coach Brian Schottenheimer, Tommy Yarrish of the Cowboys' official site reports.",
+          "ranking_adjustment": 0,
+          "adjustment_note": "News is research context until a concrete fantasy impact is verified."
+        },
+        {
+          "player": "DJ Moore",
+          "player_url": "https://www.rotowire.com/football/player/dj-moore-12477",
+          "headline": "Taking part in team drills Thursday",
+          "headline_url": "https://www.rotowire.com/football/headlines/dj-moore-news-taking-part-in-team-drills-thursday-634237",
+          "team": "BUF",
+          "position": "WR",
+          "date": "August 20, 2026",
+          "injury": null,
+          "update": "Moore (lower body) is participating in team drills Thursday, Matthew Bove of 7 News WKBW reports.",
+          "ranking_adjustment": 0,
+          "adjustment_note": "News is research context until a concrete fantasy impact is verified."
+        },
+        {
+          "player": "Quinshon Judkins",
+          "player_url": "https://www.rotowire.com/football/player/quinshon-judkins-18516",
+          "headline": "Not spotted at Thursday's practice",
+          "headline_url": "https://www.rotowire.com/football/headlines/quinshon-judkins-injury-not-spotted-at-thursdays-practice-634236",
+          "team": "CLE",
+          "position": "RB",
+          "date": "August 20, 2026",
+          "injury": "Undisclosed",
+          "update": "Judkins (undisclosed) wasn't spotted at practice Thursday, Daniel Oyefusi of ESPN.com reports.",
+          "ranking_adjustment": 0,
+          "adjustment_note": "News is research context until a concrete fantasy impact is verified."
+        },
+        {
+          "player": "Geno Smith",
+          "player_url": "https://www.rotowire.com/football/player/geno-smith-8743",
+          "headline": "On track to face Steelers on Friday",
+          "headline_url": "https://www.rotowire.com/football/headlines/geno-smith-news-on-track-to-face-steelers-on-friday-634235",
+          "team": "NYJ",
+          "position": "QB",
+          "date": "August 20, 2026",
+          "injury": null,
+          "update": "Smith is scheduled to start Friday's preseason game against the Steelers, Connor Hughes of SNYtv reports.",
+          "ranking_adjustment": 0,
+          "adjustment_note": "News is research context until a concrete fantasy impact is verified."
+        },
+        {
+          "player": "Khalil Shakir",
+          "player_url": "https://www.rotowire.com/football/player/khalil-shakir-15892",
+          "headline": "Managing unspecified injury",
+          "headline_url": "https://www.rotowire.com/football/headlines/khalil-shakir-injury-managing-unspecified-injury-634234",
+          "team": "BUF",
+          "position": "WR",
+          "date": "August 20, 2026",
+          "injury": "Undisclosed",
+          "update": "Shakir (undisclosed) didn't practice Tuesday due to an injury, Katherine Fitzgerald of The Buffalo News reports.",
+          "ranking_adjustment": 0,
+          "adjustment_note": "News is research context until a concrete fantasy impact is verified."
+        },
+        {
+          "player": "Kyler Murray",
+          "player_url": "https://www.rotowire.com/football/player/kyler-murray-13613",
+          "headline": "Not likely to play in Saturday's preseason contest",
+          "headline_url": "https://www.rotowire.com/football/headlines/kyler-murray-news-not-likely-to-play-in-saturdays-preseason-contest-634233",
+          "team": "MIN",
+          "position": "QB",
+          "date": "August 20, 2026",
+          "injury": null,
+          "update": "Murray isn't expected to suit up for Saturday's preseason game against the Ravens, Kevin Seifert of ESPN.com reports.",
+          "ranking_adjustment": 0,
+          "adjustment_note": "News is research context until a concrete fantasy impact is verified."
+        },
+        {
+          "player": "Sam LaPorta",
+          "player_url": "https://www.rotowire.com/football/player/sam-laporta-17033",
+          "headline": "Dealing with hip injury, per coach",
+          "headline_url": "https://www.rotowire.com/football/headlines/sam-laporta-injury-dealing-with-hip-injury-per-coach-634232",
+          "team": "DET",
+          "position": "TE",
+          "date": "August 20, 2026",
+          "injury": "Hip",
+          "update": "LaPorta is dealing with a hip injury, and head coach Dan Campbell wouldn't commit Thursday to the tight end being available for Week 1 against the Saints, Tim Twentyman of the Lions' official site reports.",
+          "ranking_adjustment": 0,
+          "adjustment_note": "News is research context until a concrete fantasy impact is verified."
+        },
+        {
+          "player": "Jared Goff",
+          "player_url": "https://www.rotowire.com/football/player/jared-goff-10729",
+          "headline": "Won't play against Commanders on Saturday",
+          "headline_url": "https://www.rotowire.com/football/headlines/jared-goff-news-wont-play-against-commanders-on-saturday-634231",
+          "team": "DET",
+          "position": "QB",
+          "date": "August 20, 2026",
+          "injury": null,
+          "update": "Goff will be rested for Saturday's preseason game against the Commanders, Tim Twentyman of the Lions' official site reports.",
+          "ranking_adjustment": 0,
+          "adjustment_note": "News is research context until a concrete fantasy impact is verified."
+        },
+        {
+          "player": "Najee Harris",
+          "player_url": "https://www.rotowire.com/football/player/najee-harris-15468",
+          "headline": "Looks good at practice",
+          "headline_url": "https://www.rotowire.com/football/headlines/najee-harris-news-looks-good-at-practice-634230",
+          "team": "NYG",
+          "position": "RB",
+          "date": "August 20, 2026",
+          "injury": null,
+          "update": "Harris (Achilles) is participating in live drills Thursday, Jordan Raanan of ESPN.com reports.",
+          "ranking_adjustment": 0,
+          "adjustment_note": "News is research context until a concrete fantasy impact is verified."
+        },
+        {
+          "player": "Makai Lemon",
+          "player_url": "https://www.rotowire.com/football/player/makai-lemon-19231",
+          "headline": "Deemed limited at Thursday's practice",
+          "headline_url": "https://www.rotowire.com/football/headlines/makai-lemon-injury-deemed-limited-at-thursdays-practice-634229",
+          "team": "PHI",
+          "position": "WR",
+          "date": "August 20, 2026",
+          "injury": "Hamstring",
+          "update": "Lemon (hamstring) is practicing on a limited basis Thursday, Dave Zangoro of NBC Sports Philadelphia reports.",
+          "ranking_adjustment": 0,
+          "adjustment_note": "News is research context until a concrete fantasy impact is verified."
+        },
+        {
+          "player": "C.J. Stroud",
+          "player_url": "https://www.rotowire.com/football/player/cj-stroud-16886",
+          "headline": "On track to play Thursday",
+          "headline_url": "https://www.rotowire.com/football/headlines/cj-stroud-news-on-track-to-play-thursday-634228",
+          "team": "HOU",
+          "position": "QB",
+          "date": "August 20, 2026",
+          "injury": null,
+          "update": "Stroud is expected to play a few series during Thursday's preseason game against the Raiders, Aaron Wilson of KPRC 2 Houston reports.",
+          "ranking_adjustment": 0,
+          "adjustment_note": "News is research context until a concrete fantasy impact is verified."
+        },
+        {
+          "player": "Patrick Mahomes",
+          "player_url": "https://www.rotowire.com/football/player/patrick-mahomes-11839",
+          "headline": "Remaining out for second preseason tilt",
+          "headline_url": "https://www.rotowire.com/football/headlines/patrick-mahomes-injury-remaining-out-for-second-preseason-tilt-634227",
+          "team": "KC",
+          "position": "QB",
+          "date": "August 20, 2026",
+          "injury": "Knee - ACL",
+          "update": "Head coach Andy Reid said that Mahomes (knee) won't play in Saturday's preseason game versus the Buccaneers, Matt McMullen of the Chiefs' official site reports.",
+          "ranking_adjustment": 0,
+          "adjustment_note": "News is research context until a concrete fantasy impact is verified."
+        },
+        {
+          "player": "Tyler Warren",
+          "player_url": "https://www.rotowire.com/football/player/tyler-warren-18534",
+          "headline": "Will miss 'about a week' with groin injury",
+          "headline_url": "https://www.rotowire.com/football/headlines/tyler-warren-injury-will-miss-about-a-week-with-groin-injury-634226",
+          "team": "IND",
+          "position": "TE",
+          "date": "August 20, 2026",
+          "injury": "Groin",
+          "update": "Warren (groin) is expected to miss about a week, but his status for Week 1 against the Ravens isn't in any danger, Ian Rapoport of ESPN and NFL Network reports.",
+          "ranking_adjustment": 0,
+          "adjustment_note": "News is research context until a concrete fantasy impact is verified."
+        },
+        {
+          "player": "Malik Nabers",
+          "player_url": "https://www.rotowire.com/football/player/malik-nabers-17704",
+          "headline": "Sitting out joint practices this week",
+          "headline_url": "https://www.rotowire.com/football/headlines/malik-nabers-injury-sitting-out-joint-practices-this-week-634225",
+          "team": "NYG",
+          "position": "WR",
+          "date": "August 20, 2026",
+          "injury": "Knee - ACL",
+          "update": "Head coach John Harbaugh said that Nabers (knee) won't participate in the Giants' joint practices with the Dolphins this week, Jordan Raanan of ESPN.com reports.",
+          "ranking_adjustment": 0,
+          "adjustment_note": "News is research context until a concrete fantasy impact is verified."
+        },
+        {
+          "player": "Makai Lemon",
+          "player_url": "https://www.rotowire.com/football/player/makai-lemon-19231",
+          "headline": "Poised to practice again Thursday",
+          "headline_url": "https://www.rotowire.com/football/headlines/makai-lemon-injury-poised-to-practice-again-thursday-634224",
+          "team": "PHI",
+          "position": "WR",
+          "date": "August 20, 2026",
+          "injury": "Hamstring",
+          "update": "Lemon (hamstring) is expected to practice Tuesday in some capacity, Olivia Reiner of The Philadelphia Inquirer reports.",
+          "ranking_adjustment": 0,
+          "adjustment_note": "News is research context until a concrete fantasy impact is verified."
+        },
+        {
+          "player": "Joe Burrow",
+          "player_url": "https://www.rotowire.com/football/player/joe-burrow-14442",
+          "headline": "Will sit out Saturday's preseason contest",
+          "headline_url": "https://www.rotowire.com/football/headlines/joe-burrow-news-will-sit-out-saturdays-preseason-contest-634223",
+          "team": "CIN",
+          "position": "QB",
+          "date": "August 20, 2026",
+          "injury": null,
+          "update": "Bengals head coach Zac Taylor said that Burrow and other key starters are in line to be rested for Saturday's preseason game against the Bears, Jay Morrison of SI.com reports.",
+          "ranking_adjustment": 0,
+          "adjustment_note": "News is research context until a concrete fantasy impact is verified."
+        },
+        {
+          "player": "Justin Fields",
+          "player_url": "https://www.rotowire.com/football/player/justin-fields-15416",
+          "headline": "Preparing to start Saturday's exhibition",
+          "headline_url": "https://www.rotowire.com/football/headlines/justin-fields-news-preparing-to-start-saturdays-exhibition-634222",
+          "team": "KC",
+          "position": "QB",
+          "date": "August 20, 2026",
+          "injury": null,
+          "update": "Fields took first-team reps with the Chiefs offense during Thursday's practice and appears in line to start Saturday's preseason game against the Buccaneers, Matt Derrick of ChiefsDigest.com reports.",
+          "ranking_adjustment": 0,
+          "adjustment_note": "News is research context until a concrete fantasy impact is verified."
+        },
+        {
+          "player": "Rachaad White",
+          "player_url": "https://www.rotowire.com/football/player/rachaad-white-15802",
+          "headline": "Working off to side at practice Thursday",
+          "headline_url": "https://www.rotowire.com/football/headlines/rachaad-white-injury-working-off-to-side-at-practice-thursday-634220",
+          "team": "WAS",
+          "position": "RB",
+          "date": "August 20, 2026",
+          "injury": "Hamstring",
+          "update": "White (hamstring) was in uniform for Thursday's practice and was seen working out off to the side catching passes from a JUGS machine, Nicki Jhabvala of The Athletic reports.",
+          "ranking_adjustment": 0,
+          "adjustment_note": "News is research context until a concrete fantasy impact is verified."
+        },
+        {
+          "player": "Rachaad White",
+          "player_url": "https://www.rotowire.com/football/player/rachaad-white-15802",
+          "headline": "Won't play in Saturday's preseason game",
+          "headline_url": "https://www.rotowire.com/football/headlines/rachaad-white-injury-wont-play-in-saturdays-preseason-game-634219",
+          "team": "WAS",
+          "position": "RB",
+          "date": "August 20, 2026",
+          "injury": "Hamstring",
+          "update": "White (hamstring) won't play in Saturday's preseason game against the Lions, John Keim of ESPN.com reports.",
+          "ranking_adjustment": 0,
+          "adjustment_note": "News is research context until a concrete fantasy impact is verified."
+        },
+        {
+          "player": "Tyler Warren",
+          "player_url": "https://www.rotowire.com/football/player/tyler-warren-18534",
+          "headline": "Groin injury not believed to be serious",
+          "headline_url": "https://www.rotowire.com/football/headlines/tyler-warren-injury-groin-injury-not-believed-to-be-serious-634216",
+          "team": "IND",
+          "position": "TE",
+          "date": "August 19, 2026",
+          "injury": "Groin",
+          "update": "Warren (groin) suffered a strained abductor in Wednesday's practice but is expected to return to practice next week, NFL reporter Jordan Schultz reports.",
+          "ranking_adjustment": 0,
+          "adjustment_note": "News is research context until a concrete fantasy impact is verified."
+        },
+        {
+          "player": "Rachaad White",
+          "player_url": "https://www.rotowire.com/football/player/rachaad-white-15802",
+          "headline": "Nursing hamstring injury",
+          "headline_url": "https://www.rotowire.com/football/headlines/rachaad-white-injury-nursing-hamstring-injury-634215",
+          "team": "WAS",
+          "position": "RB",
+          "date": "August 19, 2026",
+          "injury": "Hamstring",
+          "update": "White has missed the last few days of practice with a hamstring injury, Mike Garafolo of NFL Network reports.",
+          "ranking_adjustment": 0,
+          "adjustment_note": "News is research context until a concrete fantasy impact is verified."
+        },
+        {
+          "player": "Zane Gonzalez",
+          "player_url": "https://www.rotowire.com/football/player/zane-gonzalez-11831",
+          "headline": "Released by Miami",
+          "headline_url": "https://www.rotowire.com/football/headlines/zane-gonzalez-injury-released-by-miami-634195",
+          "team": "FA",
+          "position": "K",
+          "date": "August 19, 2026",
+          "injury": "Undisclosed",
+          "update": "The Dolphins released Gonzalez (undisclosed) with an injury settlement Wednesday, Marcel Louis-Jacques of ESPN.com reports.",
+          "ranking_adjustment": 0,
+          "adjustment_note": "News is research context until a concrete fantasy impact is verified."
+        },
+        {
+          "player": "Jaylin Noel",
+          "player_url": "https://www.rotowire.com/football/player/jaylin-noel-18555",
+          "headline": "Ramping back up at practice",
+          "headline_url": "https://www.rotowire.com/football/headlines/jaylin-noel-injury-ramping-back-up-at-practice-634186",
+          "team": "HOU",
+          "position": "WR",
+          "date": "August 19, 2026",
+          "injury": "Hamstring",
+          "update": "Noel (hamstring/finger) returned to practice this week, and the plan is to get him ramped back up to full speed over the next couple weeks, Aaron Wilson of KPRC 2 Houston reports.",
+          "ranking_adjustment": 0,
+          "adjustment_note": "News is research context until a concrete fantasy impact is verified."
+        },
+        {
+          "player": "Vita Vea",
+          "player_url": "https://www.rotowire.com/football/player/vita-vea-12500",
+          "headline": "Agrees to one-year extension with Bucs",
+          "headline_url": "https://www.rotowire.com/football/headlines/vita-vea-news-agrees-to-one-year-extension-with-bucs-634181",
+          "team": "TB",
+          "position": "DT",
+          "date": "August 19, 2026",
+          "injury": null,
+          "update": "Vea (back) and the Buccaneers reached an agreement on a one-year, $30 million extension Wednesday, Adam Schefter of ESPN reports.",
+          "ranking_adjustment": 0,
+          "adjustment_note": "News is research context until a concrete fantasy impact is verified."
+        },
+        {
+          "player": "Bo Nix",
+          "player_url": "https://www.rotowire.com/football/player/bo-nix-16995",
+          "headline": "In line to play in Friday's preseason contest",
+          "headline_url": "https://www.rotowire.com/football/headlines/bo-nix-news-in-line-to-play-in-fridays-preseason-contest-634179",
+          "team": "DEN",
+          "position": "QB",
+          "date": "August 19, 2026",
+          "injury": null,
+          "update": "Coach Sean Payton said Nix is expected to play roughly 14 snaps during Friday's preseason game against the Packers, Zac Stevens of TheDNVR.com reports.",
+          "ranking_adjustment": 0,
+          "adjustment_note": "News is research context until a concrete fantasy impact is verified."
+        },
+        {
+          "player": "Keenan Allen",
+          "player_url": "https://www.rotowire.com/football/player/keenan-allen-8627",
+          "headline": "Heading to Indianapolis",
+          "headline_url": "https://www.rotowire.com/football/headlines/keenan-allen-news-heading-to-indianapolis-634024",
+          "team": "IND",
+          "position": "WR",
+          "date": "August 17, 2026",
+          "injury": null,
+          "update": "The Colts are signing Allen to a one-year contract worth up to $8.32 million, NFL reporter Jordan Schultz reports.",
+          "ranking_adjustment": 0,
+          "adjustment_note": "News is research context until a concrete fantasy impact is verified."
+        },
+        {
+          "player": "Christian McCaffrey",
+          "player_url": "https://www.rotowire.com/football/player/christian-mccaffrey-11690",
+          "headline": "Tightness not considered serious issue",
+          "headline_url": "https://www.rotowire.com/football/headlines/christian-mccaffrey-injury-tightness-not-considered-serious-issue-633986",
+          "team": "SF",
+          "position": "RB",
+          "date": "August 17, 2026",
+          "injury": "Undisclosed",
+          "update": "McCaffrey is dealing with \"tightness,\" but it doesn't seem to be an issue to worry about, Ian Rapoport of NFL Network reports.",
+          "ranking_adjustment": 0,
+          "adjustment_note": "News is research context until a concrete fantasy impact is verified."
+        },
+        {
+          "player": "Cedric Tillman",
+          "player_url": "https://www.rotowire.com/football/player/cedric-tillman-16706",
+          "headline": "Remains sidelined at practice",
+          "headline_url": "https://www.rotowire.com/football/headlines/cedric-tillman-injury-remains-sidelined-at-practice-633974",
+          "team": "CLE",
+          "position": "WR",
+          "date": "August 17, 2026",
+          "injury": "Undisclosed",
+          "update": "Tillman (undisclosed) did not participate at the Browns practice Tuesday, Zac Jackson of The Athletic reports.",
+          "ranking_adjustment": 0,
+          "adjustment_note": "News is research context until a concrete fantasy impact is verified."
+        },
+        {
+          "player": "Jamal Adams",
+          "player_url": "https://www.rotowire.com/football/player/jamal-adams-11985",
+          "headline": "Move to IR official",
+          "headline_url": "https://www.rotowire.com/football/headlines/jamal-adams-injury-move-to-ir-official-633967",
+          "team": "MIN",
+          "position": "LB",
+          "date": "August 17, 2026",
+          "injury": "Quadriceps",
+          "update": "The Vikings placed Adams (quad) on injured reserve Monday.",
+          "ranking_adjustment": 0,
+          "adjustment_note": "News is research context until a concrete fantasy impact is verified."
+        },
+        {
+          "player": "Geno Smith",
+          "player_url": "https://www.rotowire.com/football/player/geno-smith-8743",
+          "headline": "Practices fully Monday",
+          "headline_url": "https://www.rotowire.com/football/headlines/geno-smith-injury-practices-fully-monday-633966",
+          "team": "NYJ",
+          "position": "QB",
+          "date": "August 17, 2026",
+          "injury": "Ankle",
+          "update": "Smith (ankle) was a full participant in Monday's training camp practice, Rich Cimini of ESPN.com reports.",
+          "ranking_adjustment": 0,
+          "adjustment_note": "News is research context until a concrete fantasy impact is verified."
+        },
+        {
+          "player": "Najee Harris",
+          "player_url": "https://www.rotowire.com/football/player/najee-harris-15468",
+          "headline": "Could join Big Blue",
+          "headline_url": "https://www.rotowire.com/football/headlines/najee-harris-injury-could-join-big-blue-633964",
+          "team": "FA",
+          "position": "RB",
+          "date": "August 17, 2026",
+          "injury": "Achilles",
+          "update": "Giants head coach John Harbaugh said that Harris (Achilles) looked good in Monday's workout, Pat Leonard of the New York Daily News reports.",
+          "ranking_adjustment": 0,
+          "adjustment_note": "News is research context until a concrete fantasy impact is verified."
+        },
+        {
+          "player": "Jordyn Tyson",
+          "player_url": "https://www.rotowire.com/football/player/jordyn-tyson-19233",
+          "headline": "In line to miss roughly two months",
+          "headline_url": "https://www.rotowire.com/football/headlines/jordyn-tyson-injury-in-line-to-miss-roughly-two-months-633963",
+          "team": "NO",
+          "position": "WR",
+          "date": "August 17, 2026",
+          "injury": "Hamstring",
+          "update": "Tyson is expected to miss about two months due to the hamstring injury he suffered last week, Mike Garafolo of NFL Network reports.",
+          "ranking_adjustment": 0,
+          "adjustment_note": "News is research context until a concrete fantasy impact is verified."
+        },
+        {
+          "player": "Marvin Mims",
+          "player_url": "https://www.rotowire.com/football/player/marvin-mims-16849",
+          "headline": "Limited to side work Monday",
+          "headline_url": "https://www.rotowire.com/football/headlines/marvin-mims-injury-limited-to-side-work-monday-633962",
+          "team": "DEN",
+          "position": "WR",
+          "date": "August 17, 2026",
+          "injury": "Undisclosed",
+          "update": "Mims (undisclosed) participated in stretch and drills before working to the side of Monday's training camp practice, Zac Stevens of TheDNVR.com reports.",
+          "ranking_adjustment": 0,
+          "adjustment_note": "News is research context until a concrete fantasy impact is verified."
+        },
+        {
+          "player": "Breece Hall",
+          "player_url": "https://www.rotowire.com/football/player/breece-hall-15810",
+          "headline": "Groin strain is considered 'minor'",
+          "headline_url": "https://www.rotowire.com/football/headlines/breece-hall-injury-groin-strain-is-considered-minor-633961",
+          "team": "NYJ",
+          "position": "RB",
+          "date": "August 17, 2026",
+          "injury": "Groin",
+          "update": "The follow-up on the groin injury Hall sustained Monday confirmed that the injury is minor, according to Connor Hughes of SNY.tv .",
+          "ranking_adjustment": 0,
+          "adjustment_note": "News is research context until a concrete fantasy impact is verified."
+        },
+        {
+          "player": "Kyle Monangai",
+          "player_url": "https://www.rotowire.com/football/player/kyle-monangai-18520",
+          "headline": "Diagnosed with hyperextended knee",
+          "headline_url": "https://www.rotowire.com/football/headlines/kyle-monangai-injury-diagnosed-with-hyperextended-knee-633960",
+          "team": "CHI",
+          "position": "RB",
+          "date": "August 17, 2026",
+          "injury": "Knee",
+          "update": "Monangai hyperextended his right knee at Sunday's practice, and he's expected to be sidelined multiple weeks, Jeremy Fowler of ESPN.com reports.",
+          "ranking_adjustment": 0,
+          "adjustment_note": "News is research context until a concrete fantasy impact is verified."
+        },
+        {
+          "player": "Jadarian Price",
+          "player_url": "https://www.rotowire.com/football/player/jadarian-price-19299",
+          "headline": "Full practice Monday",
+          "headline_url": "https://www.rotowire.com/football/headlines/jadarian-price-news-full-practice-monday-633959",
+          "team": "SEA",
+          "position": "RB",
+          "date": "August 17, 2026",
+          "injury": null,
+          "update": "Price (lower body) participated fully in Monday's practice, Bob Condotta of The Seattle Times reports.",
+          "ranking_adjustment": 0,
+          "adjustment_note": "News is research context until a concrete fantasy impact is verified."
+        },
+        {
+          "player": "Jameson Williams",
+          "player_url": "https://www.rotowire.com/football/player/jameson-williams-15849",
+          "headline": "Dealing with shoulder issue",
+          "headline_url": "https://www.rotowire.com/football/headlines/jameson-williams-injury-dealing-with-shoulder-issue-633958",
+          "team": "DET",
+          "position": "WR",
+          "date": "August 17, 2026",
+          "injury": "Shoulder",
+          "update": "Williams is dealing with a minor shoulder injury, Tim Twentyman of the Lions' official site reports.",
+          "ranking_adjustment": 0,
+          "adjustment_note": "News is research context until a concrete fantasy impact is verified."
+        },
+        {
+          "player": "Jaylin Noel",
+          "player_url": "https://www.rotowire.com/football/player/jaylin-noel-18555",
+          "headline": "Optimism around Week 1 availability",
+          "headline_url": "https://www.rotowire.com/football/headlines/jaylin-noel-injury-optimism-around-week-1-availability-633957",
+          "team": "HOU",
+          "position": "WR",
+          "date": "August 17, 2026",
+          "injury": "Hamstring",
+          "update": "The Texans are optimistic that Noel (hamstring/finger) will be available for the team's regular-season opener against the Bills on Sunday, Sept. 13, Aaron Wilson of KPRC 2 Houston reports.",
+          "ranking_adjustment": 0,
+          "adjustment_note": "News is research context until a concrete fantasy impact is verified."
+        },
+        {
+          "player": "Darren Waller",
+          "player_url": "https://www.rotowire.com/football/player/darren-waller-10215",
+          "headline": "Being eased into the mix",
+          "headline_url": "https://www.rotowire.com/football/headlines/darren-waller-news-being-eased-into-the-mix-633956",
+          "team": "CAR",
+          "position": "TE",
+          "date": "August 17, 2026",
+          "injury": null,
+          "update": "Waller didn't practice Monday after officially signing with the Panthers, Mike Kaye of ESPN reports.",
+          "ranking_adjustment": 0,
+          "adjustment_note": "News is research context until a concrete fantasy impact is verified."
+        },
+        {
+          "player": "Jadarian Price",
+          "player_url": "https://www.rotowire.com/football/player/jadarian-price-19299",
+          "headline": "Primed to participate Monday",
+          "headline_url": "https://www.rotowire.com/football/headlines/jadarian-price-injury-primed-to-participate-monday-633955",
+          "team": "SEA",
+          "position": "RB",
+          "date": "August 17, 2026",
+          "injury": "Lower Body",
+          "update": "Price (lower body) was present at the start of Monday's practice, Brady Henderson of ESPN.com reports.",
+          "ranking_adjustment": 0,
+          "adjustment_note": "News is research context until a concrete fantasy impact is verified."
+        },
+        {
+          "player": "Jonah Coleman",
+          "player_url": "https://www.rotowire.com/football/player/jonah-coleman-19241",
+          "headline": "Pushing for role in Denver backfield",
+          "headline_url": "https://www.rotowire.com/football/headlines/jonah-coleman-news-pushing-for-role-in-denver-backfield-633954",
+          "team": "DEN",
+          "position": "RB",
+          "date": "August 17, 2026",
+          "injury": null,
+          "update": "Coleman is trending toward being a real part of a Denver running back rotation that also includes J.K. Dobbins (undisclosed) and RJ Harvey , according to Parker Gabriel of The Denver Post.",
+          "ranking_adjustment": 0,
+          "adjustment_note": "News is research context until a concrete fantasy impact is verified."
+        },
         {
           "player": "Trey Benson",
           "player_url": "https://www.rotowire.com/football/player/trey-benson-17767",
@@ -12104,149 +12652,109 @@
           "update": "Richardson is expected to remain with the Colts in 2026, Stephen Holder of ESPN.com reports.",
           "ranking_adjustment": 0,
           "adjustment_note": "News is research context until a concrete fantasy impact is verified."
-        },
-        {
-          "player": "Trevor Lawrence",
-          "player_url": "https://www.rotowire.com/football/player/trevor-lawrence-15357",
-          "headline": "Could play in Friday's contest",
-          "headline_url": "https://www.rotowire.com/football/headlines/trevor-lawrence-news-could-play-in-fridays-contest-633922",
-          "team": "JAX",
-          "position": "QB",
-          "date": "August 17, 2026",
-          "injury": null,
-          "update": "Coach Liam Coen is considering playing starters, a group that would include Lawrence, in Friday's preseason game against the Panthers, Michael DiRocco of ESPN.com reports.",
-          "ranking_adjustment": 0,
-          "adjustment_note": "News is research context until a concrete fantasy impact is verified."
-        },
-        {
-          "player": "Tua Tagovailoa",
-          "player_url": "https://www.rotowire.com/football/player/tua-tagovailoa-14465",
-          "headline": "Likely to sit out second preseason game",
-          "headline_url": "https://www.rotowire.com/football/headlines/tua-tagovailoa-news-likely-to-sit-out-second-preseason-game-633921",
-          "team": "ATL",
-          "position": "QB",
-          "date": "August 17, 2026",
-          "injury": null,
-          "update": "Tagovailoa is expected to be rested for the Falcons' second preseason game Saturday versus the Colts, Marc Raimondi of ESPN.com reports.",
-          "ranking_adjustment": 0,
-          "adjustment_note": "News is research context until a concrete fantasy impact is verified."
         }
       ],
-      "retrieved": "2026-08-17T20:32:44Z"
+      "retention": "Current page plus up to 21 dated local snapshots; duplicate headlines removed.",
+      "retrieved": "2026-08-20T21:06:55Z"
     },
     "espn_news": {
       "source_url": "https://www.espn.com/espn/rss/nfl/news",
-      "last_build": "Mon, 17 Aug 2026 20:28:18 GMT",
+      "last_build": "Thu, 20 Aug 2026 21:03:02 GMT",
       "items": [
         {
-          "title": "Which NFL teams are in the best shape for the next three seasons? 1-32 projections for 2027-29",
+          "title": "Projecting next year's QB market: Most likely scenarios and long-shot possibilities for 16 NFL teams",
+          "link": "https://www.espn.com/nfl/story/_/id/49659412/2027-nfl-quarterback-predictions-16-teams-starter-questions-free-agency-trades-draft",
+          "published": "Thu, 20 Aug 2026 13:58:33 EST"
+        },
+        {
+          "title": "Cowboys, Saints fined $500K for practice brawls",
+          "link": "https://www.espn.com/nfl/story/_/id/49673882/cowboys-saints-fined-500k-brawls-joint-practices",
+          "published": "Thu, 20 Aug 2026 16:52:53 EST"
+        },
+        {
+          "title": "Lions unsure if injured LaPorta will play Week 1",
+          "link": "https://www.espn.com/nfl/story/_/id/49672143/sam-laporta-status-uncertain-lions-season-opener",
+          "published": "Thu, 20 Aug 2026 16:52:53 EST"
+        },
+        {
+          "title": "Brown, Hurts reunite briefly amid post-trade rift",
+          "link": "https://www.espn.com/nfl/story/_/id/49672812/aj-brown-jalen-hurts-reunite-briefly-amid-post-trade-rift",
+          "published": "Thu, 20 Aug 2026 16:52:53 EST"
+        },
+        {
+          "title": "Players pulled from fight-filled Giants-Fins practice",
+          "link": "https://www.espn.com/nfl/story/_/id/49672671/players-pulled-fight-filled-giants-dolphins-practice",
+          "published": "Thu, 20 Aug 2026 16:52:53 EST"
+        },
+        {
+          "title": "'I hate joint practices,' Eagles star Barkley says",
+          "link": "https://www.espn.com/nfl/story/_/id/49673017/i-hate-joint-practices-says-eagles-star-saquon-barkley",
+          "published": "Thu, 20 Aug 2026 16:52:53 EST"
+        },
+        {
+          "title": "Donald to continue workouts as decision looms",
+          "link": "https://www.espn.com/nfl/story/_/id/49673878/aaron-donald-continue-workouts-rams-decision-looms",
+          "published": "Thu, 20 Aug 2026 16:52:53 EST"
+        },
+        {
+          "title": "Vea dismisses trade ask: Want to be 'Buc for life'",
+          "link": "https://www.espn.com/nfl/story/_/id/49672527/vita-vea-dismisses-trade-drama-want-buc-life",
+          "published": "Thu, 20 Aug 2026 16:52:53 EST"
+        },
+        {
+          "title": "Jets' Johnson buys stake in Aston Martin F1 team",
+          "link": "https://www.espn.com/nfl/story/_/id/49673504/jets-owner-woody-johnson-buys-stake-aston-martin-f1-team",
+          "published": "Thu, 20 Aug 2026 16:52:53 EST"
+        },
+        {
+          "title": "\ud83d\udcc8 Future Power Rankings: Projecting every team",
           "link": "https://www.espn.com/nfl/story/_/id/49582613/2026-nfl-future-power-rankings-projections-32-teams-roster-coaching-quarterback",
-          "published": "Mon, 17 Aug 2026 08:57:07 EST"
+          "published": "Thu, 20 Aug 2026 16:52:53 EST"
         },
         {
-          "title": "Jets' Hall strains groin, but Glenn not worried",
-          "link": "https://www.espn.com/nfl/story/_/id/49639624/jets-rb-hall-strains-right-groin-likely-not-serious-injury",
-          "published": "Mon, 17 Aug 2026 14:30:13 EST"
+          "title": "Why QB Fernando Mendoza's notebook is his biggest asset: 'He is a lifelong learner when it comes to football'",
+          "link": "https://www.espn.com/nfl/story/_/id/49660906/las-vegas-raiders-quarterback-fernando-mendoza-quarterback-2026-preparation-development",
+          "published": "Thu, 20 Aug 2026 16:52:50 EST"
         },
         {
-          "title": "Texas native Miller agrees to deal with Cowboys",
-          "link": "https://www.espn.com/nfl/story/_/id/49634196/von-miller-expected-sign-dallas-cowboys",
-          "published": "Mon, 17 Aug 2026 14:30:13 EST"
+          "title": "With $1 billion in contract extensions and a rebuilt O-line, Detroit will see you at SoFi",
+          "link": "https://www.espn.com/nfl/story/_/id/49651690/detroit-lions-super-bowl-window-opportunity-2026",
+          "published": "Thu, 20 Aug 2026 16:52:57 EST"
         },
         {
-          "title": "Bucs WRs Ebuka (toe), McMillan (knee) day-to-day",
-          "link": "https://www.espn.com/nfl/story/_/id/49640322/buccaneers-wrs-egbuka-mcmillan-day-day-ahead-week-1",
-          "published": "Mon, 17 Aug 2026 14:30:13 EST"
+          "title": "The 'bullies' are back in town: What Deebo Samuel, Dre Greenlaw are bringing in second stints with 49ers",
+          "link": "https://www.espn.com/nfl/story/_/id/49651267/san-francisco-49ers-deebo-samuel-dre-greenlaw-return",
+          "published": "Thu, 20 Aug 2026 15:57:30 EST"
         },
         {
-          "title": "Source: Commanders to release kicker Moody",
-          "link": "https://www.espn.com/nfl/story/_/id/49640649/source-commanders-cut-struggling-placekicker-jake-moody",
-          "published": "Mon, 17 Aug 2026 14:30:13 EST"
+          "title": "'The team being hunted': Why things feel -- and look -- different for the Patriots in 2026",
+          "link": "https://www.espn.com/nfl/story/_/id/49648149/new-england-patriots-how-respond-super-bowl-loss-2026-season",
+          "published": "Wed, 19 Aug 2026 23:46:18 EST"
         },
         {
-          "title": "Sources: Cardinals RB Love has high ankle sprain",
-          "link": "https://www.espn.com/nfl/story/_/id/49634102/cardinals-rb-love-likely-sit-rest-preseason",
-          "published": "Mon, 17 Aug 2026 14:30:13 EST"
+          "title": "Buzz, news and more from Cowboys training camp: Coaches seek consistency from RT Terence Steele",
+          "link": "https://www.espn.com/nfl/story/_/id/49376535/dallas-cowboys-training-camp-2026-intel-updates",
+          "published": "Thu, 20 Aug 2026 15:57:46 EST"
         },
         {
-          "title": "Dolphins activate rookie WR Bell for practice debut",
-          "link": "https://www.espn.com/nfl/story/_/id/49638440/dolphins-activate-chris-bell-paving-way-practice-debut",
-          "published": "Mon, 17 Aug 2026 14:30:13 EST"
+          "title": "Rankings: Eric Karabell's RB tiers",
+          "link": "https://www.espn.com/fantasy/football/story/_/id/49614875/2026-fantasy-football-rankings-running-back-tiers-rb",
+          "published": "Thu, 20 Aug 2026 11:39:12 EST"
         },
         {
-          "title": "Vikings lose Adams for season due to knee injury",
-          "link": "https://www.espn.com/nfl/story/_/id/49633559/minnesota-vikings-lose-adams-season-due-knee-injury",
-          "published": "Mon, 17 Aug 2026 14:30:13 EST"
+          "title": "Rankings: Karabell's WR tiers",
+          "link": "https://www.espn.com/fantasy/football/story/_/id/49649506/fantasy-football-rankings-wide-receivers-tiers-draft",
+          "published": "Thu, 20 Aug 2026 11:39:12 EST"
         },
         {
-          "title": "Retired Donald works out for Rams for 2nd time",
-          "link": "https://www.espn.com/nfl/story/_/id/49631972/retired-aaron-donald-works-rams-second",
-          "published": "Mon, 17 Aug 2026 14:30:13 EST"
+          "title": "Solak: Why Ben Johnson's Bears offense is much more than just Caleb Williams",
+          "link": "https://www.espn.com/nfl/story/_/id/49652191/chicago-bears-coach-ben-johnson-offense-caleb-williams",
+          "published": "Wed, 19 Aug 2026 19:00:17 EST"
         },
         {
-          "title": "\ud83d\udc40 Fantasy football: Matt Bowen's favorite targets",
-          "link": "https://www.espn.com/fantasy/football/story/_/id/49576653/fantasy-football-draft-targets-picks-fliers-breakouts-matt-bowen-2026",
-          "published": "Mon, 17 Aug 2026 14:30:13 EST"
-        },
-        {
-          "title": "Mock draft: Puka Nacua, Jeremiyah Love drop due to recent news",
-          "link": "https://www.espn.com/fantasy/football/story/_/page/FFMockDraft26-49638194/fantasy-football-mock-draft-10-teams-1-2-ppr",
-          "published": "Mon, 17 Aug 2026 14:33:39 EST"
-        },
-        {
-          "title": "Fantasy football buzz: How much should Jeremiyah Love fall in draft rankings?",
-          "link": "https://www.espn.com/fantasy/football/story/_/id/40699880/fantasy-football-injuries-position-battles-nfl-news-analysis",
-          "published": "Mon, 17 Aug 2026 14:33:39 EST"
-        },
-        {
-          "title": "NFL preseason Week 1 takeaways: Ja'Kobi Lane scores touchdown to continue banner preseason",
-          "link": "https://www.espn.com/nfl/story/_/id/49600984/2026-nfl-preseason-week-1-takeaways-analysis",
-          "published": "Mon, 17 Aug 2026 10:05:51 EST"
-        },
-        {
-          "title": "Buzz, news and more from Steelers training camp: Lots of love for Latrobe",
-          "link": "https://www.espn.com/nfl/story/_/id/49449169/pittsburgh-steelers-training-camp-2026-intel-updates",
-          "published": "Mon, 17 Aug 2026 16:26:50 EST"
-        },
-        {
-          "title": "Cooper Kupp opens coffee shop in Fayetteville, Arkansas, for brand Dodo Coffee",
-          "link": "https://www.espn.com/nfl/story/_/id/49593098/cooper-kupp-new-coffee-shop-dodo-coffee-seattle-seahawks-fayetteville-arkansas",
-          "published": "Mon, 17 Aug 2026 13:02:24 EST"
-        },
-        {
-          "title": "DeMarcus Ware on Von Miller to Cowboys: 'This is all he wanted'",
-          "link": "https://www.espn.com/nfl/story/_/id/49640032/nfl-dallas-cowboys-von-miller-demarcus-ware",
-          "published": "Mon, 17 Aug 2026 14:42:06 EST"
-        },
-        {
-          "title": "Saints' offense passes one test, with Cowboys, Rams up next",
-          "link": "https://www.espn.com/nfl/story/_/id/49619693/new-orleans-saints-offense-passes-one-test-joint-practice-jaguars-cowboys-rams-next",
-          "published": "Mon, 17 Aug 2026 14:42:06 EST"
-        },
-        {
-          "title": "Why the Titans believe Brian Daboll can maximize Cam Ward's potential",
-          "link": "https://www.espn.com/nfl/story/_/id/49619516/why-titans-believe-brian-daboll-maximize-cam-ward-potential",
-          "published": "Mon, 17 Aug 2026 14:42:06 EST"
-        },
-        {
-          "title": "See inside the new Highmark Stadium as Bills practice and fans take it in",
-          "link": "https://www.espn.com/nfl/story/_/id/49583212/buffalo-bills-fans-first-look-new-highmark-stadium-practice",
-          "published": "Mon, 17 Aug 2026 00:51:09 EST"
-        },
-        {
-          "title": "12 colleges stacked with NFL draft talent: Why scouts will be eyeing Miami and Texas this season",
-          "link": "https://www.espn.com/nfl/draft2027/story/_/id/49583503/2027-nfl-draft-prospect-heavy-college-teams-texas-oregon-notre-dame-miami",
-          "published": "Fri, 14 Aug 2026 14:43:35 EST"
-        },
-        {
-          "title": "Which QB has the strongest arm? Best pocket presence? Orlovsky stacks the top 10 by skill",
-          "link": "https://www.espn.com/nfl/story/_/id/49521144/2026-ranking-best-nfl-quarterbacks-top-10-trait-skill-arm-accuracy-rushing",
-          "published": "Fri, 14 Aug 2026 13:45:22 EST"
-        },
-        {
-          "title": "'MVP adapter': Inside Lamar Jackson's adjustments to Ravens' new offense",
-          "link": "https://www.espn.com/nfl/story/_/id/49591531/inside-lamar-jackson-adjustment-baltimore-ravens-new-offense-jesse-minter",
-          "published": "Fri, 14 Aug 2026 13:45:22 EST"
+          "title": "Hallmark, hot dogs and touchdowns: The Colston Loveland story",
+          "link": "https://www.espn.com/nfl/story/_/id/49651823/hallmark-hot-dogs-chicago-bears-touchdowns-colston-loveland-story",
+          "published": "Wed, 19 Aug 2026 19:00:17 EST"
         },
         {
           "title": "NFL preseason on NFL Network, ESPN: How to watch, schedule",
@@ -12254,7 +12762,7 @@
           "published": "Sat, 8 Aug 2026 17:58:41 EST"
         }
       ],
-      "retrieved": "2026-08-17T20:32:44Z"
+      "retrieved": "2026-08-20T21:06:55Z"
     },
     "ourlads_depth_charts": {
       "source_url": "https://www.ourlads.com/nfldepthcharts/depthcharts.aspx",
@@ -12267,7 +12775,7 @@
       "teams": [
         {
           "team": "ARI",
-          "updated": "08/16/2026 11:23AM",
+          "updated": "08/19/2026 2:16PM",
           "offense": [
             {
               "position": "LWR",
@@ -12608,7 +13116,7 @@
         },
         {
           "team": "ATL",
-          "updated": "08/17/2026 2:35PM",
+          "updated": "08/20/2026 1:13PM",
           "offense": [
             {
               "position": "LWR",
@@ -12627,15 +13135,15 @@
                 },
                 {
                   "depth": 3,
-                  "raw_name": "Anthony II, Vinny CF26",
-                  "status": "2026 undrafted free agent",
-                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/55298/"
+                  "raw_name": "Wells Jr., Antwane SF26",
+                  "status": "2026 acquisition",
+                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/54785/"
                 },
                 {
                   "depth": 4,
-                  "raw_name": "Wilkerson, Kristian SF26",
+                  "raw_name": "Collins, Beaux SF26",
                   "status": "2026 acquisition",
-                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/52635/"
+                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/54779/"
                 }
               ]
             },
@@ -12650,21 +13158,15 @@
                 },
                 {
                   "depth": 2,
-                  "raw_name": "Wells Jr., Antwane SF26",
-                  "status": "2026 acquisition",
-                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/54785/"
+                  "raw_name": "Drummond, Dylan SF24",
+                  "status": "returning/other",
+                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/53943/"
                 },
                 {
                   "depth": 3,
                   "raw_name": "Marion, Keelan CF26",
                   "status": "2026 undrafted free agent",
                   "player_url": "https://www.ourlads.com/nfldepthcharts/player/55218/"
-                },
-                {
-                  "depth": 4,
-                  "raw_name": "Collins, Beaux SF26",
-                  "status": "2026 acquisition",
-                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/54779/"
                 }
               ]
             },
@@ -12685,9 +13187,9 @@
                 },
                 {
                   "depth": 3,
-                  "raw_name": "Drummond, Dylan SF24",
-                  "status": "returning/other",
-                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/53943/"
+                  "raw_name": "Anthony II, Vinny CF26",
+                  "status": "2026 undrafted free agent",
+                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/55298/"
                 }
               ]
             },
@@ -12748,15 +13250,15 @@
                 },
                 {
                   "depth": 2,
-                  "raw_name": "Brockermeyer, James CF26",
-                  "status": "2026 undrafted free agent",
-                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/55212/"
-                },
-                {
-                  "depth": 3,
                   "raw_name": "LEVIN, COREY U/Ten",
                   "status": "2026 acquisition",
                   "player_url": "https://www.ourlads.com/nfldepthcharts/player/52079/"
+                },
+                {
+                  "depth": 3,
+                  "raw_name": "Brockermeyer, James CF26",
+                  "status": "2026 undrafted free agent",
+                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/55212/"
                 }
               ]
             },
@@ -12771,18 +13273,12 @@
                 },
                 {
                   "depth": 2,
-                  "raw_name": "Onianwa, Ethan 26/7",
-                  "status": "2026 draft pick",
-                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/55183/"
-                },
-                {
-                  "depth": 3,
                   "raw_name": "Stueber, Andrew SF25",
                   "status": "returning/other",
                   "player_url": "https://www.ourlads.com/nfldepthcharts/player/51881/"
                 },
                 {
-                  "depth": 4,
+                  "depth": 3,
                   "raw_name": "Roberts, Jaeden SF26",
                   "status": "2026 undrafted free agent",
                   "player_url": "https://www.ourlads.com/nfldepthcharts/player/55535/"
@@ -12800,12 +13296,18 @@
                 },
                 {
                   "depth": 2,
+                  "raw_name": "Onianwa, Ethan 26/7",
+                  "status": "2026 draft pick",
+                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/55183/"
+                },
+                {
+                  "depth": 3,
                   "raw_name": "Jerrell, Michael T/Sea",
                   "status": "returning/other",
                   "player_url": "https://www.ourlads.com/nfldepthcharts/player/53436/"
                 },
                 {
-                  "depth": 3,
+                  "depth": 4,
                   "raw_name": "Walton, Brandon SF26",
                   "status": "2026 acquisition",
                   "player_url": "https://www.ourlads.com/nfldepthcharts/player/46433/"
@@ -12875,15 +13377,15 @@
                 },
                 {
                   "depth": 3,
-                  "raw_name": "RUSH, COOPER CC/Bal",
-                  "status": "2026 acquisition",
-                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/48178/"
-                },
-                {
-                  "depth": 4,
                   "raw_name": "Strand, Jack CF26",
                   "status": "2026 undrafted free agent",
                   "player_url": "https://www.ourlads.com/nfldepthcharts/player/55211/"
+                },
+                {
+                  "depth": 4,
+                  "raw_name": "RUSH, COOPER CC/Bal",
+                  "status": "2026 acquisition",
+                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/48178/"
                 }
               ]
             },
@@ -12921,23 +13423,12 @@
                   "player_url": "https://www.ourlads.com/nfldepthcharts/player/55219/"
                 }
               ]
-            },
-            {
-              "position": "RB",
-              "depth": [
-                {
-                  "depth": 5,
-                  "raw_name": "Sermon, Trey SF26",
-                  "status": "2026 acquisition",
-                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/52243/"
-                }
-              ]
             }
           ]
         },
         {
           "team": "BAL",
-          "updated": "08/16/2026 3:56PM",
+          "updated": "08/19/2026 2:20PM",
           "offense": [
             {
               "position": "LWR",
@@ -13046,6 +13537,12 @@
                   "raw_name": "Pounds, Diego CF26",
                   "status": "2026 undrafted free agent",
                   "player_url": "https://www.ourlads.com/nfldepthcharts/player/55224/"
+                },
+                {
+                  "depth": 4,
+                  "raw_name": "SHARPE, DAVID SF26",
+                  "status": "2026 acquisition",
+                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/52663/"
                 }
               ]
             },
@@ -13084,7 +13581,7 @@
                 {
                   "depth": 2,
                   "raw_name": "PINTER, DANNY U/Ind",
-                  "status": "2026 acquisition",
+                  "status": "injured/inactive",
                   "player_url": "https://www.ourlads.com/nfldepthcharts/player/40390/"
                 },
                 {
@@ -13272,7 +13769,7 @@
         },
         {
           "team": "BUF",
-          "updated": "08/17/2026 12:23PM",
+          "updated": "08/19/2026 2:58PM",
           "offense": [
             {
               "position": "LWR",
@@ -13321,7 +13818,7 @@
                 {
                   "depth": 2,
                   "raw_name": "Bell, Skyler 26/4",
-                  "status": "2026 draft pick",
+                  "status": "injured/inactive",
                   "player_url": "https://www.ourlads.com/nfldepthcharts/player/55077/"
                 },
                 {
@@ -13390,9 +13887,9 @@
                 },
                 {
                   "depth": 3,
-                  "raw_name": "Lundt, Chase 25/6",
-                  "status": "returning/other",
-                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/54353/"
+                  "raw_name": "Weatherspoon, Da'Metrius CF26",
+                  "status": "2026 undrafted free agent",
+                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/55319/"
                 }
               ]
             },
@@ -13425,7 +13922,7 @@
                 {
                   "depth": 1,
                   "raw_name": "McGovern, Connor U/Dal",
-                  "status": "returning/other",
+                  "status": "injured/inactive",
                   "player_url": "https://www.ourlads.com/nfldepthcharts/player/49808/"
                 },
                 {
@@ -13436,6 +13933,12 @@
                 },
                 {
                   "depth": 3,
+                  "raw_name": "Van Pran-Granger, Sedrick 24/5",
+                  "status": "returning/other",
+                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/53370/"
+                },
+                {
+                  "depth": 4,
                   "raw_name": "Fina, Bruno CF26",
                   "status": "2026 undrafted free agent",
                   "player_url": "https://www.ourlads.com/nfldepthcharts/player/55227/"
@@ -13453,12 +13956,6 @@
                 },
                 {
                   "depth": 2,
-                  "raw_name": "Van Pran-Granger, Sedrick 24/5",
-                  "status": "returning/other",
-                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/53370/"
-                },
-                {
-                  "depth": 3,
                   "raw_name": "Reed-Adams, Ar'maj 26/7",
                   "status": "2026 draft pick",
                   "player_url": "https://www.ourlads.com/nfldepthcharts/player/55193/"
@@ -13482,9 +13979,9 @@
                 },
                 {
                   "depth": 3,
-                  "raw_name": "Weatherspoon, Da'Metrius CF26",
-                  "status": "2026 undrafted free agent",
-                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/55319/"
+                  "raw_name": "Lundt, Chase 25/6",
+                  "status": "returning/other",
+                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/54353/"
                 }
               ]
             },
@@ -13596,7 +14093,7 @@
         },
         {
           "team": "CAR",
-          "updated": "08/17/2026 12:06PM",
+          "updated": "08/17/2026 5:31PM",
           "offense": [
             {
               "position": "LWR",
@@ -13759,7 +14256,7 @@
               "depth": [
                 {
                   "depth": 1,
-                  "raw_name": "Hunt, Robert U/Mia",
+                  "raw_name": "HUNT, ROBERT U/Mia",
                   "status": "returning/other",
                   "player_url": "https://www.ourlads.com/nfldepthcharts/player/40279/"
                 },
@@ -13817,21 +14314,21 @@
                 },
                 {
                   "depth": 2,
+                  "raw_name": "WALLER, DARREN U/Car",
+                  "status": "2026 acquisition",
+                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/49848/"
+                },
+                {
+                  "depth": 3,
                   "raw_name": "Sanders, Ja'Tavion 24/4",
                   "status": "returning/other",
                   "player_url": "https://www.ourlads.com/nfldepthcharts/player/53330/"
                 },
                 {
-                  "depth": 3,
+                  "depth": 4,
                   "raw_name": "Evans, Mitchell 25/5",
                   "status": "returning/other",
                   "player_url": "https://www.ourlads.com/nfldepthcharts/player/54310/"
-                },
-                {
-                  "depth": 4,
-                  "raw_name": "WALLER, DARREN U/Car",
-                  "status": "2026 acquisition",
-                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/49848/"
                 },
                 {
                   "depth": 5,
@@ -13937,7 +14434,7 @@
         },
         {
           "team": "CHI",
-          "updated": "08/17/2026 2:34PM",
+          "updated": "08/20/2026 1:48PM",
           "offense": [
             {
               "position": "LWR",
@@ -13959,6 +14456,12 @@
                   "raw_name": "Alexander, Maurice SF24",
                   "status": "returning/other",
                   "player_url": "https://www.ourlads.com/nfldepthcharts/player/53138/"
+                },
+                {
+                  "depth": 4,
+                  "raw_name": "Davis, Kaden SF26",
+                  "status": "2026 acquisition",
+                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/52035/"
                 }
               ]
             },
@@ -13985,9 +14488,9 @@
                 },
                 {
                   "depth": 4,
-                  "raw_name": "Davis, Kaden SF26",
+                  "raw_name": "McCloud III, Ray-Ray SF26",
                   "status": "2026 acquisition",
-                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/52035/"
+                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/46594/"
                 }
               ]
             },
@@ -14011,12 +14514,6 @@
                   "raw_name": "Richardson, JP CF25",
                   "status": "returning/other",
                   "player_url": "https://www.ourlads.com/nfldepthcharts/player/54721/"
-                },
-                {
-                  "depth": 4,
-                  "raw_name": "McCloud III, Ray-Ray SF26",
-                  "status": "2026 acquisition",
-                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/46594/"
                 }
               ]
             },
@@ -14186,12 +14683,6 @@
               "position": "TE",
               "depth": [
                 {
-                  "depth": 4,
-                  "raw_name": "Kalinic, Nikola SF25",
-                  "status": "returning/other",
-                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/53053/"
-                },
-                {
                   "depth": 5,
                   "raw_name": "Large, Hayden CF26",
                   "status": "2026 undrafted free agent",
@@ -14260,17 +14751,6 @@
                   "raw_name": "Ahmed, Salvon U/Ind",
                   "status": "2026 acquisition",
                   "player_url": "https://www.ourlads.com/nfldepthcharts/player/41656/"
-                }
-              ]
-            },
-            {
-              "position": "RB",
-              "depth": [
-                {
-                  "depth": 5,
-                  "raw_name": "Bennett, Coleman CF26",
-                  "status": "2026 undrafted free agent",
-                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/55338/"
                 }
               ]
             }
@@ -14619,7 +15099,7 @@
         },
         {
           "team": "CLE",
-          "updated": "08/17/2026 12:04PM",
+          "updated": "08/20/2026 1:21PM",
           "offense": [
             {
               "position": "LWR",
@@ -14641,6 +15121,12 @@
                   "raw_name": "Larvadain, Gage CF25",
                   "status": "returning/other",
                   "player_url": "https://www.ourlads.com/nfldepthcharts/player/54550/"
+                },
+                {
+                  "depth": 4,
+                  "raw_name": "Patterson, Ben SF26",
+                  "status": "2026 undrafted free agent",
+                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/55362/"
                 }
               ]
             },
@@ -14733,12 +15219,6 @@
                   "raw_name": "Zinter, Zak 24/3",
                   "status": "returning/other",
                   "player_url": "https://www.ourlads.com/nfldepthcharts/player/53313/"
-                },
-                {
-                  "depth": 3,
-                  "raw_name": "Conley, Jack SF25",
-                  "status": "returning/other",
-                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/54846/"
                 }
               ]
             },
@@ -14856,12 +15336,6 @@
               "position": "TE",
               "depth": [
                 {
-                  "depth": 4,
-                  "raw_name": "Stoll, Jack U/NO",
-                  "status": "2026 acquisition",
-                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/43695/"
-                },
-                {
                   "depth": 5,
                   "raw_name": "Terry, Jermaine SF26",
                   "status": "2026 acquisition",
@@ -14948,7 +15422,7 @@
         },
         {
           "team": "DAL",
-          "updated": "08/17/2026 11:54AM",
+          "updated": "08/17/2026 11:26PM",
           "offense": [
             {
               "position": "LWR",
@@ -14973,12 +15447,6 @@
                 },
                 {
                   "depth": 4,
-                  "raw_name": "Hudson, Jordan CF26",
-                  "status": "2026 undrafted free agent",
-                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/55373/"
-                },
-                {
-                  "depth": 5,
                   "raw_name": "Mims, Denzel SF26",
                   "status": "2026 acquisition",
                   "player_url": "https://www.ourlads.com/nfldepthcharts/player/52345/"
@@ -15002,9 +15470,9 @@
                 },
                 {
                   "depth": 3,
-                  "raw_name": "Holden, Traeshon CF25",
-                  "status": "returning/other",
-                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/54447/"
+                  "raw_name": "Hudson, Jordan CF26",
+                  "status": "2026 undrafted free agent",
+                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/55373/"
                 },
                 {
                   "depth": 4,
@@ -15077,9 +15545,9 @@
                 },
                 {
                   "depth": 2,
-                  "raw_name": "Leverett, Nick SF25",
+                  "raw_name": "Keegan, Trevor W/Phi",
                   "status": "returning/other",
-                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/42934/"
+                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/53401/"
                 },
                 {
                   "depth": 3,
@@ -15106,6 +15574,12 @@
                 },
                 {
                   "depth": 3,
+                  "raw_name": "Leverett, Nick SF25",
+                  "status": "returning/other",
+                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/42934/"
+                },
+                {
+                  "depth": 4,
                   "raw_name": "Glaser, Chris SF26",
                   "status": "2026 acquisition",
                   "player_url": "https://www.ourlads.com/nfldepthcharts/player/52757/"
@@ -15123,9 +15597,9 @@
                 },
                 {
                   "depth": 2,
-                  "raw_name": "Keegan, Trevor W/Phi",
+                  "raw_name": "Cornelius, Ajani 25/6",
                   "status": "returning/other",
-                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/53401/"
+                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/54351/"
                 },
                 {
                   "depth": 3,
@@ -15152,12 +15626,6 @@
                 },
                 {
                   "depth": 3,
-                  "raw_name": "Cornelius, Ajani 25/6",
-                  "status": "returning/other",
-                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/54351/"
-                },
-                {
-                  "depth": 4,
                   "raw_name": "Gutierrez, Sebastian SF26",
                   "status": "2026 acquisition",
                   "player_url": "https://www.ourlads.com/nfldepthcharts/player/53158/"
@@ -15294,7 +15762,7 @@
         },
         {
           "team": "DEN",
-          "updated": "08/14/2026 11:48AM",
+          "updated": "08/20/2026 1:26PM",
           "offense": [
             {
               "position": "LWR",
@@ -15652,7 +16120,7 @@
         },
         {
           "team": "DET",
-          "updated": "08/16/2026 11:19AM",
+          "updated": "08/17/2026 5:48PM",
           "offense": [
             {
               "position": "LWR",
@@ -15981,7 +16449,7 @@
         },
         {
           "team": "GB",
-          "updated": "08/13/2026 5:59PM",
+          "updated": "08/18/2026 6:16PM",
           "offense": [
             {
               "position": "LWR",
@@ -16359,7 +16827,7 @@
                 {
                   "depth": 1,
                   "raw_name": "Higgins, Jayden 25/2",
-                  "status": "returning/other",
+                  "status": "injured/inactive",
                   "player_url": "https://www.ourlads.com/nfldepthcharts/player/54181/"
                 },
                 {
@@ -16651,7 +17119,7 @@
         },
         {
           "team": "IND",
-          "updated": "08/13/2026 6:37PM",
+          "updated": "08/19/2026 3:22PM",
           "offense": [
             {
               "position": "LWR",
@@ -16664,15 +17132,15 @@
                 },
                 {
                   "depth": 2,
-                  "raw_name": "TREADWELL, LAQUON SF24",
+                  "raw_name": "Dulin, Ashton CF19",
                   "status": "returning/other",
-                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/54001/"
+                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/38657/"
                 },
                 {
                   "depth": 3,
-                  "raw_name": "Horton, E.J. CF26",
-                  "status": "2026 undrafted free agent",
-                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/55439/"
+                  "raw_name": "TREADWELL, LAQUON SF24",
+                  "status": "returning/other",
+                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/54001/"
                 },
                 {
                   "depth": 4,
@@ -16682,9 +17150,9 @@
                 },
                 {
                   "depth": 5,
-                  "raw_name": "Nikkel, Ben SF25",
-                  "status": "returning/other",
-                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/53810/"
+                  "raw_name": "Hagans, Sahmir CF26",
+                  "status": "2026 undrafted free agent",
+                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/55621/"
                 }
               ]
             },
@@ -16693,9 +17161,9 @@
               "depth": [
                 {
                   "depth": 1,
-                  "raw_name": "Dulin, Ashton CF19",
-                  "status": "returning/other",
-                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/38657/"
+                  "raw_name": "ALLEN, KEENAN U/LAC",
+                  "status": "2026 acquisition",
+                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/17936/"
                 },
                 {
                   "depth": 2,
@@ -16708,12 +17176,6 @@
                   "raw_name": "Burks, Deion 26/7",
                   "status": "2026 draft pick",
                   "player_url": "https://www.ourlads.com/nfldepthcharts/player/55205/"
-                },
-                {
-                  "depth": 4,
-                  "raw_name": "Hagans, Sahmir CF26",
-                  "status": "2026 undrafted free agent",
-                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/55621/"
                 },
                 {
                   "depth": 5,
@@ -16749,6 +17211,12 @@
                   "raw_name": "Sharpe, Raylen CF26",
                   "status": "2026 undrafted free agent",
                   "player_url": "https://www.ourlads.com/nfldepthcharts/player/55436/"
+                },
+                {
+                  "depth": 5,
+                  "raw_name": "Nikkel, Ben SF25",
+                  "status": "returning/other",
+                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/53810/"
                 }
               ]
             },
@@ -16769,9 +17237,15 @@
                 },
                 {
                   "depth": 3,
-                  "raw_name": "Matos, Bayron SF25*",
-                  "status": "returning/other",
-                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/53490/"
+                  "raw_name": "Rucci, Nolan CF26",
+                  "status": "2026 undrafted free agent",
+                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/55433/"
+                },
+                {
+                  "depth": 4,
+                  "raw_name": "Mbaeteka, Roy SF26*",
+                  "status": "2026 acquisition",
+                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/51629/"
                 }
               ]
             },
@@ -16786,15 +17260,15 @@
                 },
                 {
                   "depth": 2,
-                  "raw_name": "Tucker, Dalton CF24",
-                  "status": "returning/other",
-                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/53628/"
-                },
-                {
-                  "depth": 3,
                   "raw_name": "Sills, Josh W/Phi",
                   "status": "returning/other",
                   "player_url": "https://www.ourlads.com/nfldepthcharts/player/51525/"
+                },
+                {
+                  "depth": 3,
+                  "raw_name": "VanDeMark, Geno CF26",
+                  "status": "2026 undrafted free agent",
+                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/55622/"
                 }
               ]
             },
@@ -16809,18 +17283,12 @@
                 },
                 {
                   "depth": 2,
-                  "raw_name": "Morrissey, Jimmy SF25",
+                  "raw_name": "Tucker, Dalton CF24",
                   "status": "returning/other",
-                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/53105/"
+                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/53628/"
                 },
                 {
                   "depth": 3,
-                  "raw_name": "VanDeMark, Geno CF26",
-                  "status": "2026 undrafted free agent",
-                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/55622/"
-                },
-                {
-                  "depth": 4,
                   "raw_name": "Kreutz, Josh CF26",
                   "status": "2026 undrafted free agent",
                   "player_url": "https://www.ourlads.com/nfldepthcharts/player/55665/"
@@ -16841,6 +17309,12 @@
                   "raw_name": "Farmer, Jalen 26/4",
                   "status": "2026 draft pick",
                   "player_url": "https://www.ourlads.com/nfldepthcharts/player/55065/"
+                },
+                {
+                  "depth": 3,
+                  "raw_name": "Morrissey, Jimmy SF25",
+                  "status": "returning/other",
+                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/53105/"
                 }
               ]
             },
@@ -16861,9 +17335,9 @@
                 },
                 {
                   "depth": 3,
-                  "raw_name": "Rucci, Nolan CF26",
-                  "status": "2026 undrafted free agent",
-                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/55433/"
+                  "raw_name": "Wedig, Trey SF26",
+                  "status": "2026 acquisition",
+                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/54665/"
                 }
               ]
             },
@@ -16896,9 +17370,9 @@
                 },
                 {
                   "depth": 5,
-                  "raw_name": "Towt, Carson SF26",
+                  "raw_name": "BROWN, PHARAOH U/Arz",
                   "status": "2026 acquisition",
-                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/54950/"
+                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/51871/"
                 }
               ]
             },
@@ -16907,9 +17381,9 @@
               "depth": [
                 {
                   "depth": 5,
-                  "raw_name": "BROWN, PHARAOH U/Arz",
-                  "status": "2026 acquisition",
-                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/51871/"
+                  "raw_name": "Moore, Tyler SF26",
+                  "status": "2026 undrafted free agent",
+                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/55680/"
                 }
               ]
             },
@@ -16953,38 +17427,27 @@
                 },
                 {
                   "depth": 2,
-                  "raw_name": "Giddens, DJ 25/5",
-                  "status": "returning/other",
-                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/54298/"
-                },
-                {
-                  "depth": 3,
                   "raw_name": "McGowan, Seth 26/7",
                   "status": "2026 draft pick",
                   "player_url": "https://www.ourlads.com/nfldepthcharts/player/55189/"
                 },
                 {
-                  "depth": 4,
-                  "raw_name": "Castle, Anderson CF26",
-                  "status": "2026 undrafted free agent",
-                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/55441/"
+                  "depth": 3,
+                  "raw_name": "Giddens, DJ 25/5",
+                  "status": "returning/other",
+                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/54298/"
                 },
                 {
-                  "depth": 5,
+                  "depth": 4,
                   "raw_name": "Bentley IV, Ulysses CF25",
                   "status": "returning/other",
                   "player_url": "https://www.ourlads.com/nfldepthcharts/player/54765/"
-                }
-              ]
-            },
-            {
-              "position": "RB",
-              "depth": [
+                },
                 {
                   "depth": 5,
-                  "raw_name": "Williams, Roydell CF26",
+                  "raw_name": "Castle, Anderson CF26",
                   "status": "2026 undrafted free agent",
-                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/55682/"
+                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/55441/"
                 }
               ]
             }
@@ -16992,7 +17455,7 @@
         },
         {
           "team": "JAX",
-          "updated": "08/17/2026 12:00PM",
+          "updated": "08/19/2026 9:50AM",
           "offense": [
             {
               "position": "LWR",
@@ -17093,7 +17556,7 @@
                 {
                   "depth": 2,
                   "raw_name": "Van Lanen, Cole T/GB",
-                  "status": "injured/inactive",
+                  "status": "returning/other",
                   "player_url": "https://www.ourlads.com/nfldepthcharts/player/48074/"
                 },
                 {
@@ -17162,7 +17625,7 @@
                 {
                   "depth": 1,
                   "raw_name": "Mekari, Patrick U/Bal",
-                  "status": "returning/other",
+                  "status": "injured/inactive",
                   "player_url": "https://www.ourlads.com/nfldepthcharts/player/45861/"
                 },
                 {
@@ -17173,9 +17636,9 @@
                 },
                 {
                   "depth": 3,
-                  "raw_name": "McKay, Timothy SF26",
+                  "raw_name": "Faalele, Daniel T/NYG",
                   "status": "2026 acquisition",
-                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/54424/"
+                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/46937/"
                 }
               ]
             },
@@ -17333,7 +17796,7 @@
         },
         {
           "team": "KC",
-          "updated": "08/13/2026 12:26PM",
+          "updated": "08/20/2026 1:20PM",
           "offense": [
             {
               "position": "LWR",
@@ -17454,6 +17917,12 @@
                   "raw_name": "Driskell, Ethan CF24",
                   "status": "returning/other",
                   "player_url": "https://www.ourlads.com/nfldepthcharts/player/53637/"
+                },
+                {
+                  "depth": 4,
+                  "raw_name": "Diesch, Kellen SF26",
+                  "status": "2026 acquisition",
+                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/52055/"
                 }
               ]
             },
@@ -17517,12 +17986,6 @@
                   "raw_name": "Caliendo, Mike CF22",
                   "status": "returning/other",
                   "player_url": "https://www.ourlads.com/nfldepthcharts/player/48497/"
-                },
-                {
-                  "depth": 3,
-                  "raw_name": "Waletzko, Matt SF25",
-                  "status": "returning/other",
-                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/46983/"
                 }
               ]
             },
@@ -17674,7 +18137,7 @@
         },
         {
           "team": "LAC",
-          "updated": "08/11/2026 10:02PM",
+          "updated": "08/20/2026 1:12PM",
           "offense": [
             {
               "position": "LWR",
@@ -17693,9 +18156,15 @@
                 },
                 {
                   "depth": 3,
-                  "raw_name": "Campbell, Dalevon SF25",
+                  "raw_name": "Jackson, JaQuae SF25",
                   "status": "returning/other",
-                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/54883/"
+                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/53545/"
+                },
+                {
+                  "depth": 4,
+                  "raw_name": "Clifford, Liam SF26",
+                  "status": "2026 undrafted free agent",
+                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/55681/"
                 }
               ]
             },
@@ -17716,9 +18185,9 @@
                 },
                 {
                   "depth": 3,
-                  "raw_name": "Jackson, JaQuae SF25",
+                  "raw_name": "Campbell, Dalevon SF25",
                   "status": "returning/other",
-                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/53545/"
+                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/54883/"
                 },
                 {
                   "depth": 4,
@@ -17745,12 +18214,6 @@
                 },
                 {
                   "depth": 3,
-                  "raw_name": "Grimm, Luke CF25",
-                  "status": "returning/other",
-                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/54426/"
-                },
-                {
-                  "depth": 4,
                   "raw_name": "Ross, Devonte CF26",
                   "status": "2026 undrafted free agent",
                   "player_url": "https://www.ourlads.com/nfldepthcharts/player/55265/"
@@ -17809,7 +18272,7 @@
                 {
                   "depth": 1,
                   "raw_name": "Biadasz, Tyler CC/Was",
-                  "status": "2026 acquisition",
+                  "status": "injured/inactive",
                   "player_url": "https://www.ourlads.com/nfldepthcharts/player/40387/"
                 },
                 {
@@ -18014,7 +18477,7 @@
         },
         {
           "team": "LAR",
-          "updated": "08/17/2026 11:47AM",
+          "updated": "08/20/2026 1:15PM",
           "offense": [
             {
               "position": "LWR",
@@ -18085,9 +18548,9 @@
                 },
                 {
                   "depth": 4,
-                  "raw_name": "Williams, Mario CF25",
-                  "status": "returning/other",
-                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/54669/"
+                  "raw_name": "BACHMAN, ALEX U/LV",
+                  "status": "2026 acquisition",
+                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/52645/"
                 }
               ]
             },
@@ -18111,6 +18574,12 @@
                   "raw_name": "Arcuri, AJ 22/7",
                   "status": "returning/other",
                   "player_url": "https://www.ourlads.com/nfldepthcharts/player/51828/"
+                },
+                {
+                  "depth": 4,
+                  "raw_name": "Henderson, Bryce CF26",
+                  "status": "2026 undrafted free agent",
+                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/55478/"
                 }
               ]
             },
@@ -18125,15 +18594,21 @@
                 },
                 {
                   "depth": 2,
-                  "raw_name": "Limmer, Beaux 24/6",
-                  "status": "returning/other",
-                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/53446/"
+                  "raw_name": "Dedich, Justin CF24",
+                  "status": "injured/inactive",
+                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/53801/"
                 },
                 {
                   "depth": 3,
-                  "raw_name": "Bowles, Wyatt SF26",
+                  "raw_name": "Blaske, Austin CF26",
+                  "status": "2026 undrafted free agent",
+                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/55474/"
+                },
+                {
+                  "depth": 4,
+                  "raw_name": "Murray, Bill SF26",
                   "status": "2026 acquisition",
-                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/54675/"
+                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/51721/"
                 }
               ]
             },
@@ -18151,12 +18626,6 @@
                   "raw_name": "McMahon, Dylan P/Phi",
                   "status": "returning/other",
                   "player_url": "https://www.ourlads.com/nfldepthcharts/player/53419/"
-                },
-                {
-                  "depth": 3,
-                  "raw_name": "Blaske, Austin CF26",
-                  "status": "2026 undrafted free agent",
-                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/55474/"
                 }
               ]
             },
@@ -18171,21 +18640,15 @@
                 },
                 {
                   "depth": 2,
-                  "raw_name": "Dedich, Justin CF24",
-                  "status": "injured/inactive",
-                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/53801/"
+                  "raw_name": "Limmer, Beaux 24/6",
+                  "status": "returning/other",
+                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/53446/"
                 },
                 {
                   "depth": 3,
-                  "raw_name": "HANCE, BLAKE U/Ten",
+                  "raw_name": "Bowles, Wyatt SF26",
                   "status": "2026 acquisition",
-                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/51665/"
-                },
-                {
-                  "depth": 4,
-                  "raw_name": "Murray, Bill SF26",
-                  "status": "2026 acquisition",
-                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/51721/"
+                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/54675/"
                 }
               ]
             },
@@ -18206,9 +18669,9 @@
                 },
                 {
                   "depth": 3,
-                  "raw_name": "Henderson, Bryce CF26",
-                  "status": "2026 undrafted free agent",
-                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/55478/"
+                  "raw_name": "HANCE, BLAKE U/Ten",
+                  "status": "2026 acquisition",
+                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/51665/"
                 }
               ]
             },
@@ -18328,9 +18791,9 @@
                 },
                 {
                   "depth": 5,
-                  "raw_name": "Waters, Jordan CF25",
-                  "status": "returning/other",
-                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/54667/"
+                  "raw_name": "Connors, Dean CF26",
+                  "status": "2026 undrafted free agent",
+                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/55465/"
                 }
               ]
             },
@@ -18339,9 +18802,9 @@
               "depth": [
                 {
                   "depth": 5,
-                  "raw_name": "Connors, Dean CF26",
-                  "status": "2026 undrafted free agent",
-                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/55465/"
+                  "raw_name": "Waters, Jordan CF25",
+                  "status": "returning/other",
+                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/54667/"
                 }
               ]
             }
@@ -18349,7 +18812,7 @@
         },
         {
           "team": "LV",
-          "updated": "08/17/2026 11:55AM",
+          "updated": "08/17/2026 11:10PM",
           "offense": [
             {
               "position": "LWR",
@@ -18663,15 +19126,15 @@
                 },
                 {
                   "depth": 4,
-                  "raw_name": "OGUNBOWALE, DARE U/Hou",
-                  "status": "2026 acquisition",
-                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/46557/"
-                },
-                {
-                  "depth": 5,
                   "raw_name": "Hemby, Roman CF26",
                   "status": "2026 undrafted free agent",
                   "player_url": "https://www.ourlads.com/nfldepthcharts/player/55455/"
+                },
+                {
+                  "depth": 5,
+                  "raw_name": "OGUNBOWALE, DARE U/Hou",
+                  "status": "2026 acquisition",
+                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/46557/"
                 }
               ]
             },
@@ -18696,7 +19159,7 @@
         },
         {
           "team": "MIA",
-          "updated": "08/16/2026 4:03PM",
+          "updated": "08/20/2026 1:15PM",
           "offense": [
             {
               "position": "LWR",
@@ -19020,7 +19483,7 @@
         },
         {
           "team": "MIN",
-          "updated": "08/17/2026 12:09PM",
+          "updated": "08/19/2026 1:46PM",
           "offense": [
             {
               "position": "LWR",
@@ -19039,9 +19502,9 @@
                 },
                 {
                   "depth": 3,
-                  "raw_name": "Bell, Dillon CF26",
-                  "status": "2026 undrafted free agent",
-                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/55272/"
+                  "raw_name": "Jones, Jeshaun CF24",
+                  "status": "returning/other",
+                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/53527/"
                 },
                 {
                   "depth": 4,
@@ -19068,9 +19531,9 @@
                 },
                 {
                   "depth": 3,
-                  "raw_name": "Jones, Jeshaun CF24",
-                  "status": "returning/other",
-                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/53527/"
+                  "raw_name": "Bell, Dillon CF26",
+                  "status": "2026 undrafted free agent",
+                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/55272/"
                 },
                 {
                   "depth": 4,
@@ -19143,9 +19606,9 @@
                 },
                 {
                   "depth": 2,
-                  "raw_name": "Byrd, Henry SF23",
+                  "raw_name": "Rouse, Walter 24/6",
                   "status": "returning/other",
-                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/52864/"
+                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/53406/"
                 },
                 {
                   "depth": 3,
@@ -19175,12 +19638,6 @@
                   "raw_name": "Gerhardt, Gavin 26/7",
                   "status": "2026 draft pick",
                   "player_url": "https://www.ourlads.com/nfldepthcharts/player/55187/"
-                },
-                {
-                  "depth": 4,
-                  "raw_name": "Lemieux, Delby CF26",
-                  "status": "2026 undrafted free agent",
-                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/55278/"
                 }
               ]
             },
@@ -19201,9 +19658,15 @@
                 },
                 {
                   "depth": 3,
-                  "raw_name": "Rimac, Tomas CF26",
+                  "raw_name": "Lemieux, Delby CF26",
                   "status": "2026 undrafted free agent",
-                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/55280/"
+                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/55278/"
+                },
+                {
+                  "depth": 4,
+                  "raw_name": "Gray, Joshua SF26",
+                  "status": "2026 acquisition",
+                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/54511/"
                 }
               ]
             },
@@ -19224,9 +19687,15 @@
                 },
                 {
                   "depth": 3,
-                  "raw_name": "Rouse, Walter 24/6",
+                  "raw_name": "Byrd, Henry SF23",
                   "status": "returning/other",
-                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/53406/"
+                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/52864/"
+                },
+                {
+                  "depth": 4,
+                  "raw_name": "Rimac, Tomas CF26",
+                  "status": "2026 undrafted free agent",
+                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/55280/"
                 }
               ]
             },
@@ -19322,15 +19791,15 @@
                 },
                 {
                   "depth": 3,
-                  "raw_name": "Scott, Zavier SF24",
-                  "status": "returning/other",
-                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/52445/"
-                },
-                {
-                  "depth": 4,
                   "raw_name": "Claiborne, Demond 26/6",
                   "status": "2026 draft pick",
                   "player_url": "https://www.ourlads.com/nfldepthcharts/player/55150/"
+                },
+                {
+                  "depth": 4,
+                  "raw_name": "Scott, Zavier SF24",
+                  "status": "returning/other",
+                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/52445/"
                 },
                 {
                   "depth": 5,
@@ -19355,7 +19824,7 @@
         },
         {
           "team": "NE",
-          "updated": "08/15/2026 6:34PM",
+          "updated": "08/18/2026 4:45PM",
           "offense": [
             {
               "position": "LWR",
@@ -19478,9 +19947,9 @@
                 },
                 {
                   "depth": 2,
-                  "raw_name": "Morgan, JonDarius CF26",
-                  "status": "2026 undrafted free agent",
-                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/55498/"
+                  "raw_name": "Butler, Mehki CF25",
+                  "status": "returning/other",
+                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/54850/"
                 },
                 {
                   "depth": 3,
@@ -19530,9 +19999,15 @@
                 },
                 {
                   "depth": 2,
-                  "raw_name": "Butler, Mehki CF25",
-                  "status": "returning/other",
-                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/54850/"
+                  "raw_name": "VAN ROTEN, GREG U/NYG",
+                  "status": "2026 acquisition",
+                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/50951/"
+                },
+                {
+                  "depth": 3,
+                  "raw_name": "Morgan, JonDarius CF26",
+                  "status": "2026 undrafted free agent",
+                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/55498/"
                 }
               ]
             },
@@ -19597,17 +20072,6 @@
                   "raw_name": "Westover, Jack SF24",
                   "status": "returning/other",
                   "player_url": "https://www.ourlads.com/nfldepthcharts/player/53493/"
-                }
-              ]
-            },
-            {
-              "position": "TE",
-              "depth": [
-                {
-                  "depth": 5,
-                  "raw_name": "Van Vooren, Mitch SF26",
-                  "status": "2026 acquisition",
-                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/54893/"
                 }
               ]
             },
@@ -19695,7 +20159,7 @@
         },
         {
           "team": "NO",
-          "updated": "08/12/2026 4:32PM",
+          "updated": "08/19/2026 1:13PM",
           "offense": [
             {
               "position": "LWR",
@@ -19703,26 +20167,26 @@
                 {
                   "depth": 1,
                   "raw_name": "Tyson, Jordyn 26/1",
-                  "status": "2026 draft pick",
+                  "status": "injured/inactive",
                   "player_url": "https://www.ourlads.com/nfldepthcharts/player/54960/"
                 },
                 {
                   "depth": 2,
+                  "raw_name": "Brown, Barion 26/6",
+                  "status": "2026 draft pick",
+                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/55142/"
+                },
+                {
+                  "depth": 3,
                   "raw_name": "Tipton, Mason CF24",
                   "status": "injured/inactive",
                   "player_url": "https://www.ourlads.com/nfldepthcharts/player/53666/"
                 },
                 {
-                  "depth": 3,
-                  "raw_name": "Bell, Ronnie SF25",
-                  "status": "returning/other",
-                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/50342/"
-                },
-                {
                   "depth": 4,
-                  "raw_name": "Moreno-Cropper, Jalen SF26",
-                  "status": "2026 acquisition",
-                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/51693/"
+                  "raw_name": "Palmer, Trey W/TB",
+                  "status": "returning/other",
+                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/50347/"
                 }
               ]
             },
@@ -19743,9 +20207,9 @@
                 },
                 {
                   "depth": 3,
-                  "raw_name": "Austin Jr., Kevin SF24",
+                  "raw_name": "Means, Bub 24/5",
                   "status": "returning/other",
-                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/53996/"
+                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/53399/"
                 },
                 {
                   "depth": 4,
@@ -19766,21 +20230,21 @@
                 },
                 {
                   "depth": 2,
-                  "raw_name": "Brown, Barion 26/6",
-                  "status": "2026 draft pick",
-                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/55142/"
+                  "raw_name": "Austin Jr., Kevin SF24",
+                  "status": "returning/other",
+                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/53996/"
                 },
                 {
                   "depth": 3,
-                  "raw_name": "Palmer, Trey W/TB",
+                  "raw_name": "Bell, Ronnie SF25",
                   "status": "returning/other",
-                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/50347/"
+                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/50342/"
                 },
                 {
                   "depth": 4,
-                  "raw_name": "Means, Bub 24/5",
-                  "status": "returning/other",
-                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/53399/"
+                  "raw_name": "Moreno-Cropper, Jalen SF26",
+                  "status": "2026 acquisition",
+                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/51693/"
                 }
               ]
             },
@@ -19818,6 +20282,12 @@
                 },
                 {
                   "depth": 2,
+                  "raw_name": "Truss, Xavier W/Den",
+                  "status": "returning/other",
+                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/54559/"
+                },
+                {
+                  "depth": 3,
                   "raw_name": "Sherman, William SF25",
                   "status": "returning/other",
                   "player_url": "https://www.ourlads.com/nfldepthcharts/player/51717/"
@@ -19838,12 +20308,6 @@
                   "raw_name": "Simpkins III, Torricelli CF25",
                   "status": "returning/other",
                   "player_url": "https://www.ourlads.com/nfldepthcharts/player/54592/"
-                },
-                {
-                  "depth": 3,
-                  "raw_name": "Kilty, Easton CF25",
-                  "status": "returning/other",
-                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/54577/"
                 }
               ]
             },
@@ -19861,6 +20325,12 @@
                   "raw_name": "Wright, Jeremiah 26/4",
                   "status": "2026 draft pick",
                   "player_url": "https://www.ourlads.com/nfldepthcharts/player/55084/"
+                },
+                {
+                  "depth": 3,
+                  "raw_name": "Kilty, Easton CF25",
+                  "status": "returning/other",
+                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/54577/"
                 }
               ]
             },
@@ -19875,18 +20345,12 @@
                 },
                 {
                   "depth": 2,
-                  "raw_name": "Truss, Xavier W/Den",
-                  "status": "returning/other",
-                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/54559/"
-                },
-                {
-                  "depth": 3,
                   "raw_name": "Wesley, Barry SF25",
                   "status": "returning/other",
                   "player_url": "https://www.ourlads.com/nfldepthcharts/player/51586/"
                 },
                 {
-                  "depth": 4,
+                  "depth": 3,
                   "raw_name": "Wollschlaeger, Alex CF26",
                   "status": "2026 undrafted free agent",
                   "player_url": "https://www.ourlads.com/nfldepthcharts/player/55324/"
@@ -19986,7 +20450,7 @@
                 {
                   "depth": 2,
                   "raw_name": "KAMARA, ALVIN 17/3",
-                  "status": "returning/other",
+                  "status": "injured/inactive",
                   "player_url": "https://www.ourlads.com/nfldepthcharts/player/30471/"
                 },
                 {
@@ -19997,9 +20461,9 @@
                 },
                 {
                   "depth": 4,
-                  "raw_name": "Miller, Kendre 23/3",
+                  "raw_name": "Estim\u00e9, Audric SF25",
                   "status": "returning/other",
-                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/50150/"
+                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/53376/"
                 },
                 {
                   "depth": 5,
@@ -20014,9 +20478,9 @@
               "depth": [
                 {
                   "depth": 4,
-                  "raw_name": "Estim\u00e9, Audric SF25",
-                  "status": "returning/other",
-                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/53376/"
+                  "raw_name": "Miller, Kendre 23/3",
+                  "status": "injured/inactive",
+                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/50150/"
                 },
                 {
                   "depth": 5,
@@ -20030,7 +20494,7 @@
         },
         {
           "team": "NYG",
-          "updated": "08/17/2026 12:22PM",
+          "updated": "08/20/2026 1:08PM",
           "offense": [
             {
               "position": "LWR",
@@ -20058,12 +20522,6 @@
                   "raw_name": "Hodgins, Isaiah P/Pit",
                   "status": "returning/other",
                   "player_url": "https://www.ourlads.com/nfldepthcharts/player/49222/"
-                },
-                {
-                  "depth": 5,
-                  "raw_name": "Miller, Ryan W/TB",
-                  "status": "returning/other",
-                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/51994/"
                 }
               ]
             },
@@ -20090,9 +20548,9 @@
                 },
                 {
                   "depth": 4,
-                  "raw_name": "Smith-Schuster, JuJu U/KC",
-                  "status": "2026 acquisition",
-                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/49877/"
+                  "raw_name": "Miller, Ryan W/TB",
+                  "status": "returning/other",
+                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/51994/"
                 }
               ]
             },
@@ -20217,12 +20675,6 @@
                 },
                 {
                   "depth": 2,
-                  "raw_name": "Faalele, Daniel U/Bal",
-                  "status": "2026 acquisition",
-                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/46937/"
-                },
-                {
-                  "depth": 3,
                   "raw_name": "Neal, Evan 22/1",
                   "status": "returning/other",
                   "player_url": "https://www.ourlads.com/nfldepthcharts/player/46831/"
@@ -20339,15 +20791,15 @@
                 },
                 {
                   "depth": 4,
-                  "raw_name": "Gray, Eric 23/5",
-                  "status": "returning/other",
-                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/50254/"
+                  "raw_name": "Harris, Najee U/LAC",
+                  "status": "2026 acquisition",
+                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/43341/"
                 },
                 {
                   "depth": 5,
-                  "raw_name": "Miller, Dante SF24",
+                  "raw_name": "Gray, Eric 23/5",
                   "status": "returning/other",
-                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/53220/"
+                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/50254/"
                 }
               ]
             },
@@ -20383,7 +20835,7 @@
         },
         {
           "team": "NYJ",
-          "updated": "08/13/2026 11:22AM",
+          "updated": "08/20/2026 1:16PM",
           "offense": [
             {
               "position": "LWR",
@@ -20466,9 +20918,9 @@
                 },
                 {
                   "depth": 4,
-                  "raw_name": "Sheffield, DT CF26",
-                  "status": "2026 undrafted free agent",
-                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/55526/"
+                  "raw_name": "Bergen, Junior SF26",
+                  "status": "2026 acquisition",
+                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/54399/"
                 }
               ]
             },
@@ -21398,7 +21850,7 @@
         },
         {
           "team": "SEA",
-          "updated": "08/17/2026 2:31PM",
+          "updated": "08/19/2026 2:10PM",
           "offense": [
             {
               "position": "LWR",
@@ -21420,12 +21872,6 @@
                   "raw_name": "Charles, Irv T/NYJ",
                   "status": "2026 acquisition",
                   "player_url": "https://www.ourlads.com/nfldepthcharts/player/52256/"
-                },
-                {
-                  "depth": 4,
-                  "raw_name": "Hicks, Julian SF26",
-                  "status": "2026 acquisition",
-                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/53788/"
                 }
               ]
             },
@@ -21733,7 +22179,7 @@
         },
         {
           "team": "SF",
-          "updated": "08/15/2026 12:30PM",
+          "updated": "08/20/2026 1:16PM",
           "offense": [
             {
               "position": "LWR",
@@ -21752,9 +22198,9 @@
                 },
                 {
                   "depth": 3,
-                  "raw_name": "Watkins, Jordan 25/4",
-                  "status": "returning/other",
-                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/54285/"
+                  "raw_name": "HODGE, KHADAREL CC/Atl",
+                  "status": "2026 acquisition",
+                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/46698/"
                 },
                 {
                   "depth": 4,
@@ -21775,15 +22221,15 @@
                 },
                 {
                   "depth": 2,
-                  "raw_name": "Cowing, Jacob 24/4",
+                  "raw_name": "Watkins, Jordan 25/4",
                   "status": "returning/other",
-                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/53364/"
+                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/54285/"
                 },
                 {
                   "depth": 3,
-                  "raw_name": "HODGE, KHADAREL CC/Atl",
-                  "status": "2026 acquisition",
-                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/46698/"
+                  "raw_name": "Cowing, Jacob 24/4",
+                  "status": "returning/other",
+                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/53364/"
                 },
                 {
                   "depth": 4,
@@ -21862,9 +22308,9 @@
                 },
                 {
                   "depth": 3,
-                  "raw_name": "Smith, Kion SF26",
+                  "raw_name": "Toth, Brett U/Phi",
                   "status": "2026 acquisition",
-                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/48750/"
+                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/52828/"
                 }
               ]
             },
@@ -21885,12 +22331,6 @@
                 },
                 {
                   "depth": 3,
-                  "raw_name": "Toth, Brett U/Phi",
-                  "status": "2026 acquisition",
-                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/52828/"
-                },
-                {
-                  "depth": 4,
                   "raw_name": "Kramer Jr., Doug SF26",
                   "status": "2026 acquisition",
                   "player_url": "https://www.ourlads.com/nfldepthcharts/player/53045/"
@@ -21911,6 +22351,12 @@
                   "raw_name": "Colby, Connor 25/7",
                   "status": "returning/other",
                   "player_url": "https://www.ourlads.com/nfldepthcharts/player/54396/"
+                },
+                {
+                  "depth": 3,
+                  "raw_name": "Zakelj, Nick 22/6",
+                  "status": "returning/other",
+                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/47015/"
                 }
               ]
             },
@@ -22041,9 +22487,9 @@
                 },
                 {
                   "depth": 4,
-                  "raw_name": "Taylor Jr., Patrick U/GB",
-                  "status": "returning/other",
-                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/52706/"
+                  "raw_name": "Guerendo, Isaac 24/4",
+                  "status": "injured/inactive",
+                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/53358/"
                 },
                 {
                   "depth": 5,
@@ -22057,16 +22503,10 @@
               "position": "RB",
               "depth": [
                 {
-                  "depth": 3,
-                  "raw_name": "Guerendo, Isaac 24/4",
-                  "status": "injured/inactive",
-                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/53358/"
-                },
-                {
                   "depth": 4,
-                  "raw_name": "Herbert, Khalil U/NYJ",
-                  "status": "2026 acquisition",
-                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/43535/"
+                  "raw_name": "Taylor Jr., Patrick U/GB",
+                  "status": "returning/other",
+                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/52706/"
                 },
                 {
                   "depth": 5,
@@ -22091,7 +22531,7 @@
         },
         {
           "team": "TB",
-          "updated": "08/17/2026 12:02PM",
+          "updated": "08/20/2026 1:38PM",
           "offense": [
             {
               "position": "LWR",
@@ -22185,9 +22625,9 @@
                 },
                 {
                   "depth": 2,
-                  "raw_name": "Chukwuma, Benjamin CF25",
-                  "status": "returning/other",
-                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/54524/"
+                  "raw_name": "Skule, Justin U/Min",
+                  "status": "2026 acquisition",
+                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/49217/"
                 },
                 {
                   "depth": 3,
@@ -22208,18 +22648,12 @@
                 },
                 {
                   "depth": 2,
-                  "raw_name": "Schrauth, Billy 26/5",
-                  "status": "2026 draft pick",
-                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/55112/"
+                  "raw_name": "Klein, Elijah 24/6",
+                  "status": "returning/other",
+                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/53449/"
                 },
                 {
                   "depth": 3,
-                  "raw_name": "Haggard, Luke CF23",
-                  "status": "returning/other",
-                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/51983/"
-                },
-                {
-                  "depth": 4,
                   "raw_name": "Lutovsky, Henry CF26",
                   "status": "2026 undrafted free agent",
                   "player_url": "https://www.ourlads.com/nfldepthcharts/player/55561/"
@@ -22237,9 +22671,9 @@
                 },
                 {
                   "depth": 2,
-                  "raw_name": "Klein, Elijah 24/6",
+                  "raw_name": "FEENEY, DAN P/Buf",
                   "status": "returning/other",
-                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/53449/"
+                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/51478/"
                 },
                 {
                   "depth": 3,
@@ -22260,12 +22694,18 @@
                 },
                 {
                   "depth": 2,
-                  "raw_name": "FEENEY, DAN P/Buf",
-                  "status": "returning/other",
-                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/51478/"
+                  "raw_name": "Schrauth, Billy 26/5",
+                  "status": "2026 draft pick",
+                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/55112/"
                 },
                 {
                   "depth": 3,
+                  "raw_name": "Haggard, Luke CF23",
+                  "status": "returning/other",
+                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/51983/"
+                },
+                {
+                  "depth": 4,
                   "raw_name": "Hutmacher, Nash CF25",
                   "status": "returning/other",
                   "player_url": "https://www.ourlads.com/nfldepthcharts/player/54702/"
@@ -22283,9 +22723,9 @@
                 },
                 {
                   "depth": 2,
-                  "raw_name": "Skule, Justin U/Min",
-                  "status": "2026 acquisition",
-                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/49217/"
+                  "raw_name": "Chukwuma, Benjamin CF25",
+                  "status": "returning/other",
+                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/54524/"
                 },
                 {
                   "depth": 3,
@@ -22358,15 +22798,15 @@
                 },
                 {
                   "depth": 3,
-                  "raw_name": "Bazelak, Connor CF25",
-                  "status": "returning/other",
-                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/54412/"
-                },
-                {
-                  "depth": 4,
                   "raw_name": "Daniels, Jalon CF26",
                   "status": "2026 undrafted free agent",
                   "player_url": "https://www.ourlads.com/nfldepthcharts/player/55547/"
+                },
+                {
+                  "depth": 4,
+                  "raw_name": "Bazelak, Connor CF25",
+                  "status": "returning/other",
+                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/54412/"
                 }
               ]
             },
@@ -22409,7 +22849,7 @@
         },
         {
           "team": "TEN",
-          "updated": "08/17/2026 12:25PM",
+          "updated": "08/19/2026 2:26PM",
           "offense": [
             {
               "position": "LWR",
@@ -22740,9 +23180,9 @@
                 },
                 {
                   "depth": 5,
-                  "raw_name": "Richardson, Dominic SF26",
-                  "status": "2026 undrafted free agent",
-                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/55379/"
+                  "raw_name": "JOHNSON, D'ERNEST SF26",
+                  "status": "2026 acquisition",
+                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/49979/"
                 }
               ]
             }
@@ -22750,7 +23190,7 @@
         },
         {
           "team": "WAS",
-          "updated": "08/17/2026 12:02PM",
+          "updated": "08/18/2026 10:00AM",
           "offense": [
             {
               "position": "LWR",
@@ -22801,12 +23241,6 @@
                   "raw_name": "Brown, Dyami U/Jax",
                   "status": "2026 acquisition",
                   "player_url": "https://www.ourlads.com/nfldepthcharts/player/43400/"
-                },
-                {
-                  "depth": 4,
-                  "raw_name": "CRACRAFT, RIVER SF25",
-                  "status": "returning/other",
-                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/48557/"
                 }
               ]
             },
@@ -22989,9 +23423,9 @@
                 },
                 {
                   "depth": 5,
-                  "raw_name": "Cager, Lawrence SF24",
-                  "status": "returning/other",
-                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/52479/"
+                  "raw_name": "Moore, Quentin CF26",
+                  "status": "2026 undrafted free agent",
+                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/55578/"
                 }
               ]
             },
@@ -22999,10 +23433,16 @@
               "position": "TE",
               "depth": [
                 {
+                  "depth": 4,
+                  "raw_name": "Cager, Lawrence SF24",
+                  "status": "returning/other",
+                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/52479/"
+                },
+                {
                   "depth": 5,
-                  "raw_name": "Moore, Quentin CF26",
-                  "status": "2026 undrafted free agent",
-                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/55578/"
+                  "raw_name": "McKitty, Tre' SF26",
+                  "status": "2026 acquisition",
+                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/52630/"
                 }
               ]
             },
@@ -23074,12 +23514,6 @@
               "position": "RB",
               "depth": [
                 {
-                  "depth": 4,
-                  "raw_name": "Ford, Jerome U/Cle",
-                  "status": "2026 acquisition",
-                  "player_url": "https://www.ourlads.com/nfldepthcharts/player/46984/"
-                },
-                {
                   "depth": 5,
                   "raw_name": "REYNOLDS, CRAIG SF26",
                   "status": "2026 acquisition",
@@ -23090,7 +23524,7 @@
           ]
         }
       ],
-      "retrieved": "2026-08-17T20:32:44Z"
+      "retrieved": "2026-08-20T21:06:55Z"
     }
   },
   "warnings": []

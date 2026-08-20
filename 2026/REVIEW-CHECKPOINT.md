@@ -1,6 +1,6 @@
 # Fantasy Draft Manager — review checkpoint
 
-Date: Aug. 16, 2026
+Date: Aug. 20, 2026
 
 ## Completed
 
@@ -25,6 +25,17 @@ Date: Aug. 16, 2026
 - Added current DraftSharks injury risk, 2026 rookie scores, Weeks 1–6 positional schedules, and the partial public Superflex composite as separately tunable inputs.
 - Added current RotoWire and ESPN news snapshots plus all-team Ourlads offensive depth charts.  Unreviewed news remains zero-weight until its fantasy mechanism is verified.
 - Split maintenance into **Refresh & Rebuild**, which preserves picks and tuning while refreshing and validating the board, and **Reset Draft**, which clears live selections only after confirmation and reapplies confirmed keepers.
+- Added a conservative classification pipeline for current news, depth-chart facts, authenticated FantasyGuru research, and manually reviewed context.
+- Added the initial 26 authenticated FantasyGuru player/personnel findings (22 player and four team), including role, scheme, development, line, and current health context.  The downloadable RB handcuff grid was not available inline, so no grid values were inferred.
+- Integrated only approved, active, confidence-qualified findings into optimized and wildcard scoring.  Candidate and research-only notes remain visible but score zero; structured injury, rookie, schedule, and Superflex models are not counted a second time.
+- Verified the complete local **Refresh & Rebuild** operation, including the new classification stage and reconciliation of Stafford as an existing recorded player.
+- Replaced soft QB saturation scoring with explicit recommendation eligibility: no early fourth QB, a late fourth QB only as a wildcard after core RB/WR/TE depth is filled, and no fifth QB under any tuning setting.  Added regression coverage for the three-QB Round 3 and four-QB scenarios.
+- Replaced the selective team-context pass with complete authenticated reviews of all 32 FantasyGuru coaching breakdowns and all 32 offensive-line breakdowns.  The earlier targeted player/personnel snapshot remains in use, and duplicate same-article evidence is superseded rather than stacked.
+- Added 32 coaching-system team contexts plus specific Titans findings for Cam Ward, Wan'Dale Robinson, Carnell Tate, Tony Pollard, and Nicholas Singleton.  The Titans' D- line grade now offsets the scheme upside for Ward and the running backs instead of presenting the coaching change as an unqualified positive.
+- Added a directional player-research view.  Green and red cards identify positive and negative influences, scored model cards show their current weighted contribution, and reviewed qualitative context remains visibly separate from injury, early schedule, rookie, and Superflex inputs.
+- Added click-away closing for both player research and team sheets.
+- Refreshed public 10-team 2QB ADP, DraftSharks injury/rookie/Weeks 1–6/Superflex models, RotoWire and ESPN news, and all 32 Ourlads depth charts on Aug. 20.  Fixed negated-practice classification (for example, “won't participate”), newest-report precedence, and neutral handling of preseason rest.
+- The Aug. 20 validated board contains 272 players, 241 public-ADP matches, 209 injury-model matches, 223 early-schedule matches, and 234 depth-chart matches.  It contains 87 approved findings, 57 candidates, and nine research-only findings across 88 player signals and 65 team signals; all 32 team sheets contain context.
 
 ## Superseded
 
@@ -32,16 +43,16 @@ Any prior manager-level analysis derived from the incorrectly renamed draft work
 
 ## Waiting on user/external state
 
-1. The league-wide keeper declarations.
-2. Confirmation that the Barry/Jeff swap is the complete 2026 traded-pick list.
-3. Confirmation that Stafford has been formally declared as Goldberg's seventh-round keeper.
-4. Final keeper and traded-pick state before a live draft board is frozen.
+1. The keeper declarations for the other nine managers.
+2. Any correction if the reported Barry/Jeff swap is not the complete 2026 traded-pick list.
+3. A final source refresh immediately before the live draft board is frozen.  The current mock-draft checkpoint was refreshed Aug. 20 and is ready for external testing.
 
-Stafford is implemented as a clearly labeled working assumption.  No final draft simulation should be locked before items 1–3 are available.
+Stafford is confirmed and implemented at pick 64.  The Barry/Jeff swap is implemented as the only currently reported trade.  The remaining keeper declarations can be added without changing the pipeline or interface.
 
 ## Current generated boards
 
 - [DraftSheets name/value board](Analysis/generated/draftsheets_value_board.csv)
 - [Base composite board](Analysis/generated/base_composite_board.csv)
 - [Public 2QB ADP](Analysis/generated/public_2qb_adp.csv)
+- [Classified contextual findings](Analysis/generated/classified_context.json)
 - [Draft-room application](App/index.html)

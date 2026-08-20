@@ -1,0 +1,4516 @@
+{
+  "generated_at": "2026-08-20T21:07:01Z",
+  "source_snapshot_retrieved": "2026-08-20T21:06:55Z",
+  "player_signals": [
+    {
+      "entity_type": "player",
+      "entity": "A.J. Brown",
+      "affected_positions": [
+        "WR"
+      ],
+      "signal_class": "role",
+      "summary": "FantasyGuru projects Brown as New England's primary target after Stefon Diggs' departure.",
+      "mechanism": "A clear lead role and substantial vacated volume provide a path back to elite target totals.",
+      "direction": 1,
+      "raw_adjustment": 1.0,
+      "capped_adjustment": 1.0,
+      "confidence": 0.8,
+      "source_name": "FantasyGuru - Same Faces In New Places",
+      "source_url": "https://www.fantasyguru.com/2026-same-faces-in-new-places",
+      "published_at": "2026-06-29",
+      "retrieved_at": "2026-08-17",
+      "expires_at": "2026-09-15",
+      "evidence_type": "transaction_and_role_analysis",
+      "status": "approved"
+    },
+    {
+      "entity_type": "player",
+      "entity": "A.J. Brown",
+      "affected_positions": [
+        "WR"
+      ],
+      "signal_class": "role",
+      "summary": "Listed at LWR depth 1 and marked 2026 acquisition.",
+      "mechanism": "This is a factual depth-chart marker. It does not by itself establish severity, workload, efficiency, or fantasy direction.",
+      "direction": 0,
+      "raw_adjustment": 0.0,
+      "capped_adjustment": 0.0,
+      "confidence": 0.62,
+      "source_name": "Ourlads",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/46839/",
+      "published_at": "2026-08-18T16:45:00Z",
+      "retrieved_at": "2026-08-20T21:06:55Z",
+      "expires_at": "2026-09-01T16:45:00Z",
+      "evidence_type": "depth_chart_marker",
+      "status": "candidate"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Alec Pierce",
+      "affected_positions": [
+        "WR"
+      ],
+      "signal_class": "health",
+      "summary": "As of August 16, Pierce was still not practicing following offseason ankle surgery, putting his Week 1 readiness in doubt.",
+      "mechanism": "Missed practice time and a possible delayed start reduce near-term availability and role certainty.",
+      "direction": -1,
+      "raw_adjustment": -1.0,
+      "capped_adjustment": -1.0,
+      "confidence": 0.72,
+      "source_name": "FantasyGuru - Fantasy Billboard: 105 Draft Board Observations",
+      "source_url": "https://www.fantasyguru.com/2026-nfl-fantasy-billboard-105-fantasy-football-draft-board-observations",
+      "published_at": "2026-08-16",
+      "retrieved_at": "2026-08-17",
+      "expires_at": "2026-08-31",
+      "evidence_type": "current_practice_status_summary",
+      "status": "approved"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Alec Pierce",
+      "affected_positions": [
+        "WR"
+      ],
+      "signal_class": "health",
+      "summary": "Listed at LWR depth 1 and marked injured/inactive.",
+      "mechanism": "This is a factual depth-chart marker. It does not by itself establish severity, workload, efficiency, or fantasy direction.",
+      "direction": 0,
+      "raw_adjustment": 0.0,
+      "capped_adjustment": 0.0,
+      "confidence": 0.66,
+      "source_name": "Ourlads",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/46880/",
+      "published_at": "2026-08-19T15:22:00Z",
+      "retrieved_at": "2026-08-20T21:06:55Z",
+      "expires_at": "2026-09-02T15:22:00Z",
+      "evidence_type": "depth_chart_marker",
+      "status": "candidate"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Alvin Kamara",
+      "affected_positions": [
+        "RB"
+      ],
+      "signal_class": "health",
+      "summary": "Listed at RB depth 2 and marked injured/inactive.",
+      "mechanism": "This is a factual depth-chart marker. It does not by itself establish severity, workload, efficiency, or fantasy direction.",
+      "direction": 0,
+      "raw_adjustment": 0.0,
+      "capped_adjustment": 0.0,
+      "confidence": 0.66,
+      "source_name": "Ourlads",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/30471/",
+      "published_at": "2026-08-19T13:13:00Z",
+      "retrieved_at": "2026-08-20T21:06:55Z",
+      "expires_at": "2026-09-02T13:13:00Z",
+      "evidence_type": "depth_chart_marker",
+      "status": "candidate"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Brian Robinson Jr.",
+      "affected_positions": [
+        "RB"
+      ],
+      "signal_class": "role",
+      "summary": "Listed at RB depth 2 and marked 2026 acquisition.",
+      "mechanism": "This is a factual depth-chart marker. It does not by itself establish severity, workload, efficiency, or fantasy direction.",
+      "direction": 0,
+      "raw_adjustment": 0.0,
+      "capped_adjustment": 0.0,
+      "confidence": 0.62,
+      "source_name": "Ourlads",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/46925/",
+      "published_at": "2026-08-20T13:13:00Z",
+      "retrieved_at": "2026-08-20T21:06:55Z",
+      "expires_at": "2026-09-03T13:13:00Z",
+      "evidence_type": "depth_chart_marker",
+      "status": "candidate"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Bryce Lance",
+      "affected_positions": [
+        "WR"
+      ],
+      "signal_class": "development",
+      "summary": "Listed at RWR depth 2 and marked 2026 draft pick.",
+      "mechanism": "This is a factual depth-chart marker. It does not by itself establish severity, workload, efficiency, or fantasy direction.",
+      "direction": 0,
+      "raw_adjustment": 0.0,
+      "capped_adjustment": 0.0,
+      "confidence": 0.62,
+      "source_name": "Ourlads",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/55088/",
+      "published_at": "2026-08-19T13:13:00Z",
+      "retrieved_at": "2026-08-20T21:06:55Z",
+      "expires_at": "2026-09-02T13:13:00Z",
+      "evidence_type": "depth_chart_marker",
+      "status": "candidate"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Cam Skattebo",
+      "affected_positions": [
+        "RB"
+      ],
+      "signal_class": "health",
+      "summary": "Listed at RB depth 1 and marked injured/inactive.",
+      "mechanism": "This is a factual depth-chart marker. It does not by itself establish severity, workload, efficiency, or fantasy direction.",
+      "direction": 0,
+      "raw_adjustment": 0.0,
+      "capped_adjustment": 0.0,
+      "confidence": 0.66,
+      "source_name": "Ourlads",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/54252/",
+      "published_at": "2026-08-20T13:08:00Z",
+      "retrieved_at": "2026-08-20T21:06:55Z",
+      "expires_at": "2026-09-03T13:08:00Z",
+      "evidence_type": "depth_chart_marker",
+      "status": "candidate"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Cam Ward",
+      "affected_positions": [
+        "QB"
+      ],
+      "signal_class": "development",
+      "summary": "Brian Daboll's spacing, pre-snap motion, RPO, and play-action concepts are designed to simplify Cam Ward's reads after a stronger finish to his rookie season.",
+      "mechanism": "Higher-percentage answers and a coach with a history of quarterback development create breakout potential, while Ward's own execution remains the central uncertainty.",
+      "direction": 1,
+      "raw_adjustment": 0.5,
+      "capped_adjustment": 0.5,
+      "confidence": 0.67,
+      "source_name": "FantasyGuru - Titans Coaching Breakdown",
+      "source_url": "https://www.fantasyguru.com/coaching-breakdown-tennessee-titans-2026",
+      "published_at": "2026-07-15",
+      "retrieved_at": "2026-08-20",
+      "expires_at": "2026-10-01",
+      "evidence_type": "authenticated_player_scheme_fit_analysis",
+      "status": "approved"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Carnell Tate",
+      "affected_positions": [
+        "WR"
+      ],
+      "signal_class": "development",
+      "summary": "Listed at RWR depth 1 and marked 2026 draft pick.",
+      "mechanism": "This is a factual depth-chart marker. It does not by itself establish severity, workload, efficiency, or fantasy direction.",
+      "direction": 0,
+      "raw_adjustment": 0.0,
+      "capped_adjustment": 0.0,
+      "confidence": 0.62,
+      "source_name": "Ourlads",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/54956/",
+      "published_at": "2026-08-19T14:26:00Z",
+      "retrieved_at": "2026-08-20T21:06:55Z",
+      "expires_at": "2026-09-02T14:26:00Z",
+      "evidence_type": "depth_chart_marker",
+      "status": "candidate"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Carnell Tate",
+      "affected_positions": [
+        "WR"
+      ],
+      "signal_class": "role",
+      "summary": "Carnell Tate is projected to begin as Tennessee's primary vertical threat in a play-action offense.",
+      "mechanism": "A defined deep role creates non-PPR splash-play upside, but rookie development and Cam Ward's deep execution make the weekly floor uncertain.",
+      "direction": 1,
+      "raw_adjustment": 0.5,
+      "capped_adjustment": 0.5,
+      "confidence": 0.66,
+      "source_name": "FantasyGuru - Titans Coaching Breakdown",
+      "source_url": "https://www.fantasyguru.com/coaching-breakdown-tennessee-titans-2026",
+      "published_at": "2026-07-15",
+      "retrieved_at": "2026-08-20",
+      "expires_at": "2026-09-30",
+      "evidence_type": "authenticated_player_role_analysis",
+      "status": "approved"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Chig Okonkwo",
+      "affected_positions": [
+        "TE"
+      ],
+      "signal_class": "role",
+      "summary": "Listed at TE depth 1 and marked 2026 acquisition.",
+      "mechanism": "This is a factual depth-chart marker. It does not by itself establish severity, workload, efficiency, or fantasy direction.",
+      "direction": 0,
+      "raw_adjustment": 0.0,
+      "capped_adjustment": 0.0,
+      "confidence": 0.62,
+      "source_name": "Ourlads",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/46970/",
+      "published_at": "2026-08-18T10:00:00Z",
+      "retrieved_at": "2026-08-20T21:06:55Z",
+      "expires_at": "2026-09-01T10:00:00Z",
+      "evidence_type": "depth_chart_marker",
+      "status": "candidate"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Chris Rodriguez Jr.",
+      "affected_positions": [
+        "RB"
+      ],
+      "signal_class": "role",
+      "summary": "FantasyGuru sees a plausible committee and red-zone role for Rodriguez behind Bhayshul Tuten.",
+      "mechanism": "Goal-line work creates standalone touchdown value and meaningful contingency upside at a late cost.",
+      "direction": 1,
+      "raw_adjustment": 0.7,
+      "capped_adjustment": 0.7,
+      "confidence": 0.65,
+      "source_name": "FantasyGuru - Same Faces In New Places",
+      "source_url": "https://www.fantasyguru.com/2026-same-faces-in-new-places",
+      "published_at": "2026-06-29",
+      "retrieved_at": "2026-08-17",
+      "expires_at": "2026-09-15",
+      "evidence_type": "expert_role_analysis",
+      "status": "approved"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Chris Rodriguez Jr.",
+      "affected_positions": [
+        "RB"
+      ],
+      "signal_class": "role",
+      "summary": "Listed at RB depth 2 and marked 2026 acquisition.",
+      "mechanism": "This is a factual depth-chart marker. It does not by itself establish severity, workload, efficiency, or fantasy direction.",
+      "direction": 0,
+      "raw_adjustment": 0.0,
+      "capped_adjustment": 0.0,
+      "confidence": 0.62,
+      "source_name": "Ourlads",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/50351/",
+      "published_at": "2026-08-19T09:50:00Z",
+      "retrieved_at": "2026-08-20T21:06:55Z",
+      "expires_at": "2026-09-02T09:50:00Z",
+      "evidence_type": "depth_chart_marker",
+      "status": "candidate"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Christian Kirk",
+      "affected_positions": [
+        "WR"
+      ],
+      "signal_class": "role",
+      "summary": "Listed at SWR depth 2 and marked 2026 acquisition.",
+      "mechanism": "This is a factual depth-chart marker. It does not by itself establish severity, workload, efficiency, or fantasy direction.",
+      "direction": 0,
+      "raw_adjustment": 0.0,
+      "capped_adjustment": 0.0,
+      "confidence": 0.62,
+      "source_name": "Ourlads",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/46474/",
+      "published_at": "2026-08-20T13:16:00Z",
+      "retrieved_at": "2026-08-20T21:06:55Z",
+      "expires_at": "2026-09-03T13:16:00Z",
+      "evidence_type": "depth_chart_marker",
+      "status": "candidate"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Christian Watson",
+      "affected_positions": [
+        "WR"
+      ],
+      "signal_class": "role",
+      "summary": "FantasyGuru places Watson atop Green Bay's receiver depth chart and sees top-15 upside if he remains healthy.",
+      "mechanism": "A projected lead route and snap share paired with established deep efficiency creates ceiling at a price outside the top 25 receivers.",
+      "direction": 1,
+      "raw_adjustment": 0.8,
+      "capped_adjustment": 0.8,
+      "confidence": 0.68,
+      "source_name": "FantasyGuru - Wide Receiver Outlooks",
+      "source_url": "https://www.fantasyguru.com/2026-fantasy-football-wide-receiver-outlooks",
+      "published_at": "2026-06-01",
+      "retrieved_at": "2026-08-17",
+      "expires_at": "2026-09-15",
+      "evidence_type": "expert_role_and_efficiency_analysis",
+      "status": "approved"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Chuba Hubbard",
+      "affected_positions": [
+        "RB"
+      ],
+      "signal_class": "health",
+      "summary": "FantasyGuru's August 16 update reports Hubbard as week-to-week with a hamstring injury, citing head coach Dave Canales.",
+      "mechanism": "A soft-tissue injury close to the season creates availability and workload risk.",
+      "direction": -1,
+      "raw_adjustment": -1.1,
+      "capped_adjustment": -1.1,
+      "confidence": 0.8,
+      "source_name": "FantasyGuru - Fantasy Billboard: 105 Draft Board Observations",
+      "source_url": "https://www.fantasyguru.com/2026-nfl-fantasy-billboard-105-fantasy-football-draft-board-observations",
+      "published_at": "2026-08-16",
+      "retrieved_at": "2026-08-17",
+      "expires_at": "2026-08-31",
+      "evidence_type": "attributed_coach_injury_update",
+      "status": "approved"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Darnell Mooney",
+      "affected_positions": [
+        "WR"
+      ],
+      "signal_class": "role",
+      "summary": "Listed at RWR depth 2 and marked 2026 acquisition.",
+      "mechanism": "This is a factual depth-chart marker. It does not by itself establish severity, workload, efficiency, or fantasy direction.",
+      "direction": 0,
+      "raw_adjustment": 0.0,
+      "capped_adjustment": 0.0,
+      "confidence": 0.62,
+      "source_name": "Ourlads",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/40414/",
+      "published_at": "2026-08-20T13:08:00Z",
+      "retrieved_at": "2026-08-20T21:06:55Z",
+      "expires_at": "2026-09-03T13:08:00Z",
+      "evidence_type": "depth_chart_marker",
+      "status": "candidate"
+    },
+    {
+      "entity_type": "player",
+      "entity": "David Montgomery",
+      "affected_positions": [
+        "RB"
+      ],
+      "signal_class": "role",
+      "summary": "FantasyGuru expects Montgomery to handle early downs and meaningful red-zone work in Houston.",
+      "mechanism": "Short-yardage and goal-line usage can support standard-scoring RB2 value even if receiving work is limited.",
+      "direction": 1,
+      "raw_adjustment": 0.8,
+      "capped_adjustment": 0.8,
+      "confidence": 0.7,
+      "source_name": "FantasyGuru - Same Faces In New Places",
+      "source_url": "https://www.fantasyguru.com/2026-same-faces-in-new-places",
+      "published_at": "2026-06-29",
+      "retrieved_at": "2026-08-17",
+      "expires_at": "2026-09-15",
+      "evidence_type": "expert_role_analysis",
+      "status": "approved"
+    },
+    {
+      "entity_type": "player",
+      "entity": "David Montgomery",
+      "affected_positions": [
+        "RB"
+      ],
+      "signal_class": "role",
+      "summary": "Listed at RB depth 1 and marked 2026 acquisition.",
+      "mechanism": "This is a factual depth-chart marker. It does not by itself establish severity, workload, efficiency, or fantasy direction.",
+      "direction": 0,
+      "raw_adjustment": 0.0,
+      "capped_adjustment": 0.0,
+      "confidence": 0.62,
+      "source_name": "Ourlads",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/49863/",
+      "published_at": "2026-08-17T12:05:00Z",
+      "retrieved_at": "2026-08-20T21:06:55Z",
+      "expires_at": "2026-08-31T12:05:00Z",
+      "evidence_type": "depth_chart_marker",
+      "status": "candidate"
+    },
+    {
+      "entity_type": "player",
+      "entity": "De'Zhaun Stribling",
+      "affected_positions": [
+        "WR"
+      ],
+      "signal_class": "development",
+      "summary": "Listed at SWR depth 1 and marked 2026 draft pick.",
+      "mechanism": "This is a factual depth-chart marker. It does not by itself establish severity, workload, efficiency, or fantasy direction.",
+      "direction": 0,
+      "raw_adjustment": 0.0,
+      "capped_adjustment": 0.0,
+      "confidence": 0.62,
+      "source_name": "Ourlads",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/54985/",
+      "published_at": "2026-08-20T13:16:00Z",
+      "retrieved_at": "2026-08-20T21:06:55Z",
+      "expires_at": "2026-09-03T13:16:00Z",
+      "evidence_type": "depth_chart_marker",
+      "status": "candidate"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Deebo Samuel Sr.",
+      "affected_positions": [
+        "WR"
+      ],
+      "signal_class": "role",
+      "summary": "Listed at RWR depth 1 and marked 2026 acquisition.",
+      "mechanism": "This is a factual depth-chart marker. It does not by itself establish severity, workload, efficiency, or fantasy direction.",
+      "direction": 0,
+      "raw_adjustment": 0.0,
+      "capped_adjustment": 0.0,
+      "confidence": 0.62,
+      "source_name": "Ourlads",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/37008/",
+      "published_at": "2026-08-20T13:16:00Z",
+      "retrieved_at": "2026-08-20T21:06:55Z",
+      "expires_at": "2026-09-03T13:16:00Z",
+      "evidence_type": "depth_chart_marker",
+      "status": "candidate"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Denzel Boston",
+      "affected_positions": [
+        "WR"
+      ],
+      "signal_class": "development",
+      "summary": "Listed at LWR depth 1 and marked 2026 draft pick.",
+      "mechanism": "This is a factual depth-chart marker. It does not by itself establish severity, workload, efficiency, or fantasy direction.",
+      "direction": 0,
+      "raw_adjustment": 0.0,
+      "capped_adjustment": 0.0,
+      "confidence": 0.62,
+      "source_name": "Ourlads",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/54991/",
+      "published_at": "2026-08-20T13:21:00Z",
+      "retrieved_at": "2026-08-20T21:06:55Z",
+      "expires_at": "2026-09-03T13:21:00Z",
+      "evidence_type": "depth_chart_marker",
+      "status": "candidate"
+    },
+    {
+      "entity_type": "player",
+      "entity": "DJ Moore",
+      "affected_positions": [
+        "WR"
+      ],
+      "signal_class": "environment",
+      "summary": "FantasyGuru considers Moore a rebound target in Buffalo, where Josh Allen and frequent single-high looks improve his matchup environment.",
+      "mechanism": "Quarterback quality and defensive structure can restore explosive perimeter production after a down season.",
+      "direction": 1,
+      "raw_adjustment": 0.9,
+      "capped_adjustment": 0.9,
+      "confidence": 0.74,
+      "source_name": "FantasyGuru - Wide Receiver Outlooks",
+      "source_url": "https://www.fantasyguru.com/2026-fantasy-football-wide-receiver-outlooks",
+      "published_at": "2026-06-01",
+      "retrieved_at": "2026-08-17",
+      "expires_at": "2026-10-01",
+      "evidence_type": "expert_efficiency_analysis",
+      "status": "approved"
+    },
+    {
+      "entity_type": "player",
+      "entity": "DJ Moore",
+      "affected_positions": [
+        "WR"
+      ],
+      "signal_class": "role",
+      "summary": "Listed at RWR depth 1 and marked 2026 acquisition.",
+      "mechanism": "This is a factual depth-chart marker. It does not by itself establish severity, workload, efficiency, or fantasy direction.",
+      "direction": 0,
+      "raw_adjustment": 0.0,
+      "capped_adjustment": 0.0,
+      "confidence": 0.62,
+      "source_name": "Ourlads",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/49791/",
+      "published_at": "2026-08-19T14:58:00Z",
+      "retrieved_at": "2026-08-20T21:06:55Z",
+      "expires_at": "2026-09-02T14:58:00Z",
+      "evidence_type": "depth_chart_marker",
+      "status": "candidate"
+    },
+    {
+      "entity_type": "player",
+      "entity": "DK Metcalf",
+      "affected_positions": [
+        "WR"
+      ],
+      "signal_class": "scheme",
+      "summary": "FantasyGuru lists Metcalf as a fade because Pittsburgh's quick-pass design and added receiver competition may squeeze his targets.",
+      "mechanism": "A low-depth passing approach is a poor fit for a receiver dependent on deep plays and touchdowns.",
+      "direction": -1,
+      "raw_adjustment": -0.8,
+      "capped_adjustment": -0.8,
+      "confidence": 0.7,
+      "source_name": "FantasyGuru - Wide Receiver Outlooks",
+      "source_url": "https://www.fantasyguru.com/2026-fantasy-football-wide-receiver-outlooks",
+      "published_at": "2026-06-01",
+      "retrieved_at": "2026-08-17",
+      "expires_at": "2026-10-01",
+      "evidence_type": "scheme_and_target_competition_analysis",
+      "status": "approved"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Dontayvion Wicks",
+      "affected_positions": [
+        "WR"
+      ],
+      "signal_class": "role",
+      "summary": "Listed at LWR depth 1 and marked 2026 acquisition.",
+      "mechanism": "This is a factual depth-chart marker. It does not by itself establish severity, workload, efficiency, or fantasy direction.",
+      "direction": 0,
+      "raw_adjustment": 0.0,
+      "capped_adjustment": 0.0,
+      "confidence": 0.62,
+      "source_name": "Ourlads",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/50241/",
+      "published_at": "2026-08-17T12:11:00Z",
+      "retrieved_at": "2026-08-20T21:06:55Z",
+      "expires_at": "2026-08-31T12:11:00Z",
+      "evidence_type": "depth_chart_marker",
+      "status": "candidate"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Fernando Mendoza",
+      "affected_positions": [
+        "QB"
+      ],
+      "signal_class": "development",
+      "summary": "Listed at QB depth 2 and marked 2026 draft pick.",
+      "mechanism": "This is a factual depth-chart marker. It does not by itself establish severity, workload, efficiency, or fantasy direction.",
+      "direction": 0,
+      "raw_adjustment": 0.0,
+      "capped_adjustment": 0.0,
+      "confidence": 0.62,
+      "source_name": "Ourlads",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/54953/",
+      "published_at": "2026-08-17T23:10:00Z",
+      "retrieved_at": "2026-08-20T21:06:55Z",
+      "expires_at": "2026-08-31T23:10:00Z",
+      "evidence_type": "depth_chart_marker",
+      "status": "candidate"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Geno Smith",
+      "affected_positions": [
+        "QB"
+      ],
+      "signal_class": "role",
+      "summary": "Listed at QB depth 1 and marked 2026 acquisition.",
+      "mechanism": "This is a factual depth-chart marker. It does not by itself establish severity, workload, efficiency, or fantasy direction.",
+      "direction": 0,
+      "raw_adjustment": 0.0,
+      "capped_adjustment": 0.0,
+      "confidence": 0.62,
+      "source_name": "Ourlads",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/40992/",
+      "published_at": "2026-08-20T13:16:00Z",
+      "retrieved_at": "2026-08-20T21:06:55Z",
+      "expires_at": "2026-09-03T13:16:00Z",
+      "evidence_type": "depth_chart_marker",
+      "status": "candidate"
+    },
+    {
+      "entity_type": "player",
+      "entity": "George Kittle",
+      "affected_positions": [
+        "TE"
+      ],
+      "signal_class": "health",
+      "summary": "Listed at TE depth 1 and marked injured/inactive.",
+      "mechanism": "This is a factual depth-chart marker. It does not by itself establish severity, workload, efficiency, or fantasy direction.",
+      "direction": 0,
+      "raw_adjustment": 0.0,
+      "capped_adjustment": 0.0,
+      "confidence": 0.66,
+      "source_name": "Ourlads",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/30551/",
+      "published_at": "2026-08-20T13:16:00Z",
+      "retrieved_at": "2026-08-20T21:06:55Z",
+      "expires_at": "2026-09-03T13:16:00Z",
+      "evidence_type": "depth_chart_marker",
+      "status": "candidate"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Isaiah Likely",
+      "affected_positions": [
+        "TE"
+      ],
+      "signal_class": "role",
+      "summary": "FantasyGuru sees Likely as a breakout candidate after reuniting with John Harbaugh on a meaningful contract in New York.",
+      "mechanism": "Prior production without Mark Andrews and a credible path to being the Giants' second target support a larger receiving role.",
+      "direction": 1,
+      "raw_adjustment": 0.8,
+      "capped_adjustment": 0.8,
+      "confidence": 0.7,
+      "source_name": "FantasyGuru - Same Faces In New Places",
+      "source_url": "https://www.fantasyguru.com/2026-same-faces-in-new-places",
+      "published_at": "2026-06-29",
+      "retrieved_at": "2026-08-17",
+      "expires_at": "2026-09-15",
+      "evidence_type": "contract_coach_and_role_analysis",
+      "status": "approved"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Isaiah Likely",
+      "affected_positions": [
+        "TE"
+      ],
+      "signal_class": "role",
+      "summary": "Listed at TE depth 1 and marked 2026 acquisition.",
+      "mechanism": "This is a factual depth-chart marker. It does not by itself establish severity, workload, efficiency, or fantasy direction.",
+      "direction": 0,
+      "raw_adjustment": 0.0,
+      "capped_adjustment": 0.0,
+      "confidence": 0.62,
+      "source_name": "Ourlads",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/46966/",
+      "published_at": "2026-08-20T13:08:00Z",
+      "retrieved_at": "2026-08-20T21:06:55Z",
+      "expires_at": "2026-09-03T13:08:00Z",
+      "evidence_type": "depth_chart_marker",
+      "status": "candidate"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Isiah Pacheco",
+      "affected_positions": [
+        "RB"
+      ],
+      "signal_class": "role",
+      "summary": "Listed at RB depth 2 and marked 2026 acquisition.",
+      "mechanism": "This is a factual depth-chart marker. It does not by itself establish severity, workload, efficiency, or fantasy direction.",
+      "direction": 0,
+      "raw_adjustment": 0.0,
+      "capped_adjustment": 0.0,
+      "confidence": 0.62,
+      "source_name": "Ourlads",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/47080/",
+      "published_at": "2026-08-17T17:48:00Z",
+      "retrieved_at": "2026-08-20T21:06:55Z",
+      "expires_at": "2026-08-31T17:48:00Z",
+      "evidence_type": "depth_chart_marker",
+      "status": "candidate"
+    },
+    {
+      "entity_type": "player",
+      "entity": "J.K. Dobbins",
+      "affected_positions": [
+        "RB"
+      ],
+      "signal_class": "health",
+      "summary": "Takes part in Monday's session",
+      "mechanism": "Practice participation or absence is an availability signal; it does not establish a regular-season workload or recovery timetable.",
+      "direction": 1,
+      "raw_adjustment": 0.75,
+      "capped_adjustment": 0.75,
+      "confidence": 0.72,
+      "source_name": "RotoWire",
+      "source_url": "https://www.rotowire.com/football/headlines/jk-dobbins-injury-takes-part-in-mondays-session-633945",
+      "published_at": "2026-08-17T00:00:00Z",
+      "retrieved_at": "2026-08-20T21:06:55Z",
+      "expires_at": "2026-09-07T00:00:00Z",
+      "evidence_type": "attributed_practice_or_injury_report",
+      "status": "approved"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Jadarian Price",
+      "affected_positions": [
+        "RB"
+      ],
+      "signal_class": "development",
+      "summary": "Listed at RB depth 2 and marked 2026 draft pick.",
+      "mechanism": "This is a factual depth-chart marker. It does not by itself establish severity, workload, efficiency, or fantasy direction.",
+      "direction": 0,
+      "raw_adjustment": 0.0,
+      "capped_adjustment": 0.0,
+      "confidence": 0.62,
+      "source_name": "Ourlads",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/54984/",
+      "published_at": "2026-08-19T14:10:00Z",
+      "retrieved_at": "2026-08-20T21:06:55Z",
+      "expires_at": "2026-09-02T14:10:00Z",
+      "evidence_type": "depth_chart_marker",
+      "status": "candidate"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Jadarian Price",
+      "affected_positions": [
+        "RB"
+      ],
+      "signal_class": "health",
+      "summary": "Full practice Monday",
+      "mechanism": "Practice participation or absence is an availability signal; it does not establish a regular-season workload or recovery timetable.",
+      "direction": 1,
+      "raw_adjustment": 0.75,
+      "capped_adjustment": 0.75,
+      "confidence": 0.72,
+      "source_name": "RotoWire",
+      "source_url": "https://www.rotowire.com/football/headlines/jadarian-price-news-full-practice-monday-633959",
+      "published_at": "2026-08-17T00:00:00Z",
+      "retrieved_at": "2026-08-20T21:06:55Z",
+      "expires_at": "2026-09-07T00:00:00Z",
+      "evidence_type": "attributed_practice_or_injury_report",
+      "status": "approved"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Jadarian Price",
+      "affected_positions": [
+        "RB"
+      ],
+      "signal_class": "health",
+      "summary": "Primed to participate Monday",
+      "mechanism": "Practice participation or absence is an availability signal; it does not establish a regular-season workload or recovery timetable.",
+      "direction": 1,
+      "raw_adjustment": 0.75,
+      "capped_adjustment": 0.75,
+      "confidence": 0.72,
+      "source_name": "RotoWire",
+      "source_url": "https://www.rotowire.com/football/headlines/jadarian-price-injury-primed-to-participate-monday-633955",
+      "published_at": "2026-08-17T00:00:00Z",
+      "retrieved_at": "2026-08-20T21:06:55Z",
+      "expires_at": "2026-09-07T00:00:00Z",
+      "evidence_type": "attributed_practice_or_injury_report",
+      "status": "approved"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Jalen Nailor",
+      "affected_positions": [
+        "WR"
+      ],
+      "signal_class": "role",
+      "summary": "Listed at RWR depth 1 and marked 2026 acquisition.",
+      "mechanism": "This is a factual depth-chart marker. It does not by itself establish severity, workload, efficiency, or fantasy direction.",
+      "direction": 0,
+      "raw_adjustment": 0.0,
+      "capped_adjustment": 0.0,
+      "confidence": 0.62,
+      "source_name": "Ourlads",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/47019/",
+      "published_at": "2026-08-17T23:10:00Z",
+      "retrieved_at": "2026-08-20T21:06:55Z",
+      "expires_at": "2026-08-31T23:10:00Z",
+      "evidence_type": "depth_chart_marker",
+      "status": "candidate"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Jauan Jennings",
+      "affected_positions": [
+        "WR"
+      ],
+      "signal_class": "role",
+      "summary": "Listed at SWR depth 1 and marked 2026 acquisition.",
+      "mechanism": "This is a factual depth-chart marker. It does not by itself establish severity, workload, efficiency, or fantasy direction.",
+      "direction": 0,
+      "raw_adjustment": 0.0,
+      "capped_adjustment": 0.0,
+      "confidence": 0.62,
+      "source_name": "Ourlads",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/41783/",
+      "published_at": "2026-08-19T13:46:00Z",
+      "retrieved_at": "2026-08-20T21:06:55Z",
+      "expires_at": "2026-09-02T13:46:00Z",
+      "evidence_type": "depth_chart_marker",
+      "status": "candidate"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Jayden Higgins",
+      "affected_positions": [
+        "WR"
+      ],
+      "signal_class": "health",
+      "summary": "Listed at RWR depth 1 and marked injured/inactive.",
+      "mechanism": "This is a factual depth-chart marker. It does not by itself establish severity, workload, efficiency, or fantasy direction.",
+      "direction": 0,
+      "raw_adjustment": 0.0,
+      "capped_adjustment": 0.0,
+      "confidence": 0.66,
+      "source_name": "Ourlads",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/54181/",
+      "published_at": "2026-08-17T12:05:00Z",
+      "retrieved_at": "2026-08-20T21:06:55Z",
+      "expires_at": "2026-08-31T12:05:00Z",
+      "evidence_type": "depth_chart_marker",
+      "status": "candidate"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Jaylen Waddle",
+      "affected_positions": [
+        "WR"
+      ],
+      "signal_class": "environment",
+      "summary": "FantasyGuru views Denver's high-volume passing environment and Bo Nix pairing as a material upgrade for Waddle.",
+      "mechanism": "A larger passing-volume base can offset added target competition and restore weekly ceiling.",
+      "direction": 1,
+      "raw_adjustment": 0.9,
+      "capped_adjustment": 0.9,
+      "confidence": 0.72,
+      "source_name": "FantasyGuru - Wide Receiver Outlooks",
+      "source_url": "https://www.fantasyguru.com/2026-fantasy-football-wide-receiver-outlooks",
+      "published_at": "2026-06-01",
+      "retrieved_at": "2026-08-17",
+      "expires_at": "2026-10-01",
+      "evidence_type": "scheme_and_usage_analysis",
+      "status": "approved"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Jaylen Waddle",
+      "affected_positions": [
+        "WR"
+      ],
+      "signal_class": "health",
+      "summary": "Returns to practice Monday",
+      "mechanism": "Practice participation or absence is an availability signal; it does not establish a regular-season workload or recovery timetable.",
+      "direction": 1,
+      "raw_adjustment": 0.75,
+      "capped_adjustment": 0.75,
+      "confidence": 0.72,
+      "source_name": "RotoWire",
+      "source_url": "https://www.rotowire.com/football/headlines/jaylen-waddle-injury-returns-to-practice-monday-633944",
+      "published_at": "2026-08-17T00:00:00Z",
+      "retrieved_at": "2026-08-20T21:06:55Z",
+      "expires_at": "2026-09-07T00:00:00Z",
+      "evidence_type": "attributed_practice_or_injury_report",
+      "status": "approved"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Jaylen Waddle",
+      "affected_positions": [
+        "WR"
+      ],
+      "signal_class": "role",
+      "summary": "Listed at RWR depth 1 and marked 2026 acquisition.",
+      "mechanism": "This is a factual depth-chart marker. It does not by itself establish severity, workload, efficiency, or fantasy direction.",
+      "direction": 0,
+      "raw_adjustment": 0.0,
+      "capped_adjustment": 0.0,
+      "confidence": 0.62,
+      "source_name": "Ourlads",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/43323/",
+      "published_at": "2026-08-20T13:26:00Z",
+      "retrieved_at": "2026-08-20T21:06:55Z",
+      "expires_at": "2026-09-03T13:26:00Z",
+      "evidence_type": "depth_chart_marker",
+      "status": "candidate"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Jaylin Noel",
+      "affected_positions": [
+        "WR"
+      ],
+      "signal_class": "health",
+      "summary": "Ramping back up at practice",
+      "mechanism": "Practice participation or absence is an availability signal; it does not establish a regular-season workload or recovery timetable.",
+      "direction": 1,
+      "raw_adjustment": 0.75,
+      "capped_adjustment": 0.75,
+      "confidence": 0.72,
+      "source_name": "RotoWire",
+      "source_url": "https://www.rotowire.com/football/headlines/jaylin-noel-injury-ramping-back-up-at-practice-634186",
+      "published_at": "2026-08-19T00:00:00Z",
+      "retrieved_at": "2026-08-20T21:06:55Z",
+      "expires_at": "2026-09-09T00:00:00Z",
+      "evidence_type": "attributed_practice_or_injury_report",
+      "status": "approved"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Jeremiyah Love",
+      "affected_positions": [
+        "RB"
+      ],
+      "signal_class": "health",
+      "summary": "Listed at RB depth 1 and marked injured/inactive.",
+      "mechanism": "This is a factual depth-chart marker. It does not by itself establish severity, workload, efficiency, or fantasy direction.",
+      "direction": 0,
+      "raw_adjustment": 0.0,
+      "capped_adjustment": 0.0,
+      "confidence": 0.66,
+      "source_name": "Ourlads",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/54955/",
+      "published_at": "2026-08-19T14:16:00Z",
+      "retrieved_at": "2026-08-20T21:06:55Z",
+      "expires_at": "2026-09-02T14:16:00Z",
+      "evidence_type": "depth_chart_marker",
+      "status": "candidate"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Jordyn Tyson",
+      "affected_positions": [
+        "WR"
+      ],
+      "signal_class": "health",
+      "summary": "Listed at LWR depth 1 and marked injured/inactive.",
+      "mechanism": "This is a factual depth-chart marker. It does not by itself establish severity, workload, efficiency, or fantasy direction.",
+      "direction": 0,
+      "raw_adjustment": 0.0,
+      "capped_adjustment": 0.0,
+      "confidence": 0.66,
+      "source_name": "Ourlads",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/54960/",
+      "published_at": "2026-08-19T13:13:00Z",
+      "retrieved_at": "2026-08-20T21:06:55Z",
+      "expires_at": "2026-09-02T13:13:00Z",
+      "evidence_type": "depth_chart_marker",
+      "status": "candidate"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Justin Fields",
+      "affected_positions": [
+        "QB"
+      ],
+      "signal_class": "role",
+      "summary": "Listed at QB depth 2 and marked 2026 acquisition.",
+      "mechanism": "This is a factual depth-chart marker. It does not by itself establish severity, workload, efficiency, or fantasy direction.",
+      "direction": 0,
+      "raw_adjustment": 0.0,
+      "capped_adjustment": 0.0,
+      "confidence": 0.62,
+      "source_name": "Ourlads",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/43328/",
+      "published_at": "2026-08-20T13:20:00Z",
+      "retrieved_at": "2026-08-20T21:06:55Z",
+      "expires_at": "2026-09-03T13:20:00Z",
+      "evidence_type": "depth_chart_marker",
+      "status": "candidate"
+    },
+    {
+      "entity_type": "player",
+      "entity": "KC Concepcion",
+      "affected_positions": [
+        "WR"
+      ],
+      "signal_class": "development",
+      "summary": "FantasyGuru highlights Concepcion's separation and open-field profile plus limited target competition in Cleveland.",
+      "mechanism": "A versatile rookie with a credible route to early targets offers late-round ceiling, though quarterback play limits confidence.",
+      "direction": 1,
+      "raw_adjustment": 0.6,
+      "capped_adjustment": 0.6,
+      "confidence": 0.62,
+      "source_name": "FantasyGuru - Wide Receiver Outlooks",
+      "source_url": "https://www.fantasyguru.com/2026-fantasy-football-wide-receiver-outlooks",
+      "published_at": "2026-06-01",
+      "retrieved_at": "2026-08-17",
+      "expires_at": "2026-09-15",
+      "evidence_type": "rookie_profile_and_depth_chart_analysis",
+      "status": "approved"
+    },
+    {
+      "entity_type": "player",
+      "entity": "KC Concepcion",
+      "affected_positions": [
+        "WR"
+      ],
+      "signal_class": "development",
+      "summary": "Listed at SWR depth 1 and marked 2026 draft pick.",
+      "mechanism": "This is a factual depth-chart marker. It does not by itself establish severity, workload, efficiency, or fantasy direction.",
+      "direction": 0,
+      "raw_adjustment": 0.0,
+      "capped_adjustment": 0.0,
+      "confidence": 0.62,
+      "source_name": "Ourlads",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/54976/",
+      "published_at": "2026-08-20T13:21:00Z",
+      "retrieved_at": "2026-08-20T21:06:55Z",
+      "expires_at": "2026-09-03T13:21:00Z",
+      "evidence_type": "depth_chart_marker",
+      "status": "candidate"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Keaton Mitchell",
+      "affected_positions": [
+        "RB"
+      ],
+      "signal_class": "role",
+      "summary": "Listed at RB depth 2 and marked 2026 acquisition.",
+      "mechanism": "This is a factual depth-chart marker. It does not by itself establish severity, workload, efficiency, or fantasy direction.",
+      "direction": 0,
+      "raw_adjustment": 0.0,
+      "capped_adjustment": 0.0,
+      "confidence": 0.62,
+      "source_name": "Ourlads",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/50393/",
+      "published_at": "2026-08-20T13:12:00Z",
+      "retrieved_at": "2026-08-20T21:06:55Z",
+      "expires_at": "2026-09-03T13:12:00Z",
+      "evidence_type": "depth_chart_marker",
+      "status": "candidate"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Kenneth Walker",
+      "affected_positions": [
+        "RB"
+      ],
+      "signal_class": "role",
+      "summary": "Listed at RB depth 1 and marked 2026 acquisition.",
+      "mechanism": "This is a factual depth-chart marker. It does not by itself establish severity, workload, efficiency, or fantasy direction.",
+      "direction": 0,
+      "raw_adjustment": 0.0,
+      "capped_adjustment": 0.0,
+      "confidence": 0.62,
+      "source_name": "Ourlads",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/46868/",
+      "published_at": "2026-08-20T13:20:00Z",
+      "retrieved_at": "2026-08-20T21:06:55Z",
+      "expires_at": "2026-09-03T13:20:00Z",
+      "evidence_type": "depth_chart_marker",
+      "status": "candidate"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Kenneth Walker III",
+      "affected_positions": [
+        "RB"
+      ],
+      "signal_class": "role",
+      "summary": "FantasyGuru projects Walker as Kansas City's every-down back after the club made a substantial multiyear investment.",
+      "mechanism": "A larger share of a high-value backfield can lift both touch volume and touchdown opportunity.",
+      "direction": 1,
+      "raw_adjustment": 1.1,
+      "capped_adjustment": 1.1,
+      "confidence": 0.78,
+      "source_name": "FantasyGuru - Same Faces In New Places",
+      "source_url": "https://www.fantasyguru.com/2026-same-faces-in-new-places",
+      "published_at": "2026-06-29",
+      "retrieved_at": "2026-08-17",
+      "expires_at": "2026-09-15",
+      "evidence_type": "contract_and_role_analysis",
+      "status": "approved"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Kenny Gainwell",
+      "affected_positions": [
+        "RB"
+      ],
+      "signal_class": "role",
+      "summary": "Listed at RB depth 2 and marked 2026 acquisition.",
+      "mechanism": "This is a factual depth-chart marker. It does not by itself establish severity, workload, efficiency, or fantasy direction.",
+      "direction": 0,
+      "raw_adjustment": 0.0,
+      "capped_adjustment": 0.0,
+      "confidence": 0.62,
+      "source_name": "Ourlads",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/43468/",
+      "published_at": "2026-08-20T13:38:00Z",
+      "retrieved_at": "2026-08-20T21:06:55Z",
+      "expires_at": "2026-09-03T13:38:00Z",
+      "evidence_type": "depth_chart_marker",
+      "status": "candidate"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Kenyon Sadiq",
+      "affected_positions": [
+        "TE"
+      ],
+      "signal_class": "development",
+      "summary": "Listed at TE depth 2 and marked 2026 draft pick.",
+      "mechanism": "This is a factual depth-chart marker. It does not by itself establish severity, workload, efficiency, or fantasy direction.",
+      "direction": 0,
+      "raw_adjustment": 0.0,
+      "capped_adjustment": 0.0,
+      "confidence": 0.62,
+      "source_name": "Ourlads",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/54968/",
+      "published_at": "2026-08-20T13:16:00Z",
+      "retrieved_at": "2026-08-20T21:06:55Z",
+      "expires_at": "2026-09-03T13:16:00Z",
+      "evidence_type": "depth_chart_marker",
+      "status": "candidate"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Kirk Cousins",
+      "affected_positions": [
+        "QB"
+      ],
+      "signal_class": "role",
+      "summary": "Listed at QB depth 1 and marked 2026 acquisition.",
+      "mechanism": "This is a factual depth-chart marker. It does not by itself establish severity, workload, efficiency, or fantasy direction.",
+      "direction": 0,
+      "raw_adjustment": 0.0,
+      "capped_adjustment": 0.0,
+      "confidence": 0.62,
+      "source_name": "Ourlads",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/33415/",
+      "published_at": "2026-08-17T23:10:00Z",
+      "retrieved_at": "2026-08-20T21:06:55Z",
+      "expires_at": "2026-08-31T23:10:00Z",
+      "evidence_type": "depth_chart_marker",
+      "status": "candidate"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Kyle Monangai",
+      "affected_positions": [
+        "RB"
+      ],
+      "signal_class": "health",
+      "summary": "Diagnosed with hyperextended knee",
+      "mechanism": "Practice participation or absence is an availability signal; it does not establish a regular-season workload or recovery timetable.",
+      "direction": -1,
+      "raw_adjustment": -0.75,
+      "capped_adjustment": -0.75,
+      "confidence": 0.72,
+      "source_name": "RotoWire",
+      "source_url": "https://www.rotowire.com/football/headlines/kyle-monangai-injury-diagnosed-with-hyperextended-knee-633960",
+      "published_at": "2026-08-17T00:00:00Z",
+      "retrieved_at": "2026-08-20T21:06:55Z",
+      "expires_at": "2026-09-07T00:00:00Z",
+      "evidence_type": "attributed_practice_or_injury_report",
+      "status": "approved"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Kyler Murray",
+      "affected_positions": [
+        "QB"
+      ],
+      "signal_class": "environment",
+      "summary": "FantasyGuru expects Murray to be the favorite for Minnesota's Week 1 job and views him as an appealing QB2 in two-QB formats.",
+      "mechanism": "Kevin O'Connell's offense and Minnesota's receiving group improve Murray's passing environment, while his rushing history supports a useful fantasy floor.",
+      "direction": 1,
+      "raw_adjustment": 1.2,
+      "capped_adjustment": 1.2,
+      "confidence": 0.72,
+      "source_name": "FantasyGuru - Same Faces In New Places",
+      "source_url": "https://www.fantasyguru.com/2026-same-faces-in-new-places",
+      "published_at": "2026-06-29",
+      "retrieved_at": "2026-08-17",
+      "expires_at": "2026-09-10",
+      "evidence_type": "expert_role_analysis",
+      "status": "approved"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Kyler Murray",
+      "affected_positions": [
+        "QB"
+      ],
+      "signal_class": "role",
+      "summary": "Listed at QB depth 1 and marked 2026 acquisition.",
+      "mechanism": "This is a factual depth-chart marker. It does not by itself establish severity, workload, efficiency, or fantasy direction.",
+      "direction": 0,
+      "raw_adjustment": 0.0,
+      "capped_adjustment": 0.0,
+      "confidence": 0.62,
+      "source_name": "Ourlads",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/36972/",
+      "published_at": "2026-08-19T13:46:00Z",
+      "retrieved_at": "2026-08-20T21:06:55Z",
+      "expires_at": "2026-09-02T13:46:00Z",
+      "evidence_type": "depth_chart_marker",
+      "status": "candidate"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Luther Burden III",
+      "affected_positions": [
+        "WR"
+      ],
+      "signal_class": "development",
+      "summary": "FantasyGuru identifies Burden as a Year 2 breakout candidate after strong per-route production and Chicago's removal of veteran target competition.",
+      "mechanism": "More routes and snaps can convert an already strong target rate and yards-per-route profile into dependable volume.",
+      "direction": 1,
+      "raw_adjustment": 1.0,
+      "capped_adjustment": 1.0,
+      "confidence": 0.75,
+      "source_name": "FantasyGuru - Wide Receiver Outlooks",
+      "source_url": "https://www.fantasyguru.com/2026-fantasy-football-wide-receiver-outlooks",
+      "published_at": "2026-06-01",
+      "retrieved_at": "2026-08-17",
+      "expires_at": "2026-09-15",
+      "evidence_type": "usage_and_efficiency_analysis",
+      "status": "approved"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Makai Lemon",
+      "affected_positions": [
+        "WR"
+      ],
+      "signal_class": "development",
+      "summary": "FantasyGuru expects Philadelphia's rookie to benefit from vacated targets and a new coordinator with a crossing-route-oriented coaching background.",
+      "mechanism": "Immediate slot access plus a scheme suited to yards after the catch creates late-round upside.",
+      "direction": 1,
+      "raw_adjustment": 0.8,
+      "capped_adjustment": 0.8,
+      "confidence": 0.65,
+      "source_name": "FantasyGuru - Wide Receiver Outlooks",
+      "source_url": "https://www.fantasyguru.com/2026-fantasy-football-wide-receiver-outlooks",
+      "published_at": "2026-06-01",
+      "retrieved_at": "2026-08-17",
+      "expires_at": "2026-09-15",
+      "evidence_type": "rookie_role_and_scheme_analysis",
+      "status": "approved"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Makai Lemon",
+      "affected_positions": [
+        "WR"
+      ],
+      "signal_class": "development",
+      "summary": "Listed at SWR depth 1 and marked 2026 draft pick.",
+      "mechanism": "This is a factual depth-chart marker. It does not by itself establish severity, workload, efficiency, or fantasy direction.",
+      "direction": 0,
+      "raw_adjustment": 0.0,
+      "capped_adjustment": 0.0,
+      "confidence": 0.62,
+      "source_name": "Ourlads",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/54972/",
+      "published_at": "2026-08-17T12:11:00Z",
+      "retrieved_at": "2026-08-20T21:06:55Z",
+      "expires_at": "2026-08-31T12:11:00Z",
+      "evidence_type": "depth_chart_marker",
+      "status": "candidate"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Makai Lemon",
+      "affected_positions": [
+        "WR"
+      ],
+      "signal_class": "health",
+      "summary": "Will not practice Monday",
+      "mechanism": "Practice participation or absence is an availability signal; it does not establish a regular-season workload or recovery timetable.",
+      "direction": -1,
+      "raw_adjustment": -0.75,
+      "capped_adjustment": -0.75,
+      "confidence": 0.72,
+      "source_name": "RotoWire",
+      "source_url": "https://www.rotowire.com/football/headlines/makai-lemon-injury-will-not-practice-monday-633933",
+      "published_at": "2026-08-17T00:00:00Z",
+      "retrieved_at": "2026-08-20T21:06:55Z",
+      "expires_at": "2026-09-07T00:00:00Z",
+      "evidence_type": "attributed_practice_or_injury_report",
+      "status": "approved"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Malachi Fields",
+      "affected_positions": [
+        "WR"
+      ],
+      "signal_class": "development",
+      "summary": "Listed at LWR depth 2 and marked 2026 draft pick.",
+      "mechanism": "This is a factual depth-chart marker. It does not by itself establish severity, workload, efficiency, or fantasy direction.",
+      "direction": 0,
+      "raw_adjustment": 0.0,
+      "capped_adjustment": 0.0,
+      "confidence": 0.62,
+      "source_name": "Ourlads",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/55026/",
+      "published_at": "2026-08-20T13:08:00Z",
+      "retrieved_at": "2026-08-20T21:06:55Z",
+      "expires_at": "2026-09-03T13:08:00Z",
+      "evidence_type": "depth_chart_marker",
+      "status": "candidate"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Malik Nabers",
+      "affected_positions": [
+        "WR"
+      ],
+      "signal_class": "health",
+      "summary": "Listed at LWR depth 1 and marked injured/inactive.",
+      "mechanism": "This is a factual depth-chart marker. It does not by itself establish severity, workload, efficiency, or fantasy direction.",
+      "direction": 0,
+      "raw_adjustment": 0.0,
+      "capped_adjustment": 0.0,
+      "confidence": 0.66,
+      "source_name": "Ourlads",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/53234/",
+      "published_at": "2026-08-20T13:08:00Z",
+      "retrieved_at": "2026-08-20T21:06:55Z",
+      "expires_at": "2026-09-03T13:08:00Z",
+      "evidence_type": "depth_chart_marker",
+      "status": "candidate"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Malik Nabers",
+      "affected_positions": [
+        "WR"
+      ],
+      "signal_class": "health",
+      "summary": "Sitting out joint practices this week",
+      "mechanism": "Practice participation or absence is an availability signal; it does not establish a regular-season workload or recovery timetable.",
+      "direction": -1,
+      "raw_adjustment": -0.75,
+      "capped_adjustment": -0.75,
+      "confidence": 0.72,
+      "source_name": "RotoWire",
+      "source_url": "https://www.rotowire.com/football/headlines/malik-nabers-injury-sitting-out-joint-practices-this-week-634225",
+      "published_at": "2026-08-20T00:00:00Z",
+      "retrieved_at": "2026-08-20T21:06:55Z",
+      "expires_at": "2026-09-10T00:00:00Z",
+      "evidence_type": "attributed_practice_or_injury_report",
+      "status": "approved"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Malik Willis",
+      "affected_positions": [
+        "QB"
+      ],
+      "signal_class": "role",
+      "summary": "FantasyGuru identifies Willis as a two-QB target because Miami committed to him and his rushing can stabilize an otherwise uncertain profile.",
+      "mechanism": "A starting job plus designed or improvised rushing can create QB2 value even if passing volume and supporting talent are mediocre.",
+      "direction": 1,
+      "raw_adjustment": 0.7,
+      "capped_adjustment": 0.7,
+      "confidence": 0.64,
+      "source_name": "FantasyGuru - Same Faces In New Places",
+      "source_url": "https://www.fantasyguru.com/2026-same-faces-in-new-places",
+      "published_at": "2026-06-29",
+      "retrieved_at": "2026-08-17",
+      "expires_at": "2026-09-10",
+      "evidence_type": "expert_role_analysis",
+      "status": "approved"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Malik Willis",
+      "affected_positions": [
+        "QB"
+      ],
+      "signal_class": "role",
+      "summary": "Listed at QB depth 1 and marked 2026 acquisition.",
+      "mechanism": "This is a factual depth-chart marker. It does not by itself establish severity, workload, efficiency, or fantasy direction.",
+      "direction": 0,
+      "raw_adjustment": 0.0,
+      "capped_adjustment": 0.0,
+      "confidence": 0.62,
+      "source_name": "Ourlads",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/46898/",
+      "published_at": "2026-08-20T13:15:00Z",
+      "retrieved_at": "2026-08-20T21:06:55Z",
+      "expires_at": "2026-09-03T13:15:00Z",
+      "evidence_type": "depth_chart_marker",
+      "status": "candidate"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Marvin Harrison Jr.",
+      "affected_positions": [
+        "WR"
+      ],
+      "signal_class": "scheme",
+      "summary": "Arizona's new staff plans to move Harrison among the slot, X, and Z alignments after an injury-affected 2025.",
+      "mechanism": "More varied deployment can create easier touches and improve consistency for a receiver previously used too statically.",
+      "direction": 1,
+      "raw_adjustment": 0.6,
+      "capped_adjustment": 0.6,
+      "confidence": 0.66,
+      "source_name": "FantasyGuru - Wide Receiver Outlooks",
+      "source_url": "https://www.fantasyguru.com/2026-fantasy-football-wide-receiver-outlooks",
+      "published_at": "2026-06-01",
+      "retrieved_at": "2026-08-17",
+      "expires_at": "2026-09-15",
+      "evidence_type": "attributed_coach_scheme_plan",
+      "status": "approved"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Michael Penix Jr.",
+      "affected_positions": [
+        "QB"
+      ],
+      "signal_class": "health",
+      "summary": "Listed at QB depth 1 and marked injured/inactive.",
+      "mechanism": "This is a factual depth-chart marker. It does not by itself establish severity, workload, efficiency, or fantasy direction.",
+      "direction": 0,
+      "raw_adjustment": 0.0,
+      "capped_adjustment": 0.0,
+      "confidence": 0.66,
+      "source_name": "Ourlads",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/53236/",
+      "published_at": "2026-08-20T13:13:00Z",
+      "retrieved_at": "2026-08-20T21:06:55Z",
+      "expires_at": "2026-09-03T13:13:00Z",
+      "evidence_type": "depth_chart_marker",
+      "status": "candidate"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Michael Pittman Jr.",
+      "affected_positions": [
+        "WR"
+      ],
+      "signal_class": "role",
+      "summary": "Listed at RWR depth 1 and marked 2026 acquisition.",
+      "mechanism": "This is a factual depth-chart marker. It does not by itself establish severity, workload, efficiency, or fantasy direction.",
+      "direction": 0,
+      "raw_adjustment": 0.0,
+      "capped_adjustment": 0.0,
+      "confidence": 0.62,
+      "source_name": "Ourlads",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/40274/",
+      "published_at": "2026-08-13T18:11:00Z",
+      "retrieved_at": "2026-08-20T21:06:55Z",
+      "expires_at": "2026-08-27T18:11:00Z",
+      "evidence_type": "depth_chart_marker",
+      "status": "candidate"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Mike Evans",
+      "affected_positions": [
+        "WR"
+      ],
+      "signal_class": "role",
+      "summary": "Listed at LWR depth 1 and marked 2026 acquisition.",
+      "mechanism": "This is a factual depth-chart marker. It does not by itself establish severity, workload, efficiency, or fantasy direction.",
+      "direction": 0,
+      "raw_adjustment": 0.0,
+      "capped_adjustment": 0.0,
+      "confidence": 0.62,
+      "source_name": "Ourlads",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/20930/",
+      "published_at": "2026-08-20T13:16:00Z",
+      "retrieved_at": "2026-08-20T21:06:55Z",
+      "expires_at": "2026-09-03T13:16:00Z",
+      "evidence_type": "depth_chart_marker",
+      "status": "candidate"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Mike Washington Jr.",
+      "affected_positions": [
+        "RB"
+      ],
+      "signal_class": "development",
+      "summary": "Listed at RB depth 2 and marked 2026 draft pick.",
+      "mechanism": "This is a factual depth-chart marker. It does not by itself establish severity, workload, efficiency, or fantasy direction.",
+      "direction": 0,
+      "raw_adjustment": 0.0,
+      "capped_adjustment": 0.0,
+      "confidence": 0.62,
+      "source_name": "Ourlads",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/55074/",
+      "published_at": "2026-08-17T23:10:00Z",
+      "retrieved_at": "2026-08-20T21:06:55Z",
+      "expires_at": "2026-08-31T23:10:00Z",
+      "evidence_type": "depth_chart_marker",
+      "status": "candidate"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Nicholas Singleton",
+      "affected_positions": [
+        "RB"
+      ],
+      "signal_class": "role",
+      "summary": "Nicholas Singleton could earn a larger Tennessee role if the rebuilt line leans toward the man-gap concepts that fit him better than Tony Pollard.",
+      "mechanism": "The blocking mix creates a conditional path to a significant niche rather than a verified current workload.",
+      "direction": 0,
+      "raw_adjustment": 0.0,
+      "capped_adjustment": 0.0,
+      "confidence": 0.6,
+      "source_name": "FantasyGuru - Titans Coaching Breakdown",
+      "source_url": "https://www.fantasyguru.com/coaching-breakdown-tennessee-titans-2026",
+      "published_at": "2026-07-15",
+      "retrieved_at": "2026-08-20",
+      "expires_at": "2026-09-20",
+      "evidence_type": "authenticated_conditional_role_analysis",
+      "status": "research_only"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Omar Cooper Jr.",
+      "affected_positions": [
+        "WR"
+      ],
+      "signal_class": "development",
+      "summary": "Listed at SWR depth 2 and marked 2026 draft pick.",
+      "mechanism": "This is a factual depth-chart marker. It does not by itself establish severity, workload, efficiency, or fantasy direction.",
+      "direction": 0,
+      "raw_adjustment": 0.0,
+      "capped_adjustment": 0.0,
+      "confidence": 0.62,
+      "source_name": "Ourlads",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/54982/",
+      "published_at": "2026-08-20T13:16:00Z",
+      "retrieved_at": "2026-08-20T21:06:55Z",
+      "expires_at": "2026-09-03T13:16:00Z",
+      "evidence_type": "depth_chart_marker",
+      "status": "candidate"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Oronde Gadsden II",
+      "affected_positions": [
+        "TE"
+      ],
+      "signal_class": "scheme",
+      "summary": "FantasyGuru still prefers Gadsden atop the Chargers' tight-end room but notes added competition and Mike McDaniel's historically low 12-personnel use.",
+      "mechanism": "Fewer two-tight-end packages and more competition reduce route certainty, limiting the breakout case.",
+      "direction": -1,
+      "raw_adjustment": -0.5,
+      "capped_adjustment": -0.5,
+      "confidence": 0.66,
+      "source_name": "FantasyGuru - Same Faces In New Places",
+      "source_url": "https://www.fantasyguru.com/2026-same-faces-in-new-places",
+      "published_at": "2026-06-29",
+      "retrieved_at": "2026-08-17",
+      "expires_at": "2026-09-15",
+      "evidence_type": "personnel_and_role_analysis",
+      "status": "approved"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Parker Washington",
+      "affected_positions": [
+        "WR"
+      ],
+      "signal_class": "development",
+      "summary": "FantasyGuru notes Washington led Jacksonville in several per-route measures over its final eight games and projects him ahead of Travis Hunter entering 2026.",
+      "mechanism": "A growing role in a historically productive slot assignment creates a plausible low-cost breakout path.",
+      "direction": 1,
+      "raw_adjustment": 0.9,
+      "capped_adjustment": 0.9,
+      "confidence": 0.74,
+      "source_name": "FantasyGuru - Wide Receiver Outlooks",
+      "source_url": "https://www.fantasyguru.com/2026-fantasy-football-wide-receiver-outlooks",
+      "published_at": "2026-06-01",
+      "retrieved_at": "2026-08-17",
+      "expires_at": "2026-09-15",
+      "evidence_type": "late_season_usage_analysis",
+      "status": "approved"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Puka Nacua",
+      "affected_positions": [
+        "WR"
+      ],
+      "signal_class": "health",
+      "summary": "Could remain sidelined all week",
+      "mechanism": "Practice participation or absence is an availability signal; it does not establish a regular-season workload or recovery timetable.",
+      "direction": -1,
+      "raw_adjustment": -0.75,
+      "capped_adjustment": -0.75,
+      "confidence": 0.72,
+      "source_name": "RotoWire",
+      "source_url": "https://www.rotowire.com/football/headlines/puka-nacua-injury-could-remain-sidelined-all-week-633948",
+      "published_at": "2026-08-17T00:00:00Z",
+      "retrieved_at": "2026-08-20T21:06:55Z",
+      "expires_at": "2026-09-07T00:00:00Z",
+      "evidence_type": "attributed_practice_or_injury_report",
+      "status": "candidate"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Quinshon Judkins",
+      "affected_positions": [
+        "RB"
+      ],
+      "signal_class": "health",
+      "summary": "Not spotted at Thursday's practice",
+      "mechanism": "Practice participation or absence is an availability signal; it does not establish a regular-season workload or recovery timetable.",
+      "direction": -1,
+      "raw_adjustment": -0.75,
+      "capped_adjustment": -0.75,
+      "confidence": 0.72,
+      "source_name": "RotoWire",
+      "source_url": "https://www.rotowire.com/football/headlines/quinshon-judkins-injury-not-spotted-at-thursdays-practice-634236",
+      "published_at": "2026-08-20T00:00:00Z",
+      "retrieved_at": "2026-08-20T21:06:55Z",
+      "expires_at": "2026-09-10T00:00:00Z",
+      "evidence_type": "attributed_practice_or_injury_report",
+      "status": "candidate"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Rachaad White",
+      "affected_positions": [
+        "RB"
+      ],
+      "signal_class": "role",
+      "summary": "Listed at RB depth 2 and marked 2026 acquisition.",
+      "mechanism": "This is a factual depth-chart marker. It does not by itself establish severity, workload, efficiency, or fantasy direction.",
+      "direction": 0,
+      "raw_adjustment": 0.0,
+      "capped_adjustment": 0.0,
+      "confidence": 0.62,
+      "source_name": "Ourlads",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/46919/",
+      "published_at": "2026-08-18T10:00:00Z",
+      "retrieved_at": "2026-08-20T21:06:55Z",
+      "expires_at": "2026-09-01T10:00:00Z",
+      "evidence_type": "depth_chart_marker",
+      "status": "candidate"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Rhamondre Stevenson",
+      "affected_positions": [
+        "RB"
+      ],
+      "signal_class": "role",
+      "summary": "Set to share backfield with Henderson",
+      "mechanism": "The report directly addresses roster status or workload, but downstream fantasy volume is not assumed.",
+      "direction": 0,
+      "raw_adjustment": 0.0,
+      "capped_adjustment": 0.0,
+      "confidence": 0.55,
+      "source_name": "RotoWire",
+      "source_url": "https://www.rotowire.com/football/headlines/rhamondre-stevenson-news-set-to-share-backfield-with-henderson-633949",
+      "published_at": "2026-08-17T00:00:00Z",
+      "retrieved_at": "2026-08-20T21:06:55Z",
+      "expires_at": "2026-09-07T00:00:00Z",
+      "evidence_type": "attributed_report",
+      "status": "research_only"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Rico Dowdle",
+      "affected_positions": [
+        "RB"
+      ],
+      "signal_class": "role",
+      "summary": "Listed at RB depth 2 and marked 2026 acquisition.",
+      "mechanism": "This is a factual depth-chart marker. It does not by itself establish severity, workload, efficiency, or fantasy direction.",
+      "direction": 0,
+      "raw_adjustment": 0.0,
+      "capped_adjustment": 0.0,
+      "confidence": 0.62,
+      "source_name": "Ourlads",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/40914/",
+      "published_at": "2026-08-13T18:11:00Z",
+      "retrieved_at": "2026-08-20T21:06:55Z",
+      "expires_at": "2026-08-27T18:11:00Z",
+      "evidence_type": "depth_chart_marker",
+      "status": "candidate"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Romeo Doubs",
+      "affected_positions": [
+        "WR"
+      ],
+      "signal_class": "role",
+      "summary": "Listed at RWR depth 1 and marked 2026 acquisition.",
+      "mechanism": "This is a factual depth-chart marker. It does not by itself establish severity, workload, efficiency, or fantasy direction.",
+      "direction": 0,
+      "raw_adjustment": 0.0,
+      "capped_adjustment": 0.0,
+      "confidence": 0.62,
+      "source_name": "Ourlads",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/46959/",
+      "published_at": "2026-08-18T16:45:00Z",
+      "retrieved_at": "2026-08-20T21:06:55Z",
+      "expires_at": "2026-09-01T16:45:00Z",
+      "evidence_type": "depth_chart_marker",
+      "status": "candidate"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Stefon Diggs",
+      "affected_positions": [
+        "WR"
+      ],
+      "signal_class": "role",
+      "summary": "Listed at RWR depth 1 and marked 2026 acquisition.",
+      "mechanism": "This is a factual depth-chart marker. It does not by itself establish severity, workload, efficiency, or fantasy direction.",
+      "direction": 0,
+      "raw_adjustment": 0.0,
+      "capped_adjustment": 0.0,
+      "confidence": 0.62,
+      "source_name": "Ourlads",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/40044/",
+      "published_at": "2026-08-18T10:00:00Z",
+      "retrieved_at": "2026-08-20T21:06:55Z",
+      "expires_at": "2026-09-01T10:00:00Z",
+      "evidence_type": "depth_chart_marker",
+      "status": "candidate"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Tank Bigsby",
+      "affected_positions": [
+        "RB"
+      ],
+      "signal_class": "health",
+      "summary": "Sitting Monday with toe issue",
+      "mechanism": "Practice participation or absence is an availability signal; it does not establish a regular-season workload or recovery timetable.",
+      "direction": -1,
+      "raw_adjustment": -0.75,
+      "capped_adjustment": -0.75,
+      "confidence": 0.72,
+      "source_name": "RotoWire",
+      "source_url": "https://www.rotowire.com/football/headlines/tank-bigsby-injury-sitting-monday-with-toe-issue-633935",
+      "published_at": "2026-08-17T00:00:00Z",
+      "retrieved_at": "2026-08-20T21:06:55Z",
+      "expires_at": "2026-09-07T00:00:00Z",
+      "evidence_type": "attributed_practice_or_injury_report",
+      "status": "approved"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Tank Dell",
+      "affected_positions": [
+        "WR"
+      ],
+      "signal_class": "health",
+      "summary": "Listed at RWR depth 2 and marked injured/inactive.",
+      "mechanism": "This is a factual depth-chart marker. It does not by itself establish severity, workload, efficiency, or fantasy direction.",
+      "direction": 0,
+      "raw_adjustment": 0.0,
+      "capped_adjustment": 0.0,
+      "confidence": 0.66,
+      "source_name": "Ourlads",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/50148/",
+      "published_at": "2026-08-17T12:05:00Z",
+      "retrieved_at": "2026-08-20T21:06:55Z",
+      "expires_at": "2026-08-31T12:05:00Z",
+      "evidence_type": "depth_chart_marker",
+      "status": "candidate"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Tank Dell",
+      "affected_positions": [
+        "WR"
+      ],
+      "signal_class": "health",
+      "summary": "Working back at his own pace",
+      "mechanism": "Practice participation or absence is an availability signal; it does not establish a regular-season workload or recovery timetable.",
+      "direction": -1,
+      "raw_adjustment": -0.75,
+      "capped_adjustment": -0.75,
+      "confidence": 0.72,
+      "source_name": "RotoWire",
+      "source_url": "https://www.rotowire.com/football/headlines/tank-dell-injury-working-back-at-his-own-pace-633941",
+      "published_at": "2026-08-17T00:00:00Z",
+      "retrieved_at": "2026-08-20T21:06:55Z",
+      "expires_at": "2026-09-07T00:00:00Z",
+      "evidence_type": "attributed_practice_or_injury_report",
+      "status": "candidate"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Ted Hurst III",
+      "affected_positions": [
+        "WR"
+      ],
+      "signal_class": "development",
+      "summary": "Listed at LWR depth 2 and marked 2026 draft pick.",
+      "mechanism": "This is a factual depth-chart marker. It does not by itself establish severity, workload, efficiency, or fantasy direction.",
+      "direction": 0,
+      "raw_adjustment": 0.0,
+      "capped_adjustment": 0.0,
+      "confidence": 0.62,
+      "source_name": "Ourlads",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/55036/",
+      "published_at": "2026-08-20T13:38:00Z",
+      "retrieved_at": "2026-08-20T21:06:55Z",
+      "expires_at": "2026-09-03T13:38:00Z",
+      "evidence_type": "depth_chart_marker",
+      "status": "candidate"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Terry McLaurin",
+      "affected_positions": [
+        "WR"
+      ],
+      "signal_class": "role",
+      "summary": "Washington's new offensive coordinator has described an offense built around high McLaurin target volume, and the club added little veteran competition.",
+      "mechanism": "Formation movement and an explicit volume plan increase the probability of a target rebound.",
+      "direction": 1,
+      "raw_adjustment": 0.8,
+      "capped_adjustment": 0.8,
+      "confidence": 0.69,
+      "source_name": "FantasyGuru - Wide Receiver Outlooks",
+      "source_url": "https://www.fantasyguru.com/2026-fantasy-football-wide-receiver-outlooks",
+      "published_at": "2026-06-01",
+      "retrieved_at": "2026-08-17",
+      "expires_at": "2026-09-15",
+      "evidence_type": "attributed_coach_role_plan",
+      "status": "approved"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Tony Pollard",
+      "affected_positions": [
+        "RB"
+      ],
+      "signal_class": "health",
+      "summary": "Not spotted at Monday's practice",
+      "mechanism": "Practice participation or absence is an availability signal; it does not establish a regular-season workload or recovery timetable.",
+      "direction": -1,
+      "raw_adjustment": -0.75,
+      "capped_adjustment": -0.75,
+      "confidence": 0.72,
+      "source_name": "RotoWire",
+      "source_url": "https://www.rotowire.com/football/headlines/tony-pollard-news-not-spotted-at-mondays-practice-633946",
+      "published_at": "2026-08-17T00:00:00Z",
+      "retrieved_at": "2026-08-20T21:06:55Z",
+      "expires_at": "2026-09-07T00:00:00Z",
+      "evidence_type": "attributed_practice_or_injury_report",
+      "status": "candidate"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Tony Pollard",
+      "affected_positions": [
+        "RB"
+      ],
+      "signal_class": "scheme",
+      "summary": "Tennessee's run-first plan can support Tony Pollard if the new line coach emphasizes the zone concepts that best fit him.",
+      "mechanism": "Pollard's value rises with successful zone blocking, but poor interior movement or a shift toward man-gap concepts could redirect work to Nicholas Singleton.",
+      "direction": 1,
+      "raw_adjustment": 0.3,
+      "capped_adjustment": 0.3,
+      "confidence": 0.62,
+      "source_name": "FantasyGuru - Titans Coaching Breakdown",
+      "source_url": "https://www.fantasyguru.com/coaching-breakdown-tennessee-titans-2026",
+      "published_at": "2026-07-15",
+      "retrieved_at": "2026-08-20",
+      "expires_at": "2026-09-20",
+      "evidence_type": "authenticated_player_blocking_fit_analysis",
+      "status": "approved"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Travis Etienne",
+      "affected_positions": [
+        "RB"
+      ],
+      "signal_class": "role",
+      "summary": "New Orleans paid Etienne as a featured back, and FantasyGuru expects him to lead the backfield despite Alvin Kamara remaining on the roster.",
+      "mechanism": "A projected every-down role preserves rushing and receiving paths to production in a non-PPR league.",
+      "direction": 1,
+      "raw_adjustment": 1.1,
+      "capped_adjustment": 1.1,
+      "confidence": 0.78,
+      "source_name": "FantasyGuru - Same Faces In New Places",
+      "source_url": "https://www.fantasyguru.com/2026-same-faces-in-new-places",
+      "published_at": "2026-06-29",
+      "retrieved_at": "2026-08-17",
+      "expires_at": "2026-09-15",
+      "evidence_type": "contract_and_role_analysis",
+      "status": "approved"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Travis Etienne Jr.",
+      "affected_positions": [
+        "RB"
+      ],
+      "signal_class": "role",
+      "summary": "Listed at RB depth 1 and marked 2026 acquisition.",
+      "mechanism": "This is a factual depth-chart marker. It does not by itself establish severity, workload, efficiency, or fantasy direction.",
+      "direction": 0,
+      "raw_adjustment": 0.0,
+      "capped_adjustment": 0.0,
+      "confidence": 0.62,
+      "source_name": "Ourlads",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/43342/",
+      "published_at": "2026-08-19T13:13:00Z",
+      "retrieved_at": "2026-08-20T21:06:55Z",
+      "expires_at": "2026-09-02T13:13:00Z",
+      "evidence_type": "depth_chart_marker",
+      "status": "candidate"
+    },
+    {
+      "entity_type": "player",
+      "entity": "TreVeyon Henderson",
+      "affected_positions": [
+        "RB"
+      ],
+      "signal_class": "role",
+      "summary": "Likely looking at '50-50' split",
+      "mechanism": "The report directly addresses roster status or workload, but downstream fantasy volume is not assumed.",
+      "direction": 0,
+      "raw_adjustment": 0.0,
+      "capped_adjustment": 0.0,
+      "confidence": 0.55,
+      "source_name": "RotoWire",
+      "source_url": "https://www.rotowire.com/football/headlines/treveyon-henderson-news-likely-looking-at-50-50-split-633951",
+      "published_at": "2026-08-17T00:00:00Z",
+      "retrieved_at": "2026-08-20T21:06:55Z",
+      "expires_at": "2026-09-07T00:00:00Z",
+      "evidence_type": "attributed_report",
+      "status": "research_only"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Tyler Allgeier",
+      "affected_positions": [
+        "RB"
+      ],
+      "signal_class": "role",
+      "summary": "Listed at RB depth 2 and marked 2026 acquisition.",
+      "mechanism": "This is a factual depth-chart marker. It does not by itself establish severity, workload, efficiency, or fantasy direction.",
+      "direction": 0,
+      "raw_adjustment": 0.0,
+      "capped_adjustment": 0.0,
+      "confidence": 0.62,
+      "source_name": "Ourlads",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/46979/",
+      "published_at": "2026-08-19T14:16:00Z",
+      "retrieved_at": "2026-08-20T21:06:55Z",
+      "expires_at": "2026-09-02T14:16:00Z",
+      "evidence_type": "depth_chart_marker",
+      "status": "candidate"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Tyler Warren",
+      "affected_positions": [
+        "TE"
+      ],
+      "signal_class": "health",
+      "summary": "Will miss 'about a week' with groin injury",
+      "mechanism": "Practice participation or absence is an availability signal; it does not establish a regular-season workload or recovery timetable.",
+      "direction": -1,
+      "raw_adjustment": -0.75,
+      "capped_adjustment": -0.75,
+      "confidence": 0.72,
+      "source_name": "RotoWire",
+      "source_url": "https://www.rotowire.com/football/headlines/tyler-warren-injury-will-miss-about-a-week-with-groin-injury-634226",
+      "published_at": "2026-08-20T00:00:00Z",
+      "retrieved_at": "2026-08-20T21:06:55Z",
+      "expires_at": "2026-09-10T00:00:00Z",
+      "evidence_type": "attributed_practice_or_injury_report",
+      "status": "approved"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Wan'Dale Robinson",
+      "affected_positions": [
+        "WR"
+      ],
+      "signal_class": "role",
+      "summary": "Listed at SWR depth 1 and marked 2026 acquisition.",
+      "mechanism": "This is a factual depth-chart marker. It does not by itself establish severity, workload, efficiency, or fantasy direction.",
+      "direction": 0,
+      "raw_adjustment": 0.0,
+      "capped_adjustment": 0.0,
+      "confidence": 0.62,
+      "source_name": "Ourlads",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/46870/",
+      "published_at": "2026-08-19T14:26:00Z",
+      "retrieved_at": "2026-08-20T21:06:55Z",
+      "expires_at": "2026-09-02T14:26:00Z",
+      "evidence_type": "depth_chart_marker",
+      "status": "candidate"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Wan'Dale Robinson",
+      "affected_positions": [
+        "WR"
+      ],
+      "signal_class": "scheme",
+      "summary": "Wan'Dale Robinson is a direct fit for Daboll's quick underneath routes and already succeeded in a similar role under him.",
+      "mechanism": "Screens, drags, and crossing routes align with Robinson's short-area strengths and offer a credible path to stable target volume.",
+      "direction": 1,
+      "raw_adjustment": 0.7,
+      "capped_adjustment": 0.7,
+      "confidence": 0.75,
+      "source_name": "FantasyGuru - Titans Coaching Breakdown",
+      "source_url": "https://www.fantasyguru.com/coaching-breakdown-tennessee-titans-2026",
+      "published_at": "2026-07-15",
+      "retrieved_at": "2026-08-20",
+      "expires_at": "2026-10-01",
+      "evidence_type": "authenticated_player_scheme_fit_analysis",
+      "status": "approved"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Xavier Worthy",
+      "affected_positions": [
+        "WR"
+      ],
+      "signal_class": "health",
+      "summary": "Partakes in 7-on-7 drills",
+      "mechanism": "Practice participation or absence is an availability signal; it does not establish a regular-season workload or recovery timetable.",
+      "direction": 1,
+      "raw_adjustment": 0.75,
+      "capped_adjustment": 0.75,
+      "confidence": 0.72,
+      "source_name": "RotoWire",
+      "source_url": "https://www.rotowire.com/football/headlines/xavier-worthy-injury-partakes-in-7-on-7-drills-633937",
+      "published_at": "2026-08-17T00:00:00Z",
+      "retrieved_at": "2026-08-20T21:06:55Z",
+      "expires_at": "2026-09-07T00:00:00Z",
+      "evidence_type": "attributed_practice_or_injury_report",
+      "status": "approved"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Zach Charbonnet",
+      "affected_positions": [
+        "RB"
+      ],
+      "signal_class": "health",
+      "summary": "Listed at RB depth 1 and marked injured/inactive.",
+      "mechanism": "This is a factual depth-chart marker. It does not by itself establish severity, workload, efficiency, or fantasy direction.",
+      "direction": 0,
+      "raw_adjustment": 0.0,
+      "capped_adjustment": 0.0,
+      "confidence": 0.66,
+      "source_name": "Ourlads",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/50131/",
+      "published_at": "2026-08-19T14:10:00Z",
+      "retrieved_at": "2026-08-20T21:06:55Z",
+      "expires_at": "2026-09-02T14:10:00Z",
+      "evidence_type": "depth_chart_marker",
+      "status": "candidate"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Zachariah Branch",
+      "affected_positions": [
+        "WR"
+      ],
+      "signal_class": "development",
+      "summary": "Listed at SWR depth 2 and marked 2026 draft pick.",
+      "mechanism": "This is a factual depth-chart marker. It does not by itself establish severity, workload, efficiency, or fantasy direction.",
+      "direction": 0,
+      "raw_adjustment": 0.0,
+      "capped_adjustment": 0.0,
+      "confidence": 0.62,
+      "source_name": "Ourlads",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/55031/",
+      "published_at": "2026-08-20T13:13:00Z",
+      "retrieved_at": "2026-08-20T21:06:55Z",
+      "expires_at": "2026-09-03T13:13:00Z",
+      "evidence_type": "depth_chart_marker",
+      "status": "candidate"
+    }
+  ],
+  "team_signals": [
+    {
+      "entity_type": "team",
+      "entity": "Arizona Cardinals",
+      "affected_positions": [
+        "QB",
+        "TE",
+        "WR"
+      ],
+      "signal_class": "environment",
+      "summary": "Arizona improved its line and installed Mike LaFleur's system, but expected quarterback regression could cap the passing-game volume available to its receivers.",
+      "mechanism": "Better design cannot fully offset weaker quarterback efficiency, reducing confidence in repeat target totals for the top pass catchers.",
+      "direction": -1,
+      "raw_adjustment": -0.4,
+      "capped_adjustment": -0.4,
+      "confidence": 0.68,
+      "source_name": "FantasyGuru - Cardinals Coaching Breakdown",
+      "source_url": "https://www.fantasyguru.com/coaching-breakdown-arizona-cardinals-2026",
+      "published_at": null,
+      "retrieved_at": "2026-08-20",
+      "expires_at": "2026-09-30",
+      "evidence_type": "authenticated_coaching_line_and_quarterback_analysis",
+      "status": "approved"
+    },
+    {
+      "entity_type": "team",
+      "entity": "Arizona Cardinals",
+      "affected_positions": [
+        "QB",
+        "RB"
+      ],
+      "signal_class": "environment",
+      "summary": "FantasyGuru grades Arizona's rebuilt 2026 offensive line B-, improved on the left side but still thin and unsettled at right tackle.",
+      "mechanism": "An upgraded interior helps, while right-tackle and depth risk keep protection and run efficiency from being a clear strength.",
+      "direction": 1,
+      "raw_adjustment": 0.1,
+      "capped_adjustment": 0.1,
+      "confidence": 0.68,
+      "source_name": "FantasyGuru - Offensive Line Breakdown",
+      "source_url": "https://www.fantasyguru.com/2026-offensive-line-breakdown",
+      "published_at": "2026-07-10",
+      "retrieved_at": "2026-08-20",
+      "expires_at": "2026-10-01",
+      "evidence_type": "authenticated_unit_grade_and_continuity_analysis",
+      "status": "approved"
+    },
+    {
+      "entity_type": "team",
+      "entity": "Atlanta Falcons",
+      "affected_positions": [
+        "RB",
+        "TE"
+      ],
+      "signal_class": "environment",
+      "summary": "Kevin Stefanski and elite line coach Bill Callahan bring a wide-zone plan expected to run through Bijan Robinson, with Kyle Pitts positioned for short-area work.",
+      "mechanism": "A stabilized line and scheme fit support high rushing efficiency and receiving access for the offense's two most important mismatch players.",
+      "direction": 1,
+      "raw_adjustment": 0.7,
+      "capped_adjustment": 0.7,
+      "confidence": 0.78,
+      "source_name": "FantasyGuru - Falcons Coaching Breakdown",
+      "source_url": "https://www.fantasyguru.com/coaching-breakdown-atlanta-falcons-2026",
+      "published_at": null,
+      "retrieved_at": "2026-08-20",
+      "expires_at": "2026-10-01",
+      "evidence_type": "authenticated_coaching_line_and_role_analysis",
+      "status": "approved"
+    },
+    {
+      "entity_type": "team",
+      "entity": "Atlanta Falcons",
+      "affected_positions": [
+        "QB",
+        "RB"
+      ],
+      "signal_class": "environment",
+      "summary": "FantasyGuru grades Atlanta's 2026 line C+, with four credible starters but a major right-tackle question despite Bill Callahan's arrival.",
+      "mechanism": "Strong coaching and interior play can support the run, while one weak edge can still disrupt protection and outside concepts.",
+      "direction": 0,
+      "raw_adjustment": 0.0,
+      "capped_adjustment": 0.0,
+      "confidence": 0.68,
+      "source_name": "FantasyGuru - Offensive Line Breakdown",
+      "source_url": "https://www.fantasyguru.com/2026-offensive-line-breakdown",
+      "published_at": "2026-07-10",
+      "retrieved_at": "2026-08-20",
+      "expires_at": "2026-10-01",
+      "evidence_type": "authenticated_unit_grade_and_continuity_analysis",
+      "status": "research_only"
+    },
+    {
+      "entity_type": "team",
+      "entity": "Baltimore Ravens",
+      "affected_positions": [
+        "QB",
+        "RB"
+      ],
+      "signal_class": "environment",
+      "summary": "FantasyGuru grades Baltimore's revamped 2026 line C- after losing center Tyler Linderbaum and changing three interior spots.",
+      "mechanism": "Interior turnover and a center downgrade can weaken both pocket stability and the run game until the new group gels.",
+      "direction": -1,
+      "raw_adjustment": -0.3,
+      "capped_adjustment": -0.3,
+      "confidence": 0.74,
+      "source_name": "FantasyGuru - Offensive Line Breakdown",
+      "source_url": "https://www.fantasyguru.com/2026-offensive-line-breakdown",
+      "published_at": "2026-07-10",
+      "retrieved_at": "2026-08-20",
+      "expires_at": "2026-10-01",
+      "evidence_type": "authenticated_unit_grade_and_continuity_analysis",
+      "status": "approved"
+    },
+    {
+      "entity_type": "team",
+      "entity": "Baltimore Ravens",
+      "affected_positions": [
+        "QB",
+        "RB",
+        "TE",
+        "WR"
+      ],
+      "signal_class": "scheme",
+      "summary": "Baltimore is installing a new run-first spread system with play action, creating upside but also a meaningful early-season learning curve.",
+      "mechanism": "The design fits Lamar Jackson, Derrick Henry, and Zay Flowers, while a completely new staff and playbook make the timing and magnitude uncertain.",
+      "direction": 0,
+      "raw_adjustment": 0.0,
+      "capped_adjustment": 0.0,
+      "confidence": 0.62,
+      "source_name": "FantasyGuru - Ravens Coaching Breakdown",
+      "source_url": "https://www.fantasyguru.com/coaching-breakdown-baltimore-ravens-2026",
+      "published_at": null,
+      "retrieved_at": "2026-08-20",
+      "expires_at": "2026-09-30",
+      "evidence_type": "authenticated_coaching_transition_analysis",
+      "status": "research_only"
+    },
+    {
+      "entity_type": "team",
+      "entity": "Buffalo Bills",
+      "affected_positions": [
+        "QB",
+        "RB"
+      ],
+      "signal_class": "environment",
+      "summary": "FantasyGuru grades Buffalo's mostly intact 2026 line A after top-four pass- and run-blocking results in 2025.",
+      "mechanism": "Continuity and high-end blocking support both Josh Allen's pocket and the backfield's efficiency, with left guard the main uncertainty.",
+      "direction": 1,
+      "raw_adjustment": 0.5,
+      "capped_adjustment": 0.5,
+      "confidence": 0.8,
+      "source_name": "FantasyGuru - Offensive Line Breakdown",
+      "source_url": "https://www.fantasyguru.com/2026-offensive-line-breakdown",
+      "published_at": "2026-07-10",
+      "retrieved_at": "2026-08-20",
+      "expires_at": "2026-10-01",
+      "evidence_type": "authenticated_unit_grade_and_continuity_analysis",
+      "status": "approved"
+    },
+    {
+      "entity_type": "team",
+      "entity": "Buffalo Bills",
+      "affected_positions": [
+        "QB",
+        "RB",
+        "TE",
+        "WR"
+      ],
+      "signal_class": "scheme",
+      "summary": "Buffalo remains a run-led, play-action offense with Josh Allen controlling checks and a stronger receiving group around him.",
+      "mechanism": "Continuity, a productive line, and clearer high-value roles support the primary Bills skill players, while complex option rules can punish receivers who do not earn Allen's trust.",
+      "direction": 1,
+      "raw_adjustment": 0.4,
+      "capped_adjustment": 0.4,
+      "confidence": 0.72,
+      "source_name": "FantasyGuru - Bills Coaching Breakdown",
+      "source_url": "https://www.fantasyguru.com/coaching-breakdown-buffalo-bills-2026",
+      "published_at": null,
+      "retrieved_at": "2026-08-20",
+      "expires_at": "2026-10-01",
+      "evidence_type": "authenticated_coaching_and_role_analysis",
+      "status": "approved"
+    },
+    {
+      "entity_type": "team",
+      "entity": "Carolina Panthers",
+      "affected_positions": [
+        "QB",
+        "RB"
+      ],
+      "signal_class": "environment",
+      "summary": "FantasyGuru grades Carolina's deep, balanced 2026 line B+ after a top-four run-blocking finish in 2025.",
+      "mechanism": "Solid starters and credible tackle depth should create running room and reduce the burden on the quarterback.",
+      "direction": 1,
+      "raw_adjustment": 0.3,
+      "capped_adjustment": 0.3,
+      "confidence": 0.76,
+      "source_name": "FantasyGuru - Offensive Line Breakdown",
+      "source_url": "https://www.fantasyguru.com/2026-offensive-line-breakdown",
+      "published_at": "2026-07-10",
+      "retrieved_at": "2026-08-20",
+      "expires_at": "2026-10-01",
+      "evidence_type": "authenticated_unit_grade_and_depth_analysis",
+      "status": "approved"
+    },
+    {
+      "entity_type": "team",
+      "entity": "Carolina Panthers",
+      "affected_positions": [
+        "RB",
+        "WR"
+      ],
+      "signal_class": "scheme",
+      "summary": "Carolina's slow, quick-pass offense supports its running backs and shallow-route receivers but remains vulnerable when defenses vary pressure against simple protection rules.",
+      "mechanism": "High-percentage throws and run volume create usable roles, while the protection design and Bryce Young's limited ceiling constrain explosive output.",
+      "direction": 1,
+      "raw_adjustment": 0.3,
+      "capped_adjustment": 0.3,
+      "confidence": 0.65,
+      "source_name": "FantasyGuru - Panthers Coaching Breakdown",
+      "source_url": "https://www.fantasyguru.com/coaching-breakdown-carolina-panthers-2026",
+      "published_at": null,
+      "retrieved_at": "2026-08-20",
+      "expires_at": "2026-09-30",
+      "evidence_type": "authenticated_coaching_line_and_role_analysis",
+      "status": "approved"
+    },
+    {
+      "entity_type": "team",
+      "entity": "Chicago Bears",
+      "affected_positions": [
+        "QB",
+        "RB"
+      ],
+      "signal_class": "environment",
+      "summary": "FantasyGuru grades Chicago's deep 2026 line A- after top-five pass- and run-blocking results and further draft investment.",
+      "mechanism": "Strong protection and run blocking increase the efficiency floor for Caleb Williams and the backfield.",
+      "direction": 1,
+      "raw_adjustment": 0.4,
+      "capped_adjustment": 0.4,
+      "confidence": 0.79,
+      "source_name": "FantasyGuru - Offensive Line Breakdown",
+      "source_url": "https://www.fantasyguru.com/2026-offensive-line-breakdown",
+      "published_at": "2026-07-10",
+      "retrieved_at": "2026-08-20",
+      "expires_at": "2026-10-01",
+      "evidence_type": "authenticated_unit_grade_and_depth_analysis",
+      "status": "approved"
+    },
+    {
+      "entity_type": "team",
+      "entity": "Chicago Bears",
+      "affected_positions": [
+        "QB",
+        "RB",
+        "TE",
+        "WR"
+      ],
+      "signal_class": "scheme",
+      "summary": "Chicago returns Ben Johnson's versatile run-first offense with improved line depth and defined short-area and vertical roles.",
+      "mechanism": "The structure creates easier throws for Caleb Williams while preserving deep-shot upside and a productive rushing base.",
+      "direction": 1,
+      "raw_adjustment": 0.4,
+      "capped_adjustment": 0.4,
+      "confidence": 0.74,
+      "source_name": "FantasyGuru - Bears Coaching Breakdown",
+      "source_url": "https://www.fantasyguru.com/coaching-breakdown-chicago-bears-2026",
+      "published_at": null,
+      "retrieved_at": "2026-08-20",
+      "expires_at": "2026-10-01",
+      "evidence_type": "authenticated_coaching_line_and_role_analysis",
+      "status": "approved"
+    },
+    {
+      "entity_type": "team",
+      "entity": "Cincinnati Bengals",
+      "affected_positions": [
+        "QB",
+        "RB"
+      ],
+      "signal_class": "environment",
+      "summary": "FantasyGuru grades Cincinnati's young, intact 2026 line C after bottom-seven pass- and run-blocking results in 2025.",
+      "mechanism": "Late-season growth offers hope, but continued tackle and youth-related inconsistency can pressure the quarterback and limit rushing efficiency.",
+      "direction": -1,
+      "raw_adjustment": -0.2,
+      "capped_adjustment": -0.2,
+      "confidence": 0.72,
+      "source_name": "FantasyGuru - Offensive Line Breakdown",
+      "source_url": "https://www.fantasyguru.com/2026-offensive-line-breakdown",
+      "published_at": "2026-07-10",
+      "retrieved_at": "2026-08-20",
+      "expires_at": "2026-10-01",
+      "evidence_type": "authenticated_unit_grade_and_development_analysis",
+      "status": "approved"
+    },
+    {
+      "entity_type": "team",
+      "entity": "Cincinnati Bengals",
+      "affected_positions": [
+        "QB",
+        "RB",
+        "WR"
+      ],
+      "signal_class": "scheme",
+      "summary": "Cincinnati retains a concentrated, quick-game passing attack built around Joe Burrow, Ja'Marr Chase, and defined red-zone roles.",
+      "mechanism": "Continuity and concentrated opportunity make the core Bengals options comparatively dependable even though the offense plays slower than its reputation suggests.",
+      "direction": 1,
+      "raw_adjustment": 0.3,
+      "capped_adjustment": 0.3,
+      "confidence": 0.76,
+      "source_name": "FantasyGuru - Bengals Coaching Breakdown",
+      "source_url": "https://www.fantasyguru.com/coaching-breakdown-cincinnati-bengals-2026",
+      "published_at": null,
+      "retrieved_at": "2026-08-20",
+      "expires_at": "2026-10-01",
+      "evidence_type": "authenticated_coaching_continuity_analysis",
+      "status": "approved"
+    },
+    {
+      "entity_type": "team",
+      "entity": "Cleveland Browns",
+      "affected_positions": [
+        "QB",
+        "WR"
+      ],
+      "signal_class": "environment",
+      "summary": "Cleveland enters a rebuild with an unsettled multi-quarterback plan and a new staff that may struggle to establish a stable passing hierarchy.",
+      "mechanism": "Quarterback changes can disrupt timing, target quality, and weekly receiver roles, creating unusually high redraft volatility.",
+      "direction": -1,
+      "raw_adjustment": -0.7,
+      "capped_adjustment": -0.7,
+      "confidence": 0.76,
+      "source_name": "FantasyGuru - Browns Coaching Breakdown",
+      "source_url": "https://www.fantasyguru.com/coaching-breakdown-cleveland-browns-2026",
+      "published_at": null,
+      "retrieved_at": "2026-08-20",
+      "expires_at": "2026-09-30",
+      "evidence_type": "authenticated_coaching_and_quarterback_analysis",
+      "status": "approved"
+    },
+    {
+      "entity_type": "team",
+      "entity": "Cleveland Browns",
+      "affected_positions": [
+        "QB",
+        "RB"
+      ],
+      "signal_class": "environment",
+      "summary": "FantasyGuru grades Cleveland's overhauled 2026 line D after it finished last in pass blocking and near the bottom in run blocking in 2025.",
+      "mechanism": "Five-man turnover may eventually help, but weak recent performance and cohesion risk materially lower early-season confidence.",
+      "direction": -1,
+      "raw_adjustment": -0.5,
+      "capped_adjustment": -0.5,
+      "confidence": 0.79,
+      "source_name": "FantasyGuru - Offensive Line Breakdown",
+      "source_url": "https://www.fantasyguru.com/2026-offensive-line-breakdown",
+      "published_at": "2026-07-10",
+      "retrieved_at": "2026-08-20",
+      "expires_at": "2026-10-01",
+      "evidence_type": "authenticated_unit_grade_and_turnover_analysis",
+      "status": "approved"
+    },
+    {
+      "entity_type": "team",
+      "entity": "Dallas Cowboys",
+      "affected_positions": [
+        "RB",
+        "WR"
+      ],
+      "signal_class": "environment",
+      "summary": "Dallas retains a fast, pass-heavy offense with two dangerous receivers and an improved, scheme-versatile line supporting a high-snap lead back.",
+      "mechanism": "Pace and concentrated high-value roles support CeeDee Lamb, George Pickens, and Javonte Williams even if raw rushing volume is modest.",
+      "direction": 1,
+      "raw_adjustment": 0.4,
+      "capped_adjustment": 0.4,
+      "confidence": 0.75,
+      "source_name": "FantasyGuru - Cowboys Coaching Breakdown",
+      "source_url": "https://www.fantasyguru.com/coaching-breakdown-dallas-cowboys-2026",
+      "published_at": null,
+      "retrieved_at": "2026-08-20",
+      "expires_at": "2026-10-01",
+      "evidence_type": "authenticated_coaching_line_and_role_analysis",
+      "status": "approved"
+    },
+    {
+      "entity_type": "team",
+      "entity": "Dallas Cowboys",
+      "affected_positions": [
+        "QB",
+        "RB"
+      ],
+      "signal_class": "environment",
+      "summary": "FantasyGuru grades Dallas' 2026 line C: strong interior run blocking but continued problems at both tackle spots.",
+      "mechanism": "The split profile supports the rushing lane efficiency while leaving the passing game exposed to edge pressure.",
+      "direction": -1,
+      "raw_adjustment": -0.2,
+      "capped_adjustment": -0.2,
+      "confidence": 0.7,
+      "source_name": "FantasyGuru - Offensive Line Breakdown",
+      "source_url": "https://www.fantasyguru.com/2026-offensive-line-breakdown",
+      "published_at": "2026-07-10",
+      "retrieved_at": "2026-08-20",
+      "expires_at": "2026-10-01",
+      "evidence_type": "authenticated_unit_grade_and_split_analysis",
+      "status": "approved"
+    },
+    {
+      "entity_type": "team",
+      "entity": "Denver Broncos",
+      "affected_positions": [
+        "QB",
+        "RB"
+      ],
+      "signal_class": "environment",
+      "summary": "FantasyGuru grades Denver's intact 2026 line A+, calling it arguably the league's best after elite protection in 2025.",
+      "mechanism": "Five returning starters and strong depth raise both pocket stability and rushing efficiency.",
+      "direction": 1,
+      "raw_adjustment": 0.6,
+      "capped_adjustment": 0.6,
+      "confidence": 0.82,
+      "source_name": "FantasyGuru - Offensive Line Breakdown",
+      "source_url": "https://www.fantasyguru.com/2026-offensive-line-breakdown",
+      "published_at": "2026-07-10",
+      "retrieved_at": "2026-08-20",
+      "expires_at": "2026-10-01",
+      "evidence_type": "authenticated_unit_grade_and_continuity_analysis",
+      "status": "approved"
+    },
+    {
+      "entity_type": "team",
+      "entity": "Denver Broncos",
+      "affected_positions": [
+        "RB",
+        "TE",
+        "WR"
+      ],
+      "signal_class": "role",
+      "summary": "Sean Payton's offense remains productive but unusually difficult to project outside quarterback because weekly personnel usage changes frequently.",
+      "mechanism": "The scheme can create efficient touches, but volatile snap and touch allocation lowers confidence in secondary Denver skill players.",
+      "direction": 0,
+      "raw_adjustment": 0.0,
+      "capped_adjustment": 0.0,
+      "confidence": 0.7,
+      "source_name": "FantasyGuru - Broncos Coaching Breakdown",
+      "source_url": "https://www.fantasyguru.com/coaching-breakdown-denver-broncos-2026",
+      "published_at": null,
+      "retrieved_at": "2026-08-20",
+      "expires_at": "2026-10-01",
+      "evidence_type": "authenticated_coaching_usage_analysis",
+      "status": "research_only"
+    },
+    {
+      "entity_type": "team",
+      "entity": "Detroit Lions",
+      "affected_positions": [
+        "QB",
+        "RB"
+      ],
+      "signal_class": "environment",
+      "summary": "FantasyGuru grades Detroit's diminished 2026 line C, with run blocking still stronger than protection.",
+      "mechanism": "A weaker interior and reliance on a rookie lower Jared Goff's protection floor, while the run game can remain useful if the unit stays healthy.",
+      "direction": -1,
+      "raw_adjustment": -0.2,
+      "capped_adjustment": -0.2,
+      "confidence": 0.71,
+      "source_name": "FantasyGuru - Offensive Line Breakdown",
+      "source_url": "https://www.fantasyguru.com/2026-offensive-line-breakdown",
+      "published_at": "2026-07-10",
+      "retrieved_at": "2026-08-20",
+      "expires_at": "2026-10-01",
+      "evidence_type": "authenticated_unit_grade_and_continuity_analysis",
+      "status": "approved"
+    },
+    {
+      "entity_type": "team",
+      "entity": "Detroit Lions",
+      "affected_positions": [
+        "RB",
+        "TE",
+        "WR"
+      ],
+      "signal_class": "role",
+      "summary": "Detroit's new coordinator is expected to feature Jahmyr Gibbs and use a rhythm passing game that emphasizes Amon-Ra St. Brown and Sam LaPorta over the middle.",
+      "mechanism": "Concentrated touches and a coordinator history favorable to tight ends support the primary Lions options, though Jared Goff must adapt to added control at the line.",
+      "direction": 1,
+      "raw_adjustment": 0.5,
+      "capped_adjustment": 0.5,
+      "confidence": 0.73,
+      "source_name": "FantasyGuru - Lions Coaching Breakdown",
+      "source_url": "https://www.fantasyguru.com/coaching-breakdown-detroit-lions-2026",
+      "published_at": null,
+      "retrieved_at": "2026-08-20",
+      "expires_at": "2026-10-01",
+      "evidence_type": "authenticated_coaching_role_analysis",
+      "status": "approved"
+    },
+    {
+      "entity_type": "team",
+      "entity": "Green Bay Packers",
+      "affected_positions": [
+        "QB",
+        "RB"
+      ],
+      "signal_class": "environment",
+      "summary": "FantasyGuru grades Green Bay's 2026 line D and identifies the interior as one of the league's weakest groups.",
+      "mechanism": "Interior pressure and limited rushing lanes can hurt Jordan Love's efficiency and Josh Jacobs' aging rushing profile.",
+      "direction": -1,
+      "raw_adjustment": -0.5,
+      "capped_adjustment": -0.5,
+      "confidence": 0.78,
+      "source_name": "FantasyGuru - Offensive Line Breakdown",
+      "source_url": "https://www.fantasyguru.com/2026-offensive-line-breakdown",
+      "published_at": "2026-07-10",
+      "retrieved_at": "2026-08-20",
+      "expires_at": "2026-10-01",
+      "evidence_type": "authenticated_unit_grade_and_personnel_analysis",
+      "status": "approved"
+    },
+    {
+      "entity_type": "team",
+      "entity": "Green Bay Packers",
+      "affected_positions": [
+        "WR"
+      ],
+      "signal_class": "role",
+      "summary": "Green Bay reduced its receiver rotation but still projects Christian Watson and Jayden Reed into different specialized roles rather than one dominant target funnel.",
+      "mechanism": "Fewer bodies help, yet role specialization can keep weekly volume uneven and makes the hierarchy important to monitor.",
+      "direction": 0,
+      "raw_adjustment": 0.0,
+      "capped_adjustment": 0.0,
+      "confidence": 0.7,
+      "source_name": "FantasyGuru - Packers Coaching Breakdown",
+      "source_url": "https://www.fantasyguru.com/coaching-breakdown-green-bay-packers-2026",
+      "published_at": null,
+      "retrieved_at": "2026-08-20",
+      "expires_at": "2026-09-30",
+      "evidence_type": "authenticated_coaching_role_analysis",
+      "status": "research_only"
+    },
+    {
+      "entity_type": "team",
+      "entity": "Houston Texans",
+      "affected_positions": [
+        "QB",
+        "RB"
+      ],
+      "signal_class": "environment",
+      "summary": "FantasyGuru grades Houston's still-changing 2026 line C after below-average protection and run blocking in 2025.",
+      "mechanism": "A rookie center, young tackle, and injury-prone veterans create a wide outcome range and continued pressure risk for C.J. Stroud.",
+      "direction": -1,
+      "raw_adjustment": -0.2,
+      "capped_adjustment": -0.2,
+      "confidence": 0.73,
+      "source_name": "FantasyGuru - Offensive Line Breakdown",
+      "source_url": "https://www.fantasyguru.com/2026-offensive-line-breakdown",
+      "published_at": "2026-07-10",
+      "retrieved_at": "2026-08-20",
+      "expires_at": "2026-10-01",
+      "evidence_type": "authenticated_unit_grade_and_turnover_analysis",
+      "status": "approved"
+    },
+    {
+      "entity_type": "team",
+      "entity": "Houston Texans",
+      "affected_positions": [
+        "RB"
+      ],
+      "signal_class": "role",
+      "summary": "Houston projects David Montgomery for lead and red-zone work, with Woody Marks serving more as a change-of-pace receiver.",
+      "mechanism": "Early-down and goal-line volume is particularly useful in non-PPR scoring and can sustain value without a dominant receiving share.",
+      "direction": 1,
+      "raw_adjustment": 0.5,
+      "capped_adjustment": 0.5,
+      "confidence": 0.72,
+      "source_name": "FantasyGuru - Texans Coaching Breakdown",
+      "source_url": "https://www.fantasyguru.com/coaching-breakdown-houston-texans-2026",
+      "published_at": null,
+      "retrieved_at": "2026-08-20",
+      "expires_at": "2026-09-30",
+      "evidence_type": "authenticated_coaching_role_analysis",
+      "status": "approved"
+    },
+    {
+      "entity_type": "team",
+      "entity": "Houston Texans",
+      "affected_positions": [
+        "QB",
+        "WR"
+      ],
+      "signal_class": "scheme",
+      "summary": "Houston's offense remains conservative and matchup-driven despite having receivers capable of winning downfield.",
+      "mechanism": "If the staff continues to prioritize avoiding mistakes over aggression, C.J. Stroud and the vertical receivers may have less passing volume and ceiling than their talent implies.",
+      "direction": -1,
+      "raw_adjustment": -0.4,
+      "capped_adjustment": -0.4,
+      "confidence": 0.65,
+      "source_name": "FantasyGuru - Texans Coaching Breakdown",
+      "source_url": "https://www.fantasyguru.com/coaching-breakdown-houston-texans-2026",
+      "published_at": null,
+      "retrieved_at": "2026-08-20",
+      "expires_at": "2026-10-01",
+      "evidence_type": "authenticated_coaching_tendency_analysis",
+      "status": "approved"
+    },
+    {
+      "entity_type": "team",
+      "entity": "Indianapolis Colts",
+      "affected_positions": [
+        "QB",
+        "RB",
+        "WR"
+      ],
+      "signal_class": "environment",
+      "summary": "Indianapolis lost a starting tackle and its boundary target while relying on Daniel Jones after several major injuries.",
+      "mechanism": "Weaker protection, less formation-defining receiver gravity, and quarterback durability uncertainty lower the stability of the offense around Jonathan Taylor and the wideouts.",
+      "direction": -1,
+      "raw_adjustment": -0.5,
+      "capped_adjustment": -0.5,
+      "confidence": 0.74,
+      "source_name": "FantasyGuru - Colts Coaching Breakdown",
+      "source_url": "https://www.fantasyguru.com/coaching-breakdown-indianapolis-colts-2026",
+      "published_at": null,
+      "retrieved_at": "2026-08-20",
+      "expires_at": "2026-09-30",
+      "evidence_type": "authenticated_coaching_line_and_personnel_analysis",
+      "status": "approved"
+    },
+    {
+      "entity_type": "team",
+      "entity": "Indianapolis Colts",
+      "affected_positions": [
+        "QB",
+        "RB"
+      ],
+      "signal_class": "environment",
+      "summary": "FantasyGuru grades Indianapolis' mostly intact 2026 line A after top-four pass- and run-blocking results in 2025.",
+      "mechanism": "High-end blocking supports Jonathan Taylor and the passing game, with a young new right tackle the primary risk.",
+      "direction": 1,
+      "raw_adjustment": 0.5,
+      "capped_adjustment": 0.5,
+      "confidence": 0.79,
+      "source_name": "FantasyGuru - Offensive Line Breakdown",
+      "source_url": "https://www.fantasyguru.com/2026-offensive-line-breakdown",
+      "published_at": "2026-07-10",
+      "retrieved_at": "2026-08-20",
+      "expires_at": "2026-10-01",
+      "evidence_type": "authenticated_unit_grade_and_continuity_analysis",
+      "status": "approved"
+    },
+    {
+      "entity_type": "team",
+      "entity": "Jacksonville Jaguars",
+      "affected_positions": [
+        "QB",
+        "RB"
+      ],
+      "signal_class": "environment",
+      "summary": "FantasyGuru grades Jacksonville's returning 2026 line C after solid but uneven 2025 results and persistent sack problems.",
+      "mechanism": "Continuity helps timing, but tackle pressure keeps the offense from receiving a positive line adjustment.",
+      "direction": -1,
+      "raw_adjustment": -0.2,
+      "capped_adjustment": -0.2,
+      "confidence": 0.69,
+      "source_name": "FantasyGuru - Offensive Line Breakdown",
+      "source_url": "https://www.fantasyguru.com/2026-offensive-line-breakdown",
+      "published_at": "2026-07-10",
+      "retrieved_at": "2026-08-20",
+      "expires_at": "2026-10-01",
+      "evidence_type": "authenticated_unit_grade_and_continuity_analysis",
+      "status": "approved"
+    },
+    {
+      "entity_type": "team",
+      "entity": "Jacksonville Jaguars",
+      "affected_positions": [
+        "RB"
+      ],
+      "signal_class": "role",
+      "summary": "Jacksonville's staff sees Bhayshul Tuten in the lead role, with Chris Rodriguez carrying direct contingency and red-zone value.",
+      "mechanism": "A productive scheme and defined handcuff path create upside, but Tuten's ball security remains a role risk.",
+      "direction": 1,
+      "raw_adjustment": 0.6,
+      "capped_adjustment": 0.6,
+      "confidence": 0.72,
+      "source_name": "FantasyGuru - Jaguars Coaching Breakdown",
+      "source_url": "https://www.fantasyguru.com/coaching-breakdown-jacksonville-jaguars-2026",
+      "published_at": null,
+      "retrieved_at": "2026-08-20",
+      "expires_at": "2026-09-30",
+      "evidence_type": "authenticated_coaching_role_analysis",
+      "status": "approved"
+    },
+    {
+      "entity_type": "team",
+      "entity": "Kansas City Chiefs",
+      "affected_positions": [
+        "QB",
+        "RB"
+      ],
+      "signal_class": "environment",
+      "summary": "FantasyGuru grades Kansas City's 2026 line B-, with credible blocking but several changed starters and health questions.",
+      "mechanism": "The unit is slightly above average on paper but not strong enough to erase early uncertainty around the rebuilt offense.",
+      "direction": 1,
+      "raw_adjustment": 0.1,
+      "capped_adjustment": 0.1,
+      "confidence": 0.68,
+      "source_name": "FantasyGuru - Offensive Line Breakdown",
+      "source_url": "https://www.fantasyguru.com/2026-offensive-line-breakdown",
+      "published_at": "2026-07-10",
+      "retrieved_at": "2026-08-20",
+      "expires_at": "2026-10-01",
+      "evidence_type": "authenticated_unit_grade_and_turnover_analysis",
+      "status": "approved"
+    },
+    {
+      "entity_type": "team",
+      "entity": "Kansas City Chiefs",
+      "affected_positions": [
+        "RB"
+      ],
+      "signal_class": "scheme",
+      "summary": "Kansas City rebuilt around a stronger run game and expects to lean on it while Patrick Mahomes completes his return from an ACL injury.",
+      "mechanism": "Early rushing volume and Kenneth Walker's all-purpose fit raise the value of the backfield, though the balance may change as Mahomes regains full confidence.",
+      "direction": 1,
+      "raw_adjustment": 0.5,
+      "capped_adjustment": 0.5,
+      "confidence": 0.74,
+      "source_name": "FantasyGuru - Chiefs Coaching Breakdown",
+      "source_url": "https://www.fantasyguru.com/coaching-breakdown-kansas-city-chiefs-2026",
+      "published_at": null,
+      "retrieved_at": "2026-08-20",
+      "expires_at": "2026-09-30",
+      "evidence_type": "authenticated_coaching_and_role_analysis",
+      "status": "approved"
+    },
+    {
+      "entity_type": "team",
+      "entity": "Las Vegas Raiders",
+      "affected_positions": [
+        "QB",
+        "RB"
+      ],
+      "signal_class": "environment",
+      "summary": "FantasyGuru grades Las Vegas' 2026 line C after last-place sack and adjusted-line-yard results, with the new staff expected to improve the scheme.",
+      "mechanism": "Coaching can help, but the prior baseline and personnel questions still create pressure and rushing-efficiency risk.",
+      "direction": -1,
+      "raw_adjustment": -0.2,
+      "capped_adjustment": -0.2,
+      "confidence": 0.7,
+      "source_name": "FantasyGuru - Offensive Line Breakdown",
+      "source_url": "https://www.fantasyguru.com/2026-offensive-line-breakdown",
+      "published_at": "2026-07-10",
+      "retrieved_at": "2026-08-20",
+      "expires_at": "2026-10-01",
+      "evidence_type": "authenticated_unit_grade_and_coaching_analysis",
+      "status": "approved"
+    },
+    {
+      "entity_type": "team",
+      "entity": "Las Vegas Raiders",
+      "affected_positions": [
+        "RB",
+        "TE"
+      ],
+      "signal_class": "scheme",
+      "summary": "Klint Kubiak and Rick Dennison bring a proven system that is expected to feature Ashton Jeanty and use Brock Bowers as the primary movable mismatch.",
+      "mechanism": "Concentrated roles in a run-led, play-action structure support both cornerstone players even if wide receiver volume stays limited.",
+      "direction": 1,
+      "raw_adjustment": 0.5,
+      "capped_adjustment": 0.5,
+      "confidence": 0.74,
+      "source_name": "FantasyGuru - Raiders Coaching Breakdown",
+      "source_url": "https://www.fantasyguru.com/coaching-breakdown-las-vegas-raiders-2026",
+      "published_at": null,
+      "retrieved_at": "2026-08-20",
+      "expires_at": "2026-10-01",
+      "evidence_type": "authenticated_coaching_role_analysis",
+      "status": "approved"
+    },
+    {
+      "entity_type": "team",
+      "entity": "Los Angeles Chargers",
+      "affected_positions": [
+        "QB",
+        "RB"
+      ],
+      "signal_class": "environment",
+      "summary": "FantasyGuru grades the healthier, reinforced Chargers line A and sees top-10 potential under the new staff.",
+      "mechanism": "Improved personnel, coaching, and fullback support materially strengthen the environment for Justin Herbert and Omarion Hampton.",
+      "direction": 1,
+      "raw_adjustment": 0.5,
+      "capped_adjustment": 0.5,
+      "confidence": 0.79,
+      "source_name": "FantasyGuru - Offensive Line Breakdown",
+      "source_url": "https://www.fantasyguru.com/2026-offensive-line-breakdown",
+      "published_at": "2026-07-10",
+      "retrieved_at": "2026-08-20",
+      "expires_at": "2026-10-01",
+      "evidence_type": "authenticated_unit_grade_and_personnel_analysis",
+      "status": "approved"
+    },
+    {
+      "entity_type": "team",
+      "entity": "Los Angeles Chargers",
+      "affected_positions": [
+        "QB",
+        "RB"
+      ],
+      "signal_class": "scheme",
+      "summary": "Mike McDaniel joins Jim Harbaugh with added blockers and a plan centered on Omarion Hampton while reducing the need for Justin Herbert to run.",
+      "mechanism": "The line and run design strongly support Hampton; better protection helps Herbert, but fewer designed scrambles can offset some quarterback upside.",
+      "direction": 1,
+      "raw_adjustment": 0.5,
+      "capped_adjustment": 0.5,
+      "confidence": 0.73,
+      "source_name": "FantasyGuru - Chargers Coaching Breakdown",
+      "source_url": "https://www.fantasyguru.com/coaching-breakdown-los-angeles-chargers-2026",
+      "published_at": null,
+      "retrieved_at": "2026-08-20",
+      "expires_at": "2026-10-01",
+      "evidence_type": "authenticated_coaching_line_and_role_analysis",
+      "status": "approved"
+    },
+    {
+      "entity_type": "team",
+      "entity": "Los Angeles Rams",
+      "affected_positions": [
+        "QB",
+        "RB"
+      ],
+      "signal_class": "environment",
+      "summary": "FantasyGuru grades the Rams' 2026 line A- after it led the league in run blocking and adjusted line yards in 2025.",
+      "mechanism": "Elite run blocking supports Kyren Williams, though thin depth and a possible suspension create some fragility.",
+      "direction": 1,
+      "raw_adjustment": 0.4,
+      "capped_adjustment": 0.4,
+      "confidence": 0.77,
+      "source_name": "FantasyGuru - Offensive Line Breakdown",
+      "source_url": "https://www.fantasyguru.com/2026-offensive-line-breakdown",
+      "published_at": "2026-07-10",
+      "retrieved_at": "2026-08-20",
+      "expires_at": "2026-10-01",
+      "evidence_type": "authenticated_unit_grade_and_depth_analysis",
+      "status": "approved"
+    },
+    {
+      "entity_type": "team",
+      "entity": "Los Angeles Rams",
+      "affected_positions": [
+        "QB",
+        "RB",
+        "WR"
+      ],
+      "signal_class": "scheme",
+      "summary": "The Rams retain Sean McVay's concentrated, proven offense with tight formations supporting quick receivers and Kyren Williams holding the high-value backfield work.",
+      "mechanism": "Continuity and clearly assigned passing-down, goal-line, and primary receiving roles improve projection stability for the core players.",
+      "direction": 1,
+      "raw_adjustment": 0.4,
+      "capped_adjustment": 0.4,
+      "confidence": 0.78,
+      "source_name": "FantasyGuru - Rams Coaching Breakdown",
+      "source_url": "https://www.fantasyguru.com/coaching-breakdown-los-angeles-rams-2026",
+      "published_at": null,
+      "retrieved_at": "2026-08-20",
+      "expires_at": "2026-10-01",
+      "evidence_type": "authenticated_coaching_continuity_and_role_analysis",
+      "status": "approved"
+    },
+    {
+      "entity_type": "team",
+      "entity": "Miami Dolphins",
+      "affected_positions": [
+        "QB",
+        "RB"
+      ],
+      "signal_class": "environment",
+      "summary": "FantasyGuru grades Miami's largely unchanged 2026 line D after bottom-six pass- and run-blocking results in 2025.",
+      "mechanism": "A weak line can undermine the new run-first plan and lower both quarterback efficiency and backfield consistency.",
+      "direction": -1,
+      "raw_adjustment": -0.5,
+      "capped_adjustment": -0.5,
+      "confidence": 0.79,
+      "source_name": "FantasyGuru - Offensive Line Breakdown",
+      "source_url": "https://www.fantasyguru.com/2026-offensive-line-breakdown",
+      "published_at": "2026-07-10",
+      "retrieved_at": "2026-08-20",
+      "expires_at": "2026-10-01",
+      "evidence_type": "authenticated_unit_grade_and_continuity_analysis",
+      "status": "approved"
+    },
+    {
+      "entity_type": "team",
+      "entity": "Miami Dolphins",
+      "affected_positions": [
+        "RB"
+      ],
+      "signal_class": "role",
+      "summary": "Miami's rebuilt staff still plans to center the offense on De'Von Achane in both the run and short passing games.",
+      "mechanism": "Wide-zone volume and a large receiving role provide multiple paths to production even if game script or the passing personnel disappoints.",
+      "direction": 1,
+      "raw_adjustment": 0.5,
+      "capped_adjustment": 0.5,
+      "confidence": 0.72,
+      "source_name": "FantasyGuru - Dolphins Coaching Breakdown",
+      "source_url": "https://www.fantasyguru.com/coaching-breakdown-miami-dolphins-2026",
+      "published_at": null,
+      "retrieved_at": "2026-08-20",
+      "expires_at": "2026-10-01",
+      "evidence_type": "authenticated_coaching_and_role_analysis",
+      "status": "approved"
+    },
+    {
+      "entity_type": "team",
+      "entity": "Minnesota Vikings",
+      "affected_positions": [
+        "QB",
+        "RB"
+      ],
+      "signal_class": "environment",
+      "summary": "FantasyGuru grades Minnesota's 2026 line C, with capable tackles but a questionable interior and a new line coach.",
+      "mechanism": "Edge protection may hold up, while interior weakness creates more concern for the run game and quarterback durability.",
+      "direction": -1,
+      "raw_adjustment": -0.2,
+      "capped_adjustment": -0.2,
+      "confidence": 0.7,
+      "source_name": "FantasyGuru - Offensive Line Breakdown",
+      "source_url": "https://www.fantasyguru.com/2026-offensive-line-breakdown",
+      "published_at": "2026-07-10",
+      "retrieved_at": "2026-08-20",
+      "expires_at": "2026-10-01",
+      "evidence_type": "authenticated_unit_grade_and_personnel_analysis",
+      "status": "approved"
+    },
+    {
+      "entity_type": "team",
+      "entity": "Minnesota Vikings",
+      "affected_positions": [
+        "TE",
+        "WR"
+      ],
+      "signal_class": "role",
+      "summary": "Minnesota's offense remains pass-led and concentrated around Justin Jefferson, with short play-action concepts also supporting T.J. Hockenson.",
+      "mechanism": "The target funnel protects the primary pass catchers from some of the uncertainty created by a possible multi-quarterback season.",
+      "direction": 1,
+      "raw_adjustment": 0.4,
+      "capped_adjustment": 0.4,
+      "confidence": 0.72,
+      "source_name": "FantasyGuru - Vikings Coaching Breakdown",
+      "source_url": "https://www.fantasyguru.com/coaching-breakdown-minnesota-vikings-2026",
+      "published_at": null,
+      "retrieved_at": "2026-08-20",
+      "expires_at": "2026-10-01",
+      "evidence_type": "authenticated_coaching_role_analysis",
+      "status": "approved"
+    },
+    {
+      "entity_type": "team",
+      "entity": "New England Patriots",
+      "affected_positions": [
+        "QB",
+        "RB"
+      ],
+      "signal_class": "environment",
+      "summary": "FantasyGuru grades New England's talented 2026 line B+, with high upside if its young tackles and injury-prone veterans stay available.",
+      "mechanism": "Improved protection and depth support Drake Maye and the run game, but health and position changes still create variance.",
+      "direction": 1,
+      "raw_adjustment": 0.3,
+      "capped_adjustment": 0.3,
+      "confidence": 0.74,
+      "source_name": "FantasyGuru - Offensive Line Breakdown",
+      "source_url": "https://www.fantasyguru.com/2026-offensive-line-breakdown",
+      "published_at": "2026-07-10",
+      "retrieved_at": "2026-08-20",
+      "expires_at": "2026-10-01",
+      "evidence_type": "authenticated_unit_grade_and_depth_analysis",
+      "status": "approved"
+    },
+    {
+      "entity_type": "team",
+      "entity": "New England Patriots",
+      "affected_positions": [
+        "QB",
+        "WR"
+      ],
+      "signal_class": "environment",
+      "summary": "New England's motion, RPO, and play-action structure gives Drake Maye clearer reads and now pairs him with a deeper receiving group.",
+      "mechanism": "Improved weapons and designed rushing can raise the quarterback ceiling, though Maye's tendency to distribute targets limits confidence in any one secondary receiver.",
+      "direction": 1,
+      "raw_adjustment": 0.4,
+      "capped_adjustment": 0.4,
+      "confidence": 0.7,
+      "source_name": "FantasyGuru - Patriots Coaching Breakdown",
+      "source_url": "https://www.fantasyguru.com/coaching-breakdown-new-england-patriots-2026",
+      "published_at": null,
+      "retrieved_at": "2026-08-20",
+      "expires_at": "2026-10-01",
+      "evidence_type": "authenticated_coaching_and_personnel_analysis",
+      "status": "approved"
+    },
+    {
+      "entity_type": "team",
+      "entity": "New Orleans Saints",
+      "affected_positions": [
+        "QB",
+        "RB"
+      ],
+      "signal_class": "environment",
+      "summary": "FantasyGuru grades New Orleans' 2026 line C, with a decent left side but weak run blocking and unresolved right-side questions.",
+      "mechanism": "Average protection may be serviceable, but limited rushing lanes reduce confidence in the backfield exceeding its role-based value.",
+      "direction": -1,
+      "raw_adjustment": -0.2,
+      "capped_adjustment": -0.2,
+      "confidence": 0.7,
+      "source_name": "FantasyGuru - Offensive Line Breakdown",
+      "source_url": "https://www.fantasyguru.com/2026-offensive-line-breakdown",
+      "published_at": "2026-07-10",
+      "retrieved_at": "2026-08-20",
+      "expires_at": "2026-10-01",
+      "evidence_type": "authenticated_unit_grade_and_personnel_analysis",
+      "status": "approved"
+    },
+    {
+      "entity_type": "team",
+      "entity": "New Orleans Saints",
+      "affected_positions": [
+        "RB",
+        "WR"
+      ],
+      "signal_class": "environment",
+      "summary": "New Orleans upgraded its weak line spot and added explosive runners and receivers to a flexible Kellen Moore offense.",
+      "mechanism": "Better protection and more explosive personnel open space for Travis Etienne and Chris Olave, though the ceiling still depends on Tyler Shough taking a second-year step.",
+      "direction": 1,
+      "raw_adjustment": 0.5,
+      "capped_adjustment": 0.5,
+      "confidence": 0.74,
+      "source_name": "FantasyGuru - Saints Coaching Breakdown",
+      "source_url": "https://www.fantasyguru.com/coaching-breakdown-new-orleans-saints-2026",
+      "published_at": null,
+      "retrieved_at": "2026-08-20",
+      "expires_at": "2026-10-01",
+      "evidence_type": "authenticated_coaching_line_and_personnel_analysis",
+      "status": "approved"
+    },
+    {
+      "entity_type": "team",
+      "entity": "New York Giants",
+      "affected_positions": [
+        "QB",
+        "TE"
+      ],
+      "signal_class": "environment",
+      "summary": "New York's new staff upgraded the line and plans a high-volume RPO run game with Isaiah Likely in a prominent quick-read role.",
+      "mechanism": "Better protection and defined RPO answers support Jaxson Dart and Likely, although the offense still must prove the transition works in games.",
+      "direction": 1,
+      "raw_adjustment": 0.5,
+      "capped_adjustment": 0.5,
+      "confidence": 0.7,
+      "source_name": "FantasyGuru - Giants Coaching Breakdown",
+      "source_url": "https://www.fantasyguru.com/coaching-breakdown-new-york-giants-2026",
+      "published_at": null,
+      "retrieved_at": "2026-08-20",
+      "expires_at": "2026-09-30",
+      "evidence_type": "authenticated_coaching_line_and_role_analysis",
+      "status": "approved"
+    },
+    {
+      "entity_type": "team",
+      "entity": "New York Giants",
+      "affected_positions": [
+        "QB",
+        "RB"
+      ],
+      "signal_class": "environment",
+      "summary": "FantasyGuru grades the improved Giants line C+, with new guard talent and experienced depth but no top-tier projection.",
+      "mechanism": "The group should be serviceable enough to help Jaxson Dart and the run game, but it is not a distinct fantasy advantage.",
+      "direction": 0,
+      "raw_adjustment": 0.0,
+      "capped_adjustment": 0.0,
+      "confidence": 0.69,
+      "source_name": "FantasyGuru - Offensive Line Breakdown",
+      "source_url": "https://www.fantasyguru.com/2026-offensive-line-breakdown",
+      "published_at": "2026-07-10",
+      "retrieved_at": "2026-08-20",
+      "expires_at": "2026-10-01",
+      "evidence_type": "authenticated_unit_grade_and_personnel_analysis",
+      "status": "research_only"
+    },
+    {
+      "entity_type": "team",
+      "entity": "New York Jets",
+      "affected_positions": [
+        "QB",
+        "RB"
+      ],
+      "signal_class": "environment",
+      "summary": "FantasyGuru grades the Jets' 2026 line C- after guard losses and continued center and cohesion questions.",
+      "mechanism": "Promising young tackles cannot fully offset interior weakness, lowering confidence in both protection and run efficiency.",
+      "direction": -1,
+      "raw_adjustment": -0.3,
+      "capped_adjustment": -0.3,
+      "confidence": 0.73,
+      "source_name": "FantasyGuru - Offensive Line Breakdown",
+      "source_url": "https://www.fantasyguru.com/2026-offensive-line-breakdown",
+      "published_at": "2026-07-10",
+      "retrieved_at": "2026-08-20",
+      "expires_at": "2026-10-01",
+      "evidence_type": "authenticated_unit_grade_and_continuity_analysis",
+      "status": "approved"
+    },
+    {
+      "entity_type": "team",
+      "entity": "New York Jets",
+      "affected_positions": [
+        "RB"
+      ],
+      "signal_class": "role",
+      "summary": "The Jets have publicly discussed splitting backfield touches among three runners despite Breece Hall being the most dangerous option.",
+      "mechanism": "A real three-way rotation would reduce Hall's snap and touch ceiling, but the coaching plan is not yet proven in regular-season usage.",
+      "direction": -1,
+      "raw_adjustment": -0.4,
+      "capped_adjustment": -0.4,
+      "confidence": 0.64,
+      "source_name": "FantasyGuru - Jets Coaching Breakdown",
+      "source_url": "https://www.fantasyguru.com/coaching-breakdown-new-york-jets-2026",
+      "published_at": null,
+      "retrieved_at": "2026-08-20",
+      "expires_at": "2026-09-20",
+      "evidence_type": "authenticated_coaching_role_analysis",
+      "status": "approved"
+    },
+    {
+      "entity_type": "team",
+      "entity": "Philadelphia Eagles",
+      "affected_positions": [
+        "QB",
+        "RB"
+      ],
+      "signal_class": "environment",
+      "summary": "FantasyGuru grades Philadelphia's 2026 line B+, still strong and younger despite a coaching change and some recent injuries.",
+      "mechanism": "Above-average line play supports the run-led offense, though the group is no longer the automatic league-best unit of prior seasons.",
+      "direction": 1,
+      "raw_adjustment": 0.3,
+      "capped_adjustment": 0.3,
+      "confidence": 0.75,
+      "source_name": "FantasyGuru - Offensive Line Breakdown",
+      "source_url": "https://www.fantasyguru.com/2026-offensive-line-breakdown",
+      "published_at": "2026-07-10",
+      "retrieved_at": "2026-08-20",
+      "expires_at": "2026-10-01",
+      "evidence_type": "authenticated_unit_grade_and_coaching_analysis",
+      "status": "approved"
+    },
+    {
+      "entity_type": "team",
+      "entity": "Philadelphia Eagles",
+      "affected_positions": [
+        "WR"
+      ],
+      "signal_class": "role",
+      "summary": "Philadelphia's new passing identity is expected to attack intermediate areas more often after A.J. Brown's departure, concentrating opportunity around DeVonta Smith.",
+      "mechanism": "A clearer lead role and route emphasis that fits Smith can raise both target share and weekly consistency.",
+      "direction": 1,
+      "raw_adjustment": 0.5,
+      "capped_adjustment": 0.5,
+      "confidence": 0.75,
+      "source_name": "FantasyGuru - Eagles Coaching Breakdown",
+      "source_url": "https://www.fantasyguru.com/coaching-breakdown-philadelphia-eagles-2026",
+      "published_at": null,
+      "retrieved_at": "2026-08-20",
+      "expires_at": "2026-10-01",
+      "evidence_type": "authenticated_coaching_personnel_and_role_analysis",
+      "status": "approved"
+    },
+    {
+      "entity_type": "team",
+      "entity": "Pittsburgh Steelers",
+      "affected_positions": [
+        "QB",
+        "RB"
+      ],
+      "signal_class": "environment",
+      "summary": "FantasyGuru grades Pittsburgh's young, improving 2026 line B after a strong pass-blocking season and further first-round investment.",
+      "mechanism": "An upward-trending unit improves the floor for the quarterback and backfield, with health the main unresolved issue.",
+      "direction": 1,
+      "raw_adjustment": 0.2,
+      "capped_adjustment": 0.2,
+      "confidence": 0.74,
+      "source_name": "FantasyGuru - Offensive Line Breakdown",
+      "source_url": "https://www.fantasyguru.com/2026-offensive-line-breakdown",
+      "published_at": "2026-07-10",
+      "retrieved_at": "2026-08-20",
+      "expires_at": "2026-10-01",
+      "evidence_type": "authenticated_unit_grade_and_development_analysis",
+      "status": "approved"
+    },
+    {
+      "entity_type": "team",
+      "entity": "Pittsburgh Steelers",
+      "affected_positions": [
+        "RB"
+      ],
+      "signal_class": "role",
+      "summary": "Mike McCarthy's offense projects Jaylen Warren for passing-down work while Rico Dowdle handles more early-down and goal-line snaps.",
+      "mechanism": "Aaron Rodgers' recent tendency to target running backs gives Warren a useful receiving path, though the split limits the ceiling of both backs.",
+      "direction": 1,
+      "raw_adjustment": 0.4,
+      "capped_adjustment": 0.4,
+      "confidence": 0.68,
+      "source_name": "FantasyGuru - Steelers Coaching Breakdown",
+      "source_url": "https://www.fantasyguru.com/coaching-breakdown-pittsburgh-steelers-2026",
+      "published_at": null,
+      "retrieved_at": "2026-08-20",
+      "expires_at": "2026-09-30",
+      "evidence_type": "authenticated_coaching_role_analysis",
+      "status": "approved"
+    },
+    {
+      "entity_type": "team",
+      "entity": "San Francisco 49ers",
+      "affected_positions": [
+        "QB",
+        "RB"
+      ],
+      "signal_class": "environment",
+      "summary": "FantasyGuru grades San Francisco's 2026 line B, with strong tackle play and run blocking but one weak interior spot and age-related fragility.",
+      "mechanism": "The unit remains a net positive when healthy, though Trent Williams' availability materially affects the outlook.",
+      "direction": 1,
+      "raw_adjustment": 0.2,
+      "capped_adjustment": 0.2,
+      "confidence": 0.72,
+      "source_name": "FantasyGuru - Offensive Line Breakdown",
+      "source_url": "https://www.fantasyguru.com/2026-offensive-line-breakdown",
+      "published_at": "2026-07-10",
+      "retrieved_at": "2026-08-20",
+      "expires_at": "2026-10-01",
+      "evidence_type": "authenticated_unit_grade_and_health_analysis",
+      "status": "approved"
+    },
+    {
+      "entity_type": "team",
+      "entity": "San Francisco 49ers",
+      "affected_positions": [
+        "QB",
+        "RB",
+        "TE",
+        "WR"
+      ],
+      "signal_class": "scheme",
+      "summary": "San Francisco continues to evolve its short, run-led offense and added personnel that may reopen more deep opportunities for Brock Purdy.",
+      "mechanism": "Kyle Shanahan's interchangeable formations sustain efficiency while the new vertical threats add ceiling without replacing the established underneath roles.",
+      "direction": 1,
+      "raw_adjustment": 0.4,
+      "capped_adjustment": 0.4,
+      "confidence": 0.72,
+      "source_name": "FantasyGuru - 49ers Coaching Breakdown",
+      "source_url": "https://www.fantasyguru.com/coaching-breakdown-san-francisco-49ers-2026",
+      "published_at": null,
+      "retrieved_at": "2026-08-20",
+      "expires_at": "2026-10-01",
+      "evidence_type": "authenticated_coaching_personnel_analysis",
+      "status": "approved"
+    },
+    {
+      "entity_type": "team",
+      "entity": "Seattle Seahawks",
+      "affected_positions": [
+        "QB",
+        "RB"
+      ],
+      "signal_class": "environment",
+      "summary": "FantasyGuru grades Seattle's 2026 line C and expects regression after losing the coaches who helped mask weak guard play.",
+      "mechanism": "A first-time play caller and weaker line instruction increase pressure and rushing-efficiency risk despite some young depth.",
+      "direction": -1,
+      "raw_adjustment": -0.2,
+      "capped_adjustment": -0.2,
+      "confidence": 0.72,
+      "source_name": "FantasyGuru - Offensive Line Breakdown",
+      "source_url": "https://www.fantasyguru.com/2026-offensive-line-breakdown",
+      "published_at": "2026-07-10",
+      "retrieved_at": "2026-08-20",
+      "expires_at": "2026-10-01",
+      "evidence_type": "authenticated_unit_grade_and_coaching_analysis",
+      "status": "approved"
+    },
+    {
+      "entity_type": "team",
+      "entity": "Seattle Seahawks",
+      "affected_positions": [
+        "QB",
+        "RB",
+        "TE",
+        "WR"
+      ],
+      "signal_class": "environment",
+      "summary": "Seattle lost the coaches who drove its title offense and now relies on a first-time play caller while replacing its lead runner without a clear second receiver.",
+      "mechanism": "Similar early concepts may mask the transition, but weaker week-to-week adjustment, rushing efficiency, and target support create regression risk.",
+      "direction": -1,
+      "raw_adjustment": -0.4,
+      "capped_adjustment": -0.4,
+      "confidence": 0.67,
+      "source_name": "FantasyGuru - Seahawks Coaching Breakdown",
+      "source_url": "https://www.fantasyguru.com/coaching-breakdown-seattle-seahawks-2026",
+      "published_at": null,
+      "retrieved_at": "2026-08-20",
+      "expires_at": "2026-09-30",
+      "evidence_type": "authenticated_coaching_transition_and_personnel_analysis",
+      "status": "approved"
+    },
+    {
+      "entity_type": "team",
+      "entity": "Tampa Bay Buccaneers",
+      "affected_positions": [
+        "QB",
+        "RB"
+      ],
+      "signal_class": "environment",
+      "summary": "FantasyGuru grades Tampa Bay's 2026 line C+, with strong tackles but interior and depth questions.",
+      "mechanism": "The unit is close to neutral: healthy starters can improve it, but the interior does not justify a positive fantasy adjustment yet.",
+      "direction": 0,
+      "raw_adjustment": 0.0,
+      "capped_adjustment": 0.0,
+      "confidence": 0.69,
+      "source_name": "FantasyGuru - Offensive Line Breakdown",
+      "source_url": "https://www.fantasyguru.com/2026-offensive-line-breakdown",
+      "published_at": "2026-07-10",
+      "retrieved_at": "2026-08-20",
+      "expires_at": "2026-10-01",
+      "evidence_type": "authenticated_unit_grade_and_health_analysis",
+      "status": "research_only"
+    },
+    {
+      "entity_type": "team",
+      "entity": "Tampa Bay Buccaneers",
+      "affected_positions": [
+        "QB"
+      ],
+      "signal_class": "scheme",
+      "summary": "FantasyGuru questions Baker Mayfield's fit in Zac Robinson's shotgun- and pistol-heavy offense.",
+      "mechanism": "A scheme mismatch can reduce efficiency and timing even if Mayfield's competitiveness preserves volume and job security.",
+      "direction": -1,
+      "raw_adjustment": -0.4,
+      "capped_adjustment": -0.4,
+      "confidence": 0.65,
+      "source_name": "FantasyGuru - Buccaneers Coaching Breakdown",
+      "source_url": "https://www.fantasyguru.com/coaching-breakdown-tampa-bay-buccaneers-2026",
+      "published_at": null,
+      "retrieved_at": "2026-08-20",
+      "expires_at": "2026-09-30",
+      "evidence_type": "authenticated_player_scheme_fit_analysis",
+      "status": "approved"
+    },
+    {
+      "entity_type": "team",
+      "entity": "Tennessee Titans",
+      "affected_positions": [
+        "QB",
+        "RB"
+      ],
+      "signal_class": "environment",
+      "summary": "FantasyGuru grades Tennessee's 2026 offensive line D-, one of the league's worst units despite a new coach and several additions.",
+      "mechanism": "Weak depth and multiple underperforming starters can derail Cam Ward's development and prevent the new run scheme from creating consistent lanes.",
+      "direction": -1,
+      "raw_adjustment": -0.6,
+      "capped_adjustment": -0.6,
+      "confidence": 0.8,
+      "source_name": "FantasyGuru - Offensive Line Breakdown",
+      "source_url": "https://www.fantasyguru.com/2026-offensive-line-breakdown",
+      "published_at": "2026-07-10",
+      "retrieved_at": "2026-08-20",
+      "expires_at": "2026-10-01",
+      "evidence_type": "authenticated_unit_grade_and_personnel_analysis",
+      "status": "approved"
+    },
+    {
+      "entity_type": "team",
+      "entity": "Tennessee Titans",
+      "affected_positions": [
+        "QB",
+        "RB",
+        "TE",
+        "WR"
+      ],
+      "signal_class": "scheme",
+      "summary": "Tennessee replaced its staff with Robert Saleh, Brian Daboll, and a new line coach, installing a run-first offense built on horizontal spacing, quick throws, RPOs, and play action.",
+      "mechanism": "The design could make reads easier for Cam Ward and create clearer receiver roles, but the entire projection depends on Ward's development and the line executing a changed blocking mix.",
+      "direction": 0,
+      "raw_adjustment": 0.0,
+      "capped_adjustment": 0.0,
+      "confidence": 0.74,
+      "source_name": "FantasyGuru - Titans Coaching Breakdown",
+      "source_url": "https://www.fantasyguru.com/coaching-breakdown-tennessee-titans-2026",
+      "published_at": "2026-07-15",
+      "retrieved_at": "2026-08-20",
+      "expires_at": "2026-10-01",
+      "evidence_type": "authenticated_coaching_scheme_and_line_analysis",
+      "status": "research_only"
+    },
+    {
+      "entity_type": "team",
+      "entity": "Washington Commanders",
+      "affected_positions": [
+        "QB",
+        "RB"
+      ],
+      "signal_class": "environment",
+      "summary": "FantasyGuru grades Washington's 2026 line C-, with two strong pieces but continued interior holes.",
+      "mechanism": "Inconsistent inside blocking raises durability and efficiency concerns for Jayden Daniels and the run game.",
+      "direction": -1,
+      "raw_adjustment": -0.3,
+      "capped_adjustment": -0.3,
+      "confidence": 0.72,
+      "source_name": "FantasyGuru - Offensive Line Breakdown",
+      "source_url": "https://www.fantasyguru.com/2026-offensive-line-breakdown",
+      "published_at": "2026-07-10",
+      "retrieved_at": "2026-08-20",
+      "expires_at": "2026-10-01",
+      "evidence_type": "authenticated_unit_grade_and_personnel_analysis",
+      "status": "approved"
+    },
+    {
+      "entity_type": "team",
+      "entity": "Washington Commanders",
+      "affected_positions": [
+        "QB",
+        "RB",
+        "TE",
+        "WR"
+      ],
+      "signal_class": "scheme",
+      "summary": "Washington handed its offense to first-time coordinator David Blough, with broad player freedom but little evidence yet that the many concepts will form a coherent system.",
+      "mechanism": "The talent and tempo create upside, while play-calling inexperience and uncertain role integration raise execution risk.",
+      "direction": 0,
+      "raw_adjustment": 0.0,
+      "capped_adjustment": 0.0,
+      "confidence": 0.67,
+      "source_name": "FantasyGuru - Commanders Coaching Breakdown",
+      "source_url": "https://www.fantasyguru.com/coaching-breakdown-washington-commanders-2026",
+      "published_at": null,
+      "retrieved_at": "2026-08-20",
+      "expires_at": "2026-09-30",
+      "evidence_type": "authenticated_coaching_transition_analysis",
+      "status": "research_only"
+    }
+  ],
+  "rejected_signals": [
+    {
+      "source_name": "ESPN NFL News",
+      "entity": null,
+      "summary": "'I hate joint practices,' Eagles star Barkley says",
+      "reason": "General headline is research-only; no explicit player/position mechanism was reviewed.",
+      "source_url": "https://www.espn.com/nfl/story/_/id/49673017/i-hate-joint-practices-says-eagles-star-saquon-barkley"
+    },
+    {
+      "source_name": "ESPN NFL News",
+      "entity": null,
+      "summary": "'The team being hunted': Why things feel -- and look -- different for the Patriots in 2026",
+      "reason": "General headline is research-only; no explicit player/position mechanism was reviewed.",
+      "source_url": "https://www.espn.com/nfl/story/_/id/49648149/new-england-patriots-how-respond-super-bowl-loss-2026-season"
+    },
+    {
+      "source_name": "ESPN NFL News",
+      "entity": null,
+      "summary": "Brown, Hurts reunite briefly amid post-trade rift",
+      "reason": "General headline is research-only; no explicit player/position mechanism was reviewed.",
+      "source_url": "https://www.espn.com/nfl/story/_/id/49672812/aj-brown-jalen-hurts-reunite-briefly-amid-post-trade-rift"
+    },
+    {
+      "source_name": "ESPN NFL News",
+      "entity": null,
+      "summary": "Buzz, news and more from Cowboys training camp: Coaches seek consistency from RT Terence Steele",
+      "reason": "General headline is research-only; no explicit player/position mechanism was reviewed.",
+      "source_url": "https://www.espn.com/nfl/story/_/id/49376535/dallas-cowboys-training-camp-2026-intel-updates"
+    },
+    {
+      "source_name": "ESPN NFL News",
+      "entity": null,
+      "summary": "Cowboys, Saints fined $500K for practice brawls",
+      "reason": "General headline is research-only; no explicit player/position mechanism was reviewed.",
+      "source_url": "https://www.espn.com/nfl/story/_/id/49673882/cowboys-saints-fined-500k-brawls-joint-practices"
+    },
+    {
+      "source_name": "ESPN NFL News",
+      "entity": null,
+      "summary": "Donald to continue workouts as decision looms",
+      "reason": "General headline is research-only; no explicit player/position mechanism was reviewed.",
+      "source_url": "https://www.espn.com/nfl/story/_/id/49673878/aaron-donald-continue-workouts-rams-decision-looms"
+    },
+    {
+      "source_name": "ESPN NFL News",
+      "entity": null,
+      "summary": "Hallmark, hot dogs and touchdowns: The Colston Loveland story",
+      "reason": "General headline is research-only; no explicit player/position mechanism was reviewed.",
+      "source_url": "https://www.espn.com/nfl/story/_/id/49651823/hallmark-hot-dogs-chicago-bears-touchdowns-colston-loveland-story"
+    },
+    {
+      "source_name": "ESPN NFL News",
+      "entity": null,
+      "summary": "Jets' Johnson buys stake in Aston Martin F1 team",
+      "reason": "General headline is research-only; no explicit player/position mechanism was reviewed.",
+      "source_url": "https://www.espn.com/nfl/story/_/id/49673504/jets-owner-woody-johnson-buys-stake-aston-martin-f1-team"
+    },
+    {
+      "source_name": "ESPN NFL News",
+      "entity": null,
+      "summary": "Lions unsure if injured LaPorta will play Week 1",
+      "reason": "General headline is research-only; no explicit player/position mechanism was reviewed.",
+      "source_url": "https://www.espn.com/nfl/story/_/id/49672143/sam-laporta-status-uncertain-lions-season-opener"
+    },
+    {
+      "source_name": "ESPN NFL News",
+      "entity": null,
+      "summary": "NFL preseason on NFL Network, ESPN: How to watch, schedule",
+      "reason": "General headline is research-only; no explicit player/position mechanism was reviewed.",
+      "source_url": "https://www.espn.com/nfl/story/_/id/49498813/2026-preseason-nfl-network-espn-how-watch-schedule"
+    },
+    {
+      "source_name": "ESPN NFL News",
+      "entity": null,
+      "summary": "Players pulled from fight-filled Giants-Fins practice",
+      "reason": "General headline is research-only; no explicit player/position mechanism was reviewed.",
+      "source_url": "https://www.espn.com/nfl/story/_/id/49672671/players-pulled-fight-filled-giants-dolphins-practice"
+    },
+    {
+      "source_name": "ESPN NFL News",
+      "entity": null,
+      "summary": "Projecting next year's QB market: Most likely scenarios and long-shot possibilities for 16 NFL teams",
+      "reason": "General headline is research-only; no explicit player/position mechanism was reviewed.",
+      "source_url": "https://www.espn.com/nfl/story/_/id/49659412/2027-nfl-quarterback-predictions-16-teams-starter-questions-free-agency-trades-draft"
+    },
+    {
+      "source_name": "ESPN NFL News",
+      "entity": null,
+      "summary": "Rankings: Eric Karabell's RB tiers",
+      "reason": "General headline is research-only; no explicit player/position mechanism was reviewed.",
+      "source_url": "https://www.espn.com/fantasy/football/story/_/id/49614875/2026-fantasy-football-rankings-running-back-tiers-rb"
+    },
+    {
+      "source_name": "ESPN NFL News",
+      "entity": null,
+      "summary": "Rankings: Karabell's WR tiers",
+      "reason": "General headline is research-only; no explicit player/position mechanism was reviewed.",
+      "source_url": "https://www.espn.com/fantasy/football/story/_/id/49649506/fantasy-football-rankings-wide-receivers-tiers-draft"
+    },
+    {
+      "source_name": "ESPN NFL News",
+      "entity": null,
+      "summary": "Solak: Why Ben Johnson's Bears offense is much more than just Caleb Williams",
+      "reason": "General headline is research-only; no explicit player/position mechanism was reviewed.",
+      "source_url": "https://www.espn.com/nfl/story/_/id/49652191/chicago-bears-coach-ben-johnson-offense-caleb-williams"
+    },
+    {
+      "source_name": "ESPN NFL News",
+      "entity": null,
+      "summary": "The 'bullies' are back in town: What Deebo Samuel, Dre Greenlaw are bringing in second stints with 49ers",
+      "reason": "General headline is research-only; no explicit player/position mechanism was reviewed.",
+      "source_url": "https://www.espn.com/nfl/story/_/id/49651267/san-francisco-49ers-deebo-samuel-dre-greenlaw-return"
+    },
+    {
+      "source_name": "ESPN NFL News",
+      "entity": null,
+      "summary": "Vea dismisses trade ask: Want to be 'Buc for life'",
+      "reason": "General headline is research-only; no explicit player/position mechanism was reviewed.",
+      "source_url": "https://www.espn.com/nfl/story/_/id/49672527/vita-vea-dismisses-trade-drama-want-buc-life"
+    },
+    {
+      "source_name": "ESPN NFL News",
+      "entity": null,
+      "summary": "Why QB Fernando Mendoza's notebook is his biggest asset: 'He is a lifelong learner when it comes to football'",
+      "reason": "General headline is research-only; no explicit player/position mechanism was reviewed.",
+      "source_url": "https://www.espn.com/nfl/story/_/id/49660906/las-vegas-raiders-quarterback-fernando-mendoza-quarterback-2026-preparation-development"
+    },
+    {
+      "source_name": "ESPN NFL News",
+      "entity": null,
+      "summary": "With $1 billion in contract extensions and a rebuilt O-line, Detroit will see you at SoFi",
+      "reason": "General headline is research-only; no explicit player/position mechanism was reviewed.",
+      "source_url": "https://www.espn.com/nfl/story/_/id/49651690/detroit-lions-super-bowl-window-opportunity-2026"
+    },
+    {
+      "source_name": "ESPN NFL News",
+      "entity": null,
+      "summary": "\ud83d\udcc8 Future Power Rankings: Projecting every team",
+      "reason": "General headline is research-only; no explicit player/position mechanism was reviewed.",
+      "source_url": "https://www.espn.com/nfl/story/_/id/49582613/2026-nfl-future-power-rankings-projections-32-teams-roster-coaching-quarterback"
+    },
+    {
+      "source_name": "FantasyGuru - Fantasy Billboard: 105 Draft Board Observations",
+      "entity": "Jonathan Brooks",
+      "summary": "FantasyGuru reports Brooks healthy and drawing positive camp attention while Hubbard is dealing with a hamstring injury.",
+      "reason": "Player is not on the current draft board.",
+      "source_url": "https://www.fantasyguru.com/2026-nfl-fantasy-billboard-105-fantasy-football-draft-board-observations"
+    },
+    {
+      "source_name": "Ourlads",
+      "entity": "Andrew Armstrong",
+      "summary": "KC LWR depth 2: 2026 acquisition",
+      "reason": "Depth-chart player is not on the current draft board.",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/54444/"
+    },
+    {
+      "source_name": "Ourlads",
+      "entity": "Antonio Williams",
+      "summary": "WAS LWR depth 2: 2026 draft pick",
+      "reason": "Depth-chart player is not on the current draft board.",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/55023/"
+    },
+    {
+      "source_name": "Ourlads",
+      "entity": "Barion Brown",
+      "summary": "NO LWR depth 2: 2026 draft pick",
+      "reason": "Depth-chart player is not on the current draft board.",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/55142/"
+    },
+    {
+      "source_name": "Ourlads",
+      "entity": "Braxton Berrios",
+      "summary": "NYG SWR depth 2: 2026 acquisition",
+      "reason": "Depth-chart player is not on the current draft board.",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/49900/"
+    },
+    {
+      "source_name": "Ourlads",
+      "entity": "Brenen Thompson",
+      "summary": "LAC RWR depth 2: 2026 draft pick",
+      "reason": "Depth-chart player is not on the current draft board.",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/55057/"
+    },
+    {
+      "source_name": "Ourlads",
+      "entity": "Cade Klubnik",
+      "summary": "NYJ QB depth 2: 2026 draft pick",
+      "reason": "Depth-chart player is not on the current draft board.",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/55062/"
+    },
+    {
+      "source_name": "Ourlads",
+      "entity": "Caleb Douglas",
+      "summary": "MIA RWR depth 1: 2026 draft pick",
+      "reason": "Depth-chart player is not on the current draft board.",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/55027/"
+    },
+    {
+      "source_name": "Ourlads",
+      "entity": "Calvin Austin Iii",
+      "summary": "NYG SWR depth 1: 2026 acquisition",
+      "reason": "Depth-chart player is not on the current draft board.",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/46960/"
+    },
+    {
+      "source_name": "Ourlads",
+      "entity": "Camden Brown",
+      "summary": "DAL LWR depth 2: 2026 undrafted free agent",
+      "reason": "Depth-chart player is not on the current draft board.",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/55374/"
+    },
+    {
+      "source_name": "Ourlads",
+      "entity": "Cedrick Wilson Jr.",
+      "summary": "DET LWR depth 2: 2026 acquisition",
+      "reason": "Depth-chart player is not on the current draft board.",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/46501/"
+    },
+    {
+      "source_name": "Ourlads",
+      "entity": "Charlie Kolar",
+      "summary": "LAC TE depth 2: 2026 acquisition",
+      "reason": "Depth-chart player is not on the current draft board.",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/46955/"
+    },
+    {
+      "source_name": "Ourlads",
+      "entity": "Chris Bell",
+      "summary": "MIA LWR depth 2: 2026 draft pick",
+      "reason": "Depth-chart player is not on the current draft board.",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/55046/"
+    },
+    {
+      "source_name": "Ourlads",
+      "entity": "Cj Daniels",
+      "summary": "LAR RWR depth 2: 2026 draft pick",
+      "reason": "Depth-chart player is not on the current draft board.",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/55149/"
+    },
+    {
+      "source_name": "Ourlads",
+      "entity": "Cj Williams",
+      "summary": "JAX RWR depth 2: 2026 draft pick",
+      "reason": "Depth-chart player is not on the current draft board.",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/55155/"
+    },
+    {
+      "source_name": "Ourlads",
+      "entity": "Colbie Young",
+      "summary": "CIN RWR depth 2: 2026 draft pick",
+      "reason": "Depth-chart player is not on the current draft board.",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/55092/"
+    },
+    {
+      "source_name": "Ourlads",
+      "entity": "Cyrus Allen",
+      "summary": "KC SWR depth 2: 2026 draft pick",
+      "reason": "Depth-chart player is not on the current draft board.",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/55128/"
+    },
+    {
+      "source_name": "Ourlads",
+      "entity": "Daniel Bellinger",
+      "summary": "TEN TE depth 2: 2026 acquisition",
+      "reason": "Depth-chart player is not on the current draft board.",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/46939/"
+    },
+    {
+      "source_name": "Ourlads",
+      "entity": "Dareke Young",
+      "summary": "LV SWR depth 2: 2026 acquisition",
+      "reason": "Depth-chart player is not on the current draft board.",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/47062/"
+    },
+    {
+      "source_name": "Ourlads",
+      "entity": "Darren Waller",
+      "summary": "CAR TE depth 2: 2026 acquisition",
+      "reason": "Depth-chart player is not on the current draft board.",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/49848/"
+    },
+    {
+      "source_name": "Ourlads",
+      "entity": "Devin Duvernay",
+      "summary": "ARI SWR depth 2: 2026 acquisition",
+      "reason": "Depth-chart player is not on the current draft board.",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/40333/"
+    },
+    {
+      "source_name": "Ourlads",
+      "entity": "Durham Smythe",
+      "summary": "BAL TE depth 2: 2026 acquisition",
+      "reason": "Depth-chart player is not on the current draft board.",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/33840/"
+    },
+    {
+      "source_name": "Ourlads",
+      "entity": "Eli Raridon",
+      "summary": "NE TE depth 2: 2026 draft pick",
+      "reason": "Depth-chart player is not on the current draft board.",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/55047/"
+    },
+    {
+      "source_name": "Ourlads",
+      "entity": "Elijah Moore",
+      "summary": "PHI SWR depth 2: 2026 acquisition",
+      "reason": "Depth-chart player is not on the current draft board.",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/49982/"
+    },
+    {
+      "source_name": "Ourlads",
+      "entity": "Elijah Sarratt",
+      "summary": "BAL LWR depth 2: 2026 draft pick",
+      "reason": "Depth-chart player is not on the current draft board.",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/55067/"
+    },
+    {
+      "source_name": "Ourlads",
+      "entity": "Emari Demercado",
+      "summary": "KC RB depth 2: 2026 acquisition",
+      "reason": "Depth-chart player is not on the current draft board.",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/50377/"
+    },
+    {
+      "source_name": "Ourlads",
+      "entity": "Emmanuel Henderson Jr.",
+      "summary": "SEA SWR depth 2: 2026 draft pick",
+      "reason": "Depth-chart player is not on the current draft board.",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/55151/"
+    },
+    {
+      "source_name": "Ourlads",
+      "entity": "Foster Moreau",
+      "summary": "HOU TE depth 2: 2026 acquisition",
+      "reason": "Depth-chart player is not on the current draft board.",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/50844/"
+    },
+    {
+      "source_name": "Ourlads",
+      "entity": "Gardner Minshew Ii",
+      "summary": "ARI QB depth 2: 2026 acquisition",
+      "reason": "Depth-chart player is not on the current draft board.",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/49907/"
+    },
+    {
+      "source_name": "Ourlads",
+      "entity": "Germie Bernard",
+      "summary": "PIT RWR depth 2: 2026 draft pick",
+      "reason": "Depth-chart player is not on the current draft board.",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/54999/"
+    },
+    {
+      "source_name": "Ourlads",
+      "entity": "Greg Dortch",
+      "summary": "DET SWR depth 2: 2026 acquisition",
+      "reason": "Depth-chart player is not on the current draft board.",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/44603/"
+    },
+    {
+      "source_name": "Ourlads",
+      "entity": "Hollywood Brown",
+      "summary": "PHI RWR depth 2: 2026 acquisition",
+      "reason": "Depth-chart player is not on the current draft board.",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/46854/"
+    },
+    {
+      "source_name": "Ourlads",
+      "entity": "Ja'Kobi Lane",
+      "summary": "BAL RWR depth 2: 2026 draft pick",
+      "reason": "Depth-chart player is not on the current draft board.",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/55032/"
+    },
+    {
+      "source_name": "Ourlads",
+      "entity": "Jahan Dotson",
+      "summary": "ATL RWR depth 1: 2026 acquisition",
+      "reason": "Depth-chart player is not on the current draft board.",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/46857/"
+    },
+    {
+      "source_name": "Ourlads",
+      "entity": "Jake Browning",
+      "summary": "TB QB depth 2: 2026 acquisition",
+      "reason": "Depth-chart player is not on the current draft board.",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/48187/"
+    },
+    {
+      "source_name": "Ourlads",
+      "entity": "Jalen Tolbert",
+      "summary": "MIA LWR depth 1: 2026 acquisition",
+      "reason": "Depth-chart player is not on the current draft board.",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/46916/"
+    },
+    {
+      "source_name": "Ourlads",
+      "entity": "John Bates",
+      "summary": "WAS TE depth 2: injured/inactive",
+      "reason": "Depth-chart player is not on the current draft board.",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/43442/"
+    },
+    {
+      "source_name": "Ourlads",
+      "entity": "Johnny Mundt",
+      "summary": "PHI TE depth 2: 2026 acquisition",
+      "reason": "Depth-chart player is not on the current draft board.",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/46553/"
+    },
+    {
+      "source_name": "Ourlads",
+      "entity": "Josh Cameron",
+      "summary": "JAX LWR depth 2: 2026 draft pick",
+      "reason": "Depth-chart player is not on the current draft board.",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/55143/"
+    },
+    {
+      "source_name": "Ourlads",
+      "entity": "Joshua Dobbs",
+      "summary": "DET QB depth 2: 2026 acquisition",
+      "reason": "Depth-chart player is not on the current draft board.",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/52557/"
+    },
+    {
+      "source_name": "Ourlads",
+      "entity": "Kaden Wetjen",
+      "summary": "PIT SWR depth 2: 2026 draft pick",
+      "reason": "Depth-chart player is not on the current draft board.",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/55073/"
+    },
+    {
+      "source_name": "Ourlads",
+      "entity": "Kalif Raymond",
+      "summary": "CHI SWR depth 1: 2026 acquisition",
+      "reason": "Depth-chart player is not on the current draft board.",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/43198/"
+    },
+    {
+      "source_name": "Ourlads",
+      "entity": "Keenan Allen",
+      "summary": "IND RWR depth 1: 2026 acquisition",
+      "reason": "Depth-chart player is not on the current draft board.",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/17936/"
+    },
+    {
+      "source_name": "Ourlads",
+      "entity": "Kendrick Bourne",
+      "summary": "ARI SWR depth 1: 2026 acquisition",
+      "reason": "Depth-chart player is not on the current draft board.",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/42986/"
+    },
+    {
+      "source_name": "Ourlads",
+      "entity": "Kenny Pickett",
+      "summary": "CAR QB depth 2: 2026 acquisition",
+      "reason": "Depth-chart player is not on the current draft board.",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/46844/"
+    },
+    {
+      "source_name": "Ourlads",
+      "entity": "Kevin Coleman Jr.",
+      "summary": "MIA SWR depth 2: 2026 draft pick",
+      "reason": "Depth-chart player is not on the current draft board.",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/55129/"
+    },
+    {
+      "source_name": "Ourlads",
+      "entity": "Kyle Allen",
+      "summary": "BUF QB depth 2: 2026 acquisition",
+      "reason": "Depth-chart player is not on the current draft board.",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/49886/"
+    },
+    {
+      "source_name": "Ourlads",
+      "entity": "Lewis Bond",
+      "summary": "HOU SWR depth 2: 2026 draft pick",
+      "reason": "Depth-chart player is not on the current draft board.",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/55156/"
+    },
+    {
+      "source_name": "Ourlads",
+      "entity": "Malik Benson",
+      "summary": "LV RWR depth 2: 2026 draft pick",
+      "reason": "Depth-chart player is not on the current draft board.",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/55147/"
+    },
+    {
+      "source_name": "Ourlads",
+      "entity": "Mitchell Trubisky",
+      "summary": "TEN QB depth 2: 2026 acquisition",
+      "reason": "Depth-chart player is not on the current draft board.",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/46477/"
+    },
+    {
+      "source_name": "Ourlads",
+      "entity": "Nate Boerkircher",
+      "summary": "JAX TE depth 2: 2026 draft pick",
+      "reason": "Depth-chart player is not on the current draft board.",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/55008/"
+    },
+    {
+      "source_name": "Ourlads",
+      "entity": "Nick Westbrook-Ikhine",
+      "summary": "IND RWR depth 2: 2026 acquisition",
+      "reason": "Depth-chart player is not on the current draft board.",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/41834/"
+    },
+    {
+      "source_name": "Ourlads",
+      "entity": "Noah Fant",
+      "summary": "NO TE depth 2: 2026 acquisition",
+      "reason": "Depth-chart player is not on the current draft board.",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/46457/"
+    },
+    {
+      "source_name": "Ourlads",
+      "entity": "Olamide Zaccheaus",
+      "summary": "ATL SWR depth 1: 2026 acquisition",
+      "reason": "Depth-chart player is not on the current draft board.",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/50076/"
+    },
+    {
+      "source_name": "Ourlads",
+      "entity": "Reggie Virgil",
+      "summary": "ARI RWR depth 2: 2026 draft pick",
+      "reason": "Depth-chart player is not on the current draft board.",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/55095/"
+    },
+    {
+      "source_name": "Ourlads",
+      "entity": "Scotty Miller",
+      "summary": "CHI RWR depth 2: 2026 acquisition",
+      "reason": "Depth-chart player is not on the current draft board.",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/50020/"
+    },
+    {
+      "source_name": "Ourlads",
+      "entity": "Seth Mcgowan",
+      "summary": "IND RB depth 2: 2026 draft pick",
+      "reason": "Depth-chart player is not on the current draft board.",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/55189/"
+    },
+    {
+      "source_name": "Ourlads",
+      "entity": "Skyler Bell",
+      "summary": "BUF RWR depth 2: injured/inactive",
+      "reason": "Depth-chart player is not on the current draft board.",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/55077/"
+    },
+    {
+      "source_name": "Ourlads",
+      "entity": "Skyy Moore",
+      "summary": "GB RWR depth 2: 2026 acquisition",
+      "reason": "Depth-chart player is not on the current draft board.",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/46881/"
+    },
+    {
+      "source_name": "Ourlads",
+      "entity": "Tim Patrick",
+      "summary": "NYJ LWR depth 2: 2026 acquisition",
+      "reason": "Depth-chart player is not on the current draft board.",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/32932/"
+    },
+    {
+      "source_name": "Ourlads",
+      "entity": "Tutu Atwell",
+      "summary": "MIA RWR depth 2: 2026 acquisition",
+      "reason": "Depth-chart player is not on the current draft board.",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/43375/"
+    },
+    {
+      "source_name": "Ourlads",
+      "entity": "Tylan Wallace",
+      "summary": "CLE RWR depth 2: 2026 acquisition",
+      "reason": "Depth-chart player is not on the current draft board.",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/43449/"
+    },
+    {
+      "source_name": "Ourlads",
+      "entity": "Tyrod Taylor",
+      "summary": "GB QB depth 2: 2026 acquisition",
+      "reason": "Depth-chart player is not on the current draft board.",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/46531/"
+    },
+    {
+      "source_name": "Ourlads",
+      "entity": "Will Kacmarek",
+      "summary": "MIA TE depth 2: 2026 draft pick",
+      "reason": "Depth-chart player is not on the current draft board.",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/55039/"
+    },
+    {
+      "source_name": "Ourlads",
+      "entity": "Zavion Thomas",
+      "summary": "CHI SWR depth 2: 2026 draft pick",
+      "reason": "Depth-chart player is not on the current draft board.",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/55041/"
+    },
+    {
+      "source_name": "RotoWire",
+      "entity": "Anthony Richardson",
+      "summary": "Remains in Colts' plans",
+      "reason": "Player is not on the current draft board.",
+      "source_url": "https://www.rotowire.com/football/headlines/anthony-richardson-news-remains-in-colts-plans-633926"
+    },
+    {
+      "source_name": "RotoWire",
+      "entity": "Bo Nix",
+      "summary": "In line to play in Friday's preseason contest",
+      "reason": "General news has no explicit, supported availability or role effect.",
+      "source_url": "https://www.rotowire.com/football/headlines/bo-nix-news-in-line-to-play-in-fridays-preseason-contest-634179"
+    },
+    {
+      "source_name": "RotoWire",
+      "entity": "Breece Hall",
+      "summary": "Groin strain is considered 'minor'",
+      "reason": "Injury/status wording does not establish a clear availability direction.",
+      "source_url": "https://www.rotowire.com/football/headlines/breece-hall-injury-groin-strain-is-considered-minor-633961"
+    },
+    {
+      "source_name": "RotoWire",
+      "entity": "Bucky Irving",
+      "summary": "To play in preseason Week 2",
+      "reason": "General news has no explicit, supported availability or role effect.",
+      "source_url": "https://www.rotowire.com/football/headlines/bucky-irving-news-to-play-in-preseason-week-2-633947"
+    },
+    {
+      "source_name": "RotoWire",
+      "entity": "C.J. Stroud",
+      "summary": "On track to play Thursday",
+      "reason": "General news has no explicit, supported availability or role effect.",
+      "source_url": "https://www.rotowire.com/football/headlines/cj-stroud-news-on-track-to-play-thursday-634228"
+    },
+    {
+      "source_name": "RotoWire",
+      "entity": "Carnell Tate",
+      "summary": "Will be evaluated after hard hit",
+      "reason": "Injury/status wording does not establish a clear availability direction.",
+      "source_url": "https://www.rotowire.com/football/headlines/carnell-tate-injury-will-be-evaluated-after-hard-hit-633942"
+    },
+    {
+      "source_name": "RotoWire",
+      "entity": "Cedric Tillman",
+      "summary": "Remains sidelined at practice",
+      "reason": "Player is not on the current draft board.",
+      "source_url": "https://www.rotowire.com/football/headlines/cedric-tillman-injury-remains-sidelined-at-practice-633974"
+    },
+    {
+      "source_name": "RotoWire",
+      "entity": "Christian McCaffrey",
+      "summary": "Tightness not considered serious issue",
+      "reason": "Injury/status wording does not establish a clear availability direction.",
+      "source_url": "https://www.rotowire.com/football/headlines/christian-mccaffrey-injury-tightness-not-considered-serious-issue-633986"
+    },
+    {
+      "source_name": "RotoWire",
+      "entity": "Darren Waller",
+      "summary": "Being eased into the mix",
+      "reason": "Player is not on the current draft board.",
+      "source_url": "https://www.rotowire.com/football/headlines/darren-waller-news-being-eased-into-the-mix-633956"
+    },
+    {
+      "source_name": "RotoWire",
+      "entity": "DeVonta Smith",
+      "summary": "Appears prepared to practice",
+      "reason": "Injury/status wording does not establish a clear availability direction.",
+      "source_url": "https://www.rotowire.com/football/headlines/devonta-smith-injury-appears-prepared-to-practice-633930"
+    },
+    {
+      "source_name": "RotoWire",
+      "entity": "DJ Moore",
+      "summary": "Taking part in team drills Thursday",
+      "reason": "General news has no explicit, supported availability or role effect.",
+      "source_url": "https://www.rotowire.com/football/headlines/dj-moore-news-taking-part-in-team-drills-thursday-634237"
+    },
+    {
+      "source_name": "RotoWire",
+      "entity": "Drake Maye",
+      "summary": "Sharp at Monday's practice session",
+      "reason": "General news has no explicit, supported availability or role effect.",
+      "source_url": "https://www.rotowire.com/football/headlines/drake-maye-news-sharp-at-mondays-practice-session-633929"
+    },
+    {
+      "source_name": "RotoWire",
+      "entity": "Drew Stevens",
+      "summary": "Wins kicker competition in Washington",
+      "reason": "Player is not on the current draft board.",
+      "source_url": "https://www.rotowire.com/football/headlines/drew-stevens-news-wins-kicker-competition-in-washington-633940"
+    },
+    {
+      "source_name": "RotoWire",
+      "entity": "Fernando Mendoza",
+      "summary": "In line to see first-half action Thursday",
+      "reason": "General news has no explicit, supported availability or role effect.",
+      "source_url": "https://www.rotowire.com/football/headlines/fernando-mendoza-news-in-line-to-see-first-half-action-thursday-634240"
+    },
+    {
+      "source_name": "RotoWire",
+      "entity": "Geno Smith",
+      "summary": "On track to face Steelers on Friday",
+      "reason": "General news has no explicit, supported availability or role effect.",
+      "source_url": "https://www.rotowire.com/football/headlines/geno-smith-news-on-track-to-face-steelers-on-friday-634235"
+    },
+    {
+      "source_name": "RotoWire",
+      "entity": "Geno Smith",
+      "summary": "Practices fully Monday",
+      "reason": "Injury/status wording does not establish a clear availability direction.",
+      "source_url": "https://www.rotowire.com/football/headlines/geno-smith-injury-practices-fully-monday-633966"
+    },
+    {
+      "source_name": "RotoWire",
+      "entity": "Jake Moody",
+      "summary": "Will be released by Commanders",
+      "reason": "Player is not on the current draft board.",
+      "source_url": "https://www.rotowire.com/football/headlines/jake-moody-news-will-be-released-by-commanders-633939"
+    },
+    {
+      "source_name": "RotoWire",
+      "entity": "Jamal Adams",
+      "summary": "Move to IR official",
+      "reason": "Player is not on the current draft board.",
+      "source_url": "https://www.rotowire.com/football/headlines/jamal-adams-injury-move-to-ir-official-633967"
+    },
+    {
+      "source_name": "RotoWire",
+      "entity": "Jameson Williams",
+      "summary": "Dealing with shoulder issue",
+      "reason": "Injury/status wording does not establish a clear availability direction.",
+      "source_url": "https://www.rotowire.com/football/headlines/jameson-williams-injury-dealing-with-shoulder-issue-633958"
+    },
+    {
+      "source_name": "RotoWire",
+      "entity": "Jared Goff",
+      "summary": "Won't play against Commanders on Saturday",
+      "reason": "Preseason rest is not a regular-season availability downgrade.",
+      "source_url": "https://www.rotowire.com/football/headlines/jared-goff-news-wont-play-against-commanders-on-saturday-634231"
+    },
+    {
+      "source_name": "RotoWire",
+      "entity": "Jaydon Blue",
+      "summary": "Upgrades to limited participation Thursday",
+      "reason": "Injury/status wording does not establish a clear availability direction.",
+      "source_url": "https://www.rotowire.com/football/headlines/jaydon-blue-injury-upgrades-to-limited-participation-thursday-634238"
+    },
+    {
+      "source_name": "RotoWire",
+      "entity": "Jaylin Noel",
+      "summary": "Optimism around Week 1 availability",
+      "reason": "Injury/status wording does not establish a clear availability direction.",
+      "source_url": "https://www.rotowire.com/football/headlines/jaylin-noel-injury-optimism-around-week-1-availability-633957"
+    },
+    {
+      "source_name": "RotoWire",
+      "entity": "Joe Burrow",
+      "summary": "Will sit out Saturday's preseason contest",
+      "reason": "Preseason rest is not a regular-season availability downgrade.",
+      "source_url": "https://www.rotowire.com/football/headlines/joe-burrow-news-will-sit-out-saturdays-preseason-contest-634223"
+    },
+    {
+      "source_name": "RotoWire",
+      "entity": "Jonah Coleman",
+      "summary": "Pushing for role in Denver backfield",
+      "reason": "General news has no explicit, supported availability or role effect.",
+      "source_url": "https://www.rotowire.com/football/headlines/jonah-coleman-news-pushing-for-role-in-denver-backfield-633954"
+    },
+    {
+      "source_name": "RotoWire",
+      "entity": "Jordyn Tyson",
+      "summary": "In line to miss roughly two months",
+      "reason": "Injury/status wording does not establish a clear availability direction.",
+      "source_url": "https://www.rotowire.com/football/headlines/jordyn-tyson-injury-in-line-to-miss-roughly-two-months-633963"
+    },
+    {
+      "source_name": "RotoWire",
+      "entity": "Josh Downs",
+      "summary": "Sees positives in team's veteran WR addition",
+      "reason": "General news has no explicit, supported availability or role effect.",
+      "source_url": "https://www.rotowire.com/football/headlines/josh-downs-news-sees-positives-in-teams-veteran-wr-addition-634239"
+    },
+    {
+      "source_name": "RotoWire",
+      "entity": "Justin Fields",
+      "summary": "Preparing to start Saturday's exhibition",
+      "reason": "General news has no explicit, supported availability or role effect.",
+      "source_url": "https://www.rotowire.com/football/headlines/justin-fields-news-preparing-to-start-saturdays-exhibition-634222"
+    },
+    {
+      "source_name": "RotoWire",
+      "entity": "Keenan Allen",
+      "summary": "Heading to Indianapolis",
+      "reason": "Player is not on the current draft board.",
+      "source_url": "https://www.rotowire.com/football/headlines/keenan-allen-news-heading-to-indianapolis-634024"
+    },
+    {
+      "source_name": "RotoWire",
+      "entity": "Khalil Shakir",
+      "summary": "Managing unspecified injury",
+      "reason": "Injury/status wording does not establish a clear availability direction.",
+      "source_url": "https://www.rotowire.com/football/headlines/khalil-shakir-injury-managing-unspecified-injury-634234"
+    },
+    {
+      "source_name": "RotoWire",
+      "entity": "Kyler Murray",
+      "summary": "Not likely to play in Saturday's preseason contest",
+      "reason": "General news has no explicit, supported availability or role effect.",
+      "source_url": "https://www.rotowire.com/football/headlines/kyler-murray-news-not-likely-to-play-in-saturdays-preseason-contest-634233"
+    },
+    {
+      "source_name": "RotoWire",
+      "entity": "Makai Lemon",
+      "summary": "Deemed limited at Thursday's practice",
+      "reason": "Injury/status wording does not establish a clear availability direction.",
+      "source_url": "https://www.rotowire.com/football/headlines/makai-lemon-injury-deemed-limited-at-thursdays-practice-634229"
+    },
+    {
+      "source_name": "RotoWire",
+      "entity": "Makai Lemon",
+      "summary": "Poised to practice again Thursday",
+      "reason": "Injury/status wording does not establish a clear availability direction.",
+      "source_url": "https://www.rotowire.com/football/headlines/makai-lemon-injury-poised-to-practice-again-thursday-634224"
+    },
+    {
+      "source_name": "RotoWire",
+      "entity": "Makai Lemon",
+      "summary": "Spotted sprinting on side field",
+      "reason": "Injury/status wording does not establish a clear availability direction.",
+      "source_url": "https://www.rotowire.com/football/headlines/makai-lemon-injury-spotted-sprinting-on-side-field-633938"
+    },
+    {
+      "source_name": "RotoWire",
+      "entity": "Malik Nabers",
+      "summary": "Works in team drills for first time",
+      "reason": "Duplicate same-player, same-status event from the same day.",
+      "source_url": "https://www.rotowire.com/football/headlines/malik-nabers-injury-works-in-team-drills-for-first-time-633952"
+    },
+    {
+      "source_name": "RotoWire",
+      "entity": "Marvin Mims",
+      "summary": "Limited to side work Monday",
+      "reason": "Player is not on the current draft board.",
+      "source_url": "https://www.rotowire.com/football/headlines/marvin-mims-injury-limited-to-side-work-monday-633962"
+    },
+    {
+      "source_name": "RotoWire",
+      "entity": "Myles Garrett",
+      "summary": "May not practice this week",
+      "reason": "Player is not on the current draft board.",
+      "source_url": "https://www.rotowire.com/football/headlines/myles-garrett-injury-may-not-practice-this-week-633950"
+    },
+    {
+      "source_name": "RotoWire",
+      "entity": "Najee Harris",
+      "summary": "Could join Big Blue",
+      "reason": "Player is not on the current draft board.",
+      "source_url": "https://www.rotowire.com/football/headlines/najee-harris-injury-could-join-big-blue-633964"
+    },
+    {
+      "source_name": "RotoWire",
+      "entity": "Najee Harris",
+      "summary": "Looks good at practice",
+      "reason": "Player is not on the current draft board.",
+      "source_url": "https://www.rotowire.com/football/headlines/najee-harris-news-looks-good-at-practice-634230"
+    },
+    {
+      "source_name": "RotoWire",
+      "entity": "Najee Harris",
+      "summary": "Visiting with Giants",
+      "reason": "Player is not on the current draft board.",
+      "source_url": "https://www.rotowire.com/football/headlines/najee-harris-injury-visiting-with-giants-633927"
+    },
+    {
+      "source_name": "RotoWire",
+      "entity": "Patrick Mahomes",
+      "summary": "Remaining out for second preseason tilt",
+      "reason": "Injury/status wording does not establish a clear availability direction.",
+      "source_url": "https://www.rotowire.com/football/headlines/patrick-mahomes-injury-remaining-out-for-second-preseason-tilt-634227"
+    },
+    {
+      "source_name": "RotoWire",
+      "entity": "Puka Nacua",
+      "summary": "Not participating in Monday's practice",
+      "reason": "Duplicate same-player, same-status event from the same day.",
+      "source_url": "https://www.rotowire.com/football/headlines/puka-nacua-injury-not-participating-in-mondays-practice-633943"
+    },
+    {
+      "source_name": "RotoWire",
+      "entity": "Rachaad White",
+      "summary": "Nursing hamstring injury",
+      "reason": "Injury/status wording does not establish a clear availability direction.",
+      "source_url": "https://www.rotowire.com/football/headlines/rachaad-white-injury-nursing-hamstring-injury-634215"
+    },
+    {
+      "source_name": "RotoWire",
+      "entity": "Rachaad White",
+      "summary": "Won't play in Saturday's preseason game",
+      "reason": "Injury/status wording does not establish a clear availability direction.",
+      "source_url": "https://www.rotowire.com/football/headlines/rachaad-white-injury-wont-play-in-saturdays-preseason-game-634219"
+    },
+    {
+      "source_name": "RotoWire",
+      "entity": "Rachaad White",
+      "summary": "Working off to side at practice Thursday",
+      "reason": "Injury/status wording does not establish a clear availability direction.",
+      "source_url": "https://www.rotowire.com/football/headlines/rachaad-white-injury-working-off-to-side-at-practice-thursday-634220"
+    },
+    {
+      "source_name": "RotoWire",
+      "entity": "Sam LaPorta",
+      "summary": "Dealing with hip injury, per coach",
+      "reason": "Injury/status wording does not establish a clear availability direction.",
+      "source_url": "https://www.rotowire.com/football/headlines/sam-laporta-injury-dealing-with-hip-injury-per-coach-634232"
+    },
+    {
+      "source_name": "RotoWire",
+      "entity": "Trey Benson",
+      "summary": "Present for Monday's workout",
+      "reason": "Player is not on the current draft board.",
+      "source_url": "https://www.rotowire.com/football/headlines/trey-benson-injury-present-for-mondays-workout-633953"
+    },
+    {
+      "source_name": "RotoWire",
+      "entity": "Tyler Warren",
+      "summary": "Groin injury not believed to be serious",
+      "reason": "Duplicate same-player, same-status event from the same day.",
+      "source_url": "https://www.rotowire.com/football/headlines/tyler-warren-injury-groin-injury-not-believed-to-be-serious-634216"
+    },
+    {
+      "source_name": "RotoWire",
+      "entity": "Vita Vea",
+      "summary": "Agrees to one-year extension with Bucs",
+      "reason": "Player is not on the current draft board.",
+      "source_url": "https://www.rotowire.com/football/headlines/vita-vea-news-agrees-to-one-year-extension-with-bucs-634181"
+    },
+    {
+      "source_name": "RotoWire",
+      "entity": "Zane Gonzalez",
+      "summary": "Released by Miami",
+      "reason": "Player is not on the current draft board.",
+      "source_url": "https://www.rotowire.com/football/headlines/zane-gonzalez-injury-released-by-miami-634195"
+    }
+  ],
+  "summary": {
+    "player_signal_count": 100,
+    "team_signal_count": 65,
+    "status_counts": {
+      "approved": 93,
+      "candidate": 61,
+      "research_only": 11
+    },
+    "rejected_count": 134,
+    "structured_models_not_duplicated": {
+      "draftsharks_injury": 411,
+      "draftsharks_rookies": 114,
+      "draftsharks_early_sos": 32,
+      "draftsharks_superflex": 25
+    },
+    "authenticated_research_snapshot": {
+      "files": [
+        "fantasyguru_qualitative_context_2026-08-17.json",
+        "fantasyguru_coaching_context_2026-08-20.json",
+        "fantasyguru_oline_context_2026-08-20.json"
+      ],
+      "status": "available",
+      "retrieved_at": "2026-08-20",
+      "signal_count": 97
+    },
+    "automatic_scoring_policy": "Approved manual signals, authenticated human-reviewed FantasyGuru findings, and concrete non-speculative RotoWire availability/job facts are ranking-ready. Candidate depth-chart or hedged news facts require review; research_only signals score zero."
+  }
+}

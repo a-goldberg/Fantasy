@@ -16,7 +16,7 @@
   },
   "drive_sources": [
     {
-      "id": "1PBGqN-gs8w7nq2_LheYAytHoywH-6wwit_CNanHQvbg",
+      "id": "14N8XHT7NmIDVQKulKcFw3tQWGwWlrhxv71TJUdw_F7U",
       "title": "DraftSheets_2026",
       "adapter": "draftsheets_displayed_name_value",
       "rule": "Use only NAME and displayed VALUE in QB, RB, WR, and TE tables."
@@ -33,6 +33,12 @@
     }
   ],
   "authenticated_browser_sources": [
+    {
+      "local_snapshot_pattern": "Analysis/source/fantasyguru_qualitative_context_*.json",
+      "adapter": "reviewed_qualitative_context",
+      "priority": "high",
+      "rule": "Use the latest authenticated research snapshot. Require a source, mechanism, direction, confidence, and expiration; cap each qualitative adjustment at 1.5 points."
+    },
     {
       "url": "https://www.fantasyguru.com/nfl-projections-offense",
       "adapter": "offensive_projections",
@@ -106,7 +112,7 @@
     {
       "url": "https://www.rotowire.com/football/news.php",
       "adapter": "current_player_news",
-      "rule": "Unreviewed news is research context with zero automatic adjustment."
+      "rule": "Merge the current page with up to 21 dated local snapshots. Unreviewed news is research context with zero automatic adjustment."
     },
     {
       "url": "https://www.espn.com/espn/rss/nfl/news",
@@ -117,6 +123,13 @@
       "url": "https://www.ourlads.com/nfldepthcharts/depthcharts.aspx",
       "adapter": "all_team_offensive_depth_charts",
       "rule": "Preserve acquisition, rookie, UDFA, and injured/inactive markers as context rather than automatic rankings."
+    }
+  ],
+  "verified_availability_sources": [
+    {
+      "local_snapshot_pattern": "Analysis/source/verified_player_availability_*.json",
+      "adapter": "hard_draft_eligibility_status",
+      "rule": "Require explicit attributable evidence for season-long unavailability. Keep the player for provenance but exclude them from search and recommendations."
     }
   ]
 }

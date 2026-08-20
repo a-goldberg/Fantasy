@@ -1,0 +1,21 @@
+{
+  "source": {
+    "retrieved_at": "2026-08-20",
+    "validation_status": "verified",
+    "rule": "Hard availability exclusions require explicit, attributable season-long unavailability evidence."
+  },
+  "players": [
+    {
+      "player": "Ricky Pearsall",
+      "team": "SF",
+      "position": "WR",
+      "status": "out_for_season",
+      "draft_eligible": false,
+      "summary": "Placed on injured reserve and expected to miss the entire 2026 season following PCL surgery.",
+      "reported_at": "2026-08-01",
+      "verified_at": "2026-08-20",
+      "source_name": "NFL.com",
+      "source_url": "https://www.nfl.com/news/niners-wr-ricky-pearsall-knee-surgery-will-miss-2026-season"
+    }
+  ]
+}

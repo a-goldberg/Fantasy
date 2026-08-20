@@ -9,11 +9,12 @@
 5. Refresh public 10-team 2QB ADP.
 6. Refresh DraftSharks injury, rookie, Weeks 1–6 schedule, and visible Superflex data.
 7. Refresh current RotoWire/ESPN news and Ourlads depth charts.
-8. If the authenticated FantasyGuru session is available, refresh projections, rankings, outlook tags, handcuffs, and contextual signals.
-9. Validate player-name joins, positions, teams, byes, row counts, source dates, and conflicts.
-10. Publish a new board only if validation passes.
+8. If the authenticated FantasyGuru session is available, refresh the dated qualitative tracks.  The current implemented tracks are targeted player/personnel findings, all 32 coaching-system breakdowns, and all 32 offensive-line breakdowns.  Newer track-specific findings supersede older selective notes from the same article/entity/class.
+9. Classify refreshed context into approved, candidate, research-only, and rejected findings.  Apply only explicit, current facts that pass the confidence, expiration, deduplication, and adjustment-cap gates.
+10. Validate player-name joins, positions, teams, byes, row counts, source dates, signal eligibility, and conflicts.
+11. Publish a new board only if validation passes.
 
-The application’s **Refresh & Rebuild** button performs steps 3–7 and 9–10 through the local service while preserving recorded picks and tuning settings.  It refuses to install a refreshed board when an already drafted player cannot be reconciled.  It cannot authenticate to Google Drive or premium browser sessions, so it reuses their latest imported snapshots and reports that limitation.
+The application’s **Refresh & Rebuild** button performs steps 3–7 and 9–11 through the local service while preserving recorded picks and tuning settings.  It refuses to install a refreshed board when an already drafted player cannot be reconciled.  It cannot authenticate to Google Drive or premium browser sessions, so it reuses their latest imported snapshots and reports that limitation.
 
 **Reset Draft** is a separate confirmed action.  It clears recorded live selections, preserves tuning settings, and reapplies every confirmed keeper from the current configuration.
 
@@ -37,3 +38,4 @@ Breaking injury or role news can trigger a manual source refresh, but normal pic
 - Label its age and reduce its confidence.
 - Do not publish a newly merged board when player identity, position, or row validation fails.
 - Do not infer values for missing players or silently repair ambiguous names.
+- Treat a preseason rest report as neutral, not as an injury downgrade.  For repeated reports about the same player/injury, retain the newest explicit availability direction rather than stacking daily blurbs.

@@ -31,6 +31,11 @@ def latest_snapshot(source_dir: Path) -> Path:
     return matches[-1]
 
 
+def latest_tier_snapshot(source_dir: Path):
+    matches = sorted(source_dir.glob("draftsheets_position_tiers_*.json"))
+    return matches[-1] if matches else None
+
+
 def numeric(value):
     text = str(value).replace(",", "").strip()
     if not text:
@@ -46,9 +51,20 @@ def cell(row, index):
     return row[index] if index < len(row) else ""
 
 
-def parse(snapshot):
+def parse(snapshot, tier_snapshot=None):
     source = json.loads(snapshot.read_text())
     rows = source["values"]
+    tier_path = tier_snapshot or latest_tier_snapshot(snapshot.parent)
+    tiers = {}
+    tier_source = None
+    if tier_path:
+        tier_payload = json.loads(tier_path.read_text())
+        tier_source = tier_payload.get("source")
+        for item in tier_payload.get("players", []):
+            key = (item["position"], item["player"])
+            if key in tiers:
+                raise ValueError(f"Duplicate positional tier record: {key}")
+            tiers[key] = item["position_tier"]
     board = []
 
     for position, spec in TABLES.items():
@@ -69,6 +85,7 @@ def parse(snapshot):
                     "position": position,
                     "player": name,
                     "displayed_value": value,
+                    "position_tier": tiers.get((position, name)),
                     "source_row": index + 1,
                 }
             )
@@ -78,7 +95,10 @@ def parse(snapshot):
             item["value_rank_at_position"] = rank
         board.extend(position_rows)
 
-    return source["source"], board
+    source_meta = dict(source["source"])
+    if tier_source:
+        source_meta["position_tier_source"] = tier_source
+    return source_meta, board
 
 
 def write_outputs(source_meta, board, output_dir):
@@ -88,6 +108,7 @@ def write_outputs(source_meta, board, output_dir):
         "value_rank_at_position",
         "player",
         "displayed_value",
+        "position_tier",
         "source_row",
     ]
     csv_path = output_dir / "draftsheets_value_board.csv"
@@ -110,10 +131,11 @@ def write_outputs(source_meta, board, output_dir):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--snapshot", type=Path)
+    parser.add_argument("--tier-snapshot", type=Path)
     parser.add_argument("--output-dir", type=Path, default=DEFAULT_OUTPUT_DIR)
     args = parser.parse_args()
     snapshot = args.snapshot or latest_snapshot(DEFAULT_SOURCE_DIR)
-    source_meta, board = parse(snapshot)
+    source_meta, board = parse(snapshot, args.tier_snapshot)
     csv_path, json_path = write_outputs(source_meta, board, args.output_dir)
     counts = {}
     for item in board:

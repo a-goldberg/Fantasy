@@ -20,6 +20,7 @@ SCRIPTS = [
     ROOT / "2026" / "Pipeline" / "refresh_context_sources.py",
     ROOT / "2026" / "Pipeline" / "parse_draftsheets.py",
     ROOT / "2026" / "Pipeline" / "build_composite_board.py",
+    ROOT / "2026" / "Pipeline" / "classify_context.py",
     ROOT / "2026" / "Pipeline" / "build_app_data.py",
     ROOT / "2026" / "Pipeline" / "validate_draft_app.py",
 ]
@@ -93,7 +94,10 @@ class Handler(SimpleHTTPRequestHandler):
             self.send_json(200, {
                 "ok": True,
                 "steps": logs,
-                "warnings": context.get("warnings", []) + ["Connected Google Sheets use the latest locally imported snapshots; this local service cannot authenticate to Drive."],
+                "warnings": context.get("warnings", []) + [
+                    "Connected Google Sheets use the latest locally imported snapshots; this local service cannot authenticate to Drive.",
+                    "Authenticated FantasyGuru research uses the latest locally imported reviewed snapshot; refresh that source through an authenticated agent session before rebuilding when newer paid content is available.",
+                ],
             })
         except subprocess.TimeoutExpired as error:
             if 'previous_board' in locals() and previous_board is not None:
