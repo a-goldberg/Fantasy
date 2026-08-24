@@ -13,6 +13,7 @@ const DEFAULT_WEIGHTS = {
   newsContext: 0.3,
   roomTrend: 1,
   personalPriority: 1,
+  handcuffs: 1,
 };
 const state = {
   data: null,
@@ -277,24 +278,235 @@ function recommendationEligibility(player, targetPick, column) {
   });
 }
 
-function availability(player, nextPick) {
-  if (!player.adp || !nextPick) return 0.45;
-  const deviations = Object.values(player.adp_sources || {})
-    .map((row) => Number(row.stdev))
-    .filter(Number.isFinite);
+function marketAvailabilityDecision({ adp, nextPick, deviations = [] }) {
+  const numericAdp = adp === null || adp === "" ? NaN : Number(adp);
+  if (!Number.isFinite(numericAdp) || !nextPick)
+    return { probability: null, contributionBasis: 0 };
   const spread = Math.max(
     4,
     deviations.length
       ? deviations.reduce((a, b) => a + b, 0) / deviations.length
       : 10,
   );
-  return clamp(normalCdf((nextPick - player.adp) / spread), 0.02, 0.99);
+  const probability = clamp(
+    normalCdf((nextPick - numericAdp) / spread),
+    0.02,
+    0.99,
+  );
+  return { probability, contributionBasis: probability };
 }
 
-function byeConflict(player) {
+function availability(player, nextPick) {
+  const deviations = Object.values(player.adp_sources || {})
+    .map((row) => Number(row.stdev))
+    .filter(Number.isFinite);
+  return marketAvailabilityDecision({
+    adp: player.adp,
+    nextPick,
+    deviations,
+  }).probability;
+}
+
+function wildcardMarketGapDecision({
+  adp,
+  baseCompositeRank,
+  sourceCount,
+  adpSources = {},
+}) {
+  const numericAdp = adp === null || adp === "" ? NaN : Number(adp);
+  if (!Number.isFinite(numericAdp))
+    return {
+      adjustment: 0,
+      rawAdjustment: 0,
+      confidence: 0,
+      expertConfidence: 0,
+      marketConfidence: 0,
+      disagreement: null,
+    };
+  const rawAdjustment =
+    Math.max(0, numericAdp - Number(baseCompositeRank || 0)) * 0.24;
+  const expertSources = Number(sourceCount || 0);
+  const expertConfidence = expertSources >= 3
+    ? 1
+    : expertSources === 2
+      ? 0.75
+      : expertSources === 1
+        ? 0.35
+        : 0.15;
+  const marketValues = Object.values(adpSources || {})
+    .map((row) => Number(row?.adp))
+    .filter(Number.isFinite);
+  const disagreement = marketValues.length >= 2
+    ? Math.max(...marketValues) - Math.min(...marketValues)
+    : null;
+  const marketConfidence = disagreement === null
+    ? 0.5
+    : clamp(1 - disagreement / 75, 0.25, 1);
+  const confidence = Math.min(expertConfidence, marketConfidence);
+  const confidenceAdjusted = rawAdjustment * confidence;
+  const adjustment = expertSources < 2
+    ? Math.min(confidenceAdjusted, 5)
+    : confidenceAdjusted;
+  return {
+    adjustment,
+    rawAdjustment,
+    confidence,
+    expertConfidence,
+    marketConfidence,
+    disagreement,
+  };
+}
+
+function wildcardMarketGap(args) {
+  return wildcardMarketGapDecision(args).adjustment;
+}
+
+function evidenceQualityAdjustment({ sourceCount, depth, position }) {
+  const source = Number(sourceCount || 0) < 2 ? -5 : 0;
+  let depthRole = 0;
+  if (["RB", "WR", "TE"].includes(position)) {
+    if (Number(depth) >= 3) depthRole = -4;
+    else if (Number(depth) === 2) depthRole = -1;
+  }
+  return { source, depthRole, total: source + depthRole };
+}
+
+function wildcardEvidenceDecision({
+  round = 17,
+  sourceCount,
+  personalScore,
+  positiveContext,
+  rookiePercentile,
+  draftSharksRank,
+  positiveNews,
+  handcuffScore,
+}) {
+  const baselineReasons = [];
+  const trustedReasons = [];
+  const structuredReasons = [];
+  if (Number(personalScore || 0) > 0)
+    baselineReasons.push("personal priority");
+  if (Number(positiveContext || 0) > 0)
+    trustedReasons.push("approved positive context");
+  if (Number(rookiePercentile || 0) >= 75)
+    structuredReasons.push("qualified rookie model");
+  // Ranking coverage improves baseline confidence but is not, by itself, an
+  // upside thesis. DraftSharks rank is retained in the research card and
+  // optimized score, but it cannot manufacture a Wildcard qualification.
+  if (Number(positiveNews || 0) > 0)
+    trustedReasons.push("approved positive news");
+  if (Number(handcuffScore || 0) > 0)
+    structuredReasons.push("verified roster handcuff");
+  const reasons = [...baselineReasons, ...trustedReasons, ...structuredReasons];
+  if (baselineReasons.length)
+    return { eligible: true, reasons, stage: "baseline-or-override" };
+  const draftRound = Number(round || 17);
+  const supportingSignalCount = trustedReasons.length + structuredReasons.length;
+  if (draftRound <= 10)
+    return {
+      eligible: trustedReasons.length >= 1 && supportingSignalCount >= 2,
+      reasons,
+      stage: "rounds-1-10",
+    };
+  if (draftRound <= 13)
+    return {
+      eligible: trustedReasons.length >= 1 || supportingSignalCount >= 2,
+      reasons,
+      stage: "rounds-11-13",
+    };
+  return {
+    eligible: supportingSignalCount >= 1,
+    reasons,
+    stage: "rounds-14-17",
+  };
+}
+
+function handcuffBoostDecision({
+  round,
+  position,
+  candidateDepth,
+  starterInjuryPercentile,
+}) {
+  const depth = Number(candidateDepth);
+  if (Number(round) < 14 || !["QB", "RB"].includes(position) || depth < 2)
+    return { score: 0, riskBonus: 0 };
+  const base = 2 + (Number(round) - 14) * 1.5;
+  const risk = Number(starterInjuryPercentile);
+  const riskBonus = Number.isFinite(risk) && risk > 50
+    ? clamp(((risk - 50) / 50) * 3.5, 0, 3.5)
+    : 0;
+  const depthFactor = depth === 2 ? 1 : 0.65;
+  return {
+    score: clamp((base + riskBonus) * depthFactor, 0, 10),
+    riskBonus: riskBonus * depthFactor,
+  };
+}
+
+function endgameSpecialistAdjustment({ position, count, round }) {
+  if (!["K", "DST"].includes(position)) return 0;
+  if (Number(count || 0) > 0) return -20;
+  if (Number(round) < 14) return -28;
+  return 3 + (Number(round) - 14) * 3;
+}
+
+function handcuffRelationshipDecision({ player, rosteredPlayers, targetPick }) {
+  if (!["QB", "RB"].includes(player.position))
+    return { score: 0, starter: null };
+  const candidateDepth = (player.depth_chart || []).find(
+    (item) => item.team === player.team && item.position === player.position,
+  );
+  if (!candidateDepth || Number(candidateDepth.depth) < 2)
+    return { score: 0, starter: null };
+  const rosteredStarters = rosteredPlayers
+    .filter((item) => item?.position === player.position)
+    .sort((a, b) => a.base_composite_rank - b.base_composite_rank)
+    .slice(0, 2);
+  const matches = rosteredStarters.flatMap((starter) => {
+    if (starter.team !== player.team) return [];
+    const starterDepth = (starter.depth_chart || []).find(
+      (item) => item.team === player.team && item.position === player.position,
+    );
+    if (!starterDepth || Number(starterDepth.depth) >= Number(candidateDepth.depth))
+      return [];
+    const injuryPercentile = Number(
+      starter.models?.injury?.risk_percentile_at_position,
+    );
+    const decision = handcuffBoostDecision({
+      round: roundAt(targetPick),
+      position: player.position,
+      candidateDepth: candidateDepth.depth,
+      starterInjuryPercentile: injuryPercentile,
+    });
+    return [{
+      ...decision,
+      starter: starter.player,
+      starterInjuryPercentile: Number.isFinite(injuryPercentile)
+        ? injuryPercentile
+        : null,
+      candidateDepth: Number(candidateDepth.depth),
+    }];
+  });
+  return matches.sort((a, b) => b.score - a.score)[0] || {
+    score: 0,
+    starter: null,
+  };
+}
+
+function handcuffContext(player, targetPick) {
+  const rosteredPlayers = userPicks()
+    .map((pick) => state.data.players.find((item) => item.player === pick.player))
+    .filter(Boolean);
+  return handcuffRelationshipDecision({ player, rosteredPlayers, targetPick });
+}
+
+function byeConflict(player, handcuff = null) {
   const samePosition = userPicks()
     .map((pick) => state.data.players.find((p) => p.player === pick.player))
     .filter(Boolean)
+    .filter(
+      (p) =>
+        p.player !== (Number(handcuff?.score || 0) > 0 ? handcuff.starter : null),
+    )
     .filter(
       (p) =>
         p.position === player.position && String(p.bye) === String(player.bye),
@@ -430,19 +642,24 @@ function positionNeed(player, targetPick) {
     if (count < 2 && round >= 5) score += 6;
   }
   if (player.position === "TE" && count === 0 && round >= 8) score += 5;
-  if (["K", "DST"].includes(player.position))
-    score += round < 15 ? -28 : count ? -20 : 5;
+  score += endgameSpecialistAdjustment({
+    position: player.position,
+    count,
+    round,
+  });
   return score;
 }
 
 function scorePlayer(player, targetPick, nextPick) {
   const goneChance = availability(player, nextPick);
+  const availabilityBasis = Number.isFinite(goneChance) ? goneChance : 0;
   const rankValue = 101 - Math.min(100, player.base_composite_rank * 0.55);
   const marketValue = player.adp
     ? clamp((targetPick - player.adp) * 0.35, -8, 9)
     : -2;
   const need = positionNeed(player, targetPick);
-  const bye = byeConflict(player);
+  const handcuff = handcuffContext(player, targetPick);
+  const bye = byeConflict(player, handcuff);
   const contextResult = contextAdjustment(player);
   const context = contextResult.total;
   const history = historicalPressure(player, targetPick, nextPick);
@@ -458,11 +675,22 @@ function scorePlayer(player, targetPick, nextPick) {
     ...personal,
     weight: state.weights.personalPriority,
   }).adjustment;
+  const evidenceQuality = evidenceQualityAdjustment({
+    sourceCount: player.source_count,
+    depth: player.depth_chart?.[0]?.depth,
+    position: player.position,
+  });
+  const marketGap = wildcardMarketGapDecision({
+    adp: player.adp,
+    baseCompositeRank: player.base_composite_rank,
+    sourceCount: player.source_count,
+    adpSources: player.adp_sources,
+  });
   return {
     optimized:
       player.base_quality_score * 0.72 +
       rankValue * 0.18 +
-      goneChance * 8 * state.weights.availability +
+      availabilityBasis * 8 * state.weights.availability +
       marketValue +
       need * state.weights.roster +
       roomTrend.score * state.weights.roomTrend +
@@ -475,13 +703,15 @@ function scorePlayer(player, targetPick, nextPick) {
       earlySchedule * state.weights.earlySchedule +
       draftSharks * state.weights.draftSharks +
       news * state.weights.newsContext +
-      personalAdjustment,
+      personalAdjustment +
+      evidenceQuality.total +
+      handcuff.score * state.weights.handcuffs,
     consensus:
       player.base_quality_score * 0.78 + rankValue * 0.17 + marketValue * 0.5,
     wildcard:
       player.base_quality_score * 0.55 +
-      goneChance * 12 * state.weights.availability +
-      Math.max(0, (player.adp || 240) - player.base_composite_rank) * 0.24 +
+      availabilityBasis * 12 * state.weights.availability +
+      marketGap.adjustment +
       Math.max(0, need) * 0.5 * state.weights.roster +
       roomTrend.score * 0.8 * state.weights.roomTrend +
       context * state.weights.context -
@@ -492,7 +722,9 @@ function scorePlayer(player, targetPick, nextPick) {
       earlySchedule * state.weights.earlySchedule +
       draftSharks * state.weights.draftSharks +
       news * state.weights.newsContext +
-      personalAdjustment,
+      personalAdjustment +
+      evidenceQuality.total +
+      handcuff.score * state.weights.handcuffs,
     goneChance,
     need,
     bye,
@@ -509,6 +741,9 @@ function scorePlayer(player, targetPick, nextPick) {
     roomTrend,
     personal,
     personalAdjustment,
+    evidenceQuality,
+    marketGap,
+    handcuff,
   };
 }
 
@@ -521,9 +756,23 @@ function recommendations() {
     player,
     ...scorePlayer(player, target, next),
   }));
-  const eligible = (entry, column) =>
-    personalPriorityDecision({ ...entry.personal, column }).eligible &&
-    recommendationEligibility(entry.player, target, column).eligible;
+  const eligible = (entry, column) => {
+    if (!personalPriorityDecision({ ...entry.personal, column }).eligible)
+      return false;
+    if (!recommendationEligibility(entry.player, target, column).eligible)
+      return false;
+    if (column !== "wildcard") return true;
+    return wildcardEvidenceDecision({
+      round: roundAt(target),
+      sourceCount: entry.player.source_count,
+      personalScore: entry.personal?.score,
+      positiveContext: entry.context,
+      rookiePercentile: entry.player.models?.rookie?.overall_percentile,
+      draftSharksRank: entry.player.models?.draftsharks_superflex?.rank,
+      positiveNews: entry.news,
+      handcuffScore: entry.handcuff?.score,
+    }).eligible;
+  };
   const optimized = [...scored]
     .filter((entry) => eligible(entry, "optimized"))
     .sort((a, b) => b.optimized - a.optimized)
@@ -544,7 +793,7 @@ function recommendations() {
         (x.player.adp && x.player.adp <= (next || target + 20)),
     )
     .filter(
-      (x) => !["K", "DST"].includes(x.player.position) || roundAt(target) >= 15,
+      (x) => !["K", "DST"].includes(x.player.position) || roundAt(target) >= 14,
     )
     .sort((a, b) => b.wildcard - a.wildcard)
     .slice(0, 3);
@@ -560,7 +809,9 @@ function recommendations() {
 function describe(entry, kind, target, next) {
   const { player } = entry;
   const targetRound = roundAt(target);
-  const pct = Math.round(entry.goneChance * 100);
+  const pct = Number.isFinite(entry.goneChance)
+    ? Math.round(entry.goneChance * 100)
+    : null;
   const market = player.adp
     ? `Market ADP ${player.adp.toFixed(1)}`
     : "No matched public ADP";
@@ -568,16 +819,34 @@ function describe(entry, kind, target, next) {
   const cases = {
     optimized: `${player.position} value adjusted for your current roster, bye coverage, and the ${next ? next - target : 0}-pick wait after this selection.`,
     consensus: `Composite rank No. ${player.base_composite_rank}, using the current expert inputs as the neutral baseline.`,
-    wildcard: `A defensible departure from the top of the board: the quality-versus-market gap creates upside without reaching blindly.`,
+    wildcard: player.adp
+      ? `A defensible departure from the top of the board: the quality-versus-market gap creates upside without reaching blindly.`
+      : `A speculative option supported by an explicit upside signal despite missing public market data.`,
   };
-  const pros = [market, source];
+  const pros = [];
+  if (player.adp) pros.push(market);
+  if (player.source_count >= 2) pros.push(source);
+  const handcuffText = entry.handcuff?.score > 0
+    ? `Handcuff for ${entry.handcuff.starter}${entry.handcuff.starterInjuryPercentile !== null ? ` · starter injury risk ${entry.handcuff.starterInjuryPercentile}th percentile` : ""}`
+    : null;
+  if (handcuffText) pros.unshift(handcuffText);
   if (entry.personal?.score > 0)
     pros.unshift(`Personal priority +${entry.personal.score}`);
   if (entry.need >= 6)
     pros.unshift(`Addresses a roster need by Round ${targetRound}`);
   if (entry.roomTrend?.score >= 2) pros.unshift(entry.roomTrend.label);
-  if (player.adp && player.base_composite_rank + 8 < player.adp)
-    pros.unshift("Experts rate him materially above his market cost");
+  if (
+    player.adp &&
+    player.base_composite_rank + 8 < player.adp &&
+    Number(entry.marketGap?.adjustment || 0) >= 2
+  ) {
+    const rankingLabel = player.source_count === 1
+      ? player.jeff_mans_rank
+        ? "Jeff Mans"
+        : "DraftSheets"
+      : "Expert consensus";
+    pros.unshift(`${rankingLabel} rates him materially above his market cost`);
+  }
   const positiveSignal = (entry.contextComponents || [])
     .filter((item) => item.contribution > 0)
     .sort((a, b) => b.contribution - a.contribution)[0];
@@ -618,14 +887,29 @@ function describe(entry, kind, target, next) {
   )
     cons.push("No additional qualitative finding is attached");
   if (player.source_count < 2) cons.push("Thin expert-source coverage");
+  if (
+    Number(entry.marketGap?.rawAdjustment || 0) > 0 &&
+    Number(entry.marketGap?.confidence || 0) < 0.6
+  )
+    cons.push("Market-gap benefit reduced for thin or conflicting evidence");
+  if (entry.evidenceQuality?.depthRole < 0)
+    cons.push(
+      `Depth-chart role applies a ${entry.evidenceQuality.depthRole}-point reliability adjustment`,
+    );
   if (!cons.length)
-    cons.push(`About ${pct}% likely to be drafted before pick ${next || "—"}`);
+    cons.push(
+      pct === null
+        ? "Availability before the next pick is unknown"
+        : `About ${pct}% likely to be drafted before pick ${next || "—"}`,
+    );
   const selectedPros = pros.slice(0, 2);
   if (positiveSignal) {
     const citedSignal = `${positiveSignal.summary} (${positiveSignal.source_name})`;
     if (!selectedPros.includes(citedSignal))
       selectedPros.splice(0, 1, citedSignal);
   }
+  if (handcuffText && !selectedPros.includes(handcuffText))
+    selectedPros.splice(0, 1, handcuffText);
   if (entry.personal?.score > 0) {
     const personalText = `Personal priority +${entry.personal.score}`;
     if (!selectedPros.includes(personalText))
@@ -648,7 +932,9 @@ function renderCandidate(entry, kind, target, next) {
   node.querySelector(".player-meta").textContent =
     `${player.position} · ${player.team || "FA"} · Bye ${player.bye || "—"} · Composite ${player.base_composite_rank}`;
   node.querySelector(".availability").textContent = next
-    ? `${Math.round(entry.goneChance * 100)}% gone by ${next}`
+    ? Number.isFinite(entry.goneChance)
+      ? `${Math.round(entry.goneChance * 100)}% gone by ${next}`
+      : "Availability unknown"
     : "Last pick";
   node.querySelector(".case").textContent = copy.caseText;
   node.querySelector(".pros").textContent = copy.pros;
@@ -863,13 +1149,30 @@ function openPlayer(player) {
   const marketGap = player.adp
     ? Number(player.adp) - Number(player.base_composite_rank)
     : NaN;
-  const marketGapTone = metricTone(marketGap, {
-    strongPositive: 15,
-    positive: 6,
-    negative: -6,
-    strongNegative: -15,
+  const marketGapDecision = wildcardMarketGapDecision({
+    adp: player.adp,
+    baseCompositeRank: player.base_composite_rank,
+    sourceCount: player.source_count,
+    adpSources: player.adp_sources,
   });
-  const disagreement = Number(player.source_quality.market_disagreement);
+  const marketGapTone = Number.isFinite(marketGap) && marketGap < 0
+    ? metricTone(marketGap, {
+        strongPositive: Infinity,
+        positive: Infinity,
+        negative: -6,
+        strongNegative: -15,
+      })
+    : metricTone(marketGapDecision.adjustment, {
+        strongPositive: 8,
+        positive: 2,
+        negative: -2,
+        strongNegative: -8,
+      });
+  const disagreement =
+    player.source_quality.market_disagreement === null ||
+    player.source_quality.market_disagreement === ""
+      ? NaN
+      : Number(player.source_quality.market_disagreement);
   const disagreementTone = Number.isFinite(disagreement)
     ? disagreement >= 30
       ? "strong-negative"
@@ -939,15 +1242,26 @@ function openPlayer(player) {
     : personal.score
       ? `${personal.score > 0 ? "+" : ""}${personal.score}`
       : "Neutral";
+  const evidenceQuality = evidenceQualityAdjustment({
+    sourceCount: player.source_count,
+    depth,
+    position: player.position,
+  });
+  const handcuff = handcuffContext(player, target);
+  const handcuffDetail = handcuff.score > 0
+    ? handcuff.starterInjuryPercentile !== null
+      ? `${handcuff.starter} is at the ${handcuff.starterInjuryPercentile}th injury-risk percentile`
+      : `Verified depth-chart backup to ${handcuff.starter}`
+    : "No late-round handcuff relationship to a current starter";
   $("#dialog-content").innerHTML = `
     <p class="eyebrow">Player research card</p><h2>${player.player}</h2><p>${player.position} · ${player.team || "FA"} · Bye ${player.bye || "—"}</p>
     <div class="metric-legend"><span><i class="legend-positive"></i>Supports outlook</span><span><i class="legend-negative"></i>Weighs against</span><span><i class="legend-neutral"></i>Context / near neutral</span></div>
     <div class="detail-grid">
       ${renderMetric({ label: "Composite", value: `No. ${player.base_composite_rank}`, impact: "Baseline", detail: "Weighted expert rank" })}
       ${renderMetric({ label: "Quality score", value: player.base_quality_score.toFixed(1), impact: "Baseline", detail: "Cross-source consensus" })}
-      ${renderMetric({ label: "Market ADP", value: player.adp ? player.adp.toFixed(1) : "Missing", tone: marketGapTone, impact: Number.isFinite(marketGap) ? (marketGap >= 6 ? "Possible value" : marketGap <= -6 ? "Market premium" : "Near consensus") : "Missing", detail: Number.isFinite(marketGap) ? `${Math.abs(marketGap).toFixed(1)} picks from composite` : "No matched 2QB ADP" })}
-      ${renderMetric({ label: "Expert confidence", value: player.source_quality.expert, tone: player.source_quality.expert === "high" ? "positive" : player.source_quality.expert === "low" ? "negative" : "neutral", impact: "Source quality" })}
-      ${renderMetric({ label: "Market confidence", value: player.source_quality.market, tone: player.source_quality.market === "high" ? "positive" : player.source_quality.market === "missing" ? "negative" : "neutral", impact: "Source quality" })}
+      ${renderMetric({ label: "Market ADP", value: player.adp ? player.adp.toFixed(1) : "Missing", tone: marketGapTone, impact: Number.isFinite(marketGap) ? (marketGap >= 6 ? `Wildcard +${marketGapDecision.adjustment.toFixed(1)}` : marketGap <= -6 ? "Market premium" : "Near consensus") : "Missing", detail: Number.isFinite(marketGap) ? `${Math.abs(marketGap).toFixed(1)} picks from composite; ${Math.round(marketGapDecision.confidence * 100)}% gap confidence` : "No matched 2QB ADP" })}
+      ${renderMetric({ label: "Expert confidence", value: player.source_quality.expert, tone: player.source_quality.expert === "high" ? "positive" : player.source_quality.expert === "low" ? "negative" : "neutral", impact: evidenceQuality.source ? `Weighted ${signedNumber(evidenceQuality.source)}` : "Source quality" })}
+      ${renderMetric({ label: "Market confidence", value: player.source_quality.market, tone: player.source_quality.market === "high" ? "positive" : ["low", "missing"].includes(player.source_quality.market) ? "negative" : "neutral", impact: "Source quality" })}
       ${renderMetric({ label: "ADP disagreement", value: player.source_quality.market_disagreement ?? "—", tone: disagreementTone, impact: disagreementTone.includes("negative") ? "Uncertain market" : disagreementTone === "positive" ? "Good agreement" : "Context", detail: "Spread across matched ADP sources" })}
       ${renderMetric({ label: "Reviewed context", value: signedNumber(player.classified_context?.score_total), tone: qualitativeTone, impact: qualitative ? `Weighted ${signedNumber(qualitative)}` : "No current effect", detail: qualitativeDetail })}
       ${renderMetric({ label: "Injury probability", value: injuryModel ? `${Math.round(injuryModel.injury_probability * 100)}%` : "—", tone: injuryTone, impact: injury < 0 ? `Weighted ${signedNumber(injury)}` : injuryModel ? "No risk penalty" : "Missing", detail: Number.isFinite(injuryPercentile) ? `${injuryPercentile}th percentile risk at ${player.position}` : "No injury model match" })}
@@ -955,10 +1269,12 @@ function openPlayer(player) {
       ${renderMetric({ label: "Early SOS", value: Number.isFinite(earlySos) ? `${earlySos > 0 ? "+" : ""}${(earlySos * 100).toFixed(1)}%` : "—", tone: earlySosTone, impact: schedule ? `Weighted ${signedNumber(schedule)}` : Number.isFinite(earlySos) ? "Near neutral" : "Missing", detail: "Weeks 1–6; positive means easier" })}
       ${renderMetric({ label: "Rookie model", value: player.models.rookie ? `${player.models.rookie.overall_score} · ${player.models.rookie.prospect_label}` : "—", tone: rookieTone, impact: rookie ? `Weighted +${rookie.toFixed(1)}` : Number.isFinite(rookiePercentile) ? "No current bump" : "Not applicable", detail: Number.isFinite(rookiePercentile) ? `${rookiePercentile}th percentile; upside grows later` : "" })}
       ${renderMetric({ label: "DS Superflex", value: player.models.draftsharks_superflex ? `No. ${player.models.draftsharks_superflex.rank}` : "—", tone: dsTone, impact: draftSharks ? `Weighted ${signedNumber(draftSharks)}` : Number.isFinite(dsGap) ? "Near composite" : "Missing", detail: Number.isFinite(dsGap) ? `${Math.abs(dsGap)} ranks ${dsGap > 0 ? "ahead of" : "behind"} composite` : "" })}
-      ${renderMetric({ label: "Depth role", value: player.depth_chart[0] ? `${player.depth_chart[0].position}${player.depth_chart[0].depth}` : "—", tone: depthTone, impact: depth === 1 ? "Projected starter" : depth === 2 ? "Secondary role" : Number.isFinite(depth) ? "Buried role" : "Missing", detail: "Informational; verified notes drive adjustments" })}
+      ${renderMetric({ label: "Depth role", value: player.depth_chart[0] ? `${player.depth_chart[0].position}${player.depth_chart[0].depth}` : "—", tone: depthTone, impact: evidenceQuality.depthRole ? `Weighted ${signedNumber(evidenceQuality.depthRole)}` : depth === 1 ? "Projected starter" : Number.isFinite(depth) ? "Depth context" : "Missing", detail: "Small reliability adjustment for nonstarting RB, WR, and TE roles" })}
+      ${renderMetric({ label: "Handcuff fit", value: handcuff.score > 0 ? `Backup to ${handcuff.starter}` : "Not active", tone: handcuff.score > 0 ? "positive" : "neutral", impact: handcuff.score > 0 ? `Weighted +${(handcuff.score * state.weights.handcuffs).toFixed(1)}` : "Rounds 14–17", detail: handcuffDetail })}
       ${renderMetric({ label: "DraftSheets", value: player.draftsheets_overall_value_rank ? `No. ${player.draftsheets_overall_value_rank}` : "—", impact: "Baseline source" })}
       ${renderMetric({ label: "Overall Tier", value: Number.isFinite(positionalTier) ? `Tier ${positionalTier}` : "—", tone: positionalTierTone, impact: Number.isFinite(positionalTier) ? "DraftSheets tier" : "Missing", detail: "Name-keyed workbook formula" })}
       ${renderMetric({ label: "Mans rank", value: player.jeff_mans_rank ? `No. ${player.jeff_mans_rank}` : "—", impact: "Baseline source" })}
+      ${renderMetric({ label: "RotoBaller SF", value: player.rotoballer_rank ? `No. ${player.rotoballer_rank}` : "—", impact: player.rotoballer_rank ? "Baseline source" : "Missing", detail: player.rotoballer_tier ? `Superflex tier ${player.rotoballer_tier}` : "Public Superflex expert rank" })}
       ${renderMetric({ label: player.position === "QB" ? "QB tier" : "Team QB tier", value: qbContext?.qb_chart_tier || "—", tone: qbContext?.qb_chart_tier ? "neutral" : "unavailable", impact: qbContext?.qb_chart_tier ? "Passing environment" : "Missing", detail: qbContext?.player ? `${qbContext.player} · Ourlads starter` : "No matched starting-QB tier" })}
       ${renderMetric({ label: "Availability", value: availabilityStatus ? availabilityStatus.status.replaceAll("_", " ") : "Active / no override", tone: availabilityStatus?.draft_eligible === false ? "strong-negative" : "neutral", impact: availabilityStatus?.draft_eligible === false ? "Excluded" : "No hard exclusion", detail: availabilityStatus?.summary || "Current news still affects reviewed context separately" })}
       ${renderMetric({ label: "Personal priority", value: personalValue, tone: personalTone, impact: personal.avoid ? "Hard avoid" : personal.score ? `Weighted ${signedNumber(personal.score * state.weights.personalPriority)}` : "No current effect", detail: "Subjective Admin preference; not evidence-based" })}
@@ -1033,6 +1349,7 @@ function openTuning() {
     newsContext: "Reviewed news",
     roomTrend: "Draft-room trends",
     personalPriority: "Personal priority",
+    handcuffs: "Late handcuffs",
   };
   $("#tuning-controls").replaceChildren(
     ...Object.entries(labels).map(([key, label]) => {
@@ -1490,6 +1807,14 @@ if (typeof module !== "undefined" && module.exports)
     recommendationPolicyDecision,
     draftRoomTrendDecision,
     personalPriorityDecision,
+    marketAvailabilityDecision,
+    wildcardMarketGapDecision,
+    wildcardMarketGap,
+    evidenceQualityAdjustment,
+    wildcardEvidenceDecision,
+    handcuffBoostDecision,
+    handcuffRelationshipDecision,
+    endgameSpecialistAdjustment,
   };
 
 if (typeof document !== "undefined") {

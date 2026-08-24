@@ -5,7 +5,7 @@
 1. Read the latest values from the three stable Drive file IDs.
 2. Save dated raw snapshots without overwriting the previous ones.
 3. Rebuild the DraftSheets name/value board.
-4. Rebuild the base composite.
+4. Refresh public Superflex expert rankings and rebuild the base composite on the fixed 200-player rank horizon.
 5. Refresh public 10-team 2QB ADP.
 6. Refresh DraftSharks injury, rookie, Weeks 1–6 schedule, and visible Superflex data.
 7. Refresh current RotoWire/ESPN news and Ourlads depth charts.

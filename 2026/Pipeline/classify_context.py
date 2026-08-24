@@ -11,9 +11,11 @@ from __future__ import annotations
 import argparse
 import json
 import re
-import unicodedata
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
+
+from ourlads_names import ourlads_player_name
+from player_names import normalize_player_name
 from typing import Any
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -60,18 +62,7 @@ def iso(value: datetime) -> str:
 
 
 def normalized_name(value: str) -> str:
-    value = unicodedata.normalize("NFKD", value).encode("ascii", "ignore").decode()
-    value = value.lower().replace("’", "'")
-    value = re.sub(r"\b(jr|sr|ii|iii|iv)\b", "", value)
-    return re.sub(r"[^a-z0-9]", "", value)
-
-
-def ourlads_name(raw: str) -> str:
-    value = re.sub(r"\s+(?:\d{2}/\d|[A-Z]{1,3}/[^ ]+|[A-Z]{1,3}\d{2})\*?$", "", raw.strip(), flags=re.I)
-    if "," not in value:
-        return value.title()
-    surname, given = (part.strip() for part in value.split(",", 1))
-    return f"{given.title()} {surname.title()}"
+    return normalize_player_name(value)
 
 
 def player_index() -> dict[str, dict[str, Any]]:
@@ -195,7 +186,7 @@ def classify_ourlads(source: dict[str, Any], players: dict[str, dict[str, Any]],
             for row in group.get("depth", []):
                 if row.get("depth", 99) > 2 or row.get("status") not in relevant_statuses:
                     continue
-                parsed = ourlads_name(row.get("raw_name", ""))
+                parsed = row.get("player") or ourlads_player_name(row.get("raw_name", ""))
                 player = players.get(normalized_name(parsed))
                 if not player:
                     rejected.append(rejection("Ourlads", parsed, f"{team['team']} {group['position']} depth {row.get('depth')}: {row.get('status')}", "Depth-chart player is not on the current draft board.", row.get("player_url")))

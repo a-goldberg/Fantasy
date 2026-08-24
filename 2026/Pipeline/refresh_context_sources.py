@@ -11,6 +11,8 @@ import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from pathlib import Path
 
+from ourlads_names import parse_ourlads_name
+
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "Analysis" / "source"
 GENERATED = ROOT / "Analysis" / "generated"
@@ -250,9 +252,12 @@ def parse_ourlads(source: str) -> dict:
                 if not anchor or not clean_text(anchor.group(3)):
                     continue
                 raw_name = clean_text(anchor.group(3))
+                parsed_name = parse_ourlads_name(raw_name)
                 depth.append({
                     "depth": depth_index,
                     "raw_name": raw_name,
+                    "player": parsed_name["player"],
+                    "ourlads_identifier": parsed_name["identifier"],
                     "status": status_map.get(anchor.group(2), "returning/other"),
                     "player_url": anchor.group(1),
                 })

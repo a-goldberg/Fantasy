@@ -51,4 +51,14 @@ Bye checks operate on positional coverage, not merely total players sharing a we
 
 ## Running-back contingencies
 
-Drafting a handcuff without owning the starter is allowed.  The late-round target is one or two contingency backs with a clear promotion path and meaningful upside.  This preference remains subordinate to QB minimums, WR depth, and bye coverage.
+Drafting a handcuff without owning the starter is allowed.  The late-round target is one or two contingency players with a clear promotion path and meaningful upside.  This preference remains subordinate to QB minimums, WR depth, and bye coverage.
+
+Beginning in Round 14, verified Ourlads backups to the two highest-ranked RBs and two highest-ranked QBs on Goldberg's roster receive a handcuff boost.  The boost grows through Round 17 and increases with the protected starter's DraftSharks injury-risk percentile.  A shared bye with the protected starter is expected for a handcuff and is not penalized, although conflicts with other same-position players still apply.
+
+The handcuff signal cannot override the fourth- and fifth-QB rules.  The intended final-four-round mix is one kicker, one defense, and roughly two handcuff or attributable upside selections, in whichever order best fits the remaining board.  Missing data alone is never treated as sleeper evidence.
+
+## Thin-data and Wildcard evidence
+
+Missing or sparse rankings do not create sleeper value by themselves.  Expert-versus-market bonuses are confidence-weighted using both the number of baseline ranking sources and the agreement among public ADP sources.  A one-source expert gap cannot contribute more than five points.
+
+Before Round 11, a player with fewer than two baseline ranking sources needs at least two independent upside signals, one of which must be trusted analyst context, approved news, or an additional ranking source.  Rounds 11–13 allow either trusted support or two structured signals.  In Rounds 14–17, one qualified rookie model, verified handcuff relationship, or other explicit signal may support an endgame Wildcard.  Personal Priority is an intentional user override at every stage.

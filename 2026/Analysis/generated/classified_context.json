@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-20T21:07:01Z",
-  "source_snapshot_retrieved": "2026-08-20T21:06:55Z",
+  "generated_at": "2026-08-23T21:09:48Z",
+  "source_snapshot_retrieved": "2026-08-23T21:09:43Z",
   "player_signals": [
     {
       "entity_type": "player",
@@ -39,7 +39,7 @@
       "source_name": "Ourlads",
       "source_url": "https://www.ourlads.com/nfldepthcharts/player/46839/",
       "published_at": "2026-08-18T16:45:00Z",
-      "retrieved_at": "2026-08-20T21:06:55Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
       "expires_at": "2026-09-01T16:45:00Z",
       "evidence_type": "depth_chart_marker",
       "status": "candidate"
@@ -80,9 +80,9 @@
       "confidence": 0.66,
       "source_name": "Ourlads",
       "source_url": "https://www.ourlads.com/nfldepthcharts/player/46880/",
-      "published_at": "2026-08-19T15:22:00Z",
-      "retrieved_at": "2026-08-20T21:06:55Z",
-      "expires_at": "2026-09-02T15:22:00Z",
+      "published_at": "2026-08-23T11:14:00Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
+      "expires_at": "2026-09-06T11:14:00Z",
       "evidence_type": "depth_chart_marker",
       "status": "candidate"
     },
@@ -102,8 +102,71 @@
       "source_name": "Ourlads",
       "source_url": "https://www.ourlads.com/nfldepthcharts/player/30471/",
       "published_at": "2026-08-19T13:13:00Z",
-      "retrieved_at": "2026-08-20T21:06:55Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
       "expires_at": "2026-09-02T13:13:00Z",
+      "evidence_type": "depth_chart_marker",
+      "status": "candidate"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Antonio Williams",
+      "affected_positions": [
+        "WR"
+      ],
+      "signal_class": "development",
+      "summary": "Listed at LWR depth 2 and marked 2026 draft pick.",
+      "mechanism": "This is a factual depth-chart marker. It does not by itself establish severity, workload, efficiency, or fantasy direction.",
+      "direction": 0,
+      "raw_adjustment": 0.0,
+      "capped_adjustment": 0.0,
+      "confidence": 0.62,
+      "source_name": "Ourlads",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/55023/",
+      "published_at": "2026-08-23T16:45:00Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
+      "expires_at": "2026-09-06T16:45:00Z",
+      "evidence_type": "depth_chart_marker",
+      "status": "candidate"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Barion Brown",
+      "affected_positions": [
+        "WR"
+      ],
+      "signal_class": "development",
+      "summary": "Listed at LWR depth 2 and marked 2026 draft pick.",
+      "mechanism": "This is a factual depth-chart marker. It does not by itself establish severity, workload, efficiency, or fantasy direction.",
+      "direction": 0,
+      "raw_adjustment": 0.0,
+      "capped_adjustment": 0.0,
+      "confidence": 0.62,
+      "source_name": "Ourlads",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/55142/",
+      "published_at": "2026-08-19T13:13:00Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
+      "expires_at": "2026-09-02T13:13:00Z",
+      "evidence_type": "depth_chart_marker",
+      "status": "candidate"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Brenen Thompson",
+      "affected_positions": [
+        "WR"
+      ],
+      "signal_class": "development",
+      "summary": "Listed at RWR depth 2 and marked 2026 draft pick.",
+      "mechanism": "This is a factual depth-chart marker. It does not by itself establish severity, workload, efficiency, or fantasy direction.",
+      "direction": 0,
+      "raw_adjustment": 0.0,
+      "capped_adjustment": 0.0,
+      "confidence": 0.62,
+      "source_name": "Ourlads",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/55057/",
+      "published_at": "2026-08-23T13:32:00Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
+      "expires_at": "2026-09-06T13:32:00Z",
       "evidence_type": "depth_chart_marker",
       "status": "candidate"
     },
@@ -122,9 +185,9 @@
       "confidence": 0.62,
       "source_name": "Ourlads",
       "source_url": "https://www.ourlads.com/nfldepthcharts/player/46925/",
-      "published_at": "2026-08-20T13:13:00Z",
-      "retrieved_at": "2026-08-20T21:06:55Z",
-      "expires_at": "2026-09-03T13:13:00Z",
+      "published_at": "2026-08-21T13:36:00Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
+      "expires_at": "2026-09-04T13:36:00Z",
       "evidence_type": "depth_chart_marker",
       "status": "candidate"
     },
@@ -144,8 +207,50 @@
       "source_name": "Ourlads",
       "source_url": "https://www.ourlads.com/nfldepthcharts/player/55088/",
       "published_at": "2026-08-19T13:13:00Z",
-      "retrieved_at": "2026-08-20T21:06:55Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
       "expires_at": "2026-09-02T13:13:00Z",
+      "evidence_type": "depth_chart_marker",
+      "status": "candidate"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Caleb Douglas",
+      "affected_positions": [
+        "WR"
+      ],
+      "signal_class": "development",
+      "summary": "Listed at RWR depth 1 and marked 2026 draft pick.",
+      "mechanism": "This is a factual depth-chart marker. It does not by itself establish severity, workload, efficiency, or fantasy direction.",
+      "direction": 0,
+      "raw_adjustment": 0.0,
+      "capped_adjustment": 0.0,
+      "confidence": 0.62,
+      "source_name": "Ourlads",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/55027/",
+      "published_at": "2026-08-23T11:16:00Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
+      "expires_at": "2026-09-06T11:16:00Z",
+      "evidence_type": "depth_chart_marker",
+      "status": "candidate"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Calvin Austin III",
+      "affected_positions": [
+        "WR"
+      ],
+      "signal_class": "role",
+      "summary": "Listed at SWR depth 1 and marked 2026 acquisition.",
+      "mechanism": "This is a factual depth-chart marker. It does not by itself establish severity, workload, efficiency, or fantasy direction.",
+      "direction": 0,
+      "raw_adjustment": 0.0,
+      "capped_adjustment": 0.0,
+      "confidence": 0.62,
+      "source_name": "Ourlads",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/46960/",
+      "published_at": "2026-08-23T13:35:00Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
+      "expires_at": "2026-09-06T13:35:00Z",
       "evidence_type": "depth_chart_marker",
       "status": "candidate"
     },
@@ -164,9 +269,9 @@
       "confidence": 0.66,
       "source_name": "Ourlads",
       "source_url": "https://www.ourlads.com/nfldepthcharts/player/54252/",
-      "published_at": "2026-08-20T13:08:00Z",
-      "retrieved_at": "2026-08-20T21:06:55Z",
-      "expires_at": "2026-09-03T13:08:00Z",
+      "published_at": "2026-08-23T13:35:00Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
+      "expires_at": "2026-09-06T13:35:00Z",
       "evidence_type": "depth_chart_marker",
       "status": "candidate"
     },
@@ -206,9 +311,9 @@
       "confidence": 0.62,
       "source_name": "Ourlads",
       "source_url": "https://www.ourlads.com/nfldepthcharts/player/54956/",
-      "published_at": "2026-08-19T14:26:00Z",
-      "retrieved_at": "2026-08-20T21:06:55Z",
-      "expires_at": "2026-09-02T14:26:00Z",
+      "published_at": "2026-08-21T17:08:00Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
+      "expires_at": "2026-09-04T17:08:00Z",
       "evidence_type": "depth_chart_marker",
       "status": "candidate"
     },
@@ -235,6 +340,48 @@
     },
     {
       "entity_type": "player",
+      "entity": "Cedric Tillman",
+      "affected_positions": [
+        "WR"
+      ],
+      "signal_class": "health",
+      "summary": "Remains sidelined at practice",
+      "mechanism": "Practice participation or absence is an availability signal; it does not establish a regular-season workload or recovery timetable.",
+      "direction": -1,
+      "raw_adjustment": -0.75,
+      "capped_adjustment": -0.75,
+      "confidence": 0.72,
+      "source_name": "RotoWire",
+      "source_url": "https://www.rotowire.com/football/headlines/cedric-tillman-injury-remains-sidelined-at-practice-633974",
+      "published_at": "2026-08-17T00:00:00Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
+      "expires_at": "2026-09-07T00:00:00Z",
+      "evidence_type": "attributed_practice_or_injury_report",
+      "status": "approved"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Charlie Kolar",
+      "affected_positions": [
+        "TE"
+      ],
+      "signal_class": "role",
+      "summary": "Listed at TE depth 2 and marked 2026 acquisition.",
+      "mechanism": "This is a factual depth-chart marker. It does not by itself establish severity, workload, efficiency, or fantasy direction.",
+      "direction": 0,
+      "raw_adjustment": 0.0,
+      "capped_adjustment": 0.0,
+      "confidence": 0.62,
+      "source_name": "Ourlads",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/46955/",
+      "published_at": "2026-08-23T13:32:00Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
+      "expires_at": "2026-09-06T13:32:00Z",
+      "evidence_type": "depth_chart_marker",
+      "status": "candidate"
+    },
+    {
+      "entity_type": "player",
       "entity": "Chig Okonkwo",
       "affected_positions": [
         "TE"
@@ -248,9 +395,30 @@
       "confidence": 0.62,
       "source_name": "Ourlads",
       "source_url": "https://www.ourlads.com/nfldepthcharts/player/46970/",
-      "published_at": "2026-08-18T10:00:00Z",
-      "retrieved_at": "2026-08-20T21:06:55Z",
-      "expires_at": "2026-09-01T10:00:00Z",
+      "published_at": "2026-08-23T16:45:00Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
+      "expires_at": "2026-09-06T16:45:00Z",
+      "evidence_type": "depth_chart_marker",
+      "status": "candidate"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Chris Bell",
+      "affected_positions": [
+        "WR"
+      ],
+      "signal_class": "development",
+      "summary": "Listed at LWR depth 2 and marked 2026 draft pick.",
+      "mechanism": "This is a factual depth-chart marker. It does not by itself establish severity, workload, efficiency, or fantasy direction.",
+      "direction": 0,
+      "raw_adjustment": 0.0,
+      "capped_adjustment": 0.0,
+      "confidence": 0.62,
+      "source_name": "Ourlads",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/55046/",
+      "published_at": "2026-08-23T11:16:00Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
+      "expires_at": "2026-09-06T11:16:00Z",
       "evidence_type": "depth_chart_marker",
       "status": "candidate"
     },
@@ -290,9 +458,9 @@
       "confidence": 0.62,
       "source_name": "Ourlads",
       "source_url": "https://www.ourlads.com/nfldepthcharts/player/50351/",
-      "published_at": "2026-08-19T09:50:00Z",
-      "retrieved_at": "2026-08-20T21:06:55Z",
-      "expires_at": "2026-09-02T09:50:00Z",
+      "published_at": "2026-08-23T16:34:00Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
+      "expires_at": "2026-09-06T16:34:00Z",
       "evidence_type": "depth_chart_marker",
       "status": "candidate"
     },
@@ -311,11 +479,32 @@
       "confidence": 0.62,
       "source_name": "Ourlads",
       "source_url": "https://www.ourlads.com/nfldepthcharts/player/46474/",
-      "published_at": "2026-08-20T13:16:00Z",
-      "retrieved_at": "2026-08-20T21:06:55Z",
-      "expires_at": "2026-09-03T13:16:00Z",
+      "published_at": "2026-08-23T11:18:00Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
+      "expires_at": "2026-09-06T11:18:00Z",
       "evidence_type": "depth_chart_marker",
       "status": "candidate"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Christian McCaffrey",
+      "affected_positions": [
+        "RB"
+      ],
+      "signal_class": "health",
+      "summary": "Jumps into team drills Sunday",
+      "mechanism": "Practice participation or absence is an availability signal; it does not establish a regular-season workload or recovery timetable.",
+      "direction": 1,
+      "raw_adjustment": 0.75,
+      "capped_adjustment": 0.75,
+      "confidence": 0.72,
+      "source_name": "RotoWire",
+      "source_url": "https://www.rotowire.com/football/headlines/christian-mccaffrey-injury-jumps-into-team-drills-sunday-634594",
+      "published_at": "2026-08-23T00:00:00Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
+      "expires_at": "2026-09-13T00:00:00Z",
+      "evidence_type": "attributed_practice_or_injury_report",
+      "status": "approved"
     },
     {
       "entity_type": "player",
@@ -361,6 +550,48 @@
     },
     {
       "entity_type": "player",
+      "entity": "Cyrus Allen",
+      "affected_positions": [
+        "WR"
+      ],
+      "signal_class": "development",
+      "summary": "Listed at SWR depth 2 and marked 2026 draft pick.",
+      "mechanism": "This is a factual depth-chart marker. It does not by itself establish severity, workload, efficiency, or fantasy direction.",
+      "direction": 0,
+      "raw_adjustment": 0.0,
+      "capped_adjustment": 0.0,
+      "confidence": 0.62,
+      "source_name": "Ourlads",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/55128/",
+      "published_at": "2026-08-21T17:15:00Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
+      "expires_at": "2026-09-04T17:15:00Z",
+      "evidence_type": "depth_chart_marker",
+      "status": "candidate"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Daniel Bellinger",
+      "affected_positions": [
+        "TE"
+      ],
+      "signal_class": "role",
+      "summary": "Listed at TE depth 2 and marked 2026 acquisition.",
+      "mechanism": "This is a factual depth-chart marker. It does not by itself establish severity, workload, efficiency, or fantasy direction.",
+      "direction": 0,
+      "raw_adjustment": 0.0,
+      "capped_adjustment": 0.0,
+      "confidence": 0.62,
+      "source_name": "Ourlads",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/46939/",
+      "published_at": "2026-08-21T17:08:00Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
+      "expires_at": "2026-09-04T17:08:00Z",
+      "evidence_type": "depth_chart_marker",
+      "status": "candidate"
+    },
+    {
+      "entity_type": "player",
       "entity": "Darnell Mooney",
       "affected_positions": [
         "WR"
@@ -374,9 +605,30 @@
       "confidence": 0.62,
       "source_name": "Ourlads",
       "source_url": "https://www.ourlads.com/nfldepthcharts/player/40414/",
-      "published_at": "2026-08-20T13:08:00Z",
-      "retrieved_at": "2026-08-20T21:06:55Z",
-      "expires_at": "2026-09-03T13:08:00Z",
+      "published_at": "2026-08-23T13:35:00Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
+      "expires_at": "2026-09-06T13:35:00Z",
+      "evidence_type": "depth_chart_marker",
+      "status": "candidate"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Darren Waller",
+      "affected_positions": [
+        "TE"
+      ],
+      "signal_class": "role",
+      "summary": "Listed at TE depth 2 and marked 2026 acquisition.",
+      "mechanism": "This is a factual depth-chart marker. It does not by itself establish severity, workload, efficiency, or fantasy direction.",
+      "direction": 0,
+      "raw_adjustment": 0.0,
+      "capped_adjustment": 0.0,
+      "confidence": 0.62,
+      "source_name": "Ourlads",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/49848/",
+      "published_at": "2026-08-17T17:31:00Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
+      "expires_at": "2026-08-31T17:31:00Z",
       "evidence_type": "depth_chart_marker",
       "status": "candidate"
     },
@@ -416,9 +668,9 @@
       "confidence": 0.62,
       "source_name": "Ourlads",
       "source_url": "https://www.ourlads.com/nfldepthcharts/player/49863/",
-      "published_at": "2026-08-17T12:05:00Z",
-      "retrieved_at": "2026-08-20T21:06:55Z",
-      "expires_at": "2026-08-31T12:05:00Z",
+      "published_at": "2026-08-23T11:19:00Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
+      "expires_at": "2026-09-06T11:19:00Z",
       "evidence_type": "depth_chart_marker",
       "status": "candidate"
     },
@@ -437,11 +689,32 @@
       "confidence": 0.62,
       "source_name": "Ourlads",
       "source_url": "https://www.ourlads.com/nfldepthcharts/player/54985/",
-      "published_at": "2026-08-20T13:16:00Z",
-      "retrieved_at": "2026-08-20T21:06:55Z",
-      "expires_at": "2026-09-03T13:16:00Z",
+      "published_at": "2026-08-23T11:18:00Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
+      "expires_at": "2026-09-06T11:18:00Z",
       "evidence_type": "depth_chart_marker",
       "status": "candidate"
+    },
+    {
+      "entity_type": "player",
+      "entity": "De'Zhaun Stribling",
+      "affected_positions": [
+        "WR"
+      ],
+      "signal_class": "health",
+      "summary": "Returns to practice Sunday",
+      "mechanism": "Practice participation or absence is an availability signal; it does not establish a regular-season workload or recovery timetable.",
+      "direction": 1,
+      "raw_adjustment": 0.75,
+      "capped_adjustment": 0.75,
+      "confidence": 0.72,
+      "source_name": "RotoWire",
+      "source_url": "https://www.rotowire.com/football/headlines/dezhaun-stribling-injury-returns-to-practice-sunday-634580",
+      "published_at": "2026-08-23T00:00:00Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
+      "expires_at": "2026-09-13T00:00:00Z",
+      "evidence_type": "attributed_practice_or_injury_report",
+      "status": "approved"
     },
     {
       "entity_type": "player",
@@ -458,9 +731,9 @@
       "confidence": 0.62,
       "source_name": "Ourlads",
       "source_url": "https://www.ourlads.com/nfldepthcharts/player/37008/",
-      "published_at": "2026-08-20T13:16:00Z",
-      "retrieved_at": "2026-08-20T21:06:55Z",
-      "expires_at": "2026-09-03T13:16:00Z",
+      "published_at": "2026-08-23T11:18:00Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
+      "expires_at": "2026-09-06T11:18:00Z",
       "evidence_type": "depth_chart_marker",
       "status": "candidate"
     },
@@ -479,9 +752,9 @@
       "confidence": 0.62,
       "source_name": "Ourlads",
       "source_url": "https://www.ourlads.com/nfldepthcharts/player/54991/",
-      "published_at": "2026-08-20T13:21:00Z",
-      "retrieved_at": "2026-08-20T21:06:55Z",
-      "expires_at": "2026-09-03T13:21:00Z",
+      "published_at": "2026-08-23T13:29:00Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
+      "expires_at": "2026-09-06T13:29:00Z",
       "evidence_type": "depth_chart_marker",
       "status": "candidate"
     },
@@ -522,7 +795,7 @@
       "source_name": "Ourlads",
       "source_url": "https://www.ourlads.com/nfldepthcharts/player/49791/",
       "published_at": "2026-08-19T14:58:00Z",
-      "retrieved_at": "2026-08-20T21:06:55Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
       "expires_at": "2026-09-02T14:58:00Z",
       "evidence_type": "depth_chart_marker",
       "status": "candidate"
@@ -563,11 +836,95 @@
       "confidence": 0.62,
       "source_name": "Ourlads",
       "source_url": "https://www.ourlads.com/nfldepthcharts/player/50241/",
-      "published_at": "2026-08-17T12:11:00Z",
-      "retrieved_at": "2026-08-20T21:06:55Z",
-      "expires_at": "2026-08-31T12:11:00Z",
+      "published_at": "2026-08-23T11:12:00Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
+      "expires_at": "2026-09-06T11:12:00Z",
       "evidence_type": "depth_chart_marker",
       "status": "candidate"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Eli Raridon",
+      "affected_positions": [
+        "TE"
+      ],
+      "signal_class": "development",
+      "summary": "Listed at TE depth 2 and marked 2026 draft pick.",
+      "mechanism": "This is a factual depth-chart marker. It does not by itself establish severity, workload, efficiency, or fantasy direction.",
+      "direction": 0,
+      "raw_adjustment": 0.0,
+      "capped_adjustment": 0.0,
+      "confidence": 0.62,
+      "source_name": "Ourlads",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/55047/",
+      "published_at": "2026-08-18T16:45:00Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
+      "expires_at": "2026-09-01T16:45:00Z",
+      "evidence_type": "depth_chart_marker",
+      "status": "candidate"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Elijah Sarratt",
+      "affected_positions": [
+        "WR"
+      ],
+      "signal_class": "development",
+      "summary": "Listed at LWR depth 2 and marked 2026 draft pick.",
+      "mechanism": "This is a factual depth-chart marker. It does not by itself establish severity, workload, efficiency, or fantasy direction.",
+      "direction": 0,
+      "raw_adjustment": 0.0,
+      "capped_adjustment": 0.0,
+      "confidence": 0.62,
+      "source_name": "Ourlads",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/55067/",
+      "published_at": "2026-08-19T14:20:00Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
+      "expires_at": "2026-09-02T14:20:00Z",
+      "evidence_type": "depth_chart_marker",
+      "status": "candidate"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Emari Demercado",
+      "affected_positions": [
+        "RB"
+      ],
+      "signal_class": "role",
+      "summary": "Listed at RB depth 2 and marked 2026 acquisition.",
+      "mechanism": "This is a factual depth-chart marker. It does not by itself establish severity, workload, efficiency, or fantasy direction.",
+      "direction": 0,
+      "raw_adjustment": 0.0,
+      "capped_adjustment": 0.0,
+      "confidence": 0.62,
+      "source_name": "Ourlads",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/50377/",
+      "published_at": "2026-08-21T17:15:00Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
+      "expires_at": "2026-09-04T17:15:00Z",
+      "evidence_type": "depth_chart_marker",
+      "status": "candidate"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Emmett Johnson",
+      "affected_positions": [
+        "RB"
+      ],
+      "signal_class": "health",
+      "summary": "Rushing TD in preseason loss",
+      "mechanism": "Practice participation or absence is an availability signal; it does not establish a regular-season workload or recovery timetable.",
+      "direction": 1,
+      "raw_adjustment": 0.75,
+      "capped_adjustment": 0.75,
+      "confidence": 0.72,
+      "source_name": "RotoWire",
+      "source_url": "https://www.rotowire.com/football/headlines/emmett-johnson-news-rushing-td-in-preseason-loss-634562",
+      "published_at": "2026-08-22T00:00:00Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
+      "expires_at": "2026-09-12T00:00:00Z",
+      "evidence_type": "attributed_practice_or_injury_report",
+      "status": "approved"
     },
     {
       "entity_type": "player",
@@ -584,9 +941,9 @@
       "confidence": 0.62,
       "source_name": "Ourlads",
       "source_url": "https://www.ourlads.com/nfldepthcharts/player/54953/",
-      "published_at": "2026-08-17T23:10:00Z",
-      "retrieved_at": "2026-08-20T21:06:55Z",
-      "expires_at": "2026-08-31T23:10:00Z",
+      "published_at": "2026-08-23T11:11:00Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
+      "expires_at": "2026-09-06T11:11:00Z",
       "evidence_type": "depth_chart_marker",
       "status": "candidate"
     },
@@ -605,30 +962,51 @@
       "confidence": 0.62,
       "source_name": "Ourlads",
       "source_url": "https://www.ourlads.com/nfldepthcharts/player/40992/",
-      "published_at": "2026-08-20T13:16:00Z",
-      "retrieved_at": "2026-08-20T21:06:55Z",
-      "expires_at": "2026-09-03T13:16:00Z",
+      "published_at": "2026-08-23T17:01:00Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
+      "expires_at": "2026-09-06T17:01:00Z",
       "evidence_type": "depth_chart_marker",
       "status": "candidate"
     },
     {
       "entity_type": "player",
-      "entity": "George Kittle",
+      "entity": "Germie Bernard",
       "affected_positions": [
-        "TE"
+        "WR"
       ],
-      "signal_class": "health",
-      "summary": "Listed at TE depth 1 and marked injured/inactive.",
+      "signal_class": "development",
+      "summary": "Listed at RWR depth 2 and marked 2026 draft pick.",
       "mechanism": "This is a factual depth-chart marker. It does not by itself establish severity, workload, efficiency, or fantasy direction.",
       "direction": 0,
       "raw_adjustment": 0.0,
       "capped_adjustment": 0.0,
-      "confidence": 0.66,
+      "confidence": 0.62,
       "source_name": "Ourlads",
-      "source_url": "https://www.ourlads.com/nfldepthcharts/player/30551/",
-      "published_at": "2026-08-20T13:16:00Z",
-      "retrieved_at": "2026-08-20T21:06:55Z",
-      "expires_at": "2026-09-03T13:16:00Z",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/54999/",
+      "published_at": "2026-08-13T18:11:00Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
+      "expires_at": "2026-08-27T18:11:00Z",
+      "evidence_type": "depth_chart_marker",
+      "status": "candidate"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Greg Dortch",
+      "affected_positions": [
+        "WR"
+      ],
+      "signal_class": "role",
+      "summary": "Listed at SWR depth 2 and marked 2026 acquisition.",
+      "mechanism": "This is a factual depth-chart marker. It does not by itself establish severity, workload, efficiency, or fantasy direction.",
+      "direction": 0,
+      "raw_adjustment": 0.0,
+      "capped_adjustment": 0.0,
+      "confidence": 0.62,
+      "source_name": "Ourlads",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/44603/",
+      "published_at": "2026-08-17T17:48:00Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
+      "expires_at": "2026-08-31T17:48:00Z",
       "evidence_type": "depth_chart_marker",
       "status": "candidate"
     },
@@ -668,9 +1046,9 @@
       "confidence": 0.62,
       "source_name": "Ourlads",
       "source_url": "https://www.ourlads.com/nfldepthcharts/player/46966/",
-      "published_at": "2026-08-20T13:08:00Z",
-      "retrieved_at": "2026-08-20T21:06:55Z",
-      "expires_at": "2026-09-03T13:08:00Z",
+      "published_at": "2026-08-23T13:35:00Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
+      "expires_at": "2026-09-06T13:35:00Z",
       "evidence_type": "depth_chart_marker",
       "status": "candidate"
     },
@@ -690,7 +1068,7 @@
       "source_name": "Ourlads",
       "source_url": "https://www.ourlads.com/nfldepthcharts/player/47080/",
       "published_at": "2026-08-17T17:48:00Z",
-      "retrieved_at": "2026-08-20T21:06:55Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
       "expires_at": "2026-08-31T17:48:00Z",
       "evidence_type": "depth_chart_marker",
       "status": "candidate"
@@ -711,10 +1089,31 @@
       "source_name": "RotoWire",
       "source_url": "https://www.rotowire.com/football/headlines/jk-dobbins-injury-takes-part-in-mondays-session-633945",
       "published_at": "2026-08-17T00:00:00Z",
-      "retrieved_at": "2026-08-20T21:06:55Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
       "expires_at": "2026-09-07T00:00:00Z",
       "evidence_type": "attributed_practice_or_injury_report",
       "status": "approved"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Ja'Kobi Lane",
+      "affected_positions": [
+        "WR"
+      ],
+      "signal_class": "development",
+      "summary": "Listed at RWR depth 2 and marked 2026 draft pick.",
+      "mechanism": "This is a factual depth-chart marker. It does not by itself establish severity, workload, efficiency, or fantasy direction.",
+      "direction": 0,
+      "raw_adjustment": 0.0,
+      "capped_adjustment": 0.0,
+      "confidence": 0.62,
+      "source_name": "Ourlads",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/55032/",
+      "published_at": "2026-08-19T14:20:00Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
+      "expires_at": "2026-09-02T14:20:00Z",
+      "evidence_type": "depth_chart_marker",
+      "status": "candidate"
     },
     {
       "entity_type": "player",
@@ -731,9 +1130,9 @@
       "confidence": 0.62,
       "source_name": "Ourlads",
       "source_url": "https://www.ourlads.com/nfldepthcharts/player/54984/",
-      "published_at": "2026-08-19T14:10:00Z",
-      "retrieved_at": "2026-08-20T21:06:55Z",
-      "expires_at": "2026-09-02T14:10:00Z",
+      "published_at": "2026-08-23T11:09:00Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
+      "expires_at": "2026-09-06T11:09:00Z",
       "evidence_type": "depth_chart_marker",
       "status": "candidate"
     },
@@ -753,7 +1152,7 @@
       "source_name": "RotoWire",
       "source_url": "https://www.rotowire.com/football/headlines/jadarian-price-news-full-practice-monday-633959",
       "published_at": "2026-08-17T00:00:00Z",
-      "retrieved_at": "2026-08-20T21:06:55Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
       "expires_at": "2026-09-07T00:00:00Z",
       "evidence_type": "attributed_practice_or_injury_report",
       "status": "approved"
@@ -774,10 +1173,31 @@
       "source_name": "RotoWire",
       "source_url": "https://www.rotowire.com/football/headlines/jadarian-price-injury-primed-to-participate-monday-633955",
       "published_at": "2026-08-17T00:00:00Z",
-      "retrieved_at": "2026-08-20T21:06:55Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
       "expires_at": "2026-09-07T00:00:00Z",
       "evidence_type": "attributed_practice_or_injury_report",
       "status": "approved"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Jahan Dotson",
+      "affected_positions": [
+        "WR"
+      ],
+      "signal_class": "role",
+      "summary": "Listed at RWR depth 1 and marked 2026 acquisition.",
+      "mechanism": "This is a factual depth-chart marker. It does not by itself establish severity, workload, efficiency, or fantasy direction.",
+      "direction": 0,
+      "raw_adjustment": 0.0,
+      "capped_adjustment": 0.0,
+      "confidence": 0.62,
+      "source_name": "Ourlads",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/46857/",
+      "published_at": "2026-08-21T13:36:00Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
+      "expires_at": "2026-09-04T13:36:00Z",
+      "evidence_type": "depth_chart_marker",
+      "status": "candidate"
     },
     {
       "entity_type": "player",
@@ -794,9 +1214,30 @@
       "confidence": 0.62,
       "source_name": "Ourlads",
       "source_url": "https://www.ourlads.com/nfldepthcharts/player/47019/",
-      "published_at": "2026-08-17T23:10:00Z",
-      "retrieved_at": "2026-08-20T21:06:55Z",
-      "expires_at": "2026-08-31T23:10:00Z",
+      "published_at": "2026-08-23T11:11:00Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
+      "expires_at": "2026-09-06T11:11:00Z",
+      "evidence_type": "depth_chart_marker",
+      "status": "candidate"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Jalen Tolbert",
+      "affected_positions": [
+        "WR"
+      ],
+      "signal_class": "role",
+      "summary": "Listed at LWR depth 1 and marked 2026 acquisition.",
+      "mechanism": "This is a factual depth-chart marker. It does not by itself establish severity, workload, efficiency, or fantasy direction.",
+      "direction": 0,
+      "raw_adjustment": 0.0,
+      "capped_adjustment": 0.0,
+      "confidence": 0.62,
+      "source_name": "Ourlads",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/46916/",
+      "published_at": "2026-08-23T11:16:00Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
+      "expires_at": "2026-09-06T11:16:00Z",
       "evidence_type": "depth_chart_marker",
       "status": "candidate"
     },
@@ -816,31 +1257,31 @@
       "source_name": "Ourlads",
       "source_url": "https://www.ourlads.com/nfldepthcharts/player/41783/",
       "published_at": "2026-08-19T13:46:00Z",
-      "retrieved_at": "2026-08-20T21:06:55Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
       "expires_at": "2026-09-02T13:46:00Z",
       "evidence_type": "depth_chart_marker",
       "status": "candidate"
     },
     {
       "entity_type": "player",
-      "entity": "Jayden Higgins",
+      "entity": "Jaydon Blue",
       "affected_positions": [
-        "WR"
+        "RB"
       ],
       "signal_class": "health",
-      "summary": "Listed at RWR depth 1 and marked injured/inactive.",
-      "mechanism": "This is a factual depth-chart marker. It does not by itself establish severity, workload, efficiency, or fantasy direction.",
-      "direction": 0,
-      "raw_adjustment": 0.0,
-      "capped_adjustment": 0.0,
-      "confidence": 0.66,
-      "source_name": "Ourlads",
-      "source_url": "https://www.ourlads.com/nfldepthcharts/player/54181/",
-      "published_at": "2026-08-17T12:05:00Z",
-      "retrieved_at": "2026-08-20T21:06:55Z",
-      "expires_at": "2026-08-31T12:05:00Z",
-      "evidence_type": "depth_chart_marker",
-      "status": "candidate"
+      "summary": "Stands out with extended playing time",
+      "mechanism": "Practice participation or absence is an availability signal; it does not establish a regular-season workload or recovery timetable.",
+      "direction": 1,
+      "raw_adjustment": 0.75,
+      "capped_adjustment": 0.75,
+      "confidence": 0.72,
+      "source_name": "RotoWire",
+      "source_url": "https://www.rotowire.com/football/headlines/jaydon-blue-news-stands-out-with-extended-playing-time-634570",
+      "published_at": "2026-08-22T00:00:00Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
+      "expires_at": "2026-09-12T00:00:00Z",
+      "evidence_type": "attributed_practice_or_injury_report",
+      "status": "approved"
     },
     {
       "entity_type": "player",
@@ -879,7 +1320,7 @@
       "source_name": "RotoWire",
       "source_url": "https://www.rotowire.com/football/headlines/jaylen-waddle-injury-returns-to-practice-monday-633944",
       "published_at": "2026-08-17T00:00:00Z",
-      "retrieved_at": "2026-08-20T21:06:55Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
       "expires_at": "2026-09-07T00:00:00Z",
       "evidence_type": "attributed_practice_or_injury_report",
       "status": "approved"
@@ -899,9 +1340,9 @@
       "confidence": 0.62,
       "source_name": "Ourlads",
       "source_url": "https://www.ourlads.com/nfldepthcharts/player/43323/",
-      "published_at": "2026-08-20T13:26:00Z",
-      "retrieved_at": "2026-08-20T21:06:55Z",
-      "expires_at": "2026-09-03T13:26:00Z",
+      "published_at": "2026-08-21T17:14:00Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
+      "expires_at": "2026-09-04T17:14:00Z",
       "evidence_type": "depth_chart_marker",
       "status": "candidate"
     },
@@ -921,7 +1362,7 @@
       "source_name": "RotoWire",
       "source_url": "https://www.rotowire.com/football/headlines/jaylin-noel-injury-ramping-back-up-at-practice-634186",
       "published_at": "2026-08-19T00:00:00Z",
-      "retrieved_at": "2026-08-20T21:06:55Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
       "expires_at": "2026-09-09T00:00:00Z",
       "evidence_type": "attributed_practice_or_injury_report",
       "status": "approved"
@@ -942,8 +1383,29 @@
       "source_name": "Ourlads",
       "source_url": "https://www.ourlads.com/nfldepthcharts/player/54955/",
       "published_at": "2026-08-19T14:16:00Z",
-      "retrieved_at": "2026-08-20T21:06:55Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
       "expires_at": "2026-09-02T14:16:00Z",
+      "evidence_type": "depth_chart_marker",
+      "status": "candidate"
+    },
+    {
+      "entity_type": "player",
+      "entity": "John Bates",
+      "affected_positions": [
+        "TE"
+      ],
+      "signal_class": "health",
+      "summary": "Listed at TE depth 2 and marked injured/inactive.",
+      "mechanism": "This is a factual depth-chart marker. It does not by itself establish severity, workload, efficiency, or fantasy direction.",
+      "direction": 0,
+      "raw_adjustment": 0.0,
+      "capped_adjustment": 0.0,
+      "confidence": 0.66,
+      "source_name": "Ourlads",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/43442/",
+      "published_at": "2026-08-23T16:45:00Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
+      "expires_at": "2026-09-06T16:45:00Z",
       "evidence_type": "depth_chart_marker",
       "status": "candidate"
     },
@@ -963,7 +1425,7 @@
       "source_name": "Ourlads",
       "source_url": "https://www.ourlads.com/nfldepthcharts/player/54960/",
       "published_at": "2026-08-19T13:13:00Z",
-      "retrieved_at": "2026-08-20T21:06:55Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
       "expires_at": "2026-09-02T13:13:00Z",
       "evidence_type": "depth_chart_marker",
       "status": "candidate"
@@ -983,9 +1445,30 @@
       "confidence": 0.62,
       "source_name": "Ourlads",
       "source_url": "https://www.ourlads.com/nfldepthcharts/player/43328/",
-      "published_at": "2026-08-20T13:20:00Z",
-      "retrieved_at": "2026-08-20T21:06:55Z",
-      "expires_at": "2026-09-03T13:20:00Z",
+      "published_at": "2026-08-21T17:15:00Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
+      "expires_at": "2026-09-04T17:15:00Z",
+      "evidence_type": "depth_chart_marker",
+      "status": "candidate"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Kalif Raymond",
+      "affected_positions": [
+        "WR"
+      ],
+      "signal_class": "role",
+      "summary": "Listed at SWR depth 1 and marked 2026 acquisition.",
+      "mechanism": "This is a factual depth-chart marker. It does not by itself establish severity, workload, efficiency, or fantasy direction.",
+      "direction": 0,
+      "raw_adjustment": 0.0,
+      "capped_adjustment": 0.0,
+      "confidence": 0.62,
+      "source_name": "Ourlads",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/43198/",
+      "published_at": "2026-08-20T13:48:00Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
+      "expires_at": "2026-09-03T13:48:00Z",
       "evidence_type": "depth_chart_marker",
       "status": "candidate"
     },
@@ -1025,9 +1508,9 @@
       "confidence": 0.62,
       "source_name": "Ourlads",
       "source_url": "https://www.ourlads.com/nfldepthcharts/player/54976/",
-      "published_at": "2026-08-20T13:21:00Z",
-      "retrieved_at": "2026-08-20T21:06:55Z",
-      "expires_at": "2026-09-03T13:21:00Z",
+      "published_at": "2026-08-23T13:29:00Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
+      "expires_at": "2026-09-06T13:29:00Z",
       "evidence_type": "depth_chart_marker",
       "status": "candidate"
     },
@@ -1046,9 +1529,51 @@
       "confidence": 0.62,
       "source_name": "Ourlads",
       "source_url": "https://www.ourlads.com/nfldepthcharts/player/50393/",
-      "published_at": "2026-08-20T13:12:00Z",
-      "retrieved_at": "2026-08-20T21:06:55Z",
-      "expires_at": "2026-09-03T13:12:00Z",
+      "published_at": "2026-08-23T13:32:00Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
+      "expires_at": "2026-09-06T13:32:00Z",
+      "evidence_type": "depth_chart_marker",
+      "status": "candidate"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Keenan Allen",
+      "affected_positions": [
+        "WR"
+      ],
+      "signal_class": "role",
+      "summary": "Listed at RWR depth 1 and marked 2026 acquisition.",
+      "mechanism": "This is a factual depth-chart marker. It does not by itself establish severity, workload, efficiency, or fantasy direction.",
+      "direction": 0,
+      "raw_adjustment": 0.0,
+      "capped_adjustment": 0.0,
+      "confidence": 0.62,
+      "source_name": "Ourlads",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/17936/",
+      "published_at": "2026-08-23T11:14:00Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
+      "expires_at": "2026-09-06T11:14:00Z",
+      "evidence_type": "depth_chart_marker",
+      "status": "candidate"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Kendrick Bourne",
+      "affected_positions": [
+        "WR"
+      ],
+      "signal_class": "role",
+      "summary": "Listed at SWR depth 1 and marked 2026 acquisition.",
+      "mechanism": "This is a factual depth-chart marker. It does not by itself establish severity, workload, efficiency, or fantasy direction.",
+      "direction": 0,
+      "raw_adjustment": 0.0,
+      "capped_adjustment": 0.0,
+      "confidence": 0.62,
+      "source_name": "Ourlads",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/42986/",
+      "published_at": "2026-08-19T14:16:00Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
+      "expires_at": "2026-09-02T14:16:00Z",
       "evidence_type": "depth_chart_marker",
       "status": "candidate"
     },
@@ -1067,9 +1592,9 @@
       "confidence": 0.62,
       "source_name": "Ourlads",
       "source_url": "https://www.ourlads.com/nfldepthcharts/player/46868/",
-      "published_at": "2026-08-20T13:20:00Z",
-      "retrieved_at": "2026-08-20T21:06:55Z",
-      "expires_at": "2026-09-03T13:20:00Z",
+      "published_at": "2026-08-21T17:15:00Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
+      "expires_at": "2026-09-04T17:15:00Z",
       "evidence_type": "depth_chart_marker",
       "status": "candidate"
     },
@@ -1110,7 +1635,7 @@
       "source_name": "Ourlads",
       "source_url": "https://www.ourlads.com/nfldepthcharts/player/43468/",
       "published_at": "2026-08-20T13:38:00Z",
-      "retrieved_at": "2026-08-20T21:06:55Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
       "expires_at": "2026-09-03T13:38:00Z",
       "evidence_type": "depth_chart_marker",
       "status": "candidate"
@@ -1130,9 +1655,9 @@
       "confidence": 0.62,
       "source_name": "Ourlads",
       "source_url": "https://www.ourlads.com/nfldepthcharts/player/54968/",
-      "published_at": "2026-08-20T13:16:00Z",
-      "retrieved_at": "2026-08-20T21:06:55Z",
-      "expires_at": "2026-09-03T13:16:00Z",
+      "published_at": "2026-08-23T17:01:00Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
+      "expires_at": "2026-09-06T17:01:00Z",
       "evidence_type": "depth_chart_marker",
       "status": "candidate"
     },
@@ -1151,9 +1676,9 @@
       "confidence": 0.62,
       "source_name": "Ourlads",
       "source_url": "https://www.ourlads.com/nfldepthcharts/player/33415/",
-      "published_at": "2026-08-17T23:10:00Z",
-      "retrieved_at": "2026-08-20T21:06:55Z",
-      "expires_at": "2026-08-31T23:10:00Z",
+      "published_at": "2026-08-23T11:11:00Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
+      "expires_at": "2026-09-06T11:11:00Z",
       "evidence_type": "depth_chart_marker",
       "status": "candidate"
     },
@@ -1173,7 +1698,7 @@
       "source_name": "RotoWire",
       "source_url": "https://www.rotowire.com/football/headlines/kyle-monangai-injury-diagnosed-with-hyperextended-knee-633960",
       "published_at": "2026-08-17T00:00:00Z",
-      "retrieved_at": "2026-08-20T21:06:55Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
       "expires_at": "2026-09-07T00:00:00Z",
       "evidence_type": "attributed_practice_or_injury_report",
       "status": "approved"
@@ -1215,7 +1740,7 @@
       "source_name": "Ourlads",
       "source_url": "https://www.ourlads.com/nfldepthcharts/player/36972/",
       "published_at": "2026-08-19T13:46:00Z",
-      "retrieved_at": "2026-08-20T21:06:55Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
       "expires_at": "2026-09-02T13:46:00Z",
       "evidence_type": "depth_chart_marker",
       "status": "candidate"
@@ -1277,9 +1802,9 @@
       "confidence": 0.62,
       "source_name": "Ourlads",
       "source_url": "https://www.ourlads.com/nfldepthcharts/player/54972/",
-      "published_at": "2026-08-17T12:11:00Z",
-      "retrieved_at": "2026-08-20T21:06:55Z",
-      "expires_at": "2026-08-31T12:11:00Z",
+      "published_at": "2026-08-23T11:12:00Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
+      "expires_at": "2026-09-06T11:12:00Z",
       "evidence_type": "depth_chart_marker",
       "status": "candidate"
     },
@@ -1299,7 +1824,7 @@
       "source_name": "RotoWire",
       "source_url": "https://www.rotowire.com/football/headlines/makai-lemon-injury-will-not-practice-monday-633933",
       "published_at": "2026-08-17T00:00:00Z",
-      "retrieved_at": "2026-08-20T21:06:55Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
       "expires_at": "2026-09-07T00:00:00Z",
       "evidence_type": "attributed_practice_or_injury_report",
       "status": "approved"
@@ -1319,9 +1844,9 @@
       "confidence": 0.62,
       "source_name": "Ourlads",
       "source_url": "https://www.ourlads.com/nfldepthcharts/player/55026/",
-      "published_at": "2026-08-20T13:08:00Z",
-      "retrieved_at": "2026-08-20T21:06:55Z",
-      "expires_at": "2026-09-03T13:08:00Z",
+      "published_at": "2026-08-23T13:35:00Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
+      "expires_at": "2026-09-06T13:35:00Z",
       "evidence_type": "depth_chart_marker",
       "status": "candidate"
     },
@@ -1340,9 +1865,9 @@
       "confidence": 0.66,
       "source_name": "Ourlads",
       "source_url": "https://www.ourlads.com/nfldepthcharts/player/53234/",
-      "published_at": "2026-08-20T13:08:00Z",
-      "retrieved_at": "2026-08-20T21:06:55Z",
-      "expires_at": "2026-09-03T13:08:00Z",
+      "published_at": "2026-08-23T13:35:00Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
+      "expires_at": "2026-09-06T13:35:00Z",
       "evidence_type": "depth_chart_marker",
       "status": "candidate"
     },
@@ -1362,7 +1887,7 @@
       "source_name": "RotoWire",
       "source_url": "https://www.rotowire.com/football/headlines/malik-nabers-injury-sitting-out-joint-practices-this-week-634225",
       "published_at": "2026-08-20T00:00:00Z",
-      "retrieved_at": "2026-08-20T21:06:55Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
       "expires_at": "2026-09-10T00:00:00Z",
       "evidence_type": "attributed_practice_or_injury_report",
       "status": "approved"
@@ -1403,9 +1928,9 @@
       "confidence": 0.62,
       "source_name": "Ourlads",
       "source_url": "https://www.ourlads.com/nfldepthcharts/player/46898/",
-      "published_at": "2026-08-20T13:15:00Z",
-      "retrieved_at": "2026-08-20T21:06:55Z",
-      "expires_at": "2026-09-03T13:15:00Z",
+      "published_at": "2026-08-23T11:16:00Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
+      "expires_at": "2026-09-06T11:16:00Z",
       "evidence_type": "depth_chart_marker",
       "status": "candidate"
     },
@@ -1432,24 +1957,24 @@
     },
     {
       "entity_type": "player",
-      "entity": "Michael Penix Jr.",
+      "entity": "Marvin Mims Jr.",
       "affected_positions": [
-        "QB"
+        "WR"
       ],
       "signal_class": "health",
-      "summary": "Listed at QB depth 1 and marked injured/inactive.",
-      "mechanism": "This is a factual depth-chart marker. It does not by itself establish severity, workload, efficiency, or fantasy direction.",
-      "direction": 0,
-      "raw_adjustment": 0.0,
-      "capped_adjustment": 0.0,
-      "confidence": 0.66,
-      "source_name": "Ourlads",
-      "source_url": "https://www.ourlads.com/nfldepthcharts/player/53236/",
-      "published_at": "2026-08-20T13:13:00Z",
-      "retrieved_at": "2026-08-20T21:06:55Z",
-      "expires_at": "2026-09-03T13:13:00Z",
-      "evidence_type": "depth_chart_marker",
-      "status": "candidate"
+      "summary": "Limited to side work Monday",
+      "mechanism": "Practice participation or absence is an availability signal; it does not establish a regular-season workload or recovery timetable.",
+      "direction": 1,
+      "raw_adjustment": 0.75,
+      "capped_adjustment": 0.75,
+      "confidence": 0.72,
+      "source_name": "RotoWire",
+      "source_url": "https://www.rotowire.com/football/headlines/marvin-mims-injury-limited-to-side-work-monday-633962",
+      "published_at": "2026-08-17T00:00:00Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
+      "expires_at": "2026-09-07T00:00:00Z",
+      "evidence_type": "attributed_practice_or_injury_report",
+      "status": "approved"
     },
     {
       "entity_type": "player",
@@ -1467,7 +1992,7 @@
       "source_name": "Ourlads",
       "source_url": "https://www.ourlads.com/nfldepthcharts/player/40274/",
       "published_at": "2026-08-13T18:11:00Z",
-      "retrieved_at": "2026-08-20T21:06:55Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
       "expires_at": "2026-08-27T18:11:00Z",
       "evidence_type": "depth_chart_marker",
       "status": "candidate"
@@ -1487,9 +2012,9 @@
       "confidence": 0.62,
       "source_name": "Ourlads",
       "source_url": "https://www.ourlads.com/nfldepthcharts/player/20930/",
-      "published_at": "2026-08-20T13:16:00Z",
-      "retrieved_at": "2026-08-20T21:06:55Z",
-      "expires_at": "2026-09-03T13:16:00Z",
+      "published_at": "2026-08-23T11:18:00Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
+      "expires_at": "2026-09-06T11:18:00Z",
       "evidence_type": "depth_chart_marker",
       "status": "candidate"
     },
@@ -1508,9 +2033,30 @@
       "confidence": 0.62,
       "source_name": "Ourlads",
       "source_url": "https://www.ourlads.com/nfldepthcharts/player/55074/",
-      "published_at": "2026-08-17T23:10:00Z",
-      "retrieved_at": "2026-08-20T21:06:55Z",
-      "expires_at": "2026-08-31T23:10:00Z",
+      "published_at": "2026-08-23T11:11:00Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
+      "expires_at": "2026-09-06T11:11:00Z",
+      "evidence_type": "depth_chart_marker",
+      "status": "candidate"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Nate Boerkircher",
+      "affected_positions": [
+        "TE"
+      ],
+      "signal_class": "development",
+      "summary": "Listed at TE depth 2 and marked 2026 draft pick.",
+      "mechanism": "This is a factual depth-chart marker. It does not by itself establish severity, workload, efficiency, or fantasy direction.",
+      "direction": 0,
+      "raw_adjustment": 0.0,
+      "capped_adjustment": 0.0,
+      "confidence": 0.62,
+      "source_name": "Ourlads",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/55008/",
+      "published_at": "2026-08-23T16:34:00Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
+      "expires_at": "2026-09-06T16:34:00Z",
       "evidence_type": "depth_chart_marker",
       "status": "candidate"
     },
@@ -1537,12 +2083,96 @@
     },
     {
       "entity_type": "player",
+      "entity": "Nick Westbrook-Ikhine",
+      "affected_positions": [
+        "WR"
+      ],
+      "signal_class": "role",
+      "summary": "Listed at RWR depth 2 and marked 2026 acquisition.",
+      "mechanism": "This is a factual depth-chart marker. It does not by itself establish severity, workload, efficiency, or fantasy direction.",
+      "direction": 0,
+      "raw_adjustment": 0.0,
+      "capped_adjustment": 0.0,
+      "confidence": 0.62,
+      "source_name": "Ourlads",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/41834/",
+      "published_at": "2026-08-23T11:14:00Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
+      "expires_at": "2026-09-06T11:14:00Z",
+      "evidence_type": "depth_chart_marker",
+      "status": "candidate"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Nico Collins",
+      "affected_positions": [
+        "WR"
+      ],
+      "signal_class": "health",
+      "summary": "Held out of second preseason game",
+      "mechanism": "Practice participation or absence is an availability signal; it does not establish a regular-season workload or recovery timetable.",
+      "direction": -1,
+      "raw_adjustment": -0.75,
+      "capped_adjustment": -0.75,
+      "confidence": 0.72,
+      "source_name": "RotoWire",
+      "source_url": "https://www.rotowire.com/football/headlines/nico-collins-news-held-out-of-second-preseason-game-634317",
+      "published_at": "2026-08-21T00:00:00Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
+      "expires_at": "2026-09-11T00:00:00Z",
+      "evidence_type": "attributed_practice_or_injury_report",
+      "status": "approved"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Noah Fant",
+      "affected_positions": [
+        "TE"
+      ],
+      "signal_class": "role",
+      "summary": "Listed at TE depth 2 and marked 2026 acquisition.",
+      "mechanism": "This is a factual depth-chart marker. It does not by itself establish severity, workload, efficiency, or fantasy direction.",
+      "direction": 0,
+      "raw_adjustment": 0.0,
+      "capped_adjustment": 0.0,
+      "confidence": 0.62,
+      "source_name": "Ourlads",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/46457/",
+      "published_at": "2026-08-19T13:13:00Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
+      "expires_at": "2026-09-02T13:13:00Z",
+      "evidence_type": "depth_chart_marker",
+      "status": "candidate"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Olamide Zaccheaus",
+      "affected_positions": [
+        "WR"
+      ],
+      "signal_class": "role",
+      "summary": "Listed at SWR depth 1 and marked 2026 acquisition.",
+      "mechanism": "This is a factual depth-chart marker. It does not by itself establish severity, workload, efficiency, or fantasy direction.",
+      "direction": 0,
+      "raw_adjustment": 0.0,
+      "capped_adjustment": 0.0,
+      "confidence": 0.62,
+      "source_name": "Ourlads",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/50076/",
+      "published_at": "2026-08-21T13:36:00Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
+      "expires_at": "2026-09-04T13:36:00Z",
+      "evidence_type": "depth_chart_marker",
+      "status": "candidate"
+    },
+    {
+      "entity_type": "player",
       "entity": "Omar Cooper Jr.",
       "affected_positions": [
         "WR"
       ],
       "signal_class": "development",
-      "summary": "Listed at SWR depth 2 and marked 2026 draft pick.",
+      "summary": "Listed at SWR depth 1 and marked 2026 draft pick.",
       "mechanism": "This is a factual depth-chart marker. It does not by itself establish severity, workload, efficiency, or fantasy direction.",
       "direction": 0,
       "raw_adjustment": 0.0,
@@ -1550,9 +2180,9 @@
       "confidence": 0.62,
       "source_name": "Ourlads",
       "source_url": "https://www.ourlads.com/nfldepthcharts/player/54982/",
-      "published_at": "2026-08-20T13:16:00Z",
-      "retrieved_at": "2026-08-20T21:06:55Z",
-      "expires_at": "2026-09-03T13:16:00Z",
+      "published_at": "2026-08-23T17:01:00Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
+      "expires_at": "2026-09-06T17:01:00Z",
       "evidence_type": "depth_chart_marker",
       "status": "candidate"
     },
@@ -1600,24 +2230,45 @@
     },
     {
       "entity_type": "player",
+      "entity": "Parker Washington",
+      "affected_positions": [
+        "WR"
+      ],
+      "signal_class": "health",
+      "summary": "Should resume practicing next week",
+      "mechanism": "Practice participation or absence is an availability signal; it does not establish a regular-season workload or recovery timetable.",
+      "direction": 1,
+      "raw_adjustment": 0.75,
+      "capped_adjustment": 0.75,
+      "confidence": 0.72,
+      "source_name": "RotoWire",
+      "source_url": "https://www.rotowire.com/football/headlines/parker-washington-injury-should-resume-practicing-next-week-634313",
+      "published_at": "2026-08-21T00:00:00Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
+      "expires_at": "2026-09-11T00:00:00Z",
+      "evidence_type": "attributed_practice_or_injury_report",
+      "status": "approved"
+    },
+    {
+      "entity_type": "player",
       "entity": "Puka Nacua",
       "affected_positions": [
         "WR"
       ],
       "signal_class": "health",
-      "summary": "Could remain sidelined all week",
+      "summary": "Still sidelined at practice",
       "mechanism": "Practice participation or absence is an availability signal; it does not establish a regular-season workload or recovery timetable.",
       "direction": -1,
       "raw_adjustment": -0.75,
       "capped_adjustment": -0.75,
       "confidence": 0.72,
       "source_name": "RotoWire",
-      "source_url": "https://www.rotowire.com/football/headlines/puka-nacua-injury-could-remain-sidelined-all-week-633948",
-      "published_at": "2026-08-17T00:00:00Z",
-      "retrieved_at": "2026-08-20T21:06:55Z",
-      "expires_at": "2026-09-07T00:00:00Z",
+      "source_url": "https://www.rotowire.com/football/headlines/puka-nacua-injury-still-sidelined-at-practice-634246",
+      "published_at": "2026-08-20T00:00:00Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
+      "expires_at": "2026-09-10T00:00:00Z",
       "evidence_type": "attributed_practice_or_injury_report",
-      "status": "candidate"
+      "status": "approved"
     },
     {
       "entity_type": "player",
@@ -1635,7 +2286,7 @@
       "source_name": "RotoWire",
       "source_url": "https://www.rotowire.com/football/headlines/quinshon-judkins-injury-not-spotted-at-thursdays-practice-634236",
       "published_at": "2026-08-20T00:00:00Z",
-      "retrieved_at": "2026-08-20T21:06:55Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
       "expires_at": "2026-09-10T00:00:00Z",
       "evidence_type": "attributed_practice_or_injury_report",
       "status": "candidate"
@@ -1655,9 +2306,9 @@
       "confidence": 0.62,
       "source_name": "Ourlads",
       "source_url": "https://www.ourlads.com/nfldepthcharts/player/46919/",
-      "published_at": "2026-08-18T10:00:00Z",
-      "retrieved_at": "2026-08-20T21:06:55Z",
-      "expires_at": "2026-09-01T10:00:00Z",
+      "published_at": "2026-08-23T16:45:00Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
+      "expires_at": "2026-09-06T16:45:00Z",
       "evidence_type": "depth_chart_marker",
       "status": "candidate"
     },
@@ -1677,7 +2328,7 @@
       "source_name": "RotoWire",
       "source_url": "https://www.rotowire.com/football/headlines/rhamondre-stevenson-news-set-to-share-backfield-with-henderson-633949",
       "published_at": "2026-08-17T00:00:00Z",
-      "retrieved_at": "2026-08-20T21:06:55Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
       "expires_at": "2026-09-07T00:00:00Z",
       "evidence_type": "attributed_report",
       "status": "research_only"
@@ -1698,7 +2349,7 @@
       "source_name": "Ourlads",
       "source_url": "https://www.ourlads.com/nfldepthcharts/player/40914/",
       "published_at": "2026-08-13T18:11:00Z",
-      "retrieved_at": "2026-08-20T21:06:55Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
       "expires_at": "2026-08-27T18:11:00Z",
       "evidence_type": "depth_chart_marker",
       "status": "candidate"
@@ -1719,8 +2370,50 @@
       "source_name": "Ourlads",
       "source_url": "https://www.ourlads.com/nfldepthcharts/player/46959/",
       "published_at": "2026-08-18T16:45:00Z",
-      "retrieved_at": "2026-08-20T21:06:55Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
       "expires_at": "2026-09-01T16:45:00Z",
+      "evidence_type": "depth_chart_marker",
+      "status": "candidate"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Seth McGowan",
+      "affected_positions": [
+        "RB"
+      ],
+      "signal_class": "development",
+      "summary": "Listed at RB depth 2 and marked 2026 draft pick.",
+      "mechanism": "This is a factual depth-chart marker. It does not by itself establish severity, workload, efficiency, or fantasy direction.",
+      "direction": 0,
+      "raw_adjustment": 0.0,
+      "capped_adjustment": 0.0,
+      "confidence": 0.62,
+      "source_name": "Ourlads",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/55189/",
+      "published_at": "2026-08-23T11:14:00Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
+      "expires_at": "2026-09-06T11:14:00Z",
+      "evidence_type": "depth_chart_marker",
+      "status": "candidate"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Skyler Bell",
+      "affected_positions": [
+        "WR"
+      ],
+      "signal_class": "health",
+      "summary": "Listed at RWR depth 2 and marked injured/inactive.",
+      "mechanism": "This is a factual depth-chart marker. It does not by itself establish severity, workload, efficiency, or fantasy direction.",
+      "direction": 0,
+      "raw_adjustment": 0.0,
+      "capped_adjustment": 0.0,
+      "confidence": 0.66,
+      "source_name": "Ourlads",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/55077/",
+      "published_at": "2026-08-19T14:58:00Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
+      "expires_at": "2026-09-02T14:58:00Z",
       "evidence_type": "depth_chart_marker",
       "status": "candidate"
     },
@@ -1739,9 +2432,9 @@
       "confidence": 0.62,
       "source_name": "Ourlads",
       "source_url": "https://www.ourlads.com/nfldepthcharts/player/40044/",
-      "published_at": "2026-08-18T10:00:00Z",
-      "retrieved_at": "2026-08-20T21:06:55Z",
-      "expires_at": "2026-09-01T10:00:00Z",
+      "published_at": "2026-08-23T16:45:00Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
+      "expires_at": "2026-09-06T16:45:00Z",
       "evidence_type": "depth_chart_marker",
       "status": "candidate"
     },
@@ -1761,7 +2454,7 @@
       "source_name": "RotoWire",
       "source_url": "https://www.rotowire.com/football/headlines/tank-bigsby-injury-sitting-monday-with-toe-issue-633935",
       "published_at": "2026-08-17T00:00:00Z",
-      "retrieved_at": "2026-08-20T21:06:55Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
       "expires_at": "2026-09-07T00:00:00Z",
       "evidence_type": "attributed_practice_or_injury_report",
       "status": "approved"
@@ -1781,9 +2474,9 @@
       "confidence": 0.66,
       "source_name": "Ourlads",
       "source_url": "https://www.ourlads.com/nfldepthcharts/player/50148/",
-      "published_at": "2026-08-17T12:05:00Z",
-      "retrieved_at": "2026-08-20T21:06:55Z",
-      "expires_at": "2026-08-31T12:05:00Z",
+      "published_at": "2026-08-23T11:19:00Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
+      "expires_at": "2026-09-06T11:19:00Z",
       "evidence_type": "depth_chart_marker",
       "status": "candidate"
     },
@@ -1803,7 +2496,7 @@
       "source_name": "RotoWire",
       "source_url": "https://www.rotowire.com/football/headlines/tank-dell-injury-working-back-at-his-own-pace-633941",
       "published_at": "2026-08-17T00:00:00Z",
-      "retrieved_at": "2026-08-20T21:06:55Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
       "expires_at": "2026-09-07T00:00:00Z",
       "evidence_type": "attributed_practice_or_injury_report",
       "status": "candidate"
@@ -1824,7 +2517,7 @@
       "source_name": "Ourlads",
       "source_url": "https://www.ourlads.com/nfldepthcharts/player/55036/",
       "published_at": "2026-08-20T13:38:00Z",
-      "retrieved_at": "2026-08-20T21:06:55Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
       "expires_at": "2026-09-03T13:38:00Z",
       "evidence_type": "depth_chart_marker",
       "status": "candidate"
@@ -1866,7 +2559,7 @@
       "source_name": "RotoWire",
       "source_url": "https://www.rotowire.com/football/headlines/tony-pollard-news-not-spotted-at-mondays-practice-633946",
       "published_at": "2026-08-17T00:00:00Z",
-      "retrieved_at": "2026-08-20T21:06:55Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
       "expires_at": "2026-09-07T00:00:00Z",
       "evidence_type": "attributed_practice_or_injury_report",
       "status": "candidate"
@@ -1929,7 +2622,7 @@
       "source_name": "Ourlads",
       "source_url": "https://www.ourlads.com/nfldepthcharts/player/43342/",
       "published_at": "2026-08-19T13:13:00Z",
-      "retrieved_at": "2026-08-20T21:06:55Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
       "expires_at": "2026-09-02T13:13:00Z",
       "evidence_type": "depth_chart_marker",
       "status": "candidate"
@@ -1950,10 +2643,73 @@
       "source_name": "RotoWire",
       "source_url": "https://www.rotowire.com/football/headlines/treveyon-henderson-news-likely-looking-at-50-50-split-633951",
       "published_at": "2026-08-17T00:00:00Z",
-      "retrieved_at": "2026-08-20T21:06:55Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
       "expires_at": "2026-09-07T00:00:00Z",
       "evidence_type": "attributed_report",
       "status": "research_only"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Tua Tagovailoa",
+      "affected_positions": [
+        "QB"
+      ],
+      "signal_class": "health",
+      "summary": "Penix cleared for team drills, setting stage for QB competition",
+      "mechanism": "Practice participation or absence is an availability signal; it does not establish a regular-season workload or recovery timetable.",
+      "direction": 1,
+      "raw_adjustment": 0.75,
+      "capped_adjustment": 0.75,
+      "confidence": 0.72,
+      "source_name": "RotoWire",
+      "source_url": "https://www.rotowire.com/football/headlines/tua-tagovailoa-news-penix-cleared-for-team-drills-setting-stage-for-qb-competition-634574",
+      "published_at": "2026-08-23T00:00:00Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
+      "expires_at": "2026-09-13T00:00:00Z",
+      "evidence_type": "attributed_practice_or_injury_report",
+      "status": "approved"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Tua Tagovailoa",
+      "affected_positions": [
+        "QB"
+      ],
+      "signal_class": "role",
+      "summary": "Listed at QB depth 2 and marked 2026 acquisition.",
+      "mechanism": "This is a factual depth-chart marker. It does not by itself establish severity, workload, efficiency, or fantasy direction.",
+      "direction": 0,
+      "raw_adjustment": 0.0,
+      "capped_adjustment": 0.0,
+      "confidence": 0.62,
+      "source_name": "Ourlads",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/40245/",
+      "published_at": "2026-08-21T13:36:00Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
+      "expires_at": "2026-09-04T13:36:00Z",
+      "evidence_type": "depth_chart_marker",
+      "status": "candidate"
+    },
+    {
+      "entity_type": "player",
+      "entity": "Tutu Atwell",
+      "affected_positions": [
+        "WR"
+      ],
+      "signal_class": "role",
+      "summary": "Listed at RWR depth 2 and marked 2026 acquisition.",
+      "mechanism": "This is a factual depth-chart marker. It does not by itself establish severity, workload, efficiency, or fantasy direction.",
+      "direction": 0,
+      "raw_adjustment": 0.0,
+      "capped_adjustment": 0.0,
+      "confidence": 0.62,
+      "source_name": "Ourlads",
+      "source_url": "https://www.ourlads.com/nfldepthcharts/player/43375/",
+      "published_at": "2026-08-23T11:16:00Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
+      "expires_at": "2026-09-06T11:16:00Z",
+      "evidence_type": "depth_chart_marker",
+      "status": "candidate"
     },
     {
       "entity_type": "player",
@@ -1971,7 +2727,7 @@
       "source_name": "Ourlads",
       "source_url": "https://www.ourlads.com/nfldepthcharts/player/46979/",
       "published_at": "2026-08-19T14:16:00Z",
-      "retrieved_at": "2026-08-20T21:06:55Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
       "expires_at": "2026-09-02T14:16:00Z",
       "evidence_type": "depth_chart_marker",
       "status": "candidate"
@@ -1992,7 +2748,7 @@
       "source_name": "RotoWire",
       "source_url": "https://www.rotowire.com/football/headlines/tyler-warren-injury-will-miss-about-a-week-with-groin-injury-634226",
       "published_at": "2026-08-20T00:00:00Z",
-      "retrieved_at": "2026-08-20T21:06:55Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
       "expires_at": "2026-09-10T00:00:00Z",
       "evidence_type": "attributed_practice_or_injury_report",
       "status": "approved"
@@ -2012,9 +2768,9 @@
       "confidence": 0.62,
       "source_name": "Ourlads",
       "source_url": "https://www.ourlads.com/nfldepthcharts/player/46870/",
-      "published_at": "2026-08-19T14:26:00Z",
-      "retrieved_at": "2026-08-20T21:06:55Z",
-      "expires_at": "2026-09-02T14:26:00Z",
+      "published_at": "2026-08-21T17:08:00Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
+      "expires_at": "2026-09-04T17:08:00Z",
       "evidence_type": "depth_chart_marker",
       "status": "candidate"
     },
@@ -2055,7 +2811,7 @@
       "source_name": "RotoWire",
       "source_url": "https://www.rotowire.com/football/headlines/xavier-worthy-injury-partakes-in-7-on-7-drills-633937",
       "published_at": "2026-08-17T00:00:00Z",
-      "retrieved_at": "2026-08-20T21:06:55Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
       "expires_at": "2026-09-07T00:00:00Z",
       "evidence_type": "attributed_practice_or_injury_report",
       "status": "approved"
@@ -2075,9 +2831,9 @@
       "confidence": 0.66,
       "source_name": "Ourlads",
       "source_url": "https://www.ourlads.com/nfldepthcharts/player/50131/",
-      "published_at": "2026-08-19T14:10:00Z",
-      "retrieved_at": "2026-08-20T21:06:55Z",
-      "expires_at": "2026-09-02T14:10:00Z",
+      "published_at": "2026-08-23T11:09:00Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
+      "expires_at": "2026-09-06T11:09:00Z",
       "evidence_type": "depth_chart_marker",
       "status": "candidate"
     },
@@ -2096,9 +2852,9 @@
       "confidence": 0.62,
       "source_name": "Ourlads",
       "source_url": "https://www.ourlads.com/nfldepthcharts/player/55031/",
-      "published_at": "2026-08-20T13:13:00Z",
-      "retrieved_at": "2026-08-20T21:06:55Z",
-      "expires_at": "2026-09-03T13:13:00Z",
+      "published_at": "2026-08-21T13:36:00Z",
+      "retrieved_at": "2026-08-23T21:09:43Z",
+      "expires_at": "2026-09-04T13:36:00Z",
       "evidence_type": "depth_chart_marker",
       "status": "candidate"
     }
@@ -3550,65 +4306,86 @@
     {
       "source_name": "ESPN NFL News",
       "entity": null,
-      "summary": "'I hate joint practices,' Eagles star Barkley says",
+      "summary": "'We have dogs in Ottawa': Akheem Mesidor paving way for next generation of Canadian NFL players",
       "reason": "General headline is research-only; no explicit player/position mechanism was reviewed.",
-      "source_url": "https://www.espn.com/nfl/story/_/id/49673017/i-hate-joint-practices-says-eagles-star-saquon-barkley"
+      "source_url": "https://www.espn.com/nfl/story/_/id/49662894/los-angeles-chargers-akheem-mesidor-ottawa-canada-nfl-players"
     },
     {
       "source_name": "ESPN NFL News",
       "entity": null,
-      "summary": "'The team being hunted': Why things feel -- and look -- different for the Patriots in 2026",
+      "summary": "49ers' Kittle off PUP list, CMC returns to practice",
       "reason": "General headline is research-only; no explicit player/position mechanism was reviewed.",
-      "source_url": "https://www.espn.com/nfl/story/_/id/49648149/new-england-patriots-how-respond-super-bowl-loss-2026-season"
+      "source_url": "https://www.espn.com/nfl/story/_/id/49702970/49ers-activate-star-te-george-kittle-pup-list"
     },
     {
       "source_name": "ESPN NFL News",
       "entity": null,
-      "summary": "Brown, Hurts reunite briefly amid post-trade rift",
+      "summary": "Bills star DT Oliver mourning tragic death of son",
       "reason": "General headline is research-only; no explicit player/position mechanism was reviewed.",
-      "source_url": "https://www.espn.com/nfl/story/_/id/49672812/aj-brown-jalen-hurts-reunite-briefly-amid-post-trade-rift"
+      "source_url": "https://www.espn.com/nfl/story/_/id/49693030/bills-star-dt-ed-oliver-mourning-tragic-death-son"
     },
     {
       "source_name": "ESPN NFL News",
       "entity": null,
-      "summary": "Buzz, news and more from Cowboys training camp: Coaches seek consistency from RT Terence Steele",
+      "summary": "Browns lose DE Wright for season, sign Barnett",
       "reason": "General headline is research-only; no explicit player/position mechanism was reviewed.",
-      "source_url": "https://www.espn.com/nfl/story/_/id/49376535/dallas-cowboys-training-camp-2026-intel-updates"
+      "source_url": "https://www.espn.com/nfl/story/_/id/49702666/sources-browns-lose-de-wright-achilles-season-add-barnett"
     },
     {
       "source_name": "ESPN NFL News",
       "entity": null,
-      "summary": "Cowboys, Saints fined $500K for practice brawls",
+      "summary": "Browns' Watson: Boos 'personal,' not based on play",
       "reason": "General headline is research-only; no explicit player/position mechanism was reviewed.",
-      "source_url": "https://www.espn.com/nfl/story/_/id/49673882/cowboys-saints-fined-500k-brawls-joint-practices"
+      "source_url": "https://www.espn.com/nfl/story/_/id/49695585/browns-watson-calls-fans-boos-personal-not-based-play"
     },
     {
       "source_name": "ESPN NFL News",
       "entity": null,
-      "summary": "Donald to continue workouts as decision looms",
+      "summary": "Buzz: All you need to know from Saturday's preseason games",
       "reason": "General headline is research-only; no explicit player/position mechanism was reviewed.",
-      "source_url": "https://www.espn.com/nfl/story/_/id/49673878/aaron-donald-continue-workouts-rams-decision-looms"
+      "source_url": "https://www.espn.com/fantasy/football/story/_/id/40699880/fantasy-football-injuries-position-battles-nfl-news-analysis"
     },
     {
       "source_name": "ESPN NFL News",
       "entity": null,
-      "summary": "Hallmark, hot dogs and touchdowns: The Colston Loveland story",
+      "summary": "Chargers put center Biadasz on season-ending IR",
       "reason": "General headline is research-only; no explicit player/position mechanism was reviewed.",
-      "source_url": "https://www.espn.com/nfl/story/_/id/49651823/hallmark-hot-dogs-chicago-bears-touchdowns-colston-loveland-story"
+      "source_url": "https://www.espn.com/nfl/story/_/id/49702892/chargers-place-tyler-biadasz-season-ending-injured-reserve"
     },
     {
       "source_name": "ESPN NFL News",
       "entity": null,
-      "summary": "Jets' Johnson buys stake in Aston Martin F1 team",
+      "summary": "Eagles' Jackson has movement after kickoff injury",
       "reason": "General headline is research-only; no explicit player/position mechanism was reviewed.",
-      "source_url": "https://www.espn.com/nfl/story/_/id/49673504/jets-owner-woody-johnson-buys-stake-aston-martin-f1-team"
+      "source_url": "https://www.espn.com/nfl/story/_/id/49697364/eagles-jaquinden-jackson-taken-hospital-tackle-movement"
     },
     {
       "source_name": "ESPN NFL News",
       "entity": null,
-      "summary": "Lions unsure if injured LaPorta will play Week 1",
+      "summary": "Early quarterback tiers for the 2027 NFL draft: How 31 eligible passers grade out right now",
       "reason": "General headline is research-only; no explicit player/position mechanism was reviewed.",
-      "source_url": "https://www.espn.com/nfl/story/_/id/49672143/sam-laporta-status-uncertain-lions-season-opener"
+      "source_url": "https://www.espn.com/nfl/draft2027/story/_/id/49650260/2027-nfl-draft-quarterback-tiers-rounds-one-seven-moore-manning"
+    },
+    {
+      "source_name": "ESPN NFL News",
+      "entity": null,
+      "summary": "Lamb's home burglarized while WR was at camp",
+      "reason": "General headline is research-only; no explicit player/position mechanism was reviewed.",
+      "source_url": "https://www.espn.com/nfl/story/_/id/49704684/ceedee-lamb-home-burglarized-cowboys-wr-was-camp"
+    },
+    {
+      "source_name": "ESPN NFL News",
+      "entity": null,
+      "summary": "McCarthy starts, gets 'banged up' in Vikings' loss",
+      "reason": "General headline is research-only; no explicit player/position mechanism was reviewed.",
+      "source_url": "https://www.espn.com/nfl/story/_/id/49695231/mccarthy-plays-18-snaps-gets-banged-vikings-loss"
+    },
+    {
+      "source_name": "ESPN NFL News",
+      "entity": null,
+      "summary": "Mike Clay's Ultimate Draft Board: Perfect picks for every round",
+      "reason": "General headline is research-only; no explicit player/position mechanism was reviewed.",
+      "source_url": "https://www.espn.com/fantasy/football/story/_/id/49658374/2026-fantasy-football-rankings-draft-strategy-best-picks-every-round-clay-espn"
     },
     {
       "source_name": "ESPN NFL News",
@@ -3620,72 +4397,51 @@
     {
       "source_name": "ESPN NFL News",
       "entity": null,
-      "summary": "Players pulled from fight-filled Giants-Fins practice",
-      "reason": "General headline is research-only; no explicit player/position mechanism was reviewed.",
-      "source_url": "https://www.espn.com/nfl/story/_/id/49672671/players-pulled-fight-filled-giants-dolphins-practice"
-    },
-    {
-      "source_name": "ESPN NFL News",
-      "entity": null,
-      "summary": "Projecting next year's QB market: Most likely scenarios and long-shot possibilities for 16 NFL teams",
+      "summary": "QB uncertainty for half the NFL next offseason? 16 situations to watch",
       "reason": "General headline is research-only; no explicit player/position mechanism was reviewed.",
       "source_url": "https://www.espn.com/nfl/story/_/id/49659412/2027-nfl-quarterback-predictions-16-teams-starter-questions-free-agency-trades-draft"
     },
     {
       "source_name": "ESPN NFL News",
       "entity": null,
-      "summary": "Rankings: Eric Karabell's RB tiers",
+      "summary": "Sorry, Nick Herbig -- we changed our win rates formula: What to know -- and why it hurt his stats",
       "reason": "General headline is research-only; no explicit player/position mechanism was reviewed.",
-      "source_url": "https://www.espn.com/fantasy/football/story/_/id/49614875/2026-fantasy-football-rankings-running-back-tiers-rb"
+      "source_url": "https://www.espn.com/nfl/story/_/id/49672562/nfl-new-pass-block-push-rush-win-rates-formula-takeaways-analytics"
     },
     {
       "source_name": "ESPN NFL News",
       "entity": null,
-      "summary": "Rankings: Karabell's WR tiers",
+      "summary": "Takeaways from NFL preseason Week 2: QB questions linger for Browns, Cowboys, Vikings",
       "reason": "General headline is research-only; no explicit player/position mechanism was reviewed.",
-      "source_url": "https://www.espn.com/fantasy/football/story/_/id/49649506/fantasy-football-rankings-wide-receivers-tiers-draft"
+      "source_url": "https://www.espn.com/nfl/story/_/id/49664649/2026-nfl-preseason-week-2-takeaways-analysis-roster-questions"
     },
     {
       "source_name": "ESPN NFL News",
       "entity": null,
-      "summary": "Solak: Why Ben Johnson's Bears offense is much more than just Caleb Williams",
+      "summary": "Tua Tagovailoa or Michael Penix Jr.? As opener nears, Falcons still don't have a QB1",
       "reason": "General headline is research-only; no explicit player/position mechanism was reviewed.",
-      "source_url": "https://www.espn.com/nfl/story/_/id/49652191/chicago-bears-coach-ben-johnson-offense-caleb-williams"
+      "source_url": "https://www.espn.com/nfl/story/_/id/49673266/tua-tagovailoa-michael-penix-jr-nfl-season-opener-nears-atlanta-falcons-dont-qb1"
     },
     {
       "source_name": "ESPN NFL News",
       "entity": null,
-      "summary": "The 'bullies' are back in town: What Deebo Samuel, Dre Greenlaw are bringing in second stints with 49ers",
+      "summary": "What's in store for Devon Witherspoon after his big extension? Why he might blitz more",
       "reason": "General headline is research-only; no explicit player/position mechanism was reviewed.",
-      "source_url": "https://www.espn.com/nfl/story/_/id/49651267/san-francisco-49ers-deebo-samuel-dre-greenlaw-return"
+      "source_url": "https://www.espn.com/nfl/story/_/id/49651232/seattle-seahawks-cornerback-devon-witherspoon-blitzing-2026-season"
     },
     {
       "source_name": "ESPN NFL News",
       "entity": null,
-      "summary": "Vea dismisses trade ask: Want to be 'Buc for life'",
+      "summary": "Who did Patriots tackle Will Campbell learn from this summer? Lane Johnson and other top O-linemen",
       "reason": "General headline is research-only; no explicit player/position mechanism was reviewed.",
-      "source_url": "https://www.espn.com/nfl/story/_/id/49672527/vita-vea-dismisses-trade-drama-want-buc-life"
+      "source_url": "https://www.espn.com/nfl/story/_/id/49694778/new-england-patriots-campbell-left-tackle-depth-chart"
     },
     {
       "source_name": "ESPN NFL News",
       "entity": null,
-      "summary": "Why QB Fernando Mendoza's notebook is his biggest asset: 'He is a lifelong learner when it comes to football'",
+      "summary": "\ud83d\udcc8 Ranking every NFL team by positional groups",
       "reason": "General headline is research-only; no explicit player/position mechanism was reviewed.",
-      "source_url": "https://www.espn.com/nfl/story/_/id/49660906/las-vegas-raiders-quarterback-fernando-mendoza-quarterback-2026-preparation-development"
-    },
-    {
-      "source_name": "ESPN NFL News",
-      "entity": null,
-      "summary": "With $1 billion in contract extensions and a rebuilt O-line, Detroit will see you at SoFi",
-      "reason": "General headline is research-only; no explicit player/position mechanism was reviewed.",
-      "source_url": "https://www.espn.com/nfl/story/_/id/49651690/detroit-lions-super-bowl-window-opportunity-2026"
-    },
-    {
-      "source_name": "ESPN NFL News",
-      "entity": null,
-      "summary": "\ud83d\udcc8 Future Power Rankings: Projecting every team",
-      "reason": "General headline is research-only; no explicit player/position mechanism was reviewed.",
-      "source_url": "https://www.espn.com/nfl/story/_/id/49582613/2026-nfl-future-power-rankings-projections-32-teams-roster-coaching-quarterback"
+      "source_url": "https://www.espn.com/nfl/story/_/id/49638556/2026-nfl-season-positional-group-best-worst-quarterbacks-cornerbacks-receivers"
     },
     {
       "source_name": "FantasyGuru - Fantasy Billboard: 105 Draft Board Observations",
@@ -3703,20 +4459,6 @@
     },
     {
       "source_name": "Ourlads",
-      "entity": "Antonio Williams",
-      "summary": "WAS LWR depth 2: 2026 draft pick",
-      "reason": "Depth-chart player is not on the current draft board.",
-      "source_url": "https://www.ourlads.com/nfldepthcharts/player/55023/"
-    },
-    {
-      "source_name": "Ourlads",
-      "entity": "Barion Brown",
-      "summary": "NO LWR depth 2: 2026 draft pick",
-      "reason": "Depth-chart player is not on the current draft board.",
-      "source_url": "https://www.ourlads.com/nfldepthcharts/player/55142/"
-    },
-    {
-      "source_name": "Ourlads",
       "entity": "Braxton Berrios",
       "summary": "NYG SWR depth 2: 2026 acquisition",
       "reason": "Depth-chart player is not on the current draft board.",
@@ -3724,31 +4466,10 @@
     },
     {
       "source_name": "Ourlads",
-      "entity": "Brenen Thompson",
-      "summary": "LAC RWR depth 2: 2026 draft pick",
-      "reason": "Depth-chart player is not on the current draft board.",
-      "source_url": "https://www.ourlads.com/nfldepthcharts/player/55057/"
-    },
-    {
-      "source_name": "Ourlads",
       "entity": "Cade Klubnik",
       "summary": "NYJ QB depth 2: 2026 draft pick",
       "reason": "Depth-chart player is not on the current draft board.",
       "source_url": "https://www.ourlads.com/nfldepthcharts/player/55062/"
-    },
-    {
-      "source_name": "Ourlads",
-      "entity": "Caleb Douglas",
-      "summary": "MIA RWR depth 1: 2026 draft pick",
-      "reason": "Depth-chart player is not on the current draft board.",
-      "source_url": "https://www.ourlads.com/nfldepthcharts/player/55027/"
-    },
-    {
-      "source_name": "Ourlads",
-      "entity": "Calvin Austin Iii",
-      "summary": "NYG SWR depth 1: 2026 acquisition",
-      "reason": "Depth-chart player is not on the current draft board.",
-      "source_url": "https://www.ourlads.com/nfldepthcharts/player/46960/"
     },
     {
       "source_name": "Ourlads",
@@ -3763,20 +4484,6 @@
       "summary": "DET LWR depth 2: 2026 acquisition",
       "reason": "Depth-chart player is not on the current draft board.",
       "source_url": "https://www.ourlads.com/nfldepthcharts/player/46501/"
-    },
-    {
-      "source_name": "Ourlads",
-      "entity": "Charlie Kolar",
-      "summary": "LAC TE depth 2: 2026 acquisition",
-      "reason": "Depth-chart player is not on the current draft board.",
-      "source_url": "https://www.ourlads.com/nfldepthcharts/player/46955/"
-    },
-    {
-      "source_name": "Ourlads",
-      "entity": "Chris Bell",
-      "summary": "MIA LWR depth 2: 2026 draft pick",
-      "reason": "Depth-chart player is not on the current draft board.",
-      "source_url": "https://www.ourlads.com/nfldepthcharts/player/55046/"
     },
     {
       "source_name": "Ourlads",
@@ -3801,31 +4508,10 @@
     },
     {
       "source_name": "Ourlads",
-      "entity": "Cyrus Allen",
-      "summary": "KC SWR depth 2: 2026 draft pick",
-      "reason": "Depth-chart player is not on the current draft board.",
-      "source_url": "https://www.ourlads.com/nfldepthcharts/player/55128/"
-    },
-    {
-      "source_name": "Ourlads",
-      "entity": "Daniel Bellinger",
-      "summary": "TEN TE depth 2: 2026 acquisition",
-      "reason": "Depth-chart player is not on the current draft board.",
-      "source_url": "https://www.ourlads.com/nfldepthcharts/player/46939/"
-    },
-    {
-      "source_name": "Ourlads",
       "entity": "Dareke Young",
       "summary": "LV SWR depth 2: 2026 acquisition",
       "reason": "Depth-chart player is not on the current draft board.",
       "source_url": "https://www.ourlads.com/nfldepthcharts/player/47062/"
-    },
-    {
-      "source_name": "Ourlads",
-      "entity": "Darren Waller",
-      "summary": "CAR TE depth 2: 2026 acquisition",
-      "reason": "Depth-chart player is not on the current draft board.",
-      "source_url": "https://www.ourlads.com/nfldepthcharts/player/49848/"
     },
     {
       "source_name": "Ourlads",
@@ -3843,31 +4529,10 @@
     },
     {
       "source_name": "Ourlads",
-      "entity": "Eli Raridon",
-      "summary": "NE TE depth 2: 2026 draft pick",
-      "reason": "Depth-chart player is not on the current draft board.",
-      "source_url": "https://www.ourlads.com/nfldepthcharts/player/55047/"
-    },
-    {
-      "source_name": "Ourlads",
       "entity": "Elijah Moore",
       "summary": "PHI SWR depth 2: 2026 acquisition",
       "reason": "Depth-chart player is not on the current draft board.",
       "source_url": "https://www.ourlads.com/nfldepthcharts/player/49982/"
-    },
-    {
-      "source_name": "Ourlads",
-      "entity": "Elijah Sarratt",
-      "summary": "BAL LWR depth 2: 2026 draft pick",
-      "reason": "Depth-chart player is not on the current draft board.",
-      "source_url": "https://www.ourlads.com/nfldepthcharts/player/55067/"
-    },
-    {
-      "source_name": "Ourlads",
-      "entity": "Emari Demercado",
-      "summary": "KC RB depth 2: 2026 acquisition",
-      "reason": "Depth-chart player is not on the current draft board.",
-      "source_url": "https://www.ourlads.com/nfldepthcharts/player/50377/"
     },
     {
       "source_name": "Ourlads",
@@ -3892,20 +4557,6 @@
     },
     {
       "source_name": "Ourlads",
-      "entity": "Germie Bernard",
-      "summary": "PIT RWR depth 2: 2026 draft pick",
-      "reason": "Depth-chart player is not on the current draft board.",
-      "source_url": "https://www.ourlads.com/nfldepthcharts/player/54999/"
-    },
-    {
-      "source_name": "Ourlads",
-      "entity": "Greg Dortch",
-      "summary": "DET SWR depth 2: 2026 acquisition",
-      "reason": "Depth-chart player is not on the current draft board.",
-      "source_url": "https://www.ourlads.com/nfldepthcharts/player/44603/"
-    },
-    {
-      "source_name": "Ourlads",
       "entity": "Hollywood Brown",
       "summary": "PHI RWR depth 2: 2026 acquisition",
       "reason": "Depth-chart player is not on the current draft board.",
@@ -3913,38 +4564,10 @@
     },
     {
       "source_name": "Ourlads",
-      "entity": "Ja'Kobi Lane",
-      "summary": "BAL RWR depth 2: 2026 draft pick",
-      "reason": "Depth-chart player is not on the current draft board.",
-      "source_url": "https://www.ourlads.com/nfldepthcharts/player/55032/"
-    },
-    {
-      "source_name": "Ourlads",
-      "entity": "Jahan Dotson",
-      "summary": "ATL RWR depth 1: 2026 acquisition",
-      "reason": "Depth-chart player is not on the current draft board.",
-      "source_url": "https://www.ourlads.com/nfldepthcharts/player/46857/"
-    },
-    {
-      "source_name": "Ourlads",
       "entity": "Jake Browning",
       "summary": "TB QB depth 2: 2026 acquisition",
       "reason": "Depth-chart player is not on the current draft board.",
       "source_url": "https://www.ourlads.com/nfldepthcharts/player/48187/"
-    },
-    {
-      "source_name": "Ourlads",
-      "entity": "Jalen Tolbert",
-      "summary": "MIA LWR depth 1: 2026 acquisition",
-      "reason": "Depth-chart player is not on the current draft board.",
-      "source_url": "https://www.ourlads.com/nfldepthcharts/player/46916/"
-    },
-    {
-      "source_name": "Ourlads",
-      "entity": "John Bates",
-      "summary": "WAS TE depth 2: injured/inactive",
-      "reason": "Depth-chart player is not on the current draft board.",
-      "source_url": "https://www.ourlads.com/nfldepthcharts/player/43442/"
     },
     {
       "source_name": "Ourlads",
@@ -3973,27 +4596,6 @@
       "summary": "PIT SWR depth 2: 2026 draft pick",
       "reason": "Depth-chart player is not on the current draft board.",
       "source_url": "https://www.ourlads.com/nfldepthcharts/player/55073/"
-    },
-    {
-      "source_name": "Ourlads",
-      "entity": "Kalif Raymond",
-      "summary": "CHI SWR depth 1: 2026 acquisition",
-      "reason": "Depth-chart player is not on the current draft board.",
-      "source_url": "https://www.ourlads.com/nfldepthcharts/player/43198/"
-    },
-    {
-      "source_name": "Ourlads",
-      "entity": "Keenan Allen",
-      "summary": "IND RWR depth 1: 2026 acquisition",
-      "reason": "Depth-chart player is not on the current draft board.",
-      "source_url": "https://www.ourlads.com/nfldepthcharts/player/17936/"
-    },
-    {
-      "source_name": "Ourlads",
-      "entity": "Kendrick Bourne",
-      "summary": "ARI SWR depth 1: 2026 acquisition",
-      "reason": "Depth-chart player is not on the current draft board.",
-      "source_url": "https://www.ourlads.com/nfldepthcharts/player/42986/"
     },
     {
       "source_name": "Ourlads",
@@ -4039,34 +4641,6 @@
     },
     {
       "source_name": "Ourlads",
-      "entity": "Nate Boerkircher",
-      "summary": "JAX TE depth 2: 2026 draft pick",
-      "reason": "Depth-chart player is not on the current draft board.",
-      "source_url": "https://www.ourlads.com/nfldepthcharts/player/55008/"
-    },
-    {
-      "source_name": "Ourlads",
-      "entity": "Nick Westbrook-Ikhine",
-      "summary": "IND RWR depth 2: 2026 acquisition",
-      "reason": "Depth-chart player is not on the current draft board.",
-      "source_url": "https://www.ourlads.com/nfldepthcharts/player/41834/"
-    },
-    {
-      "source_name": "Ourlads",
-      "entity": "Noah Fant",
-      "summary": "NO TE depth 2: 2026 acquisition",
-      "reason": "Depth-chart player is not on the current draft board.",
-      "source_url": "https://www.ourlads.com/nfldepthcharts/player/46457/"
-    },
-    {
-      "source_name": "Ourlads",
-      "entity": "Olamide Zaccheaus",
-      "summary": "ATL SWR depth 1: 2026 acquisition",
-      "reason": "Depth-chart player is not on the current draft board.",
-      "source_url": "https://www.ourlads.com/nfldepthcharts/player/50076/"
-    },
-    {
-      "source_name": "Ourlads",
       "entity": "Reggie Virgil",
       "summary": "ARI RWR depth 2: 2026 draft pick",
       "reason": "Depth-chart player is not on the current draft board.",
@@ -4081,20 +4655,6 @@
     },
     {
       "source_name": "Ourlads",
-      "entity": "Seth Mcgowan",
-      "summary": "IND RB depth 2: 2026 draft pick",
-      "reason": "Depth-chart player is not on the current draft board.",
-      "source_url": "https://www.ourlads.com/nfldepthcharts/player/55189/"
-    },
-    {
-      "source_name": "Ourlads",
-      "entity": "Skyler Bell",
-      "summary": "BUF RWR depth 2: injured/inactive",
-      "reason": "Depth-chart player is not on the current draft board.",
-      "source_url": "https://www.ourlads.com/nfldepthcharts/player/55077/"
-    },
-    {
-      "source_name": "Ourlads",
       "entity": "Skyy Moore",
       "summary": "GB RWR depth 2: 2026 acquisition",
       "reason": "Depth-chart player is not on the current draft board.",
@@ -4106,13 +4666,6 @@
       "summary": "NYJ LWR depth 2: 2026 acquisition",
       "reason": "Depth-chart player is not on the current draft board.",
       "source_url": "https://www.ourlads.com/nfldepthcharts/player/32932/"
-    },
-    {
-      "source_name": "Ourlads",
-      "entity": "Tutu Atwell",
-      "summary": "MIA RWR depth 2: 2026 acquisition",
-      "reason": "Depth-chart player is not on the current draft board.",
-      "source_url": "https://www.ourlads.com/nfldepthcharts/player/43375/"
     },
     {
       "source_name": "Ourlads",
@@ -4144,10 +4697,31 @@
     },
     {
       "source_name": "RotoWire",
+      "entity": "Andy Borregales",
+      "summary": "Bounces back in preseason win",
+      "reason": "General news has no explicit, supported availability or role effect.",
+      "source_url": "https://www.rotowire.com/football/headlines/andy-borregales-news-bounces-back-in-preseason-win-634552"
+    },
+    {
+      "source_name": "RotoWire",
       "entity": "Anthony Richardson",
       "summary": "Remains in Colts' plans",
       "reason": "Player is not on the current draft board.",
       "source_url": "https://www.rotowire.com/football/headlines/anthony-richardson-news-remains-in-colts-plans-633926"
+    },
+    {
+      "source_name": "RotoWire",
+      "entity": "Ashton Jeanty",
+      "summary": "Sits out Thursday's preseason game",
+      "reason": "Preseason rest is not a regular-season availability downgrade.",
+      "source_url": "https://www.rotowire.com/football/headlines/ashton-jeanty-news-sits-out-thursdays-preseason-game-634315"
+    },
+    {
+      "source_name": "RotoWire",
+      "entity": "Behren Morton",
+      "summary": "Solid in extended action Saturday",
+      "reason": "Player is not on the current draft board.",
+      "source_url": "https://www.rotowire.com/football/headlines/behren-morton-news-solid-in-extended-action-saturday-634555"
     },
     {
       "source_name": "RotoWire",
@@ -4165,6 +4739,13 @@
     },
     {
       "source_name": "RotoWire",
+      "entity": "Brock Purdy",
+      "summary": "Looks sharp in preseason win",
+      "reason": "General news has no explicit, supported availability or role effect.",
+      "source_url": "https://www.rotowire.com/football/headlines/brock-purdy-news-looks-sharp-in-preseason-win-634305"
+    },
+    {
+      "source_name": "RotoWire",
       "entity": "Bucky Irving",
       "summary": "To play in preseason Week 2",
       "reason": "General news has no explicit, supported availability or role effect.",
@@ -4179,6 +4760,20 @@
     },
     {
       "source_name": "RotoWire",
+      "entity": "Cairo Santos",
+      "summary": "One misfire in preseason loss",
+      "reason": "General news has no explicit, supported availability or role effect.",
+      "source_url": "https://www.rotowire.com/football/headlines/cairo-santos-news-one-misfire-in-preseason-loss-634567"
+    },
+    {
+      "source_name": "RotoWire",
+      "entity": "Carnell Tate",
+      "summary": "Practicing Friday",
+      "reason": "Injury/status wording does not establish a clear availability direction.",
+      "source_url": "https://www.rotowire.com/football/headlines/carnell-tate-injury-practicing-friday-634314"
+    },
+    {
+      "source_name": "RotoWire",
       "entity": "Carnell Tate",
       "summary": "Will be evaluated after hard hit",
       "reason": "Injury/status wording does not establish a clear availability direction.",
@@ -4186,10 +4781,45 @@
     },
     {
       "source_name": "RotoWire",
-      "entity": "Cedric Tillman",
-      "summary": "Remains sidelined at practice",
-      "reason": "Player is not on the current draft board.",
-      "source_url": "https://www.rotowire.com/football/headlines/cedric-tillman-injury-remains-sidelined-at-practice-633974"
+      "entity": "Carson Beck",
+      "summary": "'Most likely' won't play Saturday, per LaFleur",
+      "reason": "Injury/status wording does not establish a clear availability direction.",
+      "source_url": "https://www.rotowire.com/football/headlines/carson-beck-injury-most-likely-wont-play-saturday-per-lafleur-634244"
+    },
+    {
+      "source_name": "RotoWire",
+      "entity": "Chad Ryland",
+      "summary": "Makes three of four kicks in preseason loss",
+      "reason": "General news has no explicit, supported availability or role effect.",
+      "source_url": "https://www.rotowire.com/football/headlines/chad-ryland-news-makes-three-of-four-kicks-in-preseason-loss-634572"
+    },
+    {
+      "source_name": "RotoWire",
+      "entity": "Charlie Kolar",
+      "summary": "Splits first-team snaps with Njoku",
+      "reason": "General news has no explicit, supported availability or role effect.",
+      "source_url": "https://www.rotowire.com/football/headlines/charlie-kolar-news-splits-first-team-snaps-with-njoku-634321"
+    },
+    {
+      "source_name": "RotoWire",
+      "entity": "Christian McCaffrey",
+      "summary": "Back at practice Sunday",
+      "reason": "Injury/status wording does not establish a clear availability direction.",
+      "source_url": "https://www.rotowire.com/football/headlines/christian-mccaffrey-injury-back-at-practice-sunday-634578"
+    },
+    {
+      "source_name": "RotoWire",
+      "entity": "Christian McCaffrey",
+      "summary": "Downplays absence during preseason",
+      "reason": "Injury/status wording does not establish a clear availability direction.",
+      "source_url": "https://www.rotowire.com/football/headlines/christian-mccaffrey-injury-downplays-absence-during-preseason-634599"
+    },
+    {
+      "source_name": "RotoWire",
+      "entity": "Christian McCaffrey",
+      "summary": "Stays out of team drills",
+      "reason": "Duplicate same-player, same-status event from the same day.",
+      "source_url": "https://www.rotowire.com/football/headlines/christian-mccaffrey-injury-stays-out-of-team-drills-634586"
     },
     {
       "source_name": "RotoWire",
@@ -4200,10 +4830,52 @@
     },
     {
       "source_name": "RotoWire",
+      "entity": "Colbie Young",
+      "summary": "Finds end zone in preseason win",
+      "reason": "Player is not on the current draft board.",
+      "source_url": "https://www.rotowire.com/football/headlines/colbie-young-news-finds-end-zone-in-preseason-win-634564"
+    },
+    {
+      "source_name": "RotoWire",
       "entity": "Darren Waller",
       "summary": "Being eased into the mix",
-      "reason": "Player is not on the current draft board.",
+      "reason": "General news has no explicit, supported availability or role effect.",
       "source_url": "https://www.rotowire.com/football/headlines/darren-waller-news-being-eased-into-the-mix-633956"
+    },
+    {
+      "source_name": "RotoWire",
+      "entity": "David Montgomery",
+      "summary": "Sits out preseason action",
+      "reason": "Preseason rest is not a regular-season availability downgrade.",
+      "source_url": "https://www.rotowire.com/football/headlines/david-montgomery-news-sits-out-preseason-action-634316"
+    },
+    {
+      "source_name": "RotoWire",
+      "entity": "David Njoku",
+      "summary": "Makes preseason start in two-TE set",
+      "reason": "General news has no explicit, supported availability or role effect.",
+      "source_url": "https://www.rotowire.com/football/headlines/david-njoku-news-makes-preseason-start-in-two-te-set-634319"
+    },
+    {
+      "source_name": "RotoWire",
+      "entity": "De'Zhaun Stribling",
+      "summary": "Continues impressing in preseason win",
+      "reason": "General news has no explicit, supported availability or role effect.",
+      "source_url": "https://www.rotowire.com/football/headlines/dezhaun-stribling-news-continues-impressing-in-preseason-win-634310"
+    },
+    {
+      "source_name": "RotoWire",
+      "entity": "Deebo Samuel Sr.",
+      "summary": "One catch in preseason debut",
+      "reason": "General news has no explicit, supported availability or role effect.",
+      "source_url": "https://www.rotowire.com/football/headlines/deebo-samuel-news-one-catch-in-preseason-debut-634308"
+    },
+    {
+      "source_name": "RotoWire",
+      "entity": "Deshaun Watson",
+      "summary": "Starting QB decision expected Monday",
+      "reason": "General news has no explicit, supported availability or role effect.",
+      "source_url": "https://www.rotowire.com/football/headlines/deshaun-watson-news-starting-qb-decision-expected-monday-634595"
     },
     {
       "source_name": "RotoWire",
@@ -4211,6 +4883,20 @@
       "summary": "Appears prepared to practice",
       "reason": "Injury/status wording does not establish a clear availability direction.",
       "source_url": "https://www.rotowire.com/football/headlines/devonta-smith-injury-appears-prepared-to-practice-633930"
+    },
+    {
+      "source_name": "RotoWire",
+      "entity": "Devontez Walker",
+      "summary": "Hauls in two passes vs. Minnesota",
+      "reason": "Player is not on the current draft board.",
+      "source_url": "https://www.rotowire.com/football/headlines/devontez-walker-news-hauls-in-two-passes-vs-minnesota-634553"
+    },
+    {
+      "source_name": "RotoWire",
+      "entity": "Dillon Gabriel",
+      "summary": "Will start preseason finale",
+      "reason": "Player is not on the current draft board.",
+      "source_url": "https://www.rotowire.com/football/headlines/dillon-gabriel-news-will-start-preseason-finale-634598"
     },
     {
       "source_name": "RotoWire",
@@ -4235,10 +4921,31 @@
     },
     {
       "source_name": "RotoWire",
+      "entity": "Evan McPherson",
+      "summary": "Phenomenal in preseason win",
+      "reason": "General news has no explicit, supported availability or role effect.",
+      "source_url": "https://www.rotowire.com/football/headlines/evan-mcpherson-news-phenomenal-in-preseason-win-634568"
+    },
+    {
+      "source_name": "RotoWire",
       "entity": "Fernando Mendoza",
       "summary": "In line to see first-half action Thursday",
       "reason": "General news has no explicit, supported availability or role effect.",
       "source_url": "https://www.rotowire.com/football/headlines/fernando-mendoza-news-in-line-to-see-first-half-action-thursday-634240"
+    },
+    {
+      "source_name": "RotoWire",
+      "entity": "Fernando Mendoza",
+      "summary": "Kubiak declines to name Week 1 starter",
+      "reason": "General news has no explicit, supported availability or role effect.",
+      "source_url": "https://www.rotowire.com/football/headlines/fernando-mendoza-news-kubiak-declines-to-name-week-1-starter-634312"
+    },
+    {
+      "source_name": "RotoWire",
+      "entity": "Garrett Nussmeier",
+      "summary": "Serviceable in second preseason game",
+      "reason": "Player is not on the current draft board.",
+      "source_url": "https://www.rotowire.com/football/headlines/garrett-nussmeier-news-serviceable-in-second-preseason-game-634561"
     },
     {
       "source_name": "RotoWire",
@@ -4253,6 +4960,41 @@
       "summary": "Practices fully Monday",
       "reason": "Injury/status wording does not establish a clear availability direction.",
       "source_url": "https://www.rotowire.com/football/headlines/geno-smith-injury-practices-fully-monday-633966"
+    },
+    {
+      "source_name": "RotoWire",
+      "entity": "George Kittle",
+      "summary": "Activated from PUP list",
+      "reason": "Injury/status wording does not establish a clear availability direction.",
+      "source_url": "https://www.rotowire.com/football/headlines/george-kittle-injury-activated-from-pup-list-634577"
+    },
+    {
+      "source_name": "RotoWire",
+      "entity": "Jacoby Brissett",
+      "summary": "Won't play in Saturday's preseason contest",
+      "reason": "General news has no explicit, supported availability or role effect.",
+      "source_url": "https://www.rotowire.com/football/headlines/jacoby-brissett-news-wont-play-in-saturdays-preseason-contest-634243"
+    },
+    {
+      "source_name": "RotoWire",
+      "entity": "Jadarian Price",
+      "summary": "Won't play Sunday",
+      "reason": "General news has no explicit, supported availability or role effect.",
+      "source_url": "https://www.rotowire.com/football/headlines/jadarian-price-news-wont-play-sunday-634575"
+    },
+    {
+      "source_name": "RotoWire",
+      "entity": "Jake Bobo",
+      "summary": "Knee injury believed to be serious",
+      "reason": "Player is not on the current draft board.",
+      "source_url": "https://www.rotowire.com/football/headlines/jake-bobo-injury-knee-injury-believed-to-be-serious-634322"
+    },
+    {
+      "source_name": "RotoWire",
+      "entity": "Jake Elliott",
+      "summary": "Perfect on trio of PATs",
+      "reason": "General news has no explicit, supported availability or role effect.",
+      "source_url": "https://www.rotowire.com/football/headlines/jake-elliott-news-perfect-on-trio-of-pats-634551"
     },
     {
       "source_name": "RotoWire",
@@ -4284,6 +5026,13 @@
     },
     {
       "source_name": "RotoWire",
+      "entity": "Jayden Higgins",
+      "summary": "Sent to injured reserve",
+      "reason": "Injury/status wording does not establish a clear availability direction.",
+      "source_url": "https://www.rotowire.com/football/headlines/jayden-higgins-injury-sent-to-injured-reserve-634324"
+    },
+    {
+      "source_name": "RotoWire",
       "entity": "Jaydon Blue",
       "summary": "Upgrades to limited participation Thursday",
       "reason": "Injury/status wording does not establish a clear availability direction.",
@@ -4302,6 +5051,13 @@
       "summary": "Will sit out Saturday's preseason contest",
       "reason": "Preseason rest is not a regular-season availability downgrade.",
       "source_url": "https://www.rotowire.com/football/headlines/joe-burrow-news-will-sit-out-saturdays-preseason-contest-634223"
+    },
+    {
+      "source_name": "RotoWire",
+      "entity": "Joe Milton",
+      "summary": "Stellar showing in preseason win",
+      "reason": "Player is not on the current draft board.",
+      "source_url": "https://www.rotowire.com/football/headlines/joe-milton-news-stellar-showing-in-preseason-win-634571"
     },
     {
       "source_name": "RotoWire",
@@ -4333,10 +5089,52 @@
     },
     {
       "source_name": "RotoWire",
+      "entity": "Justin Fields",
+      "summary": "Sharp in Saturday's start",
+      "reason": "General news has no explicit, supported availability or role effect.",
+      "source_url": "https://www.rotowire.com/football/headlines/justin-fields-news-sharp-in-saturdays-start-634560"
+    },
+    {
+      "source_name": "RotoWire",
+      "entity": "Justin Herbert",
+      "summary": "One completion in preseason cameo",
+      "reason": "General news has no explicit, supported availability or role effect.",
+      "source_url": "https://www.rotowire.com/football/headlines/justin-herbert-news-one-completion-in-preseason-cameo-634306"
+    },
+    {
+      "source_name": "RotoWire",
+      "entity": "Kaelon Black",
+      "summary": "Logs eight carries in preseason win",
+      "reason": "General news has no explicit, supported availability or role effect.",
+      "source_url": "https://www.rotowire.com/football/headlines/kaelon-black-news-logs-eight-carries-in-preseason-win-634311"
+    },
+    {
+      "source_name": "RotoWire",
+      "entity": "Kaleb Johnson",
+      "summary": "In danger of being cut",
+      "reason": "General news has no explicit, supported availability or role effect.",
+      "source_url": "https://www.rotowire.com/football/headlines/kaleb-johnson-news-in-danger-of-being-cut-634249"
+    },
+    {
+      "source_name": "RotoWire",
+      "entity": "Keaton Mitchell",
+      "summary": "Four touches in preseason loss",
+      "reason": "General news has no explicit, supported availability or role effect.",
+      "source_url": "https://www.rotowire.com/football/headlines/keaton-mitchell-news-four-touches-in-preseason-loss-634309"
+    },
+    {
+      "source_name": "RotoWire",
       "entity": "Keenan Allen",
       "summary": "Heading to Indianapolis",
-      "reason": "Player is not on the current draft board.",
+      "reason": "General news has no explicit, supported availability or role effect.",
       "source_url": "https://www.rotowire.com/football/headlines/keenan-allen-news-heading-to-indianapolis-634024"
+    },
+    {
+      "source_name": "RotoWire",
+      "entity": "Keenan Allen",
+      "summary": "Makes practice debut Thursday",
+      "reason": "General news has no explicit, supported availability or role effect.",
+      "source_url": "https://www.rotowire.com/football/headlines/keenan-allen-news-makes-practice-debut-thursday-634251"
     },
     {
       "source_name": "RotoWire",
@@ -4351,6 +5149,13 @@
       "summary": "Not likely to play in Saturday's preseason contest",
       "reason": "General news has no explicit, supported availability or role effect.",
       "source_url": "https://www.rotowire.com/football/headlines/kyler-murray-news-not-likely-to-play-in-saturdays-preseason-contest-634233"
+    },
+    {
+      "source_name": "RotoWire",
+      "entity": "Ladd McConkey",
+      "summary": "Plays opening series Thursday",
+      "reason": "General news has no explicit, supported availability or role effect.",
+      "source_url": "https://www.rotowire.com/football/headlines/ladd-mcconkey-news-plays-opening-series-thursday-634307"
     },
     {
       "source_name": "RotoWire",
@@ -4375,6 +5180,27 @@
     },
     {
       "source_name": "RotoWire",
+      "entity": "Malik Benson",
+      "summary": "Poor showing in second preseason game",
+      "reason": "Player is not on the current draft board.",
+      "source_url": "https://www.rotowire.com/football/headlines/malik-benson-news-poor-showing-in-second-preseason-game-634300"
+    },
+    {
+      "source_name": "RotoWire",
+      "entity": "Malik Davis",
+      "summary": "Solid in preseason start",
+      "reason": "General news has no explicit, supported availability or role effect.",
+      "source_url": "https://www.rotowire.com/football/headlines/malik-davis-news-solid-in-preseason-start-634569"
+    },
+    {
+      "source_name": "RotoWire",
+      "entity": "Malik Nabers",
+      "summary": "May ditch red jersey this week",
+      "reason": "Injury/status wording does not establish a clear availability direction.",
+      "source_url": "https://www.rotowire.com/football/headlines/malik-nabers-injury-may-ditch-red-jersey-this-week-634597"
+    },
+    {
+      "source_name": "RotoWire",
       "entity": "Malik Nabers",
       "summary": "Works in team drills for first time",
       "reason": "Duplicate same-player, same-status event from the same day.",
@@ -4382,10 +5208,24 @@
     },
     {
       "source_name": "RotoWire",
-      "entity": "Marvin Mims",
-      "summary": "Limited to side work Monday",
-      "reason": "Player is not on the current draft board.",
-      "source_url": "https://www.rotowire.com/football/headlines/marvin-mims-injury-limited-to-side-work-monday-633962"
+      "entity": "Matt Gay",
+      "summary": "Outperforms Matsuzawa in preseason win",
+      "reason": "General news has no explicit, supported availability or role effect.",
+      "source_url": "https://www.rotowire.com/football/headlines/matt-gay-news-outperforms-matsuzawa-in-preseason-win-634302"
+    },
+    {
+      "source_name": "RotoWire",
+      "entity": "Michael Penix Jr.",
+      "summary": "Meeting with doctor for health checkpoint",
+      "reason": "Injury/status wording does not establish a clear availability direction.",
+      "source_url": "https://www.rotowire.com/football/headlines/michael-penix-injury-meeting-with-doctor-for-health-checkpoint-634245"
+    },
+    {
+      "source_name": "RotoWire",
+      "entity": "Mike Washington Jr.",
+      "summary": "Produces another long run",
+      "reason": "General news has no explicit, supported availability or role effect.",
+      "source_url": "https://www.rotowire.com/football/headlines/mike-washington-news-produces-another-long-run-634299"
     },
     {
       "source_name": "RotoWire",
@@ -4398,22 +5238,36 @@
       "source_name": "RotoWire",
       "entity": "Najee Harris",
       "summary": "Could join Big Blue",
-      "reason": "Player is not on the current draft board.",
+      "reason": "Injury/status wording does not establish a clear availability direction.",
       "source_url": "https://www.rotowire.com/football/headlines/najee-harris-injury-could-join-big-blue-633964"
     },
     {
       "source_name": "RotoWire",
       "entity": "Najee Harris",
       "summary": "Looks good at practice",
-      "reason": "Player is not on the current draft board.",
+      "reason": "General news has no explicit, supported availability or role effect.",
       "source_url": "https://www.rotowire.com/football/headlines/najee-harris-news-looks-good-at-practice-634230"
     },
     {
       "source_name": "RotoWire",
       "entity": "Najee Harris",
       "summary": "Visiting with Giants",
-      "reason": "Player is not on the current draft board.",
+      "reason": "Injury/status wording does not establish a clear availability direction.",
       "source_url": "https://www.rotowire.com/football/headlines/najee-harris-injury-visiting-with-giants-633927"
+    },
+    {
+      "source_name": "RotoWire",
+      "entity": "Omarion Hampton",
+      "summary": "Cameo appearance in preseason loss",
+      "reason": "General news has no explicit, supported availability or role effect.",
+      "source_url": "https://www.rotowire.com/football/headlines/omarion-hampton-news-cameo-appearance-in-preseason-loss-634304"
+    },
+    {
+      "source_name": "RotoWire",
+      "entity": "Parker Washington",
+      "summary": "Present for Sunday's walkthrough",
+      "reason": "Injury/status wording does not establish a clear availability direction.",
+      "source_url": "https://www.rotowire.com/football/headlines/parker-washington-injury-present-for-sundays-walkthrough-634573"
     },
     {
       "source_name": "RotoWire",
@@ -4425,9 +5279,23 @@
     {
       "source_name": "RotoWire",
       "entity": "Puka Nacua",
+      "summary": "Could remain sidelined all week",
+      "reason": "Duplicate same-player, same-status event from the same day.",
+      "source_url": "https://www.rotowire.com/football/headlines/puka-nacua-injury-could-remain-sidelined-all-week-633948"
+    },
+    {
+      "source_name": "RotoWire",
+      "entity": "Puka Nacua",
       "summary": "Not participating in Monday's practice",
       "reason": "Duplicate same-player, same-status event from the same day.",
       "source_url": "https://www.rotowire.com/football/headlines/puka-nacua-injury-not-participating-in-mondays-practice-633943"
+    },
+    {
+      "source_name": "RotoWire",
+      "entity": "Quinshon Judkins",
+      "summary": "Injury downplayed by Monken",
+      "reason": "Injury/status wording does not establish a clear availability direction.",
+      "source_url": "https://www.rotowire.com/football/headlines/quinshon-judkins-injury-injury-downplayed-by-monken-634247"
     },
     {
       "source_name": "RotoWire",
@@ -4459,10 +5327,52 @@
     },
     {
       "source_name": "RotoWire",
+      "entity": "Sam Roush",
+      "summary": "Pair of grabs in preseason loss",
+      "reason": "Player is not on the current draft board.",
+      "source_url": "https://www.rotowire.com/football/headlines/sam-roush-news-pair-of-grabs-in-preseason-loss-634565"
+    },
+    {
+      "source_name": "RotoWire",
+      "entity": "Shedeur Sanders",
+      "summary": "Will learn QB1 decision Monday",
+      "reason": "General news has no explicit, supported availability or role effect.",
+      "source_url": "https://www.rotowire.com/football/headlines/shedeur-sanders-news-will-learn-qb1-decision-monday-634596"
+    },
+    {
+      "source_name": "RotoWire",
+      "entity": "Ted Hurst III",
+      "summary": "No catches in preseason start",
+      "reason": "General news has no explicit, supported availability or role effect.",
+      "source_url": "https://www.rotowire.com/football/headlines/ted-hurst-news-no-catches-in-preseason-start-634563"
+    },
+    {
+      "source_name": "RotoWire",
+      "entity": "Terrance Ferguson",
+      "summary": "Seeing expanded route tree in camp",
+      "reason": "General news has no explicit, supported availability or role effect.",
+      "source_url": "https://www.rotowire.com/football/headlines/terrance-ferguson-news-seeing-expanded-route-tree-in-camp-634323"
+    },
+    {
+      "source_name": "RotoWire",
+      "entity": "Tre' Harris",
+      "summary": "Should practice this weekend",
+      "reason": "Injury/status wording does not establish a clear availability direction.",
+      "source_url": "https://www.rotowire.com/football/headlines/tre-harris-injury-should-practice-this-weekend-634318"
+    },
+    {
+      "source_name": "RotoWire",
       "entity": "Trey Benson",
       "summary": "Present for Monday's workout",
-      "reason": "Player is not on the current draft board.",
+      "reason": "Injury/status wording does not establish a clear availability direction.",
       "source_url": "https://www.rotowire.com/football/headlines/trey-benson-injury-present-for-mondays-workout-633953"
+    },
+    {
+      "source_name": "RotoWire",
+      "entity": "Tyler Biadasz",
+      "summary": "Done for 2026",
+      "reason": "Player is not on the current draft board.",
+      "source_url": "https://www.rotowire.com/football/headlines/tyler-biadasz-injury-done-for-2026-634576"
     },
     {
       "source_name": "RotoWire",
@@ -4473,10 +5383,24 @@
     },
     {
       "source_name": "RotoWire",
+      "entity": "Tyreek Hill",
+      "summary": "Not expected to sign before start of season",
+      "reason": "Player is not on the current draft board.",
+      "source_url": "https://www.rotowire.com/football/headlines/tyreek-hill-injury-not-expected-to-sign-before-start-of-season-634320"
+    },
+    {
+      "source_name": "RotoWire",
       "entity": "Vita Vea",
       "summary": "Agrees to one-year extension with Bucs",
       "reason": "Player is not on the current draft board.",
       "source_url": "https://www.rotowire.com/football/headlines/vita-vea-news-agrees-to-one-year-extension-with-bucs-634181"
+    },
+    {
+      "source_name": "RotoWire",
+      "entity": "Xavier Hutchinson",
+      "summary": "Two targets from Stroud on Thursday",
+      "reason": "General news has no explicit, supported availability or role effect.",
+      "source_url": "https://www.rotowire.com/football/headlines/xavier-hutchinson-news-two-targets-from-stroud-on-thursday-634301"
     },
     {
       "source_name": "RotoWire",
@@ -4487,16 +5411,16 @@
     }
   ],
   "summary": {
-    "player_signal_count": 100,
+    "player_signal_count": 136,
     "team_signal_count": 65,
     "status_counts": {
-      "approved": 93,
-      "candidate": 61,
+      "approved": 103,
+      "candidate": 87,
       "research_only": 11
     },
-    "rejected_count": 134,
+    "rejected_count": 158,
     "structured_models_not_duplicated": {
-      "draftsharks_injury": 411,
+      "draftsharks_injury": 412,
       "draftsharks_rookies": 114,
       "draftsharks_early_sos": 32,
       "draftsharks_superflex": 25

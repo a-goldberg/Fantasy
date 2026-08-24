@@ -4,20 +4,20 @@
 import csv
 import json
 import re
-import unicodedata
 from pathlib import Path
+
+from player_names import normalize_player_name
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "Analysis" / "source"
 GENERATED = ROOT / "Analysis" / "generated"
-WEIGHTS = json.loads((ROOT / "Config" / "composite_weights.json").read_text())["quality_weights"]
+CONFIG = json.loads((ROOT / "Config" / "composite_weights.json").read_text())
+WEIGHTS = CONFIG["quality_weights"]
+RANK_HORIZON = int(CONFIG["rank_horizon"])
 
 
 def norm(value):
-    value = unicodedata.normalize("NFKD", value or "").encode("ascii", "ignore").decode()
-    value = value.lower()
-    value = re.sub(r"\b(jr|sr|ii|iii|iv|v)\b", "", value)
-    return re.sub(r"[^a-z0-9]+", "", value)
+    return normalize_player_name(value)
 
 
 def latest(pattern):
@@ -27,10 +27,11 @@ def latest(pattern):
     return matches[-1]
 
 
-def percentile(rank, count):
-    if count <= 1:
-        return 1.0
-    return 1 - ((rank - 1) / (count - 1))
+def fixed_rank_score(rank, horizon=RANK_HORIZON):
+    """Score an absolute rank on a fixed horizon, independent of source length."""
+    if rank < 1:
+        raise ValueError("Rank must be positive")
+    return max(0.0, (horizon + 1 - rank) / horizon)
 
 
 def load_draftsheets():
@@ -48,7 +49,7 @@ def load_draftsheets():
             "draftsheets_value": item["displayed_value"],
             "draftsheets_position_tier": item.get("position_tier"),
             "draftsheets_overall_value_rank": rank,
-            "draftsheets_score": percentile(rank, len(ordered)),
+            "draftsheets_score": fixed_rank_score(rank),
         }
     return result
 
@@ -68,7 +69,7 @@ def load_jeff_mans():
             "bye": row[3],
             "position": match.group(1) if match else "",
             "jeff_mans_rank": rank,
-            "jeff_mans_score": percentile(rank, len(valid)),
+            "jeff_mans_score": fixed_rank_score(rank),
         }
     return result
 
@@ -90,7 +91,25 @@ def load_qb_chart():
             "qb_chart_rank": rank,
             "qb_chart_tier": current_tier,
             "qb_chart_2qb_adp": row[5] if len(row) > 5 else "",
-            "qb_chart_score": percentile(rank, len(valid)),
+            "qb_chart_score": fixed_rank_score(rank),
+        }
+    return result
+
+
+def load_rotoballer():
+    raw = json.loads(latest("rotoballer_superflex_rankings_*.json").read_text())
+    result = {}
+    for row in raw["players"]:
+        rank = int(row["rank"])
+        result[norm(row["player"])] = {
+            "player": row["player"],
+            "team": row.get("team", ""),
+            "bye": row.get("bye", ""),
+            "position": row.get("position", ""),
+            "rotoballer_rank": rank,
+            "rotoballer_tier": row.get("tier", ""),
+            "rotoballer_player_url": row.get("player_url", ""),
+            "rotoballer_score": fixed_rank_score(rank),
         }
     return result
 
@@ -99,21 +118,25 @@ def main():
     draftsheets = load_draftsheets()
     jeff = load_jeff_mans()
     qb_chart = load_qb_chart()
-    keys = sorted(set(draftsheets) | set(jeff) | set(qb_chart))
+    rotoballer = load_rotoballer()
+    keys = sorted(set(draftsheets) | set(jeff) | set(qb_chart) | set(rotoballer))
     board = []
 
     for key in keys:
         ds = draftsheets.get(key, {})
         jm = jeff.get(key, {})
         qb = qb_chart.get(key, {})
-        name = jm.get("player") or ds.get("player") or qb.get("player")
-        positions = {p for p in [ds.get("position"), jm.get("position")] if p}
-        position = jm.get("position") or ds.get("position") or ("QB" if qb else "")
+        rb = rotoballer.get(key, {})
+        name = jm.get("player") or ds.get("player") or rb.get("player") or qb.get("player")
+        positions = {p for p in [ds.get("position"), jm.get("position"), rb.get("position")] if p}
+        position = jm.get("position") or ds.get("position") or rb.get("position") or ("QB" if qb else "")
         components = []
         if "draftsheets_score" in ds:
             components.append((WEIGHTS["draftsheets_scoring_value"], ds["draftsheets_score"]))
         if "jeff_mans_score" in jm:
             components.append((WEIGHTS["jeff_mans_superflex_rank"], jm["jeff_mans_score"]))
+        if "rotoballer_score" in rb:
+            components.append((WEIGHTS["rotoballer_superflex_rank"], rb["rotoballer_score"]))
         if position == "QB" and "qb_chart_score" in qb:
             components.append((WEIGHTS["fantasyguru_qb_chart_rank"], qb["qb_chart_score"]))
         total_weight = sum(weight for weight, _ in components)
@@ -121,15 +144,19 @@ def main():
         board.append({
             "player": name,
             "position": position,
-            "team": jm.get("team", ""),
-            "bye": jm.get("bye", ""),
+            "team": jm.get("team") or rb.get("team", ""),
+            "bye": jm.get("bye") or rb.get("bye", ""),
             "base_quality_score": round(score * 100, 3),
             "source_count": len(components),
+            "expert_weight_coverage": round(total_weight, 3),
             "position_conflict": len(positions) > 1,
             "draftsheets_value": ds.get("draftsheets_value", ""),
             "draftsheets_position_tier": ds.get("draftsheets_position_tier", ""),
             "draftsheets_overall_value_rank": ds.get("draftsheets_overall_value_rank", ""),
             "jeff_mans_rank": jm.get("jeff_mans_rank", ""),
+            "rotoballer_rank": rb.get("rotoballer_rank", ""),
+            "rotoballer_tier": rb.get("rotoballer_tier", ""),
+            "rotoballer_player_url": rb.get("rotoballer_player_url", ""),
             "qb_chart_rank": qb.get("qb_chart_rank", ""),
             "qb_chart_tier": qb.get("qb_chart_tier", ""),
             "qb_chart_2qb_adp": qb.get("qb_chart_2qb_adp", ""),
@@ -141,9 +168,10 @@ def main():
 
     fields = [
         "base_composite_rank", "player", "position", "team", "bye",
-        "base_quality_score", "source_count", "position_conflict",
+        "base_quality_score", "source_count", "expert_weight_coverage", "position_conflict",
         "draftsheets_value", "draftsheets_position_tier", "draftsheets_overall_value_rank",
-        "jeff_mans_rank", "qb_chart_rank", "qb_chart_tier", "qb_chart_2qb_adp"
+        "jeff_mans_rank", "rotoballer_rank", "rotoballer_tier", "rotoballer_player_url",
+        "qb_chart_rank", "qb_chart_tier", "qb_chart_2qb_adp"
     ]
     with (GENERATED / "base_composite_board.csv").open("w", newline="", encoding="utf-8") as handle:
         writer = csv.DictWriter(handle, fieldnames=fields)
@@ -151,6 +179,7 @@ def main():
         writer.writerows(board)
     (GENERATED / "base_composite_board.json").write_text(json.dumps({
         "weights": WEIGHTS,
+        "rank_horizon": RANK_HORIZON,
         "note": "Base player quality only. ADP availability and draft-state policy are applied later.",
         "players": board,
     }, indent=2) + "\n")

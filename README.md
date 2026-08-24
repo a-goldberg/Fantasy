@@ -37,6 +37,8 @@ The page provides three recommendation columns:
 2. **Consensus picks** show the neutral expert-board alternatives.
 3. **Wildcard picks** surface defensible upside and market gaps without bypassing hard roster rules.
 
+Unknown market data is treated as unknown rather than as hidden value.  Missing ADP contributes neither an availability estimate nor a market-gap bonus.  Market-gap bonuses shrink when expert coverage is thin or ADP sources disagree, with a five-point cap for one-source expert rankings.  Before Round 11, a thin-data player needs at least two independent upside signals, including trusted analyst or ranking support, to appear as a Wildcard.  Structured-model-only speculation is reserved for the final four rounds, while Personal Priority remains a deliberate override.  Low-confidence source coverage and buried skill-position depth roles also reduce Optimized and Wildcard scores.
+
 The roster panel groups Goldberg's players by position with NFL team, bye week, keeper status, and same-position bye conflicts.
 
 Live picks can be entered by player search.  When a player is outside the local pool, **Other QB/RB/WR/TE/K/DST** placeholders advance the draft without incorrectly removing a known player.  **Undo** remains visible.  Personal Priorities, Tuning, Refresh & Rebuild, and Reset Draft are kept in the **Admin** menu to reduce accidental clicks.
@@ -70,12 +72,19 @@ Two different systems cover two different questions:
 
 League-history pressure remains a separate, lower-weight signal.  Historical drafts are used for manager tendencies and league-specific scarcity, not as a claim that an opponent will repeat an exact pick.
 
+## Late-round handcuffs
+
+In Rounds 14–17, the app boosts verified Ourlads backups to Goldberg's two highest-ranked rostered RBs and two highest-ranked rostered QBs.  The reminder grows later in the draft and receives an additional bump when the protected starter has a high injury-risk percentile.  It remains subordinate to roster rules: a fourth QB is still late-Wildcard-only after core depth is complete, and a fifth QB is never eligible.
+
+Kicker and defense become viable beginning in Round 14, with urgency rising through the final pick.  Roster-feasibility gates preserve the required slots, leaving the other late selections available for handcuffs or explicitly sourced upside candidates rather than manufactured sleeper scores.
+
 ## Player data hierarchy
 
 The base board uses weighted expert sources rather than an original projection model.  Current source groups include:
 
 - DraftSheets scoring values and positional tiers;
 - Jeff Mans/FantasyGuru Superflex rankings;
+- RotoBaller public Superflex expert rankings;
 - FantasyGuru two-QB chart and QB tiers;
 - public 10-team two-QB ADP from Fantasy Football Calculator and FantasyPros;
 - partial public DraftSharks Superflex rankings;
@@ -85,9 +94,17 @@ The base board uses weighted expert sources rather than an original projection m
 - Ourlads offensive depth charts; and
 - authenticated FantasyGuru coaching, personnel, offensive-line, player-outlook, and related draft research.
 
+Overall expert ranks use a fixed 200-player scoring horizon.  Rank No. 100 therefore contributes the same base value whether a source publishes 150 players or 400.  Ranks beyond 200 contribute no additional base-quality credit, though kicker and defense needs can still surface those positions through the endgame roster policy.  A longer list cannot make its middle ranks look artificially stronger.
+
+Expert rankings and market ADP remain separate.  RotoBaller is an expert-consensus input; its generic industry-average field is not treated as two-QB market ADP.  The public FantasyPros Superflex ECR page currently exposes only a short public table, so it is not imported as a full-board source.  DraftSharks market data will be added only when its league format and component provenance can be captured cleanly without double-counting a consensus and its underlying feeds.
+
 Connected Google Sheets and authenticated browser sources must be imported through Codex.  The local server cannot authenticate to Drive or paid sites itself.
 
 DraftSheets names and displayed values remain the trusted ranking fields.  Positional tiers are also trusted because the current tier cells use player-name-keyed `VLOOKUP` formulas.  Team, bye, points, PS, and ECR fields from the displayed row remain excluded because the workbook's prior manual-sort behavior could detach those cells from the player name.
+
+Ourlads roster identifiers are parsed separately from player names.  Codes such as `CC/NYJ`, `U/SF`, draft rounds, and free-agent markers remain available as source metadata, but cannot enter cross-source name matching or UI labels.  A single unambiguous Ourlads match can also restore a missing team, bye, schedule, and team-QB context.
+
+Player identity uses a small explicit alias registry rather than fuzzy nickname matching.  For example, `Kenny Gainwell` and `Kenneth Gainwell` resolve to one canonical identity while the UI retains the name used by the primary rankings sources.  The same alias key is used by the composite, context classifier, app-data joins, validation, and active-draft rebuild reconciliation.
 
 ## Context and source quality
 
@@ -133,8 +150,10 @@ Manual pipeline sequence:
 
 ```sh
 python3 2026/Pipeline/refresh_public_adp.py
+python3 2026/Pipeline/refresh_public_rankings.py
 python3 2026/Pipeline/refresh_context_sources.py
 python3 2026/Pipeline/parse_draftsheets.py
+python3 2026/Pipeline/test_composite_rank_normalization.py
 python3 2026/Pipeline/build_composite_board.py
 python3 2026/Pipeline/classify_context.py
 python3 2026/Pipeline/build_app_data.py

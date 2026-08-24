@@ -2,8 +2,11 @@
 """Fail-fast checks for the generated draft assistant payload and static app."""
 
 import json
+import re
 from collections import Counter
 from pathlib import Path
+
+from player_names import normalize_player_name
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "App" / "data" / "draft-board.json"
@@ -30,6 +33,8 @@ def main():
     names = [player["player"] for player in players]
     assert len(players) >= 250, "Player pool unexpectedly small"
     assert len(names) == len(set(names)), "Duplicate canonical player names"
+    normalized_names = [normalize_player_name(name) for name in names]
+    assert len(normalized_names) == len(set(normalized_names)), "Duplicate aliased player identities"
     assert len(payload["teams"]) == 32, "Expected 32 NFL team sheets"
     assert all(player["position"] in {"QB", "RB", "WR", "TE", "K", "DST"} for player in players)
     assert not any(player["position_conflict"] for player in players), "Unresolved position conflict"
@@ -38,7 +43,32 @@ def main():
     assert sum(player.get("models", {}).get("early_sos") is not None for player in players) >= 200, "Early-SOS match rate regressed"
     assert sum(bool(player.get("depth_chart")) for player in players) >= 180, "Depth-chart match rate regressed"
     assert sum(player.get("draftsheets_position_tier") not in (None, "") for player in players) >= 230, "DraftSheets positional-tier coverage regressed"
+    assert sum(player.get("rotoballer_rank") not in (None, "") for player in players) >= 390, "RotoBaller Superflex rank coverage regressed"
+    expert_meta = payload["source_freshness"]["expert_rankings"]
+    assert expert_meta["rank_horizon"] == 200, "Expert ranks must use the fixed 200-player horizon"
+    assert "rotoballer_superflex_rank" in expert_meta["weights"], "RotoBaller weight missing from runtime metadata"
     assert sum(bool((player.get("team_qb_context") or {}).get("qb_chart_tier")) for player in players if player["position"] != "QB") >= 150, "Team-QB tier coverage regressed"
+    qb_context_names = [(player.get("team_qb_context") or {}).get("player", "") for player in players]
+    assert not any(re.search(r"\b(?:\d{2}/\d{1,2}|[A-Z]{1,3}/[A-Z]{2,3}|(?:CF|SF)\d{2})\*?\b", name, re.I) for name in qb_context_names), "Ourlads identifiers leaked into displayed QB names"
+    pit_contexts = [player.get("team_qb_context") for player in players if player.get("team") == "PIT" and player["position"] != "QB"]
+    assert pit_contexts and all(context and context.get("player") == "Aaron Rodgers" and context.get("qb_chart_tier") for context in pit_contexts), "Pittsburgh team-QB context did not reconcile Aaron Rodgers"
+    min_contexts = [player.get("team_qb_context") for player in players if player.get("team") == "MIN" and player["position"] != "QB"]
+    assert min_contexts and all(context and context.get("player") == "Kyler Murray" and context.get("qb_chart_tier") for context in min_contexts), "Minnesota team-QB context did not reconcile Kyler Murray"
+    terrance_ferguson = next(player for player in players if player["player"] == "Terrance Ferguson")
+    assert terrance_ferguson.get("team") == "LAR" and terrance_ferguson.get("bye"), "Ourlads depth matching did not enrich Terrance Ferguson's team and bye"
+    assert (terrance_ferguson.get("team_qb_context") or {}).get("player") == "Matthew Stafford", "Terrance Ferguson did not inherit the Rams QB context"
+    gainwells = [player for player in players if normalize_player_name(player["player"]) == "kennethgainwell"]
+    assert len(gainwells) == 1, "Kenny and Kenneth Gainwell must resolve to one player"
+    gainwell = gainwells[0]
+    assert gainwell["source_count"] >= 3, "Gainwell's expert ranks did not merge"
+    assert gainwell.get("adp") is not None, "Gainwell's market ADP did not merge"
+    assert gainwell.get("models", {}).get("injury") is not None, "Gainwell's Kenneth-keyed injury model did not merge"
+    for player_name in ("Denzel Boston", "KC Concepcion", "Terrance Ferguson"):
+        corrected_player = next(player for player in players if player["player"] == player_name)
+        assert corrected_player["source_count"] >= 2, f"{player_name} should have complementary expert coverage"
+        if player_name != "Terrance Ferguson":
+            assert corrected_player["source_quality"]["market_disagreement"] > 30, f"{player_name} must expose conflicting ADP inputs"
+            assert corrected_player["source_quality"]["market"] == "low", f"{player_name} conflicting ADP must not be labeled high confidence"
 
     rules = payload["context_rules"]
     policy = payload["policy"]

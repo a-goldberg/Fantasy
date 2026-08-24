@@ -7,30 +7,27 @@ import json
 import subprocess
 import sys
 import threading
-import re
-import unicodedata
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 
 APP = Path(__file__).resolve().parent
 ROOT = APP.parents[1]
+sys.path.insert(0, str(ROOT / "2026" / "Pipeline"))
+from player_names import normalize_player_name
+
 LOCK = threading.Lock()
 SCRIPTS = [
     ROOT / "2026" / "Pipeline" / "refresh_public_adp.py",
+    ROOT / "2026" / "Pipeline" / "refresh_public_rankings.py",
     ROOT / "2026" / "Pipeline" / "refresh_context_sources.py",
     ROOT / "2026" / "Pipeline" / "parse_draftsheets.py",
+    ROOT / "2026" / "Pipeline" / "test_composite_rank_normalization.py",
+    ROOT / "2026" / "Pipeline" / "test_player_names.py",
     ROOT / "2026" / "Pipeline" / "build_composite_board.py",
     ROOT / "2026" / "Pipeline" / "classify_context.py",
     ROOT / "2026" / "Pipeline" / "build_app_data.py",
     ROOT / "2026" / "Pipeline" / "validate_draft_app.py",
 ]
-
-
-def normalize_player_name(value: str) -> str:
-    value = unicodedata.normalize("NFKD", value).encode("ascii", "ignore").decode().lower()
-    value = re.sub(r"\b(jr|sr|ii|iii|iv|v)\b", "", value)
-    return re.sub(r"[^a-z0-9]+", "", value)
-
 
 class Handler(SimpleHTTPRequestHandler):
     def __init__(self, *args, **kwargs):

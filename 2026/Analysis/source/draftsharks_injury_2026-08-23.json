@@ -355,6 +355,17 @@
       "recorded_injuries": 10
     },
     {
+      "player": "Kenneth Walker III",
+      "position": "RB",
+      "team": "KC",
+      "injury_probability": 0.34,
+      "projected_games_missed": 1.1,
+      "durability": 5.0,
+      "risk_group": 2,
+      "model_updated": "2026-07-07 14:19:43",
+      "recorded_injuries": 10
+    },
+    {
       "player": "Daniel Jones",
       "position": "QB",
       "team": "IND",
@@ -375,17 +386,6 @@
       "risk_group": 5,
       "model_updated": "2026-07-07 14:19:43",
       "recorded_injuries": 9
-    },
-    {
-      "player": "Rashee Rice",
-      "position": "WR",
-      "team": "KC",
-      "injury_probability": 0.74,
-      "projected_games_missed": 2.2,
-      "durability": 3.81,
-      "risk_group": 5,
-      "model_updated": "2026-07-07 14:19:44",
-      "recorded_injuries": 4
     },
     {
       "player": "Malik Willis",
@@ -443,15 +443,15 @@
       "recorded_injuries": 7
     },
     {
-      "player": "Kenneth Walker III",
-      "position": "RB",
+      "player": "Rashee Rice",
+      "position": "WR",
       "team": "KC",
-      "injury_probability": 0.34,
-      "projected_games_missed": 1.1,
-      "durability": 5.0,
-      "risk_group": 2,
-      "model_updated": "2026-07-07 14:19:43",
-      "recorded_injuries": 10
+      "injury_probability": 0.74,
+      "projected_games_missed": 2.2,
+      "durability": 3.81,
+      "risk_group": 5,
+      "model_updated": "2026-07-07 14:19:44",
+      "recorded_injuries": 4
     },
     {
       "player": "Saquon Barkley",
@@ -795,17 +795,6 @@
       "recorded_injuries": 11
     },
     {
-      "player": "Cameron Skattebo",
-      "position": "RB",
-      "team": "NYG",
-      "injury_probability": 0.72,
-      "projected_games_missed": 0.9,
-      "durability": 0.77,
-      "risk_group": 5,
-      "model_updated": "2026-07-07 14:19:44",
-      "recorded_injuries": 2
-    },
-    {
       "player": "Tyler Warren",
       "position": "TE",
       "team": "IND",
@@ -903,6 +892,17 @@
       "risk_group": 2,
       "model_updated": "2026-07-07 14:19:43",
       "recorded_injuries": 4
+    },
+    {
+      "player": "Cameron Skattebo",
+      "position": "RB",
+      "team": "NYG",
+      "injury_probability": 0.72,
+      "projected_games_missed": 0.9,
+      "durability": 0.77,
+      "risk_group": 5,
+      "model_updated": "2026-07-07 14:19:44",
+      "recorded_injuries": 2
     },
     {
       "player": "David Montgomery",
@@ -1070,12 +1070,12 @@
       "recorded_injuries": 8
     },
     {
-      "player": "Tucker Kraft",
-      "position": "TE",
-      "team": "GB",
-      "injury_probability": 0.39,
-      "projected_games_missed": 2.2,
-      "durability": 2.71,
+      "player": "Jordan Addison",
+      "position": "WR",
+      "team": "MIN",
+      "injury_probability": 0.37,
+      "projected_games_missed": 2.1,
+      "durability": 5.0,
       "risk_group": 2,
       "model_updated": "2026-07-07 14:19:44",
       "recorded_injuries": 5
@@ -1089,15 +1089,15 @@
       "durability": 5.0,
       "risk_group": 4,
       "model_updated": "2026-07-07 14:19:44",
-      "recorded_injuries": 6
+      "recorded_injuries": 7
     },
     {
-      "player": "Jordan Addison",
-      "position": "WR",
-      "team": "MIN",
-      "injury_probability": 0.37,
-      "projected_games_missed": 2.1,
-      "durability": 5.0,
+      "player": "Tucker Kraft",
+      "position": "TE",
+      "team": "GB",
+      "injury_probability": 0.39,
+      "projected_games_missed": 2.2,
+      "durability": 2.71,
       "risk_group": 2,
       "model_updated": "2026-07-07 14:19:44",
       "recorded_injuries": 5
@@ -1433,17 +1433,6 @@
       "recorded_injuries": 2
     },
     {
-      "player": "Deebo Samuel",
-      "position": "WR",
-      "team": "SF",
-      "injury_probability": 0.51,
-      "projected_games_missed": 3.6,
-      "durability": 2.54,
-      "risk_group": 3,
-      "model_updated": "2026-07-07 14:19:43",
-      "recorded_injuries": 21
-    },
-    {
       "player": "Dre Greenlaw",
       "position": "LB",
       "team": "SF",
@@ -1453,17 +1442,6 @@
       "risk_group": 2,
       "model_updated": "2026-07-07 14:19:43",
       "recorded_injuries": 9
-    },
-    {
-      "player": "RJ Harvey",
-      "position": "RB",
-      "team": "DEN",
-      "injury_probability": 0.36,
-      "projected_games_missed": 1.3,
-      "durability": 5.0,
-      "risk_group": 2,
-      "model_updated": "2026-07-07 14:19:44",
-      "recorded_injuries": 2
     },
     {
       "player": "Jake Ferguson",
@@ -1477,6 +1455,17 @@
       "recorded_injuries": 7
     },
     {
+      "player": "RJ Harvey",
+      "position": "RB",
+      "team": "DEN",
+      "injury_probability": 0.36,
+      "projected_games_missed": 1.3,
+      "durability": 5.0,
+      "risk_group": 2,
+      "model_updated": "2026-07-07 14:19:44",
+      "recorded_injuries": 2
+    },
+    {
       "player": "Matthew Golden",
       "position": "WR",
       "team": "GB",
@@ -1486,6 +1475,17 @@
       "risk_group": 2,
       "model_updated": "2026-07-07 14:19:44",
       "recorded_injuries": 4
+    },
+    {
+      "player": "Deebo Samuel",
+      "position": "WR",
+      "team": "SF",
+      "injury_probability": 0.51,
+      "projected_games_missed": 3.6,
+      "durability": 2.54,
+      "risk_group": 3,
+      "model_updated": "2026-07-07 14:19:43",
+      "recorded_injuries": 21
     },
     {
       "player": "Dallas Goedert",
@@ -1510,6 +1510,17 @@
       "recorded_injuries": 5
     },
     {
+      "player": "Dalton Kincaid",
+      "position": "TE",
+      "team": "BUF",
+      "injury_probability": 0.62,
+      "projected_games_missed": 2.3,
+      "durability": 5.0,
+      "risk_group": 4,
+      "model_updated": "2026-07-07 14:19:44",
+      "recorded_injuries": 8
+    },
+    {
       "player": "Jordyn Tyson",
       "position": "WR",
       "team": "NO",
@@ -1530,17 +1541,6 @@
       "risk_group": 2,
       "model_updated": "2026-07-07 14:19:44",
       "recorded_injuries": 3
-    },
-    {
-      "player": "Dalton Kincaid",
-      "position": "TE",
-      "team": "BUF",
-      "injury_probability": 0.62,
-      "projected_games_missed": 2.3,
-      "durability": 5.0,
-      "risk_group": 4,
-      "model_updated": "2026-07-07 14:19:44",
-      "recorded_injuries": 8
     },
     {
       "player": "Brenton Strange",
@@ -1950,17 +1950,6 @@
       "recorded_injuries": 5
     },
     {
-      "player": "Pat Freiermuth",
-      "position": "TE",
-      "team": "PIT",
-      "injury_probability": 0.39,
-      "projected_games_missed": 1.6,
-      "durability": 5.0,
-      "risk_group": 2,
-      "model_updated": "2026-07-07 14:19:43",
-      "recorded_injuries": 7
-    },
-    {
       "player": "Aidan Hutchinson",
       "position": "DE",
       "team": "DET",
@@ -2038,17 +2027,6 @@
       "recorded_injuries": 7
     },
     {
-      "player": "AJ Barner",
-      "position": "TE",
-      "team": "SEA",
-      "injury_probability": 0.28,
-      "projected_games_missed": 1.1,
-      "durability": 5.0,
-      "risk_group": 2,
-      "model_updated": "2026-07-07 14:19:44",
-      "recorded_injuries": 0
-    },
-    {
       "player": "Chauncey Gardner-Johnson",
       "position": "S",
       "team": "BUF",
@@ -2058,6 +2036,17 @@
       "risk_group": 2,
       "model_updated": "2026-07-07 14:19:43",
       "recorded_injuries": 4
+    },
+    {
+      "player": "AJ Barner",
+      "position": "TE",
+      "team": "SEA",
+      "injury_probability": 0.28,
+      "projected_games_missed": 1.1,
+      "durability": 5.0,
+      "risk_group": 2,
+      "model_updated": "2026-07-07 14:19:44",
+      "recorded_injuries": 0
     },
     {
       "player": "Michael Penix Jr.",
@@ -2091,6 +2080,17 @@
       "risk_group": 2,
       "model_updated": "2026-07-07 14:19:44",
       "recorded_injuries": 2
+    },
+    {
+      "player": "Pat Freiermuth",
+      "position": "TE",
+      "team": "PIT",
+      "injury_probability": 0.39,
+      "projected_games_missed": 1.6,
+      "durability": 5.0,
+      "risk_group": 2,
+      "model_updated": "2026-07-07 14:19:43",
+      "recorded_injuries": 7
     },
     {
       "player": "Pat Bryant",
@@ -2203,17 +2203,6 @@
       "recorded_injuries": 5
     },
     {
-      "player": "Tyrone Tracy Jr.",
-      "position": "RB",
-      "team": "NYG",
-      "injury_probability": 0.34,
-      "projected_games_missed": 1.5,
-      "durability": 5.0,
-      "risk_group": 2,
-      "model_updated": "2026-07-07 14:19:44",
-      "recorded_injuries": 3
-    },
-    {
       "player": "Jamel Dean",
       "position": "CB",
       "team": "PIT",
@@ -2236,6 +2225,17 @@
       "recorded_injuries": 2
     },
     {
+      "player": "Tre Harris",
+      "position": "WR",
+      "team": "LAC",
+      "injury_probability": 0.42,
+      "projected_games_missed": 1.8,
+      "durability": 5.0,
+      "risk_group": 3,
+      "model_updated": "2026-07-07 14:19:44",
+      "recorded_injuries": 2
+    },
+    {
       "player": "Isiah Pacheco",
       "position": "RB",
       "team": "DET",
@@ -2247,15 +2247,15 @@
       "recorded_injuries": 8
     },
     {
-      "player": "Tre Harris",
-      "position": "WR",
+      "player": "Keaton Mitchell",
+      "position": "RB",
       "team": "LAC",
-      "injury_probability": 0.42,
-      "projected_games_missed": 1.8,
+      "injury_probability": 0.33,
+      "projected_games_missed": 2.1,
       "durability": 5.0,
-      "risk_group": 3,
+      "risk_group": 2,
       "model_updated": "2026-07-07 14:19:44",
-      "recorded_injuries": 2
+      "recorded_injuries": 4
     },
     {
       "player": "Dontayvion Wicks",
@@ -2333,6 +2333,17 @@
       "risk_group": 4,
       "model_updated": "2026-07-07 14:19:43",
       "recorded_injuries": 2
+    },
+    {
+      "player": "Evan Engram",
+      "position": "TE",
+      "team": "DEN",
+      "injury_probability": 0.39,
+      "projected_games_missed": 1.6,
+      "durability": 5.0,
+      "risk_group": 2,
+      "model_updated": "2026-07-07 14:19:43",
+      "recorded_injuries": 12
     },
     {
       "player": "Zachariah Branch",
@@ -2423,17 +2434,6 @@
       "recorded_injuries": 5
     },
     {
-      "player": "Keaton Mitchell",
-      "position": "RB",
-      "team": "LAC",
-      "injury_probability": 0.33,
-      "projected_games_missed": 2.1,
-      "durability": 5.0,
-      "risk_group": 2,
-      "model_updated": "2026-07-07 14:19:44",
-      "recorded_injuries": 4
-    },
-    {
       "player": "Chris Rodriguez",
       "position": "RB",
       "team": "JAC",
@@ -2443,17 +2443,6 @@
       "risk_group": 2,
       "model_updated": "2026-07-07 14:19:44",
       "recorded_injuries": 2
-    },
-    {
-      "player": "Evan Engram",
-      "position": "TE",
-      "team": "DEN",
-      "injury_probability": 0.39,
-      "projected_games_missed": 1.6,
-      "durability": 5.0,
-      "risk_group": 2,
-      "model_updated": "2026-07-07 14:19:43",
-      "recorded_injuries": 12
     },
     {
       "player": "Darren Waller",
@@ -2467,17 +2456,6 @@
       "recorded_injuries": 14
     },
     {
-      "player": "Deshaun Watson",
-      "position": "QB",
-      "team": "CLE",
-      "injury_probability": 0.29,
-      "projected_games_missed": 1.1,
-      "durability": 1.3,
-      "risk_group": 2,
-      "model_updated": "2026-07-07 14:19:43",
-      "recorded_injuries": 10
-    },
-    {
       "player": "Brandon Aiyuk",
       "position": "WR",
       "team": "UNS",
@@ -2487,6 +2465,17 @@
       "risk_group": 2,
       "model_updated": "2026-07-07 14:19:43",
       "recorded_injuries": 6
+    },
+    {
+      "player": "Deshaun Watson",
+      "position": "QB",
+      "team": "CLE",
+      "injury_probability": 0.29,
+      "projected_games_missed": 1.1,
+      "durability": 1.3,
+      "risk_group": 2,
+      "model_updated": "2026-07-07 14:19:43",
+      "recorded_injuries": 10
     },
     {
       "player": "Chase Young",
@@ -2533,6 +2522,28 @@
       "recorded_injuries": 1
     },
     {
+      "player": "Darnell Washington",
+      "position": "TE",
+      "team": "PIT",
+      "injury_probability": 0.34,
+      "projected_games_missed": 1.5,
+      "durability": 5.0,
+      "risk_group": 2,
+      "model_updated": "2026-07-07 14:19:44",
+      "recorded_injuries": 5
+    },
+    {
+      "player": "Jevon Holland",
+      "position": "S",
+      "team": "NYG",
+      "injury_probability": 0.39,
+      "projected_games_missed": 1.9,
+      "durability": 5.0,
+      "risk_group": 2,
+      "model_updated": "2026-07-07 14:19:43",
+      "recorded_injuries": 3
+    },
+    {
       "player": "Jaycee Horn",
       "position": "CB",
       "team": "CAR",
@@ -2544,14 +2555,14 @@
       "recorded_injuries": 4
     },
     {
-      "player": "Jevon Holland",
-      "position": "S",
+      "player": "Tyrone Tracy Jr.",
+      "position": "RB",
       "team": "NYG",
-      "injury_probability": 0.39,
-      "projected_games_missed": 1.9,
+      "injury_probability": 0.34,
+      "projected_games_missed": 1.5,
       "durability": 5.0,
       "risk_group": 2,
-      "model_updated": "2026-07-07 14:19:43",
+      "model_updated": "2026-07-07 14:19:44",
       "recorded_injuries": 3
     },
     {
@@ -2650,17 +2661,6 @@
       "projected_games_missed": 0.5,
       "durability": 3.09,
       "risk_group": 1,
-      "model_updated": "2026-07-07 14:19:44",
-      "recorded_injuries": 5
-    },
-    {
-      "player": "Darnell Washington",
-      "position": "TE",
-      "team": "PIT",
-      "injury_probability": 0.34,
-      "projected_games_missed": 1.5,
-      "durability": 5.0,
-      "risk_group": 2,
       "model_updated": "2026-07-07 14:19:44",
       "recorded_injuries": 5
     },
@@ -2808,6 +2808,17 @@
       "recorded_injuries": 1
     },
     {
+      "player": "Charlie Kolar",
+      "position": "TE",
+      "team": "LAC",
+      "injury_probability": 0.14,
+      "projected_games_missed": 0.3,
+      "durability": 2.56,
+      "risk_group": 1,
+      "model_updated": "2026-07-07 14:19:43",
+      "recorded_injuries": 3
+    },
+    {
       "player": "Demario Douglas",
       "position": "WR",
       "team": "NE",
@@ -2841,17 +2852,6 @@
       "recorded_injuries": 2
     },
     {
-      "player": "Charlie Kolar",
-      "position": "TE",
-      "team": "LAC",
-      "injury_probability": 0.14,
-      "projected_games_missed": 0.3,
-      "durability": 2.56,
-      "risk_group": 1,
-      "model_updated": "2026-07-07 14:19:43",
-      "recorded_injuries": 3
-    },
-    {
       "player": "Andrei Iosivas",
       "position": "WR",
       "team": "CIN",
@@ -2863,15 +2863,15 @@
       "recorded_injuries": 0
     },
     {
-      "player": "Jack Bech",
-      "position": "WR",
-      "team": "LVR",
-      "injury_probability": 0.29,
-      "projected_games_missed": 0.5,
+      "player": "Rashan Gary",
+      "position": "DE",
+      "team": "DAL",
+      "injury_probability": 0.32,
+      "projected_games_missed": 1.7,
       "durability": 5.0,
       "risk_group": 2,
-      "model_updated": "2026-07-07 14:19:44",
-      "recorded_injuries": 2
+      "model_updated": "2026-07-07 14:19:43",
+      "recorded_injuries": 3
     },
     {
       "player": "James Conner",
@@ -2885,15 +2885,15 @@
       "recorded_injuries": 17
     },
     {
-      "player": "Rashan Gary",
-      "position": "DE",
-      "team": "DAL",
-      "injury_probability": 0.32,
-      "projected_games_missed": 1.7,
+      "player": "Jack Bech",
+      "position": "WR",
+      "team": "LVR",
+      "injury_probability": 0.29,
+      "projected_games_missed": 0.5,
       "durability": 5.0,
       "risk_group": 2,
-      "model_updated": "2026-07-07 14:19:43",
-      "recorded_injuries": 3
+      "model_updated": "2026-07-07 14:19:44",
+      "recorded_injuries": 2
     },
     {
       "player": "Lukas Van Ness",
@@ -3061,17 +3061,6 @@
       "recorded_injuries": 1
     },
     {
-      "player": "Antonio Williams",
-      "position": "WR",
-      "team": "WAS",
-      "injury_probability": 0.52,
-      "projected_games_missed": 3.5,
-      "durability": 5.0,
-      "risk_group": 3,
-      "model_updated": "2026-07-07 14:19:44",
-      "recorded_injuries": 3
-    },
-    {
       "player": "Kwity Paye",
       "position": "DE",
       "team": "LVR",
@@ -3226,6 +3215,17 @@
       "recorded_injuries": 5
     },
     {
+      "player": "Najee Harris",
+      "position": "RB",
+      "team": "NYG",
+      "injury_probability": 0.39,
+      "projected_games_missed": 4.5,
+      "durability": 5.0,
+      "risk_group": 2,
+      "model_updated": "2026-07-07 14:19:43",
+      "recorded_injuries": 10
+    },
+    {
       "player": "Elijah Arroyo",
       "position": "TE",
       "team": "SEA",
@@ -3237,17 +3237,6 @@
       "recorded_injuries": 3
     },
     {
-      "player": "Chris Jones",
-      "position": "DT",
-      "team": "KC",
-      "injury_probability": 0.07,
-      "projected_games_missed": 0.5,
-      "durability": 5.0,
-      "risk_group": 1,
-      "model_updated": "2026-07-07 14:19:43",
-      "recorded_injuries": 0
-    },
-    {
       "player": "Dexter Lawrence",
       "position": "DE",
       "team": "CIN",
@@ -3257,6 +3246,17 @@
       "risk_group": 2,
       "model_updated": "2026-07-07 14:19:43",
       "recorded_injuries": 2
+    },
+    {
+      "player": "Chris Jones",
+      "position": "DT",
+      "team": "KC",
+      "injury_probability": 0.07,
+      "projected_games_missed": 0.5,
+      "durability": 5.0,
+      "risk_group": 1,
+      "model_updated": "2026-07-07 14:19:43",
+      "recorded_injuries": 0
     },
     {
       "player": "Marquise Brown",
@@ -3292,17 +3292,6 @@
       "recorded_injuries": 5
     },
     {
-      "player": "Sterling Shepard",
-      "position": "WR",
-      "team": "UNS",
-      "injury_probability": 0.26,
-      "projected_games_missed": 0.4,
-      "durability": 2.81,
-      "risk_group": 2,
-      "model_updated": "2026-07-07 14:19:42",
-      "recorded_injuries": 16
-    },
-    {
       "player": "LeQuint Allen",
       "position": "RB",
       "team": "JAC",
@@ -3312,6 +3301,17 @@
       "risk_group": 1,
       "model_updated": "2026-07-07 14:19:44",
       "recorded_injuries": 1
+    },
+    {
+      "player": "Antonio Williams",
+      "position": "WR",
+      "team": "WAS",
+      "injury_probability": 0.52,
+      "projected_games_missed": 3.5,
+      "durability": 5.0,
+      "risk_group": 3,
+      "model_updated": "2026-07-07 14:19:44",
+      "recorded_injuries": 3
     },
     {
       "player": "Calijah Kancey",
@@ -3402,17 +3402,6 @@
       "recorded_injuries": 2
     },
     {
-      "player": "Brashard Smith",
-      "position": "RB",
-      "team": "KC",
-      "injury_probability": 0.22,
-      "projected_games_missed": 0.8,
-      "durability": 5.0,
-      "risk_group": 1,
-      "model_updated": "2026-07-07 14:19:44",
-      "recorded_injuries": 0
-    },
-    {
       "player": "Dawson Knox",
       "position": "TE",
       "team": "BUF",
@@ -3433,6 +3422,17 @@
       "risk_group": 2,
       "model_updated": "2026-07-07 14:19:43",
       "recorded_injuries": 8
+    },
+    {
+      "player": "Treylon Burks",
+      "position": "WR",
+      "team": "WAS",
+      "injury_probability": 0.29,
+      "projected_games_missed": 1.2,
+      "durability": 4.0,
+      "risk_group": 2,
+      "model_updated": "2026-07-07 14:19:43",
+      "recorded_injuries": 10
     },
     {
       "player": "Kaytron Allen",
@@ -3501,6 +3501,17 @@
       "recorded_injuries": 7
     },
     {
+      "player": "Brashard Smith",
+      "position": "RB",
+      "team": "KC",
+      "injury_probability": 0.22,
+      "projected_games_missed": 0.8,
+      "durability": 5.0,
+      "risk_group": 1,
+      "model_updated": "2026-07-07 14:19:44",
+      "recorded_injuries": 0
+    },
+    {
       "player": "Javon Hargrave",
       "position": "DT",
       "team": "GB",
@@ -3567,17 +3578,6 @@
       "recorded_injuries": 2
     },
     {
-      "player": "Najee Harris",
-      "position": "RB",
-      "team": "NYG",
-      "injury_probability": 0.39,
-      "projected_games_missed": 4.5,
-      "durability": 5.0,
-      "risk_group": 2,
-      "model_updated": "2026-07-07 14:19:43",
-      "recorded_injuries": 10
-    },
-    {
       "player": "Noah Fant",
       "position": "TE",
       "team": "NO",
@@ -3633,28 +3633,6 @@
       "recorded_injuries": 5
     },
     {
-      "player": "Treylon Burks",
-      "position": "WR",
-      "team": "WAS",
-      "injury_probability": 0.29,
-      "projected_games_missed": 1.2,
-      "durability": 4.0,
-      "risk_group": 2,
-      "model_updated": "2026-07-07 14:19:43",
-      "recorded_injuries": 10
-    },
-    {
-      "player": "Nick Chubb",
-      "position": "RB",
-      "team": "UNS",
-      "injury_probability": 0.28,
-      "projected_games_missed": 0.6,
-      "durability": 3.25,
-      "risk_group": 2,
-      "model_updated": "2026-07-07 14:19:43",
-      "recorded_injuries": 8
-    },
-    {
       "player": "Dyami Brown",
       "position": "WR",
       "team": "WAS",
@@ -3688,6 +3666,17 @@
       "recorded_injuries": 14
     },
     {
+      "player": "Devin Singletary",
+      "position": "RB",
+      "team": "NYG",
+      "injury_probability": 0.29,
+      "projected_games_missed": 0.7,
+      "durability": 5.0,
+      "risk_group": 2,
+      "model_updated": "2026-07-07 14:19:43",
+      "recorded_injuries": 2
+    },
+    {
       "player": "Jalen Royals",
       "position": "WR",
       "team": "KC",
@@ -3697,6 +3686,17 @@
       "risk_group": 2,
       "model_updated": "2026-07-07 14:19:44",
       "recorded_injuries": 2
+    },
+    {
+      "player": "Sterling Shepard",
+      "position": "WR",
+      "team": "HOU",
+      "injury_probability": 0.26,
+      "projected_games_missed": 0.4,
+      "durability": 2.81,
+      "risk_group": 2,
+      "model_updated": "2026-07-07 14:19:42",
+      "recorded_injuries": 16
     },
     {
       "player": "Kirk Cousins",
@@ -3787,17 +3787,6 @@
       "recorded_injuries": 8
     },
     {
-      "player": "Devin Singletary",
-      "position": "RB",
-      "team": "NYG",
-      "injury_probability": 0.29,
-      "projected_games_missed": 0.7,
-      "durability": 5.0,
-      "risk_group": 2,
-      "model_updated": "2026-07-07 14:19:43",
-      "recorded_injuries": 2
-    },
-    {
       "player": "Greg Dortch",
       "position": "WR",
       "team": "DET",
@@ -3842,17 +3831,6 @@
       "recorded_injuries": 14
     },
     {
-      "player": "Cade Stover",
-      "position": "TE",
-      "team": "HOU",
-      "injury_probability": 0.36,
-      "projected_games_missed": 0.9,
-      "durability": 3.32,
-      "risk_group": 2,
-      "model_updated": "2026-07-07 14:19:44",
-      "recorded_injuries": 6
-    },
-    {
       "player": "Will Dissly",
       "position": "TE",
       "team": "UNS",
@@ -3862,6 +3840,17 @@
       "risk_group": 1,
       "model_updated": "2026-07-07 14:19:43",
       "recorded_injuries": 4
+    },
+    {
+      "player": "Cade Stover",
+      "position": "TE",
+      "team": "HOU",
+      "injury_probability": 0.36,
+      "projected_games_missed": 0.9,
+      "durability": 3.32,
+      "risk_group": 2,
+      "model_updated": "2026-07-07 14:19:44",
+      "recorded_injuries": 6
     },
     {
       "player": "Tyreek Hill",
@@ -4007,17 +3996,6 @@
       "recorded_injuries": 0
     },
     {
-      "player": "Luke Musgrave",
-      "position": "TE",
-      "team": "GB",
-      "injury_probability": 0.16,
-      "projected_games_missed": 0.5,
-      "durability": 2.25,
-      "risk_group": 1,
-      "model_updated": "2026-07-07 14:19:44",
-      "recorded_injuries": 5
-    },
-    {
       "player": "Marquez Valdes-Scantling",
       "position": "WR",
       "team": "DAL",
@@ -4027,6 +4005,17 @@
       "risk_group": 1,
       "model_updated": "2026-07-07 14:19:43",
       "recorded_injuries": 9
+    },
+    {
+      "player": "Luke Musgrave",
+      "position": "TE",
+      "team": "GB",
+      "injury_probability": 0.16,
+      "projected_games_missed": 0.5,
+      "durability": 2.25,
+      "risk_group": 1,
+      "model_updated": "2026-07-07 14:19:44",
+      "recorded_injuries": 6
     },
     {
       "player": "Kyle Williams",
@@ -4293,6 +4282,17 @@
       "recorded_injuries": 0
     },
     {
+      "player": "Zay Jones",
+      "position": "WR",
+      "team": "HOU",
+      "injury_probability": 0.42,
+      "projected_games_missed": 1.3,
+      "durability": 5.0,
+      "risk_group": 3,
+      "model_updated": "2025-10-27 15:23:40",
+      "recorded_injuries": 12
+    },
+    {
       "player": "Roschon Johnson",
       "position": "RB",
       "team": "CHI",
@@ -4326,17 +4326,6 @@
       "recorded_injuries": 3
     },
     {
-      "player": "Quez Watkins",
-      "position": "WR",
-      "team": "PHI",
-      "injury_probability": 0.07,
-      "projected_games_missed": 0.6,
-      "durability": 5.0,
-      "risk_group": 1,
-      "model_updated": "2026-07-07 14:19:43",
-      "recorded_injuries": 0
-    },
-    {
       "player": "Jaleel McLaughlin",
       "position": "RB",
       "team": "DEN",
@@ -4346,6 +4335,17 @@
       "risk_group": 1,
       "model_updated": "2026-07-07 14:19:44",
       "recorded_injuries": 1
+    },
+    {
+      "player": "Quez Watkins",
+      "position": "WR",
+      "team": "PHI",
+      "injury_probability": 0.07,
+      "projected_games_missed": 0.6,
+      "durability": 5.0,
+      "risk_group": 1,
+      "model_updated": "2026-07-07 14:19:43",
+      "recorded_injuries": 0
     },
     {
       "player": "Malachi Corley",
@@ -4403,6 +4403,50 @@
       "recorded_injuries": 17
     },
     {
+      "player": "Jayden Higgins",
+      "position": "WR",
+      "team": "HOU",
+      "injury_probability": 0.23,
+      "projected_games_missed": 1.4,
+      "durability": 5.0,
+      "risk_group": 1,
+      "model_updated": "2026-07-07 14:19:44",
+      "recorded_injuries": 1
+    },
+    {
+      "player": "Dylan Laube",
+      "position": "RB",
+      "team": "LVR",
+      "injury_probability": 0.07,
+      "projected_games_missed": 0.3,
+      "durability": 5.0,
+      "risk_group": 1,
+      "model_updated": "2026-07-07 14:19:44",
+      "recorded_injuries": 0
+    },
+    {
+      "player": "Joe Mixon",
+      "position": "RB",
+      "team": "UNS",
+      "injury_probability": 0.66,
+      "projected_games_missed": 2.6,
+      "durability": 5.0,
+      "risk_group": 4,
+      "model_updated": "2026-07-07 14:19:43",
+      "recorded_injuries": 10
+    },
+    {
+      "player": "Jerome Ford",
+      "position": "RB",
+      "team": "WAS",
+      "injury_probability": 0.44,
+      "projected_games_missed": 3.3,
+      "durability": 4.62,
+      "risk_group": 3,
+      "model_updated": "2026-07-07 14:19:44",
+      "recorded_injuries": 8
+    },
+    {
       "player": "Skyy Moore",
       "position": "WR",
       "team": "GB",
@@ -4447,59 +4491,15 @@
       "recorded_injuries": 8
     },
     {
-      "player": "Joe Mixon",
+      "player": "Nick Chubb",
       "position": "RB",
       "team": "UNS",
-      "injury_probability": 0.66,
-      "projected_games_missed": 2.6,
-      "durability": 5.0,
-      "risk_group": 4,
-      "model_updated": "2026-07-07 14:19:43",
-      "recorded_injuries": 10
-    },
-    {
-      "player": "Jerome Ford",
-      "position": "RB",
-      "team": "WAS",
-      "injury_probability": 0.44,
-      "projected_games_missed": 3.3,
-      "durability": 4.62,
-      "risk_group": 3,
-      "model_updated": "2026-07-07 14:19:44",
-      "recorded_injuries": 8
-    },
-    {
-      "player": "Devin Duvernay",
-      "position": "WR",
-      "team": "ARI",
-      "injury_probability": 0.06,
+      "injury_probability": 0.28,
       "projected_games_missed": 0.6,
-      "durability": 5.0,
-      "risk_group": 1,
+      "durability": 3.25,
+      "risk_group": 2,
       "model_updated": "2026-07-07 14:19:43",
-      "recorded_injuries": 0
-    },
-    {
-      "player": "Jayden Higgins",
-      "position": "WR",
-      "team": "HOU",
-      "injury_probability": 0.23,
-      "projected_games_missed": 1.4,
-      "durability": 5.0,
-      "risk_group": 1,
-      "model_updated": "2026-07-07 14:19:44",
-      "recorded_injuries": 1
-    },
-    {
-      "player": "Dylan Laube",
-      "position": "RB",
-      "team": "LVR",
-      "injury_probability": 0.07,
-      "projected_games_missed": 0.3,
-      "durability": 5.0,
-      "risk_group": 1,
-      "model_updated": "2026-07-07 14:19:44",
-      "recorded_injuries": 0
+      "recorded_injuries": 8
     },
     {
       "player": "Taysom Hill",
@@ -4522,7 +4522,18 @@
       "risk_group": 2,
       "model_updated": "2026-07-07 14:19:44",
       "recorded_injuries": 4
+    },
+    {
+      "player": "Devin Duvernay",
+      "position": "WR",
+      "team": "ARI",
+      "injury_probability": 0.06,
+      "projected_games_missed": 0.6,
+      "durability": 5.0,
+      "risk_group": 1,
+      "model_updated": "2026-07-07 14:19:43",
+      "recorded_injuries": 0
     }
   ],
-  "retrieved": "2026-08-20T22:46:20Z"
+  "retrieved": "2026-08-23T21:09:43Z"
 }

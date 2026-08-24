@@ -28,6 +28,8 @@ The roster panel groups Goldberg's players by position and shows NFL team, bye w
 - **Consensus picks** stay close to the neutral expert board and market value.  Tuning controls do not change this column.
 - **Wildcard picks** surface defensible upside and market gaps.  Hard roster rules still apply, so this column cannot recommend an otherwise prohibited fifth QB or an impossible roster construction.
 
+Missing market data is neutral, not upside: it contributes no availability probability and no expert-versus-market gap.  Market-gap bonuses are reduced when the expert board has thin coverage or public ADP sources disagree, and a one-source expert gap is capped at five points.  Before Round 11, a player supported by fewer than two baseline ranking sources needs at least two independent upside signals, including approved analyst or ranking support, to enter Wildcards.  Rounds 11–13 loosen that requirement, while a qualified structured model alone is reserved for Rounds 14–17.  A Personal Priority boost remains a deliberate override.  Thin source coverage and buried RB/WR/TE depth-chart roles also receive small reliability adjustments in Optimized and Wildcard scoring.  Consensus remains the unmodified baseline comparison.
+
 Recommendation eligibility is separate from scoring.  Once three QBs are rostered, another QB is excluded until the late-draft fourth-QB conditions are satisfied.  A fourth QB may then appear only as a wildcard.  A fifth QB is never recommended.  The same feasibility gate prevents extra K/DST selections, prevents a third TE, and preserves enough remaining picks to complete the league's required roster.
 
 ## Availability and live draft trends
@@ -39,6 +41,14 @@ These are separate signals:
 - **Roster need** handles Goldberg's own construction independently.  For example, a roster with four RBs and fewer than three WRs receives additional WR urgency because the league starts three receivers.
 
 Candidate cards call out a detected run when it materially affects the optimized or wildcard score.
+
+## Late-round handcuffs and endgame
+
+Rounds 14–17 add a roster-specific handcuff signal for verified Ourlads backups to Goldberg's two highest-ranked rostered RBs and two highest-ranked rostered QBs.  The boost grows as the draft closes and increases further when the rostered starter has a high DraftSharks injury-risk percentile.  A direct backup relationship can qualify an otherwise thin-data player for Wildcard consideration, and candidate cards identify the starter being protected.
+
+Handcuff scoring does not bypass roster feasibility.  A fourth QB still requires the configured RB/WR/TE depth and can appear only as a late Wildcard; a fifth QB remains prohibited.  The shared bye with the protected starter is not treated as a bye-coverage mistake because the backup is an injury contingency, though conflicts with other same-position players still count.
+
+Kicker and defense suppression now ends in Round 14.  Their urgency rises through Round 17, while the feasibility gate reserves enough remaining picks to fill both positions.  This supports an endgame of K, DST, and approximately two handcuff or sourced-upside selections without forcing a fixed order when clearly better value remains.
 
 ## Player and team research
 
@@ -72,6 +82,8 @@ The injury/news layer is intentionally split by purpose:
 - **Ourlads** supplies current offensive depth-chart and injured/inactive context.
 - **Verified availability overrides** store explicit season-long statuses supported by an attributable source.  These are hard eligibility gates, not small ranking penalties.
 
+Ourlads appends roster metadata such as `CC/NYJ`, `U/SF`, draft round, and free-agent codes to its displayed names.  The importer preserves that token as a separate source identifier, while all matching and UI labels use the cleaned player name.  When a ranked player lacks a team but has one unambiguous Ourlads depth-chart match, that team is used to restore bye, schedule, and team-QB context with explicit provenance.
+
 Ricky Pearsall is currently marked out for the 2026 season from the NFL.com report of his injured-reserve placement and PCL surgery.  He remains in the research database for provenance, but he is excluded from search results and every recommendation column.
 
 The previous rebuild missed Pearsall because the RotoWire importer retained only the most recent page of updates, while his season-ending news was already older.  The rolling snapshot retention and verified hard-status layer address the two distinct failure modes: disappearing news history and known season-long unavailability.
@@ -94,6 +106,10 @@ Connected Google Sheets and authenticated FantasyGuru pages cannot be refreshed 
 - Speculation, generic camp praise, unsupported narratives, and signals already represented by a structured model remain visible for research but score zero.
 - Season-long unavailability is a hard exclusion and requires a verified source.
 - Missing data stays labeled as missing.  The pipeline does not infer a tier, injury, role, or team relationship that it cannot reconcile.
+- Known cross-source name variants use explicit aliases across rankings, context, and rebuild reconciliation.  `Kenny Gainwell` and `Kenneth Gainwell` are one player; ambiguous nicknames are not fuzzy-merged.
+- Missing ADP never becomes a synthetic late ADP, a made-up availability percentage, or a positive Wildcard market gap.
+- Analyst sleeper recommendations should enter as attributable ranking or reviewed-context sources.  The app does not manufacture a sleeper score from missing information.
+- Overall expert ranks are normalized against a fixed 200-player horizon.  Source list length does not change the value of a given absolute rank, and ranks beyond 200 add no base-quality credit.
 
 ## Manual rebuild sequence
 
@@ -101,8 +117,10 @@ The Admin rebuild performs the equivalent of:
 
 ```sh
 python3 2026/Pipeline/refresh_public_adp.py
+python3 2026/Pipeline/refresh_public_rankings.py
 python3 2026/Pipeline/refresh_context_sources.py
 python3 2026/Pipeline/parse_draftsheets.py
+python3 2026/Pipeline/test_composite_rank_normalization.py
 python3 2026/Pipeline/build_composite_board.py
 python3 2026/Pipeline/classify_context.py
 python3 2026/Pipeline/build_app_data.py

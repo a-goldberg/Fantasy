@@ -440,7 +440,7 @@
     },
     {
       "team": "ATL",
-      "updated": "08/20/2026 1:13PM",
+      "updated": "08/21/2026 1:36PM",
       "offense": [
         {
           "position": "LWR",
@@ -5080,7 +5080,7 @@
     },
     {
       "team": "HOU",
-      "updated": "08/17/2026 12:05PM",
+      "updated": "08/21/2026 10:23AM",
       "offense": [
         {
           "position": "LWR",
@@ -5095,11 +5095,11 @@
             },
             {
               "depth": 2,
-              "raw_name": "Hutchinson, Xavier 23/6",
-              "player": "Xavier Hutchinson",
-              "ourlads_identifier": "23/6",
-              "status": "returning/other",
-              "player_url": "https://www.ourlads.com/nfldepthcharts/player/50287/"
+              "raw_name": "Dell, Tank 23/3",
+              "player": "Tank Dell",
+              "ourlads_identifier": "23/3",
+              "status": "injured/inactive",
+              "player_url": "https://www.ourlads.com/nfldepthcharts/player/50148/"
             },
             {
               "depth": 3,
@@ -5111,11 +5111,11 @@
             },
             {
               "depth": 4,
-              "raw_name": "Kelly, Josh SF25",
-              "player": "Josh Kelly",
-              "ourlads_identifier": "SF25",
-              "status": "returning/other",
-              "player_url": "https://www.ourlads.com/nfldepthcharts/player/54542/"
+              "raw_name": "Sobkowicz, Daniel CF26",
+              "player": "Daniel Sobkowicz",
+              "ourlads_identifier": "CF26",
+              "status": "2026 undrafted free agent",
+              "player_url": "https://www.ourlads.com/nfldepthcharts/player/55429/"
             },
             {
               "depth": 5,
@@ -5140,27 +5140,27 @@
             },
             {
               "depth": 2,
-              "raw_name": "Dell, Tank 23/3",
-              "player": "Tank Dell",
-              "ourlads_identifier": "23/3",
-              "status": "injured/inactive",
-              "player_url": "https://www.ourlads.com/nfldepthcharts/player/50148/"
+              "raw_name": "Hutchinson, Xavier 23/6",
+              "player": "Xavier Hutchinson",
+              "ourlads_identifier": "23/6",
+              "status": "returning/other",
+              "player_url": "https://www.ourlads.com/nfldepthcharts/player/50287/"
             },
             {
               "depth": 3,
-              "raw_name": "WATSON, JUSTIN U/KC",
-              "player": "Justin Watson",
-              "ourlads_identifier": "U/KC",
-              "status": "returning/other",
-              "player_url": "https://www.ourlads.com/nfldepthcharts/player/50060/"
+              "raw_name": "Saunders, Treyvhon CF26",
+              "player": "Treyvhon Saunders",
+              "ourlads_identifier": "CF26",
+              "status": "2026 undrafted free agent",
+              "player_url": "https://www.ourlads.com/nfldepthcharts/player/55424/"
             },
             {
               "depth": 4,
-              "raw_name": "Sobkowicz, Daniel CF26",
-              "player": "Daniel Sobkowicz",
-              "ourlads_identifier": "CF26",
-              "status": "2026 undrafted free agent",
-              "player_url": "https://www.ourlads.com/nfldepthcharts/player/55429/"
+              "raw_name": "Kelly, Josh SF25",
+              "player": "Josh Kelly",
+              "ourlads_identifier": "SF25",
+              "status": "returning/other",
+              "player_url": "https://www.ourlads.com/nfldepthcharts/player/54542/"
             }
           ]
         },
@@ -5185,11 +5185,11 @@
             },
             {
               "depth": 3,
-              "raw_name": "Saunders, Treyvhon CF26",
-              "player": "Treyvhon Saunders",
-              "ourlads_identifier": "CF26",
-              "status": "2026 undrafted free agent",
-              "player_url": "https://www.ourlads.com/nfldepthcharts/player/55424/"
+              "raw_name": "WATSON, JUSTIN U/KC",
+              "player": "Justin Watson",
+              "ourlads_identifier": "U/KC",
+              "status": "returning/other",
+              "player_url": "https://www.ourlads.com/nfldepthcharts/player/50060/"
             },
             {
               "depth": 4,
@@ -5503,7 +5503,7 @@
     },
     {
       "team": "IND",
-      "updated": "08/19/2026 3:22PM",
+      "updated": "08/21/2026 1:37PM",
       "offense": [
         {
           "position": "LWR",
@@ -5822,11 +5822,11 @@
             },
             {
               "depth": 5,
-              "raw_name": "BROWN, PHARAOH U/Arz",
-              "player": "Pharaoh Brown",
-              "ourlads_identifier": "U/Arz",
-              "status": "2026 acquisition",
-              "player_url": "https://www.ourlads.com/nfldepthcharts/player/51871/"
+              "raw_name": "Moore, Tyler SF26",
+              "player": "Tyler Moore",
+              "ourlads_identifier": "SF26",
+              "status": "2026 undrafted free agent",
+              "player_url": "https://www.ourlads.com/nfldepthcharts/player/55680/"
             }
           ]
         },
@@ -5834,12 +5834,20 @@
           "position": "TE",
           "depth": [
             {
+              "depth": 4,
+              "raw_name": "BROWN, PHARAOH U/Arz",
+              "player": "Pharaoh Brown",
+              "ourlads_identifier": "U/Arz",
+              "status": "2026 acquisition",
+              "player_url": "https://www.ourlads.com/nfldepthcharts/player/51871/"
+            },
+            {
               "depth": 5,
-              "raw_name": "Moore, Tyler SF26",
-              "player": "Tyler Moore",
+              "raw_name": "Galbreath, JJ SF26",
+              "player": "Jj Galbreath",
               "ourlads_identifier": "SF26",
-              "status": "2026 undrafted free agent",
-              "player_url": "https://www.ourlads.com/nfldepthcharts/player/55680/"
+              "status": "2026 acquisition",
+              "player_url": "https://www.ourlads.com/nfldepthcharts/player/54481/"
             }
           ]
         },
@@ -12739,7 +12747,7 @@
     },
     {
       "team": "TEN",
-      "updated": "08/19/2026 2:26PM",
+      "updated": "08/21/2026 1:39PM",
       "offense": [
         {
           "position": "LWR",
@@ -13047,19 +13055,6 @@
               "ourlads_identifier": "SF25",
               "status": "returning/other",
               "player_url": "https://www.ourlads.com/nfldepthcharts/player/52763/"
-            }
-          ]
-        },
-        {
-          "position": "TE",
-          "depth": [
-            {
-              "depth": 5,
-              "raw_name": "Lauter, Matt SF26",
-              "player": "Matt Lauter",
-              "ourlads_identifier": "SF26",
-              "status": "2026 undrafted free agent",
-              "player_url": "https://www.ourlads.com/nfldepthcharts/player/55457/"
             }
           ]
         },
@@ -13592,5 +13587,5 @@
       ]
     }
   ],
-  "retrieved": "2026-08-20T22:46:20Z"
+  "retrieved": "2026-08-21T20:46:45Z"
 }

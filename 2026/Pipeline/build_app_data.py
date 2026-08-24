@@ -6,10 +6,12 @@ from __future__ import annotations
 import csv
 import json
 import re
-import unicodedata
 from collections import defaultdict
 from datetime import date, datetime, timezone
 from pathlib import Path
+
+from ourlads_names import parse_ourlads_name
+from player_names import normalize_player_name
 
 ROOT = Path(__file__).resolve().parents[1]
 GENERATED = ROOT / "Analysis" / "generated"
@@ -100,9 +102,7 @@ def prepare_signal(signal, rules, today):
 
 
 def normalize(value: str) -> str:
-    value = unicodedata.normalize("NFKD", value or "").encode("ascii", "ignore").decode().lower()
-    value = re.sub(r"\b(jr|sr|ii|iii|iv|v)\b", "", value)
-    return re.sub(r"[^a-z0-9]+", "", value)
+    return normalize_player_name(value)
 
 
 def median(values):
@@ -123,14 +123,6 @@ def unique_signals(items):
         seen.add(identity)
         result.append(item)
     return result
-
-
-def ourlads_name(raw_name: str) -> str:
-    value = re.sub(r"\s+(?:\d{2}/\d|[UWTPC]/[A-Za-z]+|[SC]F\d+\*?)$", "", raw_name).strip()
-    if "," in value:
-        last, first = (part.strip() for part in value.split(",", 1))
-        value = f"{first} {last}"
-    return value.title()
 
 
 def main() -> None:
@@ -189,7 +181,11 @@ def main() -> None:
         depth_by_team[team_abbr] = team
         for row in team["offense"]:
             for item in row["depth"]:
-                depth_by_name[normalize(ourlads_name(item["raw_name"]))].append({
+                parsed_name = parse_ourlads_name(item["raw_name"])
+                item["player"] = item.get("player") or parsed_name["player"]
+                item["ourlads_identifier"] = item.get("ourlads_identifier") or parsed_name["identifier"]
+                clean_name = item["player"]
+                depth_by_name[normalize(clean_name)].append({
                     "team": team_abbr, "position": row["position"], **item
                 })
 
@@ -214,15 +210,32 @@ def main() -> None:
         player["adp_sources"] = adp_detail[key]
         player["market_source_count"] = len(adp_by_name[key])
         provider_adps = adp_by_name[key]
+        market_disagreement = round(max(provider_adps) - min(provider_adps), 1) if len(provider_adps) >= 2 else None
+        if len(provider_adps) >= 2:
+            market_quality = "high" if market_disagreement <= 12 else ("medium" if market_disagreement <= 30 else "low")
+        else:
+            market_quality = "medium" if len(provider_adps) == 1 else "missing"
+        expert_coverage = float(player.get("expert_weight_coverage", 0))
+        expert_quality = (
+            "high" if player["source_count"] >= 3 and expert_coverage >= 0.9
+            else "medium" if player["source_count"] >= 2 and expert_coverage >= 0.5
+            else "low"
+        )
         player["source_quality"] = {
-            "expert": "high" if player["source_count"] >= 3 else ("medium" if player["source_count"] == 2 else "low"),
-            "market": "high" if len(provider_adps) >= 2 else ("medium" if len(provider_adps) == 1 else "missing"),
-            "market_disagreement": round(max(provider_adps) - min(provider_adps), 1) if len(provider_adps) >= 2 else None,
+            "expert": expert_quality,
+            "expert_weight_coverage": expert_coverage,
+            "market": market_quality,
+            "market_disagreement": market_disagreement,
             "context": "not loaded"
         }
         injury = injury_by_name.get(key)
         if injury and not player.get("team"):
             player["team"] = TEAM_ALIASES.get(injury.get("team"), injury.get("team"))
+        depth_matches = depth_by_name.get(key, [])
+        depth_teams = {item["team"] for item in depth_matches if item.get("team")}
+        if not player.get("team") and len(depth_teams) == 1:
+            player["team"] = next(iter(depth_teams))
+            player["team_source"] = "Ourlads name-matched depth chart"
         applicable_team_context = [item for item in team_adjustments.get(player.get("team"), [])
                                    if not item.get("positions") or player["position"] in item["positions"]]
         player["context"] = adjustments[key] + applicable_team_context
@@ -257,9 +270,10 @@ def main() -> None:
         availability_status = availability_by_name.get(key)
         player["availability_status"] = availability_status
         player["draft_eligible"] = availability_status.get("draft_eligible", True) if availability_status else True
-        player["depth_chart"] = depth_by_name.get(key, [])
+        player["depth_chart"] = depth_matches
         player["research_links"] = {
             "fantasypros": adp_detail[key].get("fantasypros", {}).get("player_url"),
+            "rotoballer": player.get("rotoballer_player_url"),
             "fantasyguru_projections": "https://www.fantasyguru.com/nfl-projections-offense",
             "draftsharks_injury": "https://www.draftsharks.com/injury-predictor",
             "draftsharks_rookie": "https://www.draftsharks.com/nfl-rookie-model",
@@ -274,7 +288,8 @@ def main() -> None:
         qb_row = next((row for row in depth.get("offense", []) if row.get("position") == "QB"), None)
         if not qb_row or not qb_row.get("depth"):
             continue
-        starter_name = ourlads_name(qb_row["depth"][0]["raw_name"])
+        starter = qb_row["depth"][0]
+        starter_name = starter.get("player") or parse_ourlads_name(starter["raw_name"])["player"]
         matched_qb = players_by_name.get(normalize(starter_name))
         starting_qb_by_team[abbreviation] = {
             "player": matched_qb["player"] if matched_qb else starter_name,
@@ -348,6 +363,10 @@ def main() -> None:
             "authenticated_research_snapshot": classified.get("summary", {}).get("authenticated_research_snapshot", {}),
         },
         "source_freshness": {
+            "expert_rankings": {
+                "rank_horizon": board.get("rank_horizon"),
+                "weights": board.get("weights", {}),
+            },
             "market": public_adp["sources"],
             "context_retrieved": current_context.get("retrieved"),
             "context_warnings": current_context.get("warnings", []),

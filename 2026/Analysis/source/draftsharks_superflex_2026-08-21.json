@@ -78,7 +78,7 @@
       "position": "WR",
       "team": "LAR",
       "rookie": false,
-      "adp": "1.05",
+      "adp": "1.06",
       "sos": "-3.1%",
       "injury_probability": "51%",
       "floor": "171.3",
@@ -120,7 +120,7 @@
       "position": "WR",
       "team": "SEA",
       "rookie": false,
-      "adp": "1.06",
+      "adp": "1.05",
       "sos": "-0.1%",
       "injury_probability": "39%",
       "floor": "190.7",
@@ -288,7 +288,7 @@
       "position": "QB",
       "team": "SF",
       "rookie": false,
-      "adp": "5.04",
+      "adp": "5.05",
       "sos": "-4%",
       "injury_probability": "36%",
       "floor": "278.1",
@@ -330,7 +330,7 @@
       "position": "QB",
       "team": "MIN",
       "rookie": false,
-      "adp": "7.12",
+      "adp": "7.11",
       "sos": "4%",
       "injury_probability": "33%",
       "floor": "273",
@@ -353,5 +353,5 @@
       "three_d_value": "51"
     }
   ],
-  "retrieved": "2026-08-20T22:46:20Z"
+  "retrieved": "2026-08-21T20:46:45Z"
 }
