@@ -1,5 +1,5 @@
 {
-  "retrieved": "2026-08-27T14:33:39Z",
+  "retrieved": "2026-08-27T15:13:57Z",
   "sources": {
     "draftsharks_injury": {
       "source_url": "https://www.draftsharks.com/injury-predictor",
@@ -1084,17 +1084,6 @@
           "recorded_injuries": 8
         },
         {
-          "player": "Sam LaPorta",
-          "position": "TE",
-          "team": "DET",
-          "injury_probability": 0.6,
-          "projected_games_missed": 2.4,
-          "durability": 5.0,
-          "risk_group": 4,
-          "model_updated": "2026-07-07 14:19:44",
-          "recorded_injuries": 7
-        },
-        {
           "player": "Jordan Addison",
           "position": "WR",
           "team": "MIN",
@@ -1104,6 +1093,17 @@
           "risk_group": 2,
           "model_updated": "2026-07-07 14:19:44",
           "recorded_injuries": 5
+        },
+        {
+          "player": "Sam LaPorta",
+          "position": "TE",
+          "team": "DET",
+          "injury_probability": 0.6,
+          "projected_games_missed": 2.4,
+          "durability": 5.0,
+          "risk_group": 4,
+          "model_updated": "2026-07-07 14:19:44",
+          "recorded_injuries": 7
         },
         {
           "player": "Tucker Kraft",
@@ -1480,17 +1480,6 @@
           "recorded_injuries": 7
         },
         {
-          "player": "Matthew Golden",
-          "position": "WR",
-          "team": "GB",
-          "injury_probability": 0.37,
-          "projected_games_missed": 0.9,
-          "durability": 1.94,
-          "risk_group": 2,
-          "model_updated": "2026-07-07 14:19:44",
-          "recorded_injuries": 4
-        },
-        {
           "player": "Deebo Samuel",
           "position": "WR",
           "team": "SF",
@@ -1500,6 +1489,17 @@
           "risk_group": 3,
           "model_updated": "2026-07-07 14:19:43",
           "recorded_injuries": 21
+        },
+        {
+          "player": "Matthew Golden",
+          "position": "WR",
+          "team": "GB",
+          "injury_probability": 0.37,
+          "projected_games_missed": 0.9,
+          "durability": 1.94,
+          "risk_group": 2,
+          "model_updated": "2026-07-07 14:19:44",
+          "recorded_injuries": 4
         },
         {
           "player": "Dallas Goedert",
@@ -2228,17 +2228,6 @@
           "recorded_injuries": 2
         },
         {
-          "player": "Tre Harris",
-          "position": "WR",
-          "team": "LAC",
-          "injury_probability": 0.42,
-          "projected_games_missed": 1.8,
-          "durability": 5.0,
-          "risk_group": 3,
-          "model_updated": "2026-07-07 14:19:44",
-          "recorded_injuries": 2
-        },
-        {
           "player": "Keaton Mitchell",
           "position": "RB",
           "team": "LAC",
@@ -2248,6 +2237,17 @@
           "risk_group": 2,
           "model_updated": "2026-07-07 14:19:44",
           "recorded_injuries": 4
+        },
+        {
+          "player": "Tre Harris",
+          "position": "WR",
+          "team": "LAC",
+          "injury_probability": 0.42,
+          "projected_games_missed": 1.8,
+          "durability": 5.0,
+          "risk_group": 3,
+          "model_updated": "2026-07-07 14:19:44",
+          "recorded_injuries": 2
         },
         {
           "player": "Dontayvion Wicks",
@@ -2448,17 +2448,6 @@
           "recorded_injuries": 0
         },
         {
-          "player": "Brandon Aiyuk",
-          "position": "WR",
-          "team": "UNS",
-          "injury_probability": 0.33,
-          "projected_games_missed": 1.0,
-          "durability": 2.71,
-          "risk_group": 2,
-          "model_updated": "2026-07-07 14:19:43",
-          "recorded_injuries": 6
-        },
-        {
           "player": "Deshaun Watson",
           "position": "QB",
           "team": "CLE",
@@ -2468,6 +2457,17 @@
           "risk_group": 2,
           "model_updated": "2026-07-07 14:19:43",
           "recorded_injuries": 10
+        },
+        {
+          "player": "Brandon Aiyuk",
+          "position": "WR",
+          "team": "UNS",
+          "injury_probability": 0.33,
+          "projected_games_missed": 1.0,
+          "durability": 2.71,
+          "risk_group": 2,
+          "model_updated": "2026-07-07 14:19:43",
+          "recorded_injuries": 6
         },
         {
           "player": "Chase Young",
@@ -2657,17 +2657,6 @@
           "recorded_injuries": 3
         },
         {
-          "player": "Justice Hill",
-          "position": "RB",
-          "team": "BAL",
-          "injury_probability": 0.32,
-          "projected_games_missed": 1.4,
-          "durability": 2.89,
-          "risk_group": 2,
-          "model_updated": "2026-07-07 14:19:43",
-          "recorded_injuries": 8
-        },
-        {
           "player": "Mike Washington Jr.",
           "position": "RB",
           "team": "LVR",
@@ -2677,6 +2666,17 @@
           "risk_group": 1,
           "model_updated": "2026-07-07 14:19:44",
           "recorded_injuries": 0
+        },
+        {
+          "player": "Justice Hill",
+          "position": "RB",
+          "team": "BAL",
+          "injury_probability": 0.32,
+          "projected_games_missed": 1.4,
+          "durability": 2.89,
+          "risk_group": 2,
+          "model_updated": "2026-07-07 14:19:43",
+          "recorded_injuries": 8
         },
         {
           "player": "Denzel Ward",
@@ -2866,17 +2866,6 @@
           "recorded_injuries": 3
         },
         {
-          "player": "Lukas Van Ness",
-          "position": "DE",
-          "team": "GB",
-          "injury_probability": 0.15,
-          "projected_games_missed": 0.4,
-          "durability": 5.0,
-          "risk_group": 1,
-          "model_updated": "2026-07-07 14:19:44",
-          "recorded_injuries": 0
-        },
-        {
           "player": "Cameron Heyward",
           "position": "DE",
           "team": "PIT",
@@ -2886,6 +2875,17 @@
           "risk_group": 2,
           "model_updated": "2026-07-07 14:19:42",
           "recorded_injuries": 6
+        },
+        {
+          "player": "Lukas Van Ness",
+          "position": "DE",
+          "team": "GB",
+          "injury_probability": 0.15,
+          "projected_games_missed": 0.4,
+          "durability": 5.0,
+          "risk_group": 1,
+          "model_updated": "2026-07-07 14:19:44",
+          "recorded_injuries": 0
         },
         {
           "player": "David Njoku",
@@ -2987,17 +2987,6 @@
           "recorded_injuries": 17
         },
         {
-          "player": "DeAndre Hopkins",
-          "position": "WR",
-          "team": "UNS",
-          "injury_probability": 0.28,
-          "projected_games_missed": 0.9,
-          "durability": 5.0,
-          "risk_group": 2,
-          "model_updated": "2026-07-07 14:19:42",
-          "recorded_injuries": 16
-        },
-        {
           "player": "Ty Johnson",
           "position": "RB",
           "team": "BUF",
@@ -3007,17 +2996,6 @@
           "risk_group": 2,
           "model_updated": "2026-07-07 14:19:43",
           "recorded_injuries": 4
-        },
-        {
-          "player": "Curtis Samuel",
-          "position": "WR",
-          "team": "UNS",
-          "injury_probability": 0.36,
-          "projected_games_missed": 1.2,
-          "durability": 5.0,
-          "risk_group": 2,
-          "model_updated": "2026-07-07 14:19:43",
-          "recorded_injuries": 11
         },
         {
           "player": "Emmett Johnson",
@@ -3130,6 +3108,17 @@
           "recorded_injuries": 0
         },
         {
+          "player": "Curtis Samuel",
+          "position": "WR",
+          "team": "UNS",
+          "injury_probability": 0.36,
+          "projected_games_missed": 1.2,
+          "durability": 5.0,
+          "risk_group": 2,
+          "model_updated": "2026-07-07 14:19:43",
+          "recorded_injuries": 11
+        },
+        {
           "player": "Nolan Smith",
           "position": "DE",
           "team": "PHI",
@@ -3141,17 +3130,6 @@
           "recorded_injuries": 0
         },
         {
-          "player": "Khalil Mack",
-          "position": "DE",
-          "team": "LAC",
-          "injury_probability": 0.74,
-          "projected_games_missed": 3.4,
-          "durability": 5.0,
-          "risk_group": 4,
-          "model_updated": "2026-07-07 14:19:42",
-          "recorded_injuries": 4
-        },
-        {
           "player": "Daron Payne",
           "position": "DT",
           "team": "WAS",
@@ -3160,6 +3138,17 @@
           "durability": 5.0,
           "risk_group": 2,
           "model_updated": "2026-07-07 14:19:43",
+          "recorded_injuries": 4
+        },
+        {
+          "player": "Khalil Mack",
+          "position": "DE",
+          "team": "LAC",
+          "injury_probability": 0.74,
+          "projected_games_missed": 3.4,
+          "durability": 5.0,
+          "risk_group": 4,
+          "model_updated": "2026-07-07 14:19:42",
           "recorded_injuries": 4
         },
         {
@@ -3205,6 +3194,17 @@
           "risk_group": 1,
           "model_updated": "2026-07-07 14:19:44",
           "recorded_injuries": 0
+        },
+        {
+          "player": "DeAndre Hopkins",
+          "position": "WR",
+          "team": "UNS",
+          "injury_probability": 0.28,
+          "projected_games_missed": 0.9,
+          "durability": 5.0,
+          "risk_group": 2,
+          "model_updated": "2026-07-07 14:19:42",
+          "recorded_injuries": 16
         },
         {
           "player": "Najee Harris",
@@ -3306,17 +3306,6 @@
           "recorded_injuries": 3
         },
         {
-          "player": "Calijah Kancey",
-          "position": "DT",
-          "team": "TB",
-          "injury_probability": 0.46,
-          "projected_games_missed": 2.6,
-          "durability": 2.7,
-          "risk_group": 3,
-          "model_updated": "2026-07-07 14:19:44",
-          "recorded_injuries": 4
-        },
-        {
           "player": "Elic Ayomanor",
           "position": "WR",
           "team": "TEN",
@@ -3328,15 +3317,15 @@
           "recorded_injuries": 1
         },
         {
-          "player": "Kalif Raymond",
-          "position": "WR",
-          "team": "CHI",
-          "injury_probability": 0.07,
-          "projected_games_missed": 0.5,
-          "durability": 5.0,
-          "risk_group": 1,
-          "model_updated": "2026-07-07 14:19:43",
-          "recorded_injuries": 0
+          "player": "Calijah Kancey",
+          "position": "DT",
+          "team": "TB",
+          "injury_probability": 0.46,
+          "projected_games_missed": 2.6,
+          "durability": 2.7,
+          "risk_group": 3,
+          "model_updated": "2026-07-07 14:19:44",
+          "recorded_injuries": 4
         },
         {
           "player": "Kayvon Thibodeaux",
@@ -3348,6 +3337,17 @@
           "risk_group": 2,
           "model_updated": "2026-07-07 14:19:44",
           "recorded_injuries": 3
+        },
+        {
+          "player": "Kalif Raymond",
+          "position": "WR",
+          "team": "CHI",
+          "injury_probability": 0.07,
+          "projected_games_missed": 0.5,
+          "durability": 5.0,
+          "risk_group": 1,
+          "model_updated": "2026-07-07 14:19:43",
+          "recorded_injuries": 0
         },
         {
           "player": "Darnell Mooney",
@@ -3394,17 +3394,6 @@
           "recorded_injuries": 0
         },
         {
-          "player": "Dawson Knox",
-          "position": "TE",
-          "team": "BUF",
-          "injury_probability": 0.21,
-          "projected_games_missed": 0.8,
-          "durability": 5.0,
-          "risk_group": 1,
-          "model_updated": "2026-07-07 14:19:43",
-          "recorded_injuries": 6
-        },
-        {
           "player": "Eli Stowers",
           "position": "TE",
           "team": "PHI",
@@ -3416,15 +3405,15 @@
           "recorded_injuries": 4
         },
         {
-          "player": "Christian Kirk",
-          "position": "WR",
-          "team": "SF",
-          "injury_probability": 0.35,
-          "projected_games_missed": 1.4,
+          "player": "Dawson Knox",
+          "position": "TE",
+          "team": "BUF",
+          "injury_probability": 0.21,
+          "projected_games_missed": 0.8,
           "durability": 5.0,
-          "risk_group": 2,
+          "risk_group": 1,
           "model_updated": "2026-07-07 14:19:43",
-          "recorded_injuries": 8
+          "recorded_injuries": 6
         },
         {
           "player": "Treylon Burks",
@@ -3436,6 +3425,17 @@
           "risk_group": 2,
           "model_updated": "2026-07-07 14:19:43",
           "recorded_injuries": 10
+        },
+        {
+          "player": "Christian Kirk",
+          "position": "WR",
+          "team": "SF",
+          "injury_probability": 0.35,
+          "projected_games_missed": 1.4,
+          "durability": 5.0,
+          "risk_group": 2,
+          "model_updated": "2026-07-07 14:19:43",
+          "recorded_injuries": 8
         },
         {
           "player": "Kaytron Allen",
@@ -3490,6 +3490,17 @@
           "durability": 5.0,
           "risk_group": 2,
           "model_updated": "2026-07-07 14:19:43",
+          "recorded_injuries": 6
+        },
+        {
+          "player": "Cedric Tillman",
+          "position": "WR",
+          "team": "UNS",
+          "injury_probability": 0.34,
+          "projected_games_missed": 0.9,
+          "durability": 3.06,
+          "risk_group": 2,
+          "model_updated": "2026-07-07 14:19:44",
           "recorded_injuries": 6
         },
         {
@@ -3933,17 +3944,6 @@
           "recorded_injuries": 1
         },
         {
-          "player": "Cedric Tillman",
-          "position": "WR",
-          "team": "CLE",
-          "injury_probability": 0.34,
-          "projected_games_missed": 0.9,
-          "durability": 3.06,
-          "risk_group": 2,
-          "model_updated": "2026-07-07 14:19:44",
-          "recorded_injuries": 6
-        },
-        {
           "player": "Emari Demercado",
           "position": "RB",
           "team": "KC",
@@ -4329,17 +4329,6 @@
           "recorded_injuries": 3
         },
         {
-          "player": "Quez Watkins",
-          "position": "WR",
-          "team": "PHI",
-          "injury_probability": 0.07,
-          "projected_games_missed": 0.6,
-          "durability": 5.0,
-          "risk_group": 1,
-          "model_updated": "2026-07-07 14:19:43",
-          "recorded_injuries": 0
-        },
-        {
           "player": "Jaleel McLaughlin",
           "position": "RB",
           "team": "DEN",
@@ -4349,6 +4338,17 @@
           "risk_group": 1,
           "model_updated": "2026-07-07 14:19:44",
           "recorded_injuries": 1
+        },
+        {
+          "player": "Quez Watkins",
+          "position": "WR",
+          "team": "PHI",
+          "injury_probability": 0.07,
+          "projected_games_missed": 0.6,
+          "durability": 5.0,
+          "risk_group": 1,
+          "model_updated": "2026-07-07 14:19:43",
+          "recorded_injuries": 0
         },
         {
           "player": "Malachi Corley",
@@ -4404,6 +4404,72 @@
           "risk_group": 3,
           "model_updated": "2026-07-07 14:19:43",
           "recorded_injuries": 17
+        },
+        {
+          "player": "Jayden Higgins",
+          "position": "WR",
+          "team": "HOU",
+          "injury_probability": 0.23,
+          "projected_games_missed": 1.4,
+          "durability": 5.0,
+          "risk_group": 1,
+          "model_updated": "2026-07-07 14:19:44",
+          "recorded_injuries": 1
+        },
+        {
+          "player": "Justin Fields",
+          "position": "QB",
+          "team": "KC",
+          "injury_probability": 0.4,
+          "projected_games_missed": 1.4,
+          "durability": 5.0,
+          "risk_group": 2,
+          "model_updated": "2025-10-27 15:23:40",
+          "recorded_injuries": 11
+        },
+        {
+          "player": "Ty Chandler",
+          "position": "RB",
+          "team": "NO",
+          "injury_probability": 0.17,
+          "projected_games_missed": 0.7,
+          "durability": 4.62,
+          "risk_group": 1,
+          "model_updated": "2026-07-07 14:19:44",
+          "recorded_injuries": 3
+        },
+        {
+          "player": "Kene Nwangwu",
+          "position": "RB",
+          "team": "NYJ",
+          "injury_probability": 0.07,
+          "projected_games_missed": 0.3,
+          "durability": 5.0,
+          "risk_group": 1,
+          "model_updated": "2026-07-07 14:19:43",
+          "recorded_injuries": 0
+        },
+        {
+          "player": "Joe Mixon",
+          "position": "RB",
+          "team": "UNS",
+          "injury_probability": 0.66,
+          "projected_games_missed": 2.6,
+          "durability": 5.0,
+          "risk_group": 4,
+          "model_updated": "2026-07-07 14:19:43",
+          "recorded_injuries": 10
+        },
+        {
+          "player": "Marcus Mariota",
+          "position": "QB",
+          "team": "WAS",
+          "injury_probability": 0.88,
+          "projected_games_missed": 3.0,
+          "durability": 3.21,
+          "risk_group": 5,
+          "model_updated": "2026-07-07 14:19:42",
+          "recorded_injuries": 15
         },
         {
           "player": "Skyy Moore",
@@ -4472,72 +4538,6 @@
           "recorded_injuries": 18
         },
         {
-          "player": "Marcus Mariota",
-          "position": "QB",
-          "team": "WAS",
-          "injury_probability": 0.88,
-          "projected_games_missed": 3.0,
-          "durability": 3.21,
-          "risk_group": 5,
-          "model_updated": "2026-07-07 14:19:42",
-          "recorded_injuries": 15
-        },
-        {
-          "player": "Jayden Higgins",
-          "position": "WR",
-          "team": "HOU",
-          "injury_probability": 0.23,
-          "projected_games_missed": 1.4,
-          "durability": 5.0,
-          "risk_group": 1,
-          "model_updated": "2026-07-07 14:19:44",
-          "recorded_injuries": 1
-        },
-        {
-          "player": "Justin Fields",
-          "position": "QB",
-          "team": "KC",
-          "injury_probability": 0.4,
-          "projected_games_missed": 1.4,
-          "durability": 5.0,
-          "risk_group": 2,
-          "model_updated": "2025-10-27 15:23:40",
-          "recorded_injuries": 11
-        },
-        {
-          "player": "Ty Chandler",
-          "position": "RB",
-          "team": "NO",
-          "injury_probability": 0.17,
-          "projected_games_missed": 0.7,
-          "durability": 4.62,
-          "risk_group": 1,
-          "model_updated": "2026-07-07 14:19:44",
-          "recorded_injuries": 3
-        },
-        {
-          "player": "Kene Nwangwu",
-          "position": "RB",
-          "team": "NYJ",
-          "injury_probability": 0.07,
-          "projected_games_missed": 0.3,
-          "durability": 5.0,
-          "risk_group": 1,
-          "model_updated": "2026-07-07 14:19:43",
-          "recorded_injuries": 0
-        },
-        {
-          "player": "Joe Mixon",
-          "position": "RB",
-          "team": "UNS",
-          "injury_probability": 0.66,
-          "projected_games_missed": 2.6,
-          "durability": 5.0,
-          "risk_group": 4,
-          "model_updated": "2026-07-07 14:19:43",
-          "recorded_injuries": 10
-        },
-        {
           "player": "Ja'Lynn Polk",
           "position": "WR",
           "team": "UNS",
@@ -4571,7 +4571,7 @@
           "recorded_injuries": 0
         }
       ],
-      "retrieved": "2026-08-27T14:33:39Z"
+      "retrieved": "2026-08-27T15:13:57Z"
     },
     "draftsharks_rookies": {
       "source_url": "https://www.draftsharks.com/nfl-rookie-model",
@@ -6174,7 +6174,7 @@
           "model_updated": "2026-04-28 17:25:19"
         }
       ],
-      "retrieved": "2026-08-27T14:33:39Z"
+      "retrieved": "2026-08-27T15:13:57Z"
     },
     "draftsharks_early_sos": {
       "source_url_pattern": "https://www.draftsharks.com/strength-of-schedule/{position}",
@@ -11477,7 +11477,7 @@
           }
         }
       ],
-      "retrieved": "2026-08-27T14:33:39Z"
+      "retrieved": "2026-08-27T15:13:57Z"
     },
     "draftsharks_superflex": {
       "source_url": "https://www.draftsharks.com/rankings/superflex",
@@ -11834,21 +11834,47 @@
           "three_d_value": "52"
         }
       ],
-      "retrieved": "2026-08-27T14:33:39Z"
+      "retrieved": "2026-08-27T15:13:57Z"
     },
     "rotowire_news": {
       "source_url": "https://www.rotowire.com/football/news.php",
       "items": [
         {
+          "player": "Leonard Williams",
+          "player_url": "https://www.rotowire.com/football/player/leonard-williams-10307",
+          "headline": "Inks extension with Seahawks",
+          "headline_url": "https://www.rotowire.com/football/headlines/leonard-williams-news-inks-extension-with-seahawks-634929",
+          "team": "SEA",
+          "position": "DE",
+          "date": "August 27, 2026",
+          "injury": null,
+          "update": "Williams has agreed to a three-year, $90 million contract extension with the Seahawks, Ian Rapoport of ESPN and NFL Network reports.",
+          "ranking_adjustment": 0,
+          "adjustment_note": "News is research context until a concrete fantasy impact is verified."
+        },
+        {
+          "player": "Cedric Tillman",
+          "player_url": "https://www.rotowire.com/football/player/cedric-tillman-16706",
+          "headline": "Being released by Cleveland",
+          "headline_url": "https://www.rotowire.com/football/headlines/cedric-tillman-injury-being-released-by-cleveland-634928",
+          "team": "CLE",
+          "position": "WR",
+          "date": "August 27, 2026",
+          "injury": "Undisclosed",
+          "update": "Tillman (undisclosed) is in line to be released by the Browns, Adam Schefter of ESPN reports.",
+          "ranking_adjustment": 0,
+          "adjustment_note": "News is research context until a concrete fantasy impact is verified."
+        },
+        {
           "player": "Alec Pierce",
           "player_url": "https://www.rotowire.com/football/player/alec-pierce-16022",
-          "headline": "Activated from Active/PUP list",
-          "headline_url": "https://www.rotowire.com/football/headlines/alec-pierce-injury-activated-from-activepup-list-634927",
+          "headline": "To be activated from Active/PUP list",
+          "headline_url": "https://www.rotowire.com/football/headlines/alec-pierce-injury-to-be-activated-from-activepup-list-634927",
           "team": "IND",
           "position": "WR",
           "date": "August 27, 2026",
           "injury": "Ankle",
-          "update": "Pierce (ankle) was activated from the Active/PUP list Thursday, Mike Chappell of Fox 59 News Indianapolis reports.",
+          "update": "Pierce (ankle) is slated to be activated from the Active/PUP list Thursday, Mike Chappell of Fox 59 News Indianapolis reports.",
           "ranking_adjustment": 0,
           "adjustment_note": "News is research context until a concrete fantasy impact is verified."
         },
@@ -12135,6 +12161,19 @@
           "date": "August 26, 2026",
           "injury": "Knee",
           "update": "McMillan (knee) didn't travel with the Buccaneers to Jacksonville for Wednesday's joint practice with the Jaguars, PewterReport.com reports.",
+          "ranking_adjustment": 0,
+          "adjustment_note": "News is research context until a concrete fantasy impact is verified."
+        },
+        {
+          "player": "Alec Pierce",
+          "player_url": "https://www.rotowire.com/football/player/alec-pierce-16022",
+          "headline": "Activated from Active/PUP list",
+          "headline_url": "https://www.rotowire.com/football/headlines/alec-pierce-injury-activated-from-activepup-list-634927",
+          "team": "IND",
+          "position": "WR",
+          "date": "August 27, 2026",
+          "injury": "Ankle",
+          "update": "Pierce (ankle) was activated from the Active/PUP list Thursday, Mike Chappell of Fox 59 News Indianapolis reports.",
           "ranking_adjustment": 0,
           "adjustment_note": "News is research context until a concrete fantasy impact is verified."
         },
@@ -13999,11 +14038,11 @@
         }
       ],
       "retention": "Current page plus up to 21 dated local snapshots; duplicate headlines removed.",
-      "retrieved": "2026-08-27T14:33:39Z"
+      "retrieved": "2026-08-27T15:13:57Z"
     },
     "espn_news": {
       "source_url": "https://www.espn.com/espn/rss/nfl/news",
-      "last_build": "Thu, 27 Aug 2026 14:32:03 GMT",
+      "last_build": "Thu, 27 Aug 2026 15:11:00 GMT",
       "items": [
         {
           "title": "Josh Allen, the jokester: Stories of the QB's wit from the locker room, field and sky",
@@ -14011,49 +14050,49 @@
           "published": "Thu, 27 Aug 2026 06:00:01 EST"
         },
         {
+          "title": "Source: Colts activating No. 1 WR Pierce off PUP",
+          "link": "https://www.espn.com/nfl/story/_/id/49742187/source-colts-activating-no-1-wr-alex-pierce-pup-list",
+          "published": "Thu, 27 Aug 2026 10:43:53 EST"
+        },
+        {
           "title": "NFL axing Pro Bowl Games, will still honor players",
           "link": "https://www.espn.com/nfl/story/_/id/49735246/nfl-eliminating-pro-bowl-games-name-pro-bowlers",
-          "published": "Thu, 27 Aug 2026 08:30:53 EST"
+          "published": "Thu, 27 Aug 2026 10:43:53 EST"
         },
         {
           "title": "Goodell discusses York arrest, says review ongoing",
           "link": "https://www.espn.com/nfl/story/_/id/49736317/roger-goodell-says-nfl-reviewing-jed-york-arrest-personal-conduct-policy-possible-discipline",
-          "published": "Thu, 27 Aug 2026 08:30:53 EST"
+          "published": "Thu, 27 Aug 2026 10:43:53 EST"
         },
         {
           "title": "Sources: Texans RT Smith avoids major injury",
           "link": "https://www.espn.com/nfl/story/_/id/49741167/sources-texans-braden-smith-avoids-long-term-injury",
-          "published": "Thu, 27 Aug 2026 08:30:53 EST"
+          "published": "Thu, 27 Aug 2026 10:43:53 EST"
         },
         {
           "title": "NFL signs new deals with trio of sportsbooks",
           "link": "https://www.espn.com/nfl/story/_/id/49740505/nfl-renews-draftkings-fanduel-deals-adds-fanatics",
-          "published": "Thu, 27 Aug 2026 08:30:53 EST"
+          "published": "Thu, 27 Aug 2026 10:43:53 EST"
         },
         {
           "title": "NFL to focus discipline on 5 health, safety fouls",
           "link": "https://www.espn.com/nfl/story/_/id/49734572/nfl-players-agree-focus-discipline-5-health-safety-fouls",
-          "published": "Thu, 27 Aug 2026 08:30:53 EST"
+          "published": "Thu, 27 Aug 2026 10:43:53 EST"
         },
         {
           "title": "Memo: NCAA defectors can't play in NFL in 2026",
           "link": "https://www.espn.com/nfl/story/_/id/49733978/sources-ncaa-defectors-play-nfl-team-2026",
-          "published": "Thu, 27 Aug 2026 08:30:53 EST"
+          "published": "Thu, 27 Aug 2026 10:43:53 EST"
         },
         {
           "title": "Falcons' Smith retired in '25 over mother's health",
           "link": "https://www.espn.com/nfl/story/_/id/49734622/falcons-zadarius-smith-retired-last-year-due-mother-health",
-          "published": "Thu, 27 Aug 2026 08:30:53 EST"
-        },
-        {
-          "title": "Signs taped to Jim Brown statue call out Watson",
-          "link": "https://www.espn.com/nfl/story/_/id/49735271/signs-taped-jim-brown-statue-browns-stadium-call-deshaun-watson-past",
-          "published": "Thu, 27 Aug 2026 08:30:53 EST"
+          "published": "Thu, 27 Aug 2026 10:43:53 EST"
         },
         {
           "title": "\ud83e\udd14 Projecting every team's 53-man roster in 2026",
           "link": "https://www.espn.com/nfl/story/_/id/49609341/2026-nfl-53-man-roster-projections-every-team-positions-cuts",
-          "published": "Thu, 27 Aug 2026 08:30:53 EST"
+          "published": "Thu, 27 Aug 2026 10:43:53 EST"
         },
         {
           "title": "From No. 1 to ... Cleveland: Solak ranks all 32 NFL teams by watchability",
@@ -14061,9 +14100,9 @@
           "published": "Thu, 27 Aug 2026 09:45:23 EST"
         },
         {
-          "title": "How is NFL dealing with players heading back to college? 'Cluster of all clusters'",
+          "title": "'I feel like I took a freakin' gummy': Inside the chaos of NFL players returning to college football",
           "link": "https://www.espn.com/nfl/story/_/id/49737553/nfl-dealing-players-returning-college-football-eligibility-ncaa-sec-big-ten-big-12-lsu-cluster",
-          "published": "Thu, 27 Aug 2026 08:35:32 EST"
+          "published": "Thu, 27 Aug 2026 11:00:47 EST"
         },
         {
           "title": "'Everybody's embracing everybody': How Cowboys' leadership council is taking pressure off Dak Prescott",
@@ -14141,7 +14180,7 @@
           "published": "Sat, 8 Aug 2026 17:58:41 EST"
         }
       ],
-      "retrieved": "2026-08-27T14:33:39Z"
+      "retrieved": "2026-08-27T15:13:57Z"
     },
     "ourlads_depth_charts": {
       "source_url": "https://www.ourlads.com/nfldepthcharts/depthcharts.aspx",
@@ -27672,7 +27711,7 @@
           ]
         }
       ],
-      "retrieved": "2026-08-27T14:33:39Z"
+      "retrieved": "2026-08-27T15:13:57Z"
     }
   },
   "warnings": []

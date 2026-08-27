@@ -12,6 +12,7 @@ from pathlib import Path
 
 APP = Path(__file__).resolve().parent
 ROOT = APP.parents[1]
+LIVE_STATE = APP / "data" / "live-draft-state.json"
 sys.path.insert(0, str(ROOT / "2026" / "Pipeline"))
 from player_names import normalize_player_name
 
@@ -42,7 +43,89 @@ class Handler(SimpleHTTPRequestHandler):
         self.end_headers()
         self.wfile.write(body)
 
+    def read_json_request(self) -> dict:
+        if not self.headers.get("Content-Type", "").startswith("application/json"):
+            raise ValueError("Requests must use JSON")
+        length = int(self.headers.get("Content-Length", "0"))
+        if length < 1 or length > 250_000:
+            raise ValueError("Request body must be between 1 and 250000 bytes")
+        value = json.loads(self.rfile.read(length))
+        if not isinstance(value, dict):
+            raise ValueError("Request body must be an object")
+        return value
+
+    def local_origin(self) -> bool:
+        origin = self.headers.get("Origin")
+        return not origin or origin in {"http://127.0.0.1:8765", "http://localhost:8765"}
+
+    def draft_config(self) -> dict:
+        return json.loads((ROOT / "2026" / "Config" / "current_draft.json").read_text())
+
+    def live_state(self) -> dict:
+        keepers = [
+            {"overall": item["overall_pick"], "round": item["round"], "manager": item["manager"], "player": item["player"], "type": "keeper", "status": item.get("status")}
+            for item in self.draft_config()["keepers"]
+        ]
+        if not LIVE_STATE.exists():
+            return {"version": 0, "picks": keepers, "history": []}
+        saved = json.loads(LIVE_STATE.read_text())
+        saved["picks"] = [pick for pick in saved.get("picks", []) if pick.get("type") != "keeper"] + keepers
+        return saved
+
+    def save_live_state(self, value: dict) -> None:
+        LIVE_STATE.parent.mkdir(parents=True, exist_ok=True)
+        temporary = LIVE_STATE.with_suffix(".tmp")
+        temporary.write_text(json.dumps(value, indent=2, sort_keys=True) + "\n")
+        temporary.replace(LIVE_STATE)
+
+    def validate_picks(self, picks: list[dict]) -> None:
+        seen_overall, seen_players = set(), set()
+        board = json.loads((APP / "data" / "draft-board.json").read_text())
+        known = {normalize_player_name(item["player"]) for item in board["players"]}
+        for pick in picks:
+            if not isinstance(pick, dict) or not isinstance(pick.get("overall"), int) or not 1 <= pick["overall"] <= 170:
+                raise ValueError("Every pick needs an overall number from 1 to 170")
+            if pick["overall"] in seen_overall: raise ValueError("A pick number may be recorded only once")
+            seen_overall.add(pick["overall"])
+            if not isinstance(pick.get("player"), str) or not pick["player"].strip(): raise ValueError("Every pick needs a player name")
+            if pick.get("type") != "placeholder":
+                key = normalize_player_name(pick["player"])
+                if key not in known: raise ValueError(f"Unknown player: {pick['player']}")
+                if key in seen_players: raise ValueError("A player may be recorded only once")
+                seen_players.add(key)
+
+    def do_GET(self):
+        if self.path == "/api/draft-state":
+            self.send_json(200, self.live_state())
+            return
+        super().do_GET()
+
     def do_POST(self):
+        if self.path in {"/api/draft-state/sync", "/api/draft-state/reconcile", "/api/draft-state/undo", "/api/draft-state/reset"}:
+            if not self.local_origin(): self.send_json(403, {"error": "Draft state requests must come from the local draft room"}); return
+            try:
+                request = self.read_json_request()
+                with LOCK:
+                    current = self.live_state()
+                    if self.path == "/api/draft-state/reset":
+                        if request.get("confirm") is not True: raise ValueError("Reset requires confirm: true")
+                        current = {"version": current.get("version", 0) + 1, "picks": [], "history": []}
+                    elif self.path == "/api/draft-state/undo":
+                        live = [p for p in current["picks"] if p.get("type") != "keeper"]
+                        if live: current["picks"].remove(max(live, key=lambda item: item["overall"]))
+                        current["version"] = current.get("version", 0) + 1
+                    else:
+                        picks = request.get("picks")
+                        if not isinstance(picks, list): raise ValueError("picks must be a list")
+                        if request.get("expected_version") != current.get("version", 0): raise ValueError("Draft state changed; reload before writing")
+                        self.validate_picks(picks)
+                        current = {"version": current.get("version", 0) + 1, "picks": picks, "history": []}
+                    self.validate_picks(current["picks"])
+                    self.save_live_state(current)
+                    self.send_json(200, self.live_state())
+            except (ValueError, json.JSONDecodeError) as error:
+                self.send_json(400, {"error": str(error)})
+            return
         if self.path != "/api/refresh-rebuild":
             self.send_json(404, {"error": "Unknown operation"})
             return

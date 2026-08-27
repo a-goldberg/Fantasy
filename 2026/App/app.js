@@ -21,6 +21,7 @@ const state = {
   history: [],
   weights: { ...DEFAULT_WEIGHTS },
   personalPriorities: {},
+  apiVersion: 0,
 };
 const ROSTER_POSITIONS = ["QB", "RB", "WR", "TE", "K", "DST"];
 
@@ -1194,6 +1195,16 @@ function persist() {
       personalPriorities: state.personalPriorities,
     }),
   );
+  if (DRAFT_SERVER_ORIGINS.has(window.location.origin)) {
+    fetch("/api/draft-state/sync", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ expected_version: state.apiVersion, picks: state.picks }),
+    })
+      .then((response) => response.ok ? response.json() : null)
+      .then((saved) => { if (saved) state.apiVersion = saved.version; })
+      .catch(() => {});
+  }
 }
 function restore() {
   const saved = JSON.parse(localStorage.getItem(STORAGE_KEY) || "null");
@@ -1928,6 +1939,19 @@ async function init() {
     response.json(),
   );
   restore();
+  if (DRAFT_SERVER_ORIGINS.has(window.location.origin)) {
+    try {
+      const response = await fetch("/api/draft-state", { cache: "no-store" });
+      if (response.ok) {
+        const remote = await response.json();
+        state.apiVersion = remote.version || 0;
+        const saved = JSON.parse(localStorage.getItem(STORAGE_KEY) || "null");
+        if (!saved && Array.isArray(remote.picks)) state.picks = remote.picks;
+      }
+    } catch (_) {
+      // The UI remains usable when the optional local API is unavailable.
+    }
+  }
   $("#undo").addEventListener("click", () => {
     if (!state.history.length) return;
     state.picks = JSON.parse(state.history.pop());

@@ -24,6 +24,22 @@ The roster panel groups Goldberg's players by position and shows NFL team, bye w
 
 The header's **Your next pick** value shows Goldberg's upcoming selection while another manager is on the clock.  While Goldberg is currently picking, it advances to the following open Goldberg selection and skips any intervening keeper-occupied round.
 
+## Local draft-state API
+
+The local server also maintains a small, validated pick ledger at `2026/App/data/live-draft-state.json`.  It is loopback-only and is intended for this draft room, not for public deployment.  The browser syncs its recorded picks after each change, while an automation can reconcile a numbered mock-draft board without replaying every click.
+
+- `GET /api/draft-state` returns the current ledger and configured keepers.
+- `POST /api/draft-state/sync` accepts `{ expected_version, picks }` and rejects stale versions, duplicate pick numbers, duplicate players, malformed entries, and unknown players.
+- `POST /api/draft-state/reconcile` currently accepts the same safe payload for numbered source-board reconciliation.
+- `POST /api/draft-state/undo` removes only the latest non-keeper selection.
+- `POST /api/draft-state/reset` requires `{ "confirm": true }`.
+
+The API does not contain a second recommendation engine.  The browser remains responsible for scoring and display; the API is the durable draft-entry boundary.
+
+### Future public-app direction
+
+If this becomes a shared hosted app, retain the versioned event-ledger contract and replace the local JSON file with a database.  Add league and user identifiers, authentication, source-specific player aliases, and audit metadata before exposing it beyond the loopback server.  Keep paid-source credentials and refresh jobs separate from public draft-state endpoints.
+
 ## Recommendation columns
 
 - **Optimized picks** combine marginal lineup value with roster need, the cost of waiting until the next pick, bye coverage, positional tier cliffs, current draft-room trends, league history, structured models, and reviewed context.

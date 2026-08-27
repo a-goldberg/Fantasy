@@ -2,15 +2,41 @@
   "source_url": "https://www.rotowire.com/football/news.php",
   "items": [
     {
+      "player": "Leonard Williams",
+      "player_url": "https://www.rotowire.com/football/player/leonard-williams-10307",
+      "headline": "Inks extension with Seahawks",
+      "headline_url": "https://www.rotowire.com/football/headlines/leonard-williams-news-inks-extension-with-seahawks-634929",
+      "team": "SEA",
+      "position": "DE",
+      "date": "August 27, 2026",
+      "injury": null,
+      "update": "Williams has agreed to a three-year, $90 million contract extension with the Seahawks, Ian Rapoport of ESPN and NFL Network reports.",
+      "ranking_adjustment": 0,
+      "adjustment_note": "News is research context until a concrete fantasy impact is verified."
+    },
+    {
+      "player": "Cedric Tillman",
+      "player_url": "https://www.rotowire.com/football/player/cedric-tillman-16706",
+      "headline": "Being released by Cleveland",
+      "headline_url": "https://www.rotowire.com/football/headlines/cedric-tillman-injury-being-released-by-cleveland-634928",
+      "team": "CLE",
+      "position": "WR",
+      "date": "August 27, 2026",
+      "injury": "Undisclosed",
+      "update": "Tillman (undisclosed) is in line to be released by the Browns, Adam Schefter of ESPN reports.",
+      "ranking_adjustment": 0,
+      "adjustment_note": "News is research context until a concrete fantasy impact is verified."
+    },
+    {
       "player": "Alec Pierce",
       "player_url": "https://www.rotowire.com/football/player/alec-pierce-16022",
-      "headline": "Activated from Active/PUP list",
-      "headline_url": "https://www.rotowire.com/football/headlines/alec-pierce-injury-activated-from-activepup-list-634927",
+      "headline": "To be activated from Active/PUP list",
+      "headline_url": "https://www.rotowire.com/football/headlines/alec-pierce-injury-to-be-activated-from-activepup-list-634927",
       "team": "IND",
       "position": "WR",
       "date": "August 27, 2026",
       "injury": "Ankle",
-      "update": "Pierce (ankle) was activated from the Active/PUP list Thursday, Mike Chappell of Fox 59 News Indianapolis reports.",
+      "update": "Pierce (ankle) is slated to be activated from the Active/PUP list Thursday, Mike Chappell of Fox 59 News Indianapolis reports.",
       "ranking_adjustment": 0,
       "adjustment_note": "News is research context until a concrete fantasy impact is verified."
     },
@@ -297,6 +323,19 @@
       "date": "August 26, 2026",
       "injury": "Knee",
       "update": "McMillan (knee) didn't travel with the Buccaneers to Jacksonville for Wednesday's joint practice with the Jaguars, PewterReport.com reports.",
+      "ranking_adjustment": 0,
+      "adjustment_note": "News is research context until a concrete fantasy impact is verified."
+    },
+    {
+      "player": "Alec Pierce",
+      "player_url": "https://www.rotowire.com/football/player/alec-pierce-16022",
+      "headline": "Activated from Active/PUP list",
+      "headline_url": "https://www.rotowire.com/football/headlines/alec-pierce-injury-activated-from-activepup-list-634927",
+      "team": "IND",
+      "position": "WR",
+      "date": "August 27, 2026",
+      "injury": "Ankle",
+      "update": "Pierce (ankle) was activated from the Active/PUP list Thursday, Mike Chappell of Fox 59 News Indianapolis reports.",
       "ranking_adjustment": 0,
       "adjustment_note": "News is research context until a concrete fantasy impact is verified."
     },
@@ -2161,5 +2200,5 @@
     }
   ],
   "retention": "Current page plus up to 21 dated local snapshots; duplicate headlines removed.",
-  "retrieved": "2026-08-27T14:33:39Z"
+  "retrieved": "2026-08-27T15:13:57Z"
 }
