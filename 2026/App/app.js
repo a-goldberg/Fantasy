@@ -661,7 +661,13 @@ function positionNeed(player, targetPick) {
   let score = 0;
   if (player.position === "QB") {
     if (count < 2) score += round <= 6 ? 8 : 14;
-    else if (count < 3) score += round >= 7 ? 9 : 3;
+    else if (count < Number(state.data.policy?.soft_targets?.preferred_qb || 3))
+      score += softTargetUrgencyDecision({
+        position: "QB",
+        counts,
+        rosterSize: userPicks().length,
+        policy: state.data.policy,
+      });
     else if (count === 3) score -= 10;
     else score -= 40;
   }
@@ -685,9 +691,131 @@ function positionNeed(player, targetPick) {
   return score;
 }
 
+function minimumRosterTargets(policy) {
+  const hard = policy?.hard_constraints || {};
+  const format = policy?.league_format || {};
+  return {
+    QB: Math.max(
+      Number(hard.minimum_qb || format.starting_qb || 2),
+      Number(format.starting_qb || 0),
+    ),
+    RB: Number(format.starting_rb || 2),
+    WR: Math.max(Number(hard.minimum_wr || 5), Number(format.starting_wr || 0)),
+    TE: Number(format.starting_te || 1),
+    K: Number(hard.kickers || 1),
+    DST: Number(hard.defenses || 1),
+  };
+}
+
+function softTargetUrgencyDecision({
+  position,
+  counts,
+  rosterSize,
+  policy,
+}) {
+  const softTargets = policy?.soft_targets || {};
+  const targets = {
+    QB: Number(softTargets.preferred_qb || 0),
+  };
+  const target = Number(targets[position] || 0);
+  const count = Number(counts[position] || 0);
+  if (!target || count >= target) return 0;
+  const minimums = minimumRosterTargets(policy);
+  const minimumDeficit = Object.entries(minimums).reduce(
+    (total, [neededPosition, required]) =>
+      total + Math.max(0, Number(required) - Number(counts[neededPosition] || 0)),
+    0,
+  );
+  const rounds = Number(policy?.league_format?.rounds || 17);
+  const remainingSlots = Math.max(0, rounds - Number(rosterSize || 0));
+  const discretionarySlack = Math.max(0, remainingSlots - minimumDeficit);
+  const softDeficit = target - count;
+  if (discretionarySlack > softDeficit + 2) return 0;
+  return clamp((softDeficit + 3 - discretionarySlack) * 3, 0, 9);
+}
+
+function marginalLineupRoleDecision({ position, counts, policy }) {
+  const format = policy?.league_format || {};
+  const settings = policy?.marginal_lineup_value || {};
+  const directSlots = {
+    QB: Number(format.starting_qb || 0),
+    RB: Number(format.starting_rb || 0),
+    WR: Number(format.starting_wr || 0),
+    TE: Number(format.starting_te || 0),
+    K: 1,
+    DST: 1,
+  };
+  const count = Number(counts[position] || 0);
+  if (count < Number(directSlots[position] || 0))
+    return {
+      role: "starter",
+      multiplier: Number(settings.starter_multiplier ?? 1),
+    };
+  if (
+    Number(format.starting_flex || 0) > 0 &&
+    ["RB", "WR", "TE"].includes(position) &&
+    count === Number(directSlots[position] || 0)
+  )
+    return {
+      role: "flex",
+      multiplier: Number(settings.flex_multiplier ?? 0.85),
+    };
+  return {
+    role: "reserve",
+    multiplier: Number(settings.bench_multipliers?.[position] ?? 0.35),
+  };
+}
+
+function expectedNextPickValueDecision({ currentValue, alternatives, share }) {
+  let reachProbability = 1;
+  let expectedValue = 0;
+  [...alternatives]
+    .sort((a, b) => Number(b.value || 0) - Number(a.value || 0))
+    .slice(0, 8)
+    .forEach((alternative) => {
+      const goneChance = Number.isFinite(alternative.goneChance)
+        ? clamp(Number(alternative.goneChance), 0, 1)
+        : 0;
+      const surviveChance = 1 - goneChance;
+      expectedValue +=
+        reachProbability * surviveChance * Number(alternative.value || 0);
+      reachProbability *= goneChance;
+    });
+  return {
+    expectedValue,
+    waitCost: clamp(
+      (Number(currentValue || 0) - expectedValue) * Number(share ?? 0.35),
+      0,
+      12,
+    ),
+  };
+}
+
+function baselineCoreValue(player) {
+  const rankValue = 101 - Math.min(100, player.base_composite_rank * 0.55);
+  return player.base_quality_score * 0.72 + rankValue * 0.18;
+}
+
+function nextPickOpportunityCost(player, nextPick, lineupRole) {
+  if (!nextPick) return { expectedValue: 0, waitCost: 0 };
+  const alternatives = availablePlayers()
+    .filter(
+      (candidate) =>
+        candidate.player !== player.player && candidate.position === player.position,
+    )
+    .map((candidate) => ({
+      value: baselineCoreValue(candidate) * lineupRole.multiplier,
+      goneChance: availability(candidate, nextPick),
+    }));
+  return expectedNextPickValueDecision({
+    currentValue: baselineCoreValue(player) * lineupRole.multiplier,
+    alternatives,
+    share: state.data.policy?.marginal_lineup_value?.wait_cost_share,
+  });
+}
+
 function scorePlayer(player, targetPick, nextPick) {
   const goneChance = availability(player, nextPick);
-  const availabilityBasis = Number.isFinite(goneChance) ? goneChance : 0;
   const rankValue = 101 - Math.min(100, player.base_composite_rank * 0.55);
   const marketValue = player.adp
     ? clamp((targetPick - player.adp) * 0.35, -8, 9)
@@ -721,11 +849,21 @@ function scorePlayer(player, targetPick, nextPick) {
     sourceCount: player.source_count,
     adpSources: player.adp_sources,
   });
+  const lineupRole = marginalLineupRoleDecision({
+    position: player.position,
+    counts: rosterCounts(),
+    policy: state.data.policy,
+  });
+  const baselineCore = player.base_quality_score * 0.72 + rankValue * 0.18;
+  const opportunityCost = nextPickOpportunityCost(
+    player,
+    nextPick,
+    lineupRole,
+  );
   return {
     optimized:
-      player.base_quality_score * 0.72 +
-      rankValue * 0.18 +
-      availabilityBasis * 8 * state.weights.availability +
+      baselineCore * lineupRole.multiplier +
+      opportunityCost.waitCost * state.weights.availability +
       marketValue +
       need * state.weights.roster +
       roomTrend.score * state.weights.roomTrend +
@@ -742,10 +880,13 @@ function scorePlayer(player, targetPick, nextPick) {
       evidenceQuality.total +
       handcuff.score * state.weights.handcuffs,
     consensus:
-      player.base_quality_score * 0.78 + rankValue * 0.17 + marketValue * 0.5,
+      (player.base_quality_score * 0.78 + rankValue * 0.17) *
+        lineupRole.multiplier +
+      opportunityCost.waitCost +
+      marketValue * 0.5,
     wildcard:
-      player.base_quality_score * 0.55 +
-      availabilityBasis * 12 * state.weights.availability +
+      player.base_quality_score * 0.55 * lineupRole.multiplier +
+      opportunityCost.waitCost * 1.25 * state.weights.availability +
       marketGap.adjustment +
       Math.max(0, need) * 0.5 * state.weights.roster +
       roomTrend.score * 0.8 * state.weights.roomTrend +
@@ -761,6 +902,8 @@ function scorePlayer(player, targetPick, nextPick) {
       evidenceQuality.total +
       handcuff.score * state.weights.handcuffs,
     goneChance,
+    lineupRole,
+    opportunityCost,
     need,
     bye,
     context,
@@ -852,8 +995,11 @@ function describe(entry, kind, target, next) {
     : "No matched public ADP";
   const source = `${player.source_count} ranking source${player.source_count === 1 ? "" : "s"}`;
   const cases = {
-    optimized: `${player.position} value adjusted for your current roster, bye coverage, and the ${next ? next - target : 0}-pick wait after this selection.`,
-    consensus: `Composite rank No. ${player.base_composite_rank}, using the current expert inputs as the neutral baseline.`,
+    optimized:
+      entry.lineupRole?.role === "reserve"
+        ? `${player.position} reserve value adjusted for expected lineup use, bye coverage, and the ${next ? next - target : 0}-pick wait after this selection.`
+        : `${player.position} ${entry.lineupRole?.role || "lineup"} value adjusted for your current roster and the ${next ? next - target : 0}-pick wait after this selection.`,
+    consensus: `Composite rank No. ${player.base_composite_rank}, adjusted only for ${entry.lineupRole?.role || "lineup"} use and the cost of waiting.`,
     wildcard: player.adp
       ? `A defensible departure from the top of the board: the quality-versus-market gap creates upside without reaching blindly.`
       : `A speculative option supported by an explicit upside signal despite missing public market data.`,
@@ -1859,6 +2005,11 @@ if (typeof module !== "undefined" && module.exports)
     handcuffRelationshipDecision,
     displayedNextUserOverall,
     endgameSpecialistAdjustment,
+    minimumRosterTargets,
+    softTargetUrgencyDecision,
+    marginalLineupRoleDecision,
+    expectedNextPickValueDecision,
+    baselineCoreValue,
   };
 
 if (typeof document !== "undefined") {

@@ -38,7 +38,7 @@
     }
   },
   "hard_constraints": {
-    "minimum_qb": 3,
+    "minimum_qb": 2,
     "maximum_qb": 4,
     "minimum_wr": 5,
     "kickers": 1,
@@ -48,6 +48,7 @@
     "do_not_invent_missing_player_data": true
   },
   "soft_targets": {
+    "preferred_qb": 3,
     "preferred_wr": 6,
     "first_wr_by_round": 4,
     "three_wr_by_round": 8,
@@ -66,6 +67,19 @@
       "condition": "Do not sacrifice the fifth WR, mandatory bye coverage, or a major tier value."
     },
     "k_dst_timing": "Prefer the final three rounds unless a major value or league run changes replacement cost."
+  },
+  "marginal_lineup_value": {
+    "starter_multiplier": 1,
+    "flex_multiplier": 0.85,
+    "bench_multipliers": {
+      "QB": 0.28,
+      "RB": 0.52,
+      "WR": 0.52,
+      "TE": 0.3,
+      "K": 0.2,
+      "DST": 0.2
+    },
+    "wait_cost_share": 0.35
   },
   "bye_penalties": {
     "QB": "Very high; do not duplicate among the first three.",

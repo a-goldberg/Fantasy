@@ -8,7 +8,8 @@ const {
   recommendationPolicyDecision, draftRoomTrendDecision, personalPriorityDecision,
   marketAvailabilityDecision, wildcardMarketGapDecision, wildcardMarketGap, evidenceQualityAdjustment, wildcardEvidenceDecision,
   handcuffBoostDecision, handcuffRelationshipDecision, endgameSpecialistAdjustment,
-  displayedNextUserOverall,
+  displayedNextUserOverall, softTargetUrgencyDecision, marginalLineupRoleDecision,
+  expectedNextPickValueDecision, baselineCoreValue,
 } = require("../App/app.js");
 
 assert.equal(displayedNextUserOverall({ current: 124, target: 124, next: 137, currentOwner: "Goldberg", userManager: "Goldberg" }), 137, "While Goldberg is on the clock, the header shows the pick after the current selection");
@@ -25,6 +26,46 @@ for (const column of ["optimized", "consensus", "wildcard"]) {
   assert.equal(eligible("WR", threeQbsNoSkillPlayers, 3, 3, column), true, `Round 3 ${column} must retain WRs`);
   assert.equal(eligible("RB", threeQbsNoSkillPlayers, 3, 3, column), true, `Round 3 ${column} must retain RBs`);
 }
+
+const staffordAndEliteQb = { QB: 2, RB: 0, WR: 0, TE: 0, K: 0, DST: 0 };
+const qb3Role = marginalLineupRoleDecision({ position: "QB", counts: staffordAndEliteQb, policy });
+const rb1Role = marginalLineupRoleDecision({ position: "RB", counts: staffordAndEliteQb, policy });
+const wr1Role = marginalLineupRoleDecision({ position: "WR", counts: staffordAndEliteQb, policy });
+assert.equal(qb3Role.role, "reserve", "Stafford plus an elite QB makes QB3 a reserve, not a third starter");
+assert.equal(qb3Role.multiplier, 0.28, "QB3 receives only expected reserve-use value");
+assert.equal(rb1Role.role, "starter", "The first RB still fills a weekly starting slot");
+assert.equal(wr1Role.role, "starter", "The first WR still fills a weekly starting slot");
+assert.ok(rb1Role.multiplier > qb3Role.multiplier && wr1Role.multiplier > qb3Role.multiplier, "Open RB/WR starter slots carry more marginal lineup value than QB3");
+
+assert.equal(
+  softTargetUrgencyDecision({ position: "QB", counts: staffordAndEliteQb, rosterSize: 2, policy }),
+  0,
+  "The preferred third QB does not create early-draft urgency while core starters remain open",
+);
+assert.ok(
+  softTargetUrgencyDecision({ position: "QB", counts: { QB: 2, RB: 5, WR: 5, TE: 1, K: 1, DST: 0 }, rosterSize: 15, policy }) > 0,
+  "QB3 depth becomes useful when the draft is closing and the core roster is built",
+);
+
+const reserveWait = expectedNextPickValueDecision({
+  currentValue: 20,
+  alternatives: [{ value: 18, goneChance: 0.2 }],
+  share: 0.35,
+});
+const starterWait = expectedNextPickValueDecision({
+  currentValue: 55,
+  alternatives: [{ value: 42, goneChance: 0.8 }],
+  share: 0.35,
+});
+assert.ok(starterWait.waitCost > reserveWait.waitCost, "Waiting costs more when a starter tier is likely to disappear than when reserve QB value remains");
+
+const jaydenDaniels = board.players.find((player) => player.player === "Jayden Daniels");
+const derrickHenry = board.players.find((player) => player.player === "Derrick Henry");
+assert.ok(jaydenDaniels && derrickHenry, "The early-QB regression players remain on the generated board");
+assert.ok(
+  baselineCoreValue(derrickHenry) * rb1Role.multiplier > baselineCoreValue(jaydenDaniels) * qb3Role.multiplier,
+  "A starter-level RB's marginal core value beats QB3 after Stafford and a first-round passer are rostered",
+);
 
 const fourQbs = { QB: 4, RB: 4, WR: 5, TE: 1, K: 0, DST: 0 };
 for (const column of ["optimized", "consensus", "wildcard"]) {

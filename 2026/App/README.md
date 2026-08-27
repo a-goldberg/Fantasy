@@ -26,19 +26,21 @@ The header's **Your next pick** value shows Goldberg's upcoming selection while 
 
 ## Recommendation columns
 
-- **Optimized picks** combine baseline player quality with roster need, likely availability, bye coverage, positional tier cliffs, current draft-room trends, league history, structured models, and reviewed context.
-- **Consensus picks** stay close to the neutral expert board and market value.  Tuning controls do not change this column.
+- **Optimized picks** combine marginal lineup value with roster need, the cost of waiting until the next pick, bye coverage, positional tier cliffs, current draft-room trends, league history, structured models, and reviewed context.
+- **Consensus picks** stay close to the neutral expert board and market value, but discount players whose likely role is reserve depth.  Tuning controls do not change this column.
 - **Wildcard picks** surface defensible upside and market gaps.  Hard roster rules still apply, so this column cannot recommend an otherwise prohibited fifth QB or an impossible roster construction.
 
 Missing market data is neutral, not upside: it contributes no availability probability and no expert-versus-market gap.  Market-gap bonuses are reduced when the expert board has thin coverage or public ADP sources disagree, and a one-source expert gap is capped at five points.  Before Round 11, a player supported by fewer than two baseline ranking sources needs at least two independent upside signals, including approved analyst or ranking support, to enter Wildcards.  Rounds 11–13 loosen that requirement, while a qualified structured model alone is reserved for Rounds 14–17.  A Personal Priority boost remains a deliberate override.  Thin source coverage and buried RB/WR/TE depth-chart roles also receive small reliability adjustments in Optimized and Wildcard scoring.  Consensus remains the unmodified baseline comparison.
 
-Recommendation eligibility is separate from scoring.  Once three QBs are rostered, another QB is excluded until the late-draft fourth-QB conditions are satisfied.  A fourth QB may then appear only as a wildcard.  A fifth QB is never recommended.  The same feasibility gate prevents extra K/DST selections, prevents a third TE, and preserves enough remaining picks to complete the league's required roster.
+Recommendation eligibility is separate from scoring.  Two QBs are the hard starter requirement; a third QB is a preferred end-state reserve, not a third starter.  Once three QBs are rostered, another QB is excluded until the late-draft fourth-QB conditions are satisfied.  A fourth QB may then appear only as a wildcard.  A fifth QB is never recommended.  The same feasibility gate prevents extra K/DST selections, prevents a third TE, and preserves enough remaining picks to complete the league's required roster.
+
+Candidate quality is converted to marginal lineup value before ranking.  A player filling an open weekly starter receives full baseline credit, a likely flex receives partial credit, and reserve players receive only their expected-use share.  In particular, after Stafford and another starting QB are rostered, QB3 is valued as bye/injury depth.  The model also estimates the best same-position value likely to survive until Goldberg's next pick.  Urgency comes from the expected drop between now and then, so an early QB3 can still win when the tier loss truly justifies it, but it is not promoted simply because the final roster prefers three quarterbacks.
 
 ## Availability and live draft trends
 
 These are separate signals:
 
-- **Availability risk** estimates whether a specific player will be gone before Goldberg's next pick.  It uses public two-QB ADP and source spread.  The Availability tuning control changes this market-based influence.
+- **Availability risk** estimates which same-position alternatives are likely to survive until Goldberg's next pick.  It uses public two-QB ADP and source spread to measure the cost of waiting, rather than awarding every likely-to-disappear player the same generic bonus.  The Availability tuning control changes this opportunity-cost influence.
 - **Draft-room trends** watches the positions selected in the six most recent completed picks.  Three or more picks at one position creates run pressure.  The pressure is larger when Goldberg is still thin at that position, so the app can react to a WR run without blindly chasing every run.  The Draft-room trends tuning control changes this influence.
 - **Roster need** handles Goldberg's own construction independently.  For example, a roster with four RBs and fewer than three WRs receives additional WR urgency because the league starts three receivers.
 

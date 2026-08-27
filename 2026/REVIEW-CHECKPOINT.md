@@ -19,6 +19,7 @@ Date: Aug. 20, 2026
 - Built a dependency-free, responsive draft-room application with optimized, consensus, and wildcard recommendation columns.
 - Added live pick entry, undo, automatic Stafford reservation at pick 64, roster tracking, recalculation after every pick, player research cards, and 32 NFL team-sheet foundations.
 - Separated market availability from player quality and capped sourced context adjustments; unsourced narrative has exactly zero ranking effect.
+- Changed recommendation scoring to marginal lineup value: open starters receive full credit, flex and reserve roles receive expected-use credit, and next-pick urgency reflects the projected same-position tier loss.  QB3 is now a soft depth target rather than a hard third starter.
 - Added a validation gate covering player-pool size, duplicate names, positions, ADP match rate, all 32 team sheets, Goldberg's snake picks, and the Stafford keeper slot.
 - Added the reported 2026 pick swap: Barry owns Jeff's Round 12 selection (pick 116), and Jeff owns Barry's Round 17 selection (pick 168).  Live pick ownership now follows the trade map.
 - Marked Matthew Stafford as Goldberg's confirmed Round 7 keeper at pick 64.
