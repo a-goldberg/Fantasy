@@ -1,0 +1,241 @@
+{
+  "source": {
+    "title": "RB-Grid-August",
+    "source_id": "1aNA4XX1WcImFMs1GlDkUqFdw1OOU_srDus8HFVwpnHk",
+    "source_url": "https://docs.google.com/spreadsheets/d/1aNA4XX1WcImFMs1GlDkUqFdw1OOU_srDus8HFVwpnHk/edit",
+    "sheet": "Sheet2",
+    "range": "A1:E41",
+    "retrieved_at": "2026-08-26",
+    "source_updated_at": "2026-08-26T17:23:28.770Z",
+    "format": "Google Sheets displayed values",
+    "validation_status": "validated",
+    "source_article_url": "https://www.fantasyguru.com/2026-rb-handcuff-grid",
+    "note": "Compact RB starter, primary handcuff, and pass-down role snapshot."
+  },
+  "backfields": [
+    {
+      "rank": 1,
+      "team": "Buffalo Bills",
+      "starter": "James Cook",
+      "handcuff": "Ray Davis",
+      "third_down": "James Cook"
+    },
+    {
+      "rank": 2,
+      "team": "Los Angeles Chargers",
+      "starter": "Omarion Hampton",
+      "handcuff": "Kimani Vidal",
+      "third_down": "Keaton Mitchell"
+    },
+    {
+      "rank": 3,
+      "team": "Chicago Bears",
+      "starter": "D'Andre Swift",
+      "handcuff": "Kyle Monangai",
+      "third_down": "D'Andre Swift"
+    },
+    {
+      "rank": 4,
+      "team": "San Francisco 49ers",
+      "starter": "Christian McCaffrey",
+      "handcuff": "Jordan James",
+      "third_down": "Christian McCaffrey"
+    },
+    {
+      "rank": 5,
+      "team": "Las Vegas Raiders",
+      "starter": "Ashton Jeanty",
+      "handcuff": "Mike Washington",
+      "third_down": "Ashton Jeanty"
+    },
+    {
+      "rank": 6,
+      "team": "Philadelphia Eagles",
+      "starter": "Saquon Barkley",
+      "handcuff": "Tank Bigsby",
+      "third_down": "Saquon Barkley"
+    },
+    {
+      "rank": 7,
+      "team": "Kansas City Chiefs",
+      "starter": "Kenneth Walker",
+      "handcuff": "Emmett Johnson",
+      "third_down": "Brashard Smith"
+    },
+    {
+      "rank": 8,
+      "team": "Baltimore Ravens",
+      "starter": "Derrick Henry",
+      "handcuff": "Adam Randall",
+      "third_down": "Justice Hill"
+    },
+    {
+      "rank": 9,
+      "team": "Jacksonville Jaguars",
+      "starter": "Bhayshul Tuten",
+      "handcuff": "Chris Rodriguez",
+      "third_down": "Bhayshul Tuten"
+    },
+    {
+      "rank": 10,
+      "team": "Atlanta Falcons",
+      "starter": "Bijan Robinson",
+      "handcuff": "Brian Robinson",
+      "third_down": "Bijan Robinson"
+    },
+    {
+      "rank": 11,
+      "team": "Detroit Lions",
+      "starter": "Jahmyr Gibbs",
+      "handcuff": "Isiah Pacheco",
+      "third_down": "Jahmyr Gibbs"
+    },
+    {
+      "rank": 12,
+      "team": "Los Angeles Rams",
+      "starter": "Kyren Williams",
+      "handcuff": "Blake Corum",
+      "third_down": "Kyren Williams"
+    },
+    {
+      "rank": 13,
+      "team": "Green Bay Packers",
+      "starter": "Josh Jacobs",
+      "handcuff": "Marshawn Lloyd",
+      "third_down": "Josh Jacobs"
+    },
+    {
+      "rank": 14,
+      "team": "Tampa Bay Buccaneers",
+      "starter": "Bucky Irving",
+      "handcuff": "Kenneth Gainwell",
+      "third_down": "Kenneth Gainwell"
+    },
+    {
+      "rank": 15,
+      "team": "New England Patriots",
+      "starter": "Rhamondre Stevenson",
+      "handcuff": "TreVeyon Henderson",
+      "third_down": "TreVeyon Henderson"
+    },
+    {
+      "rank": 16,
+      "team": "Pittsburgh Steelers",
+      "starter": "Rico Dowdle",
+      "handcuff": "Jaylen Warren",
+      "third_down": "Jaylen Warren"
+    },
+    {
+      "rank": 17,
+      "team": "Cincinnati Bengals",
+      "starter": "Chase Brown",
+      "handcuff": "Tahj Brooks",
+      "third_down": "Chase Brown"
+    },
+    {
+      "rank": 18,
+      "team": "Miami Dolphins",
+      "starter": "De'Von Achane",
+      "handcuff": "Jaylen Wright",
+      "third_down": "De'Von Achane"
+    },
+    {
+      "rank": 19,
+      "team": "Indianapolis Colts",
+      "starter": "Jonathan Taylor",
+      "handcuff": "Seth McGowan",
+      "third_down": "Jonathan Taylor"
+    },
+    {
+      "rank": 20,
+      "team": "Arizona Cardinals",
+      "starter": "Jeremiyah Love",
+      "handcuff": "Tyler Allgeier",
+      "third_down": "Jeremiyah Love"
+    },
+    {
+      "rank": 21,
+      "team": "New Orleans Saints",
+      "starter": "Travis Etienne",
+      "handcuff": "Devin Neal",
+      "third_down": "Alvin Kamara"
+    },
+    {
+      "rank": 22,
+      "team": "Dallas Cowboys",
+      "starter": "Javonte Williams",
+      "handcuff": "Jaydon Blue",
+      "third_down": "Javonte Williams"
+    },
+    {
+      "rank": 23,
+      "team": "Houston Texans",
+      "starter": "David Montgomery",
+      "handcuff": "Woody Marks",
+      "third_down": "Woody Marks"
+    },
+    {
+      "rank": 24,
+      "team": "New York Giants",
+      "starter": "Cam Skattebo",
+      "handcuff": "Tyrone Tracy",
+      "third_down": "Tyrone Tracy"
+    },
+    {
+      "rank": 25,
+      "team": "Tennessee Titans",
+      "starter": "Tony Pollard",
+      "handcuff": "Nicholas Singleton",
+      "third_down": "Tyjae Spears"
+    },
+    {
+      "rank": 26,
+      "team": "Cleveland Browns",
+      "starter": "Quinshon Judkins",
+      "handcuff": "Dylan Sampson",
+      "third_down": "Dylan Sampson"
+    },
+    {
+      "rank": 27,
+      "team": "Carolina Panthers",
+      "starter": "Chuba Hubbard",
+      "handcuff": "Jonathon Brooks",
+      "third_down": "Chuba Hubbard"
+    },
+    {
+      "rank": 28,
+      "team": "Minnesota Vikings",
+      "starter": "Jordan Mason",
+      "handcuff": "Aaron Jones",
+      "third_down": "Aaron Jones"
+    },
+    {
+      "rank": 29,
+      "team": "Seattle Seahawks",
+      "starter": "Jadarian Price",
+      "handcuff": "Zach Charbonnet",
+      "third_down": "Gorge Holani"
+    },
+    {
+      "rank": 30,
+      "team": "New York Jets",
+      "starter": "Breece Hall",
+      "handcuff": "Braelon Allen",
+      "third_down": "Breece Hall"
+    },
+    {
+      "rank": 31,
+      "team": "Washington Commanders",
+      "starter": "J. Croskey-Merritt",
+      "handcuff": "Kaytron Allen",
+      "third_down": "Rachaad White"
+    },
+    {
+      "rank": 32,
+      "team": "Denver Broncos",
+      "starter": "JK Dobbins",
+      "handcuff": "Jonah Coleman",
+      "third_down": "RJ Harvey"
+    }
+  ]
+}

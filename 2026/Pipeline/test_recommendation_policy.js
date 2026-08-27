@@ -8,7 +8,12 @@ const {
   recommendationPolicyDecision, draftRoomTrendDecision, personalPriorityDecision,
   marketAvailabilityDecision, wildcardMarketGapDecision, wildcardMarketGap, evidenceQualityAdjustment, wildcardEvidenceDecision,
   handcuffBoostDecision, handcuffRelationshipDecision, endgameSpecialistAdjustment,
+  displayedNextUserOverall,
 } = require("../App/app.js");
+
+assert.equal(displayedNextUserOverall({ current: 124, target: 124, next: 137, currentOwner: "Goldberg", userManager: "Goldberg" }), 137, "While Goldberg is on the clock, the header shows the pick after the current selection");
+assert.equal(displayedNextUserOverall({ current: 57, target: 57, next: 77, currentOwner: "Goldberg", userManager: "Goldberg" }), 77, "The header skips Stafford's occupied Round 7 keeper slot");
+assert.equal(displayedNextUserOverall({ current: 10, target: 17, next: 24, currentOwner: "Abe", userManager: "Goldberg" }), 17, "While another manager is on the clock, the header shows Goldberg's upcoming selection");
 
 function eligible(position, counts, rosterSize, round, column) {
   return recommendationPolicyDecision({ position, counts, rosterSize, round, policy, column }).eligible;
@@ -80,8 +85,15 @@ assert.ok(endgameSpecialistAdjustment({ position: "DST", count: 0, round: 17 }) 
 const christianMcCaffrey = board.players.find((player) => player.player === "Christian McCaffrey");
 const jordanJames = board.players.find((player) => player.player === "Jordan James");
 const cmcHandcuff = handcuffRelationshipDecision({ player: jordanJames, rosteredPlayers: [christianMcCaffrey], targetPick: 137 });
-assert.equal(cmcHandcuff.starter, "Christian McCaffrey", "The live handcuff matcher links an Ourlads RB2 to the rostered RB1");
+assert.equal(cmcHandcuff.starter, "Christian McCaffrey", "The live handcuff matcher links the verified primary handcuff to the rostered starter");
 assert.ok(cmcHandcuff.score > 0 && cmcHandcuff.starterInjuryPercentile >= 90, "The matched handcuff carries the starter's high injury-risk signal");
+assert.equal(cmcHandcuff.sourceName, "RB-Grid-August", "The supplemental RB handcuff grid takes precedence over generic depth order");
+
+const jamesCook = board.players.find((player) => player.player === "James Cook III");
+const rayDavis = board.players.find((player) => player.player === "Ray Davis");
+const cookHandcuff = handcuffRelationshipDecision({ player: rayDavis, rosteredPlayers: [jamesCook], targetPick: 147 });
+assert.equal(cookHandcuff.starter, "James Cook III", "Suffix-normalized RB grid names link to the canonical starter");
+assert.ok(cookHandcuff.score > 0, "A verified primary RB handcuff receives an endgame reminder");
 
 for (const playerName of ["Denzel Boston", "KC Concepcion"]) {
   const player = board.players.find((item) => item.player === playerName);

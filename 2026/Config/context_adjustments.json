@@ -21,7 +21,41 @@
     "development": {"default_weight": 0.4, "examples": ["rookie role", "year-two progression", "camp performance"]},
     "narrative": {"default_weight": 0.0, "examples": ["best shape of his life", "coach praise without role evidence", "isolated highlight"]}
   },
-  "player_adjustments": [],
-  "team_adjustments": [],
-  "note": "Empty by design. Add only dated, sourced observations; the application never invents a contextual pro or con."
+  "player_adjustments": [
+    {
+      "player": "Trey Benson",
+      "affected_positions": ["RB"],
+      "signal_class": "health",
+      "summary": "Benson reverted to Arizona's injured-reserve list with a knee injury after clearing waivers; the current report does not establish a full-season timetable.",
+      "mechanism": "He is unavailable now, and the unresolved return timetable materially reduces his draft-day role certainty without supporting a season-long hard exclusion.",
+      "source_name": "RotoWire",
+      "source_url": "https://www.rotowire.com/football/headlines/trey-benson-injury-reverts-to-ir-634818",
+      "published_at": "2026-08-25",
+      "retrieved_at": "2026-08-26",
+      "expires_at": "2026-10-01",
+      "confidence": 0.9,
+      "adjustment": -1.0,
+      "status": "approved",
+      "evidence_type": "current_roster_status"
+    }
+  ],
+  "team_adjustments": [
+    {
+      "team": "LAC",
+      "affected_positions": ["QB", "RB"],
+      "signal_class": "environment",
+      "summary": "The Chargers lost starting center Tyler Biadasz to season-ending injured reserve with a knee injury.",
+      "mechanism": "The confirmed loss weakens interior pass protection and run-blocking continuity, creating a modest downside adjustment for the quarterback and running-back environment.",
+      "source_name": "NFL.com",
+      "source_url": "https://www.nfl.com/news/chargers-place-veteran-c-tyler-biadasz-knee-on-season-ending-injured-reserve",
+      "published_at": "2026-08-23",
+      "retrieved_at": "2026-08-26",
+      "expires_at": "2026-10-01",
+      "confidence": 0.9,
+      "adjustment": -0.6,
+      "status": "approved",
+      "evidence_type": "confirmed_offensive_line_loss"
+    }
+  ],
+  "note": "Add only dated, sourced observations; the application never invents a contextual pro or con."
 }

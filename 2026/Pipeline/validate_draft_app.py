@@ -63,6 +63,11 @@ def main():
     assert gainwell["source_count"] >= 3, "Gainwell's expert ranks did not merge"
     assert gainwell.get("adp") is not None, "Gainwell's market ADP did not merge"
     assert gainwell.get("models", {}).get("injury") is not None, "Gainwell's Kenneth-keyed injury model did not merge"
+    rb_handcuff_players = [player for player in players if player.get("rb_handcuff")]
+    assert len(rb_handcuff_players) >= 28, "FantasyGuru RB handcuff coverage regressed"
+    ray_davis = next(player for player in players if player["player"] == "Ray Davis")
+    assert ray_davis["rb_handcuff"]["starter"] == "James Cook III", "RB grid did not reconcile James Cook's canonical name"
+    assert ray_davis["rb_handcuff"]["source_name"] == "RB-Grid-August", "RB handcuff provenance is missing"
     for player_name in ("Denzel Boston", "KC Concepcion", "Terrance Ferguson"):
         corrected_player = next(player for player in players if player["player"] == player_name)
         assert corrected_player["source_count"] >= 2, f"{player_name} should have complementary expert coverage"
@@ -124,14 +129,40 @@ def main():
     assert owner_at(116, order, trades) == "Barry", "Barry should own Jeff's round 12 pick"
     assert owner_at(168, order, trades) == "Jeff", "Jeff should own Barry's round 17 pick"
     assert Counter(item["new_manager"] for item in trades) == Counter({"Barry": 1, "Jeff": 1})
-    stafford = next(player for player in players if player["player"] == "Matthew Stafford")
-    pearsall = next(player for player in players if player["player"] == "Ricky Pearsall")
-    keeper = payload["draft"]["keepers"][0]
-    assert keeper["player"] == "Matthew Stafford" and keeper["overall_pick"] == 64
-    assert keeper["status"] == "confirmed"
-    assert stafford["position"] == "QB"
-    assert pearsall["draft_eligible"] is False, "Ricky Pearsall must be excluded after verified season-ending IR"
-    assert pearsall["availability_status"]["source_name"] == "NFL.com"
+    expected_keepers = {
+        32: ("Nalick", "Zay Flowers"),
+        56: ("Jeff", "Colston Loveland"),
+        58: ("Greenspan", "Bo Nix"),
+        59: ("Tompkins", "Brock Bowers"),
+        64: ("Goldberg", "Matthew Stafford"),
+        66: ("Joshua", "Drake Maye"),
+        74: ("Big Leiber", "Ladd McConkey"),
+        76: ("Jeff", "Cam Skattebo"),
+        81: ("Ori", "Jaxson Dart"),
+        94: ("Big Leiber", "Travis Etienne Jr."),
+        95: ("Joshua", "Sam Darnold"),
+        100: ("Ori", "Jordan Addison"),
+        102: ("Tompkins", "Javonte Williams"),
+        118: ("Greenspan", "Quinshon Judkins"),
+    }
+    actual_keepers = {
+        item["overall_pick"]: (item["manager"], item["player"])
+        for item in payload["draft"]["keepers"]
+    }
+    assert actual_keepers == expected_keepers, "Keeper declarations or costs do not match the confirmed league list"
+    assert not payload["draft"]["unknown_inputs"], "Keeper input should be complete"
+    assert all(item["status"] == "confirmed" for item in payload["draft"]["keepers"])
+    assert all(owner_at(pick, order, trades) == manager for pick, (manager, _) in expected_keepers.items()), "A keeper was assigned to a pick not owned by its manager"
+    assert next(player for player in players if player["player"] == "Matthew Stafford")["position"] == "QB"
+    unavailable_on_board = {
+        player["player"]: player
+        for player in players
+        if player["player"] in {"Ricky Pearsall", "Jayden Higgins", "Calvin Austin III"}
+    }
+    assert "Calvin Austin III" in unavailable_on_board, "Current ranked player Calvin Austin III is missing from the board"
+    for unavailable_name, unavailable in unavailable_on_board.items():
+        assert unavailable["draft_eligible"] is False, f"{unavailable_name} must be excluded after verified season-ending news"
+        assert unavailable["availability_status"]["source_name"] == "NFL.com"
 
     positions = Counter(player["position"] for player in players)
     print(json.dumps({
@@ -152,7 +183,7 @@ def main():
         "teams": len(payload["teams"]),
         "positions": positions,
         "goldberg_picks": goldberg_picks,
-        "confirmed_keeper": f"{keeper['player']} at {keeper['overall_pick']}",
+        "confirmed_keepers": len(actual_keepers),
         "traded_picks": {"116": owner_at(116, order, trades), "168": owner_at(168, order, trades)},
         "status": "PASS"
     }, indent=2, default=dict))

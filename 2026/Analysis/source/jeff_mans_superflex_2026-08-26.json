@@ -1,0 +1,1624 @@
+{
+  "source": {
+    "title": "Jeff Mans Superflex Rankings",
+    "source_id": "1GFljIw0L3CVLVJ3OnBrLSb81drDoND9D4rgeeVPVozk",
+    "spreadsheet_id": "1GFljIw0L3CVLVJ3OnBrLSb81drDoND9D4rgeeVPVozk",
+    "source_url": "https://docs.google.com/spreadsheets/d/1GFljIw0L3CVLVJ3OnBrLSb81drDoND9D4rgeeVPVozk/edit",
+    "sheet": "Sheet1",
+    "range": "A1:F250",
+    "retrieved_at": "2026-08-26",
+    "source_updated_at": "2026-08-26T16:52:20.961Z",
+    "format": "Google Sheets displayed values",
+    "validation_status": "validated",
+    "note": "Overall Superflex rankings imported as displayed."
+  },
+  "values": [
+    [
+      "Rank",
+      "Player",
+      "Team",
+      "Bye",
+      "Depth",
+      "SOS"
+    ],
+    [
+      "1",
+      "Josh Allen",
+      "BUF",
+      "7",
+      "QB1",
+      "6"
+    ],
+    [
+      "2",
+      "Lamar Jackson",
+      "BAL",
+      "13",
+      "QB2",
+      "6"
+    ],
+    [
+      "3",
+      "Bijan Robinson",
+      "ATL",
+      "11",
+      "RB1",
+      "8"
+    ],
+    [
+      "4",
+      "Jahmyr Gibbs",
+      "DET",
+      "6",
+      "RB2",
+      "2"
+    ],
+    [
+      "5",
+      "Ja'Marr Chase",
+      "CIN",
+      "6",
+      "WR1",
+      "4"
+    ],
+    [
+      "6",
+      "Amon-Ra St. Brown",
+      "DET",
+      "6",
+      "WR2",
+      "4"
+    ],
+    [
+      "7",
+      "Drake Maye",
+      "NE",
+      "11",
+      "QB3",
+      "8"
+    ],
+    [
+      "8",
+      "Caleb Williams",
+      "CHI",
+      "10",
+      "QB4",
+      "6"
+    ],
+    [
+      "9",
+      "Puka Nacua",
+      "LAR",
+      "11",
+      "WR3",
+      "10"
+    ],
+    [
+      "10",
+      "Justin Jefferson",
+      "MIN",
+      "6",
+      "WR4",
+      "2"
+    ],
+    [
+      "11",
+      "CeeDee Lamb",
+      "DAL",
+      "14",
+      "WR5",
+      "8"
+    ],
+    [
+      "12",
+      "Jaxon Smith-Njigba",
+      "SEA",
+      "11",
+      "WR6",
+      "6"
+    ],
+    [
+      "13",
+      "Jalen Hurts",
+      "PHI",
+      "10",
+      "QB5",
+      "2"
+    ],
+    [
+      "14",
+      "Joe Burrow",
+      "CIN",
+      "6",
+      "QB6",
+      "6"
+    ],
+    [
+      "15",
+      "De'Von Achane",
+      "MIA",
+      "6",
+      "RB3",
+      "6"
+    ],
+    [
+      "16",
+      "James Cook III",
+      "BUF",
+      "7",
+      "RB4",
+      "8"
+    ],
+    [
+      "17",
+      "Omarion Hampton",
+      "LAC",
+      "7",
+      "RB5",
+      "6"
+    ],
+    [
+      "18",
+      "Kenneth Walker",
+      "KC",
+      "5",
+      "RB6",
+      "6"
+    ],
+    [
+      "19",
+      "Ashton Jeanty",
+      "LV",
+      "13",
+      "RB7",
+      "8"
+    ],
+    [
+      "20",
+      "Christian McCaffrey",
+      "SF",
+      "8",
+      "RB8",
+      "8"
+    ],
+    [
+      "21",
+      "Jayden Daniels",
+      "WAS",
+      "7",
+      "QB7",
+      "8"
+    ],
+    [
+      "22",
+      "Jaxson Dart",
+      "NYG",
+      "8",
+      "QB8",
+      "4"
+    ],
+    [
+      "23",
+      "Nico Collins",
+      "HOU",
+      "8",
+      "WR7",
+      "6"
+    ],
+    [
+      "24",
+      "Jonathan Taylor",
+      "IND",
+      "13",
+      "RB9",
+      "4"
+    ],
+    [
+      "25",
+      "Trevor Lawrence",
+      "JAX",
+      "7",
+      "QB9",
+      "4"
+    ],
+    [
+      "26",
+      "Justin Herbert",
+      "LAC",
+      "7",
+      "QB10",
+      "8"
+    ],
+    [
+      "27",
+      "Saquon Barkley",
+      "PHI",
+      "10",
+      "RB10",
+      "4"
+    ],
+    [
+      "28",
+      "Chris Olave",
+      "NO",
+      "8",
+      "WR8",
+      "6"
+    ],
+    [
+      "29",
+      "Jared Goff",
+      "DET",
+      "6",
+      "QB11",
+      "2"
+    ],
+    [
+      "30",
+      "DeVonta Smith",
+      "PHI",
+      "10",
+      "WR9",
+      "4"
+    ],
+    [
+      "31",
+      "Malik Nabers",
+      "NYG",
+      "8",
+      "WR10",
+      "4"
+    ],
+    [
+      "32",
+      "Chase Brown",
+      "CIN",
+      "6",
+      "RB11",
+      "8"
+    ],
+    [
+      "33",
+      "Drake London",
+      "ATL",
+      "11",
+      "WR11",
+      "6"
+    ],
+    [
+      "34",
+      "George Pickens",
+      "DAL",
+      "14",
+      "WR12",
+      "8"
+    ],
+    [
+      "35",
+      "Dak Prescott",
+      "DAL",
+      "14",
+      "QB12",
+      "8"
+    ],
+    [
+      "36",
+      "Derrick Henry",
+      "BAL",
+      "13",
+      "RB12",
+      "6"
+    ],
+    [
+      "37",
+      "Matthew Stafford",
+      "LAR",
+      "11",
+      "QB13",
+      "6"
+    ],
+    [
+      "38",
+      "Jeremiyah Love",
+      "ARI",
+      "14",
+      "RB13",
+      "8"
+    ],
+    [
+      "39",
+      "A.J. Brown",
+      "NE",
+      "11",
+      "WR13",
+      "8"
+    ],
+    [
+      "40",
+      "Rome Odunze",
+      "CHI",
+      "10",
+      "WR14",
+      "6"
+    ],
+    [
+      "41",
+      "Bo Nix",
+      "DEN",
+      "10",
+      "QB14",
+      "6"
+    ],
+    [
+      "42",
+      "Javonte Williams",
+      "DAL",
+      "14",
+      "RB14",
+      "4"
+    ],
+    [
+      "43",
+      "DJ Moore",
+      "BUF",
+      "7",
+      "WR15",
+      "4"
+    ],
+    [
+      "44",
+      "Zay Flowers",
+      "BAL",
+      "13",
+      "WR16",
+      "4"
+    ],
+    [
+      "45",
+      "Patrick Mahomes",
+      "KC",
+      "5",
+      "QB15",
+      "8"
+    ],
+    [
+      "46",
+      "Josh Jacobs",
+      "GB",
+      "11",
+      "RB15",
+      "4"
+    ],
+    [
+      "47",
+      "Kyren Williams",
+      "LAR",
+      "11",
+      "RB16",
+      "2"
+    ],
+    [
+      "48",
+      "Brock Bowers",
+      "LV",
+      "13",
+      "TE1",
+      "6"
+    ],
+    [
+      "49",
+      "D'Andre Swift",
+      "CHI",
+      "10",
+      "RB17",
+      "8"
+    ],
+    [
+      "50",
+      "Emeka Egbuka",
+      "TB",
+      "10",
+      "WR17",
+      "4"
+    ],
+    [
+      "51",
+      "Brock Purdy",
+      "SF",
+      "8",
+      "QB16",
+      "10"
+    ],
+    [
+      "52",
+      "Trey McBride",
+      "ARI",
+      "14",
+      "TE2",
+      "8"
+    ],
+    [
+      "53",
+      "Luther Burden III",
+      "CHI",
+      "10",
+      "WR18",
+      "6"
+    ],
+    [
+      "54",
+      "Garrett Wilson",
+      "NYJ",
+      "13",
+      "WR19",
+      "4"
+    ],
+    [
+      "55",
+      "TreVeyon Henderson",
+      "NE",
+      "11",
+      "RB18",
+      "8"
+    ],
+    [
+      "56",
+      "Bhayshul Tuten",
+      "JAX",
+      "7",
+      "RB19",
+      "4"
+    ],
+    [
+      "57",
+      "Baker Mayfield",
+      "TB",
+      "10",
+      "QB17",
+      "8"
+    ],
+    [
+      "58",
+      "Travis Etienne Jr.",
+      "NO",
+      "8",
+      "RB20",
+      "6"
+    ],
+    [
+      "59",
+      "Rashee Rice",
+      "KC",
+      "5",
+      "WR20",
+      "8"
+    ],
+    [
+      "60",
+      "Breece Hall",
+      "NYJ",
+      "13",
+      "RB21",
+      "6"
+    ],
+    [
+      "61",
+      "Jordan Love",
+      "GB",
+      "11",
+      "QB18",
+      "4"
+    ],
+    [
+      "62",
+      "Tyler Warren",
+      "IND",
+      "13",
+      "TE3",
+      "6"
+    ],
+    [
+      "63",
+      "Malik Willis",
+      "MIA",
+      "6",
+      "QB19",
+      "6"
+    ],
+    [
+      "64",
+      "Tetairoa McMillan",
+      "CAR",
+      "5",
+      "WR21",
+      "8"
+    ],
+    [
+      "65",
+      "Terry McLaurin",
+      "WAS",
+      "7",
+      "WR22",
+      "8"
+    ],
+    [
+      "66",
+      "Cam Ward",
+      "TEN",
+      "9",
+      "QB20",
+      "6"
+    ],
+    [
+      "67",
+      "Quinshon Judkins",
+      "CLE",
+      "11",
+      "RB22",
+      "6"
+    ],
+    [
+      "68",
+      "Kenny Gainwell",
+      "TB",
+      "10",
+      "RB23",
+      "8"
+    ],
+    [
+      "69",
+      "Tee Higgins",
+      "CIN",
+      "6",
+      "WR23",
+      "4"
+    ],
+    [
+      "70",
+      "Colston Loveland",
+      "CHI",
+      "10",
+      "TE4",
+      "8"
+    ],
+    [
+      "71",
+      "Marvin Harrison Jr.",
+      "ARI",
+      "14",
+      "WR24",
+      "8"
+    ],
+    [
+      "72",
+      "Kyler Murray",
+      "MIN",
+      "6",
+      "QB21",
+      "2"
+    ],
+    [
+      "73",
+      "Tony Pollard",
+      "TEN",
+      "9",
+      "RB24",
+      "6"
+    ],
+    [
+      "74",
+      "Jaylen Warren",
+      "PIT",
+      "9",
+      "RB25",
+      "8"
+    ],
+    [
+      "75",
+      "Mike Evans",
+      "SF",
+      "8",
+      "WR25",
+      "8"
+    ],
+    [
+      "76",
+      "Jameson Williams",
+      "DET",
+      "6",
+      "WR26",
+      "4"
+    ],
+    [
+      "77",
+      "C.J. Stroud",
+      "HOU",
+      "8",
+      "QB22",
+      "4"
+    ],
+    [
+      "78",
+      "Davante Adams",
+      "LAR",
+      "11",
+      "WR27",
+      "10"
+    ],
+    [
+      "79",
+      "Ladd McConkey",
+      "LAC",
+      "7",
+      "WR28",
+      "8"
+    ],
+    [
+      "80",
+      "DK Metcalf",
+      "PIT",
+      "9",
+      "WR29",
+      "6"
+    ],
+    [
+      "81",
+      "Tyler Shough",
+      "NO",
+      "8",
+      "QB23",
+      "6"
+    ],
+    [
+      "82",
+      "Bucky Irving",
+      "TB",
+      "10",
+      "RB26",
+      "8"
+    ],
+    [
+      "83",
+      "Cam Skattebo",
+      "NYG",
+      "8",
+      "RB27",
+      "4"
+    ],
+    [
+      "84",
+      "Kyle Pitts Sr.",
+      "ATL",
+      "11",
+      "TE5",
+      "6"
+    ],
+    [
+      "85",
+      "David Montgomery",
+      "HOU",
+      "8",
+      "RB28",
+      "4"
+    ],
+    [
+      "86",
+      "Rhamondre Stevenson",
+      "NE",
+      "11",
+      "RB29",
+      "8"
+    ],
+    [
+      "87",
+      "Brian Thomas Jr.",
+      "JAX",
+      "7",
+      "WR30",
+      "4"
+    ],
+    [
+      "88",
+      "Wan'Dale Robinson",
+      "TEN",
+      "9",
+      "WR31",
+      "6"
+    ],
+    [
+      "89",
+      "Tucker Kraft",
+      "GB",
+      "11",
+      "TE6",
+      "8"
+    ],
+    [
+      "90",
+      "Aaron Rodgers",
+      "PIT",
+      "9",
+      "QB24",
+      "8"
+    ],
+    [
+      "91",
+      "Jaylen Waddle",
+      "DEN",
+      "10",
+      "WR32",
+      "8"
+    ],
+    [
+      "92",
+      "Sam LaPorta",
+      "DET",
+      "6",
+      "TE7",
+      "6"
+    ],
+    [
+      "93",
+      "Stefon Diggs",
+      "WAS",
+      "7",
+      "WR33",
+      "8"
+    ],
+    [
+      "94",
+      "Daniel Jones",
+      "IND",
+      "13",
+      "QB25",
+      "4"
+    ],
+    [
+      "95",
+      "Jadarian Price",
+      "SEA",
+      "11",
+      "RB30",
+      "4"
+    ],
+    [
+      "96",
+      "Chris Rodriguez Jr.",
+      "JAX",
+      "7",
+      "RB31",
+      "4"
+    ],
+    [
+      "97",
+      "Christian Watson",
+      "GB",
+      "11",
+      "WR34",
+      "2"
+    ],
+    [
+      "98",
+      "Courtland Sutton",
+      "DEN",
+      "10",
+      "WR35",
+      "8"
+    ],
+    [
+      "99",
+      "Parker Washington",
+      "JAX",
+      "7",
+      "WR36",
+      "4"
+    ],
+    [
+      "100",
+      "Michael Pittman Jr.",
+      "PIT",
+      "9",
+      "WR37",
+      "6"
+    ],
+    [
+      "101",
+      "Jacoby Brissett",
+      "ARI",
+      "14",
+      "QB26",
+      "8"
+    ],
+    [
+      "102",
+      "Mike Washington Jr.",
+      "LV",
+      "13",
+      "RB32",
+      "8"
+    ],
+    [
+      "103",
+      "Travis Kelce",
+      "KC",
+      "5",
+      "TE8",
+      "4"
+    ],
+    [
+      "104",
+      "Michael Wilson",
+      "ARI",
+      "14",
+      "WR38",
+      "8"
+    ],
+    [
+      "105",
+      "Jayden Reed",
+      "GB",
+      "11",
+      "WR39",
+      "2"
+    ],
+    [
+      "106",
+      "Carnell Tate",
+      "TEN",
+      "9",
+      "WR40",
+      "6"
+    ],
+    [
+      "107",
+      "Jakobi Meyers",
+      "JAX",
+      "7",
+      "WR41",
+      "4"
+    ],
+    [
+      "108",
+      "Dalton Kincaid",
+      "BUF",
+      "7",
+      "TE9",
+      "6"
+    ],
+    [
+      "109",
+      "Sam Darnold",
+      "SEA",
+      "11",
+      "QB27",
+      "4"
+    ],
+    [
+      "110",
+      "Rico Dowdle",
+      "PIT",
+      "9",
+      "RB33",
+      "8"
+    ],
+    [
+      "111",
+      "Jacory Croskey-Merritt",
+      "WAS",
+      "7",
+      "RB34",
+      "4"
+    ],
+    [
+      "112",
+      "George Kittle",
+      "SF",
+      "8",
+      "TE10",
+      "6"
+    ],
+    [
+      "113",
+      "Bryce Young",
+      "CAR",
+      "5",
+      "QB28",
+      "8"
+    ],
+    [
+      "114",
+      "Jordan Mason",
+      "MIN",
+      "6",
+      "RB35",
+      "4"
+    ],
+    [
+      "115",
+      "Chuba Hubbard",
+      "CAR",
+      "5",
+      "RB36",
+      "10"
+    ],
+    [
+      "116",
+      "Alec Pierce",
+      "IND",
+      "13",
+      "WR42",
+      "4"
+    ],
+    [
+      "117",
+      "Makai Lemon",
+      "PHI",
+      "10",
+      "WR43",
+      "4"
+    ],
+    [
+      "118",
+      "Jordan Addison",
+      "MIN",
+      "6",
+      "WR44",
+      "2"
+    ],
+    [
+      "119",
+      "Chris Godwin Jr.",
+      "TB",
+      "10",
+      "WR45",
+      "4"
+    ],
+    [
+      "120",
+      "Jalen Coker",
+      "CAR",
+      "5",
+      "WR46",
+      "8"
+    ],
+    [
+      "121",
+      "Kyle Monangai",
+      "CHI",
+      "10",
+      "RB37",
+      "8"
+    ],
+    [
+      "122",
+      "Jake Ferguson",
+      "DAL",
+      "14",
+      "TE11",
+      "8"
+    ],
+    [
+      "123",
+      "Zach Charbonnet",
+      "SEA",
+      "11",
+      "RB38",
+      "4"
+    ],
+    [
+      "124",
+      "Matthew Golden",
+      "GB",
+      "11",
+      "WR47",
+      "2"
+    ],
+    [
+      "125",
+      "Jonathon Brooks",
+      "CAR",
+      "5",
+      "RB39",
+      "10"
+    ],
+    [
+      "126",
+      "Deebo Samuel Sr.",
+      "SF",
+      "8",
+      "WR48",
+      "8"
+    ],
+    [
+      "127",
+      "Josh Downs",
+      "IND",
+      "13",
+      "WR49",
+      "4"
+    ],
+    [
+      "128",
+      "Harold Fannin Jr.",
+      "CLE",
+      "11",
+      "TE12",
+      "6"
+    ],
+    [
+      "129",
+      "RJ Harvey",
+      "DEN",
+      "10",
+      "RB40",
+      "8"
+    ],
+    [
+      "130",
+      "Blake Corum",
+      "LAR",
+      "11",
+      "RB41",
+      "2"
+    ],
+    [
+      "131",
+      "Aaron Jones Sr.",
+      "MIN",
+      "6",
+      "RB42",
+      "4"
+    ],
+    [
+      "132",
+      "Romeo Doubs",
+      "NE",
+      "11",
+      "WR50",
+      "8"
+    ],
+    [
+      "133",
+      "Isaiah Likely",
+      "NYG",
+      "8",
+      "TE13",
+      "6"
+    ],
+    [
+      "134",
+      "Xavier Worthy",
+      "KC",
+      "5",
+      "WR51",
+      "8"
+    ],
+    [
+      "135",
+      "Tyler Allgeier",
+      "ARI",
+      "14",
+      "RB43",
+      "8"
+    ],
+    [
+      "136",
+      "Mark Andrews",
+      "BAL",
+      "13",
+      "TE14",
+      "4"
+    ],
+    [
+      "137",
+      "De'Zhaun Stribling",
+      "SF",
+      "8",
+      "WR52",
+      "8"
+    ],
+    [
+      "138",
+      "Fernando Mendoza",
+      "LV",
+      "13",
+      "QB29",
+      "10"
+    ],
+    [
+      "139",
+      "Rachaad White",
+      "WAS",
+      "7",
+      "RB44",
+      "4"
+    ],
+    [
+      "140",
+      "Adonai Mitchell",
+      "NYJ",
+      "13",
+      "WR53",
+      "4"
+    ],
+    [
+      "141",
+      "J.K. Dobbins",
+      "DEN",
+      "10",
+      "RB45",
+      "8"
+    ],
+    [
+      "142",
+      "Christian Kirk",
+      "SF",
+      "8",
+      "WR54",
+      "8"
+    ],
+    [
+      "143",
+      "Zachariah Branch",
+      "ATL",
+      "11",
+      "WR55",
+      "6"
+    ],
+    [
+      "144",
+      "KC Concepcion",
+      "CLE",
+      "11",
+      "WR56",
+      "6"
+    ],
+    [
+      "145",
+      "Tre' Harris",
+      "LAC",
+      "7",
+      "WR57",
+      "8"
+    ],
+    [
+      "146",
+      "Keenan Allen",
+      "IND",
+      "13",
+      "WR58",
+      "4"
+    ],
+    [
+      "147",
+      "Quentin Johnston",
+      "LAC",
+      "7",
+      "WR59",
+      "8"
+    ],
+    [
+      "148",
+      "Tua Tagovailoa",
+      "ATL",
+      "11",
+      "QB30",
+      "4"
+    ],
+    [
+      "149",
+      "Emmett Johnson",
+      "KC",
+      "5",
+      "RB46",
+      "6"
+    ],
+    [
+      "150",
+      "Jaylen Wright",
+      "MIA",
+      "6",
+      "RB47",
+      "6"
+    ],
+    [
+      "151",
+      "Juwan Johnson",
+      "NO",
+      "8",
+      "TE15",
+      "8"
+    ],
+    [
+      "152",
+      "Jaylin Noel",
+      "HOU",
+      "8",
+      "WR60",
+      "6"
+    ],
+    [
+      "153",
+      "Jordyn Tyson",
+      "NO",
+      "8",
+      "WR61",
+      "6"
+    ],
+    [
+      "154",
+      "Geno Smith",
+      "NYJ",
+      "13",
+      "QB31",
+      "4"
+    ],
+    [
+      "155",
+      "Tyrone Tracy Jr.",
+      "NYG",
+      "8",
+      "RB48",
+      "4"
+    ],
+    [
+      "156",
+      "Isiah Pacheco",
+      "DET",
+      "6",
+      "RB49",
+      "2"
+    ],
+    [
+      "157",
+      "Denzel Boston",
+      "CLE",
+      "11",
+      "WR62",
+      "6"
+    ],
+    [
+      "158",
+      "Chig Okonkwo",
+      "WAS",
+      "7",
+      "TE16",
+      "10"
+    ],
+    [
+      "159",
+      "Kirk Cousins",
+      "LV",
+      "13",
+      "QB32",
+      "10"
+    ],
+    [
+      "160",
+      "Houston Texans",
+      "HOU",
+      "8",
+      "DST1",
+      "8"
+    ],
+    [
+      "161",
+      "Nicholas Singleton",
+      "TEN",
+      "9",
+      "RB50",
+      "6"
+    ],
+    [
+      "162",
+      "Woody Marks",
+      "HOU",
+      "8",
+      "RB51",
+      "4"
+    ],
+    [
+      "163",
+      "Kaytron Allen",
+      "WAS",
+      "7",
+      "RB52",
+      "4"
+    ],
+    [
+      "164",
+      "Denver Broncos",
+      "DEN",
+      "10",
+      "DST2",
+      "4"
+    ],
+    [
+      "165",
+      "Philadelphia Eagles",
+      "PHI",
+      "10",
+      "DST3"
+    ],
+    [
+      "166",
+      "Bryce Lance",
+      "NO",
+      "8",
+      "WR63",
+      "6"
+    ],
+    [
+      "167",
+      "Malik Washington",
+      "MIA",
+      "6",
+      "WR64",
+      "6"
+    ],
+    [
+      "168",
+      "Ja'Kobi Lane",
+      "BAL",
+      "13",
+      "WR65",
+      "4"
+    ],
+    [
+      "169",
+      "Shedeur Sanders",
+      "CLE",
+      "11",
+      "QB33",
+      "4"
+    ],
+    [
+      "170",
+      "Calvin Ridley",
+      "TEN",
+      "9",
+      "WR66",
+      "6"
+    ],
+    [
+      "171",
+      "Seattle Seahawks",
+      "SEA",
+      "11",
+      "DST4",
+      "8"
+    ],
+    [
+      "172",
+      "Michael Penix Jr.",
+      "ATL",
+      "11",
+      "QB34",
+      "4"
+    ],
+    [
+      "173",
+      "Cameron Dicker",
+      "LAC",
+      "7",
+      "K1",
+      "8"
+    ],
+    [
+      "174",
+      "Brandon Aubrey",
+      "DAL",
+      "14",
+      "K2",
+      "8"
+    ],
+    [
+      "175",
+      "Baltimore Ravens",
+      "BAL",
+      "13",
+      "DST5",
+      "2"
+    ],
+    [
+      "176",
+      "Hunter Henry",
+      "NE",
+      "11",
+      "TE17",
+      "4"
+    ],
+    [
+      "177",
+      "Brian Robinson",
+      "ATL",
+      "11",
+      "RB53",
+      "8"
+    ],
+    [
+      "178",
+      "LeQuint Allen Jr.",
+      "JAX",
+      "7",
+      "RB54",
+      "4"
+    ],
+    [
+      "179",
+      "Cam Little",
+      "JAX",
+      "7",
+      "K3",
+      "4"
+    ],
+    [
+      "180",
+      "Los Angeles Rams",
+      "LAR",
+      "11",
+      "DST6",
+      "8"
+    ],
+    [
+      "181",
+      "Pittsburgh Steelers",
+      "PIT",
+      "9",
+      "DST7",
+      "2"
+    ],
+    [
+      "182",
+      "Keaton Mitchell",
+      "LAC",
+      "7",
+      "RB55",
+      "6"
+    ],
+    [
+      "183",
+      "Deshaun Watson",
+      "CLE",
+      "11",
+      "QB35",
+      "4"
+    ],
+    [
+      "184",
+      "New England Patriots",
+      "NE",
+      "11",
+      "DST8",
+      "6"
+    ],
+    [
+      "185",
+      "Ka'imi Fairbairn",
+      "HOU",
+      "8",
+      "K4",
+      "8"
+    ],
+    [
+      "186",
+      "Oronde Gadsden",
+      "LAC",
+      "7",
+      "TE18",
+      "4"
+    ],
+    [
+      "187",
+      "Rashid Shaheed",
+      "SEA",
+      "11",
+      "WR67",
+      "6"
+    ],
+    [
+      "188",
+      "Minnesota Vikings",
+      "MIN",
+      "6",
+      "DST9",
+      "10"
+    ],
+    [
+      "189",
+      "Jacksonville Jaguars",
+      "JAX",
+      "7",
+      "DST10",
+      "6"
+    ],
+    [
+      "190",
+      "Harrison Butker",
+      "KC",
+      "5",
+      "K5",
+      "2"
+    ],
+    [
+      "191",
+      "Wil Lutz",
+      "DEN",
+      "10",
+      "K6",
+      "10"
+    ],
+    [
+      "192",
+      "Ted Hurst III",
+      "TB",
+      "10",
+      "WR68",
+      "4"
+    ],
+    [
+      "193",
+      "Malik Benson",
+      "LV",
+      "13",
+      "WR69",
+      "8"
+    ],
+    [
+      "194",
+      "Jordan James",
+      "SF",
+      "8",
+      "RB56",
+      "8"
+    ],
+    [
+      "195",
+      "Tyler Loop",
+      "BAL",
+      "13",
+      "K7",
+      "6"
+    ],
+    [
+      "196",
+      "Tyler Bass",
+      "BUF",
+      "7",
+      "K8",
+      "8"
+    ],
+    [
+      "197",
+      "Dallas Goedert",
+      "PHI",
+      "10",
+      "TE19",
+      "4"
+    ],
+    [
+      "198",
+      "Jauan Jennings",
+      "MIN",
+      "6",
+      "WR70",
+      "2"
+    ],
+    [
+      "199",
+      "Kayshon Boutte",
+      "HOU",
+      "8",
+      "WR71",
+      "6"
+    ],
+    [
+      "200",
+      "Khalil Shakir",
+      "BUF",
+      "7",
+      "WR72",
+      "4"
+    ]
+  ]
+}

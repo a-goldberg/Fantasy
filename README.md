@@ -123,7 +123,7 @@ The DraftSharks Injury Predictor is a risk model, not an active/inactive feed.  
 
 RotoWire refreshes retain the current page plus up to 21 dated local snapshots.  This prevents an important update from disappearing as soon as it falls off the latest-news page.
 
-Explicit season-long unavailability is handled as a hard, source-backed eligibility override rather than a modest injury penalty.  Ricky Pearsall is currently excluded from all recommendations and search results based on the NFL.com report that he was placed on injured reserve and will miss the 2026 season following PCL surgery.
+Explicit season-long unavailability is handled as a hard, source-backed eligibility override rather than a modest injury penalty.  Ricky Pearsall, Jayden Higgins, and Calvin Austin III are currently excluded from all recommendations and search results based on verified NFL.com reports that they will miss the 2026 season.
 
 ## Historical draft data
 
@@ -176,7 +176,7 @@ node 2026/Pipeline/test_recommendation_policy.js
 
 ## Current known gaps
 
-- Keepers for the other nine managers have not been entered.
+- The 14 reported keeper declarations are loaded, including two managers who declared none.  Future changes still need to be entered explicitly.
 - Google Sheets and authenticated FantasyGuru content require an external connected-data refresh before the local rebuild.
 - News feeds are not complete historical archives.  Rolling local retention reduces that risk, while verified season-long availability overrides cover confirmed high-impact absences.
 - Superflex sources are an approximation for this league's true two-QB plus three-WR structure, so roster policy and DraftSheets scoring remain important corrections.

@@ -140,6 +140,13 @@ def main() -> None:
     availability_paths = sorted(SOURCE.glob("verified_player_availability_*.json"))
     verified_availability = json.loads(availability_paths[-1].read_text()) if availability_paths else {"source": {}, "players": []}
     availability_by_name = {normalize(item["player"]): item for item in verified_availability.get("players", [])}
+    handcuff_paths = sorted(SOURCE.glob("fantasyguru_rb_handcuffs_*.json"))
+    rb_handcuffs = json.loads(handcuff_paths[-1].read_text()) if handcuff_paths else {"source": {}, "backfields": []}
+    handcuff_by_name = {
+        normalize(item["handcuff"]): item
+        for item in rb_handcuffs.get("backfields", [])
+        if item.get("handcuff")
+    }
     rules = context["rules"]
     today = date.today()
 
@@ -267,6 +274,16 @@ def main() -> None:
             "draftsharks_superflex": ds_by_name.get(key),
         }
         player["recent_news"] = news_by_name.get(key, [])[:3]
+        handcuff_role = handcuff_by_name.get(key)
+        player["rb_handcuff"] = ({
+            "starter": handcuff_role["starter"],
+            "team": team_key(handcuff_role.get("team")),
+            "third_down": handcuff_role.get("third_down"),
+            "rank": handcuff_role.get("rank"),
+            "source_name": rb_handcuffs.get("source", {}).get("title", "FantasyGuru RB Handcuff Grid"),
+            "source_url": rb_handcuffs.get("source", {}).get("source_article_url") or rb_handcuffs.get("source", {}).get("source_url"),
+            "retrieved_at": rb_handcuffs.get("source", {}).get("retrieved_at"),
+        } if handcuff_role and player["position"] == "RB" else None)
         availability_status = availability_by_name.get(key)
         player["availability_status"] = availability_status
         player["draft_eligible"] = availability_status.get("draft_eligible", True) if availability_status else True
@@ -283,6 +300,14 @@ def main() -> None:
         players.append(player)
 
     players_by_name = {normalize(player["player"]): player for player in players}
+    for player in players:
+        relationship = player.get("rb_handcuff")
+        if not relationship:
+            continue
+        matched_starter = players_by_name.get(normalize(relationship["starter"]))
+        if matched_starter:
+            relationship["starter"] = matched_starter["player"]
+            relationship["team"] = matched_starter.get("team") or relationship.get("team")
     starting_qb_by_team = {}
     for abbreviation, depth in depth_by_team.items():
         qb_row = next((row for row in depth.get("offense", []) if row.get("position") == "QB"), None)
@@ -350,7 +375,7 @@ def main() -> None:
 
     payload = {
         "generated": date.today().isoformat(),
-        "status": "pre-draft; Stafford confirmed; other managers' keepers incomplete",
+        "status": "pre-draft; league keeper declarations loaded Aug. 26, 2026",
         "draft": draft,
         "policy": policy,
         "context_rules": rules,
@@ -371,6 +396,7 @@ def main() -> None:
             "context_retrieved": current_context.get("retrieved"),
             "context_warnings": current_context.get("warnings", []),
             "verified_availability": verified_availability.get("source", {}),
+            "rb_handcuffs": rb_handcuffs.get("source", {}),
         },
         "players": players,
         "teams": teams,

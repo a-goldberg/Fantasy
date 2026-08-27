@@ -16,11 +16,13 @@ Do not open `index.html` directly or use a static preview server.  Those approac
 
 ## Draft-day workflow
 
-The app records picks in browser storage and recalculates all recommendations after each entry.  Confirmed keeper Matthew Stafford is automatically placed at pick 64.  The current draft order and the Barry/Jeff pick trade come from `2026/Config/current_draft.json`.
+The app records picks in browser storage and recalculates all recommendations after each entry.  All 14 reported league keepers are automatically placed at their confirmed round costs, including Matthew Stafford at pick 64.  The current draft order and the Barry/Jeff pick trade come from `2026/Config/current_draft.json`.
 
 Use **Record another pick** to search for a player.  If someone selects a player outside the local pool, use **Other QB**, **Other RB**, **Other WR**, **Other TE**, **Other K**, or **Other DST**.  A placeholder advances the draft without falsely removing a known player.  If the placeholder belongs to Goldberg, its position still counts toward roster construction.
 
 The roster panel groups Goldberg's players by position and shows NFL team, bye week, keeper cost, and same-position bye conflicts.  **Undo** reverses the latest live entry.
+
+The header's **Your next pick** value shows Goldberg's upcoming selection while another manager is on the clock.  While Goldberg is currently picking, it advances to the following open Goldberg selection and skips any intervening keeper-occupied round.
 
 ## Recommendation columns
 
@@ -44,7 +46,7 @@ Candidate cards call out a detected run when it materially affects the optimized
 
 ## Late-round handcuffs and endgame
 
-Rounds 14–17 add a roster-specific handcuff signal for verified Ourlads backups to Goldberg's two highest-ranked rostered RBs and two highest-ranked rostered QBs.  The boost grows as the draft closes and increases further when the rostered starter has a high DraftSharks injury-risk percentile.  A direct backup relationship can qualify an otherwise thin-data player for Wildcard consideration, and candidate cards identify the starter being protected.
+Rounds 14–17 add a roster-specific handcuff signal for Goldberg's two highest-ranked rostered RBs and two highest-ranked rostered QBs.  RB relationships use the current FantasyGuru RB Handcuff Grid when available, with Ourlads as the fallback; QB relationships use Ourlads.  The boost grows as the draft closes and increases further when the rostered starter has a high DraftSharks injury-risk percentile.  A direct backup relationship can qualify an otherwise thin-data player for Wildcard consideration, and candidate cards identify the starter being protected.
 
 Handcuff scoring does not bypass roster feasibility.  A fourth QB still requires the configured RB/WR/TE depth and can appear only as a late Wildcard; a fifth QB remains prohibited.  The shared bye with the protected starter is not treated as a bye-coverage mistake because the backup is an injury contingency, though conflicts with other same-position players still count.
 
@@ -84,7 +86,7 @@ The injury/news layer is intentionally split by purpose:
 
 Ourlads appends roster metadata such as `CC/NYJ`, `U/SF`, draft round, and free-agent codes to its displayed names.  The importer preserves that token as a separate source identifier, while all matching and UI labels use the cleaned player name.  When a ranked player lacks a team but has one unambiguous Ourlads depth-chart match, that team is used to restore bye, schedule, and team-QB context with explicit provenance.
 
-Ricky Pearsall is currently marked out for the 2026 season from the NFL.com report of his injured-reserve placement and PCL surgery.  He remains in the research database for provenance, but he is excluded from search results and every recommendation column.
+Ricky Pearsall, Jayden Higgins, and Calvin Austin III are currently marked out for the 2026 season from verified NFL.com reports.  They remain in the research database for provenance, but they are excluded from search results and every recommendation column.  Trey Benson's current injured-reserve status is treated as a negative, expiring health signal rather than a season-long exclusion because the available report does not establish that timetable.
 
 The previous rebuild missed Pearsall because the RotoWire importer retained only the most recent page of updates, while his season-ending news was already older.  The rolling snapshot retention and verified hard-status layer address the two distinct failure modes: disappearing news history and known season-long unavailability.
 
@@ -133,4 +135,4 @@ Recommendation-policy regressions can be run separately with:
 node 2026/Pipeline/test_recommendation_policy.js
 ```
 
-The remaining keeper declarations and future traded-pick changes belong in `2026/Config/current_draft.json`.  Manually reviewed player and team observations belong in `2026/Config/context_adjustments.json`.  Authenticated FantasyGuru research and connected spreadsheet imports are stored as dated source snapshots under `2026/Analysis/source/`.
+Future keeper changes and traded-pick changes belong in `2026/Config/current_draft.json`.  Manually reviewed player and team observations belong in `2026/Config/context_adjustments.json`.  Authenticated FantasyGuru research and connected spreadsheet imports are stored as dated source snapshots under `2026/Analysis/source/`.

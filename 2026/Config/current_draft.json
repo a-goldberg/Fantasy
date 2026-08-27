@@ -16,12 +16,116 @@
   "rounds": 17,
   "keepers": [
     {
+      "manager": "Nalick",
+      "player": "Zay Flowers",
+      "round": 4,
+      "overall_pick": 32,
+      "status": "confirmed",
+      "basis": "Reported by Goldberg on Aug. 26, 2026."
+    },
+    {
+      "manager": "Jeff",
+      "player": "Colston Loveland",
+      "round": 6,
+      "overall_pick": 56,
+      "status": "confirmed",
+      "basis": "Reported by Goldberg on Aug. 26, 2026."
+    },
+    {
+      "manager": "Greenspan",
+      "player": "Bo Nix",
+      "round": 6,
+      "overall_pick": 58,
+      "status": "confirmed",
+      "basis": "Reported by Goldberg on Aug. 26, 2026."
+    },
+    {
+      "manager": "Tompkins",
+      "player": "Brock Bowers",
+      "round": 6,
+      "overall_pick": 59,
+      "status": "confirmed",
+      "basis": "Reported by Goldberg on Aug. 26, 2026."
+    },
+    {
       "manager": "Goldberg",
       "player": "Matthew Stafford",
       "round": 7,
       "overall_pick": 64,
       "status": "confirmed",
-      "basis": "Confirmed by Goldberg on Aug. 17, 2026."
+      "basis": "Confirmed by Goldberg; reconfirmed Aug. 26, 2026."
+    },
+    {
+      "manager": "Joshua",
+      "player": "Drake Maye",
+      "round": 7,
+      "overall_pick": 66,
+      "status": "confirmed",
+      "basis": "Reported by Goldberg on Aug. 26, 2026."
+    },
+    {
+      "manager": "Big Leiber",
+      "player": "Ladd McConkey",
+      "round": 8,
+      "overall_pick": 74,
+      "status": "confirmed",
+      "basis": "Reported by Goldberg on Aug. 26, 2026."
+    },
+    {
+      "manager": "Jeff",
+      "player": "Cam Skattebo",
+      "round": 8,
+      "overall_pick": 76,
+      "status": "confirmed",
+      "basis": "Reported by Goldberg on Aug. 26, 2026."
+    },
+    {
+      "manager": "Ori",
+      "player": "Jaxson Dart",
+      "round": 9,
+      "overall_pick": 81,
+      "status": "confirmed",
+      "basis": "Reported by Goldberg on Aug. 26, 2026."
+    },
+    {
+      "manager": "Big Leiber",
+      "player": "Travis Etienne Jr.",
+      "round": 10,
+      "overall_pick": 94,
+      "status": "confirmed",
+      "basis": "Reported by Goldberg on Aug. 26, 2026."
+    },
+    {
+      "manager": "Joshua",
+      "player": "Sam Darnold",
+      "round": 10,
+      "overall_pick": 95,
+      "status": "confirmed",
+      "basis": "Reported by Goldberg on Aug. 26, 2026."
+    },
+    {
+      "manager": "Ori",
+      "player": "Jordan Addison",
+      "round": 10,
+      "overall_pick": 100,
+      "status": "confirmed",
+      "basis": "Reported by Goldberg on Aug. 26, 2026."
+    },
+    {
+      "manager": "Tompkins",
+      "player": "Javonte Williams",
+      "round": 11,
+      "overall_pick": 102,
+      "status": "confirmed",
+      "basis": "Reported by Goldberg on Aug. 26, 2026."
+    },
+    {
+      "manager": "Greenspan",
+      "player": "Quinshon Judkins",
+      "round": 12,
+      "overall_pick": 118,
+      "status": "confirmed",
+      "basis": "Reported by Goldberg on Aug. 26, 2026."
     }
   ],
   "traded_picks": [
@@ -40,7 +144,5 @@
       "status": "reported by league owner"
     }
   ],
-  "unknown_inputs": [
-    "Final keeper declarations for the other nine managers"
-  ]
+  "unknown_inputs": []
 }

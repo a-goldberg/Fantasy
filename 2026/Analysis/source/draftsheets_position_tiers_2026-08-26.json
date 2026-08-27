@@ -1,0 +1,1437 @@
+{
+  "source": {
+    "title": "DraftSheets_2026",
+    "source_id": "1Gj9k97KRpVWvN7hvoyDiD3NeGJHUDNikrnUS2ydfxUM",
+    "source_url": "https://docs.google.com/spreadsheets/d/1Gj9k97KRpVWvN7hvoyDiD3NeGJHUDNikrnUS2ydfxUM/edit",
+    "sheet": "DraftSheet",
+    "retrieved_at": "2026-08-26",
+    "source_updated_at": "2026-08-26T16:47:55.506Z",
+    "format": "Google Sheets displayed values",
+    "validation_status": "validated",
+    "note": "Tier cells remain keyed to the displayed player names."
+  },
+  "players": [
+    {
+      "player": "Josh Allen",
+      "position": "QB",
+      "position_tier": 1,
+      "source_row": 5
+    },
+    {
+      "player": "Lamar Jackson",
+      "position": "QB",
+      "position_tier": 2,
+      "source_row": 6
+    },
+    {
+      "player": "Drake Maye",
+      "position": "QB",
+      "position_tier": 2,
+      "source_row": 7
+    },
+    {
+      "player": "Jayden Daniels",
+      "position": "QB",
+      "position_tier": 2,
+      "source_row": 8
+    },
+    {
+      "player": "Jalen Hurts",
+      "position": "QB",
+      "position_tier": 2,
+      "source_row": 9
+    },
+    {
+      "player": "Joe Burrow",
+      "position": "QB",
+      "position_tier": 2,
+      "source_row": 10
+    },
+    {
+      "player": "Trevor Lawrence",
+      "position": "QB",
+      "position_tier": 2,
+      "source_row": 11
+    },
+    {
+      "player": "Jaxson Dart",
+      "position": "QB",
+      "position_tier": 2,
+      "source_row": 12
+    },
+    {
+      "player": "Brock Purdy",
+      "position": "QB",
+      "position_tier": 2,
+      "source_row": 13
+    },
+    {
+      "player": "Dak Prescott",
+      "position": "QB",
+      "position_tier": 2,
+      "source_row": 14
+    },
+    {
+      "player": "Caleb Williams",
+      "position": "QB",
+      "position_tier": 2,
+      "source_row": 15
+    },
+    {
+      "player": "Justin Herbert",
+      "position": "QB",
+      "position_tier": 2,
+      "source_row": 16
+    },
+    {
+      "player": "Patrick Mahomes II",
+      "position": "QB",
+      "position_tier": 2,
+      "source_row": 17
+    },
+    {
+      "player": "Bo Nix",
+      "position": "QB",
+      "position_tier": 3,
+      "source_row": 18
+    },
+    {
+      "player": "Matthew Stafford",
+      "position": "QB",
+      "position_tier": 3,
+      "source_row": 19
+    },
+    {
+      "player": "Jared Goff",
+      "position": "QB",
+      "position_tier": 3,
+      "source_row": 20
+    },
+    {
+      "player": "Baker Mayfield",
+      "position": "QB",
+      "position_tier": 3,
+      "source_row": 21
+    },
+    {
+      "player": "Kyler Murray",
+      "position": "QB",
+      "position_tier": 3,
+      "source_row": 22
+    },
+    {
+      "player": "Tyler Shough",
+      "position": "QB",
+      "position_tier": 3,
+      "source_row": 23
+    },
+    {
+      "player": "Jordan Love",
+      "position": "QB",
+      "position_tier": 3,
+      "source_row": 24
+    },
+    {
+      "player": "Malik Willis",
+      "position": "QB",
+      "position_tier": 4,
+      "source_row": 25
+    },
+    {
+      "player": "Daniel Jones",
+      "position": "QB",
+      "position_tier": 4,
+      "source_row": 26
+    },
+    {
+      "player": "Sam Darnold",
+      "position": "QB",
+      "position_tier": 4,
+      "source_row": 27
+    },
+    {
+      "player": "C.J. Stroud",
+      "position": "QB",
+      "position_tier": 4,
+      "source_row": 28
+    },
+    {
+      "player": "Bryce Young",
+      "position": "QB",
+      "position_tier": 4,
+      "source_row": 29
+    },
+    {
+      "player": "Cam Ward",
+      "position": "QB",
+      "position_tier": 4,
+      "source_row": 30
+    },
+    {
+      "player": "Geno Smith",
+      "position": "QB",
+      "position_tier": 5,
+      "source_row": 31
+    },
+    {
+      "player": "Jacoby Brissett",
+      "position": "QB",
+      "position_tier": 5,
+      "source_row": 32
+    },
+    {
+      "player": "Aaron Rodgers",
+      "position": "QB",
+      "position_tier": 5,
+      "source_row": 33
+    },
+    {
+      "player": "Fernando Mendoza",
+      "position": "QB",
+      "position_tier": 6,
+      "source_row": 34
+    },
+    {
+      "player": "Deshaun Watson",
+      "position": "QB",
+      "position_tier": 7,
+      "source_row": 35
+    },
+    {
+      "player": "Tua Tagovailoa",
+      "position": "QB",
+      "position_tier": 7,
+      "source_row": 36
+    },
+    {
+      "player": "Michael Penix Jr.",
+      "position": "QB",
+      "position_tier": 7,
+      "source_row": 37
+    },
+    {
+      "player": "Shedeur Sanders",
+      "position": "QB",
+      "position_tier": 8,
+      "source_row": 38
+    },
+    {
+      "player": "Kirk Cousins",
+      "position": "QB",
+      "position_tier": 8,
+      "source_row": 39
+    },
+    {
+      "player": "J.J. McCarthy",
+      "position": "QB",
+      "position_tier": 9,
+      "source_row": 40
+    },
+    {
+      "player": "Carson Beck",
+      "position": "QB",
+      "position_tier": 9,
+      "source_row": 41
+    },
+    {
+      "player": "Ty Simpson",
+      "position": "QB",
+      "position_tier": 9,
+      "source_row": 42
+    },
+    {
+      "player": "Justin Fields",
+      "position": "QB",
+      "position_tier": 9,
+      "source_row": 43
+    },
+    {
+      "player": "Mac Jones",
+      "position": "QB",
+      "position_tier": 9,
+      "source_row": 44
+    },
+    {
+      "player": "Jahmyr Gibbs",
+      "position": "RB",
+      "position_tier": 1,
+      "source_row": 5
+    },
+    {
+      "player": "Bijan Robinson",
+      "position": "RB",
+      "position_tier": 1,
+      "source_row": 6
+    },
+    {
+      "player": "Christian McCaffrey",
+      "position": "RB",
+      "position_tier": 2,
+      "source_row": 7
+    },
+    {
+      "player": "Jonathan Taylor",
+      "position": "RB",
+      "position_tier": 2,
+      "source_row": 8
+    },
+    {
+      "player": "De'Von Achane",
+      "position": "RB",
+      "position_tier": 3,
+      "source_row": 9
+    },
+    {
+      "player": "Derrick Henry",
+      "position": "RB",
+      "position_tier": 2,
+      "source_row": 10
+    },
+    {
+      "player": "James Cook III",
+      "position": "RB",
+      "position_tier": 3,
+      "source_row": 11
+    },
+    {
+      "player": "Chase Brown",
+      "position": "RB",
+      "position_tier": 3,
+      "source_row": 12
+    },
+    {
+      "player": "Saquon Barkley",
+      "position": "RB",
+      "position_tier": 3,
+      "source_row": 13
+    },
+    {
+      "player": "Kenneth Walker III",
+      "position": "RB",
+      "position_tier": 4,
+      "source_row": 14
+    },
+    {
+      "player": "Ashton Jeanty",
+      "position": "RB",
+      "position_tier": 4,
+      "source_row": 15
+    },
+    {
+      "player": "Omarion Hampton",
+      "position": "RB",
+      "position_tier": 4,
+      "source_row": 16
+    },
+    {
+      "player": "Jeremiyah Love",
+      "position": "RB",
+      "position_tier": 4,
+      "source_row": 17
+    },
+    {
+      "player": "Josh Jacobs",
+      "position": "RB",
+      "position_tier": 4,
+      "source_row": 18
+    },
+    {
+      "player": "Kyren Williams",
+      "position": "RB",
+      "position_tier": 4,
+      "source_row": 19
+    },
+    {
+      "player": "Breece Hall",
+      "position": "RB",
+      "position_tier": 4,
+      "source_row": 20
+    },
+    {
+      "player": "Javonte Williams",
+      "position": "RB",
+      "position_tier": 4,
+      "source_row": 21
+    },
+    {
+      "player": "Travis Etienne Jr.",
+      "position": "RB",
+      "position_tier": 4,
+      "source_row": 22
+    },
+    {
+      "player": "Cam Skattebo",
+      "position": "RB",
+      "position_tier": 4,
+      "source_row": 23
+    },
+    {
+      "player": "D'Andre Swift",
+      "position": "RB",
+      "position_tier": 5,
+      "source_row": 24
+    },
+    {
+      "player": "Bucky Irving",
+      "position": "RB",
+      "position_tier": 5,
+      "source_row": 25
+    },
+    {
+      "player": "Quinshon Judkins",
+      "position": "RB",
+      "position_tier": 5,
+      "source_row": 26
+    },
+    {
+      "player": "Bhayshul Tuten",
+      "position": "RB",
+      "position_tier": 5,
+      "source_row": 27
+    },
+    {
+      "player": "Jadarian Price",
+      "position": "RB",
+      "position_tier": 5,
+      "source_row": 28
+    },
+    {
+      "player": "David Montgomery",
+      "position": "RB",
+      "position_tier": 5,
+      "source_row": 29
+    },
+    {
+      "player": "TreVeyon Henderson",
+      "position": "RB",
+      "position_tier": 6,
+      "source_row": 30
+    },
+    {
+      "player": "Jaylen Warren",
+      "position": "RB",
+      "position_tier": 6,
+      "source_row": 31
+    },
+    {
+      "player": "Tony Pollard",
+      "position": "RB",
+      "position_tier": 6,
+      "source_row": 32
+    },
+    {
+      "player": "Rhamondre Stevenson",
+      "position": "RB",
+      "position_tier": 6,
+      "source_row": 33
+    },
+    {
+      "player": "Rico Dowdle",
+      "position": "RB",
+      "position_tier": 6,
+      "source_row": 34
+    },
+    {
+      "player": "J.K. Dobbins",
+      "position": "RB",
+      "position_tier": 6,
+      "source_row": 35
+    },
+    {
+      "player": "Chuba Hubbard",
+      "position": "RB",
+      "position_tier": 7,
+      "source_row": 36
+    },
+    {
+      "player": "Jonathon Brooks",
+      "position": "RB",
+      "position_tier": 6,
+      "source_row": 37
+    },
+    {
+      "player": "Kyle Monangai",
+      "position": "RB",
+      "position_tier": 7,
+      "source_row": 38
+    },
+    {
+      "player": "RJ Harvey",
+      "position": "RB",
+      "position_tier": 7,
+      "source_row": 39
+    },
+    {
+      "player": "Jacory Croskey-Merritt",
+      "position": "RB",
+      "position_tier": 7,
+      "source_row": 40
+    },
+    {
+      "player": "Rachaad White",
+      "position": "RB",
+      "position_tier": 7,
+      "source_row": 41
+    },
+    {
+      "player": "Kenny Gainwell",
+      "position": "RB",
+      "position_tier": 7,
+      "source_row": 42
+    },
+    {
+      "player": "Aaron Jones Sr.",
+      "position": "RB",
+      "position_tier": 7,
+      "source_row": 43
+    },
+    {
+      "player": "Jordan Mason",
+      "position": "RB",
+      "position_tier": 7,
+      "source_row": 44
+    },
+    {
+      "player": "Blake Corum",
+      "position": "RB",
+      "position_tier": 7,
+      "source_row": 45
+    },
+    {
+      "player": "Mike Washington Jr.",
+      "position": "RB",
+      "position_tier": 8,
+      "source_row": 46
+    },
+    {
+      "player": "Woody Marks",
+      "position": "RB",
+      "position_tier": 8,
+      "source_row": 47
+    },
+    {
+      "player": "Tyjae Spears",
+      "position": "RB",
+      "position_tier": 8,
+      "source_row": 48
+    },
+    {
+      "player": "Jonah Coleman",
+      "position": "RB",
+      "position_tier": 8,
+      "source_row": 49
+    },
+    {
+      "player": "Zach Charbonnet",
+      "position": "RB",
+      "position_tier": 8,
+      "source_row": 50
+    },
+    {
+      "player": "Kaelon Black",
+      "position": "RB",
+      "position_tier": 8,
+      "source_row": 51
+    },
+    {
+      "player": "Chris Rodriguez Jr.",
+      "position": "RB",
+      "position_tier": 8,
+      "source_row": 52
+    },
+    {
+      "player": "Alvin Kamara",
+      "position": "RB",
+      "position_tier": 9,
+      "source_row": 53
+    },
+    {
+      "player": "Isiah Pacheco",
+      "position": "RB",
+      "position_tier": 8,
+      "source_row": 54
+    },
+    {
+      "player": "Tyler Allgeier",
+      "position": "RB",
+      "position_tier": 9,
+      "source_row": 55
+    },
+    {
+      "player": "Dylan Sampson",
+      "position": "RB",
+      "position_tier": 9,
+      "source_row": 56
+    },
+    {
+      "player": "Tyrone Tracy Jr.",
+      "position": "RB",
+      "position_tier": 9,
+      "source_row": 57
+    },
+    {
+      "player": "Braelon Allen",
+      "position": "RB",
+      "position_tier": 9,
+      "source_row": 58
+    },
+    {
+      "player": "Tank Bigsby",
+      "position": "RB",
+      "position_tier": 9,
+      "source_row": 59
+    },
+    {
+      "player": "Emmett Johnson",
+      "position": "RB",
+      "position_tier": 9,
+      "source_row": 60
+    },
+    {
+      "player": "Keaton Mitchell",
+      "position": "RB",
+      "position_tier": 9,
+      "source_row": 61
+    },
+    {
+      "player": "Brian Robinson Jr.",
+      "position": "RB",
+      "position_tier": 9,
+      "source_row": 62
+    },
+    {
+      "player": "Justice Hill",
+      "position": "RB",
+      "position_tier": 9,
+      "source_row": 63
+    },
+    {
+      "player": "Kaytron Allen",
+      "position": "RB",
+      "position_tier": 9,
+      "source_row": 64
+    },
+    {
+      "player": "Nicholas Singleton",
+      "position": "RB",
+      "position_tier": 9,
+      "source_row": 65
+    },
+    {
+      "player": "Samaje Perine",
+      "position": "RB",
+      "position_tier": 9,
+      "source_row": 66
+    },
+    {
+      "player": "Demond Claiborne",
+      "position": "RB",
+      "position_tier": 9,
+      "source_row": 67
+    },
+    {
+      "player": "Ty Johnson",
+      "position": "RB",
+      "position_tier": 10,
+      "source_row": 68
+    },
+    {
+      "player": "Jordan James",
+      "position": "RB",
+      "position_tier": 10,
+      "source_row": 69
+    },
+    {
+      "player": "Kimani Vidal",
+      "position": "RB",
+      "position_tier": 10,
+      "source_row": 70
+    },
+    {
+      "player": "MarShawn Lloyd",
+      "position": "RB",
+      "position_tier": 10,
+      "source_row": 71
+    },
+    {
+      "player": "James Conner",
+      "position": "RB",
+      "position_tier": 10,
+      "source_row": 72
+    },
+    {
+      "player": "Jaydon Blue",
+      "position": "RB",
+      "position_tier": 10,
+      "source_row": 73
+    },
+    {
+      "player": "Emanuel Wilson",
+      "position": "RB",
+      "position_tier": 10,
+      "source_row": 74
+    },
+    {
+      "player": "Chris Brooks",
+      "position": "RB",
+      "position_tier": 10,
+      "source_row": 75
+    },
+    {
+      "player": "Najee Harris",
+      "position": "RB",
+      "position_tier": 10,
+      "source_row": 76
+    },
+    {
+      "player": "Jaylen Wright",
+      "position": "RB",
+      "position_tier": 10,
+      "source_row": 77
+    },
+    {
+      "player": "George Holani",
+      "position": "RB",
+      "position_tier": 10,
+      "source_row": 78
+    },
+    {
+      "player": "Ray Davis",
+      "position": "RB",
+      "position_tier": 10,
+      "source_row": 79
+    },
+    {
+      "player": "Sean Tucker",
+      "position": "RB",
+      "position_tier": 10,
+      "source_row": 80
+    },
+    {
+      "player": "Malik Davis",
+      "position": "RB",
+      "position_tier": 10,
+      "source_row": 81
+    },
+    {
+      "player": "Isaiah Davis",
+      "position": "RB",
+      "position_tier": 10,
+      "source_row": 82
+    },
+    {
+      "player": "Ollie Gordon II",
+      "position": "RB",
+      "position_tier": 11,
+      "source_row": 83
+    },
+    {
+      "player": "LeQuint Allen Jr.",
+      "position": "RB",
+      "position_tier": 11,
+      "source_row": 84
+    },
+    {
+      "player": "Puka Nacua",
+      "position": "WR",
+      "position_tier": 1,
+      "source_row": 5
+    },
+    {
+      "player": "Ja'Marr Chase",
+      "position": "WR",
+      "position_tier": 1,
+      "source_row": 6
+    },
+    {
+      "player": "Jaxon Smith-Njigba",
+      "position": "WR",
+      "position_tier": 1,
+      "source_row": 7
+    },
+    {
+      "player": "Amon-Ra St. Brown",
+      "position": "WR",
+      "position_tier": 2,
+      "source_row": 8
+    },
+    {
+      "player": "Justin Jefferson",
+      "position": "WR",
+      "position_tier": 3,
+      "source_row": 9
+    },
+    {
+      "player": "CeeDee Lamb",
+      "position": "WR",
+      "position_tier": 3,
+      "source_row": 10
+    },
+    {
+      "player": "Drake London",
+      "position": "WR",
+      "position_tier": 3,
+      "source_row": 11
+    },
+    {
+      "player": "A.J. Brown",
+      "position": "WR",
+      "position_tier": 3,
+      "source_row": 12
+    },
+    {
+      "player": "Rashee Rice",
+      "position": "WR",
+      "position_tier": 3,
+      "source_row": 13
+    },
+    {
+      "player": "George Pickens",
+      "position": "WR",
+      "position_tier": 3,
+      "source_row": 14
+    },
+    {
+      "player": "Chris Olave",
+      "position": "WR",
+      "position_tier": 3,
+      "source_row": 15
+    },
+    {
+      "player": "Nico Collins",
+      "position": "WR",
+      "position_tier": 3,
+      "source_row": 16
+    },
+    {
+      "player": "Malik Nabers",
+      "position": "WR",
+      "position_tier": 3,
+      "source_row": 17
+    },
+    {
+      "player": "Zay Flowers",
+      "position": "WR",
+      "position_tier": 4,
+      "source_row": 18
+    },
+    {
+      "player": "DeVonta Smith",
+      "position": "WR",
+      "position_tier": 4,
+      "source_row": 19
+    },
+    {
+      "player": "Tetairoa McMillan",
+      "position": "WR",
+      "position_tier": 4,
+      "source_row": 20
+    },
+    {
+      "player": "Garrett Wilson",
+      "position": "WR",
+      "position_tier": 4,
+      "source_row": 21
+    },
+    {
+      "player": "Tee Higgins",
+      "position": "WR",
+      "position_tier": 4,
+      "source_row": 22
+    },
+    {
+      "player": "Emeka Egbuka",
+      "position": "WR",
+      "position_tier": 4,
+      "source_row": 23
+    },
+    {
+      "player": "Davante Adams",
+      "position": "WR",
+      "position_tier": 4,
+      "source_row": 24
+    },
+    {
+      "player": "Ladd McConkey",
+      "position": "WR",
+      "position_tier": 5,
+      "source_row": 25
+    },
+    {
+      "player": "Terry McLaurin",
+      "position": "WR",
+      "position_tier": 5,
+      "source_row": 26
+    },
+    {
+      "player": "Jaylen Waddle",
+      "position": "WR",
+      "position_tier": 5,
+      "source_row": 27
+    },
+    {
+      "player": "Jameson Williams",
+      "position": "WR",
+      "position_tier": 5,
+      "source_row": 28
+    },
+    {
+      "player": "Luther Burden III",
+      "position": "WR",
+      "position_tier": 5,
+      "source_row": 29
+    },
+    {
+      "player": "DJ Moore",
+      "position": "WR",
+      "position_tier": 5,
+      "source_row": 30
+    },
+    {
+      "player": "Rome Odunze",
+      "position": "WR",
+      "position_tier": 5,
+      "source_row": 31
+    },
+    {
+      "player": "Mike Evans",
+      "position": "WR",
+      "position_tier": 5,
+      "source_row": 32
+    },
+    {
+      "player": "Christian Watson",
+      "position": "WR",
+      "position_tier": 5,
+      "source_row": 33
+    },
+    {
+      "player": "Marvin Harrison Jr.",
+      "position": "WR",
+      "position_tier": 6,
+      "source_row": 34
+    },
+    {
+      "player": "Carnell Tate",
+      "position": "WR",
+      "position_tier": 5,
+      "source_row": 35
+    },
+    {
+      "player": "DK Metcalf",
+      "position": "WR",
+      "position_tier": 6,
+      "source_row": 36
+    },
+    {
+      "player": "Courtland Sutton",
+      "position": "WR",
+      "position_tier": 6,
+      "source_row": 37
+    },
+    {
+      "player": "Alec Pierce",
+      "position": "WR",
+      "position_tier": 6,
+      "source_row": 38
+    },
+    {
+      "player": "Parker Washington",
+      "position": "WR",
+      "position_tier": 6,
+      "source_row": 39
+    },
+    {
+      "player": "Brian Thomas Jr.",
+      "position": "WR",
+      "position_tier": 6,
+      "source_row": 40
+    },
+    {
+      "player": "Michael Pittman Jr.",
+      "position": "WR",
+      "position_tier": 7,
+      "source_row": 41
+    },
+    {
+      "player": "KC Concepcion",
+      "position": "WR",
+      "position_tier": 6,
+      "source_row": 42
+    },
+    {
+      "player": "Michael Wilson",
+      "position": "WR",
+      "position_tier": 6,
+      "source_row": 43
+    },
+    {
+      "player": "Makai Lemon",
+      "position": "WR",
+      "position_tier": 6,
+      "source_row": 44
+    },
+    {
+      "player": "Jayden Reed",
+      "position": "WR",
+      "position_tier": 7,
+      "source_row": 45
+    },
+    {
+      "player": "Chris Godwin Jr.",
+      "position": "WR",
+      "position_tier": 7,
+      "source_row": 46
+    },
+    {
+      "player": "Quentin Johnston",
+      "position": "WR",
+      "position_tier": 6,
+      "source_row": 47
+    },
+    {
+      "player": "Jakobi Meyers",
+      "position": "WR",
+      "position_tier": 7,
+      "source_row": 48
+    },
+    {
+      "player": "Jordan Addison",
+      "position": "WR",
+      "position_tier": 7,
+      "source_row": 49
+    },
+    {
+      "player": "De'Zhaun Stribling",
+      "position": "WR",
+      "position_tier": 6,
+      "source_row": 50
+    },
+    {
+      "player": "Wan'Dale Robinson",
+      "position": "WR",
+      "position_tier": 7,
+      "source_row": 51
+    },
+    {
+      "player": "Xavier Worthy",
+      "position": "WR",
+      "position_tier": 7,
+      "source_row": 52
+    },
+    {
+      "player": "Denzel Boston",
+      "position": "WR",
+      "position_tier": 6,
+      "source_row": 53
+    },
+    {
+      "player": "Deebo Samuel Sr.",
+      "position": "WR",
+      "position_tier": 7,
+      "source_row": 54
+    },
+    {
+      "player": "Stefon Diggs",
+      "position": "WR",
+      "position_tier": 7,
+      "source_row": 55
+    },
+    {
+      "player": "Matthew Golden",
+      "position": "WR",
+      "position_tier": 7,
+      "source_row": 56
+    },
+    {
+      "player": "Romeo Doubs",
+      "position": "WR",
+      "position_tier": 7,
+      "source_row": 57
+    },
+    {
+      "player": "Josh Downs",
+      "position": "WR",
+      "position_tier": 7,
+      "source_row": 58
+    },
+    {
+      "player": "Rashid Shaheed",
+      "position": "WR",
+      "position_tier": 7,
+      "source_row": 59
+    },
+    {
+      "player": "Jalen Coker",
+      "position": "WR",
+      "position_tier": 7,
+      "source_row": 60
+    },
+    {
+      "player": "Khalil Shakir",
+      "position": "WR",
+      "position_tier": 7,
+      "source_row": 61
+    },
+    {
+      "player": "Jordyn Tyson",
+      "position": "WR",
+      "position_tier": 7,
+      "source_row": 62
+    },
+    {
+      "player": "Calvin Ridley",
+      "position": "WR",
+      "position_tier": 7,
+      "source_row": 63
+    },
+    {
+      "player": "Jerry Jeudy",
+      "position": "WR",
+      "position_tier": 8,
+      "source_row": 64
+    },
+    {
+      "player": "Tre Tucker",
+      "position": "WR",
+      "position_tier": 8,
+      "source_row": 65
+    },
+    {
+      "player": "Tank Dell",
+      "position": "WR",
+      "position_tier": 8,
+      "source_row": 66
+    },
+    {
+      "player": "Jalen McMillan",
+      "position": "WR",
+      "position_tier": 8,
+      "source_row": 67
+    },
+    {
+      "player": "Jauan Jennings",
+      "position": "WR",
+      "position_tier": 8,
+      "source_row": 68
+    },
+    {
+      "player": "Omar Cooper Jr.",
+      "position": "WR",
+      "position_tier": 7,
+      "source_row": 69
+    },
+    {
+      "player": "Rashod Bateman",
+      "position": "WR",
+      "position_tier": 8,
+      "source_row": 70
+    },
+    {
+      "player": "Keenan Allen",
+      "position": "WR",
+      "position_tier": 8,
+      "source_row": 71
+    },
+    {
+      "player": "Jalen Nailor",
+      "position": "WR",
+      "position_tier": 8,
+      "source_row": 72
+    },
+    {
+      "player": "Adonai Mitchell",
+      "position": "WR",
+      "position_tier": 8,
+      "source_row": 73
+    },
+    {
+      "player": "Kayshon Boutte",
+      "position": "WR",
+      "position_tier": 8,
+      "source_row": 74
+    },
+    {
+      "player": "Cooper Kupp",
+      "position": "WR",
+      "position_tier": 8,
+      "source_row": 75
+    },
+    {
+      "player": "Dontayvion Wicks",
+      "position": "WR",
+      "position_tier": 8,
+      "source_row": 76
+    },
+    {
+      "player": "Malik Washington",
+      "position": "WR",
+      "position_tier": 9,
+      "source_row": 77
+    },
+    {
+      "player": "Travis Hunter",
+      "position": "WR",
+      "position_tier": 9,
+      "source_row": 78
+    },
+    {
+      "player": "Jaylin Noel",
+      "position": "WR",
+      "position_tier": 9,
+      "source_row": 79
+    },
+    {
+      "player": "Tre' Harris",
+      "position": "WR",
+      "position_tier": 9,
+      "source_row": 80
+    },
+    {
+      "player": "Ryan Flournoy",
+      "position": "WR",
+      "position_tier": 9,
+      "source_row": 81
+    },
+    {
+      "player": "Isaac TeSlaa",
+      "position": "WR",
+      "position_tier": 9,
+      "source_row": 82
+    },
+    {
+      "player": "Pat Bryant",
+      "position": "WR",
+      "position_tier": 9,
+      "source_row": 83
+    },
+    {
+      "player": "Darnell Mooney",
+      "position": "WR",
+      "position_tier": 10,
+      "source_row": 84
+    },
+    {
+      "player": "Brock Bowers",
+      "position": "TE",
+      "position_tier": 1,
+      "source_row": 48
+    },
+    {
+      "player": "Trey McBride",
+      "position": "TE",
+      "position_tier": 1,
+      "source_row": 49
+    },
+    {
+      "player": "Colston Loveland",
+      "position": "TE",
+      "position_tier": 2,
+      "source_row": 50
+    },
+    {
+      "player": "Tyler Warren",
+      "position": "TE",
+      "position_tier": 3,
+      "source_row": 51
+    },
+    {
+      "player": "Harold Fannin Jr.",
+      "position": "TE",
+      "position_tier": 3,
+      "source_row": 52
+    },
+    {
+      "player": "Tucker Kraft",
+      "position": "TE",
+      "position_tier": 3,
+      "source_row": 53
+    },
+    {
+      "player": "Sam LaPorta",
+      "position": "TE",
+      "position_tier": 3,
+      "source_row": 54
+    },
+    {
+      "player": "Kyle Pitts Sr.",
+      "position": "TE",
+      "position_tier": 4,
+      "source_row": 55
+    },
+    {
+      "player": "George Kittle",
+      "position": "TE",
+      "position_tier": 3,
+      "source_row": 56
+    },
+    {
+      "player": "Travis Kelce",
+      "position": "TE",
+      "position_tier": 4,
+      "source_row": 57
+    },
+    {
+      "player": "Dallas Goedert",
+      "position": "TE",
+      "position_tier": 3,
+      "source_row": 58
+    },
+    {
+      "player": "Mark Andrews",
+      "position": "TE",
+      "position_tier": 4,
+      "source_row": 59
+    },
+    {
+      "player": "Isaiah Likely",
+      "position": "TE",
+      "position_tier": 4,
+      "source_row": 60
+    },
+    {
+      "player": "Dalton Kincaid",
+      "position": "TE",
+      "position_tier": 4,
+      "source_row": 61
+    },
+    {
+      "player": "Jake Ferguson",
+      "position": "TE",
+      "position_tier": 5,
+      "source_row": 62
+    },
+    {
+      "player": "Hunter Henry",
+      "position": "TE",
+      "position_tier": 5,
+      "source_row": 63
+    },
+    {
+      "player": "Juwan Johnson",
+      "position": "TE",
+      "position_tier": 5,
+      "source_row": 64
+    },
+    {
+      "player": "Brenton Strange",
+      "position": "TE",
+      "position_tier": 5,
+      "source_row": 65
+    },
+    {
+      "player": "Dalton Schultz",
+      "position": "TE",
+      "position_tier": 6,
+      "source_row": 66
+    },
+    {
+      "player": "T.J. Hockenson",
+      "position": "TE",
+      "position_tier": 6,
+      "source_row": 67
+    },
+    {
+      "player": "Pat Freiermuth",
+      "position": "TE",
+      "position_tier": 6,
+      "source_row": 68
+    },
+    {
+      "player": "Kenyon Sadiq",
+      "position": "TE",
+      "position_tier": 6,
+      "source_row": 69
+    },
+    {
+      "player": "Cade Otton",
+      "position": "TE",
+      "position_tier": 6,
+      "source_row": 70
+    },
+    {
+      "player": "AJ Barner",
+      "position": "TE",
+      "position_tier": 6,
+      "source_row": 71
+    },
+    {
+      "player": "Greg Dulcich",
+      "position": "TE",
+      "position_tier": 6,
+      "source_row": 72
+    },
+    {
+      "player": "Terrance Ferguson",
+      "position": "TE",
+      "position_tier": 6,
+      "source_row": 73
+    },
+    {
+      "player": "Chig Okonkwo",
+      "position": "TE",
+      "position_tier": 6,
+      "source_row": 74
+    },
+    {
+      "player": "Gunnar Helm",
+      "position": "TE",
+      "position_tier": 7,
+      "source_row": 75
+    },
+    {
+      "player": "Evan Engram",
+      "position": "TE",
+      "position_tier": 7,
+      "source_row": 76
+    },
+    {
+      "player": "David Njoku",
+      "position": "TE",
+      "position_tier": 7,
+      "source_row": 77
+    },
+    {
+      "player": "Oronde Gadsden II",
+      "position": "TE",
+      "position_tier": 7,
+      "source_row": 78
+    },
+    {
+      "player": "Mike Gesicki",
+      "position": "TE",
+      "position_tier": 7,
+      "source_row": 79
+    },
+    {
+      "player": "Colby Parkinson",
+      "position": "TE",
+      "position_tier": 7,
+      "source_row": 80
+    },
+    {
+      "player": "Mason Taylor",
+      "position": "TE",
+      "position_tier": 8,
+      "source_row": 81
+    },
+    {
+      "player": "Theo Johnson",
+      "position": "TE",
+      "position_tier": 8,
+      "source_row": 82
+    },
+    {
+      "player": "Eli Stowers",
+      "position": "TE",
+      "position_tier": 10,
+      "source_row": 83
+    },
+    {
+      "player": "Jake Tonges",
+      "position": "TE",
+      "position_tier": 10,
+      "source_row": 84
+    }
+  ]
+}

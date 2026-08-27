@@ -16,7 +16,7 @@
   },
   "drive_sources": [
     {
-      "id": "14N8XHT7NmIDVQKulKcFw3tQWGwWlrhxv71TJUdw_F7U",
+      "id": "1Gj9k97KRpVWvN7hvoyDiD3NeGJHUDNikrnUS2ydfxUM",
       "title": "DraftSheets_2026",
       "adapter": "draftsheets_displayed_name_value",
       "rule": "Use only NAME and displayed VALUE in QB, RB, WR, and TE tables."
@@ -30,6 +30,12 @@
       "id": "1MWb7IXa4gB3Li74w83wv9w-EhRLqkIokOzgLwQQaH8w",
       "title": "Fantasy Guru 2QB-Superflex-Chart-2026",
       "adapter": "quarterback_tiers_and_adp"
+    },
+    {
+      "id": "1aNA4XX1WcImFMs1GlDkUqFdw1OOU_srDus8HFVwpnHk",
+      "title": "RB-Grid-August",
+      "adapter": "rb_contingency_roles",
+      "rule": "Use the displayed starter, primary handcuff, and third-down role. Treat the chart as a late-round contingency relationship, not a standalone player-quality ranking."
     }
   ],
   "authenticated_browser_sources": [

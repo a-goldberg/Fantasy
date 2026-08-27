@@ -26,13 +26,16 @@ const ROSTER_POSITIONS = ["QB", "RB", "WR", "TE", "K", "DST"];
 
 const $ = (selector) => document.querySelector(selector);
 const clamp = (value, min, max) => Math.max(min, Math.min(max, value));
-const normalizePlayerName = (value) =>
-  value
+const PLAYER_NAME_ALIASES = { kennygainwell: "kennethgainwell" };
+const normalizePlayerName = (value) => {
+  const key = value
     .normalize("NFD")
     .replace(/[\u0300-\u036f]/g, "")
     .toLowerCase()
     .replace(/\b(jr|sr|ii|iii|iv|v)\b/g, "")
     .replace(/[^a-z0-9]+/g, "");
+  return PLAYER_NAME_ALIASES[key] || key;
+};
 const normalCdf = (x) => {
   const t = 1 / (1 + 0.2316419 * Math.abs(x));
   const d = 0.3989423 * Math.exp((-x * x) / 2);
@@ -90,6 +93,10 @@ function nextUserOverall(from = currentOverall()) {
 }
 function followingUserOverall(target) {
   return target ? nextUserOverall(target + 1) : null;
+}
+
+function displayedNextUserOverall({ current, target, next, currentOwner, userManager }) {
+  return current === target && currentOwner === userManager ? next : target;
 }
 
 function rosterCounts() {
@@ -461,6 +468,34 @@ function handcuffRelationshipDecision({ player, rosteredPlayers, targetPick }) {
     .filter((item) => item?.position === player.position)
     .sort((a, b) => a.base_composite_rank - b.base_composite_rank)
     .slice(0, 2);
+  const verifiedRelationship = player.position === "RB" ? player.rb_handcuff : null;
+  if (verifiedRelationship?.starter) {
+    const rosteredStarter = rosteredStarters.find(
+      (starter) =>
+        normalizePlayerName(starter.player) ===
+        normalizePlayerName(verifiedRelationship.starter),
+    );
+    if (rosteredStarter) {
+      const injuryPercentile = Number(
+        rosteredStarter.models?.injury?.risk_percentile_at_position,
+      );
+      const decision = handcuffBoostDecision({
+        round: roundAt(targetPick),
+        position: player.position,
+        candidateDepth: 2,
+        starterInjuryPercentile: injuryPercentile,
+      });
+      return {
+        ...decision,
+        starter: rosteredStarter.player,
+        starterInjuryPercentile: Number.isFinite(injuryPercentile)
+          ? injuryPercentile
+          : null,
+        candidateDepth: 2,
+        sourceName: verifiedRelationship.source_name,
+      };
+    }
+  }
   const matches = rosteredStarters.flatMap((starter) => {
     if (starter.team !== player.team) return [];
     const starterDepth = (starter.depth_chart || []).find(
@@ -1700,10 +1735,17 @@ function renderRoster() {
 function render() {
   const current = currentOverall();
   const recs = recommendations();
+  const displayedNext = displayedNextUserOverall({
+    current,
+    target: recs.target,
+    next: recs.next,
+    currentOwner: current <= 170 ? ownerAt(current) : null,
+    userManager: state.data.draft.user_manager,
+  });
   $("#on-clock").textContent =
     current <= 170 ? `${ownerAt(current)} · Pick ${current}` : "Draft complete";
-  $("#next-pick").textContent = recs.target
-    ? `No. ${recs.target} · Round ${roundAt(recs.target)}`
+  $("#next-pick").textContent = displayedNext
+    ? `No. ${displayedNext} · Round ${roundAt(displayedNext)}`
     : "Complete";
   renderRoster();
   renderList(
@@ -1729,13 +1771,14 @@ function render() {
   );
   const unknown = state.data.draft.unknown_inputs;
   $("#data-alert").classList.toggle("visible", unknown.length > 0);
-  $("#data-alert").textContent =
-    `Stafford is confirmed at pick 64.  Still needed before draft day: ${unknown.slice(0, 2).join("; ").toLowerCase()}.`;
+  $("#data-alert").textContent = unknown.length
+    ? `${state.data.draft.keepers.length} keepers are confirmed.  Still needed before draft day: ${unknown.slice(0, 2).join("; ").toLowerCase()}.`
+    : "All reported keepers are loaded.";
   $("#undo").disabled = !state.history.length;
 }
 
 async function init() {
-  state.data = await fetch("data/draft-board.json").then((response) =>
+  state.data = await fetch("data/draft-board.json", { cache: "no-store" }).then((response) =>
     response.json(),
   );
   restore();
@@ -1814,6 +1857,7 @@ if (typeof module !== "undefined" && module.exports)
     wildcardEvidenceDecision,
     handcuffBoostDecision,
     handcuffRelationshipDecision,
+    displayedNextUserOverall,
     endgameSpecialistAdjustment,
   };
 
