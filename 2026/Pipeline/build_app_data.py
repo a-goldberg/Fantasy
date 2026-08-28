@@ -391,6 +391,7 @@ def main() -> None:
             "expert_rankings": {
                 "rank_horizon": board.get("rank_horizon"),
                 "weights": board.get("weights", {}),
+                "source_roles": board.get("source_roles", {}),
             },
             "market": public_adp["sources"],
             "context_retrieved": current_context.get("retrieved"),

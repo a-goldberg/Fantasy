@@ -1147,10 +1147,49 @@ function renderList(selector, entries, kind, target, next) {
   );
 }
 
-function recordPlayer(playerName, position = null, type = "live") {
+function applyApiDraftState(saved) {
+  state.picks = saved.picks || [];
+  state.apiVersion = saved.version || 0;
+  autoApplyKeepers();
+  persist();
+  render();
+}
+
+async function draftStateRequest(path, payload) {
+  const response = await fetch(path, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(payload),
+  });
+  const result = await readJsonResponse(response, "The draft-state API");
+  if (!response.ok) throw new Error(result.error || "Draft state request failed");
+  return result;
+}
+
+async function recordPlayer(playerName, position = null, type = "live") {
   const overall = currentOverall();
   if (overall > 170) return;
-  state.history.push(JSON.stringify(state.picks));
+  const previous = JSON.stringify(state.picks);
+  if (DRAFT_SERVER_ORIGINS.has(window.location.origin)) {
+    try {
+      const saved = await draftStateRequest("/api/draft-state/picks", {
+        expected_version: state.apiVersion,
+        overall,
+        player: playerName,
+        position,
+        type,
+        source: "draft-room",
+      });
+      state.history.push(previous);
+      applyApiDraftState(saved);
+      $("#board-dialog").close();
+      return;
+    } catch (error) {
+      window.alert(`The pick was not recorded.  ${error.message}`);
+      return;
+    }
+  }
+  state.history.push(previous);
   state.picks.push({
     overall,
     round: roundAt(overall),
@@ -1195,16 +1234,6 @@ function persist() {
       personalPriorities: state.personalPriorities,
     }),
   );
-  if (DRAFT_SERVER_ORIGINS.has(window.location.origin)) {
-    fetch("/api/draft-state/sync", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ expected_version: state.apiVersion, picks: state.picks }),
-    })
-      .then((response) => response.ok ? response.json() : null)
-      .then((saved) => { if (saved) state.apiVersion = saved.version; })
-      .catch(() => {});
-  }
 }
 function restore() {
   const saved = JSON.parse(localStorage.getItem(STORAGE_KEY) || "null");
@@ -1788,7 +1817,34 @@ async function refreshAndRebuild() {
   }
 }
 
-function resetDraft() {
+async function syncDraftState() {
+  $("#admin-menu")?.removeAttribute("open");
+  const button = $("#sync-draft-state");
+  const original = button.textContent;
+  button.disabled = true;
+  button.textContent = "Syncing…";
+  try {
+    if (!DRAFT_SERVER_ORIGINS.has(window.location.origin)) {
+      throw new Error("Sync to API needs the local Draft Manager server.");
+    }
+    const response = await fetch("/api/draft-state/sync", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ expected_version: state.apiVersion, picks: state.picks }),
+    });
+    const saved = await readJsonResponse(response, "The draft-state API");
+    if (!response.ok) throw new Error(saved.error || "Draft state could not be synced");
+    state.apiVersion = saved.version;
+    window.alert(`Draft state synced at version ${saved.version}.`);
+  } catch (error) {
+    window.alert(`Draft state was not changed.  ${error.message}`);
+  } finally {
+    button.disabled = false;
+    button.textContent = original;
+  }
+}
+
+async function resetDraft() {
   $("#admin-menu")?.removeAttribute("open");
   if (
     !window.confirm(
@@ -1796,6 +1852,20 @@ function resetDraft() {
     )
   )
     return;
+  if (DRAFT_SERVER_ORIGINS.has(window.location.origin)) {
+    try {
+      const saved = await draftStateRequest("/api/draft-state/reset", {
+        expected_version: state.apiVersion,
+        confirm: true,
+      });
+      state.history = [];
+      applyApiDraftState(saved);
+      return;
+    } catch (error) {
+      window.alert(`The draft was not reset.  ${error.message}`);
+      return;
+    }
+  }
   state.picks = [];
   state.history = [];
   autoApplyKeepers();
@@ -1931,7 +2001,7 @@ function render() {
   $("#data-alert").textContent = unknown.length
     ? `${state.data.draft.keepers.length} keepers are confirmed.  Still needed before draft day: ${unknown.slice(0, 2).join("; ").toLowerCase()}.`
     : "All reported keepers are loaded.";
-  $("#undo").disabled = !state.history.length;
+  $("#undo").disabled = !state.picks.some((pick) => pick.type !== "keeper");
 }
 
 async function init() {
@@ -1945,14 +2015,25 @@ async function init() {
       if (response.ok) {
         const remote = await response.json();
         state.apiVersion = remote.version || 0;
-        const saved = JSON.parse(localStorage.getItem(STORAGE_KEY) || "null");
-        if (!saved && Array.isArray(remote.picks)) state.picks = remote.picks;
+        if (Array.isArray(remote.picks)) state.picks = remote.picks;
       }
     } catch (_) {
       // The UI remains usable when the optional local API is unavailable.
     }
   }
-  $("#undo").addEventListener("click", () => {
+  $("#undo").addEventListener("click", async () => {
+    if (DRAFT_SERVER_ORIGINS.has(window.location.origin)) {
+      try {
+        const saved = await draftStateRequest("/api/draft-state/undo", {
+          expected_version: state.apiVersion,
+        });
+        state.history.pop();
+        applyApiDraftState(saved);
+      } catch (error) {
+        window.alert(`The pick was not undone.  ${error.message}`);
+      }
+      return;
+    }
     if (!state.history.length) return;
     state.picks = JSON.parse(state.history.pop());
     autoApplyKeepers();
@@ -1966,6 +2047,7 @@ async function init() {
   );
   $("#open-tuning").addEventListener("click", openTuning);
   $("#refresh-rebuild").addEventListener("click", refreshAndRebuild);
+  $("#sync-draft-state").addEventListener("click", syncDraftState);
   $("#reset-draft").addEventListener("click", resetDraft);
   $("#save-tuning").addEventListener("click", saveTuning);
   $("#reset-tuning").addEventListener("click", () => {

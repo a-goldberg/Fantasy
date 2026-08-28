@@ -29,12 +29,13 @@ The header's **Your next pick** value shows Goldberg's upcoming selection while 
 The local server also maintains a small, validated pick ledger at `2026/App/data/live-draft-state.json`.  It is loopback-only and is intended for this draft room, not for public deployment.  The browser syncs its recorded picks after each change, while an automation can reconcile a numbered mock-draft board without replaying every click.
 
 - `GET /api/draft-state` returns the current ledger and configured keepers.
+- `POST /api/draft-state/picks` atomically records the exact next open pick, canonicalizes the player, derives round and manager ownership, and rejects stale or out-of-sequence writes.
 - `POST /api/draft-state/sync` accepts `{ expected_version, picks }` and rejects stale versions, duplicate pick numbers, duplicate players, malformed entries, and unknown players.
-- `POST /api/draft-state/reconcile` currently accepts the same safe payload for numbered source-board reconciliation.
-- `POST /api/draft-state/undo` removes only the latest non-keeper selection.
-- `POST /api/draft-state/reset` requires `{ "confirm": true }`.
+- `POST /api/draft-state/reconcile` merges a numbered source-board sequence, preserves matching keepers and existing picks, and stops on gaps or conflicts.
+- `POST /api/draft-state/undo` removes only the latest non-keeper selection and requires the current version.
+- `POST /api/draft-state/reset` requires the current version plus `{ "confirm": true }`.
 
-The API does not contain a second recommendation engine.  The browser remains responsible for scoring and display; the API is the durable draft-entry boundary.
+The API does not contain a second recommendation engine.  The browser remains responsible for scoring and display; the API is the durable draft-entry boundary.  When served locally, the browser reads the API ledger on startup and uses API mutations for picks, undo, and reset.
 
 ### Future public-app direction
 
@@ -47,6 +48,8 @@ If this becomes a shared hosted app, retain the versioned event-ledger contract 
 - **Wildcard picks** surface defensible upside and market gaps.  Hard roster rules still apply, so this column cannot recommend an otherwise prohibited fifth QB or an impossible roster construction.
 
 Missing market data is neutral, not upside: it contributes no availability probability and no expert-versus-market gap.  Market-gap bonuses are reduced when the expert board has thin coverage or public ADP sources disagree, and a one-source expert gap is capped at five points.  Before Round 11, a player supported by fewer than two baseline ranking sources needs at least two independent upside signals, including approved analyst or ranking support, to enter Wildcards.  Rounds 11–13 loosen that requirement, while a qualified structured model alone is reserved for Rounds 14–17.  A Personal Priority boost remains a deliberate override.  Thin source coverage and buried RB/WR/TE depth-chart roles also receive small reliability adjustments in Optimized and Wildcard scoring.  Consensus remains the unmodified baseline comparison.
+
+Overall rankings and supplemental position charts have different authority.  DraftSheets, Jeff Mans Superflex, or RotoBaller Superflex may establish a player's baseline quality.  The FantasyGuru QB chart can refine an already-ranked QB, but cannot create an overall composite rank by itself.  Supplemental-only players remain searchable with their chart context, but receive zero baseline-quality credit until an overall source ranks them.
 
 Recommendation eligibility is separate from scoring.  Two QBs are the hard starter requirement; a third QB is a preferred end-state reserve, not a third starter.  Once three QBs are rostered, another QB is excluded until the late-draft fourth-QB conditions are satisfied.  A fourth QB may then appear only as a wildcard.  A fifth QB is never recommended.  The same feasibility gate prevents extra K/DST selections, prevents a third TE, and preserves enough remaining picks to complete the league's required roster.
 

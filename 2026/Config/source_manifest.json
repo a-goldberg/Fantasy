@@ -16,7 +16,7 @@
   },
   "drive_sources": [
     {
-      "id": "1Gj9k97KRpVWvN7hvoyDiD3NeGJHUDNikrnUS2ydfxUM",
+      "id": "1770nBFAh_zf4rIL7PepqrdQ0FGOFy2XLP_PiGQ7Uopg",
       "title": "DraftSheets_2026",
       "adapter": "draftsheets_displayed_name_value",
       "rule": "Use only NAME and displayed VALUE in QB, RB, WR, and TE tables."

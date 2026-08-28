@@ -96,6 +96,8 @@ The base board uses weighted expert sources rather than an original projection m
 
 Overall expert ranks use a fixed 200-player scoring horizon. Rank No. 100 therefore contributes the same base value whether a source publishes 150 players or 400. Ranks beyond 200 contribute no additional base-quality credit, though kicker and defense needs can still surface those positions through the endgame roster policy. A longer list cannot make its middle ranks look artificially stronger.
 
+Overall rankings and supplemental position charts also have separate roles. DraftSheets, Jeff Mans Superflex, and RotoBaller Superflex can establish baseline player quality. The FantasyGuru QB chart can refine a QB who already appears in an overall source, but it cannot create an overall composite score by itself. A supplemental-only player remains searchable with the original chart context, but gets zero baseline-quality credit until an overall source ranks him.
+
 Expert rankings and market ADP remain separate. RotoBaller is an expert-consensus input; its generic industry-average field is not treated as two-QB market ADP. The public FantasyPros Superflex ECR page currently exposes only a short public table, so it is not imported as a full-board source. DraftSharks market data will be added only when its league format and component provenance can be captured cleanly without double-counting a consensus and its underlying feeds.
 
 Connected Google Sheets and authenticated browser sources must be imported through Codex. The local server cannot authenticate to Drive or paid sites itself.

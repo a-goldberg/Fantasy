@@ -47,6 +47,22 @@ def main():
     expert_meta = payload["source_freshness"]["expert_rankings"]
     assert expert_meta["rank_horizon"] == 200, "Expert ranks must use the fixed 200-player horizon"
     assert "rotoballer_superflex_rank" in expert_meta["weights"], "RotoBaller weight missing from runtime metadata"
+    assert not any(
+        player.get("primary_source_count", 0) == 0 and float(player.get("base_quality_score", 0)) > 0
+        for player in players
+    ), "Supplemental-only evidence created base quality"
+    assert all(
+        player.get("primary_source_count", 0) >= 1
+        for player in players if int(player["base_composite_rank"]) <= 200
+    ), "A supplemental-only player entered the meaningful overall board"
+    trey_lance = next(player for player in players if player["player"] == "Trey Lance")
+    assert trey_lance.get("qb_chart_rank") == 40, "Trey Lance QB-chart context disappeared"
+    assert trey_lance.get("primary_source_count") == 0, "Trey Lance unexpectedly matched an overall ranking source"
+    assert trey_lance.get("supplemental_source_count") == 1, "Trey Lance supplemental source was not retained"
+    assert trey_lance.get("supplemental_applied_count") == 0, "Trey Lance supplemental rank affected base quality"
+    assert trey_lance.get("supplemental_only") is True, "Trey Lance source status is not explicit"
+    assert float(trey_lance["base_quality_score"]) == 0, "Trey Lance received artificial base quality"
+    assert int(trey_lance["base_composite_rank"]) > 200, "Trey Lance remained on the meaningful overall board"
     assert sum(bool((player.get("team_qb_context") or {}).get("qb_chart_tier")) for player in players if player["position"] != "QB") >= 150, "Team-QB tier coverage regressed"
     qb_context_names = [(player.get("team_qb_context") or {}).get("player", "") for player in players]
     assert not any(re.search(r"\b(?:\d{2}/\d{1,2}|[A-Z]{1,3}/[A-Z]{2,3}|(?:CF|SF)\d{2})\*?\b", name, re.I) for name in qb_context_names), "Ourlads identifiers leaked into displayed QB names"

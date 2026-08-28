@@ -143,4 +143,13 @@ for (const playerName of ["Denzel Boston", "KC Concepcion"]) {
   assert.equal(player.source_quality.market, "low", `${playerName} conflicting market inputs must remain low confidence`);
 }
 
+const treyLance = board.players.find((player) => player.player === "Trey Lance");
+assert.ok(treyLance, "Trey Lance must remain searchable as supplemental QB-chart context");
+assert.equal(treyLance.qb_chart_rank, 40, "Trey Lance's positional QB-chart context must remain visible");
+assert.equal(treyLance.primary_source_count, 0, "Trey Lance must not acquire an invented overall-ranking source");
+assert.equal(treyLance.supplemental_source_count, 1, "Trey Lance's supplemental source must be retained");
+assert.equal(treyLance.supplemental_applied_count, 0, "Supplemental-only evidence must not affect base quality");
+assert.equal(treyLance.base_quality_score, 0, "Supplemental-only evidence must not create base quality");
+assert.ok(treyLance.base_composite_rank > 200, "A supplemental-only player must remain outside the meaningful overall board");
+
 console.log("Recommendation-policy regression scenarios: PASS");

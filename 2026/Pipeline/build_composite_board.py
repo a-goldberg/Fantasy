@@ -34,6 +34,29 @@ def fixed_rank_score(rank, horizon=RANK_HORIZON):
     return max(0.0, (horizon + 1 - rank) / horizon)
 
 
+def combine_quality_scores(primary_components, supplemental_components):
+    """Combine source scores without letting supplemental data establish quality.
+
+    Overall ranking sources may establish a player's baseline on their own. A
+    positional chart or other supplemental source may refine that baseline, but
+    it cannot be renormalized into a full-strength overall-player opinion when
+    no primary source ranks the player.
+    """
+    applied_supplemental = supplemental_components if primary_components else []
+    components = primary_components + applied_supplemental
+    total_weight = sum(weight for weight, _ in components)
+    score = sum(weight * value for weight, value in components) / total_weight if total_weight else 0
+    return {
+        "score": score,
+        "source_count": len(components),
+        "primary_source_count": len(primary_components),
+        "supplemental_source_count": len(supplemental_components),
+        "supplemental_applied_count": len(applied_supplemental),
+        "expert_weight_coverage": total_weight,
+        "supplemental_only": not primary_components and bool(supplemental_components),
+    }
+
+
 def load_draftsheets():
     payload = json.loads((GENERATED / "draftsheets_value_board.json").read_text())
     players = payload["players"]
@@ -130,25 +153,29 @@ def main():
         name = jm.get("player") or ds.get("player") or rb.get("player") or qb.get("player")
         positions = {p for p in [ds.get("position"), jm.get("position"), rb.get("position")] if p}
         position = jm.get("position") or ds.get("position") or rb.get("position") or ("QB" if qb else "")
-        components = []
+        primary_components = []
         if "draftsheets_score" in ds:
-            components.append((WEIGHTS["draftsheets_scoring_value"], ds["draftsheets_score"]))
+            primary_components.append((WEIGHTS["draftsheets_scoring_value"], ds["draftsheets_score"]))
         if "jeff_mans_score" in jm:
-            components.append((WEIGHTS["jeff_mans_superflex_rank"], jm["jeff_mans_score"]))
+            primary_components.append((WEIGHTS["jeff_mans_superflex_rank"], jm["jeff_mans_score"]))
         if "rotoballer_score" in rb:
-            components.append((WEIGHTS["rotoballer_superflex_rank"], rb["rotoballer_score"]))
+            primary_components.append((WEIGHTS["rotoballer_superflex_rank"], rb["rotoballer_score"]))
+        supplemental_components = []
         if position == "QB" and "qb_chart_score" in qb:
-            components.append((WEIGHTS["fantasyguru_qb_chart_rank"], qb["qb_chart_score"]))
-        total_weight = sum(weight for weight, _ in components)
-        score = sum(weight * value for weight, value in components) / total_weight if total_weight else 0
+            supplemental_components.append((WEIGHTS["fantasyguru_qb_chart_rank"], qb["qb_chart_score"]))
+        quality = combine_quality_scores(primary_components, supplemental_components)
         board.append({
             "player": name,
             "position": position,
             "team": jm.get("team") or rb.get("team", ""),
             "bye": jm.get("bye") or rb.get("bye", ""),
-            "base_quality_score": round(score * 100, 3),
-            "source_count": len(components),
-            "expert_weight_coverage": round(total_weight, 3),
+            "base_quality_score": round(quality["score"] * 100, 3),
+            "source_count": quality["source_count"],
+            "primary_source_count": quality["primary_source_count"],
+            "supplemental_source_count": quality["supplemental_source_count"],
+            "supplemental_applied_count": quality["supplemental_applied_count"],
+            "supplemental_only": quality["supplemental_only"],
+            "expert_weight_coverage": round(quality["expert_weight_coverage"], 3),
             "position_conflict": len(positions) > 1,
             "draftsheets_value": ds.get("draftsheets_value", ""),
             "draftsheets_position_tier": ds.get("draftsheets_position_tier", ""),
@@ -168,7 +195,9 @@ def main():
 
     fields = [
         "base_composite_rank", "player", "position", "team", "bye",
-        "base_quality_score", "source_count", "expert_weight_coverage", "position_conflict",
+        "base_quality_score", "source_count", "primary_source_count",
+        "supplemental_source_count", "supplemental_applied_count", "supplemental_only",
+        "expert_weight_coverage", "position_conflict",
         "draftsheets_value", "draftsheets_position_tier", "draftsheets_overall_value_rank",
         "jeff_mans_rank", "rotoballer_rank", "rotoballer_tier", "rotoballer_player_url",
         "qb_chart_rank", "qb_chart_tier", "qb_chart_2qb_adp"
@@ -180,6 +209,7 @@ def main():
     (GENERATED / "base_composite_board.json").write_text(json.dumps({
         "weights": WEIGHTS,
         "rank_horizon": RANK_HORIZON,
+        "source_roles": CONFIG.get("source_roles", {}),
         "note": "Base player quality only. ADP availability and draft-state policy are applied later.",
         "players": board,
     }, indent=2) + "\n")

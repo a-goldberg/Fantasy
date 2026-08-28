@@ -1,0 +1,16 @@
+sequence,file,simulator,roster_size,offense_count,position_counts,projected_starter_points,starter_projection_coverage,top3_bench_points,normalized_adp_sum,normalized_adp_count,starter_injury_risk,bye_failure_weeks,balanced_score
+1,mock_results2.png,Unlabeled,15,14,"{""DST"": 1, ""QB"": 3, ""RB"": 5, ""TE"": 1, ""WR"": 5}",1444.0,9,422.0,900.0,14,59.4,1,40.8
+2,mock_results3 vs wr heavy league.png,Unlabeled,17,15,"{""DST"": 1, ""K"": 1, ""QB"": 3, ""RB"": 6, ""TE"": 1, ""WR"": 5}",1432.0,9,487.0,957.4,14,66.6,1,16.2
+3,mock_results4.png,Unlabeled,17,15,"{""DST"": 1, ""K"": 1, ""QB"": 3, ""RB"": 5, ""TE"": 1, ""WR"": 6}",1533.0,9,384.0,932.8,14,67.1,1,68.5
+4,"mock_results5-RB,QB,WR,WR.png",Unlabeled,17,15,"{""DST"": 1, ""K"": 1, ""QB"": 3, ""RB"": 4, ""TE"": 2, ""WR"": 6}",1466.0,9,378.0,964.6,14,64.7,0,40.4
+5,mock_results6-draftkick.png,DraftKick,17,15,"{""DST"": 1, ""K"": 1, ""QB"": 3, ""RB"": 5, ""TE"": 1, ""WR"": 6}",1453.0,9,449.0,891.4,14,62.3,1,54.6
+6,mock_results7-fantasyguru.png,FantasyGuru,17,15,"{""DST"": 1, ""K"": 1, ""QB"": 3, ""RB"": 5, ""TE"": 1, ""WR"": 6}",1510.0,9,442.0,914.1,14,71.9,1,66.9
+7,mock_results8-fantasyguru.png,FantasyGuru,17,15,"{""DST"": 1, ""K"": 1, ""QB"": 3, ""RB"": 5, ""TE"": 1, ""WR"": 6}",1409.0,9,449.0,888.9,14,65.7,1,38.5
+8,mock_results9-draftkick.png,DraftKick,17,15,"{""DST"": 1, ""K"": 1, ""QB"": 3, ""RB"": 5, ""TE"": 1, ""WR"": 6}",1489.0,9,440.0,852.0,14,68.6,1,72.3
+9,mock_results8-draftkick.png,DraftKick,17,15,"{""DST"": 1, ""K"": 1, ""QB"": 3, ""RB"": 6, ""TE"": 1, ""WR"": 5}",1449.0,9,432.0,911.5,14,77.2,1,32.3
+10,mock_results10-draftkick-20260827.png,DraftKick,17,15,"{""DST"": 1, ""K"": 1, ""QB"": 3, ""RB"": 5, ""TE"": 1, ""WR"": 6}",1478.0,9,453.0,899.6,14,64.8,1,59.2
+11,mock_results11-draftkick-20260827.png,DraftKick,17,15,"{""DST"": 1, ""K"": 1, ""QB"": 3, ""RB"": 5, ""TE"": 1, ""WR"": 6}",1486.0,9,325.0,923.4,14,63.7,2,50.8
+12,mock_results12-fantasyguru-20260827.png,FantasyGuru,17,15,"{""DST"": 1, ""K"": 1, ""QB"": 3, ""RB"": 5, ""TE"": 1, ""WR"": 6}",1457.0,9,304.0,933.6,14,68.1,1,32.3
+13,mock_results15-draftkick-20260827.png,DraftKick,17,15,"{""DST"": 1, ""K"": 1, ""QB"": 3, ""RB"": 5, ""TE"": 1, ""WR"": 6}",1486.0,9,325.0,923.4,14,63.7,2,50.8
+14,mock_results13-fantasyguru-20260827.png,FantasyGuru,17,15,"{""DST"": 1, ""K"": 1, ""QB"": 3, ""RB"": 4, ""TE"": 2, ""WR"": 6}",1498.0,9,299.0,933.2,14,74.6,0,60.4
+15,mock_results14-fantasyguru-20260827.png,FantasyGuru,17,15,"{""DST"": 1, ""K"": 1, ""QB"": 3, ""RB"": 5, ""TE"": 1, ""WR"": 6}",1497.0,9,312.0,897.4,14,76.4,1,66.9

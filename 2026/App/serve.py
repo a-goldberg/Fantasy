@@ -17,6 +17,10 @@ sys.path.insert(0, str(ROOT / "2026" / "Pipeline"))
 from player_names import normalize_player_name
 
 LOCK = threading.Lock()
+
+
+class DraftConflict(ValueError):
+    """The requested mutation is valid JSON but conflicts with current state."""
 SCRIPTS = [
     ROOT / "2026" / "Pipeline" / "refresh_public_adp.py",
     ROOT / "2026" / "Pipeline" / "refresh_public_rankings.py",
@@ -61,15 +65,70 @@ class Handler(SimpleHTTPRequestHandler):
     def draft_config(self) -> dict:
         return json.loads((ROOT / "2026" / "Config" / "current_draft.json").read_text())
 
+    def board_players(self) -> dict[str, dict]:
+        board = json.loads((APP / "data" / "draft-board.json").read_text())
+        return {normalize_player_name(item["player"]): item for item in board["players"]}
+
+    def owner_at(self, overall: int) -> str:
+        config = self.draft_config()
+        trade = next((item for item in config.get("traded_picks", []) if item["overall_pick"] == overall), None)
+        if trade:
+            return trade["new_manager"]
+        order = config["draft_order"]
+        round_number = (overall - 1) // len(order) + 1
+        slot = (overall - 1) % len(order)
+        return order[slot] if round_number % 2 else list(reversed(order))[slot]
+
+    @staticmethod
+    def next_open_overall(picks: list[dict]) -> int:
+        occupied = {pick["overall"] for pick in picks}
+        return next((overall for overall in range(1, 171) if overall not in occupied), 171)
+
+    def canonical_pick(self, request: dict, overall: int | None = None) -> dict:
+        pick_overall = overall if overall is not None else request.get("overall")
+        if not isinstance(pick_overall, int) or not 1 <= pick_overall <= 170:
+            raise ValueError("overall must be an integer from 1 to 170")
+        pick_type = request.get("type", "live")
+        if pick_type not in {"live", "placeholder"}:
+            raise ValueError("type must be live or placeholder")
+        player = request.get("player")
+        if not isinstance(player, str) or not player.strip():
+            raise ValueError("player must be a non-empty string")
+        position = request.get("position")
+        if pick_type == "placeholder":
+            if position not in {"QB", "RB", "WR", "TE", "K", "DST"}:
+                raise ValueError("A placeholder needs a valid position")
+            canonical_name = f"Other {position}"
+        else:
+            match = self.board_players().get(normalize_player_name(player))
+            if not match:
+                raise ValueError(f"Unknown player: {player}")
+            canonical_name = match["player"]
+            position = match.get("position")
+        return {
+            "overall": pick_overall,
+            "round": (pick_overall - 1) // 10 + 1,
+            "manager": self.owner_at(pick_overall),
+            "player": canonical_name,
+            "position": position,
+            "type": pick_type,
+            "source": request.get("source", "api"),
+        }
+
     def live_state(self) -> dict:
         keepers = [
             {"overall": item["overall_pick"], "round": item["round"], "manager": item["manager"], "player": item["player"], "type": "keeper", "status": item.get("status")}
             for item in self.draft_config()["keepers"]
         ]
         if not LIVE_STATE.exists():
-            return {"version": 0, "picks": keepers, "history": []}
+            state = {"version": 0, "picks": keepers, "history": []}
+            state["picks"].sort(key=lambda pick: pick["overall"])
+            state["current_overall"] = self.next_open_overall(state["picks"])
+            return state
         saved = json.loads(LIVE_STATE.read_text())
         saved["picks"] = [pick for pick in saved.get("picks", []) if pick.get("type") != "keeper"] + keepers
+        saved["picks"].sort(key=lambda pick: pick["overall"])
+        saved["current_overall"] = self.next_open_overall(saved["picks"])
         return saved
 
     def save_live_state(self, value: dict) -> None:
@@ -80,8 +139,7 @@ class Handler(SimpleHTTPRequestHandler):
 
     def validate_picks(self, picks: list[dict]) -> None:
         seen_overall, seen_players = set(), set()
-        board = json.loads((APP / "data" / "draft-board.json").read_text())
-        known = {normalize_player_name(item["player"]) for item in board["players"]}
+        known = set(self.board_players())
         for pick in picks:
             if not isinstance(pick, dict) or not isinstance(pick.get("overall"), int) or not 1 <= pick["overall"] <= 170:
                 raise ValueError("Every pick needs an overall number from 1 to 170")
@@ -101,28 +159,60 @@ class Handler(SimpleHTTPRequestHandler):
         super().do_GET()
 
     def do_POST(self):
-        if self.path in {"/api/draft-state/sync", "/api/draft-state/reconcile", "/api/draft-state/undo", "/api/draft-state/reset"}:
+        if self.path in {"/api/draft-state/sync", "/api/draft-state/reconcile", "/api/draft-state/picks", "/api/draft-state/undo", "/api/draft-state/reset"}:
             if not self.local_origin(): self.send_json(403, {"error": "Draft state requests must come from the local draft room"}); return
             try:
                 request = self.read_json_request()
                 with LOCK:
                     current = self.live_state()
                     if self.path == "/api/draft-state/reset":
+                        if request.get("expected_version") != current.get("version", 0):
+                            raise DraftConflict("Draft state changed; reload before writing")
                         if request.get("confirm") is not True: raise ValueError("Reset requires confirm: true")
                         current = {"version": current.get("version", 0) + 1, "picks": [], "history": []}
                     elif self.path == "/api/draft-state/undo":
+                        if request.get("expected_version") != current.get("version", 0):
+                            raise DraftConflict("Draft state changed; reload before writing")
                         live = [p for p in current["picks"] if p.get("type") != "keeper"]
                         if live: current["picks"].remove(max(live, key=lambda item: item["overall"]))
+                        current["version"] = current.get("version", 0) + 1
+                    elif self.path == "/api/draft-state/picks":
+                        if request.get("expected_version") != current.get("version", 0):
+                            raise DraftConflict("Draft state changed; reload before writing")
+                        expected = self.next_open_overall(current["picks"])
+                        if request.get("overall") != expected:
+                            raise DraftConflict(f"Expected overall pick {expected}")
+                        current["picks"].append(self.canonical_pick(request))
+                        current["version"] = current.get("version", 0) + 1
+                    elif self.path == "/api/draft-state/reconcile":
+                        if request.get("expected_version") != current.get("version", 0):
+                            raise DraftConflict("Draft state changed; reload before writing")
+                        incoming = request.get("picks")
+                        if not isinstance(incoming, list):
+                            raise ValueError("picks must be a list")
+                        for item in sorted(incoming, key=lambda value: value.get("overall", 0)):
+                            canonical = self.canonical_pick(item)
+                            existing = next((pick for pick in current["picks"] if pick["overall"] == canonical["overall"]), None)
+                            if existing:
+                                if normalize_player_name(existing["player"]) != normalize_player_name(canonical["player"]):
+                                    raise DraftConflict(f"Pick {canonical['overall']} conflicts with {existing['player']}")
+                                continue
+                            expected = self.next_open_overall(current["picks"])
+                            if canonical["overall"] != expected:
+                                raise DraftConflict(f"Expected overall pick {expected}, received {canonical['overall']}")
+                            current["picks"].append(canonical)
                         current["version"] = current.get("version", 0) + 1
                     else:
                         picks = request.get("picks")
                         if not isinstance(picks, list): raise ValueError("picks must be a list")
-                        if request.get("expected_version") != current.get("version", 0): raise ValueError("Draft state changed; reload before writing")
+                        if request.get("expected_version") != current.get("version", 0): raise DraftConflict("Draft state changed; reload before writing")
                         self.validate_picks(picks)
                         current = {"version": current.get("version", 0) + 1, "picks": picks, "history": []}
                     self.validate_picks(current["picks"])
                     self.save_live_state(current)
                     self.send_json(200, self.live_state())
+            except DraftConflict as error:
+                self.send_json(409, {"error": str(error), "state": self.live_state()})
             except (ValueError, json.JSONDecodeError) as error:
                 self.send_json(400, {"error": str(error)})
             return
